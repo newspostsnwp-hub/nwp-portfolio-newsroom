@@ -44,7 +44,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
           LOOKBACK_DAYS: "20"
-          MAX_PER_COMPANY: "10"
+          MAX_PER_COMPANY: "4"
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/update_news.py
