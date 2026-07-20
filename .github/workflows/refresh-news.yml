@@ -1,1 +1,54 @@
 # The scheduled news-refresh workflow will be added in Step 10.
+name: Refresh portfolio news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 7 * * 1-5"
+      timezone: "Europe/London"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-news-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect news and generate drafts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.1-flash-lite
+          LOOKBACK_DAYS: "7"
+          MAX_PER_COMPANY: "4"
+        run: python scripts/update_news.py
+
+      - name: Commit refreshed news data
+        run: |
+          git config user.name "nwp-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data/news.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Refresh portfolio news"
+            git push
+          fi
