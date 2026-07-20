@@ -10,7 +10,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
@@ -40,52 +40,27 @@ LOOKBACK_DAYS = max(1, int(os.getenv("LOOKBACK_DAYS", "7")))
 MAX_PER_COMPANY = max(1, int(os.getenv("MAX_PER_COMPANY", "4")))
 MIN_SCORE = max(0, min(100, int(os.getenv("MIN_SCORE", "55"))))
 READY_SCORE = max(0, min(100, int(os.getenv("READY_SCORE", "80"))))
-ARTICLE_TEXT_LIMIT = max(2000, int(os.getenv("ARTICLE_TEXT_LIMIT", "12000")))
-REQUEST_TIMEOUT_SECONDS = max(10, int(os.getenv("REQUEST_TIMEOUT_SECONDS", "40")))
+ARTICLE_TEXT_LIMIT = max(2000, int(os.getenv("ARTICLE_TEXT_LIMIT", "9000")))
+REQUEST_TIMEOUT_SECONDS = max(10, int(os.getenv("REQUEST_TIMEOUT_SECONDS", "35")))
 GDELT_MAX_ATTEMPTS = max(1, int(os.getenv("GDELT_MAX_ATTEMPTS", "3")))
 GEMINI_MAX_ATTEMPTS = max(1, int(os.getenv("GEMINI_MAX_ATTEMPTS", "4")))
-GEMINI_DELAY_SECONDS = max(0.0, float(os.getenv("GEMINI_DELAY_SECONDS", "2")))
-COMPANY_DELAY_MIN_SECONDS = max(0.0, float(os.getenv("COMPANY_DELAY_MIN_SECONDS", "6")))
+GEMINI_DELAY_SECONDS = max(0.0, float(os.getenv("GEMINI_DELAY_SECONDS", "1.5")))
+COMPANY_DELAY_MIN_SECONDS = max(0.0, float(os.getenv("COMPANY_DELAY_MIN_SECONDS", "4")))
 COMPANY_DELAY_MAX_SECONDS = max(
     COMPANY_DELAY_MIN_SECONDS,
-    float(os.getenv("COMPANY_DELAY_MAX_SECONDS", "12")),
+    float(os.getenv("COMPANY_DELAY_MAX_SECONDS", "8")),
 )
 
-OFFICIAL_PAGE_SUFFIXES = (
-    "/news",
-    "/news/",
-    "/newsroom",
-    "/newsroom/",
-    "/blog",
-    "/blog/",
-    "/press",
-    "/press/",
-    "/press-release",
-    "/press-release/",
-    "/press-releases",
-    "/press-releases/",
-    "/updates",
-    "/updates/",
-    "/stories",
-    "/stories/",
-    "/insights",
-    "/insights/",
-    "/articles",
-    "/articles/",
-    "/media",
-    "/media/",
-)
-
-OFFICIAL_PAGE_KEYWORDS = (
+OFFICIAL_PAGE_HINTS = (
     "news",
     "newsroom",
     "blog",
     "press",
-    "press release",
-    "update",
-    "story",
+    "press-release",
+    "press-releases",
+    "updates",
     "stories",
-    "article",
+    "insights",
     "articles",
     "media",
 )
@@ -174,6 +149,51 @@ def story_id(url: str, title: str = "") -> str:
     return hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
 
 
+def parse_datetime(value: str | None) -> datetime | None:
+    text = clean_text(value)
+    if not text:
+        return None
+
+    candidates = (
+        text,
+        text.replace("Z", "+00:00"),
+        text.replace("/", "-"),
+    )
+
+    for candidate in candidates:
+        try:
+            parsed = datetime.fromisoformat(candidate)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.astimezone(timezone.utc)
+        except ValueError:
+            pass
+
+    for fmt in (
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S %Z",
+        "%Y%m%dT%H%M%SZ",
+        "%Y%m%dT%H%M%S%z",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d",
+    ):
+        try:
+            parsed = datetime.strptime(text, fmt)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.astimezone(timezone.utc)
+        except ValueError:
+            pass
+
+    try:
+        parsed = parsedate_to_datetime(text)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        return None
+
+
 def parse_retry_after(response: Response) -> float | None:
     value = response.headers.get("Retry-After")
     if not value:
@@ -210,9 +230,9 @@ def request_with_backoff(
                 wait_seconds = (
                     retry_after
                     if retry_after is not None
-                    else min(10 * (2 ** (attempt - 1)), 60)
+                    else min(8 * (2 ** (attempt - 1)), 45)
                 )
-                wait_seconds += random.uniform(1, 5)
+                wait_seconds += random.uniform(1, 4)
 
                 LOGGER.warning(
                     "%s rate-limited on attempt %s/%s; waiting %.1fs",
@@ -229,8 +249,7 @@ def request_with_backoff(
                 continue
 
             if response.status_code in {500, 502, 503, 504}:
-                wait_seconds = min(8 * (2 ** (attempt - 1)), 90) + random.uniform(1, 4)
-
+                wait_seconds = min(6 * (2 ** (attempt - 1)), 60) + random.uniform(1, 4)
                 LOGGER.warning(
                     "%s returned HTTP %s on attempt %s/%s; waiting %.1fs",
                     label,
@@ -265,7 +284,7 @@ def request_with_backoff(
             if attempt == attempts:
                 break
 
-            wait_seconds = min(5 * (2 ** (attempt - 1)), 60) + random.uniform(1, 4)
+            wait_seconds = min(4 * (2 ** (attempt - 1)), 45) + random.uniform(1, 4)
             LOGGER.warning(
                 "%s failed on attempt %s/%s: %s; waiting %.1fs",
                 label,
@@ -303,16 +322,15 @@ def load_companies() -> list[dict[str, Any]]:
         newsroom_urls = raw.get("newsroom_urls", [])
         search_terms = raw.get("search_terms", [])
 
-        if not isinstance(aliases, list):
-            raise ValueError(f"{name}: aliases must be a JSON list.")
-        if not isinstance(exclusions, list):
-            raise ValueError(f"{name}: exclude_terms must be a JSON list.")
-        if not isinstance(rss_feeds, list):
-            raise ValueError(f"{name}: rss_feeds must be a JSON list.")
-        if not isinstance(newsroom_urls, list):
-            raise ValueError(f"{name}: newsroom_urls must be a JSON list.")
-        if not isinstance(search_terms, list):
-            raise ValueError(f"{name}: search_terms must be a JSON list.")
+        for field_name, field_value in (
+            ("aliases", aliases),
+            ("exclude_terms", exclusions),
+            ("rss_feeds", rss_feeds),
+            ("newsroom_urls", newsroom_urls),
+            ("search_terms", search_terms),
+        ):
+            if not isinstance(field_value, list):
+                raise ValueError(f"{name}: {field_name} must be a JSON list.")
 
         company = dict(raw)
         company["name"] = name
@@ -333,13 +351,22 @@ def company_search_terms(company: dict[str, Any]) -> list[str]:
         if isinstance(configured, list) and configured
         else [company.get("name"), *company.get("aliases", [])]
     )
-    return unique_strings(raw_terms, limit=8)
+    # Keep search terms small so the query stays tight.
+    return unique_strings(raw_terms, limit=5)
 
 
 def exclusion_matches(company: dict[str, Any], *values: str) -> bool:
     haystack = " ".join(clean_text(value) for value in values).casefold()
     exclusions = company.get("exclude_terms", [])
     return any(clean_text(term).casefold() in haystack for term in exclusions if clean_text(term))
+
+
+def is_within_lookback(date_text: str) -> bool:
+    parsed = parse_datetime(date_text)
+    if parsed is None:
+        return False
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+    return parsed >= cutoff
 
 
 def candidate(
@@ -355,11 +382,16 @@ def candidate(
     title = clean_text(title)
     url = clean_text(url)
     source = clean_text(source) or urlsplit(url).netloc.replace("www.", "")
+    published_at = clean_text(published_at)
 
     if not title or not url:
         return None
 
     if exclusion_matches(company, title, source, feed_summary):
+        return None
+
+    # Hard stop: anything older than lookback is discarded here.
+    if not is_within_lookback(published_at):
         return None
 
     return {
@@ -368,7 +400,7 @@ def candidate(
         "title": title,
         "url": url,
         "source": source,
-        "published_at": clean_text(published_at),
+        "published_at": published_at,
         "feed_summary": clean_text(feed_summary),
         "discovered_via": discovered_via,
     }
@@ -378,7 +410,7 @@ def search_gdelt(company: dict[str, Any]) -> tuple[list[dict[str, Any]], bool]:
     terms = company_search_terms(company)
     query = " OR ".join(f'"{term}"' for term in terms)
 
-    max_records = min(max(MAX_PER_COMPANY * 3, 10), 25)
+    max_records = min(max(MAX_PER_COMPANY * 2, 8), 15)
     params = {
         "query": f"({query})",
         "mode": "artlist",
@@ -419,20 +451,6 @@ def search_gdelt(company: dict[str, Any]) -> tuple[list[dict[str, Any]], bool]:
     return output, True
 
 
-def parse_rss_date(value: str | None) -> str:
-    text = clean_text(value)
-    if not text:
-        return ""
-
-    try:
-        parsed = parsedate_to_datetime(text)
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=timezone.utc)
-        return parsed.astimezone(timezone.utc).isoformat()
-    except (TypeError, ValueError, OverflowError):
-        return text
-
-
 def parse_rss_feed(
     *,
     xml_content: bytes,
@@ -447,7 +465,7 @@ def parse_rss_feed(
         title = clean_text(item.findtext("title"))
         url = clean_text(item.findtext("link"))
         description = strip_html(item.findtext("description"))
-        published = parse_rss_date(
+        published = clean_text(
             item.findtext("pubDate")
             or item.findtext("{http://purl.org/dc/elements/1.1/}date")
         )
@@ -537,6 +555,14 @@ def same_site(url: str, domain: str) -> bool:
     return url_host == domain or url_host.endswith("." + domain)
 
 
+def page_is_news_like(url: str, title: str) -> bool:
+    path = urlsplit(url).path.casefold()
+    title_cf = clean_text(title).casefold()
+    return any(hint in path for hint in OFFICIAL_PAGE_HINTS) or any(
+        hint.replace("-", " ") in title_cf for hint in OFFICIAL_PAGE_HINTS
+    )
+
+
 def extract_meta_description(soup: BeautifulSoup) -> str:
     for attrs in (
         {"name": "description"},
@@ -571,23 +597,17 @@ def extract_page_date(soup: BeautifulSoup, response: Response) -> str:
             return clean_text(time_tag.get("datetime"))
         return clean_text(time_tag.get_text(" "))
 
-    return parse_rss_date(response.headers.get("Last-Modified"))
+    return clean_text(response.headers.get("Last-Modified"))
 
 
 def search_official_web_pages(company: dict[str, Any]) -> tuple[list[dict[str, Any]], int]:
-    website = clean_text(company.get("website"))
-    base_urls = unique_strings(
-        [
-            *company.get("newsroom_urls", []),
-            website,
-            *(
-                f"{website.rstrip('/')}{suffix}"
-                for suffix in OFFICIAL_PAGE_SUFFIXES
-                if website
-            ),
-        ],
-        limit=25,
-    )
+    """
+    Only crawl explicit newsroom/blog/press URLs that are listed in companies.json.
+    This avoids wandering across the whole site.
+    """
+    base_urls = unique_strings(company.get("newsroom_urls", []), limit=10)
+    if not base_urls:
+        return [], 0
 
     domain = clean_text(company.get("domain"))
     output: list[dict[str, Any]] = []
@@ -616,7 +636,7 @@ def search_official_web_pages(company: dict[str, Any]) -> tuple[list[dict[str, A
             response = request_with_backoff(
                 seed_url,
                 attempts=2,
-                timeout=25,
+                timeout=20,
                 label=f"official page {seed_url}",
             )
         except requests.RequestException as exc:
@@ -631,14 +651,12 @@ def search_official_web_pages(company: dict[str, Any]) -> tuple[list[dict[str, A
         soup = BeautifulSoup(response.text, "html.parser")
         page_title = clean_text(soup.title.get_text(" ")) if soup.title else ""
         page_label = urlsplit(response.url).netloc.replace("www.", "")
-        page_path = urlsplit(response.url).path.casefold()
-        page_is_news_like = (
-            any(suffix in page_path for suffix in OFFICIAL_PAGE_SUFFIXES)
-            or any(keyword in page_title.casefold() for keyword in OFFICIAL_PAGE_KEYWORDS)
-        )
-        page_summary = extract_meta_description(soup)
         page_date = extract_page_date(soup, response)
         page_url_norm = normalise_url(response.url).rstrip("/")
+
+        # If the newsroom page itself has a usable date, we can use it.
+        # Otherwise, only accept linked pages with their own parseable dates.
+        base_page_is_recent = bool(page_date) and is_within_lookback(page_date)
 
         for anchor in soup.find_all("a", href=True):
             href = clean_text(anchor.get("href"))
@@ -660,29 +678,47 @@ def search_official_web_pages(company: dict[str, Any]) -> tuple[list[dict[str, A
             text_cf = text.casefold()
             path_cf = urlsplit(absolute).path.casefold()
 
-            if page_is_news_like:
-                if any(word in text_cf for word in skip_words):
-                    continue
-            else:
-                if not (
-                    any(suffix in path_cf for suffix in OFFICIAL_PAGE_SUFFIXES)
-                    or any(keyword in text_cf for keyword in OFFICIAL_PAGE_KEYWORDS)
-                ):
-                    continue
+            if any(word in text_cf for word in skip_words):
+                continue
 
+            # Keep only clearly news-like links unless the seed page itself is recent.
+            if not base_page_is_recent and not (
+                any(hint in path_cf for hint in OFFICIAL_PAGE_HINTS)
+                or any(hint.replace("-", " ") in text_cf for hint in OFFICIAL_PAGE_HINTS)
+            ):
+                continue
+
+            feed_summary = extract_meta_description(soup)
             record = candidate(
                 company=company,
                 title=text,
                 url=absolute,
                 source=page_label,
                 published_at=page_date,
-                feed_summary=page_summary,
+                feed_summary=feed_summary,
                 discovered_via="Official company site",
             )
 
             if record:
                 output.append(record)
                 seen_urls.add(absolute_key)
+
+        # Also consider the seed page itself if it looks like an article page.
+        if page_is_news_like(response.url, page_title):
+            record = candidate(
+                company=company,
+                title=page_title or company["name"],
+                url=response.url,
+                source=page_label,
+                published_at=page_date,
+                feed_summary=extract_meta_description(soup),
+                discovered_via="Official company site",
+            )
+            if record:
+                key = normalise_url(record["url"]).rstrip("/")
+                if key not in seen_urls:
+                    output.append(record)
+                    seen_urls.add(key)
 
     LOGGER.info("Official company pages returned %s usable candidates for %s", len(output), company["name"])
     return output, successes
@@ -725,8 +761,9 @@ def search_google_news_rss(company: dict[str, Any]) -> tuple[list[dict[str, Any]
     return output, True
 
 
-def candidate_sort_value(item: dict[str, Any]) -> str:
-    return clean_text(item.get("published_at"))
+def candidate_sort_value(item: dict[str, Any]) -> datetime:
+    parsed = parse_datetime(item.get("published_at"))
+    return parsed or datetime.min.replace(tzinfo=timezone.utc)
 
 
 def deduplicate_candidates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -773,7 +810,9 @@ def collect_candidates(company: dict[str, Any]) -> tuple[list[dict[str, Any]], i
         provider_successes += int(google_success)
 
     unique = deduplicate_candidates(combined)
-    pool_limit = max(MAX_PER_COMPANY * 4, 20)
+
+    # Keep the pool tight so the workflow does not run for ages.
+    pool_limit = max(MAX_PER_COMPANY * 2, 8)
 
     LOGGER.info("%s total unique candidates retained for %s", min(len(unique), pool_limit), company["name"])
     return unique[:pool_limit], provider_successes
@@ -783,8 +822,8 @@ def extract_article_text(url: str) -> str:
     try:
         response = request_with_backoff(
             url,
-            attempts=3,
-            timeout=25,
+            attempts=2,
+            timeout=20,
             label=f"article fetch {url}",
         )
     except requests.RequestException as exc:
@@ -1050,7 +1089,7 @@ def analyse_and_draft(article: dict[str, Any]) -> dict[str, Any]:
             if attempt == GEMINI_MAX_ATTEMPTS or not retryable:
                 break
 
-            wait_seconds = min(12 * (2 ** (attempt - 1)), 120) + random.uniform(1, 5)
+            wait_seconds = min(10 * (2 ** (attempt - 1)), 90) + random.uniform(1, 5)
             LOGGER.warning(
                 "Gemini failed on attempt %s/%s for %s: %s; waiting %.1fs",
                 attempt,
