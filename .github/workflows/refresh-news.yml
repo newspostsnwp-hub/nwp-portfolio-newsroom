@@ -1,36 +1,43 @@
-# The scheduled news-refresh workflow will be added in Step 10.
 name: Refresh portfolio news
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "30 7 * * 1-5"
       timezone: "Europe/London"
-
-permissions:
-  contents: write
 
 concurrency:
   group: portfolio-news-refresh
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   refresh:
+    name: Collect and publish portfolio news
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out latest main branch
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: pip
+          cache: "pip"
+          cache-dependency-path: requirements.txt
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
       - name: Collect news and generate drafts
         env:
@@ -38,17 +45,89 @@ jobs:
           GEMINI_MODEL: gemini-3.1-flash-lite
           LOOKBACK_DAYS: "7"
           MAX_PER_COMPANY: "4"
-        run: python scripts/update_news.py
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python scripts/update_news.py
+
+      - name: Validate generated news data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          news_file = Path("site/data/news.json")
+
+          if not news_file.exists():
+              raise SystemExit(
+                  "site/data/news.json was not created."
+              )
+
+          with news_file.open("r", encoding="utf-8") as file:
+              data = json.load(file)
+
+          required_fields = {
+              "generated_at",
+              "lookback_days",
+              "story_count",
+              "stories",
+          }
+
+          missing_fields = required_fields - set(data)
+
+          if missing_fields:
+              raise SystemExit(
+                  f"news.json is missing fields: "
+                  f"{sorted(missing_fields)}"
+              )
+
+          if not isinstance(data["stories"], list):
+              raise SystemExit(
+                  "The stories field must be a JSON list."
+              )
+
+          if data["story_count"] != len(data["stories"]):
+              raise SystemExit(
+                  "story_count does not match the number of stories."
+              )
+
+          print(
+              f"Validated news.json with "
+              f"{data['story_count']} stories."
+          )
+          PY
 
       - name: Commit refreshed news data
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "nwp-news-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.email \
+            "actions@users.noreply.github.com"
+
           git add site/data/news.json
 
           if git diff --cached --quiet; then
-            echo "No data changes to commit."
-          else
-            git commit -m "Refresh portfolio news"
-            git push
+            echo "No news data changed. Nothing to commit."
+            exit 0
           fi
+
+          git commit -m "Refresh portfolio news"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt} of 3"
+
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "Refreshed news data pushed successfully."
+              exit 0
+            fi
+
+            echo "The remote branch changed. Retrying shortly."
+            sleep $((attempt * 3))
+          done
+
+          echo "Unable to push after three attempts."
+          exit 1
