@@ -22,16 +22,16 @@ jobs:
 
     steps:
       - name: Check out latest main branch
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
+          cache: pip
           cache-dependency-path: requirements.txt
 
       - name: Install Python dependencies
@@ -44,7 +44,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
           LOOKBACK_DAYS: "20"
-          MAX_PER_COMPANY: "4"
+          MAX_PER_COMPANY: "10"
+          MIN_SCORE: "55"
+          READY_SCORE: "80"
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/update_news.py
@@ -58,42 +60,24 @@ jobs:
           news_file = Path("site/data/news.json")
 
           if not news_file.exists():
-              raise SystemExit(
-                  "site/data/news.json was not created."
-              )
+              raise SystemExit("site/data/news.json was not created.")
 
           with news_file.open("r", encoding="utf-8") as file:
               data = json.load(file)
 
-          required_fields = {
-              "generated_at",
-              "lookback_days",
-              "story_count",
-              "stories",
-          }
-
+          required_fields = {"generated_at", "lookback_days", "story_count", "stories"}
           missing_fields = required_fields - set(data)
 
           if missing_fields:
-              raise SystemExit(
-                  f"news.json is missing fields: "
-                  f"{sorted(missing_fields)}"
-              )
+              raise SystemExit(f"news.json is missing fields: {sorted(missing_fields)}")
 
           if not isinstance(data["stories"], list):
-              raise SystemExit(
-                  "The stories field must be a JSON list."
-              )
+              raise SystemExit("The stories field must be a JSON list.")
 
           if data["story_count"] != len(data["stories"]):
-              raise SystemExit(
-                  "story_count does not match the number of stories."
-              )
+              raise SystemExit("story_count does not match the number of stories.")
 
-          print(
-              f"Validated news.json with "
-              f"{data['story_count']} stories."
-          )
+          print(f"Validated news.json with {data['story_count']} stories.")
           PY
 
       - name: Commit refreshed news data
@@ -102,8 +86,7 @@ jobs:
           set -euo pipefail
 
           git config user.name "nwp-news-bot"
-          git config user.email \
-            "actions@users.noreply.github.com"
+          git config user.email "actions@users.noreply.github.com"
 
           git add site/data/news.json
 
