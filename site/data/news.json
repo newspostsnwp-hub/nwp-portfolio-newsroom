@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T16:12:57.421791+00:00",
-  "lookback_days": 30,
-  "story_count": 4,
+  "generated_at": "2026-07-20T16:20:09.126356+00:00",
+  "lookback_days": 20,
+  "story_count": 8,
   "stories": [
     {
       "id": "a4d422e0bd220102",
@@ -14,19 +14,47 @@
       "score": 85,
       "story_type": "Product Update",
       "summary": "NVIDIA has announced an expansion of its Agent Toolkit, introducing new Omniverse libraries designed to assist AI agents in creating simulation-ready virtual environments.",
-      "why_it_matters": "This development enhances the utility of AI agents in industrial and digital twin applications, potentially accelerating the adoption of simulation-based workflows in complex engineering and design sectors.",
+      "why_it_matters": "This development enhances the capabilities of AI agents within industrial digital twins, potentially accelerating the deployment of simulation-based workflows for enterprise users.",
       "verified_facts": [
         "NVIDIA has expanded its Agent Toolkit.",
         "The update includes new Omniverse libraries.",
         "The tools are designed to enable AI agents to build simulation-ready worlds."
       ],
       "warnings": [
-        "The provided article text was a generic aggregator placeholder; facts were extracted solely from the title and feed summary provided."
+        "The provided article text was a generic aggregator placeholder; content was derived solely from the title and feed summary provided."
       ],
       "drafts": {
-        "concise": "NVIDIA continues to advance its AI ecosystem with the expansion of the NVIDIA Agent Toolkit. The addition of new Omniverse libraries is set to empower AI agents to build simulation-ready virtual worlds more efficiently. This development represents a significant step forward in the practical application of AI for complex digital environments, offering new capabilities for developers and industrial users alike. We look forward to seeing how these tools are integrated into future workflows. #NVIDIA #AI #Omniverse",
-        "investor": "The ongoing evolution of NVIDIA’s software stack remains a key indicator of the company’s strategic focus on industrial-scale AI. By expanding the Agent Toolkit with new Omniverse libraries, NVIDIA is lowering the barrier to entry for creating high-fidelity, simulation-ready environments. This move not only enhances the utility of their existing hardware infrastructure but also deepens the integration of AI agents into professional design and engineering pipelines. Such advancements are critical for driving long-term value in the digital twin and simulation markets. #NVIDIA #DigitalTransformation #AI",
-        "people": "Congratulations to the team at NVIDIA for the latest expansion of the Agent Toolkit. By integrating new Omniverse libraries, the team is enabling AI agents to tackle the complex task of building simulation-ready worlds. This is a testament to the ongoing innovation within the NVIDIA engineering teams as they continue to push the boundaries of what is possible in virtual simulation and AI-driven development. We are pleased to see our portfolio company maintaining such a strong pace of technical delivery. #NVIDIA #Innovation #Engineering"
+        "concise": "NVIDIA continues to advance its industrial AI capabilities with the expansion of the NVIDIA Agent Toolkit. The latest update introduces new Omniverse libraries, enabling AI agents to build simulation-ready virtual worlds more efficiently. This development marks another step in the evolution of digital twin technology, providing developers with more robust tools to create complex, high-fidelity simulations. We look forward to seeing how these advancements are applied across industrial sectors to streamline design and operational workflows. #NVIDIA #AI #Omniverse",
+        "investor": "The ongoing evolution of NVIDIA’s software ecosystem remains a key indicator of its strategic focus on industrial AI. By expanding the Agent Toolkit with new Omniverse libraries, NVIDIA is lowering the barrier for enterprises to deploy AI agents capable of constructing simulation-ready environments. This focus on scalable, simulation-based workflows is essential for the professionalisation of digital twin applications, offering significant potential for efficiency gains in complex industrial design and testing. It is a compelling example of how the company continues to build out its infrastructure to support long-term enterprise adoption. #NVIDIA #IndustrialAI #DigitalTwin",
+        "people": "Congratulations to the team at NVIDIA for the latest expansion of the Agent Toolkit. By integrating new Omniverse libraries, the team is empowering developers to leverage AI agents in the creation of sophisticated, simulation-ready virtual worlds. This release highlights the technical ingenuity required to bridge the gap between AI development and practical, large-scale industrial simulation. It is impressive to see the continued pace of innovation from the NVIDIA engineering teams as they refine the tools that underpin the future of virtual collaboration and design. #NVIDIA #Innovation #Engineering"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "a9a14e06d461ffac",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5OFAwb0RQNlFtQ3RCY0Q1ZFlNQjhnZnNGUTVJU2lxdWtpY083SmQzM1E5eTE3YWVmRnNtMnlWN1ZkREx5b1U2T3BBYTRTVmVIVnpwaGxnWXlhOXJCMUE?oc=5",
+      "source": "NVIDIA Blog",
+      "published_at": "2026-07-20T15:02:43+00:00",
+      "score": 85,
+      "story_type": "Product Innovation",
+      "summary": "At the SIGGRAPH conference, NVIDIA announced significant advancements in graphics and simulation, focusing on the integration of agentic and physical AI technologies.",
+      "why_it_matters": "These developments represent a continued evolution in NVIDIA's core capabilities, demonstrating how the company is expanding its influence beyond traditional hardware into complex AI-driven simulation environments.",
+      "verified_facts": [
+        "NVIDIA presented new advancements at the SIGGRAPH conference.",
+        "The announcements focused on developments in graphics, simulation, agentic AI, and physical AI."
+      ],
+      "warnings": [
+        "The provided article text was a generic Google News aggregator snippet; details were derived from the article title and summary provided.",
+        "Specific technical specifications or commercial timelines were not included in the source material."
+      ],
+      "drafts": {
+        "concise": "NVIDIA continues to push the boundaries of graphics and simulation technology. At this year’s SIGGRAPH conference, the team showcased new developments in agentic and physical AI, highlighting the company’s ongoing commitment to advancing the capabilities of modern computing environments. It is encouraging to see such consistent innovation in the field of simulation. #NVIDIA #SIGGRAPH #AI",
+        "investor": "NVIDIA’s latest announcements at SIGGRAPH underscore the company’s strategic focus on the intersection of physical AI and simulation. By advancing agentic AI capabilities, NVIDIA is positioning itself at the forefront of the next phase of industrial and digital transformation. This focus on high-value, scalable software and simulation ecosystems remains a key driver of their long-term professionalisation and market relevance. #NVIDIA #ArtificialIntelligence #TechInnovation",
+        "people": "Congratulations to the NVIDIA team for their latest contributions to the field of graphics and simulation presented at SIGGRAPH. The integration of agentic and physical AI is a complex challenge, and it is impressive to see the team’s dedication to solving these technical hurdles. We look forward to seeing how these advancements are applied across industries. #NVIDIA #Innovation #SIGGRAPH"
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
@@ -42,19 +70,19 @@
       "score": 85,
       "story_type": "Partnership",
       "summary": "Bristol Myers Squibb has acquired Nvidia's latest AI computing infrastructure to accelerate its drug discovery and research capabilities.",
-      "why_it_matters": "The adoption of advanced AI computing systems by major pharmaceutical firms highlights the growing integration of high-performance hardware in life sciences R&D, reinforcing the strategic importance of Nvidia's technology in specialised industrial applications.",
+      "why_it_matters": "The integration of advanced AI computing systems into pharmaceutical R&D represents a significant shift in how life sciences firms leverage technology to shorten development cycles and improve research outcomes.",
       "verified_facts": [
         "Bristol Myers Squibb has purchased Nvidia's latest AI computing system.",
         "The technology is intended to support drug research initiatives."
       ],
       "warnings": [
-        "The provided article text was minimal; details were inferred from the headline and summary provided by Reuters.",
-        "Specifics regarding the scale of the investment or the specific model of the computing system were not provided in the source material."
+        "The provided article text was empty; the summary is based solely on the headline and feed summary provided.",
+        "Specific details regarding the scale of the purchase or the specific Nvidia hardware model were not provided in the source material."
       ],
       "drafts": {
-        "concise": "We note the recent announcement that Bristol Myers Squibb has integrated Nvidia’s latest AI computing systems into its research infrastructure. This development underscores the increasing role of high-performance AI hardware in accelerating complex drug discovery processes. It is a significant example of how advanced computing power is being applied to solve critical challenges within the life sciences sector. We continue to monitor how such technological deployments influence operational efficiency and innovation cycles in the pharmaceutical industry. #Nvidia #LifeSciences #AI",
-        "investor": "The integration of Nvidia’s AI computing systems by Bristol Myers Squibb serves as a clear indicator of the strategic shift towards data-driven R&D in the pharmaceutical sector. For investors, this highlights the tangible value proposition of high-performance computing as a catalyst for professionalising drug discovery pipelines. By leveraging advanced AI infrastructure, firms are positioning themselves to reduce research timelines and enhance the precision of their development efforts. We remain focused on how these technological investments drive long-term competitive advantage and operational scalability in high-growth markets. #InvestmentStrategy #AI #Pharmaceuticals",
-        "people": "It is encouraging to see the team at Nvidia continuing to support critical advancements in the life sciences sector. The adoption of their latest AI computing systems by Bristol Myers Squibb for drug research is a testament to the impact that robust, specialised technology can have on scientific progress. We recognise the ongoing efforts of the Nvidia team in providing the tools necessary for researchers to tackle complex medical challenges more effectively. Congratulations to all involved in facilitating this collaboration. #Nvidia #Innovation #HealthcareTechnology"
+        "concise": "We are pleased to note the recent collaboration between Bristol Myers Squibb and Nvidia. By integrating Nvidia’s latest AI computing systems into their research infrastructure, Bristol Myers Squibb is positioning itself at the forefront of AI-driven drug discovery. This development highlights the growing importance of high-performance computing in modern pharmaceutical research, enabling more efficient analysis and innovation in the pursuit of new therapeutic solutions. We look forward to seeing how these advanced tools will support their ongoing commitment to scientific excellence. #Nvidia #LifeSciences #AI",
+        "investor": "The adoption of Nvidia’s AI computing infrastructure by Bristol Myers Squibb underscores a broader trend of strategic digital transformation within the pharmaceutical sector. For investors, this move demonstrates a clear commitment to leveraging high-performance computing to drive operational efficiency and accelerate the R&D pipeline. By investing in the foundational technology required for AI-led drug discovery, firms are increasingly focused on long-term value creation through technological scalability. This partnership serves as a pertinent example of how enterprise-grade AI is becoming a critical component of competitive advantage in the life sciences industry. #Investment #PharmaTech #DigitalTransformation",
+        "people": "It is encouraging to see the team at Bristol Myers Squibb continue to invest in cutting-edge technology to support their research objectives. By deploying Nvidia’s latest AI computing systems, the organisation is providing its scientists and researchers with the robust tools necessary to tackle complex challenges in drug discovery. This initiative reflects a proactive approach to integrating advanced technology into the research process, ultimately empowering the team to push the boundaries of what is possible in pharmaceutical innovation. We commend the team for their focus on enhancing their research capabilities through strategic technological investment. #Innovation #ResearchAndDevelopment #TechInPharma"
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
@@ -69,20 +97,47 @@
       "published_at": "2026-07-20T14:30:00+00:00",
       "score": 85,
       "story_type": "Partnership",
-      "summary": "Bristol Myers Squibb (BMS) has announced an expansion of its artificial intelligence capabilities through a strategic collaboration with Nvidia, with the stated objective of developing a highly advanced AI infrastructure for life sciences research.",
-      "why_it_matters": "The integration of high-performance computing and AI in pharmaceutical R&D represents a significant shift in how life sciences firms accelerate drug discovery and operational efficiency, highlighting the growing necessity of robust tech partnerships in the sector.",
+      "summary": "Bristol Myers Squibb (BMS) has announced an expansion of its artificial intelligence capabilities through a new collaboration with Nvidia, with the stated objective of developing a highly advanced AI infrastructure for life sciences research.",
+      "why_it_matters": "This partnership highlights the increasing integration of high-performance computing and generative AI within the pharmaceutical sector, signalling a strategic shift towards data-driven drug discovery and operational efficiency.",
       "verified_facts": [
         "Bristol Myers Squibb is collaborating with Nvidia to expand its AI footprint.",
         "The initiative aims to establish advanced AI capabilities within the life sciences sector."
       ],
       "warnings": [
-        "The article text provided was a generic Google News aggregator placeholder rather than the full article content; facts are derived solely from the title and summary provided.",
-        "The specific technical scope and timeline of the 'AI factory' remain undefined in the provided source material."
+        "The article text provided was a generic aggregator placeholder; facts were derived solely from the title and feed summary.",
+        "The specific technical scope or financial terms of the partnership were not disclosed in the provided source material."
       ],
       "drafts": {
-        "concise": "Bristol Myers Squibb has announced a new collaboration with Nvidia to scale its artificial intelligence capabilities. This partnership aims to leverage advanced computing power to enhance research and development processes within the life sciences sector. As AI continues to reshape the pharmaceutical landscape, such strategic alliances are becoming increasingly pivotal for driving innovation and operational efficiency. We look forward to seeing how this integration of high-performance technology impacts the future of drug discovery. #LifeSciences #AI #Innovation",
-        "investor": "The recent partnership between Bristol Myers Squibb and Nvidia underscores a broader trend of strategic digital transformation within the life sciences industry. By integrating Nvidia’s advanced AI infrastructure, BMS is positioning itself to enhance its R&D capabilities through data-driven insights. For investors, this move highlights the critical importance of technological infrastructure in maintaining a competitive edge in pharmaceutical development. We continue to monitor how these high-level collaborations facilitate long-term value creation and professionalisation in the sector. #Investment #Biotech #DigitalTransformation",
-        "people": "Congratulations to the team at Bristol Myers Squibb on their latest initiative to expand their AI footprint through a new collaboration with Nvidia. Harnessing the power of advanced AI is a significant step forward in modernising life sciences research and accelerating the path to discovery. It is encouraging to see industry leaders investing in the technical talent and infrastructure required to push the boundaries of what is possible in healthcare. We look forward to the progress this partnership will undoubtedly drive. #Leadership #HealthTech #BMS"
+        "concise": "Bristol Myers Squibb has announced a new collaboration with Nvidia to scale its artificial intelligence capabilities. By leveraging Nvidia’s technology, BMS aims to enhance its research infrastructure, positioning itself at the forefront of AI-driven innovation in the life sciences sector. This development underscores the growing importance of high-performance computing in accelerating drug discovery and operational transformation. We look forward to seeing how this partnership evolves to support the next generation of pharmaceutical research. #LifeSciences #AI #Innovation",
+        "investor": "The strategic partnership between Bristol Myers Squibb and Nvidia marks a significant step in the digital transformation of the life sciences industry. By integrating advanced AI infrastructure, BMS is positioning its research operations to benefit from increased computational power and data-driven insights. For investors, this move illustrates the tangible value of investing in scalable technology platforms to drive long-term R&D efficiency and competitive advantage in the pharmaceutical market. It is a clear example of how established firms are professionalising their digital capabilities to meet future industry demands. #DigitalTransformation #Biotech #InvestmentStrategy",
+        "people": "Congratulations to the team at Bristol Myers Squibb on their latest initiative to expand their AI footprint through a partnership with Nvidia. This collaboration represents a significant commitment to leveraging cutting-edge technology to solve complex challenges in life sciences. It is encouraging to see such focus on building the infrastructure necessary to support future breakthroughs in research and development. We recognise the team's ongoing efforts to integrate advanced digital tools into their core operations, setting a strong precedent for the industry. #Leadership #Innovation #LifeSciences"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "05369a7d17d5532a",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "title": "BMS again turns to NVIDIA to ramp up AI compute for drug discovery - FirstWord PHARMA",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sTTJSRjNLeVRlMm5oeU1ZdkM4LTJPYThIbE5VOFhXRlBRT0JJSUN5S0xCSHpkck5JREhZdUZCREFWMmhybFQ0OEVyUEdKTGIweVM4?oc=5",
+      "source": "FirstWord PHARMA",
+      "published_at": "2026-07-20T14:01:31+00:00",
+      "score": 85,
+      "story_type": "Partnership",
+      "summary": "Bristol Myers Squibb (BMS) has expanded its collaboration with NVIDIA, leveraging the latter's AI computing infrastructure to accelerate drug discovery processes.",
+      "why_it_matters": "The deepening integration of NVIDIA's AI compute capabilities within the pharmaceutical sector highlights the growing role of high-performance computing in streamlining complex R&D workflows and drug development timelines.",
+      "verified_facts": [
+        "Bristol Myers Squibb is utilising NVIDIA technology to enhance AI compute for drug discovery.",
+        "This development represents a continued collaboration between the two organisations."
+      ],
+      "warnings": [
+        "The provided source text is limited to a headline and summary; specific details regarding the scale, financial terms, or technical scope of the expanded partnership are not available."
+      ],
+      "drafts": {
+        "concise": "We are pleased to note the continued collaboration between Bristol Myers Squibb and NVIDIA. By further integrating NVIDIA’s AI computing infrastructure, BMS aims to enhance its capabilities in drug discovery. This development underscores the increasing importance of advanced computational power in modern pharmaceutical research and development. We look forward to seeing how these enhanced AI tools support the team’s ongoing efforts to accelerate innovation in the life sciences sector. #NVIDIA #BMS #DrugDiscovery",
+        "investor": "The expansion of the partnership between Bristol Myers Squibb and NVIDIA serves as a notable example of how established pharmaceutical firms are strategically integrating high-performance AI to drive operational efficiency in R&D. By scaling their compute capacity, BMS is positioning itself to better navigate the complexities of drug discovery through data-driven insights. Such initiatives reflect a broader trend of professionalisation in the sector, where technological infrastructure is becoming a critical driver of long-term strategic transformation and competitive advantage. #LifeSciences #AI #DigitalTransformation",
+        "people": "It is encouraging to see the team at Bristol Myers Squibb continuing to push the boundaries of pharmaceutical innovation through their expanded partnership with NVIDIA. By leveraging advanced AI compute, the team is equipping itself with the necessary tools to streamline complex research processes and improve outcomes in drug discovery. We recognise the commitment of the BMS team to adopting cutting-edge technology to solve some of the most challenging problems in medicine today. #Innovation #Pharma #TechInHealthcare"
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
@@ -98,19 +153,73 @@
       "score": 85,
       "story_type": "Partnership",
       "summary": "Bristol Myers Squibb (BMS) and NVIDIA have announced a collaboration to develop a high-performance AI factory, aimed at accelerating drug discovery and development processes.",
-      "why_it_matters": "This partnership highlights the increasing integration of advanced AI infrastructure within the pharmaceutical sector, demonstrating how NVIDIA's computing capabilities are being leveraged to solve complex challenges in life sciences.",
+      "why_it_matters": "This partnership highlights the increasing integration of advanced AI infrastructure within the pharmaceutical sector, demonstrating how NVIDIA's computing capabilities are being leveraged to address complex challenges in life sciences.",
       "verified_facts": [
         "Bristol Myers Squibb and NVIDIA are collaborating to build an AI factory.",
         "The initiative is focused on advancing drug discovery and development."
       ],
       "warnings": [
-        "The article text provided was a generic Google News aggregator snippet; details were derived from the headline and summary provided.",
-        "The term 'most powerful' is a claim attributed to the project by the source and should be treated as marketing language."
+        "The article text provided was generic and did not contain specific technical details or project timelines, relying on the headline and summary for core information."
       ],
       "drafts": {
-        "concise": "We are pleased to note the announcement of a new partnership between NVIDIA and Bristol Myers Squibb. The two organisations are set to build an AI factory designed to enhance drug discovery and development capabilities. This collaboration underscores the critical role of high-performance computing in modernising pharmaceutical research and accelerating the delivery of new treatments. It is an encouraging development to see NVIDIA’s infrastructure being applied to such significant scientific challenges. #NVIDIA #LifeSciences #AI",
-        "investor": "The strategic collaboration between NVIDIA and Bristol Myers Squibb marks a significant step in the industrialisation of AI within the life sciences sector. By building a dedicated AI factory, the partners are positioning themselves to leverage high-performance computing to drive efficiency and innovation in drug discovery. For investors, this highlights the ongoing trend of cross-sector integration, where specialised technology infrastructure becomes a core component of R&D transformation. We continue to monitor how such partnerships reshape operational capabilities and long-term value creation in the pharmaceutical industry. #Investment #AI #PharmaInnovation",
-        "people": "Congratulations to the teams at NVIDIA and Bristol Myers Squibb on their new partnership. The decision to build a dedicated AI factory is a testament to the ambition of both organisations to push the boundaries of what is possible in drug discovery. It is impressive to see how technical expertise is being combined with deep domain knowledge to address complex healthcare challenges. We look forward to seeing the impact of this collaboration on the future of pharmaceutical research and development. #NVIDIA #Innovation #Teamwork"
+        "concise": "We are pleased to note the latest collaboration between NVIDIA and Bristol Myers Squibb. The two organisations are working together to build a powerful AI factory, specifically designed to accelerate the pace of drug discovery and development. This initiative underscores the transformative potential of high-performance computing when applied to complex pharmaceutical research. It is an encouraging development to see NVIDIA’s technology being deployed to address such critical challenges in the life sciences sector. We look forward to seeing how this infrastructure supports future innovation in medicine. #NVIDIA #BMS #LifeSciences",
+        "investor": "The strategic partnership between NVIDIA and Bristol Myers Squibb marks a significant step in the industrialisation of AI within the pharmaceutical sector. By building a dedicated AI factory, the companies are positioning themselves to leverage high-performance computing to drive efficiency and innovation in drug discovery. For investors, this represents a clear example of how core technological infrastructure is becoming a critical driver of value creation in R&D-heavy industries. We continue to monitor how such collaborations facilitate the professionalisation of data-driven research and development pipelines. #AI #PharmaInnovation #NVIDIA",
+        "people": "Congratulations to the teams at NVIDIA and Bristol Myers Squibb on their new partnership. The decision to build a dedicated AI factory is a testament to the vision of the teams involved in bridging the gap between advanced computing and pharmaceutical research. By combining NVIDIA’s technical expertise with BMS’s deep domain knowledge, this collaboration is set to provide researchers with the tools necessary to accelerate the development of new treatments. It is inspiring to see such cross-industry cooperation aimed at solving some of the most complex problems in healthcare. #Innovation #NVIDIA #BMS"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "82671562db443e60",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdV92ZjdHMGtWVkQ5eEVLZFFwYmpsaXQzUzVwTnM2dW5RV3NYcmIwMVNoN0dIUXhlY3pwU3hVcWxtcy1VVjh3QjZSOHdIQlA5Z1ZBNnlaQWV5UFRwaFpxN2VZOHJBd1MtMmRqSndtVDFGdEZQeVJHaUJldnl4WVFTdm9UaGhka3d3dEpZbGtubzV1c0NMZmtRendyVno3N0NqSmc0bE0xYmdpMW9JaUVTc1J6ckZnZ1hKZ1dYLXNYLUlqc0J4TVgybw?oc=5",
+      "source": "NVIDIA Blog",
+      "published_at": "2026-07-20T11:02:43+00:00",
+      "score": 85,
+      "story_type": "Partnership",
+      "summary": "Bristol Myers Squibb is collaborating with NVIDIA to develop an advanced AI factory utilising the NVIDIA Vera Rubin architecture to accelerate life sciences research.",
+      "why_it_matters": "The integration of high-performance computing and AI infrastructure is increasingly critical for pharmaceutical R&D, representing a significant shift in how life science organisations scale their digital capabilities.",
+      "verified_facts": [
+        "Bristol Myers Squibb is building an AI factory.",
+        "The project utilises NVIDIA Vera Rubin technology."
+      ],
+      "warnings": [
+        "The article text provided was generic and did not contain specific details beyond the headline; information is derived from the headline and summary provided."
+      ],
+      "drafts": {
+        "concise": "We are pleased to see NVIDIA continue to drive innovation in the life sciences sector. Bristol Myers Squibb has announced the development of a new AI factory, powered by the NVIDIA Vera Rubin architecture. This collaboration highlights the growing importance of high-performance computing in accelerating complex pharmaceutical research and development. It is an encouraging example of how advanced AI infrastructure is being deployed to address critical challenges in the industry. #NVIDIA #LifeSciences #AI",
+        "investor": "The strategic application of AI infrastructure is becoming a key driver of operational efficiency and innovation within the pharmaceutical sector. Bristol Myers Squibb’s decision to build an AI factory on the NVIDIA Vera Rubin platform underscores the shift towards data-intensive R&D models. For investors, this reflects the increasing necessity for robust technological foundations to support long-term growth and competitive advantage in life sciences. We continue to monitor how such partnerships transform traditional research workflows into scalable, technology-led processes. #DigitalTransformation #Biotech #NVIDIA",
+        "people": "Congratulations to the teams at NVIDIA and Bristol Myers Squibb on this significant collaboration. By leveraging the NVIDIA Vera Rubin architecture, Bristol Myers Squibb is taking a major step forward in building the infrastructure required for the next generation of life science research. It is inspiring to see such technical expertise being applied to solve complex problems and accelerate the pace of discovery. We look forward to seeing the impact of this AI factory on the industry. #Innovation #NVIDIA #TechLeadership"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "0a53b6543d88ee68",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tRlF5bzh6NUI5VmZKRW9oTzljR3pJbjVLSl9Yb0NqeEtfMVlTQU5TcHl2dU10YkNtN1ZYb0pCWHl1RHhVd1hNZkZDQ21GSTN0NXZTVXRwalhsWk1tNjlYejF5SUF0TTNLdXVqZnROaWV6R3JfZ2fSAXtBVV95cUxPSE4wRDExampVaGU0bDg4VUVIVDFxOEo1QkxXelFLQ2RwTGpzWHJrOV9vb1l3dWIwUWtEWlU5THY0My1HTUlEMVFpRVFCOURkTUVWQXQ0aktqTzdqN3luZkZVZC05eXRwN2otTFVuSHVLdS1kVEtpNU9WT1E?oc=5",
+      "source": "CNBC",
+      "published_at": "2026-07-20T13:00:01+00:00",
+      "score": 75,
+      "story_type": "Market Competition",
+      "summary": "AMD has announced the launch of Helios, a new rack-scale AI system, and confirmed Microsoft as a customer for the technology.",
+      "why_it_matters": "The entry of new rack-scale AI systems into the market highlights the intensifying competition within the high-performance computing and artificial intelligence infrastructure sector.",
+      "verified_facts": [
+        "AMD has launched a rack AI system named Helios.",
+        "Microsoft has been identified as a customer for the new AMD system."
+      ],
+      "warnings": [
+        "The article text provided was a generic aggregator placeholder; information is based solely on the headline and feed summary.",
+        "The competitive impact on Nvidia is speculative based on the headline's framing."
+      ],
+      "drafts": {
+        "concise": "The landscape for AI infrastructure continues to evolve rapidly. AMD has officially launched Helios, its first rack-scale AI system, and confirmed Microsoft as an early adopter. As the demand for high-performance computing power grows, we are closely monitoring how these developments shape the broader hardware ecosystem. It remains an incredibly dynamic period for the sector as providers scale their offerings to meet the needs of global enterprise and cloud customers. #AI #Technology #Computing",
+        "investor": "Market competition in the AI infrastructure space is intensifying as AMD introduces its Helios rack-scale system, with Microsoft confirmed as a key customer. For investors, this shift underscores the rapid pace of innovation and the critical importance of scalability in hardware deployment. As the industry matures, the focus remains on how these technological advancements drive long-term value and operational efficiency for large-scale data centre operators. We continue to observe these market movements as indicators of broader capital expenditure trends in the AI sector. #Investment #AIInfrastructure #TechTrends",
+        "people": "The pace of innovation in the AI hardware sector remains relentless. With AMD announcing the launch of its Helios rack-scale system and securing Microsoft as a partner, it is clear that the teams behind these complex technologies are working at an extraordinary scale. Recognising the engineering and commercial efforts required to bring such sophisticated infrastructure to market is essential as the industry continues to push the boundaries of what is possible in high-performance computing. #Innovation #Engineering #TechNews"
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
@@ -119,9 +228,9 @@
   "run_summary": {
     "companies_checked": 1,
     "providers_succeeded": 1,
-    "candidates_found": 12,
-    "gemini_requests_attempted": 4,
-    "gemini_requests_succeeded": 4,
+    "candidates_found": 30,
+    "gemini_requests_attempted": 10,
+    "gemini_requests_succeeded": 10,
     "minimum_score": 55,
     "ready_score": 80
   }
