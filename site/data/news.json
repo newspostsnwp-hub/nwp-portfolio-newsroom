@@ -1,70 +1,43 @@
 {
-  "generated_at": "2026-07-20T16:51:14.687530+00:00",
-  "lookback_days": 20,
-  "story_count": 2,
+  "generated_at": "2026-07-20T19:28:43.140585+00:00",
+  "lookback_days": 7,
+  "story_count": 1,
   "stories": [
     {
-      "id": "00e4c92f85cba037",
+      "id": "43ae0f8a49652b55",
       "company": "Molinare",
       "company_domain": "molinare.co.uk",
-      "title": "Former ILM exec to drive growth in Molinare’s Irish operations - TVBEurope",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUWQ1VW5sR2hPbnFmVElOUGZWWVRqRFlYQ0xyYTJSNTZZb3ROZjM3YWROOUZ5aHlTOWZocnZZQW9XNElQT095Mno4MGxyQlgxM01KRkJ6eHNsQ2NTQUtsR1NBeE5PZENyUDQ2U2d0X2ZxNnkwcXJib1JiYzB2MGpETldva0w3SkVHMmo4VWY5WGNkeWJMa0pjWG5Fa0ZQd1JzbVZrWkNn?oc=5",
-      "source": "TVBEurope",
-      "published_at": "2026-07-16T10:06:55+00:00",
-      "score": 85,
-      "story_type": "Strategic Hire",
-      "summary": "Molinare has appointed a former Industrial Light & Magic (ILM) executive to lead and drive growth within its Irish operations.",
-      "why_it_matters": "The appointment of high-calibre leadership from a globally recognised visual effects house signals a strategic focus on expanding Molinare's footprint and capabilities in the Irish market.",
+      "title": "Molinare hires Des Carey for Dublin studio",
+      "url": "https://www.televisual.com/news/molinare-taps-carey-for-dublin-studio/",
+      "source": "televisual.com",
+      "published_at": "20260716T101500Z",
+      "score": 90,
+      "story_type": "Strategic Appointment",
+      "summary": "Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish.",
+      "why_it_matters": "The appointment signals a strategic focus on international expansion and the integration of emerging production technologies within the Molinare Creative Group, leveraging Carey's extensive background in global cinema innovation.",
       "verified_facts": [
-        "Molinare has appointed a former ILM executive.",
-        "The new appointment is tasked with driving growth in Molinare's Irish operations."
+        "Des Carey has been appointed as Executive Director, Growth & Innovation at Elephant Goldfish.",
+        "Elephant Goldfish is a member of the Molinare Creative Group.",
+        "Des Carey previously held senior roles at Company 3, Light Iron, and Samsung."
       ],
       "warnings": [
-        "The source text provided is minimal and does not name the specific executive appointed.",
-        "The article text provided by the source was a generic aggregator snippet; the verification relies on the article title and feed summary."
+        "The article text contains a date stamp of 16.07.26, which appears to be a future date or a potential typo in the source material."
       ],
       "drafts": {
-        "concise": "We are pleased to note that Molinare has strengthened its leadership team with the appointment of a former Industrial Light & Magic (ILM) executive. This new hire will be responsible for driving growth and development across Molinare’s Irish operations. We look forward to seeing the impact of this strategic addition as the team continues to expand its presence in the region. #Molinare #PostProduction #BusinessGrowth",
-        "investor": "Molinare continues to focus on its strategic expansion, with the recent appointment of a former ILM executive to lead its Irish operations. Attracting senior talent with deep industry experience is a key component of the company’s ongoing efforts to scale its capabilities and professionalise its service offering in key markets. This development marks a significant step in Molinare’s growth trajectory as it seeks to capture further opportunities within the international production landscape. #Molinare #StrategicGrowth #Investment",
-        "people": "Congratulations to the team at Molinare on the appointment of a new executive to lead their Irish operations. Bringing in expertise from a world-class organisation like ILM is a testament to the company's reputation and its commitment to excellence in the post-production sector. We are excited to see how this leadership addition will support the team in Ireland as they continue to deliver high-quality work for their clients. #Molinare #Leadership #MediaProduction"
+        "concise": "We are pleased to share that the Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish. With over 25 years of experience across production, post-production, and technology—including senior roles at Samsung and Light Iron—Des will lead strategic growth and partnership initiatives. This appointment marks a significant step in the group’s commitment to expanding its international presence and integrating next-generation production technologies. We look forward to seeing the impact of his expertise on the team’s continued development. #Molinare #ElephantGoldfish #PostProduction",
+        "investor": "The Molinare Creative Group continues to strengthen its leadership team with the appointment of Des Carey as Executive Director, Growth & Innovation at Elephant Goldfish. This strategic hire underscores the group’s focus on scaling its operations in Ireland and enhancing its capabilities in emerging production technologies. By bringing in deep international expertise from his previous roles at Samsung and Industrial Light & Magic, the group is well-positioned to drive further innovation and commercial growth. This move reflects a clear ambition to build upon the group’s existing creative heritage and expand its footprint in the global market. #Investment #GrowthStrategy #MediaTech",
+        "people": "A warm welcome to Des Carey, who joins the Molinare Creative Group as Executive Director, Growth & Innovation at Elephant Goldfish in Dublin. Des brings a wealth of international experience, having collaborated with some of the industry’s most respected filmmakers and led global initiatives in cinematic technology. His appointment is a testament to the high-calibre talent within the Molinare Creative Group and its ongoing commitment to fostering a culture of innovation and excellence. We are excited to see how his leadership will support the team at Elephant Goldfish as they continue to evolve and grow. #Leadership #Innovation #CreativeIndustry"
       },
       "status": "needs_review",
-      "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "37338ba99db1bd34",
-      "company": "Molinare",
-      "company_domain": "molinare.co.uk",
-      "title": "Molinare hires Des Carey for Dublin studio - Televisual",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93RzM0WEpZeGc3ek1QTV9mMWNEbWw5b2Z3bzhyLUlvR24wTXVXVWZJR0NKTlhFNlViM0xQSDFUdXp5X3VDMnF2Wk9fMWtpQy1BWmtIWWk2aVFYQmxINVB3OXVldjRWMnpITmxkSVMtRWpSVHh5OUxuSXlB?oc=5",
-      "source": "Televisual",
-      "published_at": "2026-07-16T09:45:22+00:00",
-      "score": 75,
-      "story_type": "Personnel Appointment",
-      "summary": "Molinare has appointed Des Carey to lead its new studio operations in Dublin.",
-      "why_it_matters": "This appointment marks a significant step in Molinare's geographic expansion into the Irish market, strengthening their production capabilities.",
-      "verified_facts": [
-        "Molinare has hired Des Carey.",
-        "The appointment is for the company's new Dublin studio."
-      ],
-      "warnings": [
-        "The source text provided is extremely brief and lacks detail regarding the scope of the role or the strategic timeline for the Dublin studio launch."
-      ],
-      "drafts": {
-        "concise": "We are pleased to note that Molinare has appointed Des Carey to lead its new studio in Dublin. This move represents a key development in the company's ongoing expansion and commitment to growing its footprint in the international production market. We look forward to seeing the impact of this new leadership as the Dublin facility begins its operations. #Molinare #MediaProduction #Dublin",
-        "investor": "Molinare continues to execute its strategic growth plan with the appointment of Des Carey to head its new Dublin studio. Expanding into new territories is a critical component of the company's professionalisation and operational scaling. By establishing a presence in Dublin, Molinare is well-positioned to capture further demand within the creative sector. We remain supportive of the management team as they broaden their reach and enhance their service offering. #Investment #GrowthStrategy #Molinare",
-        "people": "Congratulations to Des Carey on his appointment to lead the new Molinare studio in Dublin. Attracting experienced talent is essential to maintaining the high standards of service for which Molinare is known. We are pleased to see the team continue to grow and strengthen its capabilities as it expands into new markets. We wish Des every success in this new chapter. #Leadership #Molinare #CreativeIndustry"
-      },
-      "status": "needs_review",
-      "discovered_via": "Google News RSS"
+      "discovered_via": "GDELT"
     }
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 12,
-    "candidates_found": 68,
-    "gemini_requests_attempted": 30,
-    "gemini_requests_succeeded": 30,
+    "providers_succeeded": 14,
+    "candidates_found": 42,
+    "gemini_requests_attempted": 26,
+    "gemini_requests_succeeded": 26,
     "minimum_score": 55,
     "ready_score": 80
   }
