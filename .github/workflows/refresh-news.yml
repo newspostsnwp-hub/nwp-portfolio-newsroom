@@ -18,7 +18,7 @@ jobs:
   refresh:
     name: Collect and publish portfolio news
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25
 
     steps:
       - name: Check out latest main branch
@@ -43,8 +43,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
-          LOOKBACK_DAYS: "20"
-          MAX_PER_COMPANY: "10"
+          LOOKBACK_DAYS: "7"
+          MAX_PER_COMPANY: "4"
           MIN_SCORE: "55"
           READY_SCORE: "80"
           PYTHONUNBUFFERED: "1"
