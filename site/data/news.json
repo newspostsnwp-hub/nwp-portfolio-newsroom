@@ -1,6 +1,33 @@
 {
-  "generated_at": "2026-07-20T15:51:19.271989+00:00",
-  "lookback_days": 30,
-  "story_count": 0,
-  "stories": []
+  "generated_at": "2026-07-20T15:15:00+00:00",
+  "lookback_days": 7,
+  "story_count": 1,
+  "stories": [
+    {
+      "id": "temporary-nvidia-test",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "title": "Temporary Portfolio Newsroom test story",
+      "url": "https://nvidianews.nvidia.com/news/latest",
+      "source": "NVIDIA Newsroom",
+      "published_at": "20260720T151500Z",
+      "score": 92,
+      "story_type": "Technology",
+      "summary": "This temporary item confirms that the Portfolio Newsroom can load and display generated story data.",
+      "why_it_matters": "It tests the dashboard cards, filters, review drawer and draft-selection controls.",
+      "verified_facts": [
+        "This is temporary test data.",
+        "It has been added manually to test the interface."
+      ],
+      "warnings": [
+        "Do not publish this test post."
+      ],
+      "drafts": {
+        "concise": "Temporary test draft for the Next Wave Partners Portfolio Newsroom. Do not publish.",
+        "investor": "This is a temporary investor-perspective test draft used solely to confirm that the newsroom interface is functioning.",
+        "people": "This is a temporary people-led test draft. It should not be published."
+      },
+      "status": "needs_review"
+    }
+  ]
 }
