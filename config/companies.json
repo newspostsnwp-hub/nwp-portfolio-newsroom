@@ -1,11 +1,7 @@
 [
   {
     "name": "NVIDIA",
-    "aliases": [
-      "NVIDIA Corporation",
-      "Nvidia AI",
-      "Jensen Huang"
-    ],
+    "aliases": [],
     "website": "https://www.nvidia.com/",
     "domain": "nvidia.com",
     "exclude_terms": []
