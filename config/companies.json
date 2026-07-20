@@ -7,10 +7,20 @@
       "The Delivery Group Limited",
       "Secured Mail",
       "CMS Network",
-      "P2P"
+      "OnePost"
+    ],
+    "search_terms": [
+      "The Delivery Group",
+      "TDG",
+      "The Delivery Group UK",
+      "Secured Mail",
+      "CMS Network",
+      "OnePost"
     ],
     "website": "https://thedeliverygroup.co.uk/",
     "domain": "thedeliverygroup.co.uk",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": []
   },
   {
@@ -23,8 +33,18 @@
       "LociLabs",
       "SECONTEC"
     ],
+    "search_terms": [
+      "Clearway Group",
+      "Clearway",
+      "The Clearway Group",
+      "Clearway Labs",
+      "LociLabs",
+      "SECONTEC"
+    ],
     "website": "https://www.clearway.co.uk/",
     "domain": "clearway.co.uk",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "Clearway Energy",
       "Clearway Community Solar",
@@ -44,8 +64,17 @@
       "Swytch GO",
       "Swytch MAX"
     ],
+    "search_terms": [
+      "Swytch",
+      "Swytch Bike",
+      "Swytch Technology",
+      "Swytch GO",
+      "Swytch MAX"
+    ],
     "website": "https://www.swytchbike.com/",
     "domain": "swytchbike.com",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": []
   },
   {
@@ -57,8 +86,16 @@
       "Molinare Group",
       "Notorious DIT"
     ],
+    "search_terms": [
+      "Molinare",
+      "Molinare TV & Film",
+      "Molinare Creative Group",
+      "Notorious DIT"
+    ],
     "website": "https://molinare.co.uk/",
     "domain": "molinare.co.uk",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "Molinaire"
     ]
@@ -73,8 +110,16 @@
       "Pip Studios audio post-production",
       "Pip Studios audio localisation"
     ],
+    "search_terms": [
+      "PiP",
+      "Pip Studios",
+      "PIP Studios",
+      "PIP Studios Limited"
+    ],
     "website": "https://pipstudios.com/",
     "domain": "pipstudios.com",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "Pip Studio homeware",
       "Pip Studio bedding",
@@ -90,17 +135,24 @@
       "Petainer packaging",
       "Petainer PET packaging",
       "petainerKeg",
-      "Petainer Keg",
-      "petainerCooler"
+      "Petainer Keg"
+    ],
+    "search_terms": [
+      "Petainer",
+      "Petainer Group",
+      "petainerKeg",
+      "Petainer Keg"
     ],
     "website": "https://www.petainer.com/",
     "domain": "petainer.com",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": []
   },
   {
-    "name": "Whitespace Global",
+    "name": "Whitespace",
     "aliases": [
-      "Whitespace",
+      "Whitespace Global",
       "Whitespace sovereign AI",
       "Whitespace AI UK",
       "Collective by Whitespace",
@@ -108,8 +160,17 @@
       "Whitespace CollectiveOS",
       "CollectiveOS"
     ],
+    "search_terms": [
+      "Whitespace",
+      "Whitespace Global",
+      "Collective by Whitespace",
+      "Whitespace Collective",
+      "CollectiveOS"
+    ],
     "website": "https://www.white.space/",
     "domain": "white.space",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "Whitespace Software",
       "Whitespace real estate",
@@ -126,8 +187,16 @@
       "UOE stationery",
       "UOE independent stationery"
     ],
+    "search_terms": [
+      "UOE",
+      "UOE Store",
+      "UOE Stores",
+      "UOE Post Office"
+    ],
     "website": "https://www.uoe.co.uk/",
     "domain": "uoe.co.uk",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "University of Edinburgh",
       "University of Exeter",
@@ -136,17 +205,24 @@
     ]
   },
   {
-    "name": "McGraw Hill Education",
+    "name": "McGraw Hill",
     "aliases": [
-      "McGraw Hill",
       "McGraw-Hill",
       "McGraw Hill Education",
       "McGraw-Hill Education",
       "McGraw Hill Inc",
       "McGraw Hill learning"
     ],
+    "search_terms": [
+      "McGraw Hill",
+      "McGraw-Hill",
+      "McGraw Hill Education",
+      "McGraw-Hill Education"
+    ],
     "website": "https://www.mheducation.com/",
     "domain": "mheducation.com",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": [
       "McGraw Hill Financial",
       "McGraw-Hill Financial",
@@ -166,8 +242,17 @@
       "Sophea Fertility",
       "IVFkasih"
     ],
+    "search_terms": [
+      "Fertility Associates",
+      "Fertility Associates NZ",
+      "Sunfert",
+      "Sophea",
+      "IVFkasih"
+    ],
     "website": "https://www.fertilityassociates.co.nz/",
     "domain": "fertilityassociates.co.nz",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": []
   },
   {
@@ -180,8 +265,16 @@
       "Roof Maker rooflights",
       "Roof-Maker rooflights"
     ],
+    "search_terms": [
+      "Roof-Maker",
+      "Roofmaker",
+      "Roof Maker",
+      "Roof-Maker rooflights"
+    ],
     "website": "https://roof-maker.co.uk/",
     "domain": "roof-maker.co.uk",
+    "newsroom_urls": [],
+    "rss_feeds": [],
     "exclude_terms": []
   }
 ]
