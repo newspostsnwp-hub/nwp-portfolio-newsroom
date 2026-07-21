@@ -2,133 +2,557 @@
   {
     "name": "The Delivery Group",
     "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
-    "aliases": ["TDG", "The Delivery Group UK", "The Delivery Group Limited", "Secured Mail", "CMS Network", "OnePost"],
-    "search_terms": ["The Delivery Group", "TDG", "The Delivery Group UK", "Secured Mail", "CMS Network", "OnePost"],
+    "aliases": [
+      "TDG",
+      "The Delivery Group UK",
+      "The Delivery Group Limited",
+      "Secured Mail",
+      "CMS Network",
+      "OnePost"
+    ],
+    "search_terms": [
+      "The Delivery Group",
+      "TDG",
+      "The Delivery Group UK",
+      "Secured Mail",
+      "CMS Network",
+      "OnePost"
+    ],
     "website": "https://thedeliverygroup.co.uk/",
     "domain": "thedeliverygroup.co.uk",
     "blog_url": "https://thedeliverygroup.co.uk/news/",
-    "newsroom_urls": ["https://thedeliverygroup.co.uk/news/"],
+    "newsroom_urls": [
+      "https://thedeliverygroup.co.uk/news/"
+    ],
     "rss_feeds": [],
-    "exclude_terms": []
+    "exclude_terms": [],
+    "brands": [
+      "Secured Mail",
+      "CMS Network",
+      "OnePost"
+    ],
+    "products": [
+      "Secured Mail",
+      "CMS Network",
+      "OnePost"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/careers/",
+      "/leadership/",
+      "/pricing/",
+      "/products/",
+      "/news/",
+      "/blog/"
+    ]
   },
   {
     "name": "Clearway Group",
     "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
-    "aliases": ["Clearway", "The Clearway Group", "Clearway security UK", "Clearway Labs", "LociLabs", "SECONTEC"],
-    "search_terms": ["Clearway Group", "Clearway", "The Clearway Group", "Clearway Labs", "LociLabs", "SECONTEC"],
+    "aliases": [
+      "Clearway",
+      "The Clearway Group",
+      "Clearway security UK",
+      "Clearway Labs",
+      "LociLabs",
+      "SECONTEC"
+    ],
+    "search_terms": [
+      "Clearway Group",
+      "Clearway",
+      "The Clearway Group",
+      "Clearway Labs",
+      "LociLabs",
+      "SECONTEC"
+    ],
     "website": "https://www.clearway.co.uk/",
     "domain": "clearway.co.uk",
     "blog_url": "https://www.clearway.co.uk/news/",
-    "newsroom_urls": ["https://www.clearway.co.uk/news/"],
+    "newsroom_urls": [
+      "https://www.clearway.co.uk/news/"
+    ],
     "rss_feeds": [],
-    "exclude_terms": ["Clearway Energy", "Clearway Community Solar", "Clearway Health", "Clearway Pain Solutions", "Clearway Law"]
+    "exclude_terms": [
+      "Clearway Energy",
+      "Clearway Community Solar",
+      "Clearway Health",
+      "Clearway Pain Solutions",
+      "Clearway Law"
+    ],
+    "brands": [
+      "Clearway Labs",
+      "LociLabs",
+      "SECONTEC"
+    ],
+    "products": [
+      "Clearway Labs",
+      "LociLabs",
+      "SECONTEC"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/careers/",
+      "/leadership/",
+      "/news/",
+      "/blog/",
+      "/services/"
+    ]
   },
   {
     "name": "Swytch",
     "description": "UK maker of e-bike conversion kits, including the Swytch GO and Swytch MAX.",
-    "aliases": ["Swytch Bike", "Swytch Technology", "Swytch Technology Ltd", "Swytch eBike", "Swytch eBike Conversion Kit", "Swytch GO", "Swytch MAX"],
-    "search_terms": ["Swytch", "Swytch Bike", "Swytch Technology", "Swytch GO", "Swytch MAX"],
+    "aliases": [
+      "Swytch Bike",
+      "Swytch Technology",
+      "Swytch Technology Ltd",
+      "Swytch eBike",
+      "Swytch eBike Conversion Kit",
+      "Swytch GO",
+      "Swytch MAX"
+    ],
+    "search_terms": [
+      "Swytch",
+      "Swytch Bike",
+      "Swytch Technology",
+      "Swytch GO",
+      "Swytch MAX"
+    ],
     "website": "https://www.swytchbike.com/",
     "domain": "swytchbike.com",
     "blog_url": "https://www.swytchbike.com/blog/",
-    "newsroom_urls": ["https://www.swytchbike.com/blog/"],
+    "newsroom_urls": [
+      "https://www.swytchbike.com/blog/"
+    ],
     "rss_feeds": [],
-    "exclude_terms": []
+    "exclude_terms": [],
+    "brands": [
+      "Swytch GO",
+      "Swytch MAX"
+    ],
+    "products": [
+      "Swytch GO",
+      "Swytch MAX",
+      "e-bike conversion kit"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/blog/",
+      "/careers/",
+      "/products/",
+      "/support/",
+      "/news/"
+    ]
   },
   {
     "name": "Molinare",
     "description": "London-based TV and film post-production group (Molinare Creative Group, including Notorious DIT).",
-    "aliases": ["Molinare TV & Film", "Molinare TV and Film", "Molinare Creative Group", "Molinare Group", "Notorious DIT"],
-    "search_terms": ["Molinare", "Molinare TV & Film", "Molinare Creative Group", "Notorious DIT"],
+    "aliases": [
+      "Molinare TV & Film",
+      "Molinare TV and Film",
+      "Molinare Creative Group",
+      "Molinare Group",
+      "Notorious DIT"
+    ],
+    "search_terms": [
+      "Molinare",
+      "Molinare TV & Film",
+      "Molinare Creative Group",
+      "Notorious DIT"
+    ],
     "website": "https://molinare.co.uk/",
     "domain": "molinare.co.uk",
     "blog_url": "",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": ["Molinaire"]
+    "exclude_terms": [
+      "Molinaire"
+    ],
+    "brands": [
+      "Molinare Creative Group",
+      "Notorious DIT"
+    ],
+    "products": [
+      "Post-production services",
+      "Notorious DIT"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/careers/",
+      "/news/",
+      "/blog/",
+      "/services/"
+    ]
   },
   {
     "name": "Pip Studios",
     "description": "UK audio post-production and localisation studio.",
-    "aliases": ["PiP", "PIP Studios", "PIP Studios Limited", "Pip Studios UK", "Pip Studios audio post-production", "Pip Studios audio localisation"],
-    "search_terms": ["PiP", "Pip Studios", "PIP Studios", "PIP Studios Limited"],
+    "aliases": [
+      "PiP",
+      "PIP Studios",
+      "PIP Studios Limited",
+      "Pip Studios UK",
+      "Pip Studios audio post-production",
+      "Pip Studios audio localisation"
+    ],
+    "search_terms": [
+      "PiP",
+      "Pip Studios",
+      "PIP Studios",
+      "PIP Studios Limited"
+    ],
     "website": "https://pipstudios.com/",
     "domain": "pipstudios.com",
     "blog_url": "",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": ["Pip Studio homeware", "Pip Studio bedding", "Pip Studio Amsterdam", "PIP Printing"]
+    "exclude_terms": [
+      "Pip Studio homeware",
+      "Pip Studio bedding",
+      "Pip Studio Amsterdam",
+      "PIP Printing"
+    ],
+    "brands": [
+      "Pip Studios"
+    ],
+    "products": [
+      "Audio post-production",
+      "Localisation"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/careers/",
+      "/news/",
+      "/blog/",
+      "/services/"
+    ]
   },
   {
     "name": "Petainer",
     "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
-    "aliases": ["Petainer Group", "Petainer UK Holdings", "Petainer packaging", "Petainer PET packaging", "petainerKeg", "Petainer Keg"],
-    "search_terms": ["Petainer", "Petainer Group", "petainerKeg", "Petainer Keg"],
+    "aliases": [
+      "Petainer Group",
+      "Petainer UK Holdings",
+      "Petainer packaging",
+      "Petainer PET packaging",
+      "petainerKeg",
+      "Petainer Keg"
+    ],
+    "search_terms": [
+      "Petainer",
+      "Petainer Group",
+      "petainerKeg",
+      "Petainer Keg"
+    ],
     "website": "https://www.petainer.com/",
     "domain": "petainer.com",
     "blog_url": "https://www.petainer.com/insights",
-    "newsroom_urls": ["https://www.petainer.com/insights"],
+    "newsroom_urls": [
+      "https://www.petainer.com/insights"
+    ],
     "rss_feeds": [],
-    "exclude_terms": []
+    "exclude_terms": [],
+    "brands": [
+      "petainerKeg"
+    ],
+    "products": [
+      "petainerKeg",
+      "PET packaging"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/insights/",
+      "/news/",
+      "/careers/",
+      "/products/"
+    ]
   },
   {
     "name": "Whitespace",
     "description": "UK sovereign AI company behind Collective / CollectiveOS.",
-    "aliases": ["Whitespace Global", "Whitespace sovereign AI", "Whitespace AI UK", "Collective by Whitespace", "Whitespace Collective", "Whitespace CollectiveOS", "CollectiveOS"],
-    "search_terms": ["Whitespace", "Whitespace Global", "Collective by Whitespace", "Whitespace Collective", "CollectiveOS"],
+    "aliases": [
+      "Whitespace Global",
+      "Whitespace sovereign AI",
+      "Whitespace AI UK",
+      "Collective by Whitespace",
+      "Whitespace Collective",
+      "Whitespace CollectiveOS",
+      "CollectiveOS"
+    ],
+    "search_terms": [
+      "Whitespace",
+      "Whitespace Global",
+      "Collective by Whitespace",
+      "Whitespace Collective",
+      "CollectiveOS"
+    ],
     "website": "https://www.white.space/",
     "domain": "white.space",
     "blog_url": "https://www.white.space/insights",
-    "newsroom_urls": ["https://www.white.space/insights"],
+    "newsroom_urls": [
+      "https://www.white.space/insights"
+    ],
     "rss_feeds": [],
-    "exclude_terms": ["Whitespace Software", "Whitespace real estate", "white space design", "white space analysis"]
+    "exclude_terms": [
+      "Whitespace Software",
+      "Whitespace real estate",
+      "white space design",
+      "white space analysis"
+    ],
+    "brands": [
+      "Collective",
+      "CollectiveOS"
+    ],
+    "products": [
+      "Collective",
+      "CollectiveOS",
+      "Sovereign AI platform"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/insights/",
+      "/news/",
+      "/careers/",
+      "/products/",
+      "/leadership/"
+    ]
   },
   {
     "name": "UOE",
     "description": "UK independent stationery and Post Office retail chain.",
-    "aliases": ["UOE Store", "UOE Stores", "UOE Post Office", "UOE stationery", "UOE independent stationery"],
-    "search_terms": ["UOE", "UOE Store", "UOE Stores", "UOE Post Office"],
+    "aliases": [
+      "UOE Store",
+      "UOE Stores",
+      "UOE Post Office",
+      "UOE stationery",
+      "UOE independent stationery"
+    ],
+    "search_terms": [
+      "UOE",
+      "UOE Store",
+      "UOE Stores",
+      "UOE Post Office"
+    ],
     "website": "https://www.uoe.co.uk/",
     "domain": "uoe.co.uk",
     "blog_url": "https://www.uoe.co.uk/news",
-    "newsroom_urls": ["https://www.uoe.co.uk/news"],
+    "newsroom_urls": [
+      "https://www.uoe.co.uk/news"
+    ],
     "rss_feeds": [],
-    "exclude_terms": ["University of Edinburgh", "University of Exeter", "University of Essex", "University of Europe"]
+    "exclude_terms": [
+      "University of Edinburgh",
+      "University of Exeter",
+      "University of Essex",
+      "University of Europe"
+    ],
+    "brands": [
+      "UOE Stores"
+    ],
+    "products": [
+      "Stationery retail",
+      "Post Office retail"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/news/",
+      "/careers/",
+      "/stores/",
+      "/services/"
+    ]
   },
   {
     "name": "McGraw Hill",
     "description": "Global education publishing and learning technology company.",
-    "aliases": ["McGraw-Hill", "McGraw Hill Education", "McGraw-Hill Education", "McGraw Hill Inc", "McGraw Hill learning"],
-    "search_terms": ["McGraw Hill", "McGraw-Hill", "McGraw Hill Education", "McGraw-Hill Education"],
+    "aliases": [
+      "McGraw-Hill",
+      "McGraw Hill Education",
+      "McGraw-Hill Education",
+      "McGraw Hill Inc",
+      "McGraw Hill learning"
+    ],
+    "search_terms": [
+      "McGraw Hill",
+      "McGraw-Hill",
+      "McGraw Hill Education",
+      "McGraw-Hill Education"
+    ],
     "website": "https://www.mheducation.com/",
     "domain": "mheducation.com",
     "blog_url": "https://www.mheducation.com/about-us.html#news",
-    "newsroom_urls": ["https://www.mheducation.com/about-us.html#news"],
+    "newsroom_urls": [
+      "https://www.mheducation.com/about-us.html#news"
+    ],
     "rss_feeds": [],
-    "exclude_terms": ["McGraw Hill Financial", "McGraw-Hill Financial", "S&P Global"]
+    "exclude_terms": [
+      "McGraw Hill Financial",
+      "McGraw-Hill Financial",
+      "S&P Global"
+    ],
+    "brands": [
+      "McGraw-Hill Education"
+    ],
+    "products": [
+      "Learning technology",
+      "Digital learning"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/news/",
+      "/careers/",
+      "/investors/",
+      "/products/"
+    ]
   },
   {
     "name": "Fertility Associates",
     "description": "New Zealand fertility clinic group, with Sunfert, Sophea and IVFkasih clinics in Asia.",
-    "aliases": ["Fertility Associates New Zealand", "Fertility Associates NZ", "Fertility Associates Limited", "Fertility Associates Holdings", "Sunfert International Fertility Centre", "Sunfert fertility", "Sophea Fertility Centre", "Sophea Fertility", "IVFkasih"],
-    "search_terms": ["Fertility Associates", "Fertility Associates NZ", "Sunfert", "Sophea", "IVFkasih"],
+    "aliases": [
+      "Fertility Associates New Zealand",
+      "Fertility Associates NZ",
+      "Fertility Associates Limited",
+      "Fertility Associates Holdings",
+      "Sunfert International Fertility Centre",
+      "Sunfert fertility",
+      "Sophea Fertility Centre",
+      "Sophea Fertility",
+      "IVFkasih"
+    ],
+    "search_terms": [
+      "Fertility Associates",
+      "Fertility Associates NZ",
+      "Sunfert",
+      "Sophea",
+      "IVFkasih"
+    ],
     "website": "https://www.fertilityassociates.co.nz/",
     "domain": "fertilityassociates.co.nz",
     "blog_url": "https://www.fertilityassociates.co.nz/news",
-    "newsroom_urls": ["https://www.fertilityassociates.co.nz/news"],
+    "newsroom_urls": [
+      "https://www.fertilityassociates.co.nz/news"
+    ],
     "rss_feeds": [],
-    "exclude_terms": []
+    "exclude_terms": [],
+    "brands": [
+      "Sunfert",
+      "Sophea",
+      "IVFkasih"
+    ],
+    "products": [
+      "Fertility services",
+      "Clinic group"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/news/",
+      "/careers/",
+      "/clinics/",
+      "/services/"
+    ]
   },
   {
     "name": "Roof-Maker",
     "description": "UK designer and manufacturer of rooflights.",
-    "aliases": ["Roofmaker", "Roof-Maker Ltd", "Roof-Maker UK", "Roof Maker", "Roof Maker rooflights", "Roof-Maker rooflights"],
-    "search_terms": ["Roof-Maker", "Roofmaker", "Roof Maker", "Roof-Maker rooflights"],
+    "aliases": [
+      "Roofmaker",
+      "Roof-Maker Ltd",
+      "Roof-Maker UK",
+      "Roof Maker",
+      "Roof Maker rooflights",
+      "Roof-Maker rooflights"
+    ],
+    "search_terms": [
+      "Roof-Maker",
+      "Roofmaker",
+      "Roof Maker",
+      "Roof-Maker rooflights"
+    ],
     "website": "https://roof-maker.co.uk/",
     "domain": "roof-maker.co.uk",
     "blog_url": "https://roof-maker.co.uk/blog/",
-    "newsroom_urls": ["https://roof-maker.co.uk/blog/"],
+    "newsroom_urls": [
+      "https://roof-maker.co.uk/blog/"
+    ],
     "rss_feeds": [],
-    "exclude_terms": []
+    "exclude_terms": [],
+    "brands": [
+      "Roofmaker"
+    ],
+    "products": [
+      "Rooflights",
+      "Roof windows"
+    ],
+    "executives": [],
+    "subsidiaries": [],
+    "customers": [],
+    "suppliers": [],
+    "partners": [],
+    "competitors": [],
+    "locations": [],
+    "watch_pages": [
+      "/blog/",
+      "/news/",
+      "/careers/",
+      "/products/"
+    ]
   }
 ]
