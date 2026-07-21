@@ -1,8 +1,64 @@
 {
-  "generated_at": "2026-07-21T16:29:15.632241+00:00",
+  "generated_at": "2026-07-21T18:23:27.220432+00:00",
   "lookback_days": 7,
-  "story_count": 4,
+  "story_count": 6,
   "stories": [
+    {
+      "id": "898ed7fb62210a14",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "title": "Certifications, Accreditations and Memberships",
+      "url": "https://www.clearway.co.uk/about-us/who-approves-us",
+      "source": "clearway.co.uk",
+      "published_at": "2026-07-15T09:24:42+00:00",
+      "score": 95,
+      "story_type": "Corporate Governance",
+      "summary": "Clearway Group has published a comprehensive overview of its industry certifications, accreditations, and memberships, highlighting its commitment to compliance, safety, and quality standards across its security and environmental service divisions.",
+      "why_it_matters": "Maintaining a rigorous portfolio of accreditations—including ISO standards, BAFE, and NSI Gold—is critical for a security and property services firm to demonstrate operational excellence, regulatory compliance, and risk management to institutional and commercial clients.",
+      "verified_facts": [
+        "Clearway Group holds multiple ISO certifications including 9001:2015, 14001:2015, 45001:2018, and 27001.",
+        "The group maintains industry-specific accreditations including BAFE SP203 and SP207, NSI Gold, and SSAIB approval.",
+        "Clearway is a member of the British Security Industry Association (BSIA) and the British Institute of Cleaning Science (BICSc)."
+      ],
+      "warnings": [
+        "The source text lists a wide range of certifications across different business units; ensure specific claims are attributed to the correct subsidiary if referenced in future communications."
+      ],
+      "drafts": {
+        "concise": "Clearway Group continues to demonstrate its commitment to operational excellence through a robust framework of industry certifications and accreditations. From ISO 9001, 14001, and 45001 standards to specialist BAFE and NSI Gold approvals, these credentials underscore the firm's dedication to quality, safety, and data security. By maintaining these rigorous standards, Clearway ensures it remains a trusted partner for complex security and environmental service requirements across the UK. We are pleased to see the team’s ongoing focus on compliance and professional standards. #ClearwayGroup #SecurityServices #Compliance",
+        "investor": "Operational rigour is a cornerstone of sustainable growth. Clearway Group’s extensive portfolio of accreditations—including ISO 27001 for information security and NSI Gold for electronic security systems—provides a clear competitive advantage in the UK property and site security market. These third-party validations not only ensure regulatory compliance but also serve as a benchmark for service quality, reinforcing the company’s position as a reliable partner for commercial and public sector clients. This commitment to high standards is essential for long-term value creation and market trust. #Investment #OperationalExcellence #ClearwayGroup",
+        "people": "At the heart of Clearway Group’s service delivery is a deep-seated commitment to safety and professional standards. The team’s dedication to achieving and maintaining a wide range of industry accreditations—such as CHAS, Constructionline, and RoSPA membership—reflects their focus on protecting people, property, and assets. These certifications are a testament to the hard work of the entire Clearway team in upholding the highest levels of quality and compliance every day. Congratulations to everyone involved in maintaining these vital industry benchmarks. #TeamWork #SafetyFirst #ClearwayGroup"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official company site"
+    },
+    {
+      "id": "b5a05ae7e4978234",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "title": "About Clearway",
+      "url": "https://www.clearway.co.uk/about-us",
+      "source": "clearway.co.uk",
+      "published_at": "2026-07-15T09:19:21+00:00",
+      "score": 95,
+      "story_type": "Company Overview",
+      "summary": "Clearway is a UK-based security and protection group providing integrated services including physical security, technology-led monitoring, safety systems, and financial recovery for high-risk environments.",
+      "why_it_matters": "It provides a clear overview of the operational scope and market position of a portfolio company, highlighting its integrated approach to asset protection across sectors like construction, infrastructure, and property management.",
+      "verified_facts": [
+        "Clearway provides integrated security services including CCTV, alarm systems, manned guarding, and mobile patrols.",
+        "The group supports sectors including construction, property management, infrastructure, utilities, and the public sector.",
+        "The Clearway Group was formally established as a holding company in 2016, with roots dating back to 1992."
+      ],
+      "warnings": [
+        "The source text is a general 'About Us' page rather than a specific news event, so the content is descriptive rather than time-sensitive."
+      ],
+      "drafts": {
+        "concise": "Clearway continues to provide comprehensive security and safety solutions for organisations managing complex, high-value assets across the UK. From vacant property protection and construction site security to advanced technology-led monitoring and financial recovery services, the group offers an integrated approach to risk management. By combining physical security expertise with real-time monitoring capabilities, Clearway supports clients in the construction, infrastructure, and public sectors to maintain safe and compliant environments. We are proud to support the team as they continue to deliver these essential services to their diverse client base. #Clearway #SecurityServices #UKBusiness",
+        "investor": "Clearway’s operational model demonstrates the value of integrating physical security with technology-led monitoring to address the needs of high-risk environments. By serving critical sectors such as infrastructure, utilities, and property management, the group has established a robust position in the UK security market. The business continues to focus on delivering scalable, compliance-focused solutions that help organisations protect assets throughout their lifecycle. This integrated service offering, supported by a strong portfolio of accreditations, remains central to their ongoing strategy of providing reliable, data-driven security and safety outcomes for their clients. #Investment #AssetProtection #Growth",
+        "people": "At the heart of Clearway’s success is a commitment to maintaining high standards of service and safety across the UK. Whether securing construction sites, protecting vacant buildings, or providing critical monitoring services, the team’s expertise is essential to their clients' operational continuity. We recognise the dedication of the professionals across The Clearway Group who work to ensure that complex environments remain secure and compliant. Their focus on professional accreditations and client-centric service continues to drive the group’s reputation for reliability in the security sector. #TeamSuccess #SecurityIndustry #ProfessionalExcellence"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official company site"
+    },
     {
       "id": "3c5cc3a7c5831c43",
       "company": "UOE",
@@ -118,15 +174,15 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "companies_with_coverage": 3,
-    "providers_succeeded": 28,
-    "candidates_found": 84,
-    "gemini_requests_attempted": 10,
-    "gemini_requests_succeeded": 10,
-    "grounding_drops": 6,
-    "blog_fallbacks_added": 1,
+    "companies_with_coverage": 4,
+    "providers_succeeded": 30,
+    "candidates_found": 94,
+    "gemini_requests_attempted": 4,
+    "gemini_requests_succeeded": 4,
+    "grounding_drops": 4,
+    "blog_fallbacks_added": 0,
     "stories_carried_forward": 4,
-    "candidates_skipped_recently_evaluated": 22,
+    "candidates_skipped_recently_evaluated": 31,
     "minimum_score": 60
   }
 }
