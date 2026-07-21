@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T10:19:00.602768+00:00",
+  "generated_at": "2026-07-21T11:42:07.650334+00:00",
   "lookback_days": 7,
-  "story_count": 4,
+  "story_count": 6,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -86,6 +86,60 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "6fe811fc8d268fc4",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "title": "McGraw Hill to Release Fiscal First Quarter 2027 Financial Results and Host Webcast on August 13, 2026 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSllSUUpXSDZiT2ZtdlF2T2h2aEFRM1JtQzZqVEZpZzdfM0RvYzJXRVZOM3VDdDlScWpkUmZvQkxRNDFTRlZ2eTczWjNuUXlyUUM2VmZWQXAxNkZyYW9pZVhuU014Ny1KcXdReXdJOFhGUWd1RUd5VHlmQ05ub2lfbFJBbEU2aHZBdm9tenhOQ09INnMxQlJrLW9WZGluYndHQ3pGRmZIQQ?oc=5",
+      "source": "Moomoo",
+      "published_at": "2026-07-14T12:03:00+00:00",
+      "score": 75,
+      "story_type": "Financial Reporting",
+      "summary": "McGraw Hill has announced that it will release its fiscal first quarter 2027 financial results on August 13, 2026, accompanied by a webcast for stakeholders.",
+      "why_it_matters": "Regular financial reporting provides transparency into the operational performance and strategic progress of the business, which is essential for stakeholders monitoring the company's trajectory in the education technology sector.",
+      "verified_facts": [
+        "McGraw Hill will release fiscal first quarter 2027 financial results on August 13, 2026.",
+        "The company will host a webcast to discuss these results."
+      ],
+      "warnings": [
+        "The source is a third-party news aggregator (Moomoo) rather than a direct press release from the company's investor relations site."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill has confirmed it will release its financial results for the first quarter of fiscal year 2027 on August 13, 2026. The announcement will be accompanied by a webcast to discuss the company's performance. We look forward to the update on their continued progress in the learning technology and publishing space. #McGrawHill #EdTech #FinancialResults",
+        "investor": "As McGraw Hill prepares to report its fiscal first quarter 2027 results on August 13, 2026, we remain focused on the company's ongoing strategic development. Regular financial disclosures are a key component of the professionalisation and transparency that drive long-term value creation. We look forward to reviewing the upcoming performance data and the insights shared during the scheduled webcast. #InvestmentStrategy #CorporateGovernance #McGrawHill",
+        "people": "Ahead of the upcoming fiscal first quarter 2027 results on August 13, 2026, we recognise the continued dedication of the team at McGraw Hill. Their commitment to advancing learning technology and educational publishing remains a key driver of the company's mission. We look forward to the upcoming update on their progress and the insights from the leadership team during the webcast. #TeamSuccess #Education #McGrawHill"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "08b909b4fcf4599d",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "title": "McGraw Hill to Release Fiscal First Quarter 2027 Financial Results and Host Webcast on August 13, 2026 - The Joplin Globe",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWFRjbU1vWWt0b2xWaHJDSWE3RWN0dXRXQ0phd3JvWURUYmFkd3VxY0J5cW9XQkVWRzAtdkR5bm1NSnJTNDIyM2ZSdG9WTFBzSUVlRUQ5U0lCZXNYVGZ0TEUzMjJNZ3MtYTdOS2RJOW1hRUpPZll4SDlPT0hBSVJqN2pHd01UNVVpYUJWZFpEQXVfMFpia2RBbUQtUXhEQ3ZIWDNfVlJiaHg2UDJHRHZBTGptYk1hU08zNXRNZDFVbUZSdWlVRUg2X0oyRjREZnFKNXgtT3h3NVFKem1qTzB2MDFBdnRtNTFKV294amVfLUNqWC1NWl94YUlUXzRwM1B1UGpxTy1IMERBN0RhNmw0RllSRmdVV1NOb05FQlZvaGdSdw?oc=5",
+      "source": "The Joplin Globe",
+      "published_at": "2026-07-14T12:03:02+00:00",
+      "score": 65,
+      "story_type": "Financial Reporting",
+      "summary": "McGraw Hill has announced that it will release its financial results for the first quarter of fiscal year 2027 on August 13, 2026, and will host a webcast to discuss the performance.",
+      "why_it_matters": "Regular financial reporting is a key indicator of operational transparency and provides insight into the company's ongoing performance within the global education and learning technology sector.",
+      "verified_facts": [
+        "McGraw Hill will release fiscal first quarter 2027 financial results on August 13, 2026.",
+        "The company will host a webcast to discuss these results."
+      ],
+      "warnings": [
+        "The source is a local news aggregator; specific details regarding the webcast access or financial highlights are not provided in the source material."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill has confirmed that it will release its financial results for the first quarter of fiscal year 2027 on August 13, 2026. The announcement will be accompanied by a webcast to discuss the company's performance. We look forward to the update from the team as they continue to advance their work in global education and learning technology. #McGrawHill #EducationTechnology #FinancialResults",
+        "investor": "Transparency and consistent reporting remain central to the strategic evolution of our portfolio companies. McGraw Hill has scheduled the release of its fiscal first quarter 2027 financial results for August 13, 2026, alongside a webcast to provide further context on their operational progress. This upcoming update serves as an important milestone in the company's ongoing commitment to growth and professionalisation within the learning technology sector. #InvestmentStrategy #CorporateGovernance #McGrawHill",
+        "people": "As McGraw Hill prepares to share its financial results for the first quarter of fiscal year 2027 on August 13, 2026, we recognise the continued efforts of the leadership team in driving the company's mission forward. The upcoming webcast will offer a valuable opportunity to hear directly from the team regarding their latest developments in global education. We remain proud to support their work in shaping the future of learning. #Leadership #Education #McGrawHill"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "1c66e9083d3e7c5b",
       "company": "McGraw Hill",
       "company_domain": "mheducation.com",
@@ -116,12 +170,12 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 30,
-    "candidates_found": 59,
-    "gemini_requests_attempted": 13,
-    "gemini_requests_succeeded": 13,
-    "stories_carried_forward": 2,
-    "candidates_skipped_recently_evaluated": 0,
+    "providers_succeeded": 31,
+    "candidates_found": 58,
+    "gemini_requests_attempted": 11,
+    "gemini_requests_succeeded": 11,
+    "stories_carried_forward": 4,
+    "candidates_skipped_recently_evaluated": 9,
     "minimum_score": 60,
     "ready_score": 80
   }
