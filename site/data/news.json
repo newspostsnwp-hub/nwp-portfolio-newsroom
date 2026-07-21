@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-07-21T14:28:16.420684+00:00",
+  "generated_at": "2026-07-21T16:29:15.632241+00:00",
   "lookback_days": 7,
   "story_count": 4,
   "stories": [
+    {
+      "id": "3c5cc3a7c5831c43",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "title": "Big News for Islington: Your Post Office Is Getting an Upgrade (and a New Best Friend)",
+      "url": "https://www.uoe.co.uk/news/big-news-for-islington-your-post-office-is-getting-an-upgrade-and-a-new-best-friend",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-14T07:00:52+00:00",
+      "score": 95,
+      "story_type": "Portfolio Update",
+      "summary": "UOE is relocating its Islington Post Office to a new, larger site at 129E Upper Street within the Islington Square shopping centre, effective 14th July. The new location integrates a modernised Post Office with the fourth 'Stamp' retail store, offering a curated range of stationery, gifts, and expanded courier services. The site features step-free access and extended seven-day opening hours.",
+      "why_it_matters": "The expansion demonstrates UOE's commitment to revitalising high street services by combining essential community infrastructure with a modern, customer-focused retail experience. The investment highlights the company's operational growth and its strategy to increase accessibility and service utility for local residents.",
+      "verified_facts": [
+        "The new Islington Post Office and Stamp store opens on 14th July at 129E Upper Street, London N1 1QP.",
+        "The site offers extended seven-day opening hours, including Sundays.",
+        "Services include Post Office facilities, printing, scanning, foreign currency, and courier drop-offs.",
+        "This is the fourth Stamp store opened by UOE."
+      ],
+      "warnings": [
+        "The article mentions a 2026 copyright date, which may indicate a discrepancy in the source material's metadata."
+      ],
+      "drafts": {
+        "concise": "We are pleased to share that our portfolio company, UOE, is expanding its presence in Islington. From 14th July, the local Post Office will move to a new, larger location at 129E Upper Street. This site will feature a fully modernised Post Office alongside the fourth 'Stamp' retail store, offering a curated selection of stationery and gifts. With extended seven-day opening hours and a comprehensive range of courier and administrative services, this development represents a significant upgrade for the local community. Congratulations to the UOE team on this successful expansion. #UOE #RetailInnovation #Islington",
+        "investor": "UOE continues to demonstrate its commitment to high street revitalisation with the opening of its latest integrated retail and service hub in Islington. By co-locating a modernised Post Office with the 'Stamp' retail brand, UOE is effectively increasing footfall and service utility. This strategic move, which includes extended seven-day trading hours and a broader suite of courier and business services, reflects the company's focus on operational efficiency and community-led growth. We look forward to seeing the impact of this new location as UOE continues to scale its unique retail model. #Investment #Growth #RetailStrategy",
+        "people": "A fantastic milestone for the UOE team as they prepare to open their new Islington Square location on 14th July. This project is a great example of how the team is reimagining the high street experience, blending essential community services with a modern retail environment. By listening to local needs and extending opening hours to seven days a week, UOE is ensuring that vital services remain accessible and convenient. Well done to Elliot Jacobs and the entire team for their hard work in bringing this new space to life. #TeamSuccess #CommunityImpact #UOE"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company blog"
+    },
     {
       "id": "43ae0f8a49652b55",
       "company": "Molinare",
@@ -59,33 +88,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "37338ba99db1bd34",
-      "company": "Molinare",
-      "company_domain": "molinare.co.uk",
-      "title": "Molinare hires Des Carey for Dublin studio - Televisual",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93RzM0WEpZeGc3ek1QTV9mMWNEbWw5b2Z3bzhyLUlvR24wTXVXVWZJR0NKTlhFNlViM0xQSDFUdXp5X3VDMnF2Wk9fMWtpQy1BWmtIWWk2aVFYQmxINVB3OXVldjRWMnpITmxkSVMtRWpSVHh5OUxuSXlB?oc=5",
-      "source": "Televisual",
-      "published_at": "2026-07-16T09:45:40+00:00",
-      "score": 85,
-      "story_type": "Personnel Appointment",
-      "summary": "Molinare has appointed Des Carey to lead its new studio operations in Dublin.",
-      "why_it_matters": "This appointment marks a significant step in Molinare's geographic expansion, strengthening their presence in the Irish post-production market.",
-      "verified_facts": [
-        "Molinare has hired Des Carey.",
-        "The appointment is for Molinare's Dublin studio."
-      ],
-      "warnings": [
-        "The source material is brief; specific details regarding the scope of the Dublin studio's operations or the start date for Mr. Carey are not provided."
-      ],
-      "drafts": {
-        "concise": "We are pleased to share that Molinare has appointed Des Carey to lead its new studio in Dublin. This move represents a key development in the group's ongoing expansion, bringing their post-production expertise to a new market. Congratulations to the team at Molinare on this latest milestone. #Molinare #PostProduction #Dublin",
-        "investor": "Molinare continues to execute its strategic growth plan with the appointment of Des Carey to head its new Dublin studio. Expanding into key international hubs is a vital component of the group's professionalisation and operational scaling. We look forward to seeing the impact of this new facility on the group's service capabilities. #Investment #GrowthStrategy #Molinare",
-        "people": "Molinare continues to attract top-tier talent, with the announcement that Des Carey will lead their new Dublin-based studio. Bringing experienced leadership into new territories is essential for maintaining the high standards of post-production excellence that the Molinare Creative Group is known for. We wish Des every success in this new role. #Leadership #CreativeIndustry #Molinare"
-      },
-      "status": "needs_review",
-      "discovered_via": "Google News RSS"
-    },
-    {
       "id": "1c66e9083d3e7c5b",
       "company": "McGraw Hill",
       "company_domain": "mheducation.com",
@@ -116,13 +118,15 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 29,
-    "candidates_found": 50,
-    "gemini_requests_attempted": 2,
-    "gemini_requests_succeeded": 2,
+    "companies_with_coverage": 3,
+    "providers_succeeded": 28,
+    "candidates_found": 84,
+    "gemini_requests_attempted": 10,
+    "gemini_requests_succeeded": 10,
+    "grounding_drops": 6,
+    "blog_fallbacks_added": 1,
     "stories_carried_forward": 4,
-    "candidates_skipped_recently_evaluated": 20,
-    "minimum_score": 60,
-    "ready_score": 80
+    "candidates_skipped_recently_evaluated": 22,
+    "minimum_score": 60
   }
 }
