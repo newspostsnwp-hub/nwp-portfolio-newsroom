@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T11:42:07.650334+00:00",
+  "generated_at": "2026-07-21T11:51:28.086672+00:00",
   "lookback_days": 7,
-  "story_count": 6,
+  "story_count": 7,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -140,6 +140,33 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "80799c0f1acf1441",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "title": "McGraw Hill to Release Fiscal First Quarter 2027 Financial Results and Host Webcast on August 13, 2026 - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZ3NkbnVrLThIMlMyZ0tJQTJnVVdTcEt3SEJoSWEyWUJrdndvUXNySkd2R0Rid3FjSkdNbXJiOURFLUtpa3lLU3hJRkZXUXZDMUd6RFI4NEdZZ3JINTZSZ1dwbmowTTgwWjZ3SWNMUk8xbktLT1JSWkRXUlhZR1hGSUpnQy1XU2pheEtmS3EwODRKbTFtYWsya0VqOFUwd1FpZ1RSNlUzMEFZY0FUeTBqckI4V1k4dTQ0MFRGU19ZanVDRlo1aVZTU0FGVTQ2TWhLR1V5VlJWNWVfeXFzbm1iOWVDTW5iODR6OU9WZ2pOcw?oc=5",
+      "source": "Business Wire",
+      "published_at": "2026-07-14T12:00:00+00:00",
+      "score": 65,
+      "story_type": "Financial Reporting",
+      "summary": "McGraw Hill has announced that it will release its financial results for the first quarter of fiscal year 2027 on August 13, 2026, and will host a webcast to discuss the performance.",
+      "why_it_matters": "Regular financial reporting provides transparency regarding the company's operational progress and market position within the global education and learning technology sector.",
+      "verified_facts": [
+        "McGraw Hill is scheduled to release fiscal first quarter 2027 financial results on August 13, 2026.",
+        "The company will host a webcast to discuss these results."
+      ],
+      "warnings": [
+        "The source is a standard financial announcement; no specific performance data or strategic insights are available at this time."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill has announced that it will release its financial results for the first quarter of fiscal year 2027 on August 13, 2026. The company will also host a webcast to discuss the results with stakeholders. We look forward to the update on their continued progress in the education and learning technology space. #McGrawHill #EducationTechnology #FinancialResults",
+        "investor": "Transparency and consistent reporting remain key pillars of strategic growth. McGraw Hill has confirmed it will report its fiscal first quarter 2027 financial results on August 13, 2026, accompanied by a webcast. This update will provide further insight into the company’s operational performance and its ongoing commitment to delivering learning solutions globally. We continue to support the team as they execute their long-term strategy. #Investment #CorporateStrategy #McGrawHill",
+        "people": "As McGraw Hill prepares to share its fiscal first quarter 2027 results on August 13, 2026, we recognise the hard work of the entire team in driving the company’s mission forward. Their dedication to advancing learning technology continues to make a meaningful impact in the education sector. We look forward to the upcoming webcast and the team's latest updates. #TeamSuccess #Education #McGrawHill"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "1c66e9083d3e7c5b",
       "company": "McGraw Hill",
       "company_domain": "mheducation.com",
@@ -170,12 +197,12 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 31,
-    "candidates_found": 58,
-    "gemini_requests_attempted": 11,
-    "gemini_requests_succeeded": 11,
-    "stories_carried_forward": 4,
-    "candidates_skipped_recently_evaluated": 9,
+    "providers_succeeded": 27,
+    "candidates_found": 53,
+    "gemini_requests_attempted": 5,
+    "gemini_requests_succeeded": 5,
+    "stories_carried_forward": 6,
+    "candidates_skipped_recently_evaluated": 18,
     "minimum_score": 60,
     "ready_score": 80
   }
