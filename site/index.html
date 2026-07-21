@@ -1,502 +1,1060 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Next Wave Partners Portfolio Newsroom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#0f2b44">
+  <title>Portfolio Newsroom · Next Wave Partners</title>
+  <meta name="description" content="Next Wave Partners portfolio-company news and LinkedIn drafting dashboard.">
   <style>
     :root {
-      --bg: #f4f7fb;
+      --navy: #0f2b44;
+      --navy-2: #173f60;
+      --teal: #0a7a6e;
+      --teal-dark: #086257;
+      --teal-soft: #e8f4f2;
+      --ink: #1d1d1f;
+      --muted: #6e6e73;
+      --faint: #8a8a90;
       --surface: #ffffff;
-      --surface-2: #fbfcfe;
-      --line: #e4ebf4;
-      --text: #102033;
-      --muted: #62758b;
-      --accent: #175b7a;
-      --accent-2: #eaf4fb;
-      --good: #1f6b3f;
-      --warn: #9b5f00;
-      --shadow: 0 10px 28px rgba(20, 42, 67, 0.08);
-      --radius: 20px;
+      --background: #f4f5f7;
+      --line: rgba(15, 43, 68, 0.10);
+      --amber: #9a6a00;
+      --amber-soft: #fff6dc;
+      --red: #a63d40;
+      --red-soft: #fdecec;
+      --green: #1f7a4c;
+      --green-soft: #eaf6ef;
+      --shadow: 0 12px 32px rgba(15, 43, 68, 0.10);
+      --shadow-soft: 0 2px 12px rgba(15, 43, 68, 0.06);
+      --radius: 18px;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      --mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
     }
+
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
-      margin: 0; background: var(--bg); color: var(--text);
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
-    a { color: inherit; }
-    .wrap { max-width: 1300px; margin: 0 auto; padding: 24px; }
+    button, input, select, textarea { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    a { color: var(--teal-dark); }
+    .hidden { display: none !important; }
+    :focus-visible { outline: 3px solid rgba(10, 122, 110, 0.35); outline-offset: 2px; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(15, 43, 68, 0.94);
+      backdrop-filter: blur(18px);
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .topbar-inner {
+      width: min(1220px, calc(100% - 36px));
+      margin: 0 auto;
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      min-width: 0;
+    }
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: rgba(255, 255, 255, 0.10);
+      flex: none;
+    }
+    .brand-mark svg { width: 28px; height: 28px; }
+    .brand-copy { min-width: 0; }
+    .brand-name { font-size: 0.95rem; font-weight: 720; letter-spacing: -0.01em; }
+    .brand-sub { font-size: 0.78rem; color: rgba(255, 255, 255, 0.68); }
+    .updated-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.09);
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 0.78rem;
+      white-space: nowrap;
+    }
+    .updated-pill::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #76d6c7;
+      box-shadow: 0 0 0 4px rgba(118, 214, 199, 0.12);
+    }
+
     .hero {
-      background: linear-gradient(135deg, #fff, #eef4ff);
-      border: 1px solid var(--line); border-radius: 28px; padding: 22px 24px;
-      box-shadow: var(--shadow); margin-bottom: 18px;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(150deg, var(--navy-2), var(--navy) 62%, #0b2034);
+      color: #fff;
+      padding: 54px 0 76px;
     }
-    .hero-top { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; }
-    .eyebrow { text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-size: 12px; font-weight: 700; }
-    h1 { margin: 6px 0 10px; font-size: clamp(26px, 4vw, 40px); line-height: 1.05; }
-    .hero p { margin: 0; color: var(--muted); }
-    .pillrow { display:flex; gap:8px; flex-wrap:wrap; margin-top: 14px; }
-    .pill { display:inline-flex; align-items:center; gap:6px; padding: 8px 10px; border-radius: 999px; background: var(--accent-2); color: var(--accent); font-size: 12px; font-weight: 700; }
-    .toolbar {
-      display:grid; grid-template-columns: 1.4fr 0.8fr 0.8fr 0.7fr; gap: 12px;
-      margin-bottom: 16px;
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 520px;
+      height: 520px;
+      right: -120px;
+      bottom: -350px;
+      border: 1px solid rgba(126, 183, 215, 0.28);
+      border-radius: 50%;
+      box-shadow:
+        0 -38px 0 rgba(91, 143, 176, 0.08),
+        0 -76px 0 rgba(91, 143, 176, 0.06),
+        0 -114px 0 rgba(91, 143, 176, 0.04);
     }
-    .toolbar input, .toolbar select {
-      width: 100%; border: 1px solid var(--line); border-radius: 16px; padding: 14px 14px;
-      background: var(--surface); color: var(--text); box-shadow: 0 2px 10px rgba(20,42,67,.04);
-      font: inherit;
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1220px, calc(100% - 36px));
+      margin: 0 auto;
     }
-    .results { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
-    .company { margin-bottom: 18px; background: rgba(255,255,255,0.55); border: 1px solid rgba(15,43,68,0.08); border-radius: 24px; box-shadow: var(--shadow); overflow: hidden; }
-    .company-head { display:flex; justify-content:space-between; align-items:center; gap: 10px; padding: 18px 20px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(245,247,250,0.96)); }
-    .company-head h2 { margin: 0; font-size: 20px; }
-    .company-head small { color: var(--muted); }
-    .section { padding: 16px 20px 6px; }
-    .section h3 { margin: 0 0 12px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-    .grid { display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-    .card {
-      background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 16px;
-      box-shadow: 0 2px 10px rgba(20,42,67,.05); min-height: 240px; display:flex; flex-direction:column; gap: 10px;
-      transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; cursor: pointer;
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a8d8d1;
     }
-    .card:hover { transform: translateY(-2px); box-shadow: 0 12px 24px rgba(20,42,67,.09); border-color: rgba(23,91,122,.24); }
-    .card .top { display:flex; align-items:flex-start; justify-content:space-between; gap: 10px; }
-    .badge { display:inline-flex; align-items:center; padding: 5px 8px; border-radius: 999px; background: var(--accent-2); color: var(--accent); font-size: 11px; font-weight: 700; }
-    .badge.good { background: #eef8f1; color: var(--good); }
-    .badge.warn { background: #fff6e8; color: var(--warn); }
-    .card h4 { margin: 0; font-size: 16px; line-height: 1.35; }
-    .meta { color: var(--muted); font-size: 12px; margin: 0; }
-    .summary, .why { margin: 0; font-size: 14px; line-height: 1.55; }
-    .why { color: #39536d; }
-    .card footer { margin-top: auto; display:flex; justify-content:space-between; gap: 10px; align-items:center; font-size: 12px; color: var(--muted); }
-    .empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 20px; padding: 28px; color: var(--muted); }
+    .hero h1 {
+      margin: 12px 0 10px;
+      max-width: 760px;
+      font-size: clamp(2rem, 5vw, 3.35rem);
+      line-height: 1.06;
+      letter-spacing: -0.035em;
+    }
+    .hero p {
+      max-width: 720px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.74);
+      font-size: 1rem;
+    }
+
+    .shell {
+      width: min(1220px, calc(100% - 36px));
+      margin: -34px auto 56px;
+      position: relative;
+      z-index: 3;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-soft);
+    }
+    .stat-label { color: var(--muted); font-size: 0.76rem; font-weight: 650; }
+    .stat-value { margin-top: 4px; font-size: 1.75rem; font-weight: 760; letter-spacing: -0.03em; }
+    .stat-note { margin-top: 2px; color: var(--faint); font-size: 0.72rem; }
+
+    .controls {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+      padding: 14px;
+      display: grid;
+      grid-template-columns: minmax(240px, 1.7fr) repeat(3, minmax(150px, 0.8fr));
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    .search-wrap { position: relative; }
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--faint);
+      pointer-events: none;
+    }
+    .control {
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .search-input { padding-left: 42px; }
+    .control:focus { border-color: rgba(10, 122, 110, 0.55); outline: 3px solid rgba(10, 122, 110, 0.11); }
+
+    .status-tabs {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin: 0 0 18px;
+    }
+    .status-tab {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      border-radius: 999px;
+      padding: 9px 14px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 650;
+      box-shadow: 0 1px 3px rgba(15, 43, 68, 0.03);
+    }
+    .status-tab:hover { color: var(--ink); border-color: rgba(15, 43, 68, 0.18); }
+    .status-tab.active { background: var(--teal); border-color: var(--teal); color: #fff; }
+
+    .results-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .results-head h2 { margin: 0; font-size: 1.05rem; letter-spacing: -0.01em; }
+    .results-head p { margin: 0; color: var(--muted); font-size: 0.8rem; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 15px;
+    }
+    .story-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-height: 300px;
+      padding: 19px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .story-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: rgba(10, 122, 110, 0.25); }
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+    .company { font-size: 0.72rem; color: var(--teal-dark); font-weight: 760; text-transform: uppercase; letter-spacing: 0.05em; }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .status-ready { color: var(--green); background: var(--green-soft); }
+    .status-needs_review { color: var(--amber); background: var(--amber-soft); }
+    .status-used { color: var(--teal-dark); background: var(--teal-soft); }
+    .status-discarded { color: var(--red); background: var(--red-soft); }
+    .story-title { margin: 0; font-size: 1.05rem; line-height: 1.32; letter-spacing: -0.015em; }
+    .story-summary {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.83rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .meta { display: flex; gap: 8px; flex-wrap: wrap; color: var(--faint); font-size: 0.72rem; }
+    .score-row { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .score-block { flex: 1; }
+    .score-copy { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: 0.7rem; color: var(--muted); }
+    .score-copy strong { color: var(--ink); font-size: 0.82rem; }
+    .score-track { height: 6px; border-radius: 999px; background: #edf0f2; overflow: hidden; margin-top: 6px; }
+    .score-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--teal), #4aa89b); }
+    .review-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 9px 13px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 0.77rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .review-btn:hover { background: var(--navy-2); }
+    .shortlist-mark {
+      position: absolute;
+      right: 17px;
+      bottom: 66px;
+      font-size: 1rem;
+      color: #b8860b;
+    }
+
+    .empty {
+      padding: 48px 24px;
+      text-align: center;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+    .empty h3 { margin: 0 0 6px; }
+    .empty p { margin: 0; color: var(--muted); }
+
+    .footer {
+      width: min(1220px, calc(100% - 36px));
+      margin: 0 auto 40px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--faint);
+      font-size: 0.74rem;
+    }
+    .link-button {
+      border: 0;
+      padding: 0;
+      background: none;
+      color: var(--teal-dark);
+      font-size: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .overlay {
-      position: fixed; inset: 0; background: rgba(10,20,30,.45); display: none; align-items: flex-end; justify-content: flex-end; z-index: 50;
+      position: fixed;
+      inset: 0;
+      z-index: 80;
+      display: none;
+      justify-content: flex-end;
+      background: rgba(11, 24, 38, 0.48);
+      backdrop-filter: blur(4px);
     }
     .overlay.open { display: flex; }
     .drawer {
-      width: min(720px, 100%); height: 100%; background: var(--surface); box-shadow: -20px 0 40px rgba(10,20,30,.2);
-      display:flex; flex-direction:column;
+      width: min(780px, 100%);
+      height: 100%;
+      overflow-y: auto;
+      background: #fff;
+      box-shadow: -20px 0 55px rgba(0, 0, 0, 0.20);
+      animation: drawer-in 210ms ease-out;
     }
-    .drawer-head { padding: 20px; border-bottom: 1px solid var(--line); display:flex; justify-content:space-between; gap: 10px; align-items:start; }
-    .drawer-head h2 { margin: 0 0 8px; font-size: 24px; }
-    .drawer-head .sub { color: var(--muted); font-size: 13px; }
-    .drawer-body { padding: 18px 20px 24px; overflow:auto; display:flex; flex-direction:column; gap: 14px; }
-    .drawer-box { border: 1px solid var(--line); border-radius: 18px; padding: 16px; background: var(--surface-2); }
-    .drawer-box h3 { margin: 0 0 10px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
-    .drawer-box p, .drawer-box li { margin: 0; line-height: 1.6; font-size: 14px; }
-    .drawer-box ul { margin: 0; padding-left: 18px; display:flex; flex-direction:column; gap: 8px; }
-    .drawer-actions { display:flex; gap: 10px; flex-wrap:wrap; }
-    .btn { border: 1px solid var(--line); background: var(--surface); color: var(--text); padding: 10px 12px; border-radius: 12px; font: inherit; cursor: pointer; }
-    .btn.primary { background: var(--accent); color: white; border-color: var(--accent); }
-    .btn.good { background: #eef8f1; color: var(--good); }
-    .btn.warn { background: #fff6e8; color: var(--warn); }
-    .draft-tabs { display:flex; gap: 8px; flex-wrap:wrap; }
-    .draft-tabs button.active { background: var(--accent); color: white; border-color: var(--accent); }
-    textarea { width: 100%; min-height: 180px; border: 1px solid var(--line); border-radius: 14px; padding: 12px; font: inherit; line-height: 1.5; resize: vertical; }
-    @media (max-width: 1100px) { .toolbar { grid-template-columns: 1fr 1fr; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 760px) { .toolbar { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } .wrap { padding: 14px; } .drawer { width: 100%; } }
+    @keyframes drawer-in { from { transform: translateX(26px); opacity: 0.6; } to { transform: translateX(0); opacity: 1; } }
+    .drawer-head {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 22px 24px 18px;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+    }
+    .drawer-head h2 { margin: 5px 0 5px; font-size: 1.35rem; line-height: 1.25; letter-spacing: -0.02em; }
+    .drawer-meta { color: var(--muted); font-size: 0.78rem; }
+    .close-btn {
+      border: 0;
+      background: #f0f2f4;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      font-size: 1.35rem;
+      color: var(--muted);
+      flex: none;
+    }
+    .drawer-body { padding: 22px 24px 42px; display: grid; gap: 18px; }
+    .panel { border: 1px solid var(--line); border-radius: 15px; padding: 17px; background: #fff; }
+    .panel h3 { margin: 0 0 10px; font-size: 0.82rem; }
+    .panel p { margin: 0; color: var(--muted); font-size: 0.84rem; }
+    .facts, .warnings { margin: 0; padding-left: 18px; color: var(--muted); font-size: 0.83rem; }
+    .facts li, .warnings li { margin: 7px 0; }
+    .warnings:empty::after { content: "No warnings were generated."; color: var(--faint); }
+    .source-link { display: inline-flex; margin-top: 11px; font-size: 0.8rem; font-weight: 700; }
+
+    .draft-panel { padding: 0; overflow: hidden; }
+    .draft-tabs { display: flex; gap: 4px; padding: 10px; border-bottom: 1px solid var(--line); background: #f8f9fa; }
+    .draft-tab {
+      border: 0;
+      background: transparent;
+      border-radius: 999px;
+      padding: 8px 12px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+    }
+    .draft-tab.active { background: #fff; color: var(--teal-dark); box-shadow: 0 1px 4px rgba(15, 43, 68, 0.10); }
+    .editor-wrap { padding: 14px; }
+    .editor {
+      width: 100%;
+      min-height: 300px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      font: 0.88rem/1.6 var(--sans);
+      background: #fbfbfc;
+    }
+    .editor:focus { background: #fff; border-color: rgba(10, 122, 110, 0.55); outline: 3px solid rgba(10, 122, 110, 0.11); }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .action-btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      background: #eef0f2;
+    }
+    .action-btn.primary { background: var(--teal); color: #fff; }
+    .action-btn.primary:hover { background: var(--teal-dark); }
+    .action-btn.dark { background: var(--navy); color: #fff; }
+    .action-btn.danger { background: var(--red-soft); color: var(--red); }
+    .drawer-status { min-height: 1.2rem; margin-top: 9px; color: var(--teal-dark); font-size: 0.76rem; }
+
+    @media (max-width: 980px) {
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .controls { grid-template-columns: 1fr 1fr; }
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 660px) {
+      .topbar-inner, .hero-inner, .shell, .footer { width: min(100% - 24px, 1220px); }
+      .brand-sub { display: none; }
+      .updated-pill { max-width: 48%; overflow: hidden; text-overflow: ellipsis; }
+      .hero { padding: 42px 0 64px; }
+      .stats { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .stat { padding: 15px; }
+      .controls { grid-template-columns: 1fr; }
+      .cards { grid-template-columns: 1fr; }
+      .story-card { min-height: 270px; }
+      .drawer-head, .drawer-body { padding-left: 16px; padding-right: 16px; }
+      .footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+    }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="hero">
-      <div class="hero-top">
-        <div>
-          <div class="eyebrow">Next Wave Partners portfolio newsroom</div>
-          <h1 id="title">Loading portfolio signals…</h1>
-          <p id="subtitle">Company, market, supply chain, and other signals will appear here.</p>
-        </div>
-        <div class="pillrow" id="pillrow"></div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand" aria-label="Next Wave Partners Portfolio Newsroom">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 39c8-9 16-9 24 0s16 9 24 0" stroke="#76d6c7" stroke-width="5" stroke-linecap="round"/>
+            <path d="M10 25c8-9 16-9 24 0s16 9 24 0" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <span class="brand-name">Next Wave Partners</span><br>
+          <span class="brand-sub">Portfolio Newsroom</span>
+        </span>
       </div>
+      <div class="updated-pill" id="updatedPill">Loading latest refresh…</div>
     </div>
+  </header>
 
-    <div class="toolbar">
-      <input id="search" placeholder="Search stories, topics, sources, or companies" />
-      <select id="company"><option value="">All companies</option></select>
-      <select id="section"><option value="">All sections</option></select>
-      <select id="sort">
-        <option value="score">Sort by score</option>
-        <option value="recent">Sort by recent</option>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Portfolio communications</div>
+      <h1>Find the stories worth sharing.</h1>
+      <p>Review recent portfolio-company news, check the supporting facts and prepare measured LinkedIn copy for the Next Wave Partners page.</p>
+    </div>
+  </section>
+
+  <main class="shell">
+    <section class="stats" aria-label="Newsroom summary">
+      <article class="stat">
+        <div class="stat-label">Stories found</div>
+        <div class="stat-value" id="statTotal">0</div>
+        <div class="stat-note">Within the current lookback window</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Ready to post</div>
+        <div class="stat-value" id="statReady">0</div>
+        <div class="stat-note">High-confidence stories with no warnings</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Needs review</div>
+        <div class="stat-value" id="statReview">0</div>
+        <div class="stat-note">Check relevance or supporting claims</div>
+      </article>
+      <article class="stat">
+        <div class="stat-label">Average score</div>
+        <div class="stat-value" id="statScore">0</div>
+        <div class="stat-note">Across currently visible stories</div>
+      </article>
+    </section>
+
+    <section class="controls" aria-label="Search and filters">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="8.5" cy="8.5" r="5.8" stroke="currentColor" stroke-width="1.6"/>
+          <path d="m13 13 4.2 4.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input class="control search-input" id="searchInput" type="search" placeholder="Search companies, headlines or themes" autocomplete="off">
+      </div>
+      <select class="control" id="companyFilter" aria-label="Filter by portfolio company">
+        <option value="">All companies</option>
       </select>
+      <select class="control" id="typeFilter" aria-label="Filter by story type">
+        <option value="">All story types</option>
+      </select>
+      <select class="control" id="sortSelect" aria-label="Sort stories">
+        <option value="score">Highest score</option>
+        <option value="newest">Newest first</option>
+        <option value="company">Company A-Z</option>
+      </select>
+    </section>
+
+    <nav class="status-tabs" aria-label="Filter by review status">
+      <button class="status-tab active" type="button" data-status="all">All stories</button>
+      <button class="status-tab" type="button" data-status="ready">Ready to post</button>
+      <button class="status-tab" type="button" data-status="needs_review">Needs review</button>
+      <button class="status-tab" type="button" data-status="used">Used</button>
+      <button class="status-tab" type="button" data-status="discarded">Discarded</button>
+      <button class="status-tab" type="button" data-status="shortlisted">Shortlisted</button>
+    </nav>
+
+    <div class="results-head">
+      <div>
+        <h2 id="resultsTitle">Latest stories</h2>
+        <p id="resultsSummary">Loading portfolio news…</p>
+      </div>
     </div>
 
-    <p class="results" id="results">Loading…</p>
-    <div id="content"></div>
-    <div class="empty" id="empty" hidden>
-      <strong>No stories matched.</strong><br />
-      Try a different search or filter.
-    </div>
-  </div>
+    <section class="cards" id="cards" aria-live="polite"></section>
+    <section class="empty hidden" id="emptyState">
+      <h3>No matching stories</h3>
+      <p>Try clearing a filter or running the news refresh workflow again.</p>
+    </section>
+  </main>
 
-  <div class="overlay" id="overlay" aria-hidden="true">
-    <div class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-      <div class="drawer-head">
+  <footer class="footer">
+    <span>Generated copy is a draft. Verify the original article, names, figures and claims before publishing.</span>
+    <button class="link-button" id="clearLocalButton" type="button">Clear local edits and statuses</button>
+  </footer>
+
+  <div class="overlay" id="storyOverlay" aria-hidden="true">
+    <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+      <header class="drawer-head">
         <div>
-          <div class="badge" id="drawerBadge">Company updates</div>
-          <h2 id="drawerTitle">Story</h2>
-          <div class="sub" id="drawerMeta"></div>
+          <div class="company" id="drawerCompany"></div>
+          <h2 id="drawerTitle"></h2>
+          <div class="drawer-meta" id="drawerMeta"></div>
         </div>
-        <button class="btn" id="closeDrawer">Close</button>
-      </div>
+        <button class="close-btn" id="closeDrawer" type="button" aria-label="Close story">×</button>
+      </header>
+
       <div class="drawer-body">
-        <div class="drawer-box">
-          <h3>Why this matters</h3>
+        <section class="panel">
+          <h3>Why it may be worth sharing</h3>
           <p id="drawerWhy"></p>
-        </div>
-        <div class="drawer-box">
+          <a class="source-link" id="drawerLink" href="#" target="_blank" rel="noopener noreferrer">Open original article ↗</a>
+        </section>
+
+        <section class="panel">
           <h3>Verified facts</h3>
-          <ul id="drawerFacts"></ul>
-        </div>
-        <div class="drawer-box">
-          <h3>Warnings</h3>
-          <ul id="drawerWarnings"></ul>
-        </div>
-        <div class="drawer-box">
-          <h3>Draft</h3>
-          <div class="draft-tabs">
-            <button class="btn active" data-draft="concise">Concise</button>
-            <button class="btn" data-draft="investor">Investor</button>
-            <button class="btn" data-draft="people">People</button>
+          <ul class="facts" id="drawerFacts"></ul>
+        </section>
+
+        <section class="panel">
+          <h3>Warnings and checks</h3>
+          <ul class="warnings" id="drawerWarnings"></ul>
+        </section>
+
+        <section class="panel draft-panel">
+          <div class="draft-tabs" role="tablist" aria-label="Draft versions">
+            <button class="draft-tab active" type="button" data-draft="concise">Concise</button>
+            <button class="draft-tab" type="button" data-draft="investor">Investor perspective</button>
+            <button class="draft-tab" type="button" data-draft="people">People-led</button>
           </div>
-          <textarea id="draftEditor"></textarea>
-          <div class="drawer-actions">
-            <button class="btn primary" id="copyDraft">Copy draft</button>
-            <button class="btn good" id="toggleUsed">Mark used</button>
-            <button class="btn warn" id="toggleDiscard">Discard</button>
-            <button class="btn" id="resetDraft">Reset draft</button>
+          <div class="editor-wrap">
+            <textarea class="editor" id="draftEditor" aria-label="Editable LinkedIn draft"></textarea>
+            <div class="actions">
+              <button class="action-btn primary" id="copyButton" type="button">Copy post</button>
+              <button class="action-btn" id="shortlistButton" type="button">Shortlist</button>
+              <button class="action-btn dark" id="usedButton" type="button">Mark used</button>
+              <button class="action-btn danger" id="discardButton" type="button">Discard</button>
+              <button class="action-btn" id="resetDraftButton" type="button">Reset draft</button>
+            </div>
+            <div class="drawer-status" id="drawerStatus" role="status"></div>
           </div>
-          <p class="sub" id="drawerStatus"></p>
-        </div>
-        <div class="drawer-box">
-          <h3>Open source</h3>
-          <p><a id="drawerLink" href="#" target="_blank" rel="noreferrer">Open the article</a></p>
-        </div>
+        </section>
       </div>
-    </div>
+    </aside>
   </div>
 
   <script>
-    const DATA_URL = "site/data/news.json";
-    const STORAGE_KEY = "nwp-portfolio-newsroom-v2";
+    "use strict";
+
+    const DATA_URL = "./data/news.json";
+    const STORAGE_KEY = "nwpPortfolioNewsroomV1";
 
     const state = {
-      data: null,
       stories: [],
-      filtered: [],
-      sectionOrder: ["company", "market", "supply_chain", "customers_partners", "leadership", "regulatory", "funding_mna", "other"],
-      sectionLabels: {},
+      generatedAt: null,
+      activeStatus: "all",
       activeStoryId: null,
       activeDraft: "concise",
-      local: JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"),
+      local: loadLocalState()
     };
 
-    const el = {
-      title: document.getElementById("title"),
-      subtitle: document.getElementById("subtitle"),
-      pillrow: document.getElementById("pillrow"),
-      search: document.getElementById("search"),
-      company: document.getElementById("company"),
-      section: document.getElementById("section"),
-      sort: document.getElementById("sort"),
-      results: document.getElementById("results"),
-      content: document.getElementById("content"),
-      empty: document.getElementById("empty"),
-      overlay: document.getElementById("overlay"),
+    const elements = {
+      cards: document.getElementById("cards"),
+      empty: document.getElementById("emptyState"),
+      search: document.getElementById("searchInput"),
+      company: document.getElementById("companyFilter"),
+      type: document.getElementById("typeFilter"),
+      sort: document.getElementById("sortSelect"),
+      updated: document.getElementById("updatedPill"),
+      resultsSummary: document.getElementById("resultsSummary"),
+      statTotal: document.getElementById("statTotal"),
+      statReady: document.getElementById("statReady"),
+      statReview: document.getElementById("statReview"),
+      statScore: document.getElementById("statScore"),
+      overlay: document.getElementById("storyOverlay"),
       closeDrawer: document.getElementById("closeDrawer"),
+      drawerCompany: document.getElementById("drawerCompany"),
       drawerTitle: document.getElementById("drawerTitle"),
       drawerMeta: document.getElementById("drawerMeta"),
       drawerWhy: document.getElementById("drawerWhy"),
+      drawerLink: document.getElementById("drawerLink"),
       drawerFacts: document.getElementById("drawerFacts"),
       drawerWarnings: document.getElementById("drawerWarnings"),
-      drawerLink: document.getElementById("drawerLink"),
-      drawerBadge: document.getElementById("drawerBadge"),
-      draftEditor: document.getElementById("draftEditor"),
-      copyDraft: document.getElementById("copyDraft"),
-      toggleUsed: document.getElementById("toggleUsed"),
-      toggleDiscard: document.getElementById("toggleDiscard"),
-      resetDraft: document.getElementById("resetDraft"),
+      editor: document.getElementById("draftEditor"),
+      copy: document.getElementById("copyButton"),
+      shortlist: document.getElementById("shortlistButton"),
+      used: document.getElementById("usedButton"),
+      discard: document.getElementById("discardButton"),
+      resetDraft: document.getElementById("resetDraftButton"),
       drawerStatus: document.getElementById("drawerStatus"),
+      clearLocal: document.getElementById("clearLocalButton")
     };
 
-    function esc(value) {
-      return String(value || "");
+    function loadLocalState() {
+      try {
+        const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+        return stored && typeof stored === "object" ? stored : {};
+      } catch (error) {
+        console.warn("Could not read local newsroom state", error);
+        return {};
+      }
     }
 
-    function parseDate(value) {
-      const d = new Date(value);
-      return Number.isNaN(d.getTime()) ? null : d;
-    }
-
-    function formatDate(value) {
-      const d = parseDate(value);
-      return d ? d.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }) : "Unknown date";
-    }
-
-    function storySortValue(story) {
-      const dt = parseDate(story.published_at) || new Date(0);
-      return [Number(story.score || 0), dt.getTime()];
-    }
-
-    function localFor(id) {
-      if (!state.local[id]) state.local[id] = { shortlist: false, status: "new", drafts: {}, selectedDraft: "concise" };
-      return state.local[id];
-    }
-
-    function saveLocal() {
+    function saveLocalState() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state.local));
     }
 
-    function sectionLabel(section) {
-      return state.sectionLabels[section] || section.replace(/_/g, " ");
-    }
-
-    function storySection(story) {
-      return story.section || "company";
-    }
-
-    function buildPills() {
-      const summary = state.data?.run_summary || {};
-      const items = [];
-      if (summary.companies_checked != null) items.push(`${summary.companies_checked} companies`);
-      if (summary.providers_succeeded != null) items.push(`${summary.providers_succeeded} provider hits`);
-      if (summary.grounding_drops != null) items.push(`${summary.grounding_drops} grounding drops`);
-      if (summary.blog_fallbacks_added != null) items.push(`${summary.blog_fallbacks_added} fallbacks`);
-      el.pillrow.innerHTML = items.map((t) => `<span class="pill">${esc(t)}</span>`).join("");
-    }
-
-    function loadData() {
-      return fetch(DATA_URL, { cache: "no-store" })
-        .then((r) => {
-          if (!r.ok) throw new Error(`HTTP ${r.status}`);
-          return r.json();
-        })
-        .then((data) => {
-          state.data = data;
-          state.stories = Array.isArray(data.stories) ? data.stories.filter((s) => s && s.id) : [];
-          state.sectionOrder = Array.isArray(data.section_order) && data.section_order.length ? data.section_order : state.sectionOrder;
-          state.sectionLabels = data.section_labels && typeof data.section_labels === "object" ? data.section_labels : {};
-          buildFilters();
-          buildPills();
-          el.title.textContent = `${state.stories.length} signals across ${new Set(state.stories.map((s) => s.company)).size} companies`;
-          el.subtitle.textContent = data.generated_at ? `Updated ${formatDate(data.generated_at)}. Click a card to inspect the source and drafts.` : "Updated recently. Click a card to inspect the source and drafts.";
-          render();
-        })
-        .catch((error) => {
-          console.error(error);
-          el.title.textContent = "Portfolio newsroom could not load";
-          el.subtitle.textContent = "Check site/data/news.json and serve the site over HTTP.";
-          el.results.textContent = "The feed failed to load.";
-          el.empty.hidden = false;
-        });
-    }
-
-    function buildFilters() {
-      const companies = [...new Set(state.stories.map((s) => s.company).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-      el.company.innerHTML = '<option value="">All companies</option>' + companies.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
-      el.section.innerHTML = '<option value="">All sections</option>' + state.sectionOrder.map((s) => `<option value="${esc(s)}">${esc(sectionLabel(s))}</option>`).join("");
-    }
-
-    function filteredStories() {
-      const q = el.search.value.trim().toLowerCase();
-      const company = el.company.value;
-      const section = el.section.value;
-      let stories = state.stories.slice();
-      if (company) stories = stories.filter((s) => s.company === company);
-      if (section) stories = stories.filter((s) => storySection(s) === section);
-      if (q) {
-        stories = stories.filter((s) => {
-          const hay = [s.company, s.title, s.source, s.summary, s.why_it_matters, s.story_type, s.section_label, ...(s.match_reasons || []), ...(s.warnings || [])].join(" ").toLowerCase();
-          return hay.includes(q);
-        });
+    function storyLocal(storyId) {
+      if (!state.local[storyId]) {
+        state.local[storyId] = {
+          status: null,
+          shortlisted: false,
+          selectedDraft: "concise",
+          editedDrafts: {}
+        };
       }
-      if (el.sort.value === "recent") {
-        stories.sort((a, b) => (parseDate(b.published_at)?.getTime() || 0) - (parseDate(a.published_at)?.getTime() || 0));
-      } else {
-        stories.sort((a, b) => (Number(b.score || 0) - Number(a.score || 0)) || ((parseDate(b.published_at)?.getTime() || 0) - (parseDate(a.published_at)?.getTime() || 0)));
-      }
-      return stories;
+      return state.local[storyId];
     }
 
-    function renderCard(story) {
-      const local = localFor(story.id);
-      const card = document.createElement("article");
-      card.className = "card";
-      card.tabIndex = 0;
-      card.innerHTML = `
-        <div class="top">
-          <span class="badge">${esc(story.section_label || sectionLabel(storySection(story)))}</span>
-          <span class="badge ${Number(story.score || 0) >= 80 ? 'good' : Number(story.score || 0) >= 60 ? '' : 'warn'}">${Number(story.score || 0)}/100</span>
-        </div>
-        <h4>${esc(story.title || 'Untitled')}</h4>
-        <p class="meta">${esc(story.source || story.discovered_via || 'Unknown source')} · ${esc(formatDate(story.published_at))} · ${esc(story.story_type || 'Update')}</p>
-        <p class="summary">${esc(story.summary || '')}</p>
-        <p class="why">${esc(story.why_it_matters || '')}</p>
-        <footer><span>${local.status === 'used' ? 'Used' : local.status === 'discarded' ? 'Discarded' : 'New'}</span><span>${local.shortlist ? 'Shortlisted' : ''}</span></footer>
-      `;
-      card.addEventListener('click', () => openStory(story.id));
-      card.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openStory(story.id); } });
-      return card;
+    function effectiveStatus(story) {
+      return storyLocal(story.id).status || story.status || "needs_review";
+    }
+
+    function parseDate(value) {
+      if (!value) return null;
+
+      const gdelt = /^(\d{4})(\d{2})(\d{2})T?(\d{2})?(\d{2})?(\d{2})?Z?$/.exec(String(value));
+      if (gdelt) {
+        const [, year, month, day, hour = "00", minute = "00", second = "00"] = gdelt;
+        const parsed = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}Z`);
+        return Number.isNaN(parsed.getTime()) ? null : parsed;
+      }
+
+      const parsed = new Date(value);
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    }
+
+    function formatDate(value, includeTime = false) {
+      const date = parseDate(value);
+      if (!date) return "Date unavailable";
+      const options = includeTime
+        ? { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }
+        : { day: "numeric", month: "short", year: "numeric" };
+      return new Intl.DateTimeFormat("en-GB", options).format(date);
+    }
+
+    function normalise(value) {
+      return String(value || "").toLowerCase().trim();
+    }
+
+    function statusLabel(status) {
+      return {
+        ready: "Ready to post",
+        needs_review: "Needs review",
+        used: "Used",
+        discarded: "Discarded"
+      }[status] || "Needs review";
+    }
+
+    function getDraft(story, draftType) {
+      const local = storyLocal(story.id);
+      return local.editedDrafts[draftType] ?? story.drafts?.[draftType] ?? "";
+    }
+
+    function fillSelect(select, values) {
+      const first = select.options[0];
+      select.innerHTML = "";
+      select.append(first);
+      values.forEach((value) => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.append(option);
+      });
+    }
+
+    function populateFilters() {
+      const companies = [...new Set(state.stories.map((story) => story.company).filter(Boolean))].sort();
+      const types = [...new Set(state.stories.map((story) => story.story_type).filter(Boolean))].sort();
+      fillSelect(elements.company, companies);
+      fillSelect(elements.type, types);
+    }
+
+    function visibleStories() {
+      const query = normalise(elements.search.value);
+      const company = elements.company.value;
+      const type = elements.type.value;
+
+      const filtered = state.stories.filter((story) => {
+        const local = storyLocal(story.id);
+        const status = effectiveStatus(story);
+        const statusMatch = state.activeStatus === "all"
+          || (state.activeStatus === "shortlisted" && local.shortlisted)
+          || status === state.activeStatus;
+
+        const queryText = normalise([
+          story.company,
+          story.title,
+          story.summary,
+          story.story_type,
+          story.source,
+          story.why_it_matters
+        ].join(" "));
+
+        return statusMatch
+          && (!query || queryText.includes(query))
+          && (!company || story.company === company)
+          && (!type || story.story_type === type);
+      });
+
+      const sort = elements.sort.value;
+      filtered.sort((a, b) => {
+        if (sort === "company") return String(a.company).localeCompare(String(b.company));
+        if (sort === "newest") return (parseDate(b.published_at)?.getTime() || 0) - (parseDate(a.published_at)?.getTime() || 0);
+        return Number(b.score || 0) - Number(a.score || 0);
+      });
+
+      return filtered;
+    }
+
+    function updateStats(stories) {
+      const all = state.stories;
+      const ready = all.filter((story) => effectiveStatus(story) === "ready").length;
+      const review = all.filter((story) => effectiveStatus(story) === "needs_review").length;
+      const average = stories.length
+        ? Math.round(stories.reduce((sum, story) => sum + Number(story.score || 0), 0) / stories.length)
+        : 0;
+
+      elements.statTotal.textContent = all.length;
+      elements.statReady.textContent = ready;
+      elements.statReview.textContent = review;
+      elements.statScore.textContent = average;
+      elements.resultsSummary.textContent = `${stories.length} ${stories.length === 1 ? "story" : "stories"} shown`;
     }
 
     function render() {
-      const stories = filteredStories();
-      state.filtered = stories;
-      el.empty.hidden = stories.length > 0;
-      el.results.textContent = `${stories.length} story${stories.length === 1 ? '' : 'ies'} visible`;
-      const groups = new Map();
+      const stories = visibleStories();
+      elements.cards.innerHTML = "";
+      elements.empty.classList.toggle("hidden", stories.length > 0);
+
       stories.forEach((story) => {
-        const company = story.company || 'Unknown company';
-        if (!groups.has(company)) groups.set(company, new Map());
-        const sec = storySection(story);
-        const companyMap = groups.get(company);
-        if (!companyMap.has(sec)) companyMap.set(sec, []);
-        companyMap.get(sec).push(story);
-      });
-      el.content.innerHTML = '';
-      for (const [company, sections] of groups.entries()) {
-        const wrap = document.createElement('section');
-        wrap.className = 'company';
-        const head = document.createElement('div');
-        head.className = 'company-head';
-        head.innerHTML = `<div><h2>${esc(company)}</h2><small>${[...sections.values()].reduce((n, arr) => n + arr.length, 0)} stories</small></div>`;
-        wrap.appendChild(head);
-        state.sectionOrder.forEach((section) => {
-          const items = sections.get(section);
-          if (!items || !items.length) return;
-          const sec = document.createElement('div');
-          sec.className = 'section';
-          sec.innerHTML = `<h3>${esc(sectionLabel(section))}</h3>`;
-          const grid = document.createElement('div');
-          grid.className = 'grid';
-          items.forEach((story) => grid.appendChild(renderCard(story)));
-          sec.appendChild(grid);
-          wrap.appendChild(sec);
-        });
-        // Any unknown sections get appended at the end.
-        for (const [section, items] of sections.entries()) {
-          if (state.sectionOrder.includes(section)) continue;
-          const sec = document.createElement('div');
-          sec.className = 'section';
-          sec.innerHTML = `<h3>${esc(sectionLabel(section))}</h3>`;
-          const grid = document.createElement('div');
-          grid.className = 'grid';
-          items.forEach((story) => grid.appendChild(renderCard(story)));
-          sec.appendChild(grid);
-          wrap.appendChild(sec);
+        const local = storyLocal(story.id);
+        const status = effectiveStatus(story);
+        const card = document.createElement("article");
+        card.className = "story-card";
+
+        const top = document.createElement("div");
+        top.className = "card-top";
+
+        const company = document.createElement("div");
+        company.className = "company";
+        company.textContent = story.company || "Portfolio company";
+
+        const badge = document.createElement("span");
+        badge.className = `status-badge status-${status}`;
+        badge.textContent = statusLabel(status);
+
+        top.append(company, badge);
+
+        const title = document.createElement("h3");
+        title.className = "story-title";
+        title.textContent = story.title || "Untitled story";
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        const type = document.createElement("span");
+        type.textContent = story.story_type || "Other";
+        const source = document.createElement("span");
+        source.textContent = story.source || "Unknown source";
+        const date = document.createElement("span");
+        date.textContent = formatDate(story.published_at);
+        meta.append(type, source, date);
+
+        const summary = document.createElement("p");
+        summary.className = "story-summary";
+        summary.textContent = story.summary || "No summary was generated.";
+
+        const scoreRow = document.createElement("div");
+        scoreRow.className = "score-row";
+        const scoreBlock = document.createElement("div");
+        scoreBlock.className = "score-block";
+        scoreBlock.innerHTML = `
+          <div class="score-copy"><span>Newsworthiness</span><strong>${Number(story.score || 0)}/100</strong></div>
+          <div class="score-track"><div class="score-fill" style="width:${Math.max(0, Math.min(100, Number(story.score || 0)))}%"></div></div>
+        `;
+
+        const button = document.createElement("button");
+        button.className = "review-btn";
+        button.type = "button";
+        button.textContent = "Review draft";
+        button.addEventListener("click", () => openStory(story.id));
+        scoreRow.append(scoreBlock, button);
+
+        card.append(top, title, meta, summary, scoreRow);
+
+        if (local.shortlisted) {
+          const star = document.createElement("span");
+          star.className = "shortlist-mark";
+          star.title = "Shortlisted";
+          star.textContent = "★";
+          card.append(star);
         }
-        el.content.appendChild(wrap);
-      }
-      if (!stories.length) {
-        el.content.innerHTML = '';
-      }
+
+        elements.cards.append(card);
+      });
+
+      updateStats(stories);
     }
 
-    function activeStory() {
-      return state.stories.find((s) => s.id === state.activeStoryId) || null;
+    function setList(listElement, items) {
+      listElement.innerHTML = "";
+      (Array.isArray(items) ? items : []).forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        listElement.append(li);
+      });
     }
 
-    function setDraft(type) {
-      const story = activeStory();
+    function currentStory() {
+      return state.stories.find((story) => story.id === state.activeStoryId) || null;
+    }
+
+    function selectDraft(type) {
+      const story = currentStory();
       if (!story) return;
+
       state.activeDraft = type;
-      const local = localFor(story.id);
+      const local = storyLocal(story.id);
       local.selectedDraft = type;
-      saveLocal();
-      document.querySelectorAll('.draft-tabs button').forEach((b) => b.classList.toggle('active', b.dataset.draft === type));
-      el.draftEditor.value = (local.drafts && local.drafts[type]) || (story.drafts && story.drafts[type]) || '';
-      el.drawerStatus.textContent = '';
+      saveLocalState();
+
+      document.querySelectorAll(".draft-tab").forEach((tab) => {
+        tab.classList.toggle("active", tab.dataset.draft === type);
+      });
+      elements.editor.value = getDraft(story, type);
+      elements.drawerStatus.textContent = "";
     }
 
-    function openStory(id) {
-      const story = state.stories.find((s) => s.id === id);
+    function openStory(storyId) {
+      const story = state.stories.find((item) => item.id === storyId);
       if (!story) return;
-      state.activeStoryId = id;
-      const local = localFor(id);
-      state.activeDraft = local.selectedDraft || 'concise';
-      el.drawerBadge.textContent = story.section_label || sectionLabel(storySection(story));
-      el.drawerTitle.textContent = story.title || 'Untitled';
-      el.drawerMeta.textContent = `${story.company || 'Company'} · ${story.source || story.discovered_via || 'Source unknown'} · ${formatDate(story.published_at)} · ${Number(story.score || 0)}/100`;
-      el.drawerWhy.textContent = story.why_it_matters || 'No why-it-matters summary was generated.';
-      el.drawerFacts.innerHTML = (story.verified_facts || []).length ? story.verified_facts.map((f) => `<li>${esc(f)}</li>`).join('') : '<li>No verified facts were extracted.</li>';
-      el.drawerWarnings.innerHTML = (story.warnings || []).length ? story.warnings.map((w) => `<li>${esc(w)}</li>`).join('') : '<li>No warnings.</li>';
-      el.drawerLink.href = story.url || '#';
-      el.toggleUsed.textContent = local.status === 'used' ? 'Marked used' : 'Mark used';
-      el.toggleDiscard.textContent = local.status === 'discarded' ? 'Discarded' : 'Discard';
-      el.drawerStatus.textContent = '';
-      document.querySelectorAll('.draft-tabs button').forEach((b) => b.classList.toggle('active', b.dataset.draft === state.activeDraft));
-      el.draftEditor.value = (local.drafts && local.drafts[state.activeDraft]) || (story.drafts && story.drafts[state.activeDraft]) || '';
-      el.overlay.classList.add('open');
-      el.overlay.setAttribute('aria-hidden', 'false');
+
+      state.activeStoryId = storyId;
+      const local = storyLocal(storyId);
+      state.activeDraft = local.selectedDraft || "concise";
+
+      elements.drawerCompany.textContent = story.company || "Portfolio company";
+      elements.drawerTitle.textContent = story.title || "Untitled story";
+      elements.drawerMeta.textContent = `${story.source || "Unknown source"} · ${formatDate(story.published_at)} · ${Number(story.score || 0)}/100`;
+      elements.drawerWhy.textContent = story.why_it_matters || "No investment or communications implication was generated.";
+      elements.drawerLink.href = story.url || "#";
+      setList(elements.drawerFacts, story.verified_facts);
+      setList(elements.drawerWarnings, story.warnings);
+
+      elements.shortlist.textContent = local.shortlisted ? "Remove shortlist" : "Shortlist";
+      elements.used.textContent = effectiveStatus(story) === "used" ? "Marked used" : "Mark used";
+      elements.discard.textContent = effectiveStatus(story) === "discarded" ? "Discarded" : "Discard";
+
+      selectDraft(state.activeDraft);
+      elements.overlay.classList.add("open");
+      elements.overlay.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+      elements.closeDrawer.focus();
     }
 
     function closeStory() {
-      el.overlay.classList.remove('open');
-      el.overlay.setAttribute('aria-hidden', 'true');
+      elements.overlay.classList.remove("open");
+      elements.overlay.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
       state.activeStoryId = null;
     }
 
-    function setStatus(status) {
-      const story = activeStory();
+    function setStoryStatus(status) {
+      const story = currentStory();
       if (!story) return;
-      const local = localFor(story.id);
+      const local = storyLocal(story.id);
       local.status = status;
-      saveLocal();
-      el.drawerStatus.textContent = `Status updated to ${status}.`;
-      el.toggleUsed.textContent = status === 'used' ? 'Marked used' : 'Mark used';
-      el.toggleDiscard.textContent = status === 'discarded' ? 'Discarded' : 'Discard';
+      saveLocalState();
+      elements.drawerStatus.textContent = `Status changed to ${statusLabel(status)}.`;
+      elements.used.textContent = status === "used" ? "Marked used" : "Mark used";
+      elements.discard.textContent = status === "discarded" ? "Discarded" : "Discard";
       render();
     }
 
-    async function copyDraft() {
-      const text = el.draftEditor.value.trim();
+    async function copyCurrentDraft() {
+      const text = elements.editor.value.trim();
       if (!text) {
-        el.drawerStatus.textContent = 'No draft text available.';
+        elements.drawerStatus.textContent = "There is no draft text to copy.";
         return;
       }
+
       try {
         await navigator.clipboard.writeText(text);
-        el.drawerStatus.textContent = 'Draft copied to clipboard.';
-      } catch {
-        el.draftEditor.select();
-        document.execCommand('copy');
-        el.drawerStatus.textContent = 'Draft copied to clipboard.';
+        elements.drawerStatus.textContent = "Post copied to clipboard.";
+      } catch (error) {
+        elements.editor.select();
+        const copied = document.execCommand("copy");
+        elements.drawerStatus.textContent = copied ? "Post copied to clipboard." : "Copy failed. Select the text and copy it manually.";
       }
     }
 
-    function resetDraft() {
-      const story = activeStory();
+    function resetCurrentDraft() {
+      const story = currentStory();
       if (!story) return;
-      const local = localFor(story.id);
-      if (local.drafts) delete local.drafts[state.activeDraft];
-      saveLocal();
-      el.draftEditor.value = (story.drafts && story.drafts[state.activeDraft]) || '';
-      el.drawerStatus.textContent = 'Draft reset.';
+      const local = storyLocal(story.id);
+      delete local.editedDrafts[state.activeDraft];
+      saveLocalState();
+      elements.editor.value = story.drafts?.[state.activeDraft] || "";
+      elements.drawerStatus.textContent = "Draft reset to the generated version.";
     }
 
-    el.search.addEventListener('input', render);
-    el.company.addEventListener('change', render);
-    el.section.addEventListener('change', render);
-    el.sort.addEventListener('change', render);
-    el.closeDrawer.addEventListener('click', closeStory);
-    el.overlay.addEventListener('click', (e) => { if (e.target === el.overlay) closeStory(); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && el.overlay.classList.contains('open')) closeStory(); });
-    document.querySelectorAll('.draft-tabs button').forEach((b) => b.addEventListener('click', () => setDraft(b.dataset.draft)));
-    el.copyDraft.addEventListener('click', copyDraft);
-    el.toggleUsed.addEventListener('click', () => setStatus('used'));
-    el.toggleDiscard.addEventListener('click', () => setStatus('discarded'));
-    el.resetDraft.addEventListener('click', resetDraft);
-    el.draftEditor.addEventListener('input', () => {
-      const story = activeStory();
-      if (!story) return;
-      const local = localFor(story.id);
-      if (!local.drafts) local.drafts = {};
-      local.drafts[state.activeDraft] = el.draftEditor.value;
-      saveLocal();
-      el.drawerStatus.textContent = 'Draft saved in this browser.';
+    async function loadNews() {
+      try {
+        const response = await fetch(DATA_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (!Array.isArray(data.stories)) throw new Error("news.json does not contain a stories array");
+
+        state.stories = data.stories.filter((story) => story && story.id);
+        state.generatedAt = data.generated_at || null;
+        elements.updated.textContent = state.generatedAt
+          ? `Updated ${formatDate(state.generatedAt, true)}`
+          : "Refresh date unavailable";
+
+        populateFilters();
+        render();
+      } catch (error) {
+        console.error("Could not load portfolio news", error);
+        elements.updated.textContent = "News data failed to load";
+        elements.resultsSummary.textContent = "Check site/data/news.json and the browser console.";
+        elements.empty.classList.remove("hidden");
+        elements.empty.querySelector("h3").textContent = "The news feed could not be loaded";
+        elements.empty.querySelector("p").textContent = "Confirm that news.json is valid and that the page is being served through Cloudflare Pages or a local web server.";
+      }
+    }
+
+    elements.search.addEventListener("input", render);
+    elements.company.addEventListener("change", render);
+    elements.type.addEventListener("change", render);
+    elements.sort.addEventListener("change", render);
+
+    document.querySelectorAll(".status-tab").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        state.activeStatus = tab.dataset.status;
+        document.querySelectorAll(".status-tab").forEach((item) => item.classList.toggle("active", item === tab));
+        render();
+      });
     });
 
-    loadData();
+    document.querySelectorAll(".draft-tab").forEach((tab) => {
+      tab.addEventListener("click", () => selectDraft(tab.dataset.draft));
+    });
+
+    elements.editor.addEventListener("input", () => {
+      const story = currentStory();
+      if (!story) return;
+      const local = storyLocal(story.id);
+      local.editedDrafts[state.activeDraft] = elements.editor.value;
+      saveLocalState();
+      elements.drawerStatus.textContent = "Edit saved in this browser.";
+    });
+
+    elements.closeDrawer.addEventListener("click", closeStory);
+    elements.overlay.addEventListener("click", (event) => {
+      if (event.target === elements.overlay) closeStory();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && elements.overlay.classList.contains("open")) closeStory();
+    });
+
+    elements.copy.addEventListener("click", copyCurrentDraft);
+    elements.shortlist.addEventListener("click", () => {
+      const story = currentStory();
+      if (!story) return;
+      const local = storyLocal(story.id);
+      local.shortlisted = !local.shortlisted;
+      saveLocalState();
+      elements.shortlist.textContent = local.shortlisted ? "Remove shortlist" : "Shortlist";
+      elements.drawerStatus.textContent = local.shortlisted ? "Story shortlisted." : "Story removed from shortlist.";
+      render();
+    });
+    elements.used.addEventListener("click", () => setStoryStatus("used"));
+    elements.discard.addEventListener("click", () => setStoryStatus("discarded"));
+    elements.resetDraft.addEventListener("click", resetCurrentDraft);
+    elements.clearLocal.addEventListener("click", () => {
+      if (!window.confirm("Clear all browser-saved edits, shortlist choices and statuses?")) return;
+      localStorage.removeItem(STORAGE_KEY);
+      state.local = {};
+      render();
+      if (state.activeStoryId) openStory(state.activeStoryId);
+    });
+
+    loadNews();
   </script>
 </body>
 </html>
