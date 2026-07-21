@@ -3,9 +3,12 @@ name: Refresh portfolio news
 on:
   workflow_dispatch:
 
+  # GitHub Actions cron runs in UTC only (a "timezone" key is not supported
+  # and makes the workflow file invalid). These two runs land at roughly
+  # 07:15 and 18:15 in Europe/London during BST, and 06:15 / 17:15 in GMT.
   schedule:
-    - cron: "30 7 * * 1-5"
-      timezone: "Europe/London"
+    - cron: "15 6 * * *"
+    - cron: "15 17 * * *"
 
 concurrency:
   group: portfolio-news-refresh
@@ -39,14 +42,23 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Restore discovery and evaluation caches
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: newsroom-cache-${{ github.run_id }}
+          restore-keys: |
+            newsroom-cache-
+
       - name: Collect news and generate drafts
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
-          LOOKBACK_DAYS: "14"
+          LOOKBACK_DAYS: "7"
           MAX_PER_COMPANY: "4"
-          MIN_SCORE: "10"
+          MIN_SCORE: "60"
           READY_SCORE: "80"
+          RUN_BUDGET_SECONDS: "1020"
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/update_news.py
@@ -101,7 +113,14 @@ jobs:
             echo "Push attempt ${attempt} of 3"
 
             git fetch origin main
-            git rebase origin/main
+
+            # -X theirs keeps this run's news.json if the remote also changed it.
+            if ! git rebase -X theirs origin/main; then
+              git rebase --abort || true
+              echo "Rebase failed. Retrying shortly."
+              sleep $((attempt * 3))
+              continue
+            fi
 
             if git push origin HEAD:main; then
               echo "Refreshed news data pushed successfully."
