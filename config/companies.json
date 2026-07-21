@@ -6,7 +6,8 @@
     "search_terms": ["The Delivery Group", "TDG", "The Delivery Group UK", "Secured Mail", "CMS Network", "OnePost"],
     "website": "https://thedeliverygroup.co.uk/",
     "domain": "thedeliverygroup.co.uk",
-    "newsroom_urls": [],
+    "blog_url": "https://thedeliverygroup.co.uk/news/",
+    "newsroom_urls": ["https://thedeliverygroup.co.uk/news/"],
     "rss_feeds": [],
     "exclude_terms": []
   },
@@ -17,7 +18,8 @@
     "search_terms": ["Clearway Group", "Clearway", "The Clearway Group", "Clearway Labs", "LociLabs", "SECONTEC"],
     "website": "https://www.clearway.co.uk/",
     "domain": "clearway.co.uk",
-    "newsroom_urls": [],
+    "blog_url": "https://www.clearway.co.uk/news/",
+    "newsroom_urls": ["https://www.clearway.co.uk/news/"],
     "rss_feeds": [],
     "exclude_terms": ["Clearway Energy", "Clearway Community Solar", "Clearway Health", "Clearway Pain Solutions", "Clearway Law"]
   },
@@ -28,7 +30,8 @@
     "search_terms": ["Swytch", "Swytch Bike", "Swytch Technology", "Swytch GO", "Swytch MAX"],
     "website": "https://www.swytchbike.com/",
     "domain": "swytchbike.com",
-    "newsroom_urls": [],
+    "blog_url": "https://www.swytchbike.com/blog/",
+    "newsroom_urls": ["https://www.swytchbike.com/blog/"],
     "rss_feeds": [],
     "exclude_terms": []
   },
@@ -39,6 +42,7 @@
     "search_terms": ["Molinare", "Molinare TV & Film", "Molinare Creative Group", "Notorious DIT"],
     "website": "https://molinare.co.uk/",
     "domain": "molinare.co.uk",
+    "blog_url": "",
     "newsroom_urls": [],
     "rss_feeds": [],
     "exclude_terms": ["Molinaire"]
@@ -50,6 +54,7 @@
     "search_terms": ["PiP", "Pip Studios", "PIP Studios", "PIP Studios Limited"],
     "website": "https://pipstudios.com/",
     "domain": "pipstudios.com",
+    "blog_url": "",
     "newsroom_urls": [],
     "rss_feeds": [],
     "exclude_terms": ["Pip Studio homeware", "Pip Studio bedding", "Pip Studio Amsterdam", "PIP Printing"]
@@ -61,7 +66,8 @@
     "search_terms": ["Petainer", "Petainer Group", "petainerKeg", "Petainer Keg"],
     "website": "https://www.petainer.com/",
     "domain": "petainer.com",
-    "newsroom_urls": [],
+    "blog_url": "https://www.petainer.com/insights",
+    "newsroom_urls": ["https://www.petainer.com/insights"],
     "rss_feeds": [],
     "exclude_terms": []
   },
@@ -72,7 +78,8 @@
     "search_terms": ["Whitespace", "Whitespace Global", "Collective by Whitespace", "Whitespace Collective", "CollectiveOS"],
     "website": "https://www.white.space/",
     "domain": "white.space",
-    "newsroom_urls": [],
+    "blog_url": "https://www.white.space/insights",
+    "newsroom_urls": ["https://www.white.space/insights"],
     "rss_feeds": [],
     "exclude_terms": ["Whitespace Software", "Whitespace real estate", "white space design", "white space analysis"]
   },
@@ -83,7 +90,8 @@
     "search_terms": ["UOE", "UOE Store", "UOE Stores", "UOE Post Office"],
     "website": "https://www.uoe.co.uk/",
     "domain": "uoe.co.uk",
-    "newsroom_urls": [],
+    "blog_url": "https://www.uoe.co.uk/news",
+    "newsroom_urls": ["https://www.uoe.co.uk/news"],
     "rss_feeds": [],
     "exclude_terms": ["University of Edinburgh", "University of Exeter", "University of Essex", "University of Europe"]
   },
@@ -94,7 +102,8 @@
     "search_terms": ["McGraw Hill", "McGraw-Hill", "McGraw Hill Education", "McGraw-Hill Education"],
     "website": "https://www.mheducation.com/",
     "domain": "mheducation.com",
-    "newsroom_urls": [],
+    "blog_url": "https://www.mheducation.com/about-us.html#news",
+    "newsroom_urls": ["https://www.mheducation.com/about-us.html#news"],
     "rss_feeds": [],
     "exclude_terms": ["McGraw Hill Financial", "McGraw-Hill Financial", "S&P Global"]
   },
@@ -105,7 +114,8 @@
     "search_terms": ["Fertility Associates", "Fertility Associates NZ", "Sunfert", "Sophea", "IVFkasih"],
     "website": "https://www.fertilityassociates.co.nz/",
     "domain": "fertilityassociates.co.nz",
-    "newsroom_urls": [],
+    "blog_url": "https://www.fertilityassociates.co.nz/news",
+    "newsroom_urls": ["https://www.fertilityassociates.co.nz/news"],
     "rss_feeds": [],
     "exclude_terms": []
   },
@@ -116,7 +126,8 @@
     "search_terms": ["Roof-Maker", "Roofmaker", "Roof Maker", "Roof-Maker rooflights"],
     "website": "https://roof-maker.co.uk/",
     "domain": "roof-maker.co.uk",
-    "newsroom_urls": [],
+    "blog_url": "https://roof-maker.co.uk/blog/",
+    "newsroom_urls": ["https://roof-maker.co.uk/blog/"],
     "rss_feeds": [],
     "exclude_terms": []
   }
