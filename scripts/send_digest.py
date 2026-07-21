@@ -52,17 +52,24 @@ COMPANY_ORDER = [
     "Roof-Maker",
 ]
 
-# Palette (navy / blue wordmark, restrained editorial greys).
+# Palette.
 NAVY = "#0f2547"
 BLUE = "#2563c9"
-INK = "#1a2332"
-BODY = "#444e5c"
-MUTED = "#8a94a6"
-RULE = "#e4e8ee"
-PAGE_BG = "#eef1f5"
+INK = "#16202e"
+BODY = "#3d4757"
+MUTED = "#7b8494"
+RULE = "#e2e6ec"
+HAIR = "#eef1f5"
+PAGE_BG = "#e9edf2"
 CARD_BG = "#ffffff"
 READY = "#1a7f37"
-REVIEW = "#9a6700"
+REVIEW = "#a25a00"
+
+# Deep, harmonious accent colours cycled across company cards for rhythm.
+ACCENTS = ["#0f2547", "#2563c9", "#0e7490", "#3f3d76", "#4a5568"]
+
+SERIF = "Georgia,'Times New Roman',serif"
+SANS = "Arial,Helvetica,sans-serif"
 
 
 def parse_date(value: str) -> datetime | None:
@@ -127,56 +134,100 @@ def load_grouped() -> tuple[list[tuple[str, list[dict]]], str, int]:
 # HTML rendering
 # --------------------------------------------------------------------------
 
-def render_story_html(story: dict) -> str:
+def render_story_html(story: dict, first: bool) -> str:
     status = story.get("status", "needs_review")
-    badge_colour = READY if status == "ready" else REVIEW
-    badge_label = "Draft ready" if status == "ready" else "Needs review"
+    status_colour = READY if status == "ready" else REVIEW
+    status_label = "Draft ready" if status == "ready" else "Needs review"
     title = escape(story.get("title", "Untitled story"))
     url = escape(story.get("url", "#"), quote=True)
     source = escape(story.get("source", "Unknown source"))
-    meta = " &nbsp;&middot;&nbsp; ".join(
-        escape(str(part))
-        for part in (
-            story.get("story_type", "Update"),
-            format_date(story.get("published_at", "")),
-        )
-    )
+    story_type = escape(story.get("story_type", "Update"))
+    when = escape(format_date(story.get("published_at", "")))
     summary = escape(story.get("summary", "")) or "Summary available on the dashboard."
+    divider = "" if first else f"border-top:1px solid {HAIR};"
 
     return f"""
-    <tr><td style="padding:14px 0;border-bottom:1px solid {RULE};">
-      <a href="{url}" style="font-family:Arial,Helvetica,sans-serif;font-size:16px;
-         font-weight:bold;line-height:1.35;color:{INK};text-decoration:none;">{title}</a>
-      <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;
-                  color:{BODY};line-height:1.5;margin-top:6px;">{summary}</div>
-      <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;
-                  color:{MUTED};margin-top:8px;">
-        Source: <a href="{url}" style="color:{BLUE};text-decoration:none;">{source}</a>
-        &nbsp;&middot;&nbsp; {meta}
-        &nbsp;&middot;&nbsp; <span style="color:{badge_colour};font-weight:bold;">
-          {badge_label}</span>
+    <tr><td style="padding:15px 22px;{divider}">
+      <a href="{url}" style="font-family:{SANS};font-size:16px;font-weight:bold;
+         line-height:1.34;color:{INK};text-decoration:none;">{title}</a>
+      <div style="font-family:{SANS};font-size:13px;color:{BODY};
+                  line-height:1.55;margin-top:6px;">{summary}</div>
+      <div style="font-family:{SANS};font-size:11px;color:{MUTED};
+                  margin-top:9px;line-height:1.5;">
+        <span style="font-weight:bold;color:{BODY};">{source}</span>
+        &nbsp;&middot;&nbsp; {story_type} &nbsp;&middot;&nbsp; {when}
+        &nbsp;&middot;&nbsp;
+        <span style="color:{status_colour};font-weight:bold;">{status_label}</span>
+        &nbsp;&middot;&nbsp;
+        <a href="{url}" style="color:{BLUE};text-decoration:none;">Read source &rsaquo;</a>
       </div>
     </td></tr>"""
 
 
-def render_company_html(name: str, stories: list[dict]) -> str:
-    heading = f"""
-    <tr><td style="padding:22px 0 6px 0;">
-      <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;
-                   font-weight:bold;letter-spacing:1.5px;text-transform:uppercase;
-                   color:{NAVY};border-left:3px solid {BLUE};padding-left:10px;">
-        {escape(name)}</span>
+def render_company_card(name: str, stories: list[dict], accent: str) -> str:
+    rows = "".join(
+        render_story_html(story, first=(i == 0)) for i, story in enumerate(stories)
+    )
+    count = len(stories)
+    tag = "1 story" if count == 1 else f"{count} stories"
+    return f"""
+    <tr><td style="padding:0 0 16px 0;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+             style="background:{CARD_BG};border:1px solid {RULE};
+                    border-top:4px solid {accent};border-radius:5px;">
+        <tr><td style="padding:14px 22px 12px 22px;border-bottom:1px solid {RULE};">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td style="font-family:{SANS};font-size:19px;font-weight:bold;
+                       color:{accent};line-height:1.2;">{escape(name)}</td>
+            <td align="right" style="font-family:{SANS};font-size:11px;
+                       color:{MUTED};white-space:nowrap;padding-left:10px;">{tag}</td>
+          </tr></table>
+        </td></tr>
+        {rows}
+      </table>
     </td></tr>"""
 
-    if not stories:
-        body = f"""
-        <tr><td style="padding:4px 0 10px 12px;font-family:Arial,Helvetica,sans-serif;
-            font-size:13px;color:{MUTED};font-style:italic;">
-          No new coverage in this edition.</td></tr>"""
-    else:
-        body = "".join(render_story_html(story) for story in stories)
 
-    return heading + body
+def build_intro(groups: list[tuple[str, list[dict]]], total: int) -> str:
+    covered = [(name, items) for name, items in groups if items]
+    if not covered:
+        return "Good morning. There is no new portfolio coverage in today&rsquo;s edition."
+
+    top = max(
+        (s for _, items in covered for s in items),
+        key=lambda s: int(s.get("score", 0)),
+    )
+    lead_company = escape(str(top.get("company", "")))
+    lead_title = escape(str(top.get("title", "")))
+    names = escape(", ".join(name for name, _ in covered))
+    stories_word = "story" if total == 1 else "stories"
+    company_word = "company" if len(covered) == 1 else "companies"
+
+    return (
+        f"Good morning. Today&rsquo;s briefing carries {total} new {stories_word} "
+        f"across {len(covered)} portfolio {company_word} &mdash; {names}. "
+        f"Leading the edition: {lead_company}, &lsquo;{lead_title}&rsquo;."
+    )
+
+
+def build_quiet_strip(groups: list[tuple[str, list[dict]]]) -> str:
+    quiet = [name for name, items in groups if not items]
+    if not quiet or not SHOW_EMPTY_COMPANIES:
+        return ""
+    listed = escape(" &nbsp;&bull;&nbsp; ".join(quiet)).replace("&amp;", "&")
+    return f"""
+    <tr><td style="padding:6px 0 20px 0;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+             style="background:{HAIR};border:1px solid {RULE};border-radius:5px;">
+        <tr><td style="padding:14px 22px;">
+          <div style="font-family:{SANS};font-size:11px;font-weight:bold;
+                      color:{MUTED};margin-bottom:5px;">
+            Also monitored &mdash; no new coverage today</div>
+          <div style="font-family:{SANS};font-size:12px;color:{BODY};
+                      line-height:1.6;">{listed}</div>
+        </td></tr>
+      </table>
+    </td></tr>"""
 
 
 def build_html(groups: list[tuple[str, list[dict]]], generated_at: str, total: int) -> str:
@@ -184,16 +235,15 @@ def build_html(groups: list[tuple[str, list[dict]]], generated_at: str, total: i
     dash = escape(DASHBOARD_URL, quote=True)
     covered = sum(1 for _, items in groups if items)
 
-    sections = "".join(
-        render_company_html(name, stories)
-        for name, stories in groups
-        if stories or SHOW_EMPTY_COMPANIES
-    )
+    cards = ""
+    accent_index = 0
+    for name, stories in groups:
+        if not stories:
+            continue
+        cards += render_company_card(name, stories, ACCENTS[accent_index % len(ACCENTS)])
+        accent_index += 1
 
-    preheader = (
-        f"Portfolio news briefing for {when} - {total} stories across "
-        f"{covered} companies."
-    )
+    preheader = f"Portfolio briefing for {when}: {total} stories across {covered} companies."
 
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -202,63 +252,84 @@ def build_html(groups: list[tuple[str, list[dict]]], generated_at: str, total: i
   <div style="display:none;max-height:0;overflow:hidden;opacity:0;
        font-size:1px;line-height:1px;color:{PAGE_BG};">{escape(preheader)}</div>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
-         style="background:{PAGE_BG};padding:24px 12px;">
+         style="background:{PAGE_BG};padding:26px 12px;">
     <tr><td align="center">
       <table role="presentation" width="640" cellpadding="0" cellspacing="0"
-             style="max-width:640px;width:100%;background:{CARD_BG};
-                    border:1px solid {RULE};border-radius:6px;">
-        <tr><td style="padding:26px 34px 0 34px;" align="center">
-          <a href="{dash}" style="display:inline-block;background:{NAVY};
-             color:#ffffff;text-decoration:none;font-family:Arial,Helvetica,sans-serif;
-             font-size:13px;font-weight:bold;padding:11px 20px;border-radius:4px;">
-             View the full dashboard and post drafts</a>
+             style="max-width:640px;width:100%;">
+
+        <!-- Masthead banner -->
+        <tr><td style="background:{NAVY};border-radius:6px 6px 0 0;padding:9px 22px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td style="font-family:{SANS};font-size:11px;font-weight:bold;
+                       color:#c7d3e6;letter-spacing:1px;">PORTFOLIO NEWSROOM</td>
+            <td align="right" style="font-family:{SANS};font-size:11px;
+                       color:#c7d3e6;">{when}</td>
+          </tr></table>
         </td></tr>
 
-        <tr><td style="padding:22px 34px 0 34px;" align="center">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-weight:bold;
-               font-size:34px;letter-spacing:1px;line-height:1.1;">
+        <!-- Wordmark -->
+        <tr><td style="background:{CARD_BG};border-left:1px solid {RULE};
+                       border-right:1px solid {RULE};padding:26px 22px 0 22px;"
+                align="center">
+          <div style="font-family:{SANS};font-weight:bold;font-size:33px;
+               letter-spacing:1px;line-height:1.1;">
             <span style="color:{NAVY};">NEXT WAVE</span>
             <span style="color:{BLUE};">PARTNERS</span>
           </div>
+          <div style="border-top:3px solid {NAVY};margin:14px 0 0 0;"></div>
         </td></tr>
 
-        <tr><td style="padding:10px 34px 0 34px;" align="center">
-          <div style="border-top:2px solid {NAVY};border-bottom:1px solid {RULE};
-               padding:8px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;
-               letter-spacing:2px;text-transform:uppercase;color:{BODY};">
-            Portfolio Newsroom &nbsp;&middot;&nbsp; {when}
-            &nbsp;&middot;&nbsp; {total} stories across {covered} companies
-          </div>
+        <!-- Serif hero title -->
+        <tr><td style="background:{CARD_BG};border-left:1px solid {RULE};
+                       border-right:1px solid {RULE};padding:16px 22px 6px 22px;"
+                align="center">
+          <div style="font-family:{SERIF};font-size:40px;color:{INK};
+               line-height:1.05;font-weight:normal;">Portfolio Briefing</div>
         </td></tr>
 
-        <tr><td style="padding:14px 34px 4px 34px;">
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;
-               color:{BODY};line-height:1.5;">
-            The latest public coverage of the portfolio, ordered by company.
-            Headlines link to their sources; full stories and ready-to-edit
-            LinkedIn drafts are on the dashboard.
-          </div>
+        <!-- Intro + dashboard button -->
+        <tr><td style="background:{CARD_BG};border-left:1px solid {RULE};
+                       border-right:1px solid {RULE};padding:14px 26px 4px 26px;">
+          <div style="font-family:{SANS};font-size:14px;font-weight:bold;
+               color:{INK};line-height:1.5;">{build_intro(groups, total)}</div>
+        </td></tr>
+        <tr><td style="background:{CARD_BG};border-left:1px solid {RULE};
+                       border-right:1px solid {RULE};border-bottom:1px solid {RULE};
+                       border-radius:0 0 6px 6px;padding:16px 26px 22px 26px;">
+          <a href="{dash}" style="display:inline-block;background:{NAVY};color:#ffffff;
+             text-decoration:none;font-family:{SANS};font-size:13px;font-weight:bold;
+             padding:11px 22px;border-radius:4px;">
+             Open the dashboard for full stories and drafts &rarr;</a>
         </td></tr>
 
-        <tr><td style="padding:0 34px 8px 34px;">
+        <!-- Spacer -->
+        <tr><td style="height:20px;line-height:20px;font-size:0;">&nbsp;</td></tr>
+
+        <!-- Company cards -->
+        <tr><td>
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-            {sections}
+            {cards}
+            {build_quiet_strip(groups)}
           </table>
         </td></tr>
 
-        <tr><td style="padding:18px 34px 30px 34px;" align="center">
+        <!-- Footer -->
+        <tr><td style="border-top:3px solid {NAVY};padding:18px 22px 8px 22px;"
+                align="center">
           <a href="{dash}" style="display:inline-block;border:1px solid {NAVY};
-             color:{NAVY};text-decoration:none;font-family:Arial,Helvetica,sans-serif;
-             font-size:13px;font-weight:bold;padding:10px 20px;border-radius:4px;">
-             Open the dashboard</a>
-          <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;
-               color:{MUTED};line-height:1.6;margin-top:16px;">
-            Internal briefing for the Next Wave Partners team, generated
+             color:{NAVY};text-decoration:none;font-family:{SANS};font-size:13px;
+             font-weight:bold;padding:10px 22px;border-radius:4px;">
+             Go to the dashboard &rarr;</a>
+        </td></tr>
+        <tr><td style="padding:12px 22px 26px 22px;" align="center">
+          <div style="font-family:{SANS};font-size:11px;color:{MUTED};line-height:1.7;">
+            An internal briefing for the Next Wave Partners team, compiled
             automatically by the portfolio newsroom.<br>
-            An overview only - please review each draft on the dashboard
-            before posting.
+            This is an overview only &mdash; open each draft on the dashboard
+            and review it before posting.
           </div>
         </td></tr>
+
       </table>
     </td></tr>
   </table>
@@ -273,35 +344,38 @@ def build_text(groups: list[tuple[str, list[dict]]], generated_at: str, total: i
     when = format_date(generated_at)
     covered = sum(1 for _, items in groups if items)
     lines = [
-        "NEXT WAVE PARTNERS - PORTFOLIO NEWSROOM",
+        "NEXT WAVE PARTNERS",
+        "PORTFOLIO BRIEFING",
         f"{when}  |  {total} stories across {covered} companies",
         "",
-        f"Dashboard and post drafts: {DASHBOARD_URL}",
+        f"Dashboard (full stories and drafts): {DASHBOARD_URL}",
         "",
-        "=" * 60,
+        "-" * 60,
     ]
+    quiet = []
     for name, stories in groups:
-        if not stories and not SHOW_EMPTY_COMPANIES:
+        if not stories:
+            quiet.append(name)
             continue
         lines.append("")
-        lines.append(name.upper())
-        if not stories:
-            lines.append("  No new coverage in this edition.")
-            continue
+        lines.append(name)
+        lines.append("-" * len(name))
         for story in stories:
-            lines.append(f"  - {story.get('title', '')}")
+            lines.append(f"  {story.get('title', '')}")
             if story.get("summary"):
                 lines.append(f"    {story['summary']}")
             status = story.get("status", "needs_review")
             status_label = "Draft ready" if status == "ready" else "Needs review"
             lines.append(
-                f"    Source: {story.get('source', '')} | "
+                f"    {story.get('source', '')} | "
                 f"{story.get('story_type', 'Update')} | "
                 f"{format_date(story.get('published_at', ''))} | {status_label}"
             )
             lines.append(f"    {story.get('url', '')}")
-    lines += ["", "=" * 60, "", f"Open the dashboard: {DASHBOARD_URL}",
-              "Internal briefing generated automatically by the NWP newsroom."]
+    if quiet and SHOW_EMPTY_COMPANIES:
+        lines += ["", "Also monitored, no new coverage today:", "  " + ", ".join(quiet)]
+    lines += ["", "-" * 60, "", f"Dashboard: {DASHBOARD_URL}",
+              "Internal briefing compiled automatically by the NWP newsroom."]
     return "\n".join(lines)
 
 
