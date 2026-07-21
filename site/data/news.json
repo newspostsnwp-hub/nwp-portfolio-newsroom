@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T19:28:43.140585+00:00",
-  "lookback_days": 7,
-  "story_count": 1,
+  "generated_at": "2026-07-21T09:32:25.813623+00:00",
+  "lookback_days": 14,
+  "story_count": 4,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -21,12 +21,94 @@
         "Des Carey previously held senior roles at Company 3, Light Iron, and Samsung."
       ],
       "warnings": [
-        "The article text contains a date stamp of 16.07.26, which appears to be a future date or a potential typo in the source material."
+        "The article mentions a date of 16.07.26, which appears to be a future-dated or placeholder timestamp in the source material."
       ],
       "drafts": {
-        "concise": "We are pleased to share that the Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish. With over 25 years of experience across production, post-production, and technology—including senior roles at Samsung and Light Iron—Des will lead strategic growth and partnership initiatives. This appointment marks a significant step in the group’s commitment to expanding its international presence and integrating next-generation production technologies. We look forward to seeing the impact of his expertise on the team’s continued development. #Molinare #ElephantGoldfish #PostProduction",
-        "investor": "The Molinare Creative Group continues to strengthen its leadership team with the appointment of Des Carey as Executive Director, Growth & Innovation at Elephant Goldfish. This strategic hire underscores the group’s focus on scaling its operations in Ireland and enhancing its capabilities in emerging production technologies. By bringing in deep international expertise from his previous roles at Samsung and Industrial Light & Magic, the group is well-positioned to drive further innovation and commercial growth. This move reflects a clear ambition to build upon the group’s existing creative heritage and expand its footprint in the global market. #Investment #GrowthStrategy #MediaTech",
-        "people": "A warm welcome to Des Carey, who joins the Molinare Creative Group as Executive Director, Growth & Innovation at Elephant Goldfish in Dublin. Des brings a wealth of international experience, having collaborated with some of the industry’s most respected filmmakers and led global initiatives in cinematic technology. His appointment is a testament to the high-calibre talent within the Molinare Creative Group and its ongoing commitment to fostering a culture of innovation and excellence. We are excited to see how his leadership will support the team at Elephant Goldfish as they continue to evolve and grow. #Leadership #Innovation #CreativeIndustry"
+        "concise": "We are pleased to share that the Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish. With over 25 years of experience across production, post-production, and technology, Des will lead strategic growth and partnership initiatives. This appointment marks a significant step in the Group’s ongoing expansion and commitment to integrating emerging production technologies. We look forward to seeing the impact of his leadership on the team in Dublin and across the wider Group. #Molinare #ElephantGoldfish #MediaProduction",
+        "investor": "The Molinare Creative Group continues to strengthen its leadership team with the appointment of Des Carey as Executive Director, Growth & Innovation at Elephant Goldfish. This strategic hire underscores the Group’s commitment to professionalisation and international growth. By bringing in expertise in cloud-based infrastructure and next-generation cinema technology, the business is well-positioned to capitalise on evolving industry demands. This move reflects a clear ambition to scale operations and enhance the Group’s competitive position in the global post-production market. #Investment #GrowthStrategy #PostProduction",
+        "people": "A warm welcome to Des Carey, who joins the Molinare Creative Group as Executive Director, Growth & Innovation at Elephant Goldfish. Des brings a wealth of international experience, having worked with industry leaders at Lucasfilm, Industrial Light & Magic, and Samsung. His expertise in cinematic innovation and virtual production will be a tremendous asset to the creative and commercial teams in Dublin. We are proud to support the Molinare Creative Group as they continue to attract top-tier talent to drive their vision forward. #Leadership #Innovation #Molinare"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "e4ea4fe1e7f33d6f",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "title": "API reference Coasty Computer Use API",
+      "url": "https://coasty.ai/docs",
+      "source": "coasty.ai",
+      "published_at": "20260715T170000Z",
+      "score": 85,
+      "story_type": "Product Update",
+      "summary": "Coasty has released comprehensive documentation for its Computer Use API, detailing how developers can run autonomous tasks on managed machines, build complex workflows, and integrate custom LLM providers.",
+      "why_it_matters": "The release of the Coasty API documentation provides developers with the technical framework to scale autonomous agent operations, offering granular control over machine management and model selection.",
+      "verified_facts": [
+        "Coasty's API allows for autonomous task execution on managed machines.",
+        "The platform supports workflows that include branching, loops, and human-in-the-loop approvals.",
+        "Users can opt-in to 'Bring Your Own Key' (BYOK) to use their own Anthropic or OpenAI accounts for LLM calls."
+      ],
+      "warnings": [
+        "The source material is technical documentation rather than a formal company announcement, which may lack broader strategic context."
+      ],
+      "drafts": {
+        "concise": "Coasty has published its latest API reference, providing developers with the tools to build and scale autonomous agent workflows. The documentation outlines how to manage cloud-based machines, implement complex task logic, and integrate custom LLM providers via a 'Bring Your Own Key' model. This update offers greater flexibility for teams looking to automate tasks with direct control over the underlying infrastructure. We look forward to seeing how developers leverage these capabilities to build more robust autonomous systems. #Coasty #Automation #TechInnovation",
+        "investor": "The release of the Coasty Computer Use API documentation marks a significant step in the platform's professionalisation. By providing clear, scalable primitives for autonomous task management and workflow orchestration, Coasty is enabling enterprise-grade integration for its users. The addition of BYOK support for LLMs demonstrates a commitment to flexibility and cost-efficiency, allowing teams to align their infrastructure with specific operational requirements. This technical maturity is essential for scaling autonomous agent deployments in complex environments. #NextWavePartners #Coasty #AIInfrastructure",
+        "people": "Congratulations to the team at Coasty for the release of their comprehensive Computer Use API documentation. This update provides a powerful framework for developers to automate complex tasks, manage stateful sessions, and integrate custom models seamlessly. It is impressive to see the team focus on providing the granular control and reliability that developers need to build effective autonomous agents. We are proud to support the Coasty team as they continue to build the infrastructure for the next generation of automation. #Coasty #TeamGrowth #AutonomousAgents"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "75f83b71673f7e39",
+      "company": "Roof-Maker",
+      "company_domain": "roof-maker.co.uk",
+      "title": "Exciting Innovation: Luxlite® Plus - Specification Online",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnh5U2FYRHF6NHRJOGVvUkJ6cmNaVEo3MUVfQnd1YXdNNVNNNVdrcldaNHI0dUx1anBIUGZ4NGlCWkRHY1VWMjg1S0hkWFFXUENJTUlKWnhoV1lsYmlzNm1Xa1ZIdGtaME9ENks2LTZ2NGYyUHVIRzItbkZKVXVRT3ppaEtmYlBCcnJXRW1lUWJaeG0zR0RwdTVNMWZEYkEwRVJF?oc=5",
+      "source": "Specification Online",
+      "published_at": "Mon, 13 Jul 2026 07:57:00 GMT",
+      "score": 45,
+      "story_type": "Product Launch",
+      "summary": "Roof-Maker has announced the launch of its new product, Luxlite® Plus.",
+      "why_it_matters": "The introduction of new product lines represents ongoing commercial development within the Roof-Maker portfolio.",
+      "verified_facts": [
+        "Roof-Maker has launched a product called Luxlite® Plus."
+      ],
+      "warnings": [
+        "The source material provided is extremely sparse, containing only a title and a generic aggregator summary. There is no detail regarding the product's features, market positioning, or strategic significance."
+      ],
+      "drafts": {
+        "concise": "We are pleased to note the latest product development from our portfolio company, Roof-Maker, with the launch of Luxlite® Plus. It is encouraging to see the team continue to expand their offering within the roofing sector. We look forward to seeing the market response to this new addition to their range. #RoofMaker #Innovation #Construction",
+        "investor": "Portfolio company Roof-Maker has announced the launch of Luxlite® Plus, a new addition to their product portfolio. This development reflects the company's ongoing commitment to product innovation and market expansion. We continue to support the Roof-Maker management team as they focus on scaling their operations and enhancing their competitive position in the industry. #PrivateEquity #PortfolioGrowth #RoofMaker",
+        "people": "Congratulations to the team at Roof-Maker on the launch of their latest innovation, Luxlite® Plus. Bringing a new product to market requires significant dedication and technical expertise, and it is a pleasure to support the team as they reach this milestone. We look forward to their continued progress. #TeamSuccess #RoofMaker #Innovation"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "1c66e9083d3e7c5b",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "title": "Mint Explainer | Why Facebook copyright system is under scrutiny in Delhi HC",
+      "url": "https://www.livemint.com/companies/news/meta-copyright-system-creator-cases-delhi-high-court-facebook-edit-post-11784200769973.html",
+      "source": "livemint.com",
+      "published_at": "20260717T091500Z",
+      "score": 45,
+      "story_type": "Legal/Regulatory",
+      "summary": "McGraw Hill is named as one of several publishers involved in a class-action lawsuit against Meta and its CEO, Mark Zuckerberg, regarding the alleged unauthorised use of copyrighted books and journal articles to train Llama AI models.",
+      "why_it_matters": "The litigation highlights the ongoing legal and ethical challenges surrounding the use of copyrighted intellectual property in the development of generative AI models, a critical area of focus for content-heavy businesses.",
+      "verified_facts": [
+        "McGraw Hill is a plaintiff in a class-action lawsuit against Meta and Mark Zuckerberg.",
+        "The lawsuit alleges that Meta illegally copied copyrighted books and journal articles to train Llama AI models without permission or payment."
+      ],
+      "warnings": [
+        "The article focuses primarily on a separate legal dispute involving Indian content creators and Meta; the mention of McGraw Hill is secondary and provides limited detail on the status of the publisher's specific class-action claim.",
+        "The information regarding the class-action lawsuit is attributed to a New York Times report cited within the Mint article, rather than a direct source from McGraw Hill."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill is currently participating in a class-action lawsuit against Meta regarding the use of copyrighted materials in AI model training. The legal action, which includes several other major publishers, centres on allegations that copyrighted books and journal articles were used to train Llama AI models without authorisation. As the role of intellectual property in the development of generative AI continues to be a significant point of discussion across the publishing and technology sectors, we continue to monitor these developments closely. Protecting the integrity of original content remains a fundamental priority for the industry. #McGrawHill #IntellectualProperty #AI",
+        "investor": "The intersection of intellectual property rights and generative AI development remains a critical strategic consideration for content-focused businesses. McGraw Hill is currently involved in a class-action lawsuit against Meta, challenging the use of copyrighted books and journals to train Llama AI models without appropriate licensing or compensation. This litigation underscores the importance of robust IP protection frameworks as AI technologies evolve. We remain focused on how our portfolio companies navigate these complex regulatory and legal landscapes to protect their core assets and long-term value. #InvestmentStrategy #AI #CopyrightLaw",
+        "people": "The protection of intellectual property is essential to the mission of publishers like McGraw Hill. The company is currently engaged in a class-action lawsuit against Meta, asserting that its copyrighted works were used to train AI models without permission. This legal action highlights the dedication of the McGraw Hill team to defending their content and ensuring that creators and publishers are fairly recognised for their contributions to the knowledge economy. We support our portfolio companies as they address these vital challenges to safeguard their intellectual assets in an increasingly digital world. #McGrawHill #ContentRights #Innovation"
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
@@ -34,11 +116,11 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 14,
-    "candidates_found": 42,
-    "gemini_requests_attempted": 26,
-    "gemini_requests_succeeded": 26,
-    "minimum_score": 55,
+    "providers_succeeded": 13,
+    "candidates_found": 48,
+    "gemini_requests_attempted": 28,
+    "gemini_requests_succeeded": 28,
+    "minimum_score": 10,
     "ready_score": 80
   }
 }
