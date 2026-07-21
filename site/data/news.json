@@ -1,37 +1,28 @@
 {
-  "generated_at": "2026-07-21T16:29:15.632241+00:00",
+  "generated_at": "2026-07-21T18:06:00.521559+00:00",
   "lookback_days": 7,
-  "story_count": 4,
+  "section_order": [
+    "company",
+    "market",
+    "supply_chain",
+    "customers_partners",
+    "leadership",
+    "regulatory",
+    "funding_mna",
+    "other"
+  ],
+  "section_labels": {
+    "company": "Company updates",
+    "market": "Market & sector",
+    "supply_chain": "Supply chain & logistics",
+    "customers_partners": "Customers & partnerships",
+    "leadership": "Leadership & people",
+    "regulatory": "Regulatory & legal",
+    "funding_mna": "Funding & M&A",
+    "other": "Other signals"
+  },
+  "story_count": 7,
   "stories": [
-    {
-      "id": "3c5cc3a7c5831c43",
-      "company": "UOE",
-      "company_domain": "uoe.co.uk",
-      "title": "Big News for Islington: Your Post Office Is Getting an Upgrade (and a New Best Friend)",
-      "url": "https://www.uoe.co.uk/news/big-news-for-islington-your-post-office-is-getting-an-upgrade-and-a-new-best-friend",
-      "source": "uoe.co.uk",
-      "published_at": "2026-07-14T07:00:52+00:00",
-      "score": 95,
-      "story_type": "Portfolio Update",
-      "summary": "UOE is relocating its Islington Post Office to a new, larger site at 129E Upper Street within the Islington Square shopping centre, effective 14th July. The new location integrates a modernised Post Office with the fourth 'Stamp' retail store, offering a curated range of stationery, gifts, and expanded courier services. The site features step-free access and extended seven-day opening hours.",
-      "why_it_matters": "The expansion demonstrates UOE's commitment to revitalising high street services by combining essential community infrastructure with a modern, customer-focused retail experience. The investment highlights the company's operational growth and its strategy to increase accessibility and service utility for local residents.",
-      "verified_facts": [
-        "The new Islington Post Office and Stamp store opens on 14th July at 129E Upper Street, London N1 1QP.",
-        "The site offers extended seven-day opening hours, including Sundays.",
-        "Services include Post Office facilities, printing, scanning, foreign currency, and courier drop-offs.",
-        "This is the fourth Stamp store opened by UOE."
-      ],
-      "warnings": [
-        "The article mentions a 2026 copyright date, which may indicate a discrepancy in the source material's metadata."
-      ],
-      "drafts": {
-        "concise": "We are pleased to share that our portfolio company, UOE, is expanding its presence in Islington. From 14th July, the local Post Office will move to a new, larger location at 129E Upper Street. This site will feature a fully modernised Post Office alongside the fourth 'Stamp' retail store, offering a curated selection of stationery and gifts. With extended seven-day opening hours and a comprehensive range of courier and administrative services, this development represents a significant upgrade for the local community. Congratulations to the UOE team on this successful expansion. #UOE #RetailInnovation #Islington",
-        "investor": "UOE continues to demonstrate its commitment to high street revitalisation with the opening of its latest integrated retail and service hub in Islington. By co-locating a modernised Post Office with the 'Stamp' retail brand, UOE is effectively increasing footfall and service utility. This strategic move, which includes extended seven-day trading hours and a broader suite of courier and business services, reflects the company's focus on operational efficiency and community-led growth. We look forward to seeing the impact of this new location as UOE continues to scale its unique retail model. #Investment #Growth #RetailStrategy",
-        "people": "A fantastic milestone for the UOE team as they prepare to open their new Islington Square location on 14th July. This project is a great example of how the team is reimagining the high street experience, blending essential community services with a modern retail environment. By listening to local needs and extending opening hours to seven days a week, UOE is ensuring that vital services remain accessible and convenient. Well done to Elliot Jacobs and the entire team for their hard work in bringing this new space to life. #TeamSuccess #CommunityImpact #UOE"
-      },
-      "status": "needs_review",
-      "discovered_via": "Company blog"
-    },
     {
       "id": "43ae0f8a49652b55",
       "company": "Molinare",
@@ -88,6 +79,57 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "6846997095f51c59",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "title": "UOE updates corporate history and strategic focus",
+      "source": "uoe.co.uk",
+      "source_type": "page",
+      "signal": "blog",
+      "url": "https://www.uoe.co.uk/about",
+      "published_at": "",
+      "discovered_via": "Company blog",
+      "section": "company",
+      "section_label": "Company Overview",
+      "section_confidence": 0.2,
+      "score": 65,
+      "summary": "UOE has published an updated company overview detailing its evolution from a typewriter repair shop to a leading independent stationery and Post Office retailer. The company highlights its strategic pivot in 2019 to divest its B2B division to focus on retail, its resilience during the pandemic, and its ongoing expansion plans across the South-East.",
+      "why_it_matters": "This update reinforces the company's strategic narrative and commitment to its retail-first model following the 2023 investment from Next Wave Partners. It serves as a public-facing validation of the current growth strategy and operational focus.",
+      "story_type": "Update",
+      "confidence": "high",
+      "verified_facts": [
+        "UOE was founded in 1983 by Matt and Helga Pavilides.",
+        "Elliot Jacobs acquired the business in 1998.",
+        "UOE sold its B2B office supplies division to Quills Group in October 2019.",
+        "Next Wave Partners invested in UOE in May 2023.",
+        "UOE currently operates seven stores."
+      ],
+      "warnings": [
+        "The article is a general 'About Us' page update rather than a breaking news event.",
+        "The text contains some marketing-focused language regarding store performance."
+      ],
+      "match_reasons": [
+        "company: UOE"
+      ],
+      "section_keywords": [],
+      "section_hint": "",
+      "entity_match": {
+        "matched": true,
+        "details": [
+          "company: UOE"
+        ]
+      },
+      "title_match": false,
+      "drafts": {
+        "concise": "UOE has refreshed its corporate profile, highlighting its successful transition to a retail-focused model and ongoing expansion plans across the South-East.",
+        "investor": "The updated company narrative confirms UOE's strategic alignment with its retail and Post Office model post-divestment of the B2B division. The focus remains on physical store expansion and community-centric service, consistent with the investment thesis established in May 2023.",
+        "people": "CEO Elliot Jacobs continues to lead the business, emphasizing the company's long-term commitment to high-street retail and expert customer service."
+      },
+      "draft_status": "review",
+      "needs_human_review": true,
+      "blog_fallback": true
+    },
+    {
       "id": "1c66e9083d3e7c5b",
       "company": "McGraw Hill",
       "company_domain": "mheducation.com",
@@ -114,19 +156,163 @@
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "c8b264d2cdcbcebb",
+      "company": "Fertility Associates",
+      "company_domain": "fertilityassociates.co.nz",
+      "title": "Fertility Associates features patient success story",
+      "source": "fertilityassociates.co.nz",
+      "source_type": "page",
+      "signal": "blog",
+      "url": "https://www.fertilityassociates.co.nz/news#main",
+      "published_at": "",
+      "discovered_via": "Company blog",
+      "section": "customers_partners",
+      "section_label": "Customer Stories",
+      "section_confidence": 0.2,
+      "score": 45,
+      "summary": "Fertility Associates has published a patient testimonial featuring Sarah Retter, who shares her personal journey regarding egg collection and sperm donation. The article highlights the clinic's role in supporting single women pursuing motherhood independently.",
+      "why_it_matters": "Patient testimonials serve as key marketing assets that build brand trust and demonstrate the clinic's service offerings in the growing market for elective fertility treatments.",
+      "story_type": "Customer / partnership",
+      "confidence": "high",
+      "verified_facts": [
+        "Fertility Associates published a story about patient Sarah Retter.",
+        "The story covers egg collection and sperm donation services."
+      ],
+      "warnings": [
+        "This is a marketing/patient testimonial piece rather than a corporate or financial update."
+      ],
+      "match_reasons": [
+        "Company blog update",
+        "Patient success story"
+      ],
+      "section_keywords": [],
+      "section_hint": "",
+      "entity_match": {
+        "matched": false,
+        "details": []
+      },
+      "title_match": false,
+      "drafts": {
+        "concise": "Fertility Associates featured a patient success story on their blog, highlighting their fertility services for single women.",
+        "investor": "Fertility Associates continues to leverage patient success stories as part of their marketing strategy to drive brand awareness and patient acquisition in the fertility sector.",
+        "people": "N/A"
+      },
+      "draft_status": "review",
+      "needs_human_review": true,
+      "blog_fallback": true
+    },
+    {
+      "id": "9aafab965dc18868",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "title": "Clearway Group publishes updated corporate profile and service capabilities",
+      "source": "clearway.co.uk",
+      "source_type": "page",
+      "signal": "blog",
+      "url": "https://www.clearway.co.uk/about-us/",
+      "published_at": "2026-06-25T10:53:17+00:00",
+      "discovered_via": "Company blog",
+      "section": "company",
+      "section_label": "Company Overview",
+      "section_confidence": 0.57,
+      "score": 30,
+      "summary": "Clearway Group has updated its corporate website to provide a comprehensive overview of its integrated security, technology, and financial recovery services. The profile clarifies the group's structure, confirming it operates as a holding company for 16 independent entities under the unified Clearway brand, with roots dating back to 1992.",
+      "why_it_matters": "This update provides a clear, consolidated view of the group's operational architecture and service breadth, which is useful for understanding the scale and integration of its 16 specialist business units within the UK security market.",
+      "story_type": "Update",
+      "confidence": "high",
+      "verified_facts": [
+        "Clearway Group is a holding company for 16 independent organisations.",
+        "The group provides security, technology, safety, and financial recovery services.",
+        "The modern group structure was established in 2016, with origins dating back to 1992.",
+        "The company holds ISO 9001, 14001, and 45001 certifications."
+      ],
+      "warnings": [
+        "This is a static corporate 'About Us' page update rather than a specific news event or press release."
+      ],
+      "match_reasons": [
+        "company: Clearway"
+      ],
+      "section_keywords": [
+        "sec"
+      ],
+      "section_hint": "",
+      "entity_match": {
+        "matched": true,
+        "details": [
+          "company: Clearway"
+        ]
+      },
+      "title_match": true,
+      "drafts": {
+        "concise": "Clearway Group has updated its corporate profile, detailing its structure as a holding company for 16 specialist security and technology firms operating across the UK.",
+        "investor": "The updated profile confirms Clearway's strategy of integrating 16 specialist entities under a single commercial brand to offer a full-lifecycle security and financial recovery service, leveraging cross-selling opportunities across construction, infrastructure, and public sectors.",
+        "people": "No significant leadership or talent changes were announced in this update."
+      },
+      "draft_status": "review",
+      "needs_human_review": true,
+      "blog_fallback": true
+    },
+    {
+      "id": "747c7509e4c64fa5",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "title": "Petainer Insights Page Overview",
+      "source": "petainer.com",
+      "source_type": "page",
+      "signal": "blog",
+      "url": "https://www.petainer.com/insights",
+      "published_at": "",
+      "discovered_via": "Company blog",
+      "section": "other",
+      "section_label": "Other",
+      "section_confidence": 0.2,
+      "score": 10,
+      "summary": "The provided text is a generic landing page description for Petainer's 'Insights' section. It invites users to explore case studies and industry trends without providing specific new information or updates.",
+      "why_it_matters": "This is a static marketing page rather than a specific news event or material update, offering no actionable intelligence for portfolio monitoring.",
+      "story_type": "Other",
+      "confidence": "high",
+      "verified_facts": [
+        "Petainer maintains an insights section on their website.",
+        "The section covers case studies, industry trends, and packaging strategy advice."
+      ],
+      "warnings": [
+        "The source text is a generic website description and does not contain a specific news article or update."
+      ],
+      "match_reasons": [
+        "company: Petainer"
+      ],
+      "section_keywords": [],
+      "section_hint": "",
+      "entity_match": {
+        "matched": true,
+        "details": [
+          "company: Petainer"
+        ]
+      },
+      "title_match": true,
+      "drafts": {
+        "concise": "Petainer's insights page provides general industry trends and case studies.",
+        "investor": "No material strategic or financial updates identified; the source is a static marketing landing page.",
+        "people": "No leadership or personnel changes reported."
+      },
+      "draft_status": "review",
+      "needs_human_review": true,
+      "blog_fallback": true
     }
   ],
   "run_summary": {
     "companies_checked": 11,
-    "companies_with_coverage": 3,
-    "providers_succeeded": 28,
-    "candidates_found": 84,
-    "gemini_requests_attempted": 10,
-    "gemini_requests_succeeded": 10,
-    "grounding_drops": 6,
-    "blog_fallbacks_added": 1,
-    "stories_carried_forward": 4,
-    "candidates_skipped_recently_evaluated": 22,
+    "companies_with_coverage": 6,
+    "providers_succeeded": 13,
+    "candidates_found": 72,
+    "gemini_requests_attempted": 4,
+    "gemini_requests_succeeded": 4,
+    "grounding_drops": 4,
+    "blog_fallbacks_added": 4,
+    "stories_carried_forward": 3,
+    "candidates_skipped_recently_evaluated": 4,
     "minimum_score": 60
   }
 }
