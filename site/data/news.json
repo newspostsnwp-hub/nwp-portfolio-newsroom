@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T09:32:25.813623+00:00",
-  "lookback_days": 14,
+  "generated_at": "2026-07-21T10:19:00.602768+00:00",
+  "lookback_days": 7,
   "story_count": 4,
   "stories": [
     {
@@ -32,55 +32,55 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "e4ea4fe1e7f33d6f",
-      "company": "Whitespace",
-      "company_domain": "white.space",
-      "title": "API reference Coasty Computer Use API",
-      "url": "https://coasty.ai/docs",
-      "source": "coasty.ai",
-      "published_at": "20260715T170000Z",
-      "score": 85,
-      "story_type": "Product Update",
-      "summary": "Coasty has released comprehensive documentation for its Computer Use API, detailing how developers can run autonomous tasks on managed machines, build complex workflows, and integrate custom LLM providers.",
-      "why_it_matters": "The release of the Coasty API documentation provides developers with the technical framework to scale autonomous agent operations, offering granular control over machine management and model selection.",
+      "id": "00e4c92f85cba037",
+      "company": "Molinare",
+      "company_domain": "molinare.co.uk",
+      "title": "Former ILM exec to drive growth in Molinare’s Irish operations - TVBEurope",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUWQ1VW5sR2hPbnFmVElOUGZWWVRqRFlYQ0xyYTJSNTZZb3ROZjM3YWROOUZ5aHlTOWZocnZZQW9XNElQT095Mno4MGxyQlgxM01KRkJ6eHNsQ2NTQUtsR1NBeE5PZENyUDQ2U2d0X2ZxNnkwcXJib1JiYzB2MGpETldva0w3SkVHMmo4VWY5WGNkeWJMa0pjWG5Fa0ZQd1JzbVZrWkNn?oc=5",
+      "source": "TVBEurope",
+      "published_at": "2026-07-16T10:06:55+00:00",
+      "score": 90,
+      "story_type": "Corporate Development",
+      "summary": "Molinare Creative Group has appointed a former Industrial Light & Magic (ILM) executive to lead and expand its operations in Ireland.",
+      "why_it_matters": "This strategic hire signals Molinare's commitment to scaling its international footprint and leveraging high-level industry expertise to drive growth in the Irish post-production market.",
       "verified_facts": [
-        "Coasty's API allows for autonomous task execution on managed machines.",
-        "The platform supports workflows that include branching, loops, and human-in-the-loop approvals.",
-        "Users can opt-in to 'Bring Your Own Key' (BYOK) to use their own Anthropic or OpenAI accounts for LLM calls."
+        "Molinare is expanding its operations in Ireland.",
+        "A former ILM executive has been appointed to lead this growth."
       ],
       "warnings": [
-        "The source material is technical documentation rather than a formal company announcement, which may lack broader strategic context."
+        "The specific name of the executive was not provided in the source material."
       ],
       "drafts": {
-        "concise": "Coasty has published its latest API reference, providing developers with the tools to build and scale autonomous agent workflows. The documentation outlines how to manage cloud-based machines, implement complex task logic, and integrate custom LLM providers via a 'Bring Your Own Key' model. This update offers greater flexibility for teams looking to automate tasks with direct control over the underlying infrastructure. We look forward to seeing how developers leverage these capabilities to build more robust autonomous systems. #Coasty #Automation #TechInnovation",
-        "investor": "The release of the Coasty Computer Use API documentation marks a significant step in the platform's professionalisation. By providing clear, scalable primitives for autonomous task management and workflow orchestration, Coasty is enabling enterprise-grade integration for its users. The addition of BYOK support for LLMs demonstrates a commitment to flexibility and cost-efficiency, allowing teams to align their infrastructure with specific operational requirements. This technical maturity is essential for scaling autonomous agent deployments in complex environments. #NextWavePartners #Coasty #AIInfrastructure",
-        "people": "Congratulations to the team at Coasty for the release of their comprehensive Computer Use API documentation. This update provides a powerful framework for developers to automate complex tasks, manage stateful sessions, and integrate custom models seamlessly. It is impressive to see the team focus on providing the granular control and reliability that developers need to build effective autonomous agents. We are proud to support the Coasty team as they continue to build the infrastructure for the next generation of automation. #Coasty #TeamGrowth #AutonomousAgents"
+        "concise": "We are pleased to share that Molinare Creative Group is strengthening its international presence with the appointment of a former Industrial Light & Magic executive to lead its Irish operations. This strategic move marks an important step in the group's ongoing development and commitment to delivering world-class post-production services. Congratulations to the team at Molinare on this significant addition to their leadership. #Molinare #PostProduction #BusinessGrowth",
+        "investor": "Molinare Creative Group continues to execute its growth strategy with the appointment of a former ILM executive to spearhead its Irish operations. By attracting top-tier talent with significant international experience, Molinare is well-positioned to scale its service offering and enhance its competitive standing in the post-production sector. We look forward to seeing the impact of this leadership on the group's expansion plans in the region. #Investment #Molinare #CreativeIndustries",
+        "people": "Attracting high-calibre talent is essential to building a world-class creative business. Molinare Creative Group has taken a significant step forward by appointing a former ILM executive to drive its operations in Ireland. Bringing in leadership with such deep industry expertise is a testament to the group's reputation and its ambition to grow its footprint. We are proud to support the Molinare team as they continue to build their capabilities. #Leadership #Molinare #MediaProduction"
       },
       "status": "needs_review",
-      "discovered_via": "GDELT"
+      "discovered_via": "Google News RSS"
     },
     {
-      "id": "75f83b71673f7e39",
-      "company": "Roof-Maker",
-      "company_domain": "roof-maker.co.uk",
-      "title": "Exciting Innovation: Luxlite® Plus - Specification Online",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdnh5U2FYRHF6NHRJOGVvUkJ6cmNaVEo3MUVfQnd1YXdNNVNNNVdrcldaNHI0dUx1anBIUGZ4NGlCWkRHY1VWMjg1S0hkWFFXUENJTUlKWnhoV1lsYmlzNm1Xa1ZIdGtaME9ENks2LTZ2NGYyUHVIRzItbkZKVXVRT3ppaEtmYlBCcnJXRW1lUWJaeG0zR0RwdTVNMWZEYkEwRVJF?oc=5",
-      "source": "Specification Online",
-      "published_at": "Mon, 13 Jul 2026 07:57:00 GMT",
-      "score": 45,
-      "story_type": "Product Launch",
-      "summary": "Roof-Maker has announced the launch of its new product, Luxlite® Plus.",
-      "why_it_matters": "The introduction of new product lines represents ongoing commercial development within the Roof-Maker portfolio.",
+      "id": "37338ba99db1bd34",
+      "company": "Molinare",
+      "company_domain": "molinare.co.uk",
+      "title": "Molinare hires Des Carey for Dublin studio - Televisual",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93RzM0WEpZeGc3ek1QTV9mMWNEbWw5b2Z3bzhyLUlvR24wTXVXVWZJR0NKTlhFNlViM0xQSDFUdXp5X3VDMnF2Wk9fMWtpQy1BWmtIWWk2aVFYQmxINVB3OXVldjRWMnpITmxkSVMtRWpSVHh5OUxuSXlB?oc=5",
+      "source": "Televisual",
+      "published_at": "2026-07-16T09:45:40+00:00",
+      "score": 85,
+      "story_type": "Personnel Appointment",
+      "summary": "Molinare has appointed Des Carey to lead its new studio operations in Dublin.",
+      "why_it_matters": "This appointment marks a significant step in Molinare's geographic expansion, strengthening their presence in the Irish post-production market.",
       "verified_facts": [
-        "Roof-Maker has launched a product called Luxlite® Plus."
+        "Molinare has hired Des Carey.",
+        "The appointment is for Molinare's Dublin studio."
       ],
       "warnings": [
-        "The source material provided is extremely sparse, containing only a title and a generic aggregator summary. There is no detail regarding the product's features, market positioning, or strategic significance."
+        "The source material is brief; specific details regarding the scope of the Dublin studio's operations or the start date for Mr. Carey are not provided."
       ],
       "drafts": {
-        "concise": "We are pleased to note the latest product development from our portfolio company, Roof-Maker, with the launch of Luxlite® Plus. It is encouraging to see the team continue to expand their offering within the roofing sector. We look forward to seeing the market response to this new addition to their range. #RoofMaker #Innovation #Construction",
-        "investor": "Portfolio company Roof-Maker has announced the launch of Luxlite® Plus, a new addition to their product portfolio. This development reflects the company's ongoing commitment to product innovation and market expansion. We continue to support the Roof-Maker management team as they focus on scaling their operations and enhancing their competitive position in the industry. #PrivateEquity #PortfolioGrowth #RoofMaker",
-        "people": "Congratulations to the team at Roof-Maker on the launch of their latest innovation, Luxlite® Plus. Bringing a new product to market requires significant dedication and technical expertise, and it is a pleasure to support the team as they reach this milestone. We look forward to their continued progress. #TeamSuccess #RoofMaker #Innovation"
+        "concise": "We are pleased to share that Molinare has appointed Des Carey to lead its new studio in Dublin. This move represents a key development in the group's ongoing expansion, bringing their post-production expertise to a new market. Congratulations to the team at Molinare on this latest milestone. #Molinare #PostProduction #Dublin",
+        "investor": "Molinare continues to execute its strategic growth plan with the appointment of Des Carey to head its new Dublin studio. Expanding into key international hubs is a vital component of the group's professionalisation and operational scaling. We look forward to seeing the impact of this new facility on the group's service capabilities. #Investment #GrowthStrategy #Molinare",
+        "people": "Molinare continues to attract top-tier talent, with the announcement that Des Carey will lead their new Dublin-based studio. Bringing experienced leadership into new territories is essential for maintaining the high standards of post-production excellence that the Molinare Creative Group is known for. We wish Des every success in this new role. #Leadership #CreativeIndustry #Molinare"
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
@@ -116,11 +116,13 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 13,
-    "candidates_found": 48,
-    "gemini_requests_attempted": 28,
-    "gemini_requests_succeeded": 28,
-    "minimum_score": 10,
+    "providers_succeeded": 30,
+    "candidates_found": 59,
+    "gemini_requests_attempted": 13,
+    "gemini_requests_succeeded": 13,
+    "stories_carried_forward": 2,
+    "candidates_skipped_recently_evaluated": 0,
+    "minimum_score": 60,
     "ready_score": 80
   }
 }
