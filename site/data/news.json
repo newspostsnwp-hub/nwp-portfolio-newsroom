@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T13:31:04.169169+00:00",
+  "generated_at": "2026-07-21T14:28:16.420684+00:00",
   "lookback_days": 7,
   "story_count": 4,
   "stories": [
@@ -116,12 +116,12 @@
   ],
   "run_summary": {
     "companies_checked": 11,
-    "providers_succeeded": 31,
-    "candidates_found": 56,
-    "gemini_requests_attempted": 1,
-    "gemini_requests_succeeded": 1,
+    "providers_succeeded": 29,
+    "candidates_found": 50,
+    "gemini_requests_attempted": 2,
+    "gemini_requests_succeeded": 2,
     "stories_carried_forward": 4,
-    "candidates_skipped_recently_evaluated": 19,
+    "candidates_skipped_recently_evaluated": 20,
     "minimum_score": 60,
     "ready_score": 80
   }
