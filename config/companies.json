@@ -1,22 +1,9 @@
 [
   {
     "name": "The Delivery Group",
-    "aliases": [
-      "TDG",
-      "The Delivery Group UK",
-      "The Delivery Group Limited",
-      "Secured Mail",
-      "CMS Network",
-      "OnePost"
-    ],
-    "search_terms": [
-      "The Delivery Group",
-      "TDG",
-      "The Delivery Group UK",
-      "Secured Mail",
-      "CMS Network",
-      "OnePost"
-    ],
+    "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
+    "aliases": ["TDG", "The Delivery Group UK", "The Delivery Group Limited", "Secured Mail", "CMS Network", "OnePost"],
+    "search_terms": ["The Delivery Group", "TDG", "The Delivery Group UK", "Secured Mail", "CMS Network", "OnePost"],
     "website": "https://thedeliverygroup.co.uk/",
     "domain": "thedeliverygroup.co.uk",
     "newsroom_urls": [],
@@ -25,52 +12,20 @@
   },
   {
     "name": "Clearway Group",
-    "aliases": [
-      "Clearway",
-      "The Clearway Group",
-      "Clearway security UK",
-      "Clearway Labs",
-      "LociLabs",
-      "SECONTEC"
-    ],
-    "search_terms": [
-      "Clearway Group",
-      "Clearway",
-      "The Clearway Group",
-      "Clearway Labs",
-      "LociLabs",
-      "SECONTEC"
-    ],
+    "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
+    "aliases": ["Clearway", "The Clearway Group", "Clearway security UK", "Clearway Labs", "LociLabs", "SECONTEC"],
+    "search_terms": ["Clearway Group", "Clearway", "The Clearway Group", "Clearway Labs", "LociLabs", "SECONTEC"],
     "website": "https://www.clearway.co.uk/",
     "domain": "clearway.co.uk",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "Clearway Energy",
-      "Clearway Community Solar",
-      "Clearway Health",
-      "Clearway Pain Solutions",
-      "Clearway Law"
-    ]
+    "exclude_terms": ["Clearway Energy", "Clearway Community Solar", "Clearway Health", "Clearway Pain Solutions", "Clearway Law"]
   },
   {
     "name": "Swytch",
-    "aliases": [
-      "Swytch Bike",
-      "Swytch Technology",
-      "Swytch Technology Ltd",
-      "Swytch eBike",
-      "Swytch eBike Conversion Kit",
-      "Swytch GO",
-      "Swytch MAX"
-    ],
-    "search_terms": [
-      "Swytch",
-      "Swytch Bike",
-      "Swytch Technology",
-      "Swytch GO",
-      "Swytch MAX"
-    ],
+    "description": "UK maker of e-bike conversion kits, including the Swytch GO and Swytch MAX.",
+    "aliases": ["Swytch Bike", "Swytch Technology", "Swytch Technology Ltd", "Swytch eBike", "Swytch eBike Conversion Kit", "Swytch GO", "Swytch MAX"],
+    "search_terms": ["Swytch", "Swytch Bike", "Swytch Technology", "Swytch GO", "Swytch MAX"],
     "website": "https://www.swytchbike.com/",
     "domain": "swytchbike.com",
     "newsroom_urls": [],
@@ -79,70 +34,31 @@
   },
   {
     "name": "Molinare",
-    "aliases": [
-      "Molinare TV & Film",
-      "Molinare TV and Film",
-      "Molinare Creative Group",
-      "Molinare Group",
-      "Notorious DIT"
-    ],
-    "search_terms": [
-      "Molinare",
-      "Molinare TV & Film",
-      "Molinare Creative Group",
-      "Notorious DIT"
-    ],
+    "description": "London-based TV and film post-production group (Molinare Creative Group, including Notorious DIT).",
+    "aliases": ["Molinare TV & Film", "Molinare TV and Film", "Molinare Creative Group", "Molinare Group", "Notorious DIT"],
+    "search_terms": ["Molinare", "Molinare TV & Film", "Molinare Creative Group", "Notorious DIT"],
     "website": "https://molinare.co.uk/",
     "domain": "molinare.co.uk",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "Molinaire"
-    ]
+    "exclude_terms": ["Molinaire"]
   },
   {
     "name": "Pip Studios",
-    "aliases": [
-      "PiP",
-      "PIP Studios",
-      "PIP Studios Limited",
-      "Pip Studios UK",
-      "Pip Studios audio post-production",
-      "Pip Studios audio localisation"
-    ],
-    "search_terms": [
-      "PiP",
-      "Pip Studios",
-      "PIP Studios",
-      "PIP Studios Limited"
-    ],
+    "description": "UK audio post-production and localisation studio.",
+    "aliases": ["PiP", "PIP Studios", "PIP Studios Limited", "Pip Studios UK", "Pip Studios audio post-production", "Pip Studios audio localisation"],
+    "search_terms": ["PiP", "Pip Studios", "PIP Studios", "PIP Studios Limited"],
     "website": "https://pipstudios.com/",
     "domain": "pipstudios.com",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "Pip Studio homeware",
-      "Pip Studio bedding",
-      "Pip Studio Amsterdam",
-      "PIP Printing"
-    ]
+    "exclude_terms": ["Pip Studio homeware", "Pip Studio bedding", "Pip Studio Amsterdam", "PIP Printing"]
   },
   {
     "name": "Petainer",
-    "aliases": [
-      "Petainer Group",
-      "Petainer UK Holdings",
-      "Petainer packaging",
-      "Petainer PET packaging",
-      "petainerKeg",
-      "Petainer Keg"
-    ],
-    "search_terms": [
-      "Petainer",
-      "Petainer Group",
-      "petainerKeg",
-      "Petainer Keg"
-    ],
+    "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
+    "aliases": ["Petainer Group", "Petainer UK Holdings", "Petainer packaging", "Petainer PET packaging", "petainerKeg", "Petainer Keg"],
+    "search_terms": ["Petainer", "Petainer Group", "petainerKeg", "Petainer Keg"],
     "website": "https://www.petainer.com/",
     "domain": "petainer.com",
     "newsroom_urls": [],
@@ -151,104 +67,42 @@
   },
   {
     "name": "Whitespace",
-    "aliases": [
-      "Whitespace Global",
-      "Whitespace sovereign AI",
-      "Whitespace AI UK",
-      "Collective by Whitespace",
-      "Whitespace Collective",
-      "Whitespace CollectiveOS",
-      "CollectiveOS"
-    ],
-    "search_terms": [
-      "Whitespace",
-      "Whitespace Global",
-      "Collective by Whitespace",
-      "Whitespace Collective",
-      "CollectiveOS"
-    ],
+    "description": "UK sovereign AI company behind Collective / CollectiveOS.",
+    "aliases": ["Whitespace Global", "Whitespace sovereign AI", "Whitespace AI UK", "Collective by Whitespace", "Whitespace Collective", "Whitespace CollectiveOS", "CollectiveOS"],
+    "search_terms": ["Whitespace", "Whitespace Global", "Collective by Whitespace", "Whitespace Collective", "CollectiveOS"],
     "website": "https://www.white.space/",
     "domain": "white.space",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "Whitespace Software",
-      "Whitespace real estate",
-      "white space design",
-      "white space analysis"
-    ]
+    "exclude_terms": ["Whitespace Software", "Whitespace real estate", "white space design", "white space analysis"]
   },
   {
     "name": "UOE",
-    "aliases": [
-      "UOE Store",
-      "UOE Stores",
-      "UOE Post Office",
-      "UOE stationery",
-      "UOE independent stationery"
-    ],
-    "search_terms": [
-      "UOE",
-      "UOE Store",
-      "UOE Stores",
-      "UOE Post Office"
-    ],
+    "description": "UK independent stationery and Post Office retail chain.",
+    "aliases": ["UOE Store", "UOE Stores", "UOE Post Office", "UOE stationery", "UOE independent stationery"],
+    "search_terms": ["UOE", "UOE Store", "UOE Stores", "UOE Post Office"],
     "website": "https://www.uoe.co.uk/",
     "domain": "uoe.co.uk",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "University of Edinburgh",
-      "University of Exeter",
-      "University of Essex",
-      "University of Europe"
-    ]
+    "exclude_terms": ["University of Edinburgh", "University of Exeter", "University of Essex", "University of Europe"]
   },
   {
     "name": "McGraw Hill",
-    "aliases": [
-      "McGraw-Hill",
-      "McGraw Hill Education",
-      "McGraw-Hill Education",
-      "McGraw Hill Inc",
-      "McGraw Hill learning"
-    ],
-    "search_terms": [
-      "McGraw Hill",
-      "McGraw-Hill",
-      "McGraw Hill Education",
-      "McGraw-Hill Education"
-    ],
+    "description": "Global education publishing and learning technology company.",
+    "aliases": ["McGraw-Hill", "McGraw Hill Education", "McGraw-Hill Education", "McGraw Hill Inc", "McGraw Hill learning"],
+    "search_terms": ["McGraw Hill", "McGraw-Hill", "McGraw Hill Education", "McGraw-Hill Education"],
     "website": "https://www.mheducation.com/",
     "domain": "mheducation.com",
     "newsroom_urls": [],
     "rss_feeds": [],
-    "exclude_terms": [
-      "McGraw Hill Financial",
-      "McGraw-Hill Financial",
-      "S&P Global"
-    ]
+    "exclude_terms": ["McGraw Hill Financial", "McGraw-Hill Financial", "S&P Global"]
   },
   {
     "name": "Fertility Associates",
-    "aliases": [
-      "Fertility Associates New Zealand",
-      "Fertility Associates NZ",
-      "Fertility Associates Limited",
-      "Fertility Associates Holdings",
-      "Sunfert International Fertility Centre",
-      "Sunfert fertility",
-      "Sophea Fertility Centre",
-      "Sophea Fertility",
-      "IVFkasih"
-    ],
-    "search_terms": [
-      "Fertility Associates",
-      "Fertility Associates NZ",
-      "Sunfert",
-      "Sophea",
-      "IVFkasih"
-    ],
+    "description": "New Zealand fertility clinic group, with Sunfert, Sophea and IVFkasih clinics in Asia.",
+    "aliases": ["Fertility Associates New Zealand", "Fertility Associates NZ", "Fertility Associates Limited", "Fertility Associates Holdings", "Sunfert International Fertility Centre", "Sunfert fertility", "Sophea Fertility Centre", "Sophea Fertility", "IVFkasih"],
+    "search_terms": ["Fertility Associates", "Fertility Associates NZ", "Sunfert", "Sophea", "IVFkasih"],
     "website": "https://www.fertilityassociates.co.nz/",
     "domain": "fertilityassociates.co.nz",
     "newsroom_urls": [],
@@ -257,20 +111,9 @@
   },
   {
     "name": "Roof-Maker",
-    "aliases": [
-      "Roofmaker",
-      "Roof-Maker Ltd",
-      "Roof-Maker UK",
-      "Roof Maker",
-      "Roof Maker rooflights",
-      "Roof-Maker rooflights"
-    ],
-    "search_terms": [
-      "Roof-Maker",
-      "Roofmaker",
-      "Roof Maker",
-      "Roof-Maker rooflights"
-    ],
+    "description": "UK designer and manufacturer of rooflights.",
+    "aliases": ["Roofmaker", "Roof-Maker Ltd", "Roof-Maker UK", "Roof Maker", "Roof Maker rooflights", "Roof-Maker rooflights"],
+    "search_terms": ["Roof-Maker", "Roofmaker", "Roof Maker", "Roof-Maker rooflights"],
     "website": "https://roof-maker.co.uk/",
     "domain": "roof-maker.co.uk",
     "newsroom_urls": [],
