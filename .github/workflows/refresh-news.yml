@@ -43,9 +43,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
-          LOOKBACK_DAYS: "7"
+          LOOKBACK_DAYS: "14"
           MAX_PER_COMPANY: "4"
-          MIN_SCORE: "55"
+          MIN_SCORE: "10"
           READY_SCORE: "80"
           PYTHONUNBUFFERED: "1"
         run: |
