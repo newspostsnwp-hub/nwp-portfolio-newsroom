@@ -9,6 +9,7 @@ on:
   schedule:
     - cron: "15 6 * * *"
     - cron: "15 17 * * *"
+    - cron: "05 10 * * *"
 
 concurrency:
   group: portfolio-news-refresh
@@ -92,19 +93,24 @@ jobs:
           print(f"Validated news.json with {data['story_count']} stories.")
           PY
 
-      - name: Email the morning digest
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 6 * * *'
-        env:
-          SMTP_HOST: smtp.gmail.com
-          SMTP_PORT: "587"
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.SMTP_USER }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          DASHBOARD_URL: https://your-dashboard.pages.dev/
-          DIGEST_MAX: "12"
-        run: |
-          python scripts/send_digest.py
+          - name: Email the morning digest
+                  if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+                  env:
+                    SMTP_HOST: smtp.gmail.com
+                    SMTP_PORT: "587"
+                    SMTP_USER: ${{ secrets.SMTP_USER }}
+                    SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+                    EMAIL_FROM: ${{ secrets.SMTP_USER }}
+                    EMAIL_TO: ${{ secrets.EMAIL_TO }}
+                    DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
+                    DIGEST_MAX: "6"
+                  shell: bash
+                  run: |
+                    if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 12 ]; then
+                      echo "Evening refresh - skipping the digest email."
+                      exit 0
+                    fi
+                    python scripts/send_digest.py
 
       - name: Commit refreshed news data
         shell: bash
