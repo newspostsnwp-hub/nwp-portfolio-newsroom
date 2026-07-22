@@ -1,13 +1,98 @@
 {
-  "generated_at": "2026-07-22T10:49:59.066332+00:00",
+  "generated_at": "2026-07-22T10:57:48.554081+00:00",
   "lookback_days": 7,
   "sector_lookback_days": 7,
   "archive_days": 45,
-  "story_count": 0,
-  "todays_story_count": 0,
-  "stories": [],
-  "sector_stories": [],
+  "story_count": 1,
+  "todays_story_count": 1,
+  "stories": [
+    {
+      "id": "43ae0f8a49652b55",
+      "company": "Molinare",
+      "company_domain": "molinare.co.uk",
+      "industry": "TV and film post-production",
+      "title": "Molinare hires Des Carey for Dublin studio",
+      "url": "https://www.televisual.com/news/molinare-taps-carey-for-dublin-studio/",
+      "source": "televisual.com",
+      "published_at": "2026-07-16T10:15:00+00:00",
+      "first_seen": "2026-07-22T10:57:48.554081+00:00",
+      "score": 85,
+      "story_type": "Executive Appointment",
+      "summary": "Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation, based at their Dublin-based studio, Elephant Goldfish.",
+      "why_it_matters": "The appointment signals a strategic focus on international expansion and the integration of emerging production technologies, leveraging Carey's extensive background in global cinema innovation and post-production workflows.",
+      "verified_facts": [
+        "Des Carey has been appointed as Executive Director, Growth & Innovation at Elephant Goldfish, part of the Molinare Creative Group.",
+        "Carey previously held senior roles at Company 3, Light Iron, Resurgent Film Group, and Samsung.",
+        "The role involves leading strategic growth and partnership initiatives across the Molinare Creative Group."
+      ],
+      "warnings": [
+        "The source material contains a date reference of 16.07.26, which appears to be a future-dated or placeholder timestamp."
+      ],
+      "drafts": {
+        "concise": "Molinare Creative Group has announced the appointment of Des Carey as Executive Director, Growth & Innovation. Based at the group’s Dublin studio, Elephant Goldfish, Carey will lead strategic growth and partnership initiatives. With over 25 years of experience across production and post-production, including senior roles at Samsung and Light Iron, Carey will work closely with the wider Molinare team to identify opportunities in film, television, and emerging production technologies. This appointment marks a significant step in the group’s commitment to expanding its international presence and technical capabilities. #Molinare #PostProduction #MediaInnovation",
+        "investor": "Molinare Creative Group continues to strengthen its international footprint with the appointment of Des Carey as Executive Director, Growth & Innovation. Based at the group’s Dublin-based studio, Elephant Goldfish, Carey brings extensive experience in cinematic innovation and cloud-based production infrastructure. His remit includes driving strategic growth and identifying new commercial opportunities across the group’s film and television operations. By integrating high-level expertise in emerging technologies, Molinare is positioning itself to address the evolving demands of the global production landscape. This strategic hire underscores the group’s focus on scaling its service offering and enhancing its competitive position in the post-production sector. #Investment #MediaGrowth #Molinare",
+        "people": "We are pleased to see Molinare Creative Group welcome Des Carey to the team as Executive Director, Growth & Innovation. Based at Elephant Goldfish in Dublin, Des brings a wealth of international experience, having worked with industry-leading filmmakers and held senior positions at companies including Samsung and Light Iron. His deep expertise in next-generation cinema technology and virtual production will be a significant asset as the group continues to evolve its creative and technical offerings. We look forward to seeing the impact of his leadership on the group’s strategic development and collaborative initiatives across the business. #Leadership #PostProduction #Molinare"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    }
+  ],
+  "sector_stories": [
+    {
+      "id": "8368c358c14a2811",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "'HOPE' Director Na Hong-jin: \"There Were Over 400 Creature Shots; I Even Wondered Why I Was Covering the Actors' Faces with CGI\" - SBS Star",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOekk2dC1BVzN0eTdQQTlTelVOUmgtazgzTC1hNGMwREFnekpkOXZhZWhrRlBEYi11MHNSbkotSHpXN2NHaUxDM0FyVkgtcXhDWVQyNHF1NkRPblhWbGtzY2hQS3hIS2hMT3lhRDF3V2dzVW1Xb1M2TnZCb2hXUElwNXdXLW1sWDRfbURlbjY2TWhrR29qZVd0YjJtckV6c3lMS2hjRWRGdDRjbDlsUjNIUnNUY3pRcHluSXY2MXNib2JYWmEwa0RhZktaREFpcU45Vnl6bnRFVW5mUEFLelpEWnhiMkdpeWlUOXQ4c2dnV3FGdw?oc=5",
+      "source": "SBS Star",
+      "published_at": "2026-07-20T13:56:00+00:00",
+      "first_seen": "2026-07-22T10:57:48.554081+00:00",
+      "score": 65,
+      "summary": "Director Na Hong-jin reported that the film 'HOPE' required over 400 creature shots, involving extensive use of CGI to cover actors' faces.",
+      "angle": "Highlights the increasing reliance on complex VFX and creature design in modern high-budget film production workflows.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "4acd6aa898acf366",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQUl9ncTZfNnRUZ2laVUJZdVdkNHpRbU9PRzZWcFg0S2RVUFFxcEN1czdDUE96X25UUTJ0c2Q4NHhfS3d1bDFIMElJeHV6cDQzdDJVRDNiajFySDBNQ0dTUEQ4U3ROcHdsRUZ1QUp3eXNXZWhrNHNma003YnpVX1JsSGQ4dHNmS3dmaWx3T2c1V0ZoanhUQ1J2WVN2TmFVOV9YNGZpd01fOUlWazY5anRmdTZnSE9zR2NULUtoWUczUUMzc25BZTlYblhlM0lPM0xTdVVOY2JmTUJPcVNfX1dvOFFYSW9mZGk1cDkxNHdsSXlYQlhaVVJlYnBuMkVDUldTSkdnUlEyanJPd0ZCOUcwek5BTWtGaG9QUnc5QnBlSnMxa3FZbF93emktY1ZPUGhBVnk40gG4AkFVX3lxTE9fRE82elhTVTlRM0YtMkpCMkZSS3F4TER6S1JjV1FnZUxCUE9qWjhRa185STA4RzM3aWVoR2stYjNqQ2lfbjNpYzdkRGQxQkFqRXV2REJ5amJGMDNUMnNHUlFyOGNaSWMzbzlBQ2s0SnRRNWk2SVBUVXYyWjBqbGd2UzdvVXE3RnJOQUhKZkNHOW9rTEpHeVQzNGlBUXF4X0R4RkdsR0dTbG5mZ21UZDJnTDlvYllCc0lDVDJwamlScThtQzJLQWJrcGhNajZiT3RYUW1SU3Y1MDhBNXdRNFllckpmbk51Vk9kazhuRHFnNFI4M0k2SWVpT19PTEFOajNaMmNFLXlHMlh0QTJQMlJaQjhzdFFoSFYyV25IcGM5WVUzcXlJTG8xMDBDa1M2UTc1dmVmbTVrbg?oc=5",
+      "source": "The Manila Times",
+      "published_at": "2026-07-21T06:03:13+00:00",
+      "first_seen": "2026-07-22T10:57:48.554081+00:00",
+      "score": 85,
+      "summary": "Carbios has successfully completed 100 batches at its industrial demonstration plant and is expanding its enzymatic recycling licensing model to include the textile market.",
+      "angle": "Advancements in enzymatic recycling technology represent a significant shift in circular economy capabilities for PET packaging manufacturers.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "d2d42ea44de9b44e",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Durban University of Technology Hosts First African DataScientia Symposium, Launching Continental Living Lab on Sovereign AI - iAfrica.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNURvVmpmSm5NRDdIak9hVi0yQm1MRTJjQUlZaUJrMnJDVU0tNjJyT3BDdHZ1ZWZwc01kSjRRb2ZtVzZWWlZoaW1HMy1tM250MHhYSjVZMzRLZnRVZ3pfamNWeGtieFlDQUs4OVBHYkl3aXVrUXJ6eEdORGlYWEFxSTZ2QnRzcktLblVuNlpTaEZ2clRLdFVWdU1zbWh0ekVhMkRGbERrNHZCUHVPY29MWGNuM1liUF83RjUyb3FBZzBGdUFYZER0WklTRi0ydk1NdHRpamtVWHdNS0Nm?oc=5",
+      "source": "iAfrica.com",
+      "published_at": "2026-07-22T10:27:26+00:00",
+      "first_seen": "2026-07-22T10:57:48.554081+00:00",
+      "score": 65,
+      "summary": "Durban University of Technology has launched a Continental Living Lab focused on sovereign AI following the inaugural African DataScientia Symposium.",
+      "angle": "Highlights the global expansion of sovereign AI frameworks and international interest in regionalised data infrastructure and governance.",
+      "discovered_via": "Google News RSS"
+    }
+  ],
   "run_summary": {
-    "note": "Seed file. Replaced on the first workflow run."
+    "companies_checked": 11,
+    "companies_with_stories": 1,
+    "companies_with_sector_news": 3,
+    "providers_succeeded": 41,
+    "queued_candidates": 51,
+    "llm_requests_attempted": 11,
+    "llm_requests_succeeded": 11,
+    "dropped_no_valid_date": 16,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 4,
+    "skipped_recently_evaluated": 5,
+    "carried_forward": 0
   }
 }
