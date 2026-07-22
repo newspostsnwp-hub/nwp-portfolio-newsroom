@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T16:14:25.661316+00:00",
+  "generated_at": "2026-07-22T16:28:28.035117+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -8,7 +8,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -122,7 +122,7 @@
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
       "story_count": 0,
-      "sector_count": 0,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
@@ -233,6 +233,34 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "884850e56700afeb",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Loganair signs term sheet with BETA Technologies for up to 10 ALIA CTOL CX300 aircraft",
+      "url": "https://centreforaviation.com/news/loganair-signs-term-sheet-with-beta-technologies-for-up-to-10-alia-ctol-cx300-aircraft-1366720",
+      "source": "centreforaviation.com",
+      "published_at": "2026-07-21T04:45:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 75,
+      "summary": "Loganair has signed a term sheet to purchase up to ten all-electric ALIA CX300 aircraft, following successful demonstration flights conducted in partnership with Royal Mail.",
+      "angle": "Demonstrates potential for electric aviation to integrate into UK mail and parcel logistics networks.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "33561f9294bc3bfa",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail delivery delays hit 10 Cambridge postcodes today full list",
+      "url": "https://www.cambridge-news.co.uk/news/cambridge-news/royal-mail-cambridge-delivery-delays-34331567",
+      "source": "cambridge-news.co.uk",
+      "published_at": "2026-07-22T14:30:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 65,
+      "summary": "Royal Mail is experiencing service delays across 141 UK locations due to local resourcing issues and high levels of sick absence.",
+      "angle": "Competitor service instability creates potential volume shifts and highlights ongoing operational challenges within the UK postal network.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "8368c358c14a2811",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -261,6 +289,62 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "7d0939f02a1bcefd",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Samsung in talks to back France Mistral at €20bn valuation",
+      "url": "https://www.siliconrepublic.com/start-ups/samsung-in-talks-to-back-frances-mistral-at-e20bn-valuation-ft",
+      "source": "siliconrepublic.com",
+      "published_at": "2026-07-22T08:15:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 95,
+      "summary": "Mistral is in advanced talks to raise capital at a €20bn valuation, with potential backing from Samsung, EQT, and other major investors to scale European sovereign AI infrastructure.",
+      "angle": "Highlights significant capital inflows and market validation for European sovereign AI alternatives to US-controlled cloud models.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "b6afbe1b40667311",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "House of Lords questions Andy Burnham AI plans",
+      "url": "https://www.computerweekly.com/news/366645889/House-of-Lords-questions-Andy-Burnhams-AI-plans",
+      "source": "computerweekly.com",
+      "published_at": "2026-07-22T15:45:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 90,
+      "summary": "The UK government is restructuring science and technology departments, moving the Sovereign AI Unit to the new Department for Business, Innovation, Science and Trade.",
+      "angle": "Highlights institutional shifts and policy continuity for UK sovereign AI infrastructure and government funding priorities.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "48832443af3cfd1e",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Microsoft and Mistral Expand AI Partnership with Multibillion - Dollar Europe Compute Investment",
+      "url": "https://infotechlead.com/artificial-intelligence/microsoft-and-mistral-expand-ai-partnership-with-multibillion-dollar-europe-compute-investment-97219",
+      "source": "infotechlead.com",
+      "published_at": "2026-07-22T10:00:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 90,
+      "summary": "Microsoft and Mistral have expanded their partnership to increase European AI compute capacity and provide flexible deployment options, including air-gapped environments for regulated industries.",
+      "angle": "Highlights growing market demand for sovereign AI infrastructure and secure, compliant deployment models within the European enterprise sector.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "715b02d5d50005b8",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Supermicro AI Orders Remain Strong as AI GPU Platforms Generate Over 80 Percent of Revenue",
+      "url": "https://infotechlead.com/networking/supermicro-ai-orders-remain-strong-as-ai-gpu-platforms-generate-over-80-percent-of-revenue-97221",
+      "source": "infotechlead.com",
+      "published_at": "2026-07-22T15:00:00+00:00",
+      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "score": 85,
+      "summary": "Supermicro reported that AI GPU-based platforms generated over 80 percent of its third-quarter revenue, driven by strong demand from hyperscalers, cloud providers, and sovereign AI projects.",
+      "angle": "Validates sustained global demand for sovereign AI infrastructure and highlights the growing importance of integrated software management layers.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "cb8b823fe4f93f23",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -278,16 +362,16 @@
   "run_summary": {
     "companies_checked": 11,
     "companies_with_stories": 0,
-    "companies_with_sector_news": 4,
+    "companies_with_sector_news": 5,
     "sector_topups": 0,
-    "providers_succeeded": 40,
-    "queued_candidates": 65,
-    "llm_requests_attempted": 9,
-    "llm_requests_succeeded": 9,
+    "providers_succeeded": 38,
+    "queued_candidates": 63,
+    "llm_requests_attempted": 19,
+    "llm_requests_succeeded": 19,
     "dropped_no_valid_date": 16,
-    "dropped_thin_page": 39,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 11,
+    "dropped_thin_page": 28,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 0
   }
 }
