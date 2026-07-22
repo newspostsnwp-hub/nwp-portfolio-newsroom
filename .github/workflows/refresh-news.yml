@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: "15 6 * * *"
     - cron: "15 17 * * *"
-    - cron: "05 10 * * *"
+    - cron: "10 10 * * *"
 
 concurrency:
   group: portfolio-news-refresh
@@ -22,7 +22,7 @@ jobs:
   refresh:
     name: Collect and publish portfolio news
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
       - name: Check out latest main branch
@@ -56,10 +56,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
           LOOKBACK_DAYS: "7"
+          BLOG_FALLBACK_DAYS: "120"
           MAX_PER_COMPANY: "4"
+          ANALYZE_PER_COMPANY: "6"
           MIN_SCORE: "60"
           READY_SCORE: "80"
-          RUN_BUDGET_SECONDS: "1020"
+          RUN_BUDGET_SECONDS: "1200"
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/update_news.py
@@ -90,27 +92,30 @@ jobs:
           if data["story_count"] != len(data["stories"]):
               raise SystemExit("story_count does not match the number of stories.")
 
-          print(f"Validated news.json with {data['story_count']} stories.")
+          summary = data.get("run_summary", {})
+          print(f"Validated news.json with {data['story_count']} stories "
+                f"across {summary.get('companies_with_coverage', '?')} companies.")
           PY
 
-          - name: Email the morning digest
-                  if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
-                  env:
-                    SMTP_HOST: smtp.gmail.com
-                    SMTP_PORT: "587"
-                    SMTP_USER: ${{ secrets.SMTP_USER }}
-                    SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-                    EMAIL_FROM: ${{ secrets.SMTP_USER }}
-                    EMAIL_TO: ${{ secrets.EMAIL_TO }}
-                    DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
-                    DIGEST_MAX: "6"
-                  shell: bash
-                  run: |
-                    if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 12 ]; then
-                      echo "Evening refresh - skipping the digest email."
-                      exit 0
-                    fi
-                    python scripts/send_digest.py
+      - name: Email the morning digest
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        env:
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "587"
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.SMTP_USER }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
+          DIGEST_MAX: "6"
+          SHOW_EMPTY_COMPANIES: "true"
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 12 ]; then
+            echo "Evening refresh - skipping the digest email."
+            exit 0
+          fi
+          python scripts/send_digest.py
 
       - name: Commit refreshed news data
         shell: bash
