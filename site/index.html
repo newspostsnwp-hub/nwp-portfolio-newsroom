@@ -1,1060 +1,549 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-GB">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#0f2b44">
-  <title>Portfolio Newsroom · Next Wave Partners</title>
-  <meta name="description" content="Next Wave Partners portfolio-company news and LinkedIn drafting dashboard.">
-  <style>
-    :root {
-      --navy: #0f2b44;
-      --navy-2: #173f60;
-      --teal: #0a7a6e;
-      --teal-dark: #086257;
-      --teal-soft: #e8f4f2;
-      --ink: #1d1d1f;
-      --muted: #6e6e73;
-      --faint: #8a8a90;
-      --surface: #ffffff;
-      --background: #f4f5f7;
-      --line: rgba(15, 43, 68, 0.10);
-      --amber: #9a6a00;
-      --amber-soft: #fff6dc;
-      --red: #a63d40;
-      --red-soft: #fdecec;
-      --green: #1f7a4c;
-      --green-soft: #eaf6ef;
-      --shadow: 0 12px 32px rgba(15, 43, 68, 0.10);
-      --shadow-soft: 0 2px 12px rgba(15, 43, 68, 0.06);
-      --radius: 18px;
-      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      --mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-    }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NWP PORTFOLIO NEWSROOM</title>
+<style>
+  :root{
+    --bg:#0b0d10;
+    --panel:#111418;
+    --panel-2:#0e1114;
+    --line:#232a31;
+    --line-soft:#1a2026;
+    --text:#d7dde3;
+    --dim:#7d8894;
+    --faint:#5a646e;
+    --amber:#ff9a1f;
+    --amber-dim:#b56f14;
+    --green:#3fbf6a;
+    --red:#e0503f;
+    --blue:#4d9fd6;
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--mono);
+    font-size:13px;
+    line-height:1.45;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--blue);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  button{font-family:inherit;font-size:inherit;cursor:pointer;}
 
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: var(--background);
-      color: var(--ink);
-      font-family: var(--sans);
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-    }
-    button, input, select, textarea { font: inherit; color: inherit; }
-    button { cursor: pointer; }
-    a { color: var(--teal-dark); }
-    .hidden { display: none !important; }
-    :focus-visible { outline: 3px solid rgba(10, 122, 110, 0.35); outline-offset: 2px; }
+  /* ---------- masthead ---------- */
+  .rule{height:1px;background:var(--line);}
+  .masthead{
+    background:var(--panel);
+    border-bottom:1px solid var(--line);
+    padding:0 14px;
+  }
+  .masthead-row{
+    display:flex;align-items:center;gap:16px;
+    height:44px;
+  }
+  .wordmark{
+    font-weight:700;letter-spacing:2px;font-size:15px;color:#fff;white-space:nowrap;
+  }
+  .wordmark span{color:var(--amber);}
+  .masthead-tag{
+    color:var(--faint);letter-spacing:1.5px;font-size:10px;text-transform:uppercase;
+    border-left:1px solid var(--line);padding-left:16px;white-space:nowrap;
+  }
+  .masthead-right{margin-left:auto;display:flex;gap:18px;align-items:center;}
+  .stat{white-space:nowrap;font-size:11px;color:var(--dim);}
+  .stat b{color:var(--amber);font-weight:600;}
+  .clock{color:var(--text);font-size:11px;letter-spacing:.5px;}
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 40;
-      background: rgba(15, 43, 68, 0.94);
-      backdrop-filter: blur(18px);
-      color: #fff;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .topbar-inner {
-      width: min(1220px, calc(100% - 36px));
-      margin: 0 auto;
-      min-height: 68px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 11px;
-      min-width: 0;
-    }
-    .brand-mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 12px;
-      display: grid;
-      place-items: center;
-      background: rgba(255, 255, 255, 0.10);
-      flex: none;
-    }
-    .brand-mark svg { width: 28px; height: 28px; }
-    .brand-copy { min-width: 0; }
-    .brand-name { font-size: 0.95rem; font-weight: 720; letter-spacing: -0.01em; }
-    .brand-sub { font-size: 0.78rem; color: rgba(255, 255, 255, 0.68); }
-    .updated-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 8px 12px;
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.09);
-      color: rgba(255, 255, 255, 0.86);
-      font-size: 0.78rem;
-      white-space: nowrap;
-    }
-    .updated-pill::before {
-      content: "";
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #76d6c7;
-      box-shadow: 0 0 0 4px rgba(118, 214, 199, 0.12);
-    }
+  /* ---------- ticker ---------- */
+  .ticker{
+    background:var(--panel-2);border-bottom:1px solid var(--line);
+    overflow:hidden;white-space:nowrap;height:26px;display:flex;align-items:center;
+  }
+  .ticker-label{
+    background:var(--amber);color:#000;font-weight:700;font-size:10px;letter-spacing:1px;
+    padding:0 8px;height:26px;display:flex;align-items:center;flex:0 0 auto;
+  }
+  .ticker-track{display:inline-block;padding-left:100%;animation:slide 60s linear infinite;}
+  .ticker-track span{color:var(--dim);font-size:11px;padding:0 22px;}
+  .ticker-track span b{color:var(--text);font-weight:600;}
+  @keyframes slide{from{transform:translateX(0);}to{transform:translateX(-100%);}}
+  @media (prefers-reduced-motion:reduce){.ticker-track{animation:none;padding-left:12px;}}
 
-    .hero {
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(150deg, var(--navy-2), var(--navy) 62%, #0b2034);
-      color: #fff;
-      padding: 54px 0 76px;
-    }
-    .hero::after {
-      content: "";
-      position: absolute;
-      width: 520px;
-      height: 520px;
-      right: -120px;
-      bottom: -350px;
-      border: 1px solid rgba(126, 183, 215, 0.28);
-      border-radius: 50%;
-      box-shadow:
-        0 -38px 0 rgba(91, 143, 176, 0.08),
-        0 -76px 0 rgba(91, 143, 176, 0.06),
-        0 -114px 0 rgba(91, 143, 176, 0.04);
-    }
-    .hero-inner {
-      position: relative;
-      z-index: 1;
-      width: min(1220px, calc(100% - 36px));
-      margin: 0 auto;
-    }
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.76rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #a8d8d1;
-    }
-    .hero h1 {
-      margin: 12px 0 10px;
-      max-width: 760px;
-      font-size: clamp(2rem, 5vw, 3.35rem);
-      line-height: 1.06;
-      letter-spacing: -0.035em;
-    }
-    .hero p {
-      max-width: 720px;
-      margin: 0;
-      color: rgba(255, 255, 255, 0.74);
-      font-size: 1rem;
-    }
+  /* ---------- tabs ---------- */
+  .tabbar{display:flex;background:var(--panel);border-bottom:1px solid var(--line);padding:0 14px;gap:0;}
+  .tab{
+    background:transparent;border:0;border-bottom:2px solid transparent;
+    color:var(--dim);padding:9px 16px;letter-spacing:1.2px;font-size:11px;
+    text-transform:uppercase;font-weight:600;
+  }
+  .tab:hover{color:var(--text);}
+  .tab[aria-selected="true"]{color:var(--amber);border-bottom-color:var(--amber);}
+  .tab .count{color:var(--faint);margin-left:7px;font-weight:400;}
 
-    .shell {
-      width: min(1220px, calc(100% - 36px));
-      margin: -34px auto 56px;
-      position: relative;
-      z-index: 3;
-    }
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 14px;
-      margin-bottom: 18px;
-    }
-    .stat {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 18px 20px;
-      box-shadow: var(--shadow-soft);
-    }
-    .stat-label { color: var(--muted); font-size: 0.76rem; font-weight: 650; }
-    .stat-value { margin-top: 4px; font-size: 1.75rem; font-weight: 760; letter-spacing: -0.03em; }
-    .stat-note { margin-top: 2px; color: var(--faint); font-size: 0.72rem; }
+  /* ---------- filter bar ---------- */
+  .filters{
+    display:flex;flex-wrap:wrap;gap:6px;padding:9px 14px;
+    background:var(--panel-2);border-bottom:1px solid var(--line);align-items:center;
+  }
+  .filters .lbl{color:var(--faint);font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-right:4px;}
+  .chip{
+    background:transparent;border:1px solid var(--line);color:var(--dim);
+    padding:3px 9px;font-size:11px;letter-spacing:.4px;
+  }
+  .chip:hover{border-color:var(--amber-dim);color:var(--text);}
+  .chip[aria-pressed="true"]{background:var(--amber);border-color:var(--amber);color:#000;font-weight:600;}
 
-    .controls {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-soft);
-      padding: 14px;
-      display: grid;
-      grid-template-columns: minmax(240px, 1.7fr) repeat(3, minmax(150px, 0.8fr));
-      gap: 10px;
-      align-items: center;
-      margin-bottom: 18px;
-    }
-    .search-wrap { position: relative; }
-    .search-wrap svg {
-      position: absolute;
-      left: 14px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--faint);
-      pointer-events: none;
-    }
-    .control {
-      width: 100%;
-      min-height: 44px;
-      padding: 10px 12px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      background: #fff;
-    }
-    .search-input { padding-left: 42px; }
-    .control:focus { border-color: rgba(10, 122, 110, 0.55); outline: 3px solid rgba(10, 122, 110, 0.11); }
+  /* ---------- layout ---------- */
+  .wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:0;align-items:start;}
+  .col-main{border-right:1px solid var(--line);min-width:0;}
+  .col-side{position:sticky;top:0;}
+  @media (max-width:940px){
+    .wrap{grid-template-columns:1fr;}
+    .col-main{border-right:0;}
+    .col-side{position:static;border-top:1px solid var(--line);}
+  }
 
-    .status-tabs {
-      display: flex;
-      gap: 7px;
-      flex-wrap: wrap;
-      margin: 0 0 18px;
-    }
-    .status-tab {
-      border: 1px solid var(--line);
-      background: var(--surface);
-      border-radius: 999px;
-      padding: 9px 14px;
-      color: var(--muted);
-      font-size: 0.8rem;
-      font-weight: 650;
-      box-shadow: 0 1px 3px rgba(15, 43, 68, 0.03);
-    }
-    .status-tab:hover { color: var(--ink); border-color: rgba(15, 43, 68, 0.18); }
-    .status-tab.active { background: var(--teal); border-color: var(--teal); color: #fff; }
+  /* ---------- company block ---------- */
+  .co-head{
+    display:flex;align-items:baseline;gap:10px;
+    padding:9px 14px;background:var(--panel);
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line-soft);
+    position:sticky;top:0;z-index:2;
+  }
+  .co-name{color:var(--amber);font-weight:700;letter-spacing:1.4px;font-size:12px;text-transform:uppercase;}
+  .co-sector{color:var(--faint);font-size:10px;letter-spacing:.8px;text-transform:uppercase;}
+  .co-count{margin-left:auto;color:var(--faint);font-size:10px;}
 
-    .results-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 12px;
-    }
-    .results-head h2 { margin: 0; font-size: 1.05rem; letter-spacing: -0.01em; }
-    .results-head p { margin: 0; color: var(--muted); font-size: 0.8rem; }
+  /* ---------- story row ---------- */
+  .story{border-bottom:1px solid var(--line-soft);padding:12px 14px;}
+  .story:hover{background:#0f1317;}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:10px;color:var(--faint);margin-bottom:5px;letter-spacing:.5px;}
+  .meta .src{color:var(--dim);text-transform:uppercase;}
+  .tag{padding:1px 6px;border:1px solid var(--line);color:var(--dim);text-transform:uppercase;letter-spacing:.8px;}
+  .tag.ready{border-color:#255f39;color:var(--green);}
+  .tag.review{border-color:#6b4a12;color:var(--amber);}
+  .score{margin-left:auto;color:var(--dim);}
+  .score b{color:var(--text);}
+  .headline{font-size:15px;line-height:1.35;font-weight:600;color:#eef2f6;margin:0 0 5px;}
+  .headline a{color:inherit;}
+  .headline a:hover{color:var(--amber);text-decoration:none;}
+  .summary{color:var(--dim);font-size:12.5px;margin:0 0 8px;}
+  .matters{border-left:2px solid var(--line);padding-left:9px;color:var(--dim);font-size:12px;margin:0 0 9px;}
+  .matters em{color:var(--faint);font-style:normal;text-transform:uppercase;font-size:10px;letter-spacing:1px;display:block;margin-bottom:2px;}
+  .facts{margin:0 0 9px;padding-left:16px;color:var(--dim);font-size:12px;}
+  .facts li{margin-bottom:2px;}
+  .warn{border-left:2px solid var(--red);padding-left:9px;color:#c98c82;font-size:11.5px;margin:0 0 9px;}
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 15px;
-    }
-    .story-card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      min-height: 300px;
-      padding: 19px;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-soft);
-      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
-    }
-    .story-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: rgba(10, 122, 110, 0.25); }
-    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
-    .company { font-size: 0.72rem; color: var(--teal-dark); font-weight: 760; text-transform: uppercase; letter-spacing: 0.05em; }
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      border-radius: 999px;
-      padding: 5px 9px;
-      font-size: 0.68rem;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-    .status-ready { color: var(--green); background: var(--green-soft); }
-    .status-needs_review { color: var(--amber); background: var(--amber-soft); }
-    .status-used { color: var(--teal-dark); background: var(--teal-soft); }
-    .status-discarded { color: var(--red); background: var(--red-soft); }
-    .story-title { margin: 0; font-size: 1.05rem; line-height: 1.32; letter-spacing: -0.015em; }
-    .story-summary {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.83rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .meta { display: flex; gap: 8px; flex-wrap: wrap; color: var(--faint); font-size: 0.72rem; }
-    .score-row { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-    .score-block { flex: 1; }
-    .score-copy { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-size: 0.7rem; color: var(--muted); }
-    .score-copy strong { color: var(--ink); font-size: 0.82rem; }
-    .score-track { height: 6px; border-radius: 999px; background: #edf0f2; overflow: hidden; margin-top: 6px; }
-    .score-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--teal), #4aa89b); }
-    .review-btn {
-      border: 0;
-      border-radius: 999px;
-      padding: 9px 13px;
-      background: var(--navy);
-      color: #fff;
-      font-size: 0.77rem;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-    .review-btn:hover { background: var(--navy-2); }
-    .shortlist-mark {
-      position: absolute;
-      right: 17px;
-      bottom: 66px;
-      font-size: 1rem;
-      color: #b8860b;
-    }
+  /* ---------- drafts ---------- */
+  .drafts{border:1px solid var(--line);background:var(--panel-2);}
+  .draft-tabs{display:flex;border-bottom:1px solid var(--line);}
+  .draft-tab{
+    background:transparent;border:0;border-right:1px solid var(--line);
+    color:var(--faint);padding:6px 12px;font-size:10px;letter-spacing:1px;text-transform:uppercase;
+  }
+  .draft-tab[aria-selected="true"]{color:#000;background:var(--amber);font-weight:700;}
+  .draft-body{padding:11px 12px;white-space:pre-wrap;color:var(--text);font-size:12.5px;}
+  .draft-actions{display:flex;gap:8px;padding:0 12px 11px;}
+  .btn{
+    background:transparent;border:1px solid var(--line);color:var(--dim);
+    padding:4px 11px;font-size:10.5px;letter-spacing:.8px;text-transform:uppercase;
+  }
+  .btn:hover{border-color:var(--amber-dim);color:var(--amber);}
+  .btn.copied{border-color:var(--green);color:var(--green);}
 
-    .empty {
-      padding: 48px 24px;
-      text-align: center;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-soft);
-    }
-    .empty h3 { margin: 0 0 6px; }
-    .empty p { margin: 0; color: var(--muted); }
+  /* ---------- sector rail ---------- */
+  .rail-head{
+    padding:9px 12px;background:var(--panel);border-bottom:1px solid var(--line);
+    color:var(--amber);font-size:11px;letter-spacing:1.6px;text-transform:uppercase;font-weight:700;
+  }
+  .wire{border-bottom:1px solid var(--line-soft);padding:10px 12px;}
+  .wire:hover{background:#0f1317;}
+  .wire-co{color:var(--faint);font-size:9.5px;letter-spacing:1px;text-transform:uppercase;margin-bottom:3px;}
+  .wire-title{font-size:12.5px;line-height:1.35;color:#e3e9ef;font-weight:600;margin-bottom:4px;}
+  .wire-title a{color:inherit;}
+  .wire-title a:hover{color:var(--amber);text-decoration:none;}
+  .wire-sum{color:var(--dim);font-size:11.5px;margin-bottom:4px;}
+  .wire-angle{color:var(--faint);font-size:11px;border-left:2px solid var(--line);padding-left:7px;}
+  .wire-meta{color:var(--faint);font-size:9.5px;letter-spacing:.5px;margin-top:5px;text-transform:uppercase;}
 
-    .footer {
-      width: min(1220px, calc(100% - 36px));
-      margin: 0 auto 40px;
-      padding-top: 18px;
-      border-top: 1px solid var(--line);
-      display: flex;
-      justify-content: space-between;
-      gap: 18px;
-      color: var(--faint);
-      font-size: 0.74rem;
-    }
-    .link-button {
-      border: 0;
-      padding: 0;
-      background: none;
-      color: var(--teal-dark);
-      font-size: inherit;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    .overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 80;
-      display: none;
-      justify-content: flex-end;
-      background: rgba(11, 24, 38, 0.48);
-      backdrop-filter: blur(4px);
-    }
-    .overlay.open { display: flex; }
-    .drawer {
-      width: min(780px, 100%);
-      height: 100%;
-      overflow-y: auto;
-      background: #fff;
-      box-shadow: -20px 0 55px rgba(0, 0, 0, 0.20);
-      animation: drawer-in 210ms ease-out;
-    }
-    @keyframes drawer-in { from { transform: translateX(26px); opacity: 0.6; } to { transform: translateX(0); opacity: 1; } }
-    .drawer-head {
-      position: sticky;
-      top: 0;
-      z-index: 2;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 22px 24px 18px;
-      background: rgba(255, 255, 255, 0.94);
-      backdrop-filter: blur(16px);
-      border-bottom: 1px solid var(--line);
-    }
-    .drawer-head h2 { margin: 5px 0 5px; font-size: 1.35rem; line-height: 1.25; letter-spacing: -0.02em; }
-    .drawer-meta { color: var(--muted); font-size: 0.78rem; }
-    .close-btn {
-      border: 0;
-      background: #f0f2f4;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      font-size: 1.35rem;
-      color: var(--muted);
-      flex: none;
-    }
-    .drawer-body { padding: 22px 24px 42px; display: grid; gap: 18px; }
-    .panel { border: 1px solid var(--line); border-radius: 15px; padding: 17px; background: #fff; }
-    .panel h3 { margin: 0 0 10px; font-size: 0.82rem; }
-    .panel p { margin: 0; color: var(--muted); font-size: 0.84rem; }
-    .facts, .warnings { margin: 0; padding-left: 18px; color: var(--muted); font-size: 0.83rem; }
-    .facts li, .warnings li { margin: 7px 0; }
-    .warnings:empty::after { content: "No warnings were generated."; color: var(--faint); }
-    .source-link { display: inline-flex; margin-top: 11px; font-size: 0.8rem; font-weight: 700; }
-
-    .draft-panel { padding: 0; overflow: hidden; }
-    .draft-tabs { display: flex; gap: 4px; padding: 10px; border-bottom: 1px solid var(--line); background: #f8f9fa; }
-    .draft-tab {
-      border: 0;
-      background: transparent;
-      border-radius: 999px;
-      padding: 8px 12px;
-      color: var(--muted);
-      font-size: 0.76rem;
-      font-weight: 700;
-    }
-    .draft-tab.active { background: #fff; color: var(--teal-dark); box-shadow: 0 1px 4px rgba(15, 43, 68, 0.10); }
-    .editor-wrap { padding: 14px; }
-    .editor {
-      width: 100%;
-      min-height: 300px;
-      resize: vertical;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 14px;
-      font: 0.88rem/1.6 var(--sans);
-      background: #fbfbfc;
-    }
-    .editor:focus { background: #fff; border-color: rgba(10, 122, 110, 0.55); outline: 3px solid rgba(10, 122, 110, 0.11); }
-    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-    .action-btn {
-      border: 0;
-      border-radius: 999px;
-      padding: 9px 14px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      background: #eef0f2;
-    }
-    .action-btn.primary { background: var(--teal); color: #fff; }
-    .action-btn.primary:hover { background: var(--teal-dark); }
-    .action-btn.dark { background: var(--navy); color: #fff; }
-    .action-btn.danger { background: var(--red-soft); color: var(--red); }
-    .drawer-status { min-height: 1.2rem; margin-top: 9px; color: var(--teal-dark); font-size: 0.76rem; }
-
-    @media (max-width: 980px) {
-      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .controls { grid-template-columns: 1fr 1fr; }
-      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    }
-    @media (max-width: 660px) {
-      .topbar-inner, .hero-inner, .shell, .footer { width: min(100% - 24px, 1220px); }
-      .brand-sub { display: none; }
-      .updated-pill { max-width: 48%; overflow: hidden; text-overflow: ellipsis; }
-      .hero { padding: 42px 0 64px; }
-      .stats { grid-template-columns: 1fr 1fr; gap: 10px; }
-      .stat { padding: 15px; }
-      .controls { grid-template-columns: 1fr; }
-      .cards { grid-template-columns: 1fr; }
-      .story-card { min-height: 270px; }
-      .drawer-head, .drawer-body { padding-left: 16px; padding-right: 16px; }
-      .footer { flex-direction: column; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
-    }
-  </style>
+  .empty{padding:34px 16px;text-align:center;color:var(--faint);font-size:12px;}
+  .empty b{display:block;color:var(--dim);margin-bottom:6px;letter-spacing:1.4px;text-transform:uppercase;font-size:11px;}
+  .foot{padding:14px;color:var(--faint);font-size:10.5px;border-top:1px solid var(--line);letter-spacing:.4px;}
+  .hidden{display:none !important;}
+</style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand" aria-label="Next Wave Partners Portfolio Newsroom">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 39c8-9 16-9 24 0s16 9 24 0" stroke="#76d6c7" stroke-width="5" stroke-linecap="round"/>
-            <path d="M10 25c8-9 16-9 24 0s16 9 24 0" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <span class="brand-copy">
-          <span class="brand-name">Next Wave Partners</span><br>
-          <span class="brand-sub">Portfolio Newsroom</span>
-        </span>
-      </div>
-      <div class="updated-pill" id="updatedPill">Loading latest refresh…</div>
+
+<header class="masthead">
+  <div class="masthead-row">
+    <div class="wordmark">NEXT WAVE <span>PARTNERS</span></div>
+    <div class="masthead-tag">Portfolio Newsroom</div>
+    <div class="masthead-right">
+      <div class="stat">STORIES <b id="stat-stories">--</b></div>
+      <div class="stat">SECTOR <b id="stat-sector">--</b></div>
+      <div class="stat">REFRESH <b id="stat-refresh">--</b></div>
+      <div class="clock" id="clock">--:--:--</div>
     </div>
-  </header>
-
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="eyebrow">Portfolio communications</div>
-      <h1>Find the stories worth sharing.</h1>
-      <p>Review recent portfolio-company news, check the supporting facts and prepare measured LinkedIn copy for the Next Wave Partners page.</p>
-    </div>
-  </section>
-
-  <main class="shell">
-    <section class="stats" aria-label="Newsroom summary">
-      <article class="stat">
-        <div class="stat-label">Stories found</div>
-        <div class="stat-value" id="statTotal">0</div>
-        <div class="stat-note">Within the current lookback window</div>
-      </article>
-      <article class="stat">
-        <div class="stat-label">Ready to post</div>
-        <div class="stat-value" id="statReady">0</div>
-        <div class="stat-note">High-confidence stories with no warnings</div>
-      </article>
-      <article class="stat">
-        <div class="stat-label">Needs review</div>
-        <div class="stat-value" id="statReview">0</div>
-        <div class="stat-note">Check relevance or supporting claims</div>
-      </article>
-      <article class="stat">
-        <div class="stat-label">Average score</div>
-        <div class="stat-value" id="statScore">0</div>
-        <div class="stat-note">Across currently visible stories</div>
-      </article>
-    </section>
-
-    <section class="controls" aria-label="Search and filters">
-      <div class="search-wrap">
-        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <circle cx="8.5" cy="8.5" r="5.8" stroke="currentColor" stroke-width="1.6"/>
-          <path d="m13 13 4.2 4.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-        </svg>
-        <input class="control search-input" id="searchInput" type="search" placeholder="Search companies, headlines or themes" autocomplete="off">
-      </div>
-      <select class="control" id="companyFilter" aria-label="Filter by portfolio company">
-        <option value="">All companies</option>
-      </select>
-      <select class="control" id="typeFilter" aria-label="Filter by story type">
-        <option value="">All story types</option>
-      </select>
-      <select class="control" id="sortSelect" aria-label="Sort stories">
-        <option value="score">Highest score</option>
-        <option value="newest">Newest first</option>
-        <option value="company">Company A-Z</option>
-      </select>
-    </section>
-
-    <nav class="status-tabs" aria-label="Filter by review status">
-      <button class="status-tab active" type="button" data-status="all">All stories</button>
-      <button class="status-tab" type="button" data-status="ready">Ready to post</button>
-      <button class="status-tab" type="button" data-status="needs_review">Needs review</button>
-      <button class="status-tab" type="button" data-status="used">Used</button>
-      <button class="status-tab" type="button" data-status="discarded">Discarded</button>
-      <button class="status-tab" type="button" data-status="shortlisted">Shortlisted</button>
-    </nav>
-
-    <div class="results-head">
-      <div>
-        <h2 id="resultsTitle">Latest stories</h2>
-        <p id="resultsSummary">Loading portfolio news…</p>
-      </div>
-    </div>
-
-    <section class="cards" id="cards" aria-live="polite"></section>
-    <section class="empty hidden" id="emptyState">
-      <h3>No matching stories</h3>
-      <p>Try clearing a filter or running the news refresh workflow again.</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <span>Generated copy is a draft. Verify the original article, names, figures and claims before publishing.</span>
-    <button class="link-button" id="clearLocalButton" type="button">Clear local edits and statuses</button>
-  </footer>
-
-  <div class="overlay" id="storyOverlay" aria-hidden="true">
-    <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-      <header class="drawer-head">
-        <div>
-          <div class="company" id="drawerCompany"></div>
-          <h2 id="drawerTitle"></h2>
-          <div class="drawer-meta" id="drawerMeta"></div>
-        </div>
-        <button class="close-btn" id="closeDrawer" type="button" aria-label="Close story">×</button>
-      </header>
-
-      <div class="drawer-body">
-        <section class="panel">
-          <h3>Why it may be worth sharing</h3>
-          <p id="drawerWhy"></p>
-          <a class="source-link" id="drawerLink" href="#" target="_blank" rel="noopener noreferrer">Open original article ↗</a>
-        </section>
-
-        <section class="panel">
-          <h3>Verified facts</h3>
-          <ul class="facts" id="drawerFacts"></ul>
-        </section>
-
-        <section class="panel">
-          <h3>Warnings and checks</h3>
-          <ul class="warnings" id="drawerWarnings"></ul>
-        </section>
-
-        <section class="panel draft-panel">
-          <div class="draft-tabs" role="tablist" aria-label="Draft versions">
-            <button class="draft-tab active" type="button" data-draft="concise">Concise</button>
-            <button class="draft-tab" type="button" data-draft="investor">Investor perspective</button>
-            <button class="draft-tab" type="button" data-draft="people">People-led</button>
-          </div>
-          <div class="editor-wrap">
-            <textarea class="editor" id="draftEditor" aria-label="Editable LinkedIn draft"></textarea>
-            <div class="actions">
-              <button class="action-btn primary" id="copyButton" type="button">Copy post</button>
-              <button class="action-btn" id="shortlistButton" type="button">Shortlist</button>
-              <button class="action-btn dark" id="usedButton" type="button">Mark used</button>
-              <button class="action-btn danger" id="discardButton" type="button">Discard</button>
-              <button class="action-btn" id="resetDraftButton" type="button">Reset draft</button>
-            </div>
-            <div class="drawer-status" id="drawerStatus" role="status"></div>
-          </div>
-        </section>
-      </div>
-    </aside>
   </div>
+</header>
 
-  <script>
-    "use strict";
+<div class="ticker">
+  <div class="ticker-label">WIRE</div>
+  <div class="ticker-track" id="ticker"></div>
+</div>
 
-    const DATA_URL = "./data/news.json";
-    const STORAGE_KEY = "nwpPortfolioNewsroomV1";
+<nav class="tabbar" role="tablist">
+  <button class="tab" role="tab" id="tab-live" aria-selected="true" data-view="live">
+    Live<span class="count" id="count-live"></span>
+  </button>
+  <button class="tab" role="tab" id="tab-archive" aria-selected="false" data-view="archive">
+    Archive<span class="count" id="count-archive"></span>
+  </button>
+</nav>
 
-    const state = {
-      stories: [],
-      generatedAt: null,
-      activeStatus: "all",
-      activeStoryId: null,
-      activeDraft: "concise",
-      local: loadLocalState()
-    };
+<div class="filters" id="filters">
+  <span class="lbl">Company</span>
+</div>
 
-    const elements = {
-      cards: document.getElementById("cards"),
-      empty: document.getElementById("emptyState"),
-      search: document.getElementById("searchInput"),
-      company: document.getElementById("companyFilter"),
-      type: document.getElementById("typeFilter"),
-      sort: document.getElementById("sortSelect"),
-      updated: document.getElementById("updatedPill"),
-      resultsSummary: document.getElementById("resultsSummary"),
-      statTotal: document.getElementById("statTotal"),
-      statReady: document.getElementById("statReady"),
-      statReview: document.getElementById("statReview"),
-      statScore: document.getElementById("statScore"),
-      overlay: document.getElementById("storyOverlay"),
-      closeDrawer: document.getElementById("closeDrawer"),
-      drawerCompany: document.getElementById("drawerCompany"),
-      drawerTitle: document.getElementById("drawerTitle"),
-      drawerMeta: document.getElementById("drawerMeta"),
-      drawerWhy: document.getElementById("drawerWhy"),
-      drawerLink: document.getElementById("drawerLink"),
-      drawerFacts: document.getElementById("drawerFacts"),
-      drawerWarnings: document.getElementById("drawerWarnings"),
-      editor: document.getElementById("draftEditor"),
-      copy: document.getElementById("copyButton"),
-      shortlist: document.getElementById("shortlistButton"),
-      used: document.getElementById("usedButton"),
-      discard: document.getElementById("discardButton"),
-      resetDraft: document.getElementById("resetDraftButton"),
-      drawerStatus: document.getElementById("drawerStatus"),
-      clearLocal: document.getElementById("clearLocalButton")
-    };
+<div class="wrap">
+  <main class="col-main" id="main-col"></main>
+  <aside class="col-side">
+    <div class="rail-head">Sector Wire</div>
+    <div id="rail"></div>
+  </aside>
+</div>
 
-    function loadLocalState() {
-      try {
-        const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-        return stored && typeof stored === "object" ? stored : {};
-      } catch (error) {
-        console.warn("Could not read local newsroom state", error);
-        return {};
-      }
+<div class="foot" id="foot"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  var DATA = { stories: [], sector_stories: [], generated_at: "" };
+  var view = "live";
+  var companyFilter = "ALL";
+
+  function esc(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  function parseDate(value) {
+    if (!value) { return null; }
+    var d = new Date(value);
+    if (!isNaN(d.getTime())) { return d; }
+    var m = String(value).match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+    if (m) { return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6])); }
+    return null;
+  }
+
+  function fmtDate(value) {
+    var d = parseDate(value);
+    if (!d) { return "DATE N/A"; }
+    var months = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+    return ("0" + d.getDate()).slice(-2) + " " + months[d.getMonth()] + " " + d.getFullYear();
+  }
+
+  function fmtTime(value) {
+    var d = parseDate(value);
+    if (!d) { return "--"; }
+    return ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2);
+  }
+
+  function dayKey(value) {
+    var d = parseDate(value);
+    return d ? d.toISOString().slice(0, 10) : "";
+  }
+
+  function isToday(story) {
+    return dayKey(story.first_seen || story.published_at) === dayKey(DATA.generated_at);
+  }
+
+  function tick() {
+    var d = new Date();
+    var el = document.getElementById("clock");
+    if (el) {
+      el.textContent = ("0" + d.getHours()).slice(-2) + ":" +
+                       ("0" + d.getMinutes()).slice(-2) + ":" +
+                       ("0" + d.getSeconds()).slice(-2);
     }
+  }
 
-    function saveLocalState() {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.local));
+  function activeStories() {
+    var list = (DATA.stories || []).filter(function (s) {
+      return view === "live" ? isToday(s) : !isToday(s);
+    });
+    if (companyFilter !== "ALL") {
+      list = list.filter(function (s) { return s.company === companyFilter; });
     }
+    return list;
+  }
 
-    function storyLocal(storyId) {
-      if (!state.local[storyId]) {
-        state.local[storyId] = {
-          status: null,
-          shortlisted: false,
-          selectedDraft: "concise",
-          editedDrafts: {}
-        };
-      }
-      return state.local[storyId];
-    }
+  function groupByCompany(list) {
+    var order = [], map = {};
+    list.forEach(function (s) {
+      var key = s.company || "UNASSIGNED";
+      if (!map[key]) { map[key] = []; order.push(key); }
+      map[key].push(s);
+    });
+    return order.map(function (key) { return { company: key, stories: map[key] }; });
+  }
 
-    function effectiveStatus(story) {
-      return storyLocal(story.id).status || story.status || "needs_review";
-    }
+  function draftsBlock(story, uid) {
+    var drafts = story.drafts || {};
+    var keys = ["concise", "investor", "people"].filter(function (k) { return drafts[k]; });
+    if (!keys.length) { return ""; }
+    var labels = { concise: "Concise", investor: "Investor", people: "People" };
+    var tabs = keys.map(function (k, i) {
+      return '<button class="draft-tab" role="tab" data-uid="' + uid + '" data-key="' + k +
+             '" aria-selected="' + (i === 0 ? "true" : "false") + '">' + labels[k] + "</button>";
+    }).join("");
+    var bodies = keys.map(function (k, i) {
+      return '<div class="draft-body' + (i === 0 ? "" : " hidden") + '" data-uid="' + uid +
+             '" data-body="' + k + '">' + esc(drafts[k]) + "</div>";
+    }).join("");
+    return '<div class="drafts"><div class="draft-tabs" role="tablist">' + tabs + "</div>" +
+           bodies +
+           '<div class="draft-actions">' +
+           '<button class="btn" data-copy="' + uid + '">Copy draft</button>' +
+           '<button class="btn" data-copylink="' + esc(story.url) + '">Copy link</button>' +
+           "</div></div>";
+  }
 
-    function parseDate(value) {
-      if (!value) return null;
+  function storyHTML(story, index) {
+    var uid = "d" + index;
+    var ready = story.status === "ready";
+    var facts = (story.verified_facts || []).map(function (f) {
+      return "<li>" + esc(f) + "</li>";
+    }).join("");
+    var warns = (story.warnings || []).map(function (w) { return esc(w); }).join(" &middot; ");
 
-      const gdelt = /^(\d{4})(\d{2})(\d{2})T?(\d{2})?(\d{2})?(\d{2})?Z?$/.exec(String(value));
-      if (gdelt) {
-        const [, year, month, day, hour = "00", minute = "00", second = "00"] = gdelt;
-        const parsed = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}Z`);
-        return Number.isNaN(parsed.getTime()) ? null : parsed;
-      }
+    return '<article class="story">' +
+      '<div class="meta">' +
+        '<span class="src">' + esc(story.source || "UNKNOWN") + "</span>" +
+        "<span>" + esc(fmtDate(story.published_at)) + "</span>" +
+        '<span class="tag">' + esc(story.story_type || "UPDATE") + "</span>" +
+        '<span class="tag ' + (ready ? "ready" : "review") + '">' +
+          (ready ? "Draft ready" : "Needs review") + "</span>" +
+        '<span class="score">SCORE <b>' + (parseInt(story.score, 10) || 0) + "</b>/100</span>" +
+      "</div>" +
+      '<h3 class="headline"><a href="' + esc(story.url) + '" target="_blank" rel="noopener noreferrer">' +
+        esc(story.title) + "</a></h3>" +
+      (story.summary ? '<p class="summary">' + esc(story.summary) + "</p>" : "") +
+      (story.why_it_matters ? '<div class="matters"><em>Why it matters</em>' +
+        esc(story.why_it_matters) + "</div>" : "") +
+      (facts ? '<ul class="facts">' + facts + "</ul>" : "") +
+      (warns ? '<div class="warn">' + warns + "</div>" : "") +
+      draftsBlock(story, uid) +
+    "</article>";
+  }
 
-      const parsed = new Date(value);
-      return Number.isNaN(parsed.getTime()) ? null : parsed;
-    }
+  function sectorFor(company) {
+    return (DATA.sector_stories || []).filter(function (s) { return s.company === company; });
+  }
 
-    function formatDate(value, includeTime = false) {
-      const date = parseDate(value);
-      if (!date) return "Date unavailable";
-      const options = includeTime
-        ? { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }
-        : { day: "numeric", month: "short", year: "numeric" };
-      return new Intl.DateTimeFormat("en-GB", options).format(date);
-    }
+  function sectorHTML(item) {
+    return '<div class="wire">' +
+      '<div class="wire-co">' + esc(item.industry || item.company) + "</div>" +
+      '<div class="wire-title"><a href="' + esc(item.url) + '" target="_blank" rel="noopener noreferrer">' +
+        esc(item.title) + "</a></div>" +
+      (item.summary ? '<div class="wire-sum">' + esc(item.summary) + "</div>" : "") +
+      (item.angle ? '<div class="wire-angle">' + esc(item.angle) + "</div>" : "") +
+      '<div class="wire-meta">' + esc(item.source || "") + " &middot; " +
+        esc(fmtDate(item.published_at)) + "</div>" +
+    "</div>";
+  }
 
-    function normalise(value) {
-      return String(value || "").toLowerCase().trim();
-    }
+  function render() {
+    var list = activeStories();
+    var groups = groupByCompany(list);
+    var main = document.getElementById("main-col");
+    var index = 0;
 
-    function statusLabel(status) {
-      return {
-        ready: "Ready to post",
-        needs_review: "Needs review",
-        used: "Used",
-        discarded: "Discarded"
-      }[status] || "Needs review";
-    }
-
-    function getDraft(story, draftType) {
-      const local = storyLocal(story.id);
-      return local.editedDrafts[draftType] ?? story.drafts?.[draftType] ?? "";
-    }
-
-    function fillSelect(select, values) {
-      const first = select.options[0];
-      select.innerHTML = "";
-      select.append(first);
-      values.forEach((value) => {
-        const option = document.createElement("option");
-        option.value = value;
-        option.textContent = value;
-        select.append(option);
-      });
-    }
-
-    function populateFilters() {
-      const companies = [...new Set(state.stories.map((story) => story.company).filter(Boolean))].sort();
-      const types = [...new Set(state.stories.map((story) => story.story_type).filter(Boolean))].sort();
-      fillSelect(elements.company, companies);
-      fillSelect(elements.type, types);
-    }
-
-    function visibleStories() {
-      const query = normalise(elements.search.value);
-      const company = elements.company.value;
-      const type = elements.type.value;
-
-      const filtered = state.stories.filter((story) => {
-        const local = storyLocal(story.id);
-        const status = effectiveStatus(story);
-        const statusMatch = state.activeStatus === "all"
-          || (state.activeStatus === "shortlisted" && local.shortlisted)
-          || status === state.activeStatus;
-
-        const queryText = normalise([
-          story.company,
-          story.title,
-          story.summary,
-          story.story_type,
-          story.source,
-          story.why_it_matters
-        ].join(" "));
-
-        return statusMatch
-          && (!query || queryText.includes(query))
-          && (!company || story.company === company)
-          && (!type || story.story_type === type);
-      });
-
-      const sort = elements.sort.value;
-      filtered.sort((a, b) => {
-        if (sort === "company") return String(a.company).localeCompare(String(b.company));
-        if (sort === "newest") return (parseDate(b.published_at)?.getTime() || 0) - (parseDate(a.published_at)?.getTime() || 0);
-        return Number(b.score || 0) - Number(a.score || 0);
-      });
-
-      return filtered;
-    }
-
-    function updateStats(stories) {
-      const all = state.stories;
-      const ready = all.filter((story) => effectiveStatus(story) === "ready").length;
-      const review = all.filter((story) => effectiveStatus(story) === "needs_review").length;
-      const average = stories.length
-        ? Math.round(stories.reduce((sum, story) => sum + Number(story.score || 0), 0) / stories.length)
-        : 0;
-
-      elements.statTotal.textContent = all.length;
-      elements.statReady.textContent = ready;
-      elements.statReview.textContent = review;
-      elements.statScore.textContent = average;
-      elements.resultsSummary.textContent = `${stories.length} ${stories.length === 1 ? "story" : "stories"} shown`;
-    }
-
-    function render() {
-      const stories = visibleStories();
-      elements.cards.innerHTML = "";
-      elements.empty.classList.toggle("hidden", stories.length > 0);
-
-      stories.forEach((story) => {
-        const local = storyLocal(story.id);
-        const status = effectiveStatus(story);
-        const card = document.createElement("article");
-        card.className = "story-card";
-
-        const top = document.createElement("div");
-        top.className = "card-top";
-
-        const company = document.createElement("div");
-        company.className = "company";
-        company.textContent = story.company || "Portfolio company";
-
-        const badge = document.createElement("span");
-        badge.className = `status-badge status-${status}`;
-        badge.textContent = statusLabel(status);
-
-        top.append(company, badge);
-
-        const title = document.createElement("h3");
-        title.className = "story-title";
-        title.textContent = story.title || "Untitled story";
-
-        const meta = document.createElement("div");
-        meta.className = "meta";
-        const type = document.createElement("span");
-        type.textContent = story.story_type || "Other";
-        const source = document.createElement("span");
-        source.textContent = story.source || "Unknown source";
-        const date = document.createElement("span");
-        date.textContent = formatDate(story.published_at);
-        meta.append(type, source, date);
-
-        const summary = document.createElement("p");
-        summary.className = "story-summary";
-        summary.textContent = story.summary || "No summary was generated.";
-
-        const scoreRow = document.createElement("div");
-        scoreRow.className = "score-row";
-        const scoreBlock = document.createElement("div");
-        scoreBlock.className = "score-block";
-        scoreBlock.innerHTML = `
-          <div class="score-copy"><span>Newsworthiness</span><strong>${Number(story.score || 0)}/100</strong></div>
-          <div class="score-track"><div class="score-fill" style="width:${Math.max(0, Math.min(100, Number(story.score || 0)))}%"></div></div>
-        `;
-
-        const button = document.createElement("button");
-        button.className = "review-btn";
-        button.type = "button";
-        button.textContent = "Review draft";
-        button.addEventListener("click", () => openStory(story.id));
-        scoreRow.append(scoreBlock, button);
-
-        card.append(top, title, meta, summary, scoreRow);
-
-        if (local.shortlisted) {
-          const star = document.createElement("span");
-          star.className = "shortlist-mark";
-          star.title = "Shortlisted";
-          star.textContent = "★";
-          card.append(star);
+    if (!groups.length) {
+      main.innerHTML = '<div class="empty"><b>No stories in this view</b>' +
+        (view === "live"
+          ? "Nothing new was published for the portfolio in this refresh."
+          : "Nothing has moved to the archive yet.") + "</div>";
+    } else {
+      main.innerHTML = groups.map(function (group) {
+        var sector = sectorFor(group.company);
+        var body = group.stories.map(function (s) { return storyHTML(s, index++); }).join("");
+        var inlineSector = "";
+        if (sector.length) {
+          inlineSector =
+            '<div class="co-head" style="position:static;background:var(--panel-2);">' +
+              '<span class="co-name" style="color:var(--dim);font-size:10px;">Sector context</span>' +
+              '<span class="co-sector">' + esc(sector[0].industry || "") + "</span>" +
+            "</div>" +
+            sector.map(sectorHTML).join("");
         }
-
-        elements.cards.append(card);
-      });
-
-      updateStats(stories);
+        return '<section>' +
+          '<div class="co-head">' +
+            '<span class="co-name">' + esc(group.company) + "</span>" +
+            '<span class="co-sector">' + esc(group.stories[0].industry || "") + "</span>" +
+            '<span class="co-count">' + group.stories.length +
+              (group.stories.length === 1 ? " STORY" : " STORIES") + "</span>" +
+          "</div>" + body + inlineSector +
+        "</section>";
+      }).join("");
     }
 
-    function setList(listElement, items) {
-      listElement.innerHTML = "";
-      (Array.isArray(items) ? items : []).forEach((item) => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        listElement.append(li);
-      });
-    }
+    var railItems = (DATA.sector_stories || []).filter(function (s) {
+      return companyFilter === "ALL" || s.company === companyFilter;
+    });
+    document.getElementById("rail").innerHTML = railItems.length
+      ? railItems.map(sectorHTML).join("")
+      : '<div class="empty"><b>Wire quiet</b>No sector news in this window.</div>';
+  }
 
-    function currentStory() {
-      return state.stories.find((story) => story.id === state.activeStoryId) || null;
-    }
-
-    function selectDraft(type) {
-      const story = currentStory();
-      if (!story) return;
-
-      state.activeDraft = type;
-      const local = storyLocal(story.id);
-      local.selectedDraft = type;
-      saveLocalState();
-
-      document.querySelectorAll(".draft-tab").forEach((tab) => {
-        tab.classList.toggle("active", tab.dataset.draft === type);
-      });
-      elements.editor.value = getDraft(story, type);
-      elements.drawerStatus.textContent = "";
-    }
-
-    function openStory(storyId) {
-      const story = state.stories.find((item) => item.id === storyId);
-      if (!story) return;
-
-      state.activeStoryId = storyId;
-      const local = storyLocal(storyId);
-      state.activeDraft = local.selectedDraft || "concise";
-
-      elements.drawerCompany.textContent = story.company || "Portfolio company";
-      elements.drawerTitle.textContent = story.title || "Untitled story";
-      elements.drawerMeta.textContent = `${story.source || "Unknown source"} · ${formatDate(story.published_at)} · ${Number(story.score || 0)}/100`;
-      elements.drawerWhy.textContent = story.why_it_matters || "No investment or communications implication was generated.";
-      elements.drawerLink.href = story.url || "#";
-      setList(elements.drawerFacts, story.verified_facts);
-      setList(elements.drawerWarnings, story.warnings);
-
-      elements.shortlist.textContent = local.shortlisted ? "Remove shortlist" : "Shortlist";
-      elements.used.textContent = effectiveStatus(story) === "used" ? "Marked used" : "Mark used";
-      elements.discard.textContent = effectiveStatus(story) === "discarded" ? "Discarded" : "Discard";
-
-      selectDraft(state.activeDraft);
-      elements.overlay.classList.add("open");
-      elements.overlay.setAttribute("aria-hidden", "false");
-      document.body.style.overflow = "hidden";
-      elements.closeDrawer.focus();
-    }
-
-    function closeStory() {
-      elements.overlay.classList.remove("open");
-      elements.overlay.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-      state.activeStoryId = null;
-    }
-
-    function setStoryStatus(status) {
-      const story = currentStory();
-      if (!story) return;
-      const local = storyLocal(story.id);
-      local.status = status;
-      saveLocalState();
-      elements.drawerStatus.textContent = `Status changed to ${statusLabel(status)}.`;
-      elements.used.textContent = status === "used" ? "Marked used" : "Mark used";
-      elements.discard.textContent = status === "discarded" ? "Discarded" : "Discard";
-      render();
-    }
-
-    async function copyCurrentDraft() {
-      const text = elements.editor.value.trim();
-      if (!text) {
-        elements.drawerStatus.textContent = "There is no draft text to copy.";
-        return;
-      }
-
-      try {
-        await navigator.clipboard.writeText(text);
-        elements.drawerStatus.textContent = "Post copied to clipboard.";
-      } catch (error) {
-        elements.editor.select();
-        const copied = document.execCommand("copy");
-        elements.drawerStatus.textContent = copied ? "Post copied to clipboard." : "Copy failed. Select the text and copy it manually.";
-      }
-    }
-
-    function resetCurrentDraft() {
-      const story = currentStory();
-      if (!story) return;
-      const local = storyLocal(story.id);
-      delete local.editedDrafts[state.activeDraft];
-      saveLocalState();
-      elements.editor.value = story.drafts?.[state.activeDraft] || "";
-      elements.drawerStatus.textContent = "Draft reset to the generated version.";
-    }
-
-    async function loadNews() {
-      try {
-        const response = await fetch(DATA_URL, { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
-        if (!Array.isArray(data.stories)) throw new Error("news.json does not contain a stories array");
-
-        state.stories = data.stories.filter((story) => story && story.id);
-        state.generatedAt = data.generated_at || null;
-        elements.updated.textContent = state.generatedAt
-          ? `Updated ${formatDate(state.generatedAt, true)}`
-          : "Refresh date unavailable";
-
-        populateFilters();
-        render();
-      } catch (error) {
-        console.error("Could not load portfolio news", error);
-        elements.updated.textContent = "News data failed to load";
-        elements.resultsSummary.textContent = "Check site/data/news.json and the browser console.";
-        elements.empty.classList.remove("hidden");
-        elements.empty.querySelector("h3").textContent = "The news feed could not be loaded";
-        elements.empty.querySelector("p").textContent = "Confirm that news.json is valid and that the page is being served through Cloudflare Pages or a local web server.";
-      }
-    }
-
-    elements.search.addEventListener("input", render);
-    elements.company.addEventListener("change", render);
-    elements.type.addEventListener("change", render);
-    elements.sort.addEventListener("change", render);
-
-    document.querySelectorAll(".status-tab").forEach((tab) => {
-      tab.addEventListener("click", () => {
-        state.activeStatus = tab.dataset.status;
-        document.querySelectorAll(".status-tab").forEach((item) => item.classList.toggle("active", item === tab));
+  function buildFilters() {
+    var names = [];
+    (DATA.stories || []).forEach(function (s) {
+      if (s.company && names.indexOf(s.company) === -1) { names.push(s.company); }
+    });
+    names.sort();
+    var bar = document.getElementById("filters");
+    bar.innerHTML = '<span class="lbl">Company</span>';
+    ["ALL"].concat(names).forEach(function (name) {
+      var b = document.createElement("button");
+      b.className = "chip";
+      b.textContent = name === "ALL" ? "All" : name;
+      b.setAttribute("aria-pressed", String(name === companyFilter));
+      b.addEventListener("click", function () {
+        companyFilter = name;
+        Array.prototype.forEach.call(bar.querySelectorAll(".chip"), function (c) {
+          c.setAttribute("aria-pressed", String(c === b));
+        });
         render();
       });
+      bar.appendChild(b);
     });
+  }
 
-    document.querySelectorAll(".draft-tab").forEach((tab) => {
-      tab.addEventListener("click", () => selectDraft(tab.dataset.draft));
+  function buildTicker() {
+    var items = (DATA.stories || []).slice(0, 14).map(function (s) {
+      return "<span><b>" + esc((s.company || "").toUpperCase()) + "</b> " + esc(s.title) + "</span>";
     });
+    var sector = (DATA.sector_stories || []).slice(0, 8).map(function (s) {
+      return "<span><b>SECTOR</b> " + esc(s.title) + "</span>";
+    });
+    var all = items.concat(sector);
+    document.getElementById("ticker").innerHTML = all.length
+      ? all.join("")
+      : "<span>NO STORIES IN THIS REFRESH</span>";
+  }
 
-    elements.editor.addEventListener("input", () => {
-      const story = currentStory();
-      if (!story) return;
-      const local = storyLocal(story.id);
-      local.editedDrafts[state.activeDraft] = elements.editor.value;
-      saveLocalState();
-      elements.drawerStatus.textContent = "Edit saved in this browser.";
-    });
+  function updateCounts() {
+    var live = (DATA.stories || []).filter(isToday).length;
+    var archive = (DATA.stories || []).length - live;
+    document.getElementById("count-live").textContent = "(" + live + ")";
+    document.getElementById("count-archive").textContent = "(" + archive + ")";
+    document.getElementById("stat-stories").textContent = (DATA.stories || []).length;
+    document.getElementById("stat-sector").textContent = (DATA.sector_stories || []).length;
+    document.getElementById("stat-refresh").textContent =
+      fmtDate(DATA.generated_at) + " " + fmtTime(DATA.generated_at);
+    document.getElementById("foot").textContent =
+      "Internal briefing. Generated " + fmtDate(DATA.generated_at) + " " +
+      fmtTime(DATA.generated_at) + ". Review every draft before publishing.";
+  }
 
-    elements.closeDrawer.addEventListener("click", closeStory);
-    elements.overlay.addEventListener("click", (event) => {
-      if (event.target === elements.overlay) closeStory();
-    });
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && elements.overlay.classList.contains("open")) closeStory();
-    });
+  document.addEventListener("click", function (event) {
+    var target = event.target;
 
-    elements.copy.addEventListener("click", copyCurrentDraft);
-    elements.shortlist.addEventListener("click", () => {
-      const story = currentStory();
-      if (!story) return;
-      const local = storyLocal(story.id);
-      local.shortlisted = !local.shortlisted;
-      saveLocalState();
-      elements.shortlist.textContent = local.shortlisted ? "Remove shortlist" : "Shortlist";
-      elements.drawerStatus.textContent = local.shortlisted ? "Story shortlisted." : "Story removed from shortlist.";
+    if (target.classList && target.classList.contains("tab")) {
+      view = target.getAttribute("data-view");
+      Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (t) {
+        t.setAttribute("aria-selected", String(t === target));
+      });
       render();
-    });
-    elements.used.addEventListener("click", () => setStoryStatus("used"));
-    elements.discard.addEventListener("click", () => setStoryStatus("discarded"));
-    elements.resetDraft.addEventListener("click", resetCurrentDraft);
-    elements.clearLocal.addEventListener("click", () => {
-      if (!window.confirm("Clear all browser-saved edits, shortlist choices and statuses?")) return;
-      localStorage.removeItem(STORAGE_KEY);
-      state.local = {};
-      render();
-      if (state.activeStoryId) openStory(state.activeStoryId);
-    });
+      return;
+    }
 
-    loadNews();
-  </script>
+    if (target.classList && target.classList.contains("draft-tab")) {
+      var uid = target.getAttribute("data-uid");
+      var key = target.getAttribute("data-key");
+      Array.prototype.forEach.call(
+        document.querySelectorAll('.draft-tab[data-uid="' + uid + '"]'), function (t) {
+          t.setAttribute("aria-selected", String(t === target));
+        });
+      Array.prototype.forEach.call(
+        document.querySelectorAll('.draft-body[data-uid="' + uid + '"]'), function (b) {
+          b.classList.toggle("hidden", b.getAttribute("data-body") !== key);
+        });
+      return;
+    }
+
+    if (target.hasAttribute && target.hasAttribute("data-copy")) {
+      var id = target.getAttribute("data-copy");
+      var open = document.querySelector('.draft-body[data-uid="' + id + '"]:not(.hidden)');
+      if (open) { copy(open.textContent, target); }
+      return;
+    }
+
+    if (target.hasAttribute && target.hasAttribute("data-copylink")) {
+      copy(target.getAttribute("data-copylink"), target);
+    }
+  });
+
+  function copy(text, button) {
+    var done = function () {
+      var original = button.textContent;
+      button.textContent = "Copied";
+      button.classList.add("copied");
+      setTimeout(function () {
+        button.textContent = original;
+        button.classList.remove("copied");
+      }, 1400);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+    } else {
+      fallback(text, done);
+    }
+  }
+
+  function fallback(text, done) {
+    var area = document.createElement("textarea");
+    area.value = text;
+    area.setAttribute("readonly", "");
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    try { document.execCommand("copy"); done(); } catch (e) { /* ignore */ }
+    document.body.removeChild(area);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+
+  fetch("data/news.json?t=" + Date.now())
+    .then(function (response) {
+      if (!response.ok) { throw new Error("HTTP " + response.status); }
+      return response.json();
+    })
+    .then(function (data) {
+      DATA = data || DATA;
+      DATA.stories = DATA.stories || [];
+      DATA.sector_stories = DATA.sector_stories || [];
+      updateCounts();
+      buildTicker();
+      buildFilters();
+      render();
+    })
+    .catch(function (error) {
+      document.getElementById("main-col").innerHTML =
+        '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
+        esc(error.message) + ").</div>";
+    });
+}());
+</script>
 </body>
 </html>
