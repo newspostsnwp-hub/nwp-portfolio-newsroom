@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:41:17.239191+00:00",
+  "generated_at": "2026-07-22T09:52:56.156691+00:00",
   "lookback_days": 7,
   "story_count": 6,
   "stories": [
@@ -175,14 +175,14 @@
   "run_summary": {
     "companies_checked": 11,
     "companies_with_coverage": 4,
-    "providers_succeeded": 27,
-    "candidates_found": 87,
-    "gemini_requests_attempted": 2,
-    "gemini_requests_succeeded": 2,
-    "grounding_drops": 2,
+    "providers_succeeded": 29,
+    "candidates_found": 90,
+    "gemini_requests_attempted": 12,
+    "gemini_requests_succeeded": 12,
+    "grounding_drops": 6,
     "blog_fallbacks_added": 0,
     "stories_carried_forward": 6,
-    "candidates_skipped_recently_evaluated": 36,
+    "candidates_skipped_recently_evaluated": 6,
     "minimum_score": 60
   }
 }
