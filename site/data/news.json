@@ -1,14 +1,293 @@
 {
-  "generated_at": "2026-07-22T14:53:42.676107+00:00",
+  "generated_at": "2026-07-22T16:14:25.661316+00:00",
+  "companies": [
+    {
+      "name": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
+      "website": "https://thedeliverygroup.co.uk/",
+      "newsroom_url": "https://thedeliverygroup.co.uk/news/",
+      "story_count": 0,
+      "sector_count": 1,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22UK+parcel+delivery+market%22+OR+%22Royal+Mail%22+OR+%22last+mile+delivery+UK%22+OR+%22UK+postal+market%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22UK+parcel+delivery+market%22+OR+%22Royal+Mail%22+OR+%22last+mile+delivery+UK%22+OR+%22UK+postal+market%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22UK+parcel+delivery+market%22+OR+%22Royal+Mail%22+OR+%22last+mile+delivery+UK%22+OR+%22UK+postal+market%22"
+      }
+    },
+    {
+      "name": "Clearway Group",
+      "industry": "UK property and site security",
+      "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
+      "website": "https://www.clearway.co.uk/",
+      "newsroom_url": "https://www.clearway.co.uk/news/",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22vacant+property+security%22+OR+%22UK+site+security+industry%22+OR+%22construction+site+theft+UK%22+OR+%22squatting+property+UK%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22vacant+property+security%22+OR+%22UK+site+security+industry%22+OR+%22construction+site+theft+UK%22+OR+%22squatting+property+UK%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22vacant+property+security%22+OR+%22UK+site+security+industry%22+OR+%22construction+site+theft+UK%22+OR+%22squatting+property+UK%22"
+      }
+    },
+    {
+      "name": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "description": "UK maker of e-bike conversion kits, including the Swytch GO and Swytch MAX.",
+      "website": "https://www.swytchbike.com/",
+      "newsroom_url": "https://www.swytchbike.com/blog/",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22e-bike+market%22+OR+%22electric+bike+industry+UK%22+OR+%22micromobility%22+OR+%22ebike+conversion+kit+market%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22e-bike+market%22+OR+%22electric+bike+industry+UK%22+OR+%22micromobility%22+OR+%22ebike+conversion+kit+market%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22e-bike+market%22+OR+%22electric+bike+industry+UK%22+OR+%22micromobility%22+OR+%22ebike+conversion+kit+market%22"
+      }
+    },
+    {
+      "name": "Molinare",
+      "industry": "TV and film post-production",
+      "description": "London-based TV and film post-production group (Molinare Creative Group, including Notorious DIT).",
+      "website": "https://molinare.co.uk/",
+      "newsroom_url": "",
+      "story_count": 0,
+      "sector_count": 1,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22post-production+industry%22+OR+%22UK+film+production+industry%22+OR+%22VFX+industry%22+OR+%22UK+broadcast+production%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22post-production+industry%22+OR+%22UK+film+production+industry%22+OR+%22VFX+industry%22+OR+%22UK+broadcast+production%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22post-production+industry%22+OR+%22UK+film+production+industry%22+OR+%22VFX+industry%22+OR+%22UK+broadcast+production%22"
+      }
+    },
+    {
+      "name": "Pip Studios",
+      "industry": "Audio post-production and localisation",
+      "description": "UK audio post-production and localisation studio.",
+      "website": "https://pipstudios.com/",
+      "newsroom_url": "",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Pip+Studios+audio%22+OR+%22PIP+Studios+post-production%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Pip+Studios+audio%22+OR+%22PIP+Studios+post-production%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Pip+Studios+audio%22+OR+%22PIP+Studios+post-production%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22audio+post-production+industry%22+OR+%22dubbing+and+localisation+industry%22+OR+%22voice+over+industry%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22audio+post-production+industry%22+OR+%22dubbing+and+localisation+industry%22+OR+%22voice+over+industry%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22audio+post-production+industry%22+OR+%22dubbing+and+localisation+industry%22+OR+%22voice+over+industry%22"
+      }
+    },
+    {
+      "name": "Petainer",
+      "industry": "PET and beverage packaging",
+      "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
+      "website": "https://www.petainer.com/",
+      "newsroom_url": "https://www.petainer.com/insights",
+      "story_count": 0,
+      "sector_count": 1,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Petainer%22+OR+%22petainerKeg%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22PET+packaging+market%22+OR+%22beverage+packaging+industry%22+OR+%22recycled+PET+rPET%22+OR+%22draught+beer+kegs+market%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22PET+packaging+market%22+OR+%22beverage+packaging+industry%22+OR+%22recycled+PET+rPET%22+OR+%22draught+beer+kegs+market%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22PET+packaging+market%22+OR+%22beverage+packaging+industry%22+OR+%22recycled+PET+rPET%22+OR+%22draught+beer+kegs+market%22"
+      }
+    },
+    {
+      "name": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "description": "UK sovereign AI company behind Collective / CollectiveOS.",
+      "website": "https://www.white.space/",
+      "newsroom_url": "https://www.white.space/insights",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22sovereign+AI%22+OR+%22UK+AI+policy%22+OR+%22enterprise+AI+adoption%22+OR+%22AI+infrastructure+investment+UK%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22sovereign+AI%22+OR+%22UK+AI+policy%22+OR+%22enterprise+AI+adoption%22+OR+%22AI+infrastructure+investment+UK%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22sovereign+AI%22+OR+%22UK+AI+policy%22+OR+%22enterprise+AI+adoption%22+OR+%22AI+infrastructure+investment+UK%22"
+      }
+    },
+    {
+      "name": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "description": "UK independent stationery and Post Office retail chain.",
+      "website": "https://www.uoe.co.uk/",
+      "newsroom_url": "https://www.uoe.co.uk/news",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22Post+Office+network+UK%22+OR+%22stationery+retail+market+UK%22+OR+%22UK+high+street+retail%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Post+Office+network+UK%22+OR+%22stationery+retail+market+UK%22+OR+%22UK+high+street+retail%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Post+Office+network+UK%22+OR+%22stationery+retail+market+UK%22+OR+%22UK+high+street+retail%22"
+      }
+    },
+    {
+      "name": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "description": "Global education publishing and learning technology company.",
+      "website": "https://www.mheducation.com/",
+      "newsroom_url": "https://www.mheducation.com/news-media.html",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22education+publishing+industry%22+OR+%22edtech+market%22+OR+%22digital+learning+higher+education%22+OR+%22textbook+market%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22education+publishing+industry%22+OR+%22edtech+market%22+OR+%22digital+learning+higher+education%22+OR+%22textbook+market%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22education+publishing+industry%22+OR+%22edtech+market%22+OR+%22digital+learning+higher+education%22+OR+%22textbook+market%22"
+      }
+    },
+    {
+      "name": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "description": "New Zealand fertility clinic group, with Sunfert, Sophea and IVFkasih clinics in Asia.",
+      "website": "https://www.fertilityassociates.co.nz/",
+      "newsroom_url": "https://www.fertilityassociates.co.nz/news",
+      "story_count": 0,
+      "sector_count": 1,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22IVF+industry%22+OR+%22fertility+treatment+funding%22+OR+%22fertility+clinic+sector%22+OR+%22assisted+reproduction+policy%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22IVF+industry%22+OR+%22fertility+treatment+funding%22+OR+%22fertility+clinic+sector%22+OR+%22assisted+reproduction+policy%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22IVF+industry%22+OR+%22fertility+treatment+funding%22+OR+%22fertility+clinic+sector%22+OR+%22assisted+reproduction+policy%22"
+      }
+    },
+    {
+      "name": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "description": "UK designer and manufacturer of rooflights.",
+      "website": "https://roof-maker.co.uk/",
+      "newsroom_url": "https://roof-maker.co.uk/blog/",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22UK+construction+products+market%22+OR+%22rooflights+glazing+industry%22+OR+%22UK+home+improvement+market%22+OR+%22RIBA+architecture+UK%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22UK+construction+products+market%22+OR+%22rooflights+glazing+industry%22+OR+%22UK+home+improvement+market%22+OR+%22RIBA+architecture+UK%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22UK+construction+products+market%22+OR+%22rooflights+glazing+industry%22+OR+%22UK+home+improvement+market%22+OR+%22RIBA+architecture+UK%22"
+      }
+    }
+  ],
   "lookback_days": 7,
   "sector_lookback_days": 10,
   "archive_days": 45,
   "story_count": 0,
   "todays_story_count": 0,
-  "companies": [],
   "stories": [],
-  "sector_stories": [],
+  "sector_stories": [
+    {
+      "id": "a9bdfea8ced1729e",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail admits massive delivery chaos is hitting dozens of UK towns today – is YOUR postcode on the dreaded list? - The Sun",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmxmaWt3aVZSdVJ6cjR3QWwtdDFuQ2tuLVBSUDNHakVNLUE1R2xEOWRfcVVlaDJDUDNjLVhrUE10Q2ZEMzdDanVvdnVrX2hnRVBSNzR6dW9LVEFra2U4aU96S19zUzJzZnRQSHM0WTJtM1doeDhLeElCa3M5SGp0VWNMYWcxdw?oc=5",
+      "source": "The Sun",
+      "published_at": "2026-07-22T11:35:00+00:00",
+      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "score": 75,
+      "summary": "Royal Mail has acknowledged significant delivery disruptions affecting service levels across multiple locations in the United Kingdom.",
+      "angle": "Operational failures at the dominant market incumbent often drive volume shifts toward alternative independent delivery and logistics providers.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "8368c358c14a2811",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "'HOPE' Director Na Hong-jin: \"There Were Over 400 Creature Shots; I Even Wondered Why I Was Covering the Actors' Faces with CGI\" - SBS Star",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOekk2dC1BVzN0eTdQQTlTelVOUmgtazgzTC1hNGMwREFnekpkOXZhZWhrRlBEYi11MHNSbkotSHpXN2NHaUxDM0FyVkgtcXhDWVQyNHF1NkRPblhWbGtzY2hQS3hIS2hMT3lhRDF3V2dzVW1Xb1M2TnZCb2hXUElwNXdXLW1sWDRfbURlbjY2TWhrR29qZVd0YjJtckV6c3lMS2hjRWRGdDRjbDlsUjNIUnNUY3pRcHluSXY2MXNib2JYWmEwa0RhZktaREFpcU45Vnl6bnRFVW5mUEFLelpEWnhiMkdpeWlUOXQ4c2dnV3FGdw?oc=5",
+      "source": "SBS Star",
+      "published_at": "2026-07-20T13:56:00+00:00",
+      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "score": 65,
+      "summary": "Director Na Hong-jin revealed that his upcoming film HOPE features over 400 creature shots, involving extensive use of CGI to cover actors' faces.",
+      "angle": "Highlights the increasing reliance on complex VFX and creature design in high-budget international film production.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "4acd6aa898acf366",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQUl9ncTZfNnRUZ2laVUJZdVdkNHpRbU9PRzZWcFg0S2RVUFFxcEN1czdDUE96X25UUTJ0c2Q4NHhfS3d1bDFIMElJeHV6cDQzdDJVRDNiajFySDBNQ0dTUEQ4U3ROcHdsRUZ1QUp3eXNXZWhrNHNma003YnpVX1JsSGQ4dHNmS3dmaWx3T2c1V0ZoanhUQ1J2WVN2TmFVOV9YNGZpd01fOUlWazY5anRmdTZnSE9zR2NULUtoWUczUUMzc25BZTlYblhlM0lPM0xTdVVOY2JmTUJPcVNfX1dvOFFYSW9mZGk1cDkxNHdsSXlYQlhaVVJlYnBuMkVDUldTSkdnUlEyanJPd0ZCOUcwek5BTWtGaG9QUnc5QnBlSnMxa3FZbF93emktY1ZPUGhBVnk40gG4AkFVX3lxTE9fRE82elhTVTlRM0YtMkpCMkZSS3F4TER6S1JjV1FnZUxCUE9qWjhRa185STA4RzM3aWVoR2stYjNqQ2lfbjNpYzdkRGQxQkFqRXV2REJ5amJGMDNUMnNHUlFyOGNaSWMzbzlBQ2s0SnRRNWk2SVBUVXYyWjBqbGd2UzdvVXE3RnJOQUhKZkNHOW9rTEpHeVQzNGlBUXF4X0R4RkdsR0dTbG5mZ21UZDJnTDlvYllCc0lDVDJwamlScThtQzJLQWJrcGhNajZiT3RYUW1SU3Y1MDhBNXdRNFllckpmbk51Vk9kazhuRHFnNFI4M0k2SWVpT19PTEFOajNaMmNFLXlHMlh0QTJQMlJaQjhzdFFoSFYyV25IcGM5WVUzcXlJTG8xMDBDa1M2UTc1dmVmbTVrbg?oc=5",
+      "source": "The Manila Times",
+      "published_at": "2026-07-21T06:03:13+00:00",
+      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "score": 85,
+      "summary": "Carbios has completed 100 batches at its industrial demonstration plant and is expanding its enzymatic recycling licensing offering to the textile market.",
+      "angle": "Advancements in enzymatic recycling technology represent a significant shift in circular PET packaging and material sustainability standards.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "cb8b823fe4f93f23",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Pro - Life Group Wants More Ethical Limits and Regulations on IVF",
+      "url": "https://www.lifenews.com/2026/07/21/pro-life-group-wants-more-ethical-limits-and-regulations-on-ivf/",
+      "source": "lifenews.com",
+      "published_at": "2026-07-21T20:45:00+00:00",
+      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "score": 75,
+      "summary": "Liberty Counsel Action has formally urged the U.S. government to prioritize Restorative Reproductive Medicine over IVF coverage in proposed federal health insurance rules.",
+      "angle": "Highlights increasing political and regulatory pressure on the IVF industry regarding ethical standards and insurance coverage frameworks.",
+      "discovered_via": "GDELT"
+    }
+  ],
   "run_summary": {
-    "note": "Seed file. Replaced on the first workflow run."
+    "companies_checked": 11,
+    "companies_with_stories": 0,
+    "companies_with_sector_news": 4,
+    "sector_topups": 0,
+    "providers_succeeded": 40,
+    "queued_candidates": 65,
+    "llm_requests_attempted": 9,
+    "llm_requests_succeeded": 9,
+    "dropped_no_valid_date": 16,
+    "dropped_thin_page": 39,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 11,
+    "carried_forward": 0
   }
 }
