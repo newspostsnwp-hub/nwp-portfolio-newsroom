@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T12:14:25.527185+00:00",
+  "generated_at": "2026-07-22T15:55:02.355767+00:00",
   "lookback_days": 7,
   "sector_lookback_days": 7,
   "archive_days": 45,
@@ -53,6 +53,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "33561f9294bc3bfa",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail delivery delays hit 10 Cambridge postcodes today full list",
+      "url": "https://www.cambridge-news.co.uk/news/cambridge-news/royal-mail-cambridge-delivery-delays-34331567",
+      "source": "cambridge-news.co.uk",
+      "published_at": "2026-07-22T14:30:00+00:00",
+      "first_seen": "2026-07-22T15:55:02.355767+00:00",
+      "score": 65,
+      "summary": "Royal Mail is experiencing service delays across 141 UK locations, including 10 Cambridge postcodes, due to local issues such as high sick absence and resourcing challenges.",
+      "angle": "Competitor service instability creates potential opportunities for alternative delivery providers to capture displaced volume and improve market share.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "67292af4b89cebc2",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -95,18 +109,32 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "4acd6aa898acf366",
+      "id": "3ef098f8a3591961",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQUl9ncTZfNnRUZ2laVUJZdVdkNHpRbU9PRzZWcFg0S2RVUFFxcEN1czdDUE96X25UUTJ0c2Q4NHhfS3d1bDFIMElJeHV6cDQzdDJVRDNiajFySDBNQ0dTUEQ4U3ROcHdsRUZ1QUp3eXNXZWhrNHNma003YnpVX1JsSGQ4dHNmS3dmaWx3T2c1V0ZoanhUQ1J2WVN2TmFVOV9YNGZpd01fOUlWazY5anRmdTZnSE9zR2NULUtoWUczUUMzc25BZTlYblhlM0lPM0xTdVVOY2JmTUJPcVNfX1dvOFFYSW9mZGk1cDkxNHdsSXlYQlhaVVJlYnBuMkVDUldTSkdnUlEyanJPd0ZCOUcwek5BTWtGaG9QUnc5QnBlSnMxa3FZbF93emktY1ZPUGhBVnk40gG4AkFVX3lxTE9fRE82elhTVTlRM0YtMkpCMkZSS3F4TER6S1JjV1FnZUxCUE9qWjhRa185STA4RzM3aWVoR2stYjNqQ2lfbjNpYzdkRGQxQkFqRXV2REJ5amJGMDNUMnNHUlFyOGNaSWMzbzlBQ2s0SnRRNWk2SVBUVXYyWjBqbGd2UzdvVXE3RnJOQUhKZkNHOW9rTEpHeVQzNGlBUXF4X0R4RkdsR0dTbG5mZ21UZDJnTDlvYllCc0lDVDJwamlScThtQzJLQWJrcGhNajZiT3RYUW1SU3Y1MDhBNXdRNFllckpmbk51Vk9kazhuRHFnNFI4M0k2SWVpT19PTEFOajNaMmNFLXlHMlh0QTJQMlJaQjhzdFFoSFYyV25IcGM5WVUzcXlJTG8xMDBDa1M2UTc1dmVmbTVrbg?oc=5",
-      "source": "The Manila Times",
-      "published_at": "2026-07-21T06:03:13+00:00",
-      "first_seen": "2026-07-22T10:57:48.554081+00:00",
+      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market",
+      "url": "https://www.manilatimes.net/2026/07/21/tmt-newswire/globenewswire/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/2388099",
+      "source": "manilatimes.net",
+      "published_at": "2026-07-21T06:30:00+00:00",
+      "first_seen": "2026-07-22T15:55:02.355767+00:00",
       "score": 85,
-      "summary": "Carbios has successfully completed 100 batches at its industrial demonstration plant and is expanding its enzymatic recycling licensing model to include the textile market.",
-      "angle": "Advancements in enzymatic recycling technology represent a significant shift in circular economy capabilities for PET packaging manufacturers.",
-      "discovered_via": "Google News RSS"
+      "summary": "Carbios has successfully processed 100 batches at its industrial demonstration plant and expanded its enzymatic biorecycling licensing to include PET polyester textile waste.",
+      "angle": "Advances in enzymatic recycling technology for PET increase the potential availability and quality of recycled rPET feedstock.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "ca4cc0e9d7b924ff",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "EU Bans Fashion Waste ; SMX Makes it New",
+      "url": "http://www.californiatelegraph.com/news/279201770/eu-bans-fashion-waste-smx-makes-it-new",
+      "source": "californiatelegraph.com",
+      "published_at": "2026-07-21T20:45:00+00:00",
+      "first_seen": "2026-07-22T15:55:02.355767+00:00",
+      "score": 65,
+      "summary": "The EU has implemented a ban on the destruction of unsold consumer goods, necessitating verifiable evidence of material origin and circularity for products including textiles and plastics.",
+      "angle": "Increasing regulatory requirements for material traceability and circularity in the EU will impact PET packaging manufacturers.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "7d0939f02a1bcefd",
@@ -137,17 +165,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "3da9592b03f0266e",
+      "id": "715b02d5d50005b8",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "What the TrendAI / Anthropic partnership means for SA",
-      "url": "https://it-online.co.za/2026/07/22/what-the-trendai-anthropic-partnership-means-for-sa/",
-      "source": "it-online.co.za",
-      "published_at": "2026-07-22T11:15:00+00:00",
-      "first_seen": "2026-07-22T12:14:25.527185+00:00",
+      "title": "Supermicro AI Orders Remain Strong as AI GPU Platforms Generate Over 80 Percent of Revenue",
+      "url": "https://infotechlead.com/networking/supermicro-ai-orders-remain-strong-as-ai-gpu-platforms-generate-over-80-percent-of-revenue-97221",
+      "source": "infotechlead.com",
+      "published_at": "2026-07-22T15:00:00+00:00",
+      "first_seen": "2026-07-22T15:55:02.355767+00:00",
       "score": 85,
-      "summary": "TrendAI and Anthropic have launched a locally governed data centre in South Africa, enabling frontier AI model processing that complies with local data sovereignty and cross-border transfer regulations.",
-      "angle": "Demonstrates the growing market demand for sovereign AI infrastructure that satisfies strict local data residency and compliance requirements.",
+      "summary": "Supermicro reported that AI GPU-based platforms generated over 80 percent of its third-quarter fiscal 2026 revenue, driven by demand from hyperscalers, cloud providers, and sovereign AI projects.",
+      "angle": "Validates sustained global demand for sovereign AI infrastructure and highlights the growing importance of integrated software management layers.",
       "discovered_via": "GDELT"
     },
     {
@@ -169,14 +197,14 @@
     "companies_checked": 11,
     "companies_with_stories": 1,
     "companies_with_sector_news": 5,
-    "providers_succeeded": 37,
-    "queued_candidates": 46,
-    "llm_requests_attempted": 11,
-    "llm_requests_succeeded": 11,
-    "dropped_no_valid_date": 15,
-    "dropped_thin_page": 20,
+    "providers_succeeded": 41,
+    "queued_candidates": 47,
+    "llm_requests_attempted": 13,
+    "llm_requests_succeeded": 13,
+    "dropped_no_valid_date": 16,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 1
   }
 }
