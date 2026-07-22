@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T17:08:56.866179+00:00",
+  "generated_at": "2026-07-22T20:49:03.773314+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -8,7 +8,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -247,17 +247,31 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "33561f9294bc3bfa",
+      "id": "d0872f9b25b0a35c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail delivery delays hit 10 Cambridge postcodes today full list",
-      "url": "https://www.cambridge-news.co.uk/news/cambridge-news/royal-mail-cambridge-delivery-delays-34331567",
-      "source": "cambridge-news.co.uk",
-      "published_at": "2026-07-22T14:30:00+00:00",
-      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "title": "Royal Mail chaos hits united kingdom with Oxfordshire postcodes affected",
+      "url": "https://www.thisisoxfordshire.co.uk/news/26400901.royal-mail-chaos-hits-uk-oxfordshire-postcodes-affected/",
+      "source": "thisisoxfordshire.co.uk",
+      "published_at": "2026-07-22T19:15:00+00:00",
+      "first_seen": "2026-07-22T20:49:03.773314+00:00",
       "score": 65,
-      "summary": "Royal Mail is experiencing service delays across 141 UK locations due to local resourcing issues and high levels of sick absence.",
-      "angle": "Competitor service instability creates potential volume shifts and highlights ongoing operational challenges within the UK postal network.",
+      "summary": "Royal Mail is experiencing service disruptions across 153 UK postcodes due to high levels of staff sickness and resourcing challenges.",
+      "angle": "Operational instability at the incumbent market leader creates potential volume shifts and service level expectations for competitors.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "9b540e216a5d5606",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail postal delays in Worcester sees urgent meeting",
+      "url": "https://www.malverngazette.co.uk/news/26400484.royal-mail-postal-delays-worcester-sees-urgent-meeting/",
+      "source": "malverngazette.co.uk",
+      "published_at": "2026-07-22T17:00:00+00:00",
+      "first_seen": "2026-07-22T20:49:03.773314+00:00",
+      "score": 65,
+      "summary": "Worcester MP Tom Collins and local councillors have called an urgent meeting with Royal Mail to address significant, ongoing postal delays affecting residents and NHS communications.",
+      "angle": "Highlights service reliability issues at the incumbent operator, potentially driving demand for alternative private sector delivery solutions.",
       "discovered_via": "GDELT"
     },
     {
@@ -420,14 +434,14 @@
     "companies_with_stories": 0,
     "companies_with_sector_news": 5,
     "sector_topups": 0,
-    "providers_succeeded": 42,
-    "queued_candidates": 62,
-    "llm_requests_attempted": 20,
-    "llm_requests_succeeded": 20,
-    "dropped_no_valid_date": 16,
-    "dropped_thin_page": 26,
+    "providers_succeeded": 45,
+    "queued_candidates": 64,
+    "llm_requests_attempted": 21,
+    "llm_requests_succeeded": 21,
+    "dropped_no_valid_date": 15,
+    "dropped_thin_page": 28,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 11,
+    "skipped_recently_evaluated": 14,
     "carried_forward": 0
   }
 }
