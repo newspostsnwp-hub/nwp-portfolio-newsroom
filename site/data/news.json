@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T16:28:28.035117+00:00",
+  "generated_at": "2026-07-22T16:55:41.875117+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -103,7 +103,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -275,18 +275,46 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "4acd6aa898acf366",
+      "id": "3ef098f8a3591961",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQUl9ncTZfNnRUZ2laVUJZdVdkNHpRbU9PRzZWcFg0S2RVUFFxcEN1czdDUE96X25UUTJ0c2Q4NHhfS3d1bDFIMElJeHV6cDQzdDJVRDNiajFySDBNQ0dTUEQ4U3ROcHdsRUZ1QUp3eXNXZWhrNHNma003YnpVX1JsSGQ4dHNmS3dmaWx3T2c1V0ZoanhUQ1J2WVN2TmFVOV9YNGZpd01fOUlWazY5anRmdTZnSE9zR2NULUtoWUczUUMzc25BZTlYblhlM0lPM0xTdVVOY2JmTUJPcVNfX1dvOFFYSW9mZGk1cDkxNHdsSXlYQlhaVVJlYnBuMkVDUldTSkdnUlEyanJPd0ZCOUcwek5BTWtGaG9QUnc5QnBlSnMxa3FZbF93emktY1ZPUGhBVnk40gG4AkFVX3lxTE9fRE82elhTVTlRM0YtMkpCMkZSS3F4TER6S1JjV1FnZUxCUE9qWjhRa185STA4RzM3aWVoR2stYjNqQ2lfbjNpYzdkRGQxQkFqRXV2REJ5amJGMDNUMnNHUlFyOGNaSWMzbzlBQ2s0SnRRNWk2SVBUVXYyWjBqbGd2UzdvVXE3RnJOQUhKZkNHOW9rTEpHeVQzNGlBUXF4X0R4RkdsR0dTbG5mZ21UZDJnTDlvYllCc0lDVDJwamlScThtQzJLQWJrcGhNajZiT3RYUW1SU3Y1MDhBNXdRNFllckpmbk51Vk9kazhuRHFnNFI4M0k2SWVpT19PTEFOajNaMmNFLXlHMlh0QTJQMlJaQjhzdFFoSFYyV25IcGM5WVUzcXlJTG8xMDBDa1M2UTc1dmVmbTVrbg?oc=5",
-      "source": "The Manila Times",
-      "published_at": "2026-07-21T06:03:13+00:00",
-      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market",
+      "url": "https://www.manilatimes.net/2026/07/21/tmt-newswire/globenewswire/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/2388099",
+      "source": "manilatimes.net",
+      "published_at": "2026-07-21T06:30:00+00:00",
+      "first_seen": "2026-07-22T16:55:41.875117+00:00",
       "score": 85,
-      "summary": "Carbios has completed 100 batches at its industrial demonstration plant and is expanding its enzymatic recycling licensing offering to the textile market.",
-      "angle": "Advancements in enzymatic recycling technology represent a significant shift in circular PET packaging and material sustainability standards.",
-      "discovered_via": "Google News RSS"
+      "summary": "Carbios has successfully processed 100 batches at its industrial demonstration plant and is expanding its enzymatic PET biorecycling licensing to the global textile market.",
+      "angle": "Advances in enzymatic recycling technology for PET increase the potential availability of high-quality recycled monomers for packaging manufacturers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "228d16008db74281",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "India targets 60 % recycled content in rigid packaging",
+      "url": "https://finance.yahoo.com/economy/policy/articles/india-targets-60-recycled-content-074141962.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-07-14T08:15:00+00:00",
+      "first_seen": "2026-07-22T16:55:41.875117+00:00",
+      "score": 85,
+      "summary": "India has introduced an Extended Producer Responsibility framework requiring rigid plastic packaging to contain at least 60% recycled content by the 2028–29 financial year.",
+      "angle": "Highlights global regulatory trends mandating recycled content, impacting material sourcing and circular design strategies for packaging manufacturers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "ca4cc0e9d7b924ff",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "EU Bans Fashion Waste ; SMX Makes it New",
+      "url": "http://www.californiatelegraph.com/news/279201770/eu-bans-fashion-waste-smx-makes-it-new",
+      "source": "californiatelegraph.com",
+      "published_at": "2026-07-21T20:45:00+00:00",
+      "first_seen": "2026-07-22T16:55:41.875117+00:00",
+      "score": 65,
+      "summary": "SMX has demonstrated that its molecular marking technology can be embedded into recycled PET granules to provide authenticated traceability throughout the material's lifecycle.",
+      "angle": "Increasing regulatory pressure for material-level traceability and circularity in plastics and packaging supply chains.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "7d0939f02a1bcefd",
@@ -364,14 +392,14 @@
     "companies_with_stories": 0,
     "companies_with_sector_news": 5,
     "sector_topups": 0,
-    "providers_succeeded": 38,
-    "queued_candidates": 63,
-    "llm_requests_attempted": 19,
-    "llm_requests_succeeded": 19,
+    "providers_succeeded": 45,
+    "queued_candidates": 66,
+    "llm_requests_attempted": 23,
+    "llm_requests_succeeded": 23,
     "dropped_no_valid_date": 16,
-    "dropped_thin_page": 28,
+    "dropped_thin_page": 27,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 14,
     "carried_forward": 0
   }
 }
