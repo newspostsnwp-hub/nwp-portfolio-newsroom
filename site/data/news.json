@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T16:55:41.875117+00:00",
+  "generated_at": "2026-07-22T17:02:22.993851+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -65,7 +65,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -261,6 +261,34 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "67292af4b89cebc2",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Government announce increased tax credit for films with big visual effects budgets",
+      "url": "https://www.hotpress.com/film-tv/government-announce-increased-tax-credit-for-films-with-big-visual-effects-budgets-23153088",
+      "source": "hotpress.com",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "first_seen": "2026-07-22T17:02:22.993851+00:00",
+      "score": 75,
+      "summary": "The Irish government has introduced a new Visual Effects Uplift to the Section 481 Film Tax Credit, offering a 40% credit for qualifying VFX expenditure up to €10 million.",
+      "angle": "Increased regional tax incentives for VFX may shift international production locations and competitive dynamics within the post-production market.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "74e7048e810b700d",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "New uplift in tax credit for film industry , Government confirm",
+      "url": "https://www.meathchronicle.ie/2026/07/20/new-uplift-in-tax-credit-for-film-industry-government-confirm/",
+      "source": "meathchronicle.ie",
+      "published_at": "2026-07-20T10:45:00+00:00",
+      "first_seen": "2026-07-22T17:02:22.993851+00:00",
+      "score": 75,
+      "summary": "The Irish government has introduced a 40% tax credit uplift for visual effects expenditure on productions meeting specific criteria to boost the national screen industry.",
+      "angle": "Increased regional tax incentives for VFX may shift international production demand and impact competitive pricing within the sector.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "8368c358c14a2811",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -392,14 +420,14 @@
     "companies_with_stories": 0,
     "companies_with_sector_news": 5,
     "sector_topups": 0,
-    "providers_succeeded": 45,
-    "queued_candidates": 66,
-    "llm_requests_attempted": 23,
-    "llm_requests_succeeded": 23,
+    "providers_succeeded": 42,
+    "queued_candidates": 65,
+    "llm_requests_attempted": 15,
+    "llm_requests_succeeded": 15,
     "dropped_no_valid_date": 16,
-    "dropped_thin_page": 27,
+    "dropped_thin_page": 34,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 14,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 0
   }
 }
