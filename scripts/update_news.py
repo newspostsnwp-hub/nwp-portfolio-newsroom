@@ -69,14 +69,16 @@ USER_AGENT = (
 
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 LOOKBACK_DAYS = max(1, int(os.getenv("LOOKBACK_DAYS", "7")))
-SECTOR_LOOKBACK_DAYS = max(1, int(os.getenv("SECTOR_LOOKBACK_DAYS", "7")))
+SECTOR_LOOKBACK_DAYS = max(1, int(os.getenv("SECTOR_LOOKBACK_DAYS", "10")))
 MAX_PER_COMPANY = max(1, int(os.getenv("MAX_PER_COMPANY", "4")))
 ANALYZE_PER_COMPANY = max(1, int(os.getenv("ANALYZE_PER_COMPANY", "6")))
-MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("MAX_SECTOR_PER_COMPANY", "3")))
-ANALYZE_SECTOR_PER_COMPANY = max(0, int(os.getenv("ANALYZE_SECTOR_PER_COMPANY", "5")))
+MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("MAX_SECTOR_PER_COMPANY", "4")))
+ANALYZE_SECTOR_PER_COMPANY = max(0, int(os.getenv("ANALYZE_SECTOR_PER_COMPANY", "10")))
 MIN_SCORE = max(0, min(100, int(os.getenv("MIN_SCORE", "60"))))
 READY_SCORE = max(0, min(100, int(os.getenv("READY_SCORE", "80"))))
-MIN_SECTOR_SCORE = max(0, min(100, int(os.getenv("MIN_SECTOR_SCORE", "55"))))
+MIN_SECTOR_SCORE = max(0, min(100, int(os.getenv("MIN_SECTOR_SCORE", "50"))))
+# Relaxed floor used only to guarantee every company has some sector context.
+SECTOR_FLOOR_SCORE = max(0, min(100, int(os.getenv("SECTOR_FLOOR_SCORE", "32"))))
 ARCHIVE_DAYS = max(7, int(os.getenv("ARCHIVE_DAYS", "45")))
 MAX_ARCHIVE_STORIES = max(10, int(os.getenv("MAX_ARCHIVE_STORIES", "200")))
 
@@ -449,6 +451,20 @@ def matches_company(company: dict[str, Any], *values: str) -> bool:
     return False
 
 
+def news_search_links(terms: list[str]) -> dict[str, str]:
+    """Outbound 'search this yourself' links rendered by the dashboard."""
+    usable = [t for t in terms if t][:4]
+    if not usable:
+        return {}
+    query = " OR ".join(f'"{t}"' for t in usable)
+    encoded = quote_plus(query)
+    return {
+        "google_news": f"https://news.google.com/search?q={encoded}&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": f"https://www.google.com/search?q={encoded}&tbm=nws",
+        "bing_news": f"https://www.bing.com/news/search?q={encoded}",
+    }
+
+
 def load_json_cache(path: Path) -> dict[str, Any]:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -731,7 +747,7 @@ def collect_for_company(company: dict[str, Any]) -> dict[str, Any]:
     successes += int(google_ok)
 
     sector_items: list[dict[str, Any]] = []
-    sector_terms = unique_strings(company.get("industry_terms", []), limit=4)
+    sector_terms = unique_strings(company.get("industry_terms", []), limit=6)
     if sector_terms and MAX_SECTOR_PER_COMPANY:
         s_gdelt, s_ok1 = search_gdelt(company, terms=sector_terms, stream="sector",
                                       lookback=SECTOR_LOOKBACK_DAYS)
@@ -1211,6 +1227,9 @@ def main() -> None:
     # Phase 5 - validate, then analyse.
     stories: list[dict[str, Any]] = list(carried)
     sector_stories: list[dict[str, Any]] = list(carried_sector)
+    # Sector items that missed the main bar but are usable as a floor, so
+    # every company still gets some sector context.
+    sector_nearmiss: list[dict[str, Any]] = []
     attempts = successes_llm = drops_date = drops_thin = drops_grounding = 0
 
     for idx, (stream, company, item) in enumerate(queue):
@@ -1270,6 +1289,9 @@ def main() -> None:
         LOGGER.info("%s | relevant=%s score=%s | %s", stream, analysis["is_relevant"],
                     analysis["score"], item["title"])
         if not keep:
+            if (stream == "sector" and analysis["is_relevant"]
+                    and analysis["score"] >= SECTOR_FLOOR_SCORE):
+                sector_nearmiss.append(assemble_sector(item, analysis, now_iso))
             continue
         if stream == "company":
             stories.append(assemble_story(item, analysis, now_iso))
@@ -1296,9 +1318,17 @@ def main() -> None:
                                             sortable_datetime(str(s.get("published_at", "")))),
                      reverse=True)
 
+    sector_topups = 0
     sector_final: list[dict[str, Any]] = []
     for name in by_name:
         group = [s for s in sector_stories if s.get("company") == name]
+        if not group:
+            spare = sorted([s for s in sector_nearmiss if s.get("company") == name],
+                           key=lambda s: int(s.get("score", 0)), reverse=True)
+            if spare:
+                group = spare[:1]
+                sector_topups += 1
+                LOGGER.info("Sector top-up for %s: %s", name, group[0].get("title"))
         seen_titles: list[str] = []
         unique_group = []
         for story in sorted(group, key=lambda s: (int(s.get("score", 0)),
@@ -1313,8 +1343,25 @@ def main() -> None:
     today = now.date().isoformat()
     todays = [s for s in stories if str(s.get("first_seen", ""))[:10] == today]
 
+    # Directory the dashboard uses for company/industry search links.
+    directory = []
+    for company in companies:
+        name = company["name"]
+        directory.append({
+            "name": name,
+            "industry": company.get("industry", ""),
+            "description": company.get("description", ""),
+            "website": company.get("website", ""),
+            "newsroom_url": (company.get("newsroom_urls") or [""])[0],
+            "story_count": len([s for s in stories if s.get("company") == name]),
+            "sector_count": len([s for s in sector_final if s.get("company") == name]),
+            "company_links": news_search_links(company_search_terms(company)),
+            "industry_links": news_search_links(company.get("industry_terms", [])),
+        })
+
     payload = {
         "generated_at": now_iso,
+        "companies": directory,
         "lookback_days": LOOKBACK_DAYS,
         "sector_lookback_days": SECTOR_LOOKBACK_DAYS,
         "archive_days": ARCHIVE_DAYS,
@@ -1326,6 +1373,7 @@ def main() -> None:
             "companies_checked": len(companies),
             "companies_with_stories": len({s["company"] for s in stories}),
             "companies_with_sector_news": len({s["company"] for s in sector_final}),
+            "sector_topups": sector_topups,
             "providers_succeeded": successes,
             "queued_candidates": len(queue),
             "llm_requests_attempted": attempts,
