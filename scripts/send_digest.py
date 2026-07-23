@@ -17,13 +17,14 @@ the edition falls back to a sector-only round-up rather than being skipped.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import smtplib
 import sys
 from datetime import datetime, timezone
 from email.message import EmailMessage
-from email.utils import parsedate_to_datetime
+from email.utils import formataddr, parsedate_to_datetime
 from html import escape
 from pathlib import Path
 from typing import Any
@@ -58,13 +59,35 @@ BODY = "#3d4757"
 MUTED = "#7b8494"
 RULE = "#e2e6ec"
 HAIR = "#eef1f5"
-PAGE_BG = "#e9edf2"
+PAGE_BG = "#ffffff"
 CARD = "#ffffff"
 READY = "#1a7f37"
 REVIEW = "#a25a00"
-ACCENTS = ["#0f2547", "#2563c9", "#0e7490", "#3f3d76", "#4a5568"]
+# Muted, professional palette; each company is pinned to a colour by a
+# deterministic hash of its name (below), not by list position, so it stays
+# stable across editions as the roster changes.
+ACCENTS = [
+    "#0f2547",  # navy
+    "#1f5fa8",  # blue
+    "#0e7490",  # teal
+    "#3f3d76",  # indigo
+    "#4a5568",  # slate
+    "#8c2f39",  # brick red
+    "#2f6b4f",  # forest green
+    "#6a4c93",  # plum
+    "#8a5a12",  # ochre
+    "#3c5a72",  # steel blue
+    "#7a3b52",  # wine
+    "#5c6b2e",  # olive
+    "#24405c",  # charcoal blue
+]
 SERIF = "Georgia,'Times New Roman',serif"
 SANS = "Arial,Helvetica,sans-serif"
+
+
+def accent_for(company: str) -> str:
+    digest = hashlib.md5(company.strip().lower().encode("utf-8")).hexdigest()
+    return ACCENTS[int(digest, 16) % len(ACCENTS)]
 
 
 def parse_date(value: str) -> datetime | None:
@@ -189,12 +212,12 @@ def render_story(story: dict[str, Any], first: bool) -> str:
     url = escape(str(story.get("url", "#")), quote=True)
     divider = "" if first else f"border-top:1px solid {HAIR};"
     return f"""
-    <tr><td style="padding:15px 22px;{divider}">
-      <a href="{url}" style="font-family:{SANS};font-size:16px;font-weight:bold;
-         line-height:1.34;color:{INK};text-decoration:none;">{escape(str(story.get('title','')))}</a>
-      <div style="font-family:{SANS};font-size:13px;color:{BODY};line-height:1.55;
+    <tr><td style="padding:16px 22px;{divider}">
+      <a href="{url}" style="font-family:{SERIF};font-size:18px;font-weight:bold;
+         line-height:1.3;color:{INK};text-decoration:none;">{escape(str(story.get('title','')))}</a>
+      <div style="font-family:{SANS};font-size:15px;color:{BODY};line-height:1.55;
                   margin-top:6px;">{escape(str(story.get('summary','')))}</div>
-      <div style="font-family:{SANS};font-size:11px;color:{MUTED};margin-top:9px;line-height:1.5;">
+      <div style="font-family:{SANS};font-size:12px;color:{MUTED};margin-top:9px;line-height:1.5;">
         <span style="font-weight:bold;color:{BODY};">{escape(str(story.get('source','')))}</span>
         &nbsp;&middot;&nbsp; {escape(str(story.get('story_type','Update')))}
         &nbsp;&middot;&nbsp; {escape(format_date(str(story.get('published_at',''))))}
@@ -214,18 +237,18 @@ def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True
         angle = escape(str(item.get("angle", "")))
         rows.append(f"""
         <tr><td style="padding:9px 22px;">
-          <a href="{url}" style="font-family:{SANS};font-size:13.5px;font-weight:bold;
+          <a href="{url}" style="font-family:{SANS};font-size:15px;font-weight:bold;
              color:{INK};text-decoration:none;line-height:1.35;">{escape(str(item.get('title','')))}</a>
-          <div style="font-family:{SANS};font-size:12px;color:{BODY};line-height:1.5;
+          <div style="font-family:{SANS};font-size:13.5px;color:{BODY};line-height:1.5;
                       margin-top:4px;">{escape(str(item.get('summary','')))}</div>
-          {f'<div style="font-family:{SANS};font-size:11.5px;color:{MUTED};margin-top:4px;">{angle}</div>' if angle else ''}
-          <div style="font-family:{SANS};font-size:10.5px;color:{MUTED};margin-top:5px;">
+          {f'<div style="font-family:{SANS};font-size:12.5px;color:{MUTED};margin-top:4px;">{angle}</div>' if angle else ''}
+          <div style="font-family:{SANS};font-size:11.5px;color:{MUTED};margin-top:5px;">
             {escape(str(item.get('source','')))} &nbsp;&middot;&nbsp;
             {escape(format_date(str(item.get('published_at',''))))}</div>
         </td></tr>""")
     return f"""
     <tr><td style="padding:12px 22px 6px 22px;background:{HAIR};{'border-top:1px solid ' + RULE + ';' if divider else ''}">
-      <span style="font-family:{SANS};font-size:10.5px;font-weight:bold;letter-spacing:1.2px;
+      <span style="font-family:{SANS};font-size:11.5px;font-weight:bold;letter-spacing:1.2px;
                    text-transform:uppercase;color:{accent};">Sector &mdash; {industry}</span>
     </td></tr>
     <tr><td style="padding:0;background:{HAIR};"><table role="presentation" width="100%"
@@ -240,12 +263,13 @@ def render_block(company: str, stories: list[dict], sector: list[dict], accent: 
     else:
         tag = "1 sector item" if len(sector) == 1 else f"{len(sector)} sector items"
     return f"""
-    <tr><td style="padding:0 0 16px 0;">
+    <tr><td style="padding:0 0 18px 0;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
-             style="background:{CARD};border:1px solid {RULE};border-top:4px solid {accent};">
-        <tr><td style="padding:14px 22px 12px 22px;border-bottom:1px solid {RULE};">
+             style="background:{CARD};border:1px solid {RULE};
+                    border-top:4px solid {accent};border-left:3px solid {accent};">
+        <tr><td style="padding:16px 22px 13px 22px;border-bottom:1px solid {RULE};">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-            <td style="font-family:{SANS};font-size:19px;font-weight:bold;color:{accent};
+            <td style="font-family:{SERIF};font-size:21px;font-weight:bold;color:{accent};
                        line-height:1.2;">{escape(company)}</td>
             <td align="right" style="font-family:{SANS};font-size:11px;color:{MUTED};
                        white-space:nowrap;padding-left:10px;">{tag}</td>
@@ -261,8 +285,8 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
                sector_only: bool) -> str:
     when = format_date(generated_at)
     dash = escape(DASHBOARD_URL, quote=True)
-    cards = "".join(render_block(name, stories, sector, ACCENTS[i % len(ACCENTS)])
-                    for i, (name, stories, sector) in enumerate(blocks))
+    cards = "".join(render_block(name, stories, sector, accent_for(name))
+                    for name, stories, sector in blocks)
     masthead = "Sector Briefing" if sector_only else "Portfolio Briefing"
     cta = "Open the dashboard &rarr;" if sector_only else "Open the dashboard for drafts &rarr;"
     if sector_only:
@@ -300,7 +324,8 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
           <div style="font-family:{SANS};font-weight:bold;font-size:33px;letter-spacing:1px;
                line-height:1.1;"><span style="color:{NAVY};">NEXT WAVE</span>
             <span style="color:{BLUE};">PARTNERS</span></div>
-          <div style="border-top:3px solid {NAVY};margin:14px 0 0 0;"></div>
+          <div style="border-top:1px solid {RULE};margin:14px 0 0 0;"></div>
+          <div style="border-top:3px solid {NAVY};margin:3px 0 0 0;"></div>
         </td></tr>
 
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
@@ -313,7 +338,7 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
 
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        padding:14px 26px 4px 26px;">
-          <div style="font-family:{SANS};font-size:14px;font-weight:bold;color:{INK};
+          <div style="font-family:{SANS};font-size:15px;font-weight:bold;color:{INK};
                line-height:1.5;">{build_intro(blocks, story_total, sector_total, sector_only)}</div>
         </td></tr>
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
@@ -386,7 +411,7 @@ def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
 def send_email(subject: str, html_body: str, text_body: str) -> None:
     message = EmailMessage()
     message["Subject"] = subject
-    message["From"] = EMAIL_FROM
+    message["From"] = formataddr(("NWP Portfolio News", EMAIL_FROM))
     message["To"] = ", ".join(EMAIL_TO)
     message.set_content(text_body)
     message.add_alternative(html_body, subtype="html")
