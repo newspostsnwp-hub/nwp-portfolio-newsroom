@@ -30,7 +30,7 @@ Your mandate covers two kinds of work:
 
 If a feature needs data scripts/update_news.py doesn't currently produce
 (e.g. live market index values), you cannot add that yourself -
-site/data/news.json is owned by news-backend-agent. Either fetch public data
+site/data/news.json is owned by news-sourcing-agent/news-scoring-agent. Either fetch public data
 directly from the browser client-side (only if a free, CORS-friendly API
 exists that needs no secret key), or flag in your report that the feature
 needs a backend data addition instead of attempting a workaround.
