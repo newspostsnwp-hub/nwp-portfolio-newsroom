@@ -29,7 +29,12 @@
       "UK postal market"
     ],
     "exclude_terms": [],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://thedeliverygroup.co.uk/feed/"
+    ],
+    "sector_rss_feeds": [
+      "https://postandparcel.info/feed/"
+    ]
   },
   {
     "name": "Clearway Group",
@@ -67,7 +72,12 @@
       "Clearway Pain Solutions",
       "Clearway Law"
     ],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://www.clearway.co.uk/feed/"
+    ],
+    "sector_rss_feeds": [
+      "https://securityjournaluk.com/feed/"
+    ]
   },
   {
     "name": "Swytch",
@@ -97,7 +107,10 @@
       "ebike conversion kit market"
     ],
     "exclude_terms": [],
-    "rss_feeds": []
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.electrive.com/feed/"
+    ]
   },
   {
     "name": "Molinare",
@@ -115,7 +128,9 @@
     ],
     "website": "https://molinare.co.uk/",
     "domain": "molinare.co.uk",
-    "newsroom_urls": [],
+    "newsroom_urls": [
+      "https://molinare.co.uk/news/"
+    ],
     "industry": "TV and film post-production",
     "industry_terms": [
       "post-production industry",
@@ -126,7 +141,13 @@
     "exclude_terms": [
       "Molinaire"
     ],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://molinare.co.uk/feed/"
+    ],
+    "sector_rss_feeds": [
+      "https://www.televisual.com/feed/",
+      "https://postperspective.com/feed/"
+    ]
   },
   {
     "name": "Pip Studios",
@@ -155,7 +176,12 @@
       "Pip Studio Amsterdam",
       "PIP Printing"
     ],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://pipstudios.com/feed/"
+    ],
+    "sector_rss_feeds": [
+      "https://postperspective.com/feed/"
+    ]
   },
   {
     "name": "Petainer",
@@ -183,7 +209,10 @@
       "draught beer kegs market"
     ],
     "exclude_terms": [],
-    "rss_feeds": []
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.packagingnews.co.uk/feed"
+    ]
   },
   {
     "name": "Whitespace",
@@ -217,7 +246,10 @@
       "white space design",
       "white space analysis"
     ],
-    "rss_feeds": []
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.uktech.news/feed"
+    ]
   },
   {
     "name": "UOE",
@@ -249,7 +281,12 @@
       "University of Essex",
       "University of Europe"
     ],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://www.uoe.co.uk/feed"
+    ],
+    "sector_rss_feeds": [
+      "https://www.talkingretail.com/feed/"
+    ]
   },
   {
     "name": "McGraw Hill",
@@ -280,7 +317,10 @@
       "McGraw-Hill Financial",
       "S&P Global"
     ],
-    "rss_feeds": []
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.insidehighered.com/rss.xml"
+    ]
   },
   {
     "name": "Fertility Associates",
@@ -337,6 +377,11 @@
       "RIBA architecture UK"
     ],
     "exclude_terms": [],
-    "rss_feeds": []
+    "rss_feeds": [
+      "https://roof-maker.co.uk/blog/feed/"
+    ],
+    "sector_rss_feeds": [
+      "https://www.constructionnews.co.uk/feed/"
+    ]
   }
 ]

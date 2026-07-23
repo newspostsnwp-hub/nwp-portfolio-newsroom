@@ -103,8 +103,9 @@ DEFAULT_HOST_INTERVAL = 1.0
 PROVIDER_PRIORITY = {
     "Official RSS": 0,
     "Company newsroom": 1,
-    "GDELT": 2,
-    "Google News RSS": 3,
+    "Sector RSS": 2,
+    "GDELT": 3,
+    "Google News RSS": 4,
 }
 OFFICIAL_SOURCES = {"Official RSS", "Company newsroom"}
 
@@ -419,8 +420,8 @@ def load_companies() -> list[dict[str, Any]]:
         company["name"] = name
         company["description"] = clean_text(raw.get("description"))
         company["industry"] = clean_text(raw.get("industry"))
-        for field in ("aliases", "exclude_terms", "rss_feeds", "newsroom_urls",
-                      "search_terms", "industry_terms"):
+        for field in ("aliases", "exclude_terms", "rss_feeds", "sector_rss_feeds",
+                      "newsroom_urls", "search_terms", "industry_terms"):
             value = raw.get(field, [])
             if not isinstance(value, list):
                 raise ValueError(f"{name}: {field} must be a JSON list.")
@@ -598,6 +599,27 @@ def search_official_rss(company: dict[str, Any]) -> tuple[list[dict[str, Any]], 
     return out, ok
 
 
+def search_sector_rss(company: dict[str, Any], *, lookback: int) -> tuple[list[dict[str, Any]], int]:
+    """Trade-press RSS feeds relevant to the company's industry, not the company itself."""
+    out, ok = [], 0
+    for feed in company.get("sector_rss_feeds", []):
+        try:
+            response = request_with_backoff(feed, attempts=2, expected="xml",
+                                            label=f"Sector RSS {feed}")
+        except (requests.RequestException, ET.ParseError) as exc:
+            LOGGER.warning("Sector RSS failed %s (%s): %s", company["name"], feed, exc)
+            continue
+        try:
+            out.extend(parse_rss_feed(xml_content=response.content, company=company,
+                                      discovered_via="Sector RSS",
+                                      default_source=urlsplit(feed).netloc.replace("www.", ""),
+                                      stream="sector", lookback=lookback))
+            ok += 1
+        except ET.ParseError as exc:
+            LOGGER.warning("Sector RSS unparseable %s: %s", feed, exc)
+    return out, ok
+
+
 def search_company_newsroom(company: dict[str, Any]) -> tuple[list[dict[str, Any]], int]:
     """Scrape the company's own newsroom for genuine article links."""
     out, ok = [], 0
@@ -747,6 +769,10 @@ def collect_for_company(company: dict[str, Any]) -> dict[str, Any]:
     successes += int(google_ok)
 
     sector_items: list[dict[str, Any]] = []
+    if MAX_SECTOR_PER_COMPANY:
+        s_rss, s_ok0 = search_sector_rss(company, lookback=SECTOR_LOOKBACK_DAYS)
+        sector_items.extend(s_rss)
+        successes += s_ok0
     sector_terms = unique_strings(company.get("industry_terms", []), limit=6)
     if sector_terms and MAX_SECTOR_PER_COMPANY:
         s_gdelt, s_ok1 = search_gdelt(company, terms=sector_terms, stream="sector",
@@ -977,14 +1003,19 @@ Rules:
    merely lists the company; a product page, "about us" page, or marketing boilerplate;
    any page that is not a dated news story.
 3. Score 0-100 on certainty, source credibility, significance to an external audience, and
-   strength of evidence. Be strict: a thin or purely promotional item scores below 50.
+   strength of evidence. Weight named, reputable sources (trade press, named company statement,
+   regulator, named spokesperson) above anonymous aggregator blurbs. Be strict: a thin or
+   purely promotional item, or one with no concrete detail beyond the headline, scores below 50.
 4. Use only facts supported by the source material. Never invent figures, quotes, customers,
    dates, outcomes, or any Next Wave involvement.
 5. Put uncertainty and unsupported claims in warnings.
 6. Measured British English, written for the Next Wave Partners corporate account.
 7. Do not imply Next Wave caused the development. Avoid private-equity cliche and superlatives.
 8. Each draft 80-150 words: concise (factual), investor (growth angle only where supported),
-   people (recognise the team without exaggeration). Max three hashtags. No URLs in drafts.
+   people (recognise the team without exaggeration). Every draft must include at least one
+   concrete, source-supported detail (a figure, name, date, or quote) - if the source material
+   contains no such detail, leave the draft empty rather than fill it with generic phrasing
+   like "exciting news" or "proud to announce". Max three hashtags. No URLs in drafts.
 9. Output valid JSON only.
 """.strip()
 
