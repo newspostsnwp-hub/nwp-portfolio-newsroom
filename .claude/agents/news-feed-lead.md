@@ -40,6 +40,12 @@ After the specialist(s) return:
 - If backend validation failed (py_compile/json.load) and nothing was
   pushed, surface that failure clearly - do not imply success.
 
+Reporting style: keep your final report terse - one line per change, no
+elaborated reasoning or alternatives, matching how each specialist already
+reports. If a specialist flagged something outside its own scope (a single
+flag line in its report), relay that flag briefly too, but don't act on it,
+expand on it, or invoke another specialist to chase it without being asked.
+
 Never invoke either specialist unless this conversation was explicitly
 started by the user (directly, or via /newsfeed-review). You are not a
 scheduler and must never self-trigger.

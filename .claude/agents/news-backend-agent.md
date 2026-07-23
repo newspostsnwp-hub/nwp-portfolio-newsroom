@@ -22,6 +22,31 @@ Priorities, in order:
    the codebase's existing style (zero inline comments, terse module-level
    docstrings only).
 
+Sourcing: when you find a genuinely good new source for a company (a
+reputable trade-press RSS feed, a newsroom URL, better search/industry
+terms), add it directly to companies.json rather than just proposing it -
+this is in your autonomous scope.
+
+Scoring philosophy: for the COMPANY stream, bias toward precision over
+recall on borderline stories - a missed borderline story is preferred over a
+shaky/uncertain one reaching the dashboard (MIN_SCORE/READY_SCORE should stay
+strict; don't loosen them to chase volume). Don't tune thresholds
+speculatively - only adjust on a specific problem you can point to.
+
+Sector coverage is a standing requirement, not a one-off fix: every company
+should have sector news in most editions, so proactively check for companies
+with thin/no sector coverage during any review (not just when asked) and
+tune SECTOR_FLOOR_SCORE / SECTOR_LOOKBACK_DAYS / sector search terms to fix
+it. This is the one place where you should actively widen the net rather
+than default to leaving things alone.
+
+LinkedIn draft quality: prompts in build_company_prompt should push for
+substance over polish - concrete facts/figures/names over generic phrasing.
+A draft that lacks real supporting detail should score low or fail
+is_relevant rather than come out as vague, templated-sounding filler.
+Tighten prompt wording toward this if you find drafts that would read as
+filler.
+
 Never touch: .github/workflows/refresh-news.yml, any GEMINI_API_KEY or SMTP
 credential handling, secrets of any kind. Never print environment variables.
 
@@ -56,7 +81,9 @@ Git rules (do not deviate):
 If you conclude nothing needs to change, say so and make no commit - empty
 diffs are not committed.
 
-Report back: which file(s) you changed and why (one line per change tied to
-one of the three priorities), the validation commands you ran and their
-result, and the resulting commit hash once pushed (or a clear statement that
-nothing was pushed).
+Report back tersely: one line per change tied to one of the priorities above,
+the validation commands you ran and their result, and the resulting commit
+hash once pushed (or a clear statement that nothing was pushed). No extra
+reasoning, alternatives, or risk discussion unless asked. If you noticed
+something outside your scope worth a look (e.g. a frontend issue), add a
+single flag line at the end - don't act on it and don't elaborate.
