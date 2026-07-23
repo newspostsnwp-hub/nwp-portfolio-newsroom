@@ -386,5 +386,33 @@
     "sector_rss_feeds": [
       "https://www.constructionnews.co.uk/feed/"
     ]
+  },
+  {
+    "name": "NVIDIA",
+    "description": "US semiconductor company; leading designer of GPUs and AI computing hardware.",
+    "aliases": [
+      "Nvidia Corporation",
+      "Nvidia Corp"
+    ],
+    "search_terms": [
+      "Nvidia",
+      "Nvidia GPU",
+      "Nvidia AI chips"
+    ],
+    "website": "https://www.nvidia.com/",
+    "domain": "nvidia.com",
+    "newsroom_urls": [
+      "https://nvidianews.nvidia.com/"
+    ],
+    "industry": "Semiconductors and AI computing hardware",
+    "industry_terms": [
+      "AI chip market",
+      "GPU market",
+      "semiconductor industry",
+      "data center AI hardware"
+    ],
+    "exclude_terms": [],
+    "rss_feeds": [],
+    "sector_rss_feeds": []
   }
 ]
