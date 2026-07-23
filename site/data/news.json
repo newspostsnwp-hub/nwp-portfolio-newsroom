@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:07:29.271075+00:00",
+  "generated_at": "2026-07-23T14:30:52.146269+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -491,13 +491,13 @@
     "companies_with_sector_news": 6,
     "sector_topups": 0,
     "providers_succeeded": 42,
-    "queued_candidates": 78,
-    "llm_requests_attempted": 21,
-    "llm_requests_succeeded": 21,
+    "queued_candidates": 75,
+    "llm_requests_attempted": 20,
+    "llm_requests_succeeded": 20,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 28,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 27,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 0
   }
 }
