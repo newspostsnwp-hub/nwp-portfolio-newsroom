@@ -144,9 +144,9 @@ def sort_key(story: dict[str, Any]) -> tuple[int, float]:
     return (int(story.get("score", 0)), parsed.timestamp() if parsed else 0.0)
 
 
-def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, int, bool]:
+def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, int, bool, str]:
     """Return ([(company, stories, sector_items)], generated_at, story_total,
-    sector_total, sector_only).
+    sector_total, sector_only, digest_intro).
 
     Normally only companies with at least one story appear, with their sector
     items riding along beneath. When no portfolio stories are in scope, the
@@ -158,6 +158,7 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
     data = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
     register_roster([str(c.get("name", "")) for c in data.get("companies", [])])
     generated_at = str(data.get("generated_at", ""))
+    digest_intro = str(data.get("digest_intro", "") or "").strip()
     today = day_key(generated_at)
 
     all_stories = [s for s in data.get("stories", []) if isinstance(s, dict) and s.get("title")]
@@ -198,10 +199,13 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
         blocks.append((company, company_stories, company_sector))
         story_total += len(company_stories)
         sector_total += len(company_sector)
-    return blocks, generated_at, story_total, sector_total, sector_only
+    return blocks, generated_at, story_total, sector_total, sector_only, digest_intro
 
 
-def build_intro(blocks, story_total: int, sector_total: int, sector_only: bool) -> str:
+def build_intro(blocks, story_total: int, sector_total: int, sector_only: bool,
+                digest_intro: str = "") -> str:
+    if digest_intro:
+        return escape(digest_intro)
     if not blocks:
         return ("Good morning. Nothing cleared the filters on either the portfolio or its "
                 "sectors this morning, so today&rsquo;s edition is a quiet one.")
@@ -223,6 +227,33 @@ def build_intro(blocks, story_total: int, sector_total: int, sector_only: bool) 
     return intro
 
 
+def build_intro_plain(blocks, story_total: int, sector_total: int, sector_only: bool,
+                      digest_intro: str = "") -> str:
+    """Plain-text mirror of build_intro(), so the HTML and text MIME parts say
+    the same thing (a mismatch between the two is itself a mild spam signal)."""
+    if digest_intro:
+        return digest_intro
+    if not blocks:
+        return ("Good morning. Nothing cleared the filters on either the portfolio or its "
+                "sectors this morning, so today's edition is a quiet one.")
+    names = ", ".join(name for name, _, _ in blocks)
+    company_word = "company" if len(blocks) == 1 else "companies"
+    if sector_only:
+        item_word = "item" if sector_total == 1 else "items"
+        return (f"Good morning. No new portfolio coverage today, so this edition runs as a "
+                f"sector round-up - {sector_total} {item_word} from the industries of "
+                f"{len(blocks)} portfolio {company_word}: {names}.")
+    lead = max((s for _, stories, _ in blocks for s in stories),
+               key=lambda s: int(s.get("score", 0)), default=None)
+    word = "story" if story_total == 1 else "stories"
+    intro = (f"Good morning. Today's briefing carries {story_total} new {word} "
+             f"across {len(blocks)} portfolio {company_word} - {names}.")
+    if lead:
+        intro += (f" Leading the edition: {str(lead.get('company',''))}, "
+                  f"'{str(lead.get('title',''))}'.")
+    return intro
+
+
 def render_story(story: dict[str, Any], first: bool) -> str:
     ready = story.get("status") == "ready"
     colour = READY if ready else REVIEW
@@ -231,7 +262,7 @@ def render_story(story: dict[str, Any], first: bool) -> str:
     divider = "" if first else f"border-top:1px solid {HAIR};"
     return f"""
     <tr><td style="padding:16px 22px;{divider}">
-      <a href="{url}" style="font-family:{SERIF};font-size:18px;font-weight:bold;
+      <a href="{url}" class="hl" style="font-family:{SERIF};font-size:18px;font-weight:bold;
          line-height:1.3;color:{INK};text-decoration:none;">{escape(str(story.get('title','')))}</a>
       <div style="font-family:{SANS};font-size:15px;color:{BODY};line-height:1.55;
                   margin-top:6px;">{escape(str(story.get('summary','')))}</div>
@@ -255,7 +286,7 @@ def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True
         angle = escape(str(item.get("angle", "")))
         rows.append(f"""
         <tr><td style="padding:9px 22px;">
-          <a href="{url}" style="font-family:{SANS};font-size:15px;font-weight:bold;
+          <a href="{url}" class="hl" style="font-family:{SANS};font-size:15px;font-weight:bold;
              color:{INK};text-decoration:none;line-height:1.35;">{escape(str(item.get('title','')))}</a>
           <div style="font-family:{SANS};font-size:13.5px;color:{BODY};line-height:1.5;
                       margin-top:4px;">{escape(str(item.get('summary','')))}</div>
@@ -266,8 +297,7 @@ def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True
         </td></tr>""")
     return f"""
     <tr><td style="padding:12px 22px 6px 22px;background:{HAIR};{'border-top:1px solid ' + RULE + ';' if divider else ''}">
-      <span style="font-family:{SANS};font-size:11.5px;font-weight:bold;letter-spacing:1.2px;
-                   text-transform:uppercase;color:{accent};">Sector &mdash; {industry}</span>
+      <span style="font-family:{SANS};font-size:11.5px;font-weight:bold;color:{accent};">Sector &mdash; {industry}</span>
     </td></tr>
     <tr><td style="padding:0;background:{HAIR};"><table role="presentation" width="100%"
         cellpadding="0" cellspacing="0">{''.join(rows)}</table></td></tr>"""
@@ -300,7 +330,7 @@ def render_block(company: str, stories: list[dict], sector: list[dict], accent: 
 
 
 def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
-               sector_only: bool) -> str:
+               sector_only: bool, digest_intro: str = "") -> str:
     when = format_date(generated_at)
     dash = escape(DASHBOARD_URL, quote=True)
     cards = "".join(render_block(name, stories, sector, accent_for(name))
@@ -319,7 +349,9 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
 
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>a.hl:hover{{color:{BLUE} !important;text-decoration:underline !important;}}</style>
+</head>
 <body style="margin:0;padding:0;background:{PAGE_BG};">
   <div style="display:none;max-height:0;overflow:hidden;opacity:0;font-size:1px;
        line-height:1px;color:{PAGE_BG};">{escape(preheader)}</div>
@@ -331,8 +363,7 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
 
         <tr><td style="background:{NAVY};padding:9px 22px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-            <td style="font-family:{SANS};font-size:11px;font-weight:bold;color:#c7d3e6;
-                       letter-spacing:1px;">PORTFOLIO NEWSROOM</td>
+            <td style="font-family:{SANS};font-size:11px;font-weight:bold;color:#c7d3e6;">Portfolio Newsroom</td>
             <td align="right" style="font-family:{SANS};font-size:11px;color:#c7d3e6;">{when}</td>
           </tr></table>
         </td></tr>
@@ -357,7 +388,7 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        padding:14px 26px 4px 26px;">
           <div style="font-family:{SANS};font-size:15px;font-weight:bold;color:{INK};
-               line-height:1.5;">{build_intro(blocks, story_total, sector_total, sector_only)}</div>
+               line-height:1.5;">{build_intro(blocks, story_total, sector_total, sector_only, digest_intro)}</div>
         </td></tr>
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        border-bottom:1px solid {RULE};padding:16px 26px 22px 26px;">
@@ -392,7 +423,7 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
 
 
 def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
-               sector_only: bool) -> str:
+               sector_only: bool, digest_intro: str = "") -> str:
     if sector_only:
         headline = (f"{format_date(generated_at)}  |  no new portfolio coverage  |  "
                     f"{sector_total} sector items across {len(blocks)} companies")
@@ -401,7 +432,9 @@ def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
                     f"across {len(blocks)} companies")
     lines = ["NEXT WAVE PARTNERS",
              "SECTOR BRIEFING" if sector_only else "PORTFOLIO BRIEFING",
-             headline, "", f"Dashboard: {DASHBOARD_URL}", "", "-" * 60]
+             headline, "",
+             build_intro_plain(blocks, story_total, sector_total, sector_only, digest_intro),
+             "", f"Dashboard: {DASHBOARD_URL}", "", "-" * 60]
     for company, stories, sector in blocks:
         lines += ["", company.upper(), "-" * len(company)]
         for story in stories:
@@ -449,7 +482,7 @@ def main() -> None:
         print(f"No news file found at {NEWS_FILE}", file=sys.stderr)
         sys.exit(1)
 
-    blocks, generated_at, story_total, sector_total, sector_only = load_edition()
+    blocks, generated_at, story_total, sector_total, sector_only, digest_intro = load_edition()
     if not blocks and not SEND_IF_EMPTY:
         print("Nothing in scope today; skipping email.")
         return
@@ -457,8 +490,8 @@ def main() -> None:
     label = "sector briefing" if sector_only else "portfolio briefing"
     subject = f"Next Wave Partners {label} - {format_date(generated_at)}"
     send_email(subject,
-               build_html(blocks, generated_at, story_total, sector_total, sector_only),
-               build_text(blocks, generated_at, story_total, sector_total, sector_only))
+               build_html(blocks, generated_at, story_total, sector_total, sector_only, digest_intro),
+               build_text(blocks, generated_at, story_total, sector_total, sector_only, digest_intro))
     print(f"Sent {label}: {story_total} stories, {sector_total} sector items, "
           f"{len(blocks)} companies -> {', '.join(EMAIL_TO)}")
 

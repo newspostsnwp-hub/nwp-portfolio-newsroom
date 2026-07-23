@@ -1066,6 +1066,40 @@ def validate_sector_analysis(raw: dict[str, Any]) -> dict[str, Any]:
             "summary": clean_text(raw.get("summary")), "angle": clean_text(raw.get("angle"))}
 
 
+def build_digest_intro_prompt(companies: list[str], story_total: int, sector_total: int,
+                              sector_only: bool, lead: dict[str, Any] | None) -> str:
+    lead_line = (f"Lead story: '{lead.get('title', '')}' ({lead.get('company', '')})"
+                if lead else "Lead story: [NONE]")
+    return f"""
+You are writing the one-line "Good morning" intro for an internal email briefing sent to the
+managing partners of Next Wave Partners, a UK investment firm. It sits above a list of today's
+portfolio and sector news in the email.
+
+Use ONLY the facts below. Do not invent any company, figure, or detail not given here.
+
+Portfolio companies in today's edition: {", ".join(companies) if companies else "[NONE]"}
+Number of portfolio stories today: {story_total}
+Number of sector items today: {sector_total}
+Sector-only edition (no portfolio stories today): {sector_only}
+{lead_line}
+
+Write 1-3 sentences, warm and personable in tone like a colleague's morning summary, but still
+professional and understated - not chatty or gimmicky. At most one exclamation mark, and only if
+it reads naturally. No ALL-CAPS words. Avoid anything that reads like marketing or spam copy
+(no "act now", no "don't miss", no dollar signs, no excessive punctuation).
+
+Return exactly one JSON object: {{"intro": ""}}
+Output valid JSON only.
+""".strip()
+
+
+def generate_digest_intro(companies: list[str], story_total: int, sector_total: int,
+                          sector_only: bool, lead: dict[str, Any] | None) -> str:
+    raw = call_gemini(build_digest_intro_prompt(companies, story_total, sector_total,
+                                                sector_only, lead), "digest_intro")
+    return clean_text(raw.get("intro"))
+
+
 # ------------------------------------------------------------------ output
 
 def assemble_story(item: dict[str, Any], analysis: dict[str, Any], first_seen: str) -> dict[str, Any]:
@@ -1373,6 +1407,55 @@ def main() -> None:
     today = now.date().isoformat()
     todays = [s for s in stories if str(s.get("first_seen", ""))[:10] == today]
 
+    # Digest intro - mirror send_digest.py's load_edition() "today" scope and
+    # per-company caps (same env vars/defaults) so the Gemini intro only ever
+    # references what the email will actually show.
+    digest_max = max(1, int(os.getenv("DIGEST_MAX", "4")))
+    digest_sector_max = max(0, int(os.getenv("DIGEST_SECTOR_MAX", "3")))
+    digest_sector_fallback_max = max(1, int(os.getenv("DIGEST_SECTOR_FALLBACK_MAX", "4")))
+
+    def _digest_group(items: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+        grouped: dict[str, list[dict[str, Any]]] = {}
+        for item in items:
+            if str(item.get("first_seen", ""))[:10] == today:
+                grouped.setdefault(str(item.get("company", "")), []).append(item)
+        return grouped
+
+    digest_stories_by_company = _digest_group(stories)
+    digest_sector_by_company = _digest_group(sector_final)
+    digest_sector_only = not digest_stories_by_company and bool(digest_sector_by_company)
+    digest_sector_cap = digest_sector_fallback_max if digest_sector_only else digest_sector_max
+    digest_names = sorted(digest_stories_by_company) if digest_stories_by_company \
+        else sorted(digest_sector_by_company)
+
+    digest_companies: list[str] = []
+    digest_story_total = digest_sector_total = 0
+    digest_lead: dict[str, Any] | None = None
+    for name in digest_names:
+        company_stories = sorted(digest_stories_by_company.get(name, []),
+                                 key=lambda s: int(s.get("score", 0)), reverse=True)[:digest_max]
+        company_sector = sorted(digest_sector_by_company.get(name, []),
+                                key=lambda s: int(s.get("score", 0)),
+                                reverse=True)[:digest_sector_cap]
+        if not company_stories and not company_sector:
+            continue
+        digest_companies.append(name)
+        digest_story_total += len(company_stories)
+        digest_sector_total += len(company_sector)
+        for story in company_stories:
+            if digest_lead is None or int(story.get("score", 0)) > int(digest_lead.get("score", 0)):
+                digest_lead = story
+
+    digest_intro = ""
+    if digest_companies:
+        try:
+            digest_intro = generate_digest_intro(digest_companies, digest_story_total,
+                                                  digest_sector_total, digest_sector_only,
+                                                  digest_lead)
+        except Exception as exc:
+            LOGGER.warning("Digest intro generation failed: %s", exc)
+            digest_intro = ""
+
     # Directory the dashboard uses for company/industry search links.
     directory = []
     for company in companies:
@@ -1391,6 +1474,7 @@ def main() -> None:
 
     payload = {
         "generated_at": now_iso,
+        "digest_intro": digest_intro,
         "companies": directory,
         "lookback_days": LOOKBACK_DAYS,
         "sector_lookback_days": SECTOR_LOOKBACK_DAYS,
