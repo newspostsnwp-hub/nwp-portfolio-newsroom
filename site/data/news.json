@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:55:34.862746+00:00",
+  "generated_at": "2026-07-23T11:19:22.329260+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -247,17 +247,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "502d7bc512614988",
+      "id": "02cf109e22d75e2f",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
       "title": "Royal Mail told changes to notifications will exclude some",
-      "url": "https://www.theboltonnews.co.uk/news/26402357.royal-mail-told-changes-notifications-will-exclude/",
-      "source": "theboltonnews.co.uk",
-      "published_at": "2026-07-23T08:45:00+00:00",
-      "first_seen": "2026-07-23T09:39:13.183770+00:00",
+      "url": "https://www.andoveradvertiser.co.uk/news/26403006.royal-mail-told-changes-notifications-will-exclude/",
+      "source": "andoveradvertiser.co.uk",
+      "published_at": "2026-07-23T11:00:00+00:00",
+      "first_seen": "2026-07-23T11:19:22.329260+00:00",
       "score": 65,
-      "summary": "Royal Mail has introduced new 'something for you' delivery cards featuring QR codes, prompting public criticism regarding digital exclusion and potential security risks from counterfeit cards.",
-      "angle": "Highlights industry-wide challenges in balancing digital transformation with accessibility and security concerns in last-mile delivery.",
+      "summary": "Royal Mail has introduced new 'something for you' delivery cards featuring QR codes, prompting public debate regarding digital accessibility and potential security risks from fraudulent cards.",
+      "angle": "Highlights industry-wide challenges in balancing digital transformation with accessibility and security concerns in last-mile delivery operations.",
       "discovered_via": "GDELT"
     },
     {
@@ -490,14 +490,14 @@
     "companies_with_stories": 0,
     "companies_with_sector_news": 6,
     "sector_topups": 0,
-    "providers_succeeded": 40,
-    "queued_candidates": 75,
-    "llm_requests_attempted": 12,
-    "llm_requests_succeeded": 12,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 35,
+    "providers_succeeded": 43,
+    "queued_candidates": 78,
+    "llm_requests_attempted": 22,
+    "llm_requests_succeeded": 22,
+    "dropped_no_valid_date": 27,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 0
   }
 }
