@@ -1,25 +1,27 @@
 name: Refresh portfolio news
+run-name: Refresh portfolio news (${{ inputs.run_slot || 'manual' }})
 
 on:
   workflow_dispatch:
+    inputs:
+      run_slot:
+        description: Which scheduled slot triggered this run
+        required: false
+        default: manual
+        type: choice
+        options:
+          - manual
+          - morning
+          - afternoon
+      send_digest:
+        description: Send the email digest after updating news
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
-  # GitHub Actions cron runs in UTC only (a "timezone" key is not supported
-  # and makes the workflow file invalid). These two runs land at roughly
-  # 07:15 and 18:15 in Europe/London during BST, and 06:15 / 17:15 in GMT.
-  schedule:
-    - cron: "15 6 * * *"
-    - cron: "15 17 * * *"
-    - cron: "10 10 * * *"
-    - cron: "30 10 * * *"
-    - cron: "10 11 * * *"
-    - cron: "30 11 * * *"
-    - cron: "15 12 * * *"
-    - cron: "45 12 * * *"
-    - cron: "15 1 * * *"
-    - cron: "45 2 * * *"
-    - cron: "45 3 * * *"
-    - cron: "45 4 * * *"
-    
 concurrency:
   group: portfolio-news-refresh
   cancel-in-progress: false
@@ -107,7 +109,7 @@ jobs:
           PY
 
       - name: Email the morning digest
-        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        if: github.event.inputs.send_digest == 'true'
         env:
           SMTP_HOST: smtp.gmail.com
           SMTP_PORT: "587"
@@ -120,10 +122,6 @@ jobs:
           SHOW_EMPTY_COMPANIES: "true"
         shell: bash
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%H)" -ge 12 ]; then
-            echo "Evening refresh - skipping the digest email."
-            exit 0
-          fi
           python scripts/send_digest.py
 
       - name: Commit refreshed news data
