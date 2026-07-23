@@ -350,7 +350,10 @@
       "assisted reproduction policy"
     ],
     "exclude_terms": [],
-    "rss_feeds": []
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.bionews.org.uk/feed"
+    ]
   },
   {
     "name": "Roof-Maker",

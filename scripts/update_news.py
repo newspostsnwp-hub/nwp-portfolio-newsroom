@@ -70,7 +70,6 @@ USER_AGENT = (
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 LOOKBACK_DAYS = max(1, int(os.getenv("LOOKBACK_DAYS", "7")))
 SECTOR_LOOKBACK_DAYS = max(1, int(os.getenv("SECTOR_LOOKBACK_DAYS", "10")))
-MAX_PER_COMPANY = max(1, int(os.getenv("MAX_PER_COMPANY", "4")))
 ANALYZE_PER_COMPANY = max(1, int(os.getenv("ANALYZE_PER_COMPANY", "6")))
 MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("MAX_SECTOR_PER_COMPANY", "4")))
 ANALYZE_SECTOR_PER_COMPANY = max(0, int(os.getenv("ANALYZE_SECTOR_PER_COMPANY", "10")))

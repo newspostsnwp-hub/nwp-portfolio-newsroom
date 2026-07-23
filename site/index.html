@@ -115,6 +115,17 @@
   .srch:hover{border-color:var(--blue);color:var(--blue-lt);text-decoration:none;
               background:rgba(47,111,208,.1);}
 
+  /* ---------------- coverage pulse ---------------- */
+  .pulse{padding:11px 18px;background:var(--panel-2);border-bottom:1px solid var(--line);
+         display:flex;flex-direction:column;gap:6px;}
+  .pulse-title{color:var(--faint);font-size:10px;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:2px;}
+  .pulse-row{display:flex;align-items:center;gap:10px;}
+  .pulse-name{width:150px;flex:0 0 auto;color:var(--text-2);font-size:11px;text-transform:uppercase;
+              letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .pulse-track{flex:1;background:var(--panel-3);height:8px;}
+  .pulse-bar{background:var(--blue);height:100%;}
+  .pulse-count{width:20px;flex:0 0 auto;text-align:right;color:var(--blue-pale);font-size:11px;font-weight:600;}
+
   /* ---------------- story rows ---------------- */
   .story{border-bottom:1px solid var(--line-soft);padding:15px 18px;}
   .story:hover{background:#0a1120;}
@@ -216,6 +227,29 @@
               text-transform:uppercase;margin-bottom:5px;}
   .dgroup .gs{display:flex;gap:6px;flex-wrap:wrap;}
 
+  /* ---------------- manage companies ---------------- */
+  .manage{padding:18px;display:flex;flex-direction:column;gap:16px;}
+  .mform{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--blue);padding:16px;}
+  .mform h3{margin:0 0 12px;font-size:11px;color:var(--faint);letter-spacing:1.4px;text-transform:uppercase;}
+  .mform-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:12px;}
+  .mform-full{grid-column:1/-1;}
+  .mform input{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
+               padding:8px 10px;font-family:inherit;font-size:12.5px;width:100%;}
+  .mform input:focus{outline:0;border-color:var(--blue);}
+  .mform input::placeholder{color:var(--faint);}
+  .mmsg{font-size:11.5px;margin-top:10px;min-height:14px;}
+  .mmsg.ok{color:var(--green);}
+  .mmsg.err{color:var(--red);}
+  .mlist{background:var(--panel);border:1px solid var(--line);}
+  .mrow{display:flex;align-items:center;justify-content:space-between;gap:12px;
+        padding:11px 16px;border-bottom:1px solid var(--line-soft);}
+  .mrow:last-child{border-bottom:0;}
+  .mrow .mname{color:var(--text);font-size:13px;}
+  .mrow .mind{color:var(--faint);font-size:10.5px;letter-spacing:.6px;text-transform:uppercase;margin-left:10px;}
+  .mremove{background:transparent;border:1px solid var(--line);color:var(--red);
+           width:26px;height:26px;line-height:1;font-size:15px;font-weight:700;flex:0 0 auto;}
+  .mremove:hover{background:var(--red);border-color:var(--red);color:#fff;}
+
   .foot{padding:16px 18px;color:var(--faint);font-size:10.5px;
         border-top:1px solid var(--line);letter-spacing:.5px;}
   @media (max-width:900px){
@@ -230,7 +264,7 @@
 
 <header class="masthead">
   <div class="masthead-row">
-    <div class="wordmark">Next Wave <span>Partners</span></div>
+    <h1 class="wordmark">Next Wave <span>Partners</span></h1>
     <div class="masthead-tag">Portfolio Newsroom</div>
     <div class="masthead-right">
       <div class="stat">COMPANY <b id="s-stories">--</b></div>
@@ -253,10 +287,13 @@
   <button data-view="linkedin"><span class="key">F3</span>LinkedIn Studio<span class="badge" id="b-li"></span></button>
   <button data-view="archive"><span class="key">F4</span>Archive<span class="badge" id="b-arch"></span></button>
   <button data-view="directory"><span class="key">F5</span>Directory</button>
+  <button data-view="companies"><span class="key">F6</span>Companies</button>
 </nav>
 
+<main>
 <section class="view on" id="view-newsroom">
   <div class="bar" id="news-filters"><span class="lbl">Company</span></div>
+  <div id="news-pulse"></div>
   <div id="news-body"></div>
 </section>
 
@@ -288,6 +325,25 @@
   <div class="dir" id="dir-body"></div>
 </section>
 
+<section class="view" id="view-companies">
+  <div class="bar"><span class="lbl">Manage tracked companies</span></div>
+  <div class="manage">
+    <div class="mform">
+      <h3>Add a company</h3>
+      <div class="mform-grid">
+        <input id="mc-name" placeholder="Name (required)">
+        <input id="mc-industry" placeholder="Industry">
+        <input id="mc-website" placeholder="Website">
+        <input id="mc-desc" class="mform-full" placeholder="Description">
+      </div>
+      <button class="btn primary" data-add-company>Add company</button>
+      <div class="mmsg" id="mc-msg"></div>
+    </div>
+    <div class="mlist" id="mc-list"></div>
+  </div>
+</section>
+</main>
+
 <div class="foot" id="foot"></div>
 
 <script>
@@ -300,6 +356,9 @@
   var liSelected = null;
   var liVariant = "concise";
   var carouselSeq = 0;
+  var currentView = "newsroom";
+  var REFRESH_MS = 5 * 60 * 1000;
+  var COMPANIES_API = "https://nwpnewsscheduler.newspostsnwp.workers.dev";
 
   function esc(v) {
     return String(v == null ? "" : v)
@@ -633,6 +692,68 @@
     }).join("");
   }
 
+  function renderCompanies() {
+    var list = DATA.companies || [];
+    var body = document.getElementById("mc-list");
+    if (!list.length) {
+      body.innerHTML = '<div class="empty"><b>No companies</b>Nothing tracked yet.</div>';
+      return;
+    }
+    body.innerHTML = list.map(function (c) {
+      return '<div class="mrow"><span><span class="mname">' + esc(c.name) +
+        '</span><span class="mind">' + esc(c.industry || "") + "</span></span>" +
+        '<button class="mremove" data-remove-company="' + esc(c.name) +
+        '" title="Remove ' + esc(c.name) + '">&minus;</button></div>';
+    }).join("");
+  }
+
+  function setCompanyMessage(text, ok) {
+    var el = document.getElementById("mc-msg");
+    el.textContent = text;
+    el.className = "mmsg " + (ok ? "ok" : "err");
+  }
+
+  function addCompany() {
+    var name = document.getElementById("mc-name").value.trim();
+    if (!name) { setCompanyMessage("Name is required.", false); return; }
+    var body = {
+      name: name,
+      industry: document.getElementById("mc-industry").value.trim(),
+      website: document.getElementById("mc-website").value.trim(),
+      description: document.getElementById("mc-desc").value.trim(),
+    };
+    setCompanyMessage("Adding…", true);
+    fetch(COMPANIES_API + "/companies/add", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    }).then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (!data.ok) { setCompanyMessage(data.error || "Could not add company.", false); return; }
+        document.getElementById("mc-name").value = "";
+        document.getElementById("mc-industry").value = "";
+        document.getElementById("mc-website").value = "";
+        document.getElementById("mc-desc").value = "";
+        setCompanyMessage(name + " added — appears in the Directory after the next scheduled refresh.", true);
+      })
+      .catch(function () { setCompanyMessage("Network error — could not reach the update service.", false); });
+  }
+
+  function removeCompany(name) {
+    if (!window.confirm("Remove " + name + " from tracked companies?")) { return; }
+    setCompanyMessage("Removing…", true);
+    fetch(COMPANIES_API + "/companies/remove", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: name }),
+    }).then(function (r) { return r.json(); })
+      .then(function (data) {
+        if (!data.ok) { setCompanyMessage(data.error || "Could not remove company.", false); return; }
+        setCompanyMessage(name + " removed — disappears after the next scheduled refresh.", true);
+      })
+      .catch(function () { setCompanyMessage("Network error — could not reach the update service.", false); });
+  }
+
   function buildFilters(barId, filterValue, onPick) {
     var names = [];
     (DATA.stories || []).forEach(function (s) {
@@ -673,6 +794,28 @@
       parts.length ? parts.join("") : "<span>NO STORIES IN THIS REFRESH</span>";
   }
 
+  function renderPulse() {
+    var el = document.getElementById("news-pulse");
+    if (!el) { return; }
+    var counts = {}, order = [];
+    (DATA.stories || []).filter(isToday).forEach(function (s) {
+      var k = s.company || "Unassigned";
+      if (!counts[k]) { counts[k] = 0; order.push(k); }
+      counts[k]++;
+    });
+    if (!order.length) { el.innerHTML = ""; return; }
+    order.sort(function (a, b) { return counts[b] - counts[a]; });
+    var max = counts[order[0]];
+    el.innerHTML = '<div class="pulse"><div class="pulse-title">Today&rsquo;s coverage pulse</div>' +
+      order.map(function (name) {
+        var pct = Math.round((counts[name] / max) * 100);
+        return '<div class="pulse-row"><span class="pulse-name">' + esc(name) +
+          '</span><span class="pulse-track"><span class="pulse-bar" style="width:' + pct +
+          '%;"></span></span><span class="pulse-count">' + counts[name] + "</span></div>";
+      }).join("") +
+    "</div>";
+  }
+
   function updateChrome() {
     var stories = DATA.stories || [];
     var live = stories.filter(isToday).length;
@@ -687,21 +830,24 @@
     document.getElementById("b-arch").textContent = "(" + (stories.length - live) + ")";
     document.getElementById("foot").textContent =
       "Internal briefing. Generated " + fmtDate(DATA.generated_at) + " " +
-      fmtTime(DATA.generated_at) + ". Review every draft before publishing.";
+      fmtTime(DATA.generated_at) + ". Refreshes automatically every 5 minutes. " +
+      "Review every draft before publishing.";
   }
 
   function show(view) {
+    currentView = view;
     Array.prototype.forEach.call(document.querySelectorAll(".view"), function (v) {
       if (v.id === "view-" + view) { v.classList.add("on"); } else { v.classList.remove("on"); }
     });
     Array.prototype.forEach.call(document.querySelectorAll(".nav button"), function (b) {
       b.setAttribute("aria-current", String(b.getAttribute("data-view") === view));
     });
-    if (view === "newsroom") { renderStoryView(true, newsFilter, "news-body"); }
+    if (view === "newsroom") { renderStoryView(true, newsFilter, "news-body"); renderPulse(); }
     if (view === "archive") { renderStoryView(false, archFilter, "arch-body"); }
     if (view === "sector") { renderSector(); }
     if (view === "linkedin") { renderLinkedIn(); }
     if (view === "directory") { renderDirectory(); }
+    if (view === "companies") { renderCompanies(); }
     syncCarousels();
   }
 
@@ -709,6 +855,10 @@
     var t = e.target;
     var navBtn = t.closest ? t.closest(".nav button") : null;
     if (navBtn) { show(navBtn.getAttribute("data-view")); return; }
+
+    if (t.hasAttribute && t.hasAttribute("data-add-company")) { addCompany(); return; }
+    var removeBtn = t.closest ? t.closest("[data-remove-company]") : null;
+    if (removeBtn) { removeCompany(removeBtn.getAttribute("data-remove-company")); return; }
 
     if (t.hasAttribute && t.hasAttribute("data-scroll")) {
       var rail = document.getElementById(t.getAttribute("data-scroll"));
@@ -742,7 +892,7 @@
 
   document.addEventListener("keydown", function (e) {
     if (e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) { return; }
-    var map = { F1: "newsroom", F2: "sector", F3: "linkedin", F4: "archive", F5: "directory" };
+    var map = { F1: "newsroom", F2: "sector", F3: "linkedin", F4: "archive", F5: "directory", F6: "companies" };
     if (map[e.key]) { e.preventDefault(); show(map[e.key]); }
   });
 
@@ -775,28 +925,35 @@
   tick();
   setInterval(tick, 1000);
 
-  fetch("data/news.json?t=" + Date.now())
-    .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
-    .then(function (data) {
-      DATA = data || DATA;
-      DATA.stories = DATA.stories || [];
-      DATA.sector_stories = DATA.sector_stories || [];
-      DATA.companies = DATA.companies || [];
-      updateChrome();
-      buildTicker();
-      buildFilters("news-filters", newsFilter, function (n) {
-        newsFilter = n; renderStoryView(true, n, "news-body"); syncCarousels();
+  function loadData(initial) {
+    return fetch("data/news.json?t=" + Date.now())
+      .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
+      .then(function (data) {
+        DATA = data || DATA;
+        DATA.stories = DATA.stories || [];
+        DATA.sector_stories = DATA.sector_stories || [];
+        DATA.companies = DATA.companies || [];
+        updateChrome();
+        buildTicker();
+        buildFilters("news-filters", newsFilter, function (n) {
+          newsFilter = n; renderStoryView(true, n, "news-body"); syncCarousels();
+        });
+        buildFilters("arch-filters", archFilter, function (n) {
+          archFilter = n; renderStoryView(false, n, "arch-body"); syncCarousels();
+        });
+        show(initial ? "newsroom" : currentView);
       });
-      buildFilters("arch-filters", archFilter, function (n) {
-        archFilter = n; renderStoryView(false, n, "arch-body"); syncCarousels();
-      });
-      show("newsroom");
-    })
-    .catch(function (err) {
-      document.getElementById("news-body").innerHTML =
-        '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
-        esc(err.message) + ").</div>";
-    });
+  }
+
+  loadData(true).catch(function (err) {
+    document.getElementById("news-body").innerHTML =
+      '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
+      esc(err.message) + ").</div>";
+  });
+
+  setInterval(function () {
+    loadData(false).catch(function () { /* keep showing last good data on a failed poll */ });
+  }, REFRESH_MS);
 }());
 </script>
 </body>
