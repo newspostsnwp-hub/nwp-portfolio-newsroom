@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:49:03.773314+00:00",
+  "generated_at": "2026-07-23T09:39:13.183770+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -46,7 +46,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 0,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -247,6 +247,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "502d7bc512614988",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail told changes to notifications will exclude some",
+      "url": "https://www.theboltonnews.co.uk/news/26402357.royal-mail-told-changes-notifications-will-exclude/",
+      "source": "theboltonnews.co.uk",
+      "published_at": "2026-07-23T08:45:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
+      "score": 65,
+      "summary": "Royal Mail has introduced new 'something for you' delivery cards featuring QR codes, prompting public criticism regarding digital exclusion and potential security risks from counterfeit cards.",
+      "angle": "Highlights industry-wide challenges in balancing digital transformation with accessibility and security concerns in last-mile delivery.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "d0872f9b25b0a35c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -261,17 +275,59 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "9b540e216a5d5606",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail postal delays in Worcester sees urgent meeting",
-      "url": "https://www.malverngazette.co.uk/news/26400484.royal-mail-postal-delays-worcester-sees-urgent-meeting/",
-      "source": "malverngazette.co.uk",
-      "published_at": "2026-07-22T17:00:00+00:00",
-      "first_seen": "2026-07-22T20:49:03.773314+00:00",
+      "id": "9d041ad076986305",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "The e - bike boom : Electric bicycles are giving riders new freedom while fueling safety concerns",
+      "url": "https://atholdailynews.com/2026/07/21/massachusetts-electric-bike-regulations/",
+      "source": "atholdailynews.com",
+      "published_at": "2026-07-21T17:30:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
+      "score": 75,
+      "summary": "Massachusetts is considering the 'Ride Safe Act' to establish statewide e-bike regulations based on speed, amid rising concerns over safety, battery-related fires, and increased injury rates.",
+      "angle": "Regulatory scrutiny and safety concerns regarding battery standards and speed limits are intensifying across key micromobility markets.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "74e8283595f7af63",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "AAA Launches E - Ride Safety Campaign as E - Bike , E - Scooter Use Grows",
+      "url": "https://klin.com/2026/07/21/aaa-launches-e-ride-safety-campaign-as-e-bike-e-scooter-use-grows/",
+      "source": "klin.com",
+      "published_at": "2026-07-21T16:30:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
       "score": 65,
-      "summary": "Worcester MP Tom Collins and local councillors have called an urgent meeting with Royal Mail to address significant, ongoing postal delays affecting residents and NHS communications.",
-      "angle": "Highlights service reliability issues at the incumbent operator, potentially driving demand for alternative private sector delivery solutions.",
+      "summary": "AAA has launched an E-Ride Safety campaign in response to rising injury rates and a lack of safety awareness regarding e-bikes and e-scooters.",
+      "angle": "Highlights growing regulatory and public safety scrutiny, which may influence future product standards and consumer safety expectations.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "62c7fde24e5505ae",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Orange County School Board to discuss e - bikes , AI policy",
+      "url": "https://mynews13.com/fl/orlando/news/2026/07/21/orange-county-school-board-to-discuss-e-bike-rules-ai-policy",
+      "source": "mynews13.com",
+      "published_at": "2026-07-21T14:30:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
+      "score": 65,
+      "summary": "The Orange County School Board is considering a policy to restrict e-bike usage on school campuses, including potential bans for students without a driver's license.",
+      "angle": "Highlights growing regulatory scrutiny and safety concerns regarding e-bike usage among younger demographics in public spaces.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "fa9ef740775000fd",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Lime dismantled a scooter before police could inspect it after a fatal Auckland crash , coroner finds",
+      "url": "https://newswire.co.nz/2026/07/lime-scooter-dismantled-before-police-inspection-coroner/",
+      "source": "newswire.co.nz",
+      "published_at": "2026-07-20T22:00:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
+      "score": 65,
+      "summary": "A New Zealand coroner has recommended that e-scooters involved in fatal crashes be preserved for police inspection after Lime dismantled a vehicle following a 2019 incident.",
+      "angle": "Regulatory scrutiny regarding post-accident evidence preservation and safety standards for shared micromobility fleets is increasing.",
       "discovered_via": "GDELT"
     },
     {
@@ -401,17 +457,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "715b02d5d50005b8",
+      "id": "0377020d689a16b8",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Supermicro AI Orders Remain Strong as AI GPU Platforms Generate Over 80 Percent of Revenue",
-      "url": "https://infotechlead.com/networking/supermicro-ai-orders-remain-strong-as-ai-gpu-platforms-generate-over-80-percent-of-revenue-97221",
-      "source": "infotechlead.com",
-      "published_at": "2026-07-22T15:00:00+00:00",
-      "first_seen": "2026-07-22T16:28:28.035117+00:00",
+      "title": "Jeen Technologies deepens footprint in defense sector",
+      "url": "http://www.jpost.com/defense-and-tech/article-903395",
+      "source": "jpost.com",
+      "published_at": "2026-07-23T08:15:00+00:00",
+      "first_seen": "2026-07-23T09:39:13.183770+00:00",
       "score": 85,
-      "summary": "Supermicro reported that AI GPU-based platforms generated over 80 percent of its third-quarter revenue, driven by strong demand from hyperscalers, cloud providers, and sovereign AI projects.",
-      "angle": "Validates sustained global demand for sovereign AI infrastructure and highlights the growing importance of integrated software management layers.",
+      "summary": "Jeen Technologies has secured significant defense contracts for its offline, agentic AI platform, positioning itself as a sovereign AI provider for Israel's intelligence and defense agencies.",
+      "angle": "Validates market demand for sovereign, air-gapped generative AI solutions within high-security defense and intelligence sectors.",
       "discovered_via": "GDELT"
     },
     {
@@ -432,16 +488,16 @@
   "run_summary": {
     "companies_checked": 11,
     "companies_with_stories": 0,
-    "companies_with_sector_news": 5,
+    "companies_with_sector_news": 6,
     "sector_topups": 0,
-    "providers_succeeded": 45,
-    "queued_candidates": 64,
-    "llm_requests_attempted": 21,
-    "llm_requests_succeeded": 21,
-    "dropped_no_valid_date": 15,
-    "dropped_thin_page": 28,
+    "providers_succeeded": 46,
+    "queued_candidates": 73,
+    "llm_requests_attempted": 31,
+    "llm_requests_succeeded": 31,
+    "dropped_no_valid_date": 25,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 14,
+    "skipped_recently_evaluated": 13,
     "carried_forward": 0
   }
 }
