@@ -1,25 +1,7 @@
 {
-  "generated_at": "2026-07-23T16:27:01.942903+00:00",
+  "generated_at": "2026-07-23T18:21:00.593690+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, with 32 items covering the broader market landscape.",
   "companies": [
-    {
-      "name": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "description": "TEMP TEST ENTRY - remove after checking search quality. US semiconductor company, leading maker of GPUs and AI computing hardware.",
-      "website": "https://www.nvidia.com/",
-      "newsroom_url": "https://nvidianews.nvidia.com/",
-      "story_count": 3,
-      "sector_count": 2,
-      "company_links": {
-        "google_news": "https://news.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&hl=en-GB&gl=GB&ceid=GB:en",
-        "google_web": "https://www.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&tbm=nws",
-        "bing_news": "https://www.bing.com/news/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22"
-      },
-      "industry_links": {
-        "google_news": "https://news.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&hl=en-GB&gl=GB&ceid=GB:en",
-        "google_web": "https://www.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&tbm=nws",
-        "bing_news": "https://www.bing.com/news/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22"
-      }
-    },
     {
       "name": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -233,132 +215,10 @@
   "lookback_days": 7,
   "sector_lookback_days": 10,
   "archive_days": 45,
-  "story_count": 3,
-  "todays_story_count": 3,
-  "stories": [
-    {
-      "id": "c35a5f2bd3495c4d",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Lunar Outpost Collaborates with NVIDIA to Deploy Edge AI Across Upcoming Moon Missions",
-      "url": "https://www.manilatimes.net/2026/07/23/tmt-newswire/globenewswire/lunar-outpost-collaborates-with-nvidia-to-deploy-edge-ai-across-upcoming-moon-missions/2390498",
-      "source": "manilatimes.net",
-      "published_at": "2026-07-23T15:30:00+00:00",
-      "first_seen": "2026-07-23T16:27:01.942903+00:00",
-      "score": 90,
-      "story_type": "Partnership",
-      "summary": "NVIDIA has entered a partnership with Lunar Outpost to integrate its Jetson platform and CUDA-X libraries into upcoming lunar missions, including the Lunar Voyage 2 (LV2) mission launching later this year.",
-      "why_it_matters": "This collaboration demonstrates the expansion of NVIDIA's edge AI computing capabilities into extreme, off-planet environments, supporting autonomous navigation and real-time data processing for NASA's Artemis-related lunar exploration.",
-      "verified_facts": [
-        "Lunar Outpost is using NVIDIA Jetson modules and CUDA-X libraries for lunar rovers.",
-        "The collaboration includes the upcoming Lunar Voyage 2 mission to explore Reiner Gamma.",
-        "Lunar Outpost is a member of the NVIDIA Inception Program.",
-        "The partnership supports future missions including LV3 and LV5, which aim to enable human-robot interaction."
-      ],
-      "warnings": [
-        "The source material is a press release from the company, which may contain promotional language regarding the 'industrialization of space'."
-      ],
-      "drafts": {
-        "concise": "NVIDIA is extending its edge AI capabilities to the lunar surface through a new collaboration with Lunar Outpost. By integrating the NVIDIA Jetson platform and CUDA-X libraries, Lunar Outpost aims to enhance autonomous navigation, terrain mapping, and data processing for its upcoming mission manifest. The partnership begins with the Lunar Voyage 2 mission, scheduled to launch later this year to explore Reiner Gamma. This deployment highlights the critical role of high-performance, energy-efficient computing in supporting complex scientific operations in extreme, off-planet environments. #NVIDIA #EdgeAI #SpaceTech",
-        "investor": "NVIDIA’s accelerated computing platform is set to play a pivotal role in the next era of space exploration. Through a strategic collaboration with Lunar Outpost, NVIDIA is deploying its Jetson modules and CUDA-X libraries to power autonomous systems on the Moon. With ten missions contracted before 2030, including support for NASA’s Artemis program, this partnership underscores the growing commercial demand for robust, space-qualified edge AI. By enabling real-time decision-making and data compression in constrained environments, NVIDIA continues to demonstrate the scalability and versatility of its hardware across high-growth, frontier industries. #NVIDIA #AI #SpaceEconomy",
-        "people": "We are pleased to see NVIDIA’s technology supporting the ambitious goals of the team at Lunar Outpost. By providing the onboard AI computing necessary for terrain mapping and autonomous navigation, NVIDIA is helping to facilitate the next generation of lunar exploration. This collaboration, which includes the upcoming Lunar Voyage 2 mission, showcases the impact of the NVIDIA Inception Program in supporting high-growth startups as they push the boundaries of what is possible in space infrastructure. It is a significant milestone for both teams as they work toward establishing a sustained human presence on the Moon. #NVIDIA #Innovation #SpaceExploration"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "124b7308bd296626",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Nvidia is sending GPUs to the Moon",
-      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/",
-      "source": "techcrunch.com",
-      "published_at": "2026-07-23T15:30:00+00:00",
-      "first_seen": "2026-07-23T16:27:01.942903+00:00",
-      "score": 85,
-      "story_type": "Partnership",
-      "summary": "Nvidia’s Jetson platform is being deployed by Lunar Outpost to power the lidar systems on their upcoming lunar rovers, marking a significant step in utilizing physical AI for space exploration.",
-      "why_it_matters": "The integration of Nvidia's edge computing hardware into extreme lunar environments demonstrates the scalability and robustness of their physical AI stack, moving beyond terrestrial data centers into autonomous space infrastructure.",
-      "verified_facts": [
-        "Lunar Outpost is using Nvidia Jetson chips to control lidar systems on its next moon rover.",
-        "Nvidia has also partnered with Firefly Aerospace to operate the Jetson platform on a satellite orbiting the moon.",
-        "The missions are intended to support NASA's goals for lunar exploration and the development of a sustainable robotic workforce."
-      ],
-      "warnings": [
-        "The source mentions potential launch timelines for 2028, but these are subject to external factors like rocket availability and NASA's broader mission schedules.",
-        "The article notes that the use of GPUs in the extreme radiation and temperature conditions of the moon is a significant technical challenge."
-      ],
-      "drafts": {
-        "concise": "Nvidia’s technology is reaching new frontiers. Lunar Outpost has announced that its next lunar rover will utilize the Nvidia Jetson platform to manage its lidar systems. This deployment aims to test the capabilities of physical AI in the extreme conditions of the lunar surface, supporting NASA’s broader objectives for lunar exploration. Additionally, Nvidia is collaborating with Firefly Aerospace to process imagery from a satellite orbiting the moon. These initiatives highlight the versatility of Nvidia’s edge computing hardware as it transitions from terrestrial applications to critical infrastructure in space. #Nvidia #SpaceTech #AI",
-        "investor": "The expansion of Nvidia’s Jetson platform into lunar exploration underscores the growing demand for robust, power-efficient edge computing in autonomous systems. By partnering with Lunar Outpost and Firefly Aerospace, Nvidia is positioning its hardware as a foundational component for the next generation of space infrastructure. As NASA continues to invest in private-sector partnerships to establish a sustainable human presence on the moon, the ability to process sensor data locally in extreme environments becomes a critical competitive advantage. This move demonstrates the scalability of Nvidia’s physical AI stack, extending its reach from industrial automation to the lunar surface. #Nvidia #EdgeComputing #SpaceEconomy",
-        "people": "Innovation often requires pushing technology into the most challenging environments imaginable. We are following with interest as Nvidia’s Jetson platform prepares for its deployment on the lunar surface. Through a partnership with Lunar Outpost, these chips will power the lidar systems on upcoming rovers, helping to navigate craters and map terrain. This work, alongside a separate collaboration with Firefly Aerospace for lunar satellite imagery, showcases the ingenuity of the engineering teams involved in adapting physical AI for space. It is a compelling example of how compact, high-performance computing is enabling the next phase of autonomous exploration. #Nvidia #Innovation #Robotics"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "69adc5c33907ec70",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "China Moonshot AI accessed banned Nvidia chips , U . S . official says",
-      "url": "https://www.cnbc.com/2026/07/23/moonshot-kimi-nvidia-ai-chips-export-ban.html",
-      "source": "cnbc.com",
-      "published_at": "2026-07-23T12:30:00+00:00",
-      "first_seen": "2026-07-23T16:27:01.942903+00:00",
-      "score": 65,
-      "story_type": "Regulatory/Compliance",
-      "summary": "A White House official has alleged that Chinese AI firm Moonshot accessed restricted Nvidia GB300 chips via servers located in Thailand to train its new K3 model.",
-      "why_it_matters": "The report highlights the ongoing challenges in enforcing U.S. export controls on high-performance semiconductors and the potential for regulatory tightening regarding remote cloud-based access to critical AI hardware.",
-      "verified_facts": [
-        "White House official Michael Kratsios alleged Moonshot AI accessed GB300-equipped servers in Thailand.",
-        "Nvidia's GB300 chips are currently subject to U.S. export restrictions to China.",
-        "The proposed Remote Access Security Act (RASA) aims to expand export controls to include remote cloud-based access."
-      ],
-      "warnings": [
-        "The claim that Moonshot AI accessed these chips is an allegation from a U.S. official and has not been independently verified or confirmed by Nvidia.",
-        "The report mentions potential IP theft via model distillation, which is a separate allegation from the hardware access claim."
-      ],
-      "drafts": {
-        "concise": "Recent reports from U.S. officials have raised questions regarding the enforcement of export controls on high-performance semiconductors. It is alleged that Chinese AI developer Moonshot accessed restricted Nvidia GB300 hardware via third-party servers in Thailand. As the global race for AI computing power intensifies, this situation underscores the complexities regulators face in monitoring the international distribution and remote usage of advanced AI infrastructure. We continue to monitor how these developments may influence future export compliance frameworks and the broader semiconductor landscape. #Nvidia #Semiconductors #AI",
-        "investor": "The evolving regulatory environment surrounding high-performance computing remains a critical factor for the semiconductor sector. Recent allegations concerning the use of Nvidia GB300 chips by international entities highlight the increasing focus on closing loopholes in export controls, including potential legislation like the Remote Access Security Act. For investors, these developments signal a period of heightened scrutiny regarding the global supply chain and the deployment of frontier AI hardware. Understanding the impact of these shifting trade policies is essential as the industry navigates the intersection of national security and technological innovation. #AI #TechPolicy #NextWavePartners",
-        "people": "The rapid advancement of AI models continues to drive significant demand for high-performance computing hardware. Recent discussions regarding the global distribution of Nvidia's advanced chips reflect the strategic importance of these components in the current AI landscape. As policymakers consider new measures to manage the accessibility of critical hardware, the focus remains on ensuring compliance with international trade standards. We are closely following these developments as they shape the future of the global AI ecosystem and the regulatory frameworks governing the industry. #AI #Innovation #TechNews"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    }
-  ],
+  "story_count": 0,
+  "todays_story_count": 0,
+  "stories": [],
   "sector_stories": [
-    {
-      "id": "32bce102f93fad9e",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "AMD (AMD.US) steadily competes for the AI chip market! After expanding cooperation with Microsoft, it has secured a multibillion-dollar deal with Anthropic. - Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZRDdHRThjTllaNktsTHQwSER6azY5N2hILURaSmh0R25XQVZiWTlyTFFUdGZvZ2pTWmQtd0tTVGJRMVBCM2xfcVlBVkVocWxUMzdybGNWMFo1X2lwSVdtNm9oUdIBY0FVX3lxTE1ZRDdHRThjTllaNktsTHQwSER6azY5N2hILURaSmh0R25XQVZiWTlyTFFUdGZvZ2pTWmQtd0tTVGJRMVBCM2xfcVlBVkVocWxUMzdybGNWMFo1X2lwSVdtNm9oUQ?oc=5",
-      "source": "Bitget",
-      "published_at": "2026-07-22T20:28:47+00:00",
-      "first_seen": "2026-07-23T16:27:01.942903+00:00",
-      "score": 95,
-      "summary": "AMD has secured a multibillion-dollar deal with Anthropic following an expansion of its existing cooperation with Microsoft.",
-      "angle": "Highlights intensifying competition in the AI hardware market as major cloud and AI firms diversify their chip suppliers.",
-      "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "3c6978ed597a5787",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Jensen Huang: Taiwan Saved the U.S. Semiconductor Industry, Washington Doesn't Need to Point a Gun at Taiwan - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xaGZHbHZRNGZxYlBhc0V1TE5HYXg5UDVsenVtZ1ZFMW5VQ1ozMnppWjUzTzNNdjlmcXBDV05BeThVYlYzbThCYUZlZGFqWFlZWDVuTVViQ09vVGQyUDd3RU1tLWhNVlE4T01pRmhPUV9TMnBRbnc?oc=5",
-      "source": "finance.biggo.com",
-      "published_at": "2026-07-22T14:55:00+00:00",
-      "first_seen": "2026-07-23T16:27:01.942903+00:00",
-      "score": 85,
-      "summary": "NVIDIA CEO Jensen Huang stated that Taiwan has been instrumental in supporting the U.S. semiconductor industry and cautioned against aggressive political posturing toward the region.",
-      "angle": "Geopolitical tensions and supply chain dependencies remain critical risks for global semiconductor manufacturing and hardware distribution.",
-      "discovered_via": "Google News RSS"
-    },
     {
       "id": "c4a59149f9f127af",
       "company": "The Delivery Group",
@@ -921,18 +781,18 @@
     }
   ],
   "run_summary": {
-    "companies_checked": 12,
-    "companies_with_stories": 1,
-    "companies_with_sector_news": 11,
+    "companies_checked": 11,
+    "companies_with_stories": 0,
+    "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 65,
-    "queued_candidates": 130,
-    "llm_requests_attempted": 76,
-    "llm_requests_succeeded": 76,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 25,
+    "providers_succeeded": 49,
+    "queued_candidates": 95,
+    "llm_requests_attempted": 49,
+    "llm_requests_succeeded": 49,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 12,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 0
   }
 }
