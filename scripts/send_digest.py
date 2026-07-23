@@ -10,6 +10,9 @@ Structure:
 
 Nothing is padded. A company with no stories is omitted entirely, and the
 sector subheading only appears when there is sector news to show.
+
+The briefing goes out on every run. When no portfolio stories are in scope,
+the edition falls back to a sector-only round-up rather than being skipped.
 """
 
 from __future__ import annotations
@@ -39,9 +42,14 @@ DASHBOARD_URL = os.getenv(
 ).strip()
 MAX_PER_COMPANY = max(1, int(os.getenv("DIGEST_MAX", "4")))
 MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("DIGEST_SECTOR_MAX", "3")))
+# Sector items per company on a sector-only edition, where sector news is the
+# whole briefing rather than a subheading.
+MAX_SECTOR_FALLBACK = max(1, int(os.getenv("DIGEST_SECTOR_FALLBACK_MAX", "4")))
 # "today" = only stories first seen in this refresh; "all" = everything in file.
 EMAIL_SCOPE = os.getenv("EMAIL_SCOPE", "today").strip().lower()
-SEND_IF_EMPTY = os.getenv("SEND_IF_EMPTY", "false").strip().lower() in {"1", "true", "yes"}
+# The briefing now sends on every run. Set SEND_IF_EMPTY=false to restore the
+# old behaviour of skipping when there is genuinely nothing to carry.
+SEND_IF_EMPTY = os.getenv("SEND_IF_EMPTY", "true").strip().lower() not in {"0", "false", "no"}
 
 NAVY = "#0f2547"
 BLUE = "#2563c9"
@@ -96,57 +104,82 @@ def sort_key(story: dict[str, Any]) -> tuple[int, float]:
     return (int(story.get("score", 0)), parsed.timestamp() if parsed else 0.0)
 
 
-def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, int]:
-    """Return ([(company, stories, sector_items)], generated_at, story_total, sector_total).
+def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, int, bool]:
+    """Return ([(company, stories, sector_items)], generated_at, story_total,
+    sector_total, sector_only).
 
-    Only companies with at least one story appear. Sector items ride along
-    with their company.
+    Normally only companies with at least one story appear, with their sector
+    items riding along beneath. When no portfolio stories are in scope, the
+    edition falls back to a sector-only round-up: every company with sector
+    news gets a block, so the briefing still has something to carry. If the
+    day's scope is empty on both streams, the sector round-up widens to
+    whatever sector news the file still holds.
     """
     data = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
     generated_at = str(data.get("generated_at", ""))
     today = day_key(generated_at)
 
-    stories = [s for s in data.get("stories", []) if isinstance(s, dict) and s.get("title")]
-    sector = [s for s in data.get("sector_stories", []) if isinstance(s, dict) and s.get("title")]
+    all_stories = [s for s in data.get("stories", []) if isinstance(s, dict) and s.get("title")]
+    all_sector = [s for s in data.get("sector_stories", []) if isinstance(s, dict) and s.get("title")]
 
-    if EMAIL_SCOPE == "today":
-        stories = [s for s in stories
-                   if day_key(str(s.get("first_seen") or s.get("published_at", ""))) == today]
-        sector = [s for s in sector
-                  if day_key(str(s.get("first_seen") or s.get("published_at", ""))) == today]
+    def in_scope(items: list[dict]) -> list[dict]:
+        if EMAIL_SCOPE != "today":
+            return items
+        return [s for s in items
+                if day_key(str(s.get("first_seen") or s.get("published_at", ""))) == today]
 
-    grouped: dict[str, list[dict]] = {}
-    for story in stories:
-        grouped.setdefault(str(story.get("company", "")).strip(), []).append(story)
+    def by_company(items: list[dict]) -> dict[str, list[dict]]:
+        grouped: dict[str, list[dict]] = {}
+        for item in items:
+            grouped.setdefault(str(item.get("company", "")).strip(), []).append(item)
+        return grouped
 
-    sector_by_company: dict[str, list[dict]] = {}
-    for item in sector:
-        sector_by_company.setdefault(str(item.get("company", "")).strip(), []).append(item)
+    grouped = by_company(in_scope(all_stories))
+    sector_by_company = by_company(in_scope(all_sector))
+
+    sector_only = not grouped
+    if sector_only and not sector_by_company:
+        sector_by_company = by_company(all_sector)
+    sector_only = sector_only and bool(sector_by_company)
+
+    sector_cap = MAX_SECTOR_FALLBACK if sector_only else MAX_SECTOR_PER_COMPANY
+    names = sorted(grouped) if grouped else sorted(sector_by_company)
 
     blocks: list[tuple[str, list[dict], list[dict]]] = []
     story_total = sector_total = 0
-    for company in sorted(grouped):
-        company_stories = sorted(grouped[company], key=sort_key, reverse=True)[:MAX_PER_COMPANY]
-        company_sector = sorted(sector_by_company.get(company, []),
-                                key=sort_key, reverse=True)[:MAX_SECTOR_PER_COMPANY]
+    for company in names:
+        company_stories = sorted(grouped.get(company, []), key=sort_key,
+                                 reverse=True)[:MAX_PER_COMPANY]
+        company_sector = sorted(sector_by_company.get(company, []), key=sort_key,
+                                reverse=True)[:sector_cap]
+        if not company_stories and not company_sector:
+            continue
         blocks.append((company, company_stories, company_sector))
         story_total += len(company_stories)
         sector_total += len(company_sector)
-    return blocks, generated_at, story_total, sector_total
+    return blocks, generated_at, story_total, sector_total, sector_only
 
 
-def build_intro(blocks, story_total: int) -> str:
+def build_intro(blocks, story_total: int, sector_total: int, sector_only: bool) -> str:
     if not blocks:
-        return "Good morning. There is no new portfolio coverage in today&rsquo;s edition."
+        return ("Good morning. Nothing cleared the filters on either the portfolio or its "
+                "sectors this morning, so today&rsquo;s edition is a quiet one.")
     names = escape(", ".join(name for name, _, _ in blocks))
-    lead = max((s for _, stories, _ in blocks for s in stories),
-               key=lambda s: int(s.get("score", 0)))
-    word = "story" if story_total == 1 else "stories"
     company_word = "company" if len(blocks) == 1 else "companies"
-    return (f"Good morning. Today&rsquo;s briefing carries {story_total} new {word} "
-            f"across {len(blocks)} portfolio {company_word} &mdash; {names}. "
-            f"Leading the edition: {escape(str(lead.get('company','')))}, "
-            f"&lsquo;{escape(str(lead.get('title','')))}&rsquo;.")
+    if sector_only:
+        item_word = "item" if sector_total == 1 else "items"
+        return (f"Good morning. No new portfolio coverage today, so this edition runs as a "
+                f"sector round-up &mdash; {sector_total} {item_word} from the industries of "
+                f"{len(blocks)} portfolio {company_word}: {names}.")
+    lead = max((s for _, stories, _ in blocks for s in stories),
+               key=lambda s: int(s.get("score", 0)), default=None)
+    word = "story" if story_total == 1 else "stories"
+    intro = (f"Good morning. Today&rsquo;s briefing carries {story_total} new {word} "
+             f"across {len(blocks)} portfolio {company_word} &mdash; {names}.")
+    if lead:
+        intro += (f" Leading the edition: {escape(str(lead.get('company','')))}, "
+                  f"&lsquo;{escape(str(lead.get('title','')))}&rsquo;.")
+    return intro
 
 
 def render_story(story: dict[str, Any], first: bool) -> str:
@@ -171,7 +204,7 @@ def render_story(story: dict[str, Any], first: bool) -> str:
     </td></tr>"""
 
 
-def render_sector(items: list[dict[str, Any]], accent: str) -> str:
+def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True) -> str:
     if not items:
         return ""
     industry = escape(str(items[0].get("industry", "")) or "Sector")
@@ -191,7 +224,7 @@ def render_sector(items: list[dict[str, Any]], accent: str) -> str:
             {escape(format_date(str(item.get('published_at',''))))}</div>
         </td></tr>""")
     return f"""
-    <tr><td style="padding:12px 22px 6px 22px;background:{HAIR};border-top:1px solid {RULE};">
+    <tr><td style="padding:12px 22px 6px 22px;background:{HAIR};{'border-top:1px solid ' + RULE + ';' if divider else ''}">
       <span style="font-family:{SANS};font-size:10.5px;font-weight:bold;letter-spacing:1.2px;
                    text-transform:uppercase;color:{accent};">Sector &mdash; {industry}</span>
     </td></tr>
@@ -202,7 +235,10 @@ def render_sector(items: list[dict[str, Any]], accent: str) -> str:
 def render_block(company: str, stories: list[dict], sector: list[dict], accent: str) -> str:
     rows = "".join(render_story(s, i == 0) for i, s in enumerate(stories))
     count = len(stories)
-    tag = "1 story" if count == 1 else f"{count} stories"
+    if count:
+        tag = "1 story" if count == 1 else f"{count} stories"
+    else:
+        tag = "1 sector item" if len(sector) == 1 else f"{len(sector)} sector items"
     return f"""
     <tr><td style="padding:0 0 16px 0;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
@@ -216,18 +252,28 @@ def render_block(company: str, stories: list[dict], sector: list[dict], accent: 
           </tr></table>
         </td></tr>
         {rows}
-        {render_sector(sector, accent)}
+        {render_sector(sector, accent, bool(stories))}
       </table>
     </td></tr>"""
 
 
-def build_html(blocks, generated_at: str, story_total: int, sector_total: int) -> str:
+def build_html(blocks, generated_at: str, story_total: int, sector_total: int,
+               sector_only: bool) -> str:
     when = format_date(generated_at)
     dash = escape(DASHBOARD_URL, quote=True)
     cards = "".join(render_block(name, stories, sector, ACCENTS[i % len(ACCENTS)])
                     for i, (name, stories, sector) in enumerate(blocks))
-    preheader = f"Portfolio briefing for {when}: {story_total} stories across {len(blocks)} companies."
-    sector_note = (f" &nbsp;&middot;&nbsp; {sector_total} sector items" if sector_total else "")
+    masthead = "Sector Briefing" if sector_only else "Portfolio Briefing"
+    cta = "Open the dashboard &rarr;" if sector_only else "Open the dashboard for drafts &rarr;"
+    if sector_only:
+        preheader = (f"Sector briefing for {when}: no new portfolio coverage, "
+                     f"{sector_total} sector items across {len(blocks)} companies.")
+        counts = f"{sector_total} sector items &nbsp;&middot;&nbsp; {len(blocks)} companies"
+    else:
+        preheader = (f"Portfolio briefing for {when}: {story_total} stories "
+                     f"across {len(blocks)} companies.")
+        counts = (f"{story_total} stories &nbsp;&middot;&nbsp; {len(blocks)} companies"
+                  + (f" &nbsp;&middot;&nbsp; {sector_total} sector items" if sector_total else ""))
 
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -260,22 +306,21 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int) -
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        padding:16px 22px 6px 22px;" align="center">
           <div style="font-family:{SERIF};font-size:40px;color:{INK};line-height:1.05;">
-            Portfolio Briefing</div>
+            {masthead}</div>
           <div style="font-family:{SANS};font-size:10.5px;color:{MUTED};letter-spacing:1.5px;
-               text-transform:uppercase;margin-top:6px;">{story_total} stories
-               &nbsp;&middot;&nbsp; {len(blocks)} companies{sector_note}</div>
+               text-transform:uppercase;margin-top:6px;">{counts}</div>
         </td></tr>
 
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        padding:14px 26px 4px 26px;">
           <div style="font-family:{SANS};font-size:14px;font-weight:bold;color:{INK};
-               line-height:1.5;">{build_intro(blocks, story_total)}</div>
+               line-height:1.5;">{build_intro(blocks, story_total, sector_total, sector_only)}</div>
         </td></tr>
         <tr><td style="background:{CARD};border-left:1px solid {RULE};border-right:1px solid {RULE};
                        border-bottom:1px solid {RULE};padding:16px 26px 22px 26px;">
           <a href="{dash}" style="display:inline-block;background:{NAVY};color:#ffffff;
              text-decoration:none;font-family:{SANS};font-size:13px;font-weight:bold;
-             padding:11px 22px;">Open the dashboard for drafts &rarr;</a>
+             padding:11px 22px;">{cta}</a>
         </td></tr>
 
         <tr><td style="height:20px;line-height:20px;font-size:0;">&nbsp;</td></tr>
@@ -303,10 +348,17 @@ def build_html(blocks, generated_at: str, story_total: int, sector_total: int) -
 </body></html>"""
 
 
-def build_text(blocks, generated_at: str, story_total: int) -> str:
-    lines = ["NEXT WAVE PARTNERS", "PORTFOLIO BRIEFING",
-             f"{format_date(generated_at)}  |  {story_total} stories across {len(blocks)} companies",
-             "", f"Dashboard: {DASHBOARD_URL}", "", "-" * 60]
+def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
+               sector_only: bool) -> str:
+    if sector_only:
+        headline = (f"{format_date(generated_at)}  |  no new portfolio coverage  |  "
+                    f"{sector_total} sector items across {len(blocks)} companies")
+    else:
+        headline = (f"{format_date(generated_at)}  |  {story_total} stories "
+                    f"across {len(blocks)} companies")
+    lines = ["NEXT WAVE PARTNERS",
+             "SECTOR BRIEFING" if sector_only else "PORTFOLIO BRIEFING",
+             headline, "", f"Dashboard: {DASHBOARD_URL}", "", "-" * 60]
     for company, stories, sector in blocks:
         lines += ["", company.upper(), "-" * len(company)]
         for story in stories:
@@ -354,16 +406,17 @@ def main() -> None:
         print(f"No news file found at {NEWS_FILE}", file=sys.stderr)
         sys.exit(1)
 
-    blocks, generated_at, story_total, sector_total = load_edition()
-    if story_total == 0 and not SEND_IF_EMPTY:
-        print("No stories in scope today; skipping email.")
+    blocks, generated_at, story_total, sector_total, sector_only = load_edition()
+    if not blocks and not SEND_IF_EMPTY:
+        print("Nothing in scope today; skipping email.")
         return
 
-    subject = f"Next Wave Partners portfolio briefing - {format_date(generated_at)}"
+    label = "sector briefing" if sector_only else "portfolio briefing"
+    subject = f"Next Wave Partners {label} - {format_date(generated_at)}"
     send_email(subject,
-               build_html(blocks, generated_at, story_total, sector_total),
-               build_text(blocks, generated_at, story_total))
-    print(f"Sent briefing: {story_total} stories, {sector_total} sector items, "
+               build_html(blocks, generated_at, story_total, sector_total, sector_only),
+               build_text(blocks, generated_at, story_total, sector_total, sector_only))
+    print(f"Sent {label}: {story_total} stories, {sector_total} sector items, "
           f"{len(blocks)} companies -> {', '.join(EMAIL_TO)}")
 
 
