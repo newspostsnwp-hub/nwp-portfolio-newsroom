@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T18:21:00.593690+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, with 32 items covering the broader market landscape.",
+  "generated_at": "2026-07-23T22:01:29.385620+00:00",
+  "digest_intro": "Good morning, please find below our sector-focused briefing for today, which covers 32 items of interest across the market. There are no specific updates regarding our portfolio companies in this edition.",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -724,6 +724,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "86820621f55a1c8e",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Kier and Bam appointed to Crown Estate West End schemes",
+      "url": "https://www.constructionnews.co.uk/contractors/kier/kier-and-bam-appointed-to-crown-estate-west-end-schemes-23-07-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-07-23T15:58:11+00:00",
+      "first_seen": "2026-07-23T22:01:29.385620+00:00",
+      "score": 75,
+      "summary": "The Crown Estate has appointed Kier and BAM to deliver two major mixed-use redevelopment projects in London’s West End, focusing on high sustainability and environmental standards.",
+      "angle": "Highlights demand for high-specification commercial retrofits and stringent sustainability certifications in the London construction market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "03d0649ce3c4e274",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -764,20 +778,6 @@
       "summary": "Chris McDonald is expected to retain the construction minister brief within the newly formed Department for Business, Innovation, Science and Trade under Prime Minister Andy Burnham.",
       "angle": "Continuity in ministerial leadership provides stability for construction policy, regulatory frameworks, and long-term infrastructure investment planning.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1149da1850e6fab9",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Hochtief lands £250m Blackpool data centre",
-      "url": "https://www.constructionnews.co.uk/civils/hochtief-lands-250m-blackpool-data-centre-23-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-23T11:12:36+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
-      "score": 65,
-      "summary": "Hochtief has been selected as the preferred bidder for a £250m data centre campus project at the Blackpool Airport Enterprise Zone.",
-      "angle": "Highlights significant infrastructure investment and commercial construction opportunities in the UK, potentially driving demand for high-performance building products.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -785,14 +785,14 @@
     "companies_with_stories": 0,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 49,
-    "queued_candidates": 95,
-    "llm_requests_attempted": 49,
-    "llm_requests_succeeded": 49,
+    "providers_succeeded": 56,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 70,
+    "llm_requests_succeeded": 70,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 8,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 0
   }
 }
