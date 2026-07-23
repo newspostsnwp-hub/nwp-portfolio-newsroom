@@ -85,8 +85,25 @@ SERIF = "Georgia,'Times New Roman',serif"
 SANS = "Arial,Helvetica,sans-serif"
 
 
+_ACCENT_ORDER: dict[str, int] = {}
+
+
+def register_roster(names: list[str]) -> None:
+    """Fix each company's colour by its position in the portfolio roster, so
+    colours stay distinct (one per company up to the palette size) and stable
+    across editions rather than colliding under a hash."""
+    for name in names:
+        key = (name or "").strip().casefold()
+        if key and key not in _ACCENT_ORDER:
+            _ACCENT_ORDER[key] = len(_ACCENT_ORDER)
+
+
 def accent_for(company: str) -> str:
-    digest = hashlib.md5(company.strip().lower().encode("utf-8")).hexdigest()
+    key = company.strip().casefold()
+    if key in _ACCENT_ORDER:
+        return ACCENTS[_ACCENT_ORDER[key] % len(ACCENTS)]
+    # Fallback for a name absent from the roster: deterministic by name.
+    digest = hashlib.md5(key.encode("utf-8")).hexdigest()
     return ACCENTS[int(digest, 16) % len(ACCENTS)]
 
 
@@ -139,6 +156,7 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
     whatever sector news the file still holds.
     """
     data = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
+    register_roster([str(c.get("name", "")) for c in data.get("companies", [])])
     generated_at = str(data.get("generated_at", ""))
     today = day_key(generated_at)
 
