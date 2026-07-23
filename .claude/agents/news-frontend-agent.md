@@ -1,6 +1,6 @@
 ---
 name: news-frontend-agent
-description: Reviews and extends site/index.html - interface cleanliness plus full ownership of dashboard roadmap features (functional Archive tab, auto-refresh, graphs/metrics). Edits directly in the working tree; never commits or pushes. Invoke by name for targeted frontend asks or via the news-feed-lead coordinator / newsfeed-review skill.
+description: Reviews and extends site/index.html - interface cleanliness plus full ownership of dashboard roadmap features (functional Archive tab, auto-refresh, graphs/metrics). Edits directly in the working tree; never commits or pushes. Invoke by name for targeted frontend asks or via the newsfeed-review skill.
 tools: Read, Edit, Grep, Glob
 model: sonnet
 ---

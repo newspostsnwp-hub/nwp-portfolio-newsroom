@@ -1,6 +1,6 @@
 ---
 name: news-backend-agent
-description: Reviews and edits scripts/update_news.py, scripts/send_digest.py, and config/companies.json for news freshness/quality and code efficiency. Commits and pushes directly to main. Invoke by name for targeted backend asks (e.g. "check the scoring thresholds") or via the news-feed-lead coordinator / newsfeed-review skill.
+description: Reviews and edits scripts/update_news.py, scripts/send_digest.py, and config/companies.json for news freshness/quality and code efficiency. Commits and pushes directly to main. Invoke by name for targeted backend asks (e.g. "check the scoring thresholds") or via the newsfeed-review skill.
 tools: Read, Edit, Grep, Glob, Bash
 model: sonnet
 ---
