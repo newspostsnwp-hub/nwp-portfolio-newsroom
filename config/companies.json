@@ -388,29 +388,62 @@
     ]
   },
   {
-    "name": "NVIDIA",
-    "description": "US semiconductor company; leading designer of GPUs and AI computing hardware.",
+    "name": "Future Maintenance Technologies",
+    "description": "AI-powered autonomous inspection robots for the rail and aviation industries (products include the ARIIS rail-infrastructure robot and TRES train-examination robot).",
     "aliases": [
-      "Nvidia Corporation",
-      "Nvidia Corp"
+      "FMT Robotics",
+      "thinkFMT",
+      "Future Maintenance Technologies (FMT)"
     ],
     "search_terms": [
-      "Nvidia",
-      "Nvidia GPU",
-      "Nvidia AI chips"
+      "Future Maintenance Technologies",
+      "FMT Robotics",
+      "ARIIS rail inspection robot",
+      "TRES train inspection robot"
     ],
-    "website": "https://www.nvidia.com/",
-    "domain": "nvidia.com",
+    "website": "https://www.thinkfmt.com/",
+    "domain": "thinkfmt.com",
     "newsroom_urls": [
-      "https://nvidianews.nvidia.com/"
+      "https://www.thinkfmt.com/showcase/news-press"
     ],
-    "industry": "Semiconductors and AI computing hardware",
+    "industry": "AI robotics for rail and aviation asset inspection",
     "industry_terms": [
-      "AI chip market",
-      "GPU market",
-      "semiconductor industry",
-      "data center AI hardware"
+      "autonomous rail inspection technology",
+      "railway asset maintenance robotics",
+      "aviation MRO robotics",
+      "rail infrastructure inspection AI"
     ],
+    "exclude_terms": [
+      "Free Malaysia Today",
+      "fecal microbiota transplant",
+      "FMT Italy",
+      "fmt.it",
+      "palletiser",
+      "palletising"
+    ],
+    "rss_feeds": [],
+    "sector_rss_feeds": [
+      "https://www.railwaygazette.com/rss",
+      "https://www.aviationtoday.com/feed/",
+      "https://www.roboticsbusinessreview.com/feed/"
+    ]
+  },
+  {
+    "name": "Next Wave Partners",
+    "description": "The investment firm behind this newsroom - a UK private equity firm investing in lower mid-market management buyouts and growth capital.",
+    "aliases": [
+      "Next Wave Partners LLP"
+    ],
+    "search_terms": [
+      "Next Wave Partners",
+      "Next Wave Partners private equity",
+      "Next Wave Partners UK"
+    ],
+    "website": "https://nextwavepartners.co.uk/",
+    "domain": "nextwavepartners.co.uk",
+    "newsroom_urls": [],
+    "industry": "UK private equity",
+    "industry_terms": [],
     "exclude_terms": [],
     "rss_feeds": [],
     "sector_rss_feeds": []

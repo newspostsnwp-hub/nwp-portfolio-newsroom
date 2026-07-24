@@ -88,6 +88,11 @@ ACCENTS = [
 SERIF = "Georgia,'Times New Roman',serif"
 SANS = "Arial,Helvetica,sans-serif"
 
+# The investment firm itself (tracked so genuine external coverage of NWP can
+# appear in the briefing) - not a portfolio company, so it's pinned first
+# rather than sorted alphabetically among them.
+FIRM_NAME = "Next Wave Partners"
+
 
 _ACCENT_ORDER: dict[str, int] = {}
 
@@ -200,6 +205,12 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
 
     sector_cap = MAX_SECTOR_FALLBACK if sector_only else MAX_SECTOR_PER_COMPANY
     names = sorted(grouped) if grouped else sorted(sector_by_company)
+    # Next Wave Partners is the firm itself, not a portfolio holding - pin it
+    # first whenever it has genuine news, rather than sorting alphabetically
+    # with everyone else. Never appears via the sector-only fallback (it's
+    # deliberately configured with no sector sourcing).
+    if FIRM_NAME in names:
+        names = [FIRM_NAME] + [n for n in names if n != FIRM_NAME]
 
     blocks: list[tuple[str, list[dict], list[dict]]] = []
     story_total = sector_total = 0
