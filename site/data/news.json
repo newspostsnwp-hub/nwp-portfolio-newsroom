@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-24T10:59:51.058171+00:00",
-  "digest_intro": "Good morning, partners. Today's briefing covers four updates on our portfolio, led by the recent developments regarding Nvidia, alongside three additional sector items.",
+  "generated_at": "2026-07-24T16:36:00.622878+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, as there are no specific developments to report from the portfolio companies.",
+  "last_digest_sent_at": "2026-07-24T16:36:00.622878+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -212,185 +213,46 @@
       }
     },
     {
-      "name": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "description": "US semiconductor company; leading designer of GPUs and AI computing hardware.",
-      "website": "https://www.nvidia.com/",
-      "newsroom_url": "https://nvidianews.nvidia.com/",
-      "story_count": 5,
+      "name": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "description": "AI-powered autonomous inspection robots for the rail and aviation industries (products include the ARIIS rail-infrastructure robot and TRES train-examination robot).",
+      "website": "https://www.thinkfmt.com/",
+      "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
-        "google_news": "https://news.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&hl=en-GB&gl=GB&ceid=GB:en",
-        "google_web": "https://www.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&tbm=nws",
-        "bing_news": "https://www.bing.com/news/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22"
+        "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22"
       },
       "industry_links": {
-        "google_news": "https://news.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&hl=en-GB&gl=GB&ceid=GB:en",
-        "google_web": "https://www.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&tbm=nws",
-        "bing_news": "https://www.bing.com/news/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22"
+        "google_news": "https://news.google.com/search?q=%22autonomous+rail+inspection+technology%22+OR+%22railway+asset+maintenance+robotics%22+OR+%22aviation+MRO+robotics%22+OR+%22rail+infrastructure+inspection+AI%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22autonomous+rail+inspection+technology%22+OR+%22railway+asset+maintenance+robotics%22+OR+%22aviation+MRO+robotics%22+OR+%22rail+infrastructure+inspection+AI%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22autonomous+rail+inspection+technology%22+OR+%22railway+asset+maintenance+robotics%22+OR+%22aviation+MRO+robotics%22+OR+%22rail+infrastructure+inspection+AI%22"
       }
+    },
+    {
+      "name": "Next Wave Partners",
+      "industry": "UK private equity",
+      "description": "The investment firm behind this newsroom - a UK private equity firm investing in lower mid-market management buyouts and growth capital.",
+      "website": "https://nextwavepartners.co.uk/",
+      "newsroom_url": "",
+      "story_count": 0,
+      "sector_count": 0,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Next+Wave+Partners%22+OR+%22Next+Wave+Partners+private+equity%22+OR+%22Next+Wave+Partners+UK%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Next+Wave+Partners%22+OR+%22Next+Wave+Partners+private+equity%22+OR+%22Next+Wave+Partners+UK%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Next+Wave+Partners%22+OR+%22Next+Wave+Partners+private+equity%22+OR+%22Next+Wave+Partners+UK%22"
+      },
+      "industry_links": {}
     }
   ],
   "lookback_days": 7,
   "sector_lookback_days": 10,
   "archive_days": 45,
-  "story_count": 5,
-  "todays_story_count": 5,
-  "stories": [
-    {
-      "id": "894e4314fe8fc17d",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Nvidia Partnership Gets Amkor Technology ( AMKR ) Stock Trending : Here What You Should Know - NVIDIA ( NAS",
-      "url": "https://www.benzinga.com/markets/equities/26/07/60659435/amkor-stock-nvidia-partnership-what-to-know",
-      "source": "benzinga.com",
-      "published_at": "2026-07-24T04:15:00+00:00",
-      "first_seen": "2026-07-24T06:42:35.652871+00:00",
-      "score": 85,
-      "story_type": "Partnership",
-      "summary": "NVIDIA has entered into a multi-year partnership with Amkor Technology to advance semiconductor packaging and test technologies for AI and accelerated computing platforms. NVIDIA will provide a prepayment to support the expansion of Amkor’s advanced packaging capacity in Arizona.",
-      "why_it_matters": "The collaboration highlights the critical importance of domestic advanced packaging infrastructure in scaling the next generation of AI hardware and heterogeneous integration.",
-      "verified_facts": [
-        "NVIDIA is providing a prepayment to support Amkor Technology's advanced packaging capacity expansion in Arizona.",
-        "The partnership focuses on developing high-density interconnects and next-generation heterogeneous integration for AI platforms."
-      ],
-      "warnings": [
-        "The source material contains speculative market data and stock performance metrics which are not central to the strategic partnership announcement.",
-        "The article mentions an insider stock option exercise by an Amkor owner, which is unrelated to the NVIDIA partnership."
-      ],
-      "drafts": {
-        "concise": "NVIDIA has announced a multi-year partnership with Amkor Technology to drive innovation in advanced semiconductor packaging. As part of the agreement, NVIDIA will provide a prepayment to support the expansion of Amkor’s advanced packaging capacity in Arizona. This collaboration aims to align long-term roadmaps for high-density interconnects and next-generation heterogeneous integration, both of which are essential for the future of AI and accelerated computing. By strengthening domestic manufacturing capabilities, this partnership represents a significant step in securing the supply chain for high-performance computing hardware. #NVIDIA #Semiconductors #AI",
-        "investor": "The strategic partnership between NVIDIA and Amkor Technology marks a significant development in the AI hardware ecosystem. By providing a prepayment to facilitate the expansion of Amkor’s Arizona-based advanced packaging facilities, NVIDIA is proactively addressing capacity constraints in the semiconductor supply chain. The focus on high-density interconnects and heterogeneous integration is well-aligned with the long-term requirements for next-generation AI platforms. This move underscores the increasing necessity for deep integration between chip designers and packaging specialists to maintain competitive advantages in the accelerated computing market. #NVIDIA #AIInfrastructure #TechInvestment",
-        "people": "We are pleased to see the collaboration between NVIDIA and Amkor Technology, a partnership that highlights the essential role of advanced packaging in the AI era. Amkor CEO Kevin Engel noted that this agreement underscores the central role advanced packaging plays in enabling the future of AI. By aligning their long-term roadmaps, the two companies are fostering the technical expertise required to advance high-density interconnects and heterogeneous integration. It is encouraging to see such strategic alignment between industry leaders as they work to scale the infrastructure necessary for the next generation of computing. #NVIDIA #Innovation #TechLeadership"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "f41e1a3c0df1b184",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Wetour Robotics Outlines Orchestra Platform for Wearable Robotics Powered by NVIDIA Jetson",
-      "url": "https://portal.sina.com.hk/finance/finance-globenewswire/globenewswire/2026/07/24/1864420/wetour-robotics-outlines-orchestra-platform-for-wearable-robotics-powered-by-nvidia-jetson/",
-      "source": "portal.sina.com.hk",
-      "published_at": "2026-07-24T10:15:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 75,
-      "story_type": "Partnership",
-      "summary": "Wetour Robotics has announced 'Orchestra', a portable AI hub for wearable robotics that utilizes the NVIDIA Jetson platform for edge computing.",
-      "why_it_matters": "This development highlights the expanding role of NVIDIA's edge AI hardware in powering complex, real-time physical AI applications, specifically in the emerging field of wearable robotics and human-machine interaction.",
-      "verified_facts": [
-        "Wetour Robotics is using the NVIDIA Jetson platform to power its Orchestra portable AI hub.",
-        "The Orchestra platform supports Vision-Link for visual perception and Conductor for neural gesture recognition.",
-        "Nan Zheng is the CEO of Wetour Robotics."
-      ],
-      "warnings": [
-        "The announcement contains forward-looking statements regarding the future commercialization and third-party adoption of the Orchestra platform.",
-        "The source is a press release issued by the company itself."
-      ],
-      "drafts": {
-        "concise": "Wetour Robotics has unveiled 'Orchestra', a new portable AI hub designed to coordinate wearable robotics. The platform leverages the NVIDIA Jetson edge computing architecture to handle intensive processing tasks, including real-time visual perception and gesture recognition. By offloading AI computation from wearable devices to a dedicated hub, the system aims to improve energy efficiency and performance for applications like smart glasses and robotic exoskeletons. This integration underscores the critical role of high-performance edge computing in enabling the next generation of physical AI infrastructure. #NVIDIA #EdgeAI #Robotics",
-        "investor": "The intersection of wearable technology and physical AI continues to evolve, as evidenced by Wetour Robotics' latest announcement. Their new 'Orchestra' platform utilizes the NVIDIA Jetson ecosystem to centralize AI processing, facilitating complex tasks such as gesture-based command translation and multi-device coordination. By providing an open architecture, Wetour Robotics aims to lower the barrier for third-party hardware manufacturers to integrate advanced AI capabilities into their products. This development highlights the ongoing demand for scalable, low-latency edge computing solutions in the industrial and consumer robotics sectors. #PhysicalAI #NVIDIA #TechInnovation",
-        "people": "Innovation in physical AI often relies on the synergy between hardware and software. Wetour Robotics CEO Nan Zheng recently outlined the company's 'Orchestra' platform, which uses NVIDIA Jetson technology to bridge the gap between human intent and machine action. By focusing on real-time visual perception and EMG-based gesture recognition, the team is working to make wearable robotics more intuitive and efficient. It is encouraging to see how developers are utilizing NVIDIA's edge computing tools to solve complex coordination challenges in the field of human-centric robotics. #NVIDIA #Robotics #Innovation"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "c54e03dc3dcd9692",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "AMD unveils Helios AI rack - scale system to challenge Nvidia dominance | Technology News",
-      "url": "https://indianexpress.com/article/technology/tech-news-technology/amd-unveils-helios-ai-rack-scale-system-to-challenge-nvidias-dominance-10801446/",
-      "source": "indianexpress.com",
-      "published_at": "2026-07-24T08:15:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 75,
-      "story_type": "Market Competition",
-      "summary": "AMD has unveiled its Helios AI rack-scale system, a new platform designed for large-scale AI model training and data centre deployment, positioning it as a direct competitor to Nvidia's Grace Blackwell and Vera Rubin architectures.",
-      "why_it_matters": "The entry of a major competitor like AMD into the rack-scale AI infrastructure market highlights the intensifying competition for data centre dominance as the global AI accelerator market is projected to reach approximately $1.4 trillion by 2030.",
-      "verified_facts": [
-        "AMD unveiled the Helios AI rack-scale system at its Advancing AI conference.",
-        "Major customers including Microsoft, OpenAI, Meta, Oracle, and Anthropic are planning deployments of the Helios system.",
-        "The global AI accelerator market is projected to reach approximately $1.4 trillion by 2030."
-      ],
-      "warnings": [
-        "The claim that Helios outperforms Nvidia’s Vera Rubin system is based on industry reports cited in the source, rather than independent verification.",
-        "The source material mentions the system will begin shipping later this year, but does not provide a specific date."
-      ],
-      "drafts": {
-        "concise": "AMD has announced the launch of its Helios AI rack-scale system, a platform engineered to support the training and deployment of frontier AI models. Designed for high-performance data centre environments, the system has already secured commitments from major industry players, including Microsoft, OpenAI, Meta, Oracle, and Anthropic. As the demand for AI infrastructure continues to scale, the introduction of Helios marks a significant development in the competitive landscape for AI hardware. With the global AI accelerator market expected to reach $1.4 trillion by 2030, the industry remains in a period of rapid evolution and expansion. We continue to monitor these developments closely as the sector matures. #AI #Semiconductors #NextWavePartners",
-        "investor": "The AI infrastructure market continues to show significant growth potential, with projections estimating the global AI accelerator market will reach $1.4 trillion by 2030. AMD’s recent unveiling of the Helios AI rack-scale system underscores the increasing demand for high-performance computing solutions capable of managing complex, agentic AI workloads. By securing early deployment commitments from key partners such as Microsoft, Anthropic, and Meta, AMD is positioning its hardware to challenge existing market leaders in the data centre segment. This development highlights the ongoing capital intensity and technological innovation required to support the next generation of frontier AI models. We remain focused on the long-term implications of these infrastructure shifts for the broader technology ecosystem. #AIInfrastructure #Investment #TechTrends",
-        "people": "The rapid evolution of AI is driving unprecedented demand for computing power, a trend recently highlighted by AMD’s introduction of the Helios AI rack-scale system. During the Advancing AI conference, CEO Dr. Lisa Su noted that the rise of agentic AI is fundamentally changing computing requirements, necessitating more robust and programmable GPU architectures. It is notable to see such significant industry alignment, with major organisations including Microsoft, OpenAI, and Anthropic already planning to integrate this new platform into their data centre operations. As the industry works to scale the infrastructure required for the next generation of AI models, the focus remains on delivering the performance and reliability that these complex systems demand. #AI #Innovation #TechLeadership"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "42be67cf17a81d4a",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "The Ultimate Bull Run for NVIDIA , Micron , and SanDisk May Be Closer Than Investors Think",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ultimate-bull-run-nvidia-micron-215348964.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-07-24T10:15:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 65,
-      "story_type": "Market Analysis",
-      "summary": "NVIDIA continues to demonstrate strong financial performance, reporting $81.61 billion in Q1 FY2027 revenue—an 85.2% year-over-year increase—and extending its streak of earnings beats to five consecutive quarters.",
-      "why_it_matters": "The data highlights the sustained demand for AI infrastructure, supported by significant hyperscaler capital expenditure and the rapid scaling of agentic AI across industries.",
-      "verified_facts": [
-        "NVIDIA reported $81.61 billion in Q1 FY2027 revenue, an 85.2% increase year-over-year.",
-        "NVIDIA has achieved five consecutive quarters of earnings beats.",
-        "Data Center revenue for NVIDIA grew 92% year-over-year."
-      ],
-      "warnings": [
-        "The source material contains speculative price targets and investment advice which are not endorsed by Next Wave Partners.",
-        "The article references external analyst opinions regarding future market share shifts that remain speculative."
-      ],
-      "drafts": {
-        "concise": "NVIDIA’s latest financial results underscore the ongoing momentum in the AI infrastructure sector. The company reported $81.61 billion in Q1 FY2027 revenue, marking an 85.2% year-over-year increase, with Data Center revenue climbing 92%. This performance marks the fifth consecutive quarter of earnings beats for the firm. As hyperscalers continue to scale their capital expenditure to support the deployment of agentic AI, the demand for high-performance computing hardware remains a critical driver of industry growth. We continue to monitor these developments as the semiconductor landscape evolves to meet the requirements of next-generation AI models. #NVIDIA #Semiconductors #AIInfrastructure",
-        "investor": "The latest earnings report from NVIDIA provides further evidence of the robust demand underpinning the AI infrastructure buildout. With Q1 FY2027 revenue reaching $81.61 billion—up 85.2% year-over-year—and a 92% surge in Data Center revenue, the company’s growth trajectory remains significant. Management has disclosed $119 billion in supply commitments, reflecting strong visibility into future demand. As inference costs decrease and token volume increases, the role of high-performance silicon becomes increasingly central to the broader AI ecosystem. These figures, coupled with sustained hyperscaler investment, highlight the structural shifts currently reshaping the semiconductor and memory markets. #AI #Investing #NextWavePartners",
-        "people": "NVIDIA’s recent performance highlights the scale of innovation currently being delivered by their team. CEO Jensen Huang recently noted that 'Agentic AI has arrived,' a sentiment reflected in the company's strong operational results, including an 85.2% year-over-year revenue increase in Q1 FY2027. Achieving five consecutive quarters of earnings beats is a testament to the company's execution in a rapidly evolving market. As the industry moves toward more efficient and productive AI applications, the infrastructure designed by the NVIDIA team remains at the forefront of this technological shift. We look forward to seeing how these advancements continue to drive value across global industries. #NVIDIA #Leadership #TechInnovation"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "e22f25e8eeebeffc",
-      "company": "NVIDIA",
-      "company_domain": "nvidia.com",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "AMD Stock Jumps 10 % on Anthropic Deal : Can Nvidia Lead Hold ?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumps-10-anthropic-172930998.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-07-24T05:30:00+00:00",
-      "first_seen": "2026-07-24T06:42:35.652871+00:00",
-      "score": 65,
-      "story_type": "Market Analysis",
-      "summary": "Recent market developments highlight increasing competition in the AI hardware sector, specifically regarding AMD's partnership with Anthropic and the ongoing industry-wide demand for high-performance compute.",
-      "why_it_matters": "The news underscores the competitive landscape for AI infrastructure, specifically the ongoing efforts by competitors to challenge the software ecosystem dominance of Nvidia's CUDA platform.",
-      "verified_facts": [
-        "Anthropic has agreed to deploy up to 2 gigawatts of AMD's Instinct MI450 GPUs.",
-        "Nvidia's CUDA software remains the primary benchmark for AI lab loyalty in the current market."
-      ],
-      "warnings": [
-        "The source material is a market commentary piece rather than a direct corporate announcement from Nvidia.",
-        "Market valuation figures mentioned in the source are subject to rapid fluctuation and should be treated as point-in-time data."
-      ],
-      "drafts": {
-        "concise": "The AI hardware landscape continues to evolve rapidly. Recent reports regarding large-scale infrastructure deployments by major AI labs highlight the sustained, record-level demand for high-performance compute. While new partnerships emerge across the sector, the importance of established software ecosystems like CUDA remains a critical differentiator for developers and AI labs alike. As the industry scales, the focus remains on how hardware providers balance capacity, software integration, and long-term strategic partnerships to meet the needs of the frontier AI market. #AI #Semiconductors #NextWavePartners",
-        "investor": "The current surge in AI infrastructure investment reflects a broader, industry-wide trend of scaling compute capacity to meet the demands of frontier model development. While competitive activity in the GPU space is increasing, the structural advantage provided by mature software stacks remains a key factor in maintaining market leadership. For investors, the focus remains on the durability of these hardware-software ecosystems as labs diversify their compute providers. The scale of recent commitments from major AI labs confirms that the demand for high-performance hardware continues to be a primary driver of growth across the semiconductor sector. #Investing #AIInfrastructure #TechTrends",
-        "people": "The rapid pace of innovation in AI computing is driven by the teams building the underlying infrastructure that powers the next generation of intelligence. As AI labs like Anthropic continue to scale their operations, the collaboration between hardware engineers and software developers becomes increasingly vital. The ongoing industry dialogue around hardware deployment and software optimization highlights the immense technical challenge of keeping pace with global demand. It is a reminder of the critical role that engineering excellence plays in maintaining a competitive edge in this fast-moving sector. #Engineering #AI #Innovation"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    }
-  ],
+  "story_count": 0,
+  "todays_story_count": 0,
+  "stories": [],
   "sector_stories": [
     {
       "id": "a3f9a4f89d212089",
@@ -435,18 +297,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a9bdfea8ced1729e",
+      "id": "49948e98624b6f8a",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail admits massive delivery chaos is hitting dozens of UK towns today – is YOUR postcode on the dreaded list? - The Sun",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZmxmaWt3aVZSdVJ6cjR3QWwtdDFuQ2tuLVBSUDNHakVNLUE1R2xEOWRfcVVlaDJDUDNjLVhrUE10Q2ZEMzdDanVvdnVrX2hnRVBSNzR6dW9LVEFra2U4aU96S19zUzJzZnRQSHM0WTJtM1doeDhLeElCa3M5SGp0VWNMYWcxdw?oc=5",
-      "source": "The Sun",
-      "published_at": "2026-07-22T11:35:00+00:00",
-      "first_seen": "2026-07-22T16:14:25.661316+00:00",
+      "title": "Logistics UK: Tariffs increase costs, complicate supply chains and risk holding back trade",
+      "url": "https://postandparcel.info/162455/news/logistics/logistics-uk-tariffs-increase-costs-complicate-supply-chains-and-risk-holding-back-trade/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-24T04:59:55+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
       "score": 75,
-      "summary": "Royal Mail has acknowledged significant delivery disruptions affecting service levels across multiple locations in the United Kingdom.",
-      "angle": "Operational failures at the dominant market incumbent often drive volume shifts toward alternative independent delivery and logistics providers.",
-      "discovered_via": "Google News RSS"
+      "summary": "Logistics UK warns that new US tariffs are increasing costs, complicating supply chains, and potentially hindering international trade.",
+      "angle": "Highlights macroeconomic headwinds and supply chain complexities impacting cross-border parcel and mail logistics operations.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "98ce2f13e9808c83",
@@ -519,6 +381,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "c8a8840b4326abad",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Study: Batteries lose lithium to the current collector",
+      "url": "https://www.electrive.com/2026/07/24/study-batteries-lose-lithium-to-the-current-collector/",
+      "source": "electrive.com",
+      "published_at": "2026-07-24T07:02:42+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 65,
+      "summary": "Researchers have identified a degradation mechanism where lithium ions permanently bind to copper current collectors, reducing battery capacity and lifespan over repeated charge cycles.",
+      "angle": "Understanding fundamental battery degradation mechanisms is critical for improving the longevity and performance of future micromobility energy storage.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "74e8283595f7af63",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -544,20 +420,6 @@
       "score": 65,
       "summary": "The Orange County School Board is considering a policy to restrict e-bike usage on school campuses, including potential bans for students without a driver's license.",
       "angle": "Highlights growing regulatory scrutiny and safety concerns regarding e-bike usage among younger demographics in public spaces.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "fa9ef740775000fd",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Lime dismantled a scooter before police could inspect it after a fatal Auckland crash , coroner finds",
-      "url": "https://newswire.co.nz/2026/07/lime-scooter-dismantled-before-police-inspection-coroner/",
-      "source": "newswire.co.nz",
-      "published_at": "2026-07-20T22:00:00+00:00",
-      "first_seen": "2026-07-23T09:39:13.183770+00:00",
-      "score": 65,
-      "summary": "A New Zealand coroner has recommended that e-scooters involved in fatal crashes be preserved for police inspection after Lime dismantled a vehicle following a 2019 incident.",
-      "angle": "Regulatory scrutiny regarding post-accident evidence preservation and safety standards for shared micromobility fleets is increasing.",
       "discovered_via": "GDELT"
     },
     {
@@ -813,6 +675,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5c60506639669224",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Saudi Arabia Edtech Market Size to Reach USD 7,338.8 Million by 2034, Driven by AI-Powered Learning Solutions - openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWk5qNjRPYnZMSUNIdGhEZzNBQzBMX2VnbUdJNnFXZVZFdG9PdEUwdUpQSldXYm5aZ3NIREkyTFRkb05yREQ4MnUyd0J1Tm9FUVNZNnlHNVFSOHFpQU5HRGJHVm94OXc4dEdqXzB2cWkyRHBCeUJud3pWRExjWktPZTF0Sl9xUG5FNWlVSjI2YmdqVzRvUjd2OTdNWlo?oc=5",
+      "source": "openPR.com",
+      "published_at": "2026-07-24T09:25:54+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 75,
+      "summary": "The Saudi Arabian edtech market is projected to reach USD 7,338.8 million by 2034, primarily driven by the adoption of AI-powered learning solutions.",
+      "angle": "Highlights significant regional growth potential and the critical role of AI integration in future education publishing strategies.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "17bb34b8d8540bf6",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -824,20 +700,6 @@
       "score": 75,
       "summary": "Michigan has launched a program allowing registered apprentices to earn college credit for on-the-job training, potentially shortening the time required to complete an associate degree.",
       "angle": "Highlights a growing trend of integrating vocational training with formal higher education, impacting curriculum and credentialing demand.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "63e612c71fa88e89",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Fumbling Toward an AI Policy",
-      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/07/24/fumbling-toward-ai-policy",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-24T07:00:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 75,
-      "summary": "Higher education institutions are struggling to implement enforceable AI policies as the technology evolves faster than administrative processes, creating uncertainty regarding academic integrity and curriculum design.",
-      "angle": "Highlights the critical challenge of integrating AI into educational workflows while maintaining pedagogical value and academic standards.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -897,6 +759,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "802e85c0e9f5d5bf",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Rayner keeps 1.5 million-home target despite mounting challenges",
+      "url": "https://www.constructionnews.co.uk/government/rayner-keeps-1-5-million-home-target-despite-mounting-challenges-24-07-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-07-24T10:43:18+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 85,
+      "summary": "The UK government is maintaining its commitment to deliver 1.5 million new homes despite facing significant industry challenges.",
+      "angle": "Government housing targets directly influence long-term demand for residential construction products and glazing solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7c46c94e3dc55c9c",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Contractors warned over new rules on illegal workers",
+      "url": "https://www.constructionnews.co.uk/government/rule-change-would-make-contractors-liable-if-subbies-hire-illegal-workers-24-07-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-07-24T11:45:20+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 75,
+      "summary": "New government guidance effective 1 October 2026 will make contractors liable for illegal workers hired by subcontractors unless they perform rigorous due diligence checks.",
+      "angle": "Increased regulatory compliance burden and administrative costs for construction firms managing complex, multi-layered supply chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "86820621f55a1c8e",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -925,103 +815,75 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "743a7c14acb5f0f9",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Sir Robert McAlpine in high-rise fire safety defects claim",
-      "url": "https://www.constructionnews.co.uk/legal/sir-robert-mcalpine-in-high-rise-fire-safety-defects-claim-23-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-23T11:45:23+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
+      "id": "d1949b8005921aa1",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+      "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+      "source": "roboticsbusinessreview.com",
+      "published_at": "2026-07-23T18:30:56+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 85,
+      "summary": "AMD has launched the Ryzen AI Embedded X100 series and Kria AI Robotics platform, offering unified memory architecture and deterministic real-time control for industrial robotics applications.",
+      "angle": "Provides a high-performance, non-vendor-locked alternative to NVIDIA for real-time edge AI processing in autonomous inspection robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "708807de06b6f1c2",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI",
+      "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
+      "source": "roboticsbusinessreview.com",
+      "published_at": "2026-07-24T12:30:42+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
       "score": 75,
-      "summary": "Sir Robert McAlpine faces a £1.2m damages claim over alleged fire safety defects in a residential development, leading to extensive remediation works.",
-      "angle": "Highlights increasing legal and regulatory scrutiny regarding fire safety compliance and building standards in the UK construction sector.",
+      "summary": "NEURA Robotics is establishing a network of 'NEURA Gyms' to provide physical AI training facilities, combining real-world data collection with high-fidelity simulation to accelerate industrial robot deployment.",
+      "angle": "Highlights the industry shift toward hybrid physical-simulation training environments to overcome real-world data scarcity in robotics.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7a908263a6bf7f10",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Morgan Sindall gains approval for £100m Crystal Palace sports centre overhaul",
-      "url": "https://www.constructionnews.co.uk/contractors/morgan-sindall/morgan-sindall-gains-approval-for-100m-crystal-palace-sports-centre-overhaul-24-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-24T09:41:29+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 65,
-      "summary": "Bromley Council has approved Morgan Sindall’s £100m redevelopment of the Crystal Palace National Sports Centre, which includes facade refurbishment and the installation of new glazed screens.",
-      "angle": "Highlights demand for high-performance glazing in large-scale public sector heritage refurbishment and energy efficiency projects.",
+      "id": "e5d9948224819a3a",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Boeing Regains FAA Certification Authority",
+      "url": "https://www.aviationtoday.com/2026/07/23/boeing-regains-faa-certification-authority/",
+      "source": "aviationtoday.com",
+      "published_at": "2026-07-23T14:57:51+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
+      "score": 75,
+      "summary": "The FAA has restored Boeing's authority to issue final airworthiness certifications for 737 MAX and 787 aircraft following improvements in the manufacturer's inspection and quality control processes.",
+      "angle": "Increased regulatory focus on automated inspection and quality control standards impacts the broader aviation maintenance and manufacturing ecosystem.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4033c274154a8b24",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Choosing Between U . S . And Chinese AI Models : The Export Control Risks On Both Sides",
-      "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1821964/choosing-between-us-and-chinese-ai-models-the-export-control-risks-on-both-sides",
-      "source": "mondaq.com",
-      "published_at": "2026-07-24T00:30:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 95,
-      "summary": "U.S. export controls on AI models and hardware are increasingly implemented through unpublished directives, creating significant regulatory uncertainty for global AI infrastructure and semiconductor supply chains.",
-      "angle": "Highlights escalating geopolitical regulatory risks and the critical reliance of global AI development on U.S. semiconductor hardware.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "2a48d97e5bf197c5",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Broad Tariffs on Semiconductors Risk Economic Harm and American Security",
-      "url": "https://townhall.com/columnists/petermihalick/2026/07/24/broad-tariffs-on-semiconductors-risks-economic-harm-and-american-security-n2679975",
-      "source": "townhall.com",
-      "published_at": "2026-07-24T04:45:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 85,
-      "summary": "The Trump Administration is considering expanding broad-based tariffs on imported semiconductors, which critics argue could increase costs and disrupt supply chains for essential technology industries.",
-      "angle": "Potential broad-based semiconductor tariffs threaten to increase input costs and disrupt global supply chains for hardware manufacturers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "8cc4fcd1b87c0472",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "Prediction : AMD Stock Will Skyrocket After Aug . 4 Due to This Massive News",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-skyrocket-aug-145300934.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-07-23T23:00:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
-      "score": 85,
-      "summary": "Microsoft has announced plans to deploy AMD's Helios rack-scale AI server systems in its Azure data centers to support frontier model AI inference and Azure AI services.",
-      "angle": "Highlights increasing competition in the AI hardware market as hyperscalers diversify their data center infrastructure beyond incumbent suppliers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "debeee7f1f8a7f88",
-      "company": "NVIDIA",
-      "industry": "Semiconductors and AI computing hardware",
-      "title": "South Korea moves to localize military semiconductors",
-      "url": "https://www.upi.com/Top_News/World-News/2026/07/23/Defense-Acquisition-Program-Administration/9321784845533/",
-      "source": "upi.com",
-      "published_at": "2026-07-23T23:00:00+00:00",
-      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "id": "34d0df8991de9244",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+      "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+      "source": "roboticsbusinessreview.com",
+      "published_at": "2026-07-23T20:45:47+00:00",
+      "first_seen": "2026-07-24T16:36:00.622878+00:00",
       "score": 65,
-      "summary": "The South Korean government has launched a strategy to localize military semiconductor production and mandate the use of domestic chips in national weapons systems.",
-      "angle": "Highlights increasing geopolitical trends toward semiconductor supply chain sovereignty and domestic industrial protectionism in defense-critical hardware sectors.",
-      "discovered_via": "GDELT"
+      "summary": "Holiday Robotics raised $105 million to develop FRIDAY, a wheeled humanoid robot designed for dexterous manipulation and repetitive industrial tasks using a vision-language-skill approach.",
+      "angle": "Advances in dexterous manipulation and modular skill-based software architectures for industrial automation impact future autonomous inspection capabilities.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
-    "companies_checked": 12,
-    "companies_with_stories": 1,
+    "companies_checked": 13,
+    "companies_with_stories": 0,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 58,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
+    "providers_succeeded": 65,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 96,
+    "llm_requests_succeeded": 96,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
-    "carried_forward": 2
+    "dropped_thin_page": 11,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 3,
+    "carried_forward": 0
   }
 }
