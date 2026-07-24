@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T22:01:29.385620+00:00",
-  "digest_intro": "Good morning, please find below our sector-focused briefing for today, which covers 32 items of interest across the market. There are no specific updates regarding our portfolio companies in this edition.",
+  "generated_at": "2026-07-24T06:42:35.652871+00:00",
+  "digest_intro": "Good morning. Today's briefing covers two updates regarding Nvidia and one additional sector item for your review.",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -210,15 +210,109 @@
         "google_web": "https://www.google.com/search?q=%22UK+construction+products+market%22+OR+%22rooflights+glazing+industry%22+OR+%22UK+home+improvement+market%22+OR+%22RIBA+architecture+UK%22&tbm=nws",
         "bing_news": "https://www.bing.com/news/search?q=%22UK+construction+products+market%22+OR+%22rooflights+glazing+industry%22+OR+%22UK+home+improvement+market%22+OR+%22RIBA+architecture+UK%22"
       }
+    },
+    {
+      "name": "NVIDIA",
+      "industry": "Semiconductors and AI computing hardware",
+      "description": "US semiconductor company; leading designer of GPUs and AI computing hardware.",
+      "website": "https://www.nvidia.com/",
+      "newsroom_url": "https://nvidianews.nvidia.com/",
+      "story_count": 2,
+      "sector_count": 1,
+      "company_links": {
+        "google_news": "https://news.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22"
+      },
+      "industry_links": {
+        "google_news": "https://news.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&hl=en-GB&gl=GB&ceid=GB:en",
+        "google_web": "https://www.google.com/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22&tbm=nws",
+        "bing_news": "https://www.bing.com/news/search?q=%22AI+chip+market%22+OR+%22GPU+market%22+OR+%22semiconductor+industry%22+OR+%22data+center+AI+hardware%22"
+      }
     }
   ],
   "lookback_days": 7,
   "sector_lookback_days": 10,
   "archive_days": 45,
-  "story_count": 0,
-  "todays_story_count": 0,
-  "stories": [],
+  "story_count": 2,
+  "todays_story_count": 2,
+  "stories": [
+    {
+      "id": "894e4314fe8fc17d",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "Nvidia Partnership Gets Amkor Technology ( AMKR ) Stock Trending : Here What You Should Know - NVIDIA ( NAS",
+      "url": "https://www.benzinga.com/markets/equities/26/07/60659435/amkor-stock-nvidia-partnership-what-to-know",
+      "source": "benzinga.com",
+      "published_at": "2026-07-24T04:15:00+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 85,
+      "story_type": "Partnership",
+      "summary": "NVIDIA has entered into a multi-year partnership with Amkor Technology to advance semiconductor packaging and test technologies for AI and accelerated computing platforms. NVIDIA will provide a prepayment to support the expansion of Amkor’s advanced packaging capacity in Arizona.",
+      "why_it_matters": "The collaboration highlights the critical importance of domestic advanced packaging infrastructure in scaling the next generation of AI hardware and heterogeneous integration.",
+      "verified_facts": [
+        "NVIDIA is providing a prepayment to support Amkor Technology's advanced packaging capacity expansion in Arizona.",
+        "The partnership focuses on developing high-density interconnects and next-generation heterogeneous integration for AI platforms."
+      ],
+      "warnings": [
+        "The source material contains speculative market data and stock performance metrics which are not central to the strategic partnership announcement.",
+        "The article mentions an insider stock option exercise by an Amkor owner, which is unrelated to the NVIDIA partnership."
+      ],
+      "drafts": {
+        "concise": "NVIDIA has announced a multi-year partnership with Amkor Technology to drive innovation in advanced semiconductor packaging. As part of the agreement, NVIDIA will provide a prepayment to support the expansion of Amkor’s advanced packaging capacity in Arizona. This collaboration aims to align long-term roadmaps for high-density interconnects and next-generation heterogeneous integration, both of which are essential for the future of AI and accelerated computing. By strengthening domestic manufacturing capabilities, this partnership represents a significant step in securing the supply chain for high-performance computing hardware. #NVIDIA #Semiconductors #AI",
+        "investor": "The strategic partnership between NVIDIA and Amkor Technology marks a significant development in the AI hardware ecosystem. By providing a prepayment to facilitate the expansion of Amkor’s Arizona-based advanced packaging facilities, NVIDIA is proactively addressing capacity constraints in the semiconductor supply chain. The focus on high-density interconnects and heterogeneous integration is well-aligned with the long-term requirements for next-generation AI platforms. This move underscores the increasing necessity for deep integration between chip designers and packaging specialists to maintain competitive advantages in the accelerated computing market. #NVIDIA #AIInfrastructure #TechInvestment",
+        "people": "We are pleased to see the collaboration between NVIDIA and Amkor Technology, a partnership that highlights the essential role of advanced packaging in the AI era. Amkor CEO Kevin Engel noted that this agreement underscores the central role advanced packaging plays in enabling the future of AI. By aligning their long-term roadmaps, the two companies are fostering the technical expertise required to advance high-density interconnects and heterogeneous integration. It is encouraging to see such strategic alignment between industry leaders as they work to scale the infrastructure necessary for the next generation of computing. #NVIDIA #Innovation #TechLeadership"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "e22f25e8eeebeffc",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "AMD Stock Jumps 10 % on Anthropic Deal : Can Nvidia Lead Hold ?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumps-10-anthropic-172930998.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-07-24T05:30:00+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 65,
+      "story_type": "Market Analysis",
+      "summary": "Recent market developments highlight increasing competition in the AI hardware sector, specifically regarding AMD's partnership with Anthropic and the ongoing industry-wide demand for high-performance compute.",
+      "why_it_matters": "The news underscores the competitive landscape for AI infrastructure, specifically the ongoing efforts by competitors to challenge the software ecosystem dominance of Nvidia's CUDA platform.",
+      "verified_facts": [
+        "Anthropic has agreed to deploy up to 2 gigawatts of AMD's Instinct MI450 GPUs.",
+        "Nvidia's CUDA software remains the primary benchmark for AI lab loyalty in the current market."
+      ],
+      "warnings": [
+        "The source material is a market commentary piece rather than a direct corporate announcement from Nvidia.",
+        "Market valuation figures mentioned in the source are subject to rapid fluctuation and should be treated as point-in-time data."
+      ],
+      "drafts": {
+        "concise": "The AI hardware landscape continues to evolve rapidly. Recent reports regarding large-scale infrastructure deployments by major AI labs highlight the sustained, record-level demand for high-performance compute. While new partnerships emerge across the sector, the importance of established software ecosystems like CUDA remains a critical differentiator for developers and AI labs alike. As the industry scales, the focus remains on how hardware providers balance capacity, software integration, and long-term strategic partnerships to meet the needs of the frontier AI market. #AI #Semiconductors #NextWavePartners",
+        "investor": "The current surge in AI infrastructure investment reflects a broader, industry-wide trend of scaling compute capacity to meet the demands of frontier model development. While competitive activity in the GPU space is increasing, the structural advantage provided by mature software stacks remains a key factor in maintaining market leadership. For investors, the focus remains on the durability of these hardware-software ecosystems as labs diversify their compute providers. The scale of recent commitments from major AI labs confirms that the demand for high-performance hardware continues to be a primary driver of growth across the semiconductor sector. #Investing #AIInfrastructure #TechTrends",
+        "people": "The rapid pace of innovation in AI computing is driven by the teams building the underlying infrastructure that powers the next generation of intelligence. As AI labs like Anthropic continue to scale their operations, the collaboration between hardware engineers and software developers becomes increasingly vital. The ongoing industry dialogue around hardware deployment and software optimization highlights the immense technical challenge of keeping pace with global demand. It is a reminder of the critical role that engineering excellence plays in maintaining a competitive edge in this fast-moving sector. #Engineering #AI #Innovation"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    }
+  ],
   "sector_stories": [
+    {
+      "id": "a3f9a4f89d212089",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Raising Warehouse Taxes Could Leave Industrial Parks Deserted, says logistics CEO.",
+      "url": "https://postandparcel.info/162445/news/e-commerce/raising-warehouse-taxes-could-leave-industrial-parks-deserted-says-logistics-ceo/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-24T04:19:53+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 85,
+      "summary": "Paxon UK CEO Wayne Chapman warns that proposed increases in warehouse taxes to fund business rate cuts for hospitality could lead international firms to downgrade UK operations.",
+      "angle": "Potential tax hikes on industrial property could significantly increase operational costs for UK-based logistics and parcel delivery networks.",
+      "discovered_via": "Sector RSS"
+    },
     {
       "id": "c4a59149f9f127af",
       "company": "The Delivery Group",
@@ -231,6 +325,20 @@
       "score": 85,
       "summary": "DPD is deploying 270 autonomous robots to replace traditional conveyor belt operations within its distribution facilities.",
       "angle": "Highlights industry-wide shifts toward warehouse automation to improve operational efficiency and throughput in parcel processing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1645cf77d749161f",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail “committed to helping UK businesses continue trading with customers across Europe”",
+      "url": "https://postandparcel.info/162447/news/e-commerce/royal-mail-committed-to-helping-uk-businesses-continue-trading-with-customers-across-europe/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-24T06:25:54+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 75,
+      "summary": "Etsy has launched Royal Mail’s new postal delivery duties paid service for EU shipments following recent changes to customs requirements.",
+      "angle": "Highlights evolving cross-border customs solutions and market-wide shifts in EU e-commerce delivery compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -248,32 +356,18 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "884850e56700afeb",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Loganair signs term sheet with BETA Technologies for up to 10 ALIA CTOL CX300 aircraft",
-      "url": "https://centreforaviation.com/news/loganair-signs-term-sheet-with-beta-technologies-for-up-to-10-alia-ctol-cx300-aircraft-1366720",
-      "source": "centreforaviation.com",
-      "published_at": "2026-07-21T04:45:00+00:00",
-      "first_seen": "2026-07-22T16:28:28.035117+00:00",
-      "score": 75,
-      "summary": "Loganair has signed a term sheet to purchase up to ten all-electric ALIA CX300 aircraft, following successful demonstration flights conducted in partnership with Royal Mail.",
-      "angle": "Demonstrates potential for electric aviation to integrate into UK mail and parcel logistics networks.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "02cf109e22d75e2f",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail told changes to notifications will exclude some",
-      "url": "https://www.andoveradvertiser.co.uk/news/26403006.royal-mail-told-changes-notifications-will-exclude/",
-      "source": "andoveradvertiser.co.uk",
-      "published_at": "2026-07-23T11:00:00+00:00",
-      "first_seen": "2026-07-23T11:19:22.329260+00:00",
-      "score": 65,
-      "summary": "Royal Mail has introduced new 'something for you' delivery cards featuring QR codes, prompting public debate regarding digital accessibility and potential security risks from fraudulent cards.",
-      "angle": "Highlights industry-wide challenges in balancing digital transformation with accessibility and security concerns in last-mile delivery operations.",
-      "discovered_via": "GDELT"
+      "id": "98ce2f13e9808c83",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "The user-centric future of counter-drone defence",
+      "url": "https://securityjournaluk.com/user-centric-future-of-counter-drone-defence/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-07-24T06:30:00+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 85,
+      "summary": "The article highlights the growing need for intuitive, user-friendly counter-drone technology to address security threats at public venues and critical infrastructure under emerging UK regulatory pressures.",
+      "angle": "Highlights increasing demand for accessible, non-specialist drone security solutions driven by Martyn's Law and evolving public safety requirements.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "9e05dca6c07e3791",
@@ -315,20 +409,6 @@
       "score": 75,
       "summary": "Retailers are increasingly struggling with 'access drift' due to fragmented key management, leading to operational inefficiencies and security risks across large, multi-site estates.",
       "angle": "Highlights growing demand for centralised, technology-driven access governance and digital key management solutions within the retail property sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a0c304ee2071af0e",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "OCS reveals recommended acquisition of Mitie",
-      "url": "https://securityjournaluk.com/ocs-reveals-recommended-acquisition-of-mitie/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-21T13:22:18+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
-      "score": 75,
-      "summary": "OCS has announced a recommended acquisition of Mitie to create a large, UK-headquartered international facilities management group with expanded service capabilities and geographic reach.",
-      "angle": "Consolidation among major facilities management providers impacts the competitive landscape for integrated site security and property services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -778,21 +858,35 @@
       "summary": "Chris McDonald is expected to retain the construction minister brief within the newly formed Department for Business, Innovation, Science and Trade under Prime Minister Andy Burnham.",
       "angle": "Continuity in ministerial leadership provides stability for construction policy, regulatory frameworks, and long-term infrastructure investment planning.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "dae51833bf39faff",
+      "company": "NVIDIA",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "Oregon awarded $160M to expand the semiconductor industry and boost economic development - Oregon Public Broadcasting - OPB",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZU5zdC1uaDRSWGYtcmEyVzlINXR5RXEwY01aX3pOcG1WQmVKVElVT09YeFFNcnRlckNDeUpwdUx4LWtOaEZfcGNsbWNBc2FENVNURmtnc0FISG9oOXI3TUpFYU9nSkxaM2V1YWtXSjZuS0V2M1V2c3NFWWN4RU51TlhkdXA2a0FBeEZtelZXY1RDZF9IYTNxWTBwX25uQVNYVU1odkN1MGU3U3JKVTJUSFJuYzRVc3NnNGg0?oc=5",
+      "source": "Oregon Public Broadcasting - OPB",
+      "published_at": "2026-07-23T16:28:40+00:00",
+      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "score": 65,
+      "summary": "Oregon has been awarded $160 million in funding to expand its semiconductor industry and stimulate regional economic development.",
+      "angle": "Highlights regional government investment and infrastructure support for domestic semiconductor manufacturing capacity and supply chain growth.",
+      "discovered_via": "Google News RSS"
     }
   ],
   "run_summary": {
-    "companies_checked": 11,
-    "companies_with_stories": 0,
-    "companies_with_sector_news": 10,
+    "companies_checked": 12,
+    "companies_with_stories": 1,
+    "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 56,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 70,
-    "llm_requests_succeeded": 70,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 17,
+    "providers_succeeded": 64,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 0
   }
 }
