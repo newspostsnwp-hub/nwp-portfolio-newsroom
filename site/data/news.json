@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T06:42:35.652871+00:00",
-  "digest_intro": "Good morning. Today's briefing covers two updates regarding Nvidia and one additional sector item for your review.",
+  "generated_at": "2026-07-24T10:59:51.058171+00:00",
+  "digest_intro": "Good morning, partners. Today's briefing covers four updates on our portfolio, led by the recent developments regarding Nvidia, alongside three additional sector items.",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -217,8 +217,8 @@
       "description": "US semiconductor company; leading designer of GPUs and AI computing hardware.",
       "website": "https://www.nvidia.com/",
       "newsroom_url": "https://nvidianews.nvidia.com/",
-      "story_count": 2,
-      "sector_count": 1,
+      "story_count": 5,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Nvidia%22+OR+%22Nvidia+GPU%22+OR+%22Nvidia+AI+chips%22&tbm=nws",
@@ -234,8 +234,8 @@
   "lookback_days": 7,
   "sector_lookback_days": 10,
   "archive_days": 45,
-  "story_count": 2,
-  "todays_story_count": 2,
+  "story_count": 5,
+  "todays_story_count": 5,
   "stories": [
     {
       "id": "894e4314fe8fc17d",
@@ -263,6 +263,99 @@
         "concise": "NVIDIA has announced a multi-year partnership with Amkor Technology to drive innovation in advanced semiconductor packaging. As part of the agreement, NVIDIA will provide a prepayment to support the expansion of Amkor’s advanced packaging capacity in Arizona. This collaboration aims to align long-term roadmaps for high-density interconnects and next-generation heterogeneous integration, both of which are essential for the future of AI and accelerated computing. By strengthening domestic manufacturing capabilities, this partnership represents a significant step in securing the supply chain for high-performance computing hardware. #NVIDIA #Semiconductors #AI",
         "investor": "The strategic partnership between NVIDIA and Amkor Technology marks a significant development in the AI hardware ecosystem. By providing a prepayment to facilitate the expansion of Amkor’s Arizona-based advanced packaging facilities, NVIDIA is proactively addressing capacity constraints in the semiconductor supply chain. The focus on high-density interconnects and heterogeneous integration is well-aligned with the long-term requirements for next-generation AI platforms. This move underscores the increasing necessity for deep integration between chip designers and packaging specialists to maintain competitive advantages in the accelerated computing market. #NVIDIA #AIInfrastructure #TechInvestment",
         "people": "We are pleased to see the collaboration between NVIDIA and Amkor Technology, a partnership that highlights the essential role of advanced packaging in the AI era. Amkor CEO Kevin Engel noted that this agreement underscores the central role advanced packaging plays in enabling the future of AI. By aligning their long-term roadmaps, the two companies are fostering the technical expertise required to advance high-density interconnects and heterogeneous integration. It is encouraging to see such strategic alignment between industry leaders as they work to scale the infrastructure necessary for the next generation of computing. #NVIDIA #Innovation #TechLeadership"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "f41e1a3c0df1b184",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "Wetour Robotics Outlines Orchestra Platform for Wearable Robotics Powered by NVIDIA Jetson",
+      "url": "https://portal.sina.com.hk/finance/finance-globenewswire/globenewswire/2026/07/24/1864420/wetour-robotics-outlines-orchestra-platform-for-wearable-robotics-powered-by-nvidia-jetson/",
+      "source": "portal.sina.com.hk",
+      "published_at": "2026-07-24T10:15:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 75,
+      "story_type": "Partnership",
+      "summary": "Wetour Robotics has announced 'Orchestra', a portable AI hub for wearable robotics that utilizes the NVIDIA Jetson platform for edge computing.",
+      "why_it_matters": "This development highlights the expanding role of NVIDIA's edge AI hardware in powering complex, real-time physical AI applications, specifically in the emerging field of wearable robotics and human-machine interaction.",
+      "verified_facts": [
+        "Wetour Robotics is using the NVIDIA Jetson platform to power its Orchestra portable AI hub.",
+        "The Orchestra platform supports Vision-Link for visual perception and Conductor for neural gesture recognition.",
+        "Nan Zheng is the CEO of Wetour Robotics."
+      ],
+      "warnings": [
+        "The announcement contains forward-looking statements regarding the future commercialization and third-party adoption of the Orchestra platform.",
+        "The source is a press release issued by the company itself."
+      ],
+      "drafts": {
+        "concise": "Wetour Robotics has unveiled 'Orchestra', a new portable AI hub designed to coordinate wearable robotics. The platform leverages the NVIDIA Jetson edge computing architecture to handle intensive processing tasks, including real-time visual perception and gesture recognition. By offloading AI computation from wearable devices to a dedicated hub, the system aims to improve energy efficiency and performance for applications like smart glasses and robotic exoskeletons. This integration underscores the critical role of high-performance edge computing in enabling the next generation of physical AI infrastructure. #NVIDIA #EdgeAI #Robotics",
+        "investor": "The intersection of wearable technology and physical AI continues to evolve, as evidenced by Wetour Robotics' latest announcement. Their new 'Orchestra' platform utilizes the NVIDIA Jetson ecosystem to centralize AI processing, facilitating complex tasks such as gesture-based command translation and multi-device coordination. By providing an open architecture, Wetour Robotics aims to lower the barrier for third-party hardware manufacturers to integrate advanced AI capabilities into their products. This development highlights the ongoing demand for scalable, low-latency edge computing solutions in the industrial and consumer robotics sectors. #PhysicalAI #NVIDIA #TechInnovation",
+        "people": "Innovation in physical AI often relies on the synergy between hardware and software. Wetour Robotics CEO Nan Zheng recently outlined the company's 'Orchestra' platform, which uses NVIDIA Jetson technology to bridge the gap between human intent and machine action. By focusing on real-time visual perception and EMG-based gesture recognition, the team is working to make wearable robotics more intuitive and efficient. It is encouraging to see how developers are utilizing NVIDIA's edge computing tools to solve complex coordination challenges in the field of human-centric robotics. #NVIDIA #Robotics #Innovation"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "c54e03dc3dcd9692",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "AMD unveils Helios AI rack - scale system to challenge Nvidia dominance | Technology News",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/amd-unveils-helios-ai-rack-scale-system-to-challenge-nvidias-dominance-10801446/",
+      "source": "indianexpress.com",
+      "published_at": "2026-07-24T08:15:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 75,
+      "story_type": "Market Competition",
+      "summary": "AMD has unveiled its Helios AI rack-scale system, a new platform designed for large-scale AI model training and data centre deployment, positioning it as a direct competitor to Nvidia's Grace Blackwell and Vera Rubin architectures.",
+      "why_it_matters": "The entry of a major competitor like AMD into the rack-scale AI infrastructure market highlights the intensifying competition for data centre dominance as the global AI accelerator market is projected to reach approximately $1.4 trillion by 2030.",
+      "verified_facts": [
+        "AMD unveiled the Helios AI rack-scale system at its Advancing AI conference.",
+        "Major customers including Microsoft, OpenAI, Meta, Oracle, and Anthropic are planning deployments of the Helios system.",
+        "The global AI accelerator market is projected to reach approximately $1.4 trillion by 2030."
+      ],
+      "warnings": [
+        "The claim that Helios outperforms Nvidia’s Vera Rubin system is based on industry reports cited in the source, rather than independent verification.",
+        "The source material mentions the system will begin shipping later this year, but does not provide a specific date."
+      ],
+      "drafts": {
+        "concise": "AMD has announced the launch of its Helios AI rack-scale system, a platform engineered to support the training and deployment of frontier AI models. Designed for high-performance data centre environments, the system has already secured commitments from major industry players, including Microsoft, OpenAI, Meta, Oracle, and Anthropic. As the demand for AI infrastructure continues to scale, the introduction of Helios marks a significant development in the competitive landscape for AI hardware. With the global AI accelerator market expected to reach $1.4 trillion by 2030, the industry remains in a period of rapid evolution and expansion. We continue to monitor these developments closely as the sector matures. #AI #Semiconductors #NextWavePartners",
+        "investor": "The AI infrastructure market continues to show significant growth potential, with projections estimating the global AI accelerator market will reach $1.4 trillion by 2030. AMD’s recent unveiling of the Helios AI rack-scale system underscores the increasing demand for high-performance computing solutions capable of managing complex, agentic AI workloads. By securing early deployment commitments from key partners such as Microsoft, Anthropic, and Meta, AMD is positioning its hardware to challenge existing market leaders in the data centre segment. This development highlights the ongoing capital intensity and technological innovation required to support the next generation of frontier AI models. We remain focused on the long-term implications of these infrastructure shifts for the broader technology ecosystem. #AIInfrastructure #Investment #TechTrends",
+        "people": "The rapid evolution of AI is driving unprecedented demand for computing power, a trend recently highlighted by AMD’s introduction of the Helios AI rack-scale system. During the Advancing AI conference, CEO Dr. Lisa Su noted that the rise of agentic AI is fundamentally changing computing requirements, necessitating more robust and programmable GPU architectures. It is notable to see such significant industry alignment, with major organisations including Microsoft, OpenAI, and Anthropic already planning to integrate this new platform into their data centre operations. As the industry works to scale the infrastructure required for the next generation of AI models, the focus remains on delivering the performance and reliability that these complex systems demand. #AI #Innovation #TechLeadership"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "42be67cf17a81d4a",
+      "company": "NVIDIA",
+      "company_domain": "nvidia.com",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "The Ultimate Bull Run for NVIDIA , Micron , and SanDisk May Be Closer Than Investors Think",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ultimate-bull-run-nvidia-micron-215348964.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-07-24T10:15:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 65,
+      "story_type": "Market Analysis",
+      "summary": "NVIDIA continues to demonstrate strong financial performance, reporting $81.61 billion in Q1 FY2027 revenue—an 85.2% year-over-year increase—and extending its streak of earnings beats to five consecutive quarters.",
+      "why_it_matters": "The data highlights the sustained demand for AI infrastructure, supported by significant hyperscaler capital expenditure and the rapid scaling of agentic AI across industries.",
+      "verified_facts": [
+        "NVIDIA reported $81.61 billion in Q1 FY2027 revenue, an 85.2% increase year-over-year.",
+        "NVIDIA has achieved five consecutive quarters of earnings beats.",
+        "Data Center revenue for NVIDIA grew 92% year-over-year."
+      ],
+      "warnings": [
+        "The source material contains speculative price targets and investment advice which are not endorsed by Next Wave Partners.",
+        "The article references external analyst opinions regarding future market share shifts that remain speculative."
+      ],
+      "drafts": {
+        "concise": "NVIDIA’s latest financial results underscore the ongoing momentum in the AI infrastructure sector. The company reported $81.61 billion in Q1 FY2027 revenue, marking an 85.2% year-over-year increase, with Data Center revenue climbing 92%. This performance marks the fifth consecutive quarter of earnings beats for the firm. As hyperscalers continue to scale their capital expenditure to support the deployment of agentic AI, the demand for high-performance computing hardware remains a critical driver of industry growth. We continue to monitor these developments as the semiconductor landscape evolves to meet the requirements of next-generation AI models. #NVIDIA #Semiconductors #AIInfrastructure",
+        "investor": "The latest earnings report from NVIDIA provides further evidence of the robust demand underpinning the AI infrastructure buildout. With Q1 FY2027 revenue reaching $81.61 billion—up 85.2% year-over-year—and a 92% surge in Data Center revenue, the company’s growth trajectory remains significant. Management has disclosed $119 billion in supply commitments, reflecting strong visibility into future demand. As inference costs decrease and token volume increases, the role of high-performance silicon becomes increasingly central to the broader AI ecosystem. These figures, coupled with sustained hyperscaler investment, highlight the structural shifts currently reshaping the semiconductor and memory markets. #AI #Investing #NextWavePartners",
+        "people": "NVIDIA’s recent performance highlights the scale of innovation currently being delivered by their team. CEO Jensen Huang recently noted that 'Agentic AI has arrived,' a sentiment reflected in the company's strong operational results, including an 85.2% year-over-year revenue increase in Q1 FY2027. Achieving five consecutive quarters of earnings beats is a testament to the company's execution in a rapidly evolving market. As the industry moves toward more efficient and productive AI applications, the infrastructure designed by the NVIDIA team remains at the forefront of this technological shift. We look forward to seeing how these advancements continue to drive value across global industries. #NVIDIA #Leadership #TechInnovation"
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
@@ -398,17 +491,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0f835cda43884aa5",
+      "id": "ba10d42a6350e614",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Access without ownership: Retail’s quiet operational risk",
-      "url": "https://securityjournaluk.com/access-without-ownership-retails-risk/",
+      "title": "Synectics’ Synergy achieves NPSA CAPSS certification",
+      "url": "https://securityjournaluk.com/synergy-npsa-capss-certification/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-07-23T06:30:00+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
+      "published_at": "2026-07-24T08:28:12+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
       "score": 75,
-      "summary": "Retailers are increasingly struggling with 'access drift' due to fragmented key management, leading to operational inefficiencies and security risks across large, multi-site estates.",
-      "angle": "Highlights growing demand for centralised, technology-driven access governance and digital key management solutions within the retail property sector.",
+      "summary": "Synectics' Synergy platform has achieved NPSA CAPSS certification, confirming it meets stringent UK government cybersecurity standards for physical security systems.",
+      "angle": "Highlights the increasing importance of independent cyber-resilience certification for physical security technology in critical infrastructure procurement.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -566,18 +659,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "228d16008db74281",
+      "id": "6ac85725923ca552",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "India targets 60 % recycled content in rigid packaging",
-      "url": "https://finance.yahoo.com/economy/policy/articles/india-targets-60-recycled-content-074141962.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-07-14T08:15:00+00:00",
-      "first_seen": "2026-07-22T16:55:41.875117+00:00",
-      "score": 85,
-      "summary": "India has introduced an Extended Producer Responsibility framework requiring rigid plastic packaging to contain at least 60% recycled content by the 2028–29 financial year.",
-      "angle": "Highlights global regulatory trends mandating recycled content, impacting material sourcing and circular design strategies for packaging manufacturers.",
-      "discovered_via": "GDELT"
+      "title": "Mary Creagh ‘no longer in Defra circular economy minister role’",
+      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/mary-creagh-no-longer-in-defra-circular-economy-minister-role-24-07-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-07-24T10:12:16+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 75,
+      "summary": "Mary Creagh has stepped down as the Defra minister responsible for circular economy policy, with her successor's specific responsibilities yet to be confirmed by the department.",
+      "angle": "Ministerial changes create uncertainty regarding the implementation timeline for upcoming packaging regulations, including EPR and Deposit Return Schemes.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "7d0939f02a1bcefd",
@@ -720,31 +813,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "664f48f6748acd2b",
+      "id": "17bb34b8d8540bf6",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "New Push to Fix Calculus Bottleneck",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/07/23/new-push-fix-calculus-bottleneck",
+      "title": "Turning Apprenticeships Into Degrees",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/07/24/turning-apprenticeships-degrees",
       "source": "insidehighered.com",
-      "published_at": "2026-07-23T07:00:00+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
+      "published_at": "2026-07-24T07:00:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
       "score": 75,
-      "summary": "Every Learner Everywhere has launched a department-wide initiative across 12 institutions to redesign calculus instruction using AI-enabled courseware and data-driven continuous improvement strategies.",
-      "angle": "Highlights a shift toward department-wide course redesign and free, AI-enabled courseware as alternatives to traditional textbook models.",
+      "summary": "Michigan has launched a program allowing registered apprentices to earn college credit for on-the-job training, potentially shortening the time required to complete an associate degree.",
+      "angle": "Highlights a growing trend of integrating vocational training with formal higher education, impacting curriculum and credentialing demand.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "22197650c18fa3ff",
+      "id": "63e612c71fa88e89",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "AAUP Denounces Politician, Donor ‘Extortion’ of Universities",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/07/23/aaup-denounces-politician-donor-extortion-universities",
+      "title": "Fumbling Toward an AI Policy",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/07/24/fumbling-toward-ai-policy",
       "source": "insidehighered.com",
-      "published_at": "2026-07-23T07:00:00+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
+      "published_at": "2026-07-24T07:00:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
       "score": 75,
-      "summary": "The AAUP has released a report alleging that political and donor pressure is threatening institutional autonomy, academic freedom, and shared governance within higher education institutions.",
-      "angle": "Increased political intervention in university governance and curriculum design impacts the operational environment for higher education publishers.",
+      "summary": "Higher education institutions are struggling to implement enforceable AI policies as the technology evolves faster than administrative processes, creating uncertainty regarding academic integrity and curriculum design.",
+      "angle": "Highlights the critical challenge of integrating AI into educational workflows while maintaining pedagogical value and academic standards.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -846,32 +939,74 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2ea8e941740b1593",
+      "id": "7a908263a6bf7f10",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "McDonald backed to retain construction brief under Burnham",
-      "url": "https://www.constructionnews.co.uk/government/mcdonald-backed-to-retain-construction-brief-under-burnham-23-07-2026/",
+      "title": "Morgan Sindall gains approval for £100m Crystal Palace sports centre overhaul",
+      "url": "https://www.constructionnews.co.uk/contractors/morgan-sindall/morgan-sindall-gains-approval-for-100m-crystal-palace-sports-centre-overhaul-24-07-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-07-23T11:45:48+00:00",
-      "first_seen": "2026-07-23T14:42:29.741334+00:00",
+      "published_at": "2026-07-24T09:41:29+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
       "score": 65,
-      "summary": "Chris McDonald is expected to retain the construction minister brief within the newly formed Department for Business, Innovation, Science and Trade under Prime Minister Andy Burnham.",
-      "angle": "Continuity in ministerial leadership provides stability for construction policy, regulatory frameworks, and long-term infrastructure investment planning.",
+      "summary": "Bromley Council has approved Morgan Sindall’s £100m redevelopment of the Crystal Palace National Sports Centre, which includes facade refurbishment and the installation of new glazed screens.",
+      "angle": "Highlights demand for high-performance glazing in large-scale public sector heritage refurbishment and energy efficiency projects.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "dae51833bf39faff",
+      "id": "4033c274154a8b24",
       "company": "NVIDIA",
       "industry": "Semiconductors and AI computing hardware",
-      "title": "Oregon awarded $160M to expand the semiconductor industry and boost economic development - Oregon Public Broadcasting - OPB",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZU5zdC1uaDRSWGYtcmEyVzlINXR5RXEwY01aX3pOcG1WQmVKVElVT09YeFFNcnRlckNDeUpwdUx4LWtOaEZfcGNsbWNBc2FENVNURmtnc0FISG9oOXI3TUpFYU9nSkxaM2V1YWtXSjZuS0V2M1V2c3NFWWN4RU51TlhkdXA2a0FBeEZtelZXY1RDZF9IYTNxWTBwX25uQVNYVU1odkN1MGU3U3JKVTJUSFJuYzRVc3NnNGg0?oc=5",
-      "source": "Oregon Public Broadcasting - OPB",
-      "published_at": "2026-07-23T16:28:40+00:00",
-      "first_seen": "2026-07-24T06:42:35.652871+00:00",
+      "title": "Choosing Between U . S . And Chinese AI Models : The Export Control Risks On Both Sides",
+      "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1821964/choosing-between-us-and-chinese-ai-models-the-export-control-risks-on-both-sides",
+      "source": "mondaq.com",
+      "published_at": "2026-07-24T00:30:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 95,
+      "summary": "U.S. export controls on AI models and hardware are increasingly implemented through unpublished directives, creating significant regulatory uncertainty for global AI infrastructure and semiconductor supply chains.",
+      "angle": "Highlights escalating geopolitical regulatory risks and the critical reliance of global AI development on U.S. semiconductor hardware.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "2a48d97e5bf197c5",
+      "company": "NVIDIA",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "Broad Tariffs on Semiconductors Risk Economic Harm and American Security",
+      "url": "https://townhall.com/columnists/petermihalick/2026/07/24/broad-tariffs-on-semiconductors-risks-economic-harm-and-american-security-n2679975",
+      "source": "townhall.com",
+      "published_at": "2026-07-24T04:45:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 85,
+      "summary": "The Trump Administration is considering expanding broad-based tariffs on imported semiconductors, which critics argue could increase costs and disrupt supply chains for essential technology industries.",
+      "angle": "Potential broad-based semiconductor tariffs threaten to increase input costs and disrupt global supply chains for hardware manufacturers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "8cc4fcd1b87c0472",
+      "company": "NVIDIA",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "Prediction : AMD Stock Will Skyrocket After Aug . 4 Due to This Massive News",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-stock-skyrocket-aug-145300934.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-07-23T23:00:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
+      "score": 85,
+      "summary": "Microsoft has announced plans to deploy AMD's Helios rack-scale AI server systems in its Azure data centers to support frontier model AI inference and Azure AI services.",
+      "angle": "Highlights increasing competition in the AI hardware market as hyperscalers diversify their data center infrastructure beyond incumbent suppliers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "debeee7f1f8a7f88",
+      "company": "NVIDIA",
+      "industry": "Semiconductors and AI computing hardware",
+      "title": "South Korea moves to localize military semiconductors",
+      "url": "https://www.upi.com/Top_News/World-News/2026/07/23/Defense-Acquisition-Program-Administration/9321784845533/",
+      "source": "upi.com",
+      "published_at": "2026-07-23T23:00:00+00:00",
+      "first_seen": "2026-07-24T10:59:51.058171+00:00",
       "score": 65,
-      "summary": "Oregon has been awarded $160 million in funding to expand its semiconductor industry and stimulate regional economic development.",
-      "angle": "Highlights regional government investment and infrastructure support for domestic semiconductor manufacturing capacity and supply chain growth.",
-      "discovered_via": "Google News RSS"
+      "summary": "The South Korean government has launched a strategy to localize military semiconductor production and mandate the use of domestic chips in national weapons systems.",
+      "angle": "Highlights increasing geopolitical trends toward semiconductor supply chain sovereignty and domestic industrial protectionism in defense-critical hardware sectors.",
+      "discovered_via": "GDELT"
     }
   ],
   "run_summary": {
@@ -879,14 +1014,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 64,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 26,
+    "providers_succeeded": 58,
+    "queued_candidates": 135,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
-    "carried_forward": 0
+    "skipped_recently_evaluated": 5,
+    "carried_forward": 2
   }
 }
