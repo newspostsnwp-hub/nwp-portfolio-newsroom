@@ -46,7 +46,11 @@ MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("DIGEST_SECTOR_MAX", "3")))
 # Sector items per company on a sector-only edition, where sector news is the
 # whole briefing rather than a subheading.
 MAX_SECTOR_FALLBACK = max(1, int(os.getenv("DIGEST_SECTOR_FALLBACK_MAX", "4")))
-# "today" = only stories first seen in this refresh; "all" = everything in file.
+# "today" = only stories first seen since the last successful send (so an
+# afternoon refresh's stories, which get no email of their own, still reach
+# the next morning's digest instead of being silently skipped); "all" =
+# everything in file. Falls back to "first seen today" if no prior send is
+# on record yet.
 EMAIL_SCOPE = os.getenv("EMAIL_SCOPE", "today").strip().lower()
 # The briefing now sends on every run. Set SEND_IF_EMPTY=false to restore the
 # old behaviour of skipping when there is genuinely nothing to carry.
@@ -160,6 +164,7 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
     generated_at = str(data.get("generated_at", ""))
     digest_intro = str(data.get("digest_intro", "") or "").strip()
     today = day_key(generated_at)
+    last_sent = parse_date(str(data.get("last_digest_sent_at", "") or ""))
 
     all_stories = [s for s in data.get("stories", []) if isinstance(s, dict) and s.get("title")]
     all_sector = [s for s in data.get("sector_stories", []) if isinstance(s, dict) and s.get("title")]
@@ -167,6 +172,15 @@ def load_edition() -> tuple[list[tuple[str, list[dict], list[dict]]], str, int, 
     def in_scope(items: list[dict]) -> list[dict]:
         if EMAIL_SCOPE != "today":
             return items
+        if last_sent is not None:
+            # Everything new since the last successful send - covers an
+            # afternoon refresh's stories too, not just today's calendar date.
+            def newer_than_last_send(s: dict) -> bool:
+                seen = parse_date(str(s.get("first_seen") or s.get("published_at", "")))
+                return seen is not None and seen > last_sent
+            return [s for s in items if newer_than_last_send(s)]
+        # No prior send on record (first run after deploying this, or the
+        # marker was never set) - the old, safe "first seen today" behaviour.
         return [s for s in items
                 if day_key(str(s.get("first_seen") or s.get("published_at", ""))) == today]
 
@@ -472,6 +486,21 @@ def send_email(subject: str, html_body: str, text_body: str) -> None:
         server.send_message(message)
 
 
+def mark_digest_sent(generated_at: str) -> None:
+    """Record that everything up to this edition has been emailed, so the
+    next run's "today" scope starts from here rather than from calendar
+    midnight - only called after send_email() succeeds."""
+    try:
+        data = json.loads(NEWS_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Could not update last_digest_sent_at: {exc}", file=sys.stderr)
+        return
+    data["last_digest_sent_at"] = generated_at
+    temporary = NEWS_FILE.with_suffix(NEWS_FILE.suffix + ".tmp")
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(NEWS_FILE)
+
+
 def main() -> None:
     missing = [n for n, v in (("SMTP_USER", SMTP_USER), ("SMTP_PASSWORD", SMTP_PASSWORD),
                               ("EMAIL_TO", EMAIL_TO)) if not v]
@@ -492,6 +521,7 @@ def main() -> None:
     send_email(subject,
                build_html(blocks, generated_at, story_total, sector_total, sector_only, digest_intro),
                build_text(blocks, generated_at, story_total, sector_total, sector_only, digest_intro))
+    mark_digest_sent(generated_at)
     print(f"Sent {label}: {story_total} stories, {sector_total} sector items, "
           f"{len(blocks)} companies -> {', '.join(EMAIL_TO)}")
 

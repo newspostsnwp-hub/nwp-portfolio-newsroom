@@ -1475,6 +1475,11 @@ def main() -> None:
     payload = {
         "generated_at": now_iso,
         "digest_intro": digest_intro,
+        # Carried forward as-is (not owned by this script) - send_digest.py
+        # sets this after a successful send so the next "today" scope starts
+        # from here rather than calendar midnight, and it must survive this
+        # rewrite or that mechanism silently breaks every other run.
+        "last_digest_sent_at": previous.get("last_digest_sent_at", ""),
         "companies": directory,
         "lookback_days": LOOKBACK_DAYS,
         "sector_lookback_days": SECTOR_LOOKBACK_DAYS,
