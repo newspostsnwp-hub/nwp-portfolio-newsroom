@@ -83,24 +83,48 @@
   /* ---------------- ticker (JS marquee; no thick rules) ---------------- */
   .ticker{background:var(--yellow);border:0;overflow:hidden;white-space:nowrap;height:31px;
           display:flex;align-items:center;}
-  .ticker-label{background:var(--ink-on-yellow);color:var(--yellow);font-family:var(--sans);font-weight:800;
+  .ticker-label{background:var(--ink-on-yellow);color:#ffd21f;font-family:var(--sans);font-weight:800;
                 font-size:10px;letter-spacing:1.6px;padding:0 12px;height:31px;display:flex;
-                align-items:center;flex:0 0 auto;}
+                align-items:center;flex:0 0 auto;-webkit-text-fill-color:#ffd21f;}
   .ticker-track{display:inline-block;white-space:nowrap;will-change:transform;}
   .ticker-track span{color:var(--ink-on-yellow);font-family:var(--sans);font-size:11.5px;
                      letter-spacing:.3px;padding:0 26px;}
   .ticker-track span b{color:var(--ink-on-yellow);font-weight:800;}
   @media (prefers-reduced-motion:reduce){.live-dot{animation:none;}}
 
+  /* ---------------- back-to-top logo (appears on scroll) ---------------- */
+  .totop{
+    position:fixed;right:22px;bottom:22px;z-index:60;
+    display:flex;align-items:center;gap:10px;
+    background:var(--bar);border:1px solid var(--bar-line);
+    padding:9px 14px 9px 10px;cursor:pointer;
+    box-shadow:0 4px 20px rgba(0,0,0,.30);
+    opacity:0;transform:translateY(12px);pointer-events:none;
+    transition:opacity .22s ease,transform .22s ease,box-shadow .15s ease;
+  }
+  .totop.show{opacity:1;transform:translateY(0);pointer-events:auto;}
+  .totop:hover{box-shadow:0 8px 26px rgba(0,0,0,.38);transform:translateY(-2px);}
+  .totop-mark{background:var(--yellow);color:var(--ink-on-yellow);font-family:var(--sans);
+    font-weight:800;font-size:13px;letter-spacing:.5px;line-height:1;padding:6px 7px;}
+  .totop-word{font-family:var(--sans);color:#ffffff;font-weight:800;font-size:13px;
+    letter-spacing:.2px;white-space:nowrap;}
+  .totop-word b{color:#5aa2e8;font-weight:800;}
+  @media (prefers-reduced-motion:reduce){
+    .totop{transition:opacity .22s ease;transform:none;}
+    .totop.show{transform:none;} .totop:hover{transform:none;}
+  }
+
   /* ---------------- primary nav ---------------- */
-  .nav{display:flex;background:var(--panel);border-bottom:2px solid var(--ink);padding:0 12px;
-       overflow-x:auto;scrollbar-width:none;}
-  .nav::-webkit-scrollbar{display:none;}
+  .nav{display:flex;flex-wrap:nowrap;align-items:stretch;background:var(--panel);
+       border-bottom:2px solid var(--ink);padding:0 12px;
+       overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;
+       scrollbar-width:none;-ms-overflow-style:none;}
+  .nav::-webkit-scrollbar{display:none;height:0;}
   .nav button{
     background:transparent;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;
     color:var(--dim);padding:12px 16px;letter-spacing:1.3px;font-size:12px;line-height:1;
     text-transform:uppercase;font-weight:700;font-family:var(--sans);display:flex;
-    align-items:center;gap:9px;white-space:nowrap;
+    align-items:center;gap:9px;white-space:nowrap;flex:0 0 auto;
   }
   .nav button:hover{color:var(--ink);}
   .nav button[aria-current="true"]{color:var(--ink);border-bottom-color:var(--ink);}
@@ -332,8 +356,11 @@
     .wordmark{font-size:23px;}
     .masthead-tag{display:none;}
     .masthead-right{gap:12px;width:100%;}
-    .nav{overflow-x:auto;padding:0 6px;}
-    .nav button{padding:11px 13px;font-size:11px;}
+    .nav{overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap;padding:0 6px;}
+    .nav button{padding:11px 13px;font-size:11px;flex:0 0 auto;}
+    .totop{right:14px;bottom:14px;padding:8px;gap:0;}
+    .totop-word{display:none;}
+    .totop-mark{font-size:12px;padding:6px 8px;}
     .sect{padding:18px 14px;}
     .sect h2{font-size:25px;}
     .headline{font-size:21px;}
@@ -450,6 +477,11 @@
   </div>
 </section>
 </main>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top" title="Back to top">
+  <span class="totop-mark">Top</span>
+  <span class="totop-word">Next Wave&nbsp;<b>Partners</b></span>
+</button>
 
 <div class="foot" id="foot"></div>
 
@@ -1151,6 +1183,20 @@
 
   tick();
   setInterval(tick, 1000);
+
+  // Back-to-top logo: reveal once the reader scrolls past the masthead, smooth-scroll home.
+  var toTop = document.getElementById("totop");
+  if (toTop) {
+    var syncToTop = function () {
+      if (window.pageYOffset > 320) { toTop.classList.add("show"); }
+      else { toTop.classList.remove("show"); }
+    };
+    window.addEventListener("scroll", syncToTop, { passive: true });
+    toTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    syncToTop();
+  }
 
   function loadData(initial) {
     return fetch("data/news.json?t=" + Date.now())
