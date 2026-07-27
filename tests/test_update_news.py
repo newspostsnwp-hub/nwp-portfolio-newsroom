@@ -7,6 +7,8 @@ without turning scripts/ into a package.
 """
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 import pytest
 
 import update_news as u
@@ -328,3 +330,126 @@ class TestValidateEnrichment:
     def test_overlong_description_is_truncated(self):
         result = u.validate_enrichment({"description": "x" * 5000})
         assert len(result["description"]) == u.DESCRIPTION_LIMIT
+
+
+# ------------------------------------------------------------- matches_company
+
+class TestMatchesCompany:
+    COMPANY = {
+        "name": "Future Maintenance Technologies",
+        "aliases": ["FMT Robotics", "thinkFMT"],
+        "search_terms": ["ARIIS rail inspection robot", "TRES train inspection robot"],
+        "people": ["Jane Doe"],
+    }
+
+    def test_matches_via_search_terms_only(self):
+        assert u.matches_company(
+            self.COMPANY, "ARIIS rail inspection robot completes trial on the ECML")
+
+    def test_matches_via_people_only(self):
+        assert u.matches_company(self.COMPANY, "Jane Doe joins the board of a rail supplier")
+
+    def test_rejects_unrelated_text(self):
+        assert not u.matches_company(self.COMPANY, "Totally unrelated story about biscuits")
+
+
+# --------------------------------------------------------------- fetch_article
+
+class _FakeResponse:
+    def __init__(self, text: str):
+        self.text = text
+        self.headers = {"content-type": "text/html; charset=utf-8"}
+
+
+class TestFetchArticle:
+    def test_extracts_text_from_div_and_li_layout(self, monkeypatch):
+        # No <p> tags at all - the shape that used to yield text == "" and
+        # get dropped as "thin" before the LLM ever saw an appointment post.
+        html = """
+        <html><body><main>
+          <div>
+            <div>Jane Doe has been appointed Head of Post-Production at Acme Studios.</div>
+            <ul><li>She joins from Rival Studios where she led the grading team for six years.</li></ul>
+          </div>
+        </main></body></html>
+        """
+        monkeypatch.setattr(u, "request_with_backoff", lambda *a, **k: _FakeResponse(html))
+        result = u.fetch_article("https://example.com/news/jane-doe-appointed-head")
+        assert "Jane Doe has been appointed" in result["text"]
+        assert "Rival Studios" in result["text"]
+
+
+# ------------------------------------------------------------ resolve_scraped_date
+
+class TestResolveScrapedDate:
+    NOW = "2026-07-27T00:00:00+00:00"
+
+    def test_official_source_undated_is_kept_and_estimated(self):
+        item = {"discovered_via": "Company newsroom",
+                "url": "https://example.com/news/jane-doe-appointed-head"}
+        page = {"published": "", "text": "x", "description": "", "title": ""}
+        assert u.resolve_scraped_date(item, page, self.NOW) is True
+        assert item["published_at"] == self.NOW
+        assert item["date_estimated"] is True
+
+    def test_aggregator_undated_is_dropped(self):
+        item = {"discovered_via": "GDELT",
+                "url": "https://example.com/news/jane-doe-appointed-head"}
+        page = {"published": "", "text": "x", "description": "", "title": ""}
+        assert u.resolve_scraped_date(item, page, self.NOW) is False
+
+
+# ----------------------------------------------------- seen-cache retry-once
+
+class TestSeenCacheRetry:
+    def test_rejection_is_retried_once_then_suppressed(self):
+        cutoff = u.cutoff(7)
+        now_iso = datetime.now(timezone.utc).isoformat()
+
+        first = u._reject_record(None, now_iso)
+        assert first["n"] == 1
+        assert u.seen_cache_should_skip(first, cutoff) is False  # first reject: retry allowed
+
+        second = u._reject_record(first, now_iso)
+        assert second["n"] == 2
+        assert u.seen_cache_should_skip(second, cutoff) is True  # second reject: suppressed
+
+    def test_kept_record_always_suppressed(self):
+        cutoff = u.cutoff(7)
+        now_iso = datetime.now(timezone.utc).isoformat()
+        record = {"t": now_iso, "kept": True}
+        assert u.seen_cache_should_skip(record, cutoff) is True
+
+    def test_legacy_record_without_n_counts_as_one_prior_attempt(self):
+        cutoff = u.cutoff(7)
+        now_iso = datetime.now(timezone.utc).isoformat()
+        legacy = {"t": now_iso, "kept": False}
+        assert u.seen_cache_should_skip(legacy, cutoff) is False  # one retry still owed
+        bumped = u._reject_record(legacy, now_iso)
+        assert bumped["n"] == 2
+        assert u.seen_cache_should_skip(bumped, cutoff) is True
+
+
+# -------------------------------------------------------------- bing_news_url
+
+class TestBingNewsUrl:
+    def test_builds_quoted_rss_query_scoped_to_gb(self):
+        url = u.bing_news_url(["Molinare", "Notorious DIT"])
+        assert url.startswith("https://www.bing.com/news/search?q=")
+        assert "format=RSS" in url
+        assert "cc=GB" in url
+        assert "Molinare" in url and "Notorious" in url
+
+
+# ------------------------------------------------------- search_companies_house
+
+class TestSearchCompaniesHouse:
+    def test_returns_empty_with_no_key_set(self, monkeypatch):
+        monkeypatch.delenv("COMPANIES_HOUSE_KEY", raising=False)
+        items, ok = u.search_companies_house({"name": "Acme", "company_number": "12345678"})
+        assert items == [] and ok == 0
+
+    def test_returns_empty_with_no_company_number(self, monkeypatch):
+        monkeypatch.setenv("COMPANIES_HOUSE_KEY", "fake-key")
+        items, ok = u.search_companies_house({"name": "Acme"})
+        assert items == [] and ok == 0

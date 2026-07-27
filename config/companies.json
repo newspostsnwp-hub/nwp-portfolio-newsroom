@@ -34,6 +34,9 @@
     ],
     "sector_rss_feeds": [
       "https://postandparcel.info/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://postandparcel.info/feed/"
     ]
   },
   {
@@ -77,6 +80,9 @@
     ],
     "sector_rss_feeds": [
       "https://securityjournaluk.com/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://securityjournaluk.com/feed/"
     ]
   },
   {
@@ -109,6 +115,9 @@
     "exclude_terms": [],
     "rss_feeds": [],
     "sector_rss_feeds": [
+      "https://www.electrive.com/feed/"
+    ],
+    "trade_rss_feeds": [
       "https://www.electrive.com/feed/"
     ]
   },
@@ -147,6 +156,11 @@
     "sector_rss_feeds": [
       "https://www.televisual.com/feed/",
       "https://postperspective.com/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://www.televisual.com/feed/",
+      "https://postperspective.com/feed/",
+      "https://www.advanced-television.com/feed/"
     ]
   },
   {
@@ -181,6 +195,9 @@
     ],
     "sector_rss_feeds": [
       "https://postperspective.com/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://postperspective.com/feed/"
     ]
   },
   {
@@ -211,6 +228,9 @@
     "exclude_terms": [],
     "rss_feeds": [],
     "sector_rss_feeds": [
+      "https://www.packagingnews.co.uk/feed"
+    ],
+    "trade_rss_feeds": [
       "https://www.packagingnews.co.uk/feed"
     ]
   },
@@ -249,6 +269,9 @@
     "rss_feeds": [],
     "sector_rss_feeds": [
       "https://www.uktech.news/feed"
+    ],
+    "trade_rss_feeds": [
+      "https://www.uktech.news/feed"
     ]
   },
   {
@@ -286,6 +309,9 @@
     ],
     "sector_rss_feeds": [
       "https://www.talkingretail.com/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://www.talkingretail.com/feed/"
     ]
   },
   {
@@ -320,6 +346,9 @@
     "rss_feeds": [],
     "sector_rss_feeds": [
       "https://www.insidehighered.com/rss.xml"
+    ],
+    "trade_rss_feeds": [
+      "https://www.insidehighered.com/rss.xml"
     ]
   },
   {
@@ -353,6 +382,9 @@
     "rss_feeds": [],
     "sector_rss_feeds": [
       "https://www.bionews.org.uk/feed"
+    ],
+    "trade_rss_feeds": [
+      "https://www.bionews.org.uk/feed"
     ]
   },
   {
@@ -384,6 +416,9 @@
       "https://roof-maker.co.uk/blog/feed/"
     ],
     "sector_rss_feeds": [
+      "https://www.constructionnews.co.uk/feed/"
+    ],
+    "trade_rss_feeds": [
       "https://www.constructionnews.co.uk/feed/"
     ]
   },
@@ -425,7 +460,12 @@
     "sector_rss_feeds": [
       "https://www.railwaygazette.com/rss",
       "https://www.aviationtoday.com/feed/",
-      "https://www.roboticsbusinessreview.com/feed/"
+      "https://www.roboticsandautomationnews.com/feed/"
+    ],
+    "trade_rss_feeds": [
+      "https://www.railwaygazette.com/rss",
+      "https://www.aviationtoday.com/feed/",
+      "https://www.roboticsandautomationnews.com/feed/"
     ]
   },
   {
