@@ -41,7 +41,10 @@ EMAIL_TO = [a.strip() for a in os.getenv("EMAIL_TO", "").split(",") if a.strip()
 DASHBOARD_URL = os.getenv(
     "DASHBOARD_URL", "https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/"
 ).strip()
-MAX_PER_COMPANY = max(1, int(os.getenv("DIGEST_MAX", "4")))
+# Default matches update_news.py's own DIGEST_MAX default - the workflow only
+# overrides this on the email step, not the update-news step, so if the two
+# scripts' defaults drift the digest intro undercounts against the email.
+MAX_PER_COMPANY = max(1, int(os.getenv("DIGEST_MAX", "6")))
 MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("DIGEST_SECTOR_MAX", "3")))
 # Sector items per company on a sector-only edition, where sector news is the
 # whole briefing rather than a subheading.
@@ -301,6 +304,19 @@ def render_story(story: dict[str, Any], first: bool) -> str:
     </td></tr>"""
 
 
+TIER_LABELS = {"lead": "Lead stories", "reported": "Also reported", "low": "Early read"}
+TIER_ORDER = ("lead", "reported", "low")
+
+
+def render_group_heading(label: str, accent: str, divider: bool) -> str:
+    top = f"border-top:1px solid {HAIR};" if divider else ""
+    return f"""
+    <tr><td style="padding:12px 22px 2px 22px;{top}">
+      <span style="font-family:{SANS};font-size:10.5px;font-weight:bold;color:{accent};
+            text-transform:uppercase;letter-spacing:0.5px;">{escape(label)}</span>
+    </td></tr>"""
+
+
 def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True) -> str:
     if not items:
         return ""
@@ -328,8 +344,73 @@ def render_sector(items: list[dict[str, Any]], accent: str, divider: bool = True
         cellpadding="0" cellspacing="0">{''.join(rows)}</table></td></tr>"""
 
 
+def render_story_groups(stories: list[dict]) -> str:
+    """Group by tier (mirroring the dashboard), with catch-up coverage - stories
+    older than FRESH_DAYS - broken out below and clearly labelled, rather than
+    presented alongside today's news."""
+    fresh = [s for s in stories if s.get("recency", "fresh") != "catchup"]
+    catchup = [s for s in stories if s.get("recency", "fresh") == "catchup"]
+    tiers_present = {s.get("tier", "reported") for s in fresh}
+    rows: list[str] = []
+    wrote_anything = False
+    for tier in TIER_ORDER:
+        group = [s for s in fresh if s.get("tier", "reported") == tier]
+        if not group:
+            continue
+        after_heading = False
+        if len(tiers_present) > 1:
+            rows.append(render_group_heading(TIER_LABELS[tier], REVIEW if tier == "low" else READY,
+                                             divider=wrote_anything))
+            after_heading = True
+        for story in group:
+            rows.append(render_story(story, first=after_heading or not wrote_anything))
+            after_heading = False
+            wrote_anything = True
+    if catchup:
+        rows.append(render_group_heading("Catching up - not from today", MUTED, divider=wrote_anything))
+        after_heading = True
+        for story in catchup:
+            rows.append(render_story(story, first=after_heading))
+            after_heading = False
+            wrote_anything = True
+    return "".join(rows)
+
+
+def _text_story_lines(story: dict[str, Any]) -> list[str]:
+    status = "Draft ready" if story.get("status") == "ready" else "Needs review"
+    lines = [f"  {story.get('title','')}"]
+    if story.get("summary"):
+        lines.append(f"    {story['summary']}")
+    lines.append(f"    {story.get('source','')} | {story.get('story_type','Update')} | "
+                 f"{format_date(str(story.get('published_at','')))} | {status}")
+    lines.append(f"    {story.get('url','')}")
+    return lines
+
+
+def text_story_lines(stories: list[dict]) -> list[str]:
+    """Plain-text mirror of render_story_groups(): tier headings, catch-up
+    coverage broken out and labelled below the fresh news."""
+    fresh = [s for s in stories if s.get("recency", "fresh") != "catchup"]
+    catchup = [s for s in stories if s.get("recency", "fresh") == "catchup"]
+    tiers_present = {s.get("tier", "reported") for s in fresh}
+    lines: list[str] = []
+    for tier in TIER_ORDER:
+        group = [s for s in fresh if s.get("tier", "reported") == tier]
+        if not group:
+            continue
+        if len(tiers_present) > 1:
+            lines.append(f"  [{TIER_LABELS[tier].upper()}]")
+        for story in group:
+            lines += _text_story_lines(story)
+    if catchup:
+        lines.append("  [CATCHING UP - NOT FROM TODAY]")
+        for story in catchup:
+            lines += _text_story_lines(story)
+    return lines
+
+
 def render_block(company: str, stories: list[dict], sector: list[dict], accent: str) -> str:
-    rows = "".join(render_story(s, i == 0) for i, s in enumerate(stories))
+    rows = render_story_groups(stories)
     count = len(stories)
     if count:
         tag = "1 story" if count == 1 else f"{count} stories"
@@ -462,14 +543,7 @@ def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
              "", f"Dashboard: {DASHBOARD_URL}", "", "-" * 60]
     for company, stories, sector in blocks:
         lines += ["", company.upper(), "-" * len(company)]
-        for story in stories:
-            lines.append(f"  {story.get('title','')}")
-            if story.get("summary"):
-                lines.append(f"    {story['summary']}")
-            status = "Draft ready" if story.get("status") == "ready" else "Needs review"
-            lines.append(f"    {story.get('source','')} | {story.get('story_type','Update')} | "
-                         f"{format_date(str(story.get('published_at','')))} | {status}")
-            lines.append(f"    {story.get('url','')}")
+        lines += text_story_lines(stories)
         if sector:
             lines.append(f"  SECTOR - {sector[0].get('industry','')}")
             for item in sector:

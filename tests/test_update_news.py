@@ -7,7 +7,8 @@ without turning scripts/ into a package.
 """
 from __future__ import annotations
 
-from datetime import datetime, timezone
+import json
+from datetime import datetime, timedelta, timezone
 
 import pytest
 
@@ -453,3 +454,144 @@ class TestSearchCompaniesHouse:
         monkeypatch.setenv("COMPANIES_HOUSE_KEY", "fake-key")
         items, ok = u.search_companies_house({"name": "Acme"})
         assert items == [] and ok == 0
+
+
+# ------------------------------------------------------------ story_tier/recency
+
+class TestStoryTier:
+    def test_boundary_at_80_is_lead(self):
+        assert u.story_tier(80) == "lead"
+        assert u.story_tier(79) == "reported"
+
+    def test_boundary_at_60_is_reported(self):
+        assert u.story_tier(60) == "reported"
+        assert u.story_tier(59) == "low"
+
+    def test_below_45_is_still_low(self):
+        assert u.story_tier(0) == "low"
+
+
+class TestStoryRecency:
+    def test_exactly_fresh_days_old_is_fresh(self):
+        edge = (datetime.now(timezone.utc) - timedelta(days=u.FRESH_DAYS) + timedelta(minutes=5)).isoformat()
+        assert u.story_recency(edge) == "fresh"
+
+    def test_older_than_fresh_days_is_catchup(self):
+        old = (datetime.now(timezone.utc) - timedelta(days=u.FRESH_DAYS + 1)).isoformat()
+        assert u.story_recency(old) == "catchup"
+
+
+# ------------------------------------------------------------------ assemble_story
+
+def _story_item(**overrides):
+    item = {"url": "https://acme.com/a", "title": "Acme news", "company": "Acme",
+            "company_domain": "acme.com", "industry": "Media", "source": "Acme Press",
+            "published_at": datetime.now(timezone.utc).isoformat(), "discovered_via": "Official RSS"}
+    item.update(overrides)
+    return item
+
+
+def _story_analysis(**overrides):
+    analysis = {"score": 90, "story_type": "Update", "summary": "s", "why_it_matters": "w",
+                "verified_facts": [], "warnings": [],
+                "drafts": {"concise": "x", "investor": "", "people": ""}}
+    analysis.update(overrides)
+    return analysis
+
+
+class TestAssembleStory:
+    def test_high_score_no_warnings_is_ready(self):
+        story = u.assemble_story(_story_item(), _story_analysis(score=90), "2026-07-27T00:00:00Z")
+        assert story["status"] == "ready"
+
+    def test_trivial_warning_does_not_downgrade_status(self):
+        story = u.assemble_story(_story_item(),
+                                 _story_analysis(score=90, warnings=["A stylistic note."]),
+                                 "2026-07-27T00:00:00Z")
+        assert story["status"] == "ready"
+
+    def test_missing_draft_warning_downgrades_status(self):
+        story = u.assemble_story(_story_item(),
+                                 _story_analysis(score=90, warnings=[u.SUBSTANTIVE_WARNING]),
+                                 "2026-07-27T00:00:00Z")
+        assert story["status"] == "needs_review"
+
+    def test_below_lead_score_is_needs_review_even_without_warnings(self):
+        story = u.assemble_story(_story_item(), _story_analysis(score=70), "2026-07-27T00:00:00Z")
+        assert story["status"] == "needs_review"
+
+    def test_tier_and_recency_fields_present(self):
+        story = u.assemble_story(_story_item(), _story_analysis(score=90), "2026-07-27T00:00:00Z")
+        assert story["tier"] == "lead"
+        assert story["recency"] == "fresh"
+
+
+# ---------------------------------------------------------- skip_analysis assembly
+
+class TestAssembleSkipAnalysisStory:
+    def test_bypasses_llm_and_assembles_directly(self):
+        item = {"company": "Acme", "company_domain": "acme.com", "industry": "Media",
+                "title": "Jane Doe appointed Head of Ops at Acme",
+                "url": "https://find-and-update.company-information.service.gov.uk/company/1/officers",
+                "source": "Companies House",
+                "published_at": datetime.now(timezone.utc).isoformat(),
+                "feed_summary": "Companies House records show Jane Doe appointed Head of Ops.",
+                "discovered_via": "Companies House", "skip_analysis": True}
+        story = u.assemble_skip_analysis_story(item, "2026-07-27T00:00:00Z")
+        assert story["tier"] == "lead"
+        assert story["story_type"] == "Appointment"
+        assert story["drafts"] == {"concise": "", "investor": "", "people": ""}
+        assert story["status"] == "needs_review"
+
+    def test_malformed_item_raises_so_caller_can_guard(self):
+        with pytest.raises(Exception):
+            u.assemble_skip_analysis_story(None, "2026-07-27T00:00:00Z")
+
+
+# ---------------------------------------------------------------- archive merge
+
+class TestMergeArchive:
+    def test_new_items_append(self):
+        existing = [{"url": "https://a.com/1", "published_at": "2026-07-01T00:00:00Z"}]
+        fresh = [{"url": "https://a.com/2", "published_at": "2026-07-20T00:00:00Z"}]
+        assert len(u.merge_archive(existing, fresh)) == 2
+
+    def test_duplicate_by_normalised_url_not_appended(self):
+        existing = [{"url": "https://a.com/1?utm_source=x", "published_at": "2026-07-01T00:00:00Z"}]
+        fresh = [{"url": "https://a.com/1", "published_at": "2026-07-20T00:00:00Z"}]
+        assert len(u.merge_archive(existing, fresh)) == 1
+
+    def test_entry_for_a_now_removed_company_survives(self):
+        existing = [{"url": "https://old.com/1", "company": "GoneCo",
+                     "published_at": "2026-06-01T00:00:00Z"}]
+        merged = u.merge_archive(existing, [])
+        assert len(merged) == 1 and merged[0]["company"] == "GoneCo"
+
+    def test_24_month_cap_drops_provably_old_items(self):
+        very_old = (datetime.now(timezone.utc) - timedelta(days=u.ARCHIVE_MAX_DAYS + 30)).isoformat()
+        existing = [{"url": "https://a.com/1", "published_at": very_old}]
+        assert u.merge_archive(existing, []) == []
+
+    def test_item_without_a_parseable_date_is_kept_not_dropped(self):
+        existing = [{"url": "https://a.com/1", "published_at": ""}]
+        assert len(u.merge_archive(existing, [])) == 1
+
+
+class TestLoadArchive:
+    def test_missing_file_returns_empty_structure(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(u, "ARCHIVE_FILE", tmp_path / "archive.json")
+        assert u.load_archive() == {"stories": [], "sector_stories": []}
+
+    def test_corrupt_file_logs_and_starts_fresh(self, tmp_path, monkeypatch):
+        path = tmp_path / "archive.json"
+        path.write_text("{not valid json", encoding="utf-8")
+        monkeypatch.setattr(u, "ARCHIVE_FILE", path)
+        assert u.load_archive() == {"stories": [], "sector_stories": []}
+
+    def test_valid_file_is_read_not_discarded(self, tmp_path, monkeypatch):
+        path = tmp_path / "archive.json"
+        path.write_text(json.dumps({"stories": [{"url": "https://a.com/1"}], "sector_stories": []}),
+                        encoding="utf-8")
+        monkeypatch.setattr(u, "ARCHIVE_FILE", path)
+        result = u.load_archive()
+        assert len(result["stories"]) == 1

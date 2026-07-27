@@ -54,6 +54,10 @@ from requests import Response
 ROOT = Path(__file__).resolve().parents[1]
 COMPANIES_FILE = ROOT / "config" / "companies.json"
 OUTPUT_FILE = ROOT / "site" / "data" / "news.json"
+# Append-only back-catalogue - unlike news.json, never pruned by ARCHIVE_DAYS
+# or by a company being removed from companies.json. See merge_archive().
+ARCHIVE_FILE = ROOT / "site" / "data" / "archive.json"
+ARCHIVE_MAX_DAYS = 730  # ~24 months - a size guard only, not a freshness window.
 CACHE_DIR = ROOT / ".cache"
 SEEN_CACHE_FILE = CACHE_DIR / "seen.json"
 
@@ -75,8 +79,11 @@ SECTOR_LOOKBACK_DAYS = max(1, int(os.getenv("SECTOR_LOOKBACK_DAYS", "10")))
 ANALYZE_PER_COMPANY = max(1, int(os.getenv("ANALYZE_PER_COMPANY", "6")))
 MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("MAX_SECTOR_PER_COMPANY", "4")))
 ANALYZE_SECTOR_PER_COMPANY = max(0, int(os.getenv("ANALYZE_SECTOR_PER_COMPANY", "10")))
-MIN_SCORE = max(0, min(100, int(os.getenv("MIN_SCORE", "60"))))
+MIN_SCORE = max(0, min(100, int(os.getenv("MIN_SCORE", "45"))))
 READY_SCORE = max(0, min(100, int(os.getenv("READY_SCORE", "80"))))
+# Tiering for the dashboard/digest - LEAD/SOLID split what MIN_SCORE lets through.
+LEAD_SCORE = max(0, min(100, int(os.getenv("LEAD_SCORE", "80"))))
+SOLID_SCORE = max(0, min(100, int(os.getenv("SOLID_SCORE", "60"))))
 MIN_SECTOR_SCORE = max(0, min(100, int(os.getenv("MIN_SECTOR_SCORE", "50"))))
 # Relaxed floor used only to guarantee every company has some sector context.
 SECTOR_FLOOR_SCORE = max(0, min(100, int(os.getenv("SECTOR_FLOOR_SCORE", "32"))))
@@ -1215,23 +1222,34 @@ Rules:
 1. is_relevant is true only when the item is genuinely ABOUT this company - its business,
    products, people, or commercial activity. A passing mention is not enough.
 2. is_relevant is false for: a similarly named organisation; a generic industry article that
-   merely lists the company; a product page, "about us" page, or marketing boilerplate;
-   any page that is not a dated news story.
+   merely lists the company; a product page, "about us" page, or marketing boilerplate.
+   A dated post on the company's own newsroom or press page is a legitimate news item, not
+   boilerplate, purely because it is short.
 3. Score 0-100 on certainty, source credibility, significance to an external audience, and
    strength of evidence. Weight named, reputable sources (trade press, named company statement,
-   regulator, named spokesperson) above anonymous aggregator blurbs. Be strict: a thin or
-   purely promotional item, or one with no concrete detail beyond the headline, scores below 50.
-4. Use only facts supported by the source material. Never invent figures, quotes, customers,
+   regulator, named spokesperson) above anonymous aggregator blurbs. Be strict: the "scores
+   below 50" penalty is for genuinely promotional or contentless items only - it does NOT
+   apply to a confirmed factual event (an appointment, funding round, contract win,
+   acquisition, award, or site opening) even when reported briefly.
+4. Appointments, senior hires, promotions, departures and board changes at the portfolio
+   company are inherently significant news. Score them on the seniority of the role and the
+   certainty of the source, not on the length of the article - a three-sentence announcement
+   of a new managing director is a strong story, not a thin one.
+5. Use only facts supported by the source material. Never invent figures, quotes, customers,
    dates, outcomes, or any Next Wave involvement.
-5. Put uncertainty and unsupported claims in warnings.
-6. Measured British English, written for the Next Wave Partners corporate account.
-7. Do not imply Next Wave caused the development. Avoid private-equity cliche and superlatives.
-8. Each draft 80-150 words: concise (factual), investor (growth angle only where supported),
+6. Put uncertainty and unsupported claims in warnings.
+7. Measured British English, written for the Next Wave Partners corporate account.
+8. Do not imply Next Wave caused the development. Avoid private-equity cliche and superlatives.
+9. Each draft 80-150 words: concise (factual), investor (growth angle only where supported),
    people (recognise the team without exaggeration). Every draft must include at least one
    concrete, source-supported detail (a figure, name, date, or quote) - if the source material
    contains no such detail, leave the draft empty rather than fill it with generic phrasing
-   like "exciting news" or "proud to announce". Max three hashtags. No URLs in drafts.
-9. Output valid JSON only.
+   like "exciting news" or "proud to announce". A brief appointment item still contains
+   concrete detail (a name, a role, a date) and qualifies for a draft on that basis. Max three
+   hashtags. No URLs in drafts.
+10. story_type is one of: Partnership, Funding, Contract, Acquisition, Award, Appointment,
+    Product, Update, Other - pick the closest fit.
+11. Output valid JSON only.
 """.strip()
 
 
@@ -1318,8 +1336,28 @@ def generate_digest_intro(companies: list[str], story_total: int, sector_total: 
 
 # ------------------------------------------------------------------ output
 
+# The only warning validate_company_analysis injects itself - a missing draft is a real
+# reason to hold a story for review; a stylistic note from the model is not.
+SUBSTANTIVE_WARNING = "The model did not return usable draft text."
+
+
+def story_tier(score: int) -> str:
+    if score >= LEAD_SCORE:
+        return "lead"
+    if score >= SOLID_SCORE:
+        return "reported"
+    return "low"
+
+
+def story_recency(published_at: str) -> str:
+    return "fresh" if is_within(published_at, FRESH_DAYS) else "catchup"
+
+
 def assemble_story(item: dict[str, Any], analysis: dict[str, Any], first_seen: str) -> dict[str, Any]:
-    warnings = list(analysis["warnings"])
+    warnings = unique_strings(list(analysis["warnings"]))
+    score = analysis["score"]
+    substantive_warning = SUBSTANTIVE_WARNING in warnings
+    published_at = iso_or_original(item["published_at"])
     return {
         "id": story_id(item["url"], item["title"]),
         "company": item["company"],
@@ -1328,17 +1366,49 @@ def assemble_story(item: dict[str, Any], analysis: dict[str, Any], first_seen: s
         "title": item["title"],
         "url": item["url"],
         "source": item["source"],
-        "published_at": iso_or_original(item["published_at"]),
+        "published_at": published_at,
         "first_seen": first_seen,
-        "score": analysis["score"],
+        "score": score,
+        "tier": story_tier(score),
+        "recency": story_recency(published_at),
         "story_type": analysis["story_type"],
         "summary": analysis["summary"],
         "why_it_matters": analysis["why_it_matters"],
         "verified_facts": analysis["verified_facts"],
-        "warnings": unique_strings(warnings),
+        "warnings": warnings,
         "drafts": analysis["drafts"],
-        "status": "ready" if (analysis["score"] >= READY_SCORE and not warnings) else "needs_review",
+        "status": "needs_review" if (score < LEAD_SCORE or substantive_warning) else "ready",
         "discovered_via": item.get("discovered_via", ""),
+    }
+
+
+def assemble_skip_analysis_story(item: dict[str, Any], first_seen: str) -> dict[str, Any]:
+    """Companies House officer-change items are authoritative but have no article to
+    read - bypass the Gemini call and assemble the story straight from the item's
+    own fields."""
+    published_at = iso_or_original(clean_text(item.get("published_at")))
+    summary = clean_text(item.get("feed_summary"))
+    return {
+        "id": story_id(item["url"], item["title"]),
+        "company": clean_text(item.get("company")),
+        "company_domain": clean_text(item.get("company_domain")),
+        "industry": clean_text(item.get("industry")),
+        "title": clean_text(item.get("title")),
+        "url": clean_text(item.get("url")),
+        "source": clean_text(item.get("source")) or "Companies House",
+        "published_at": published_at,
+        "first_seen": first_seen,
+        "score": LEAD_SCORE,
+        "tier": "lead",
+        "recency": story_recency(published_at),
+        "story_type": "Appointment",
+        "summary": summary,
+        "why_it_matters": "Companies House officer record - not yet independently reported.",
+        "verified_facts": [summary] if summary else [],
+        "warnings": ["No article available - assembled from the Companies House register only."],
+        "drafts": {"concise": "", "investor": "", "people": ""},
+        "status": "needs_review",
+        "discovered_via": clean_text(item.get("discovered_via")) or "Companies House",
     }
 
 
@@ -1365,6 +1435,45 @@ def load_previous() -> dict[str, Any]:
         return data if isinstance(data, dict) else {}
     except (OSError, json.JSONDecodeError):
         return {}
+
+
+def load_archive() -> dict[str, list[dict[str, Any]]]:
+    """First run: no file yet, start empty. Corrupt/unreadable file: log it and
+    start fresh rather than crash the run - but a validly-read file is used as
+    is, never discarded."""
+    if not ARCHIVE_FILE.exists():
+        return {"stories": [], "sector_stories": []}
+    try:
+        data = json.loads(ARCHIVE_FILE.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            raise ValueError("archive.json root is not an object")
+    except (OSError, json.JSONDecodeError, ValueError) as exc:
+        LOGGER.error("archive.json unreadable (%s) - starting a fresh archive.", exc)
+        return {"stories": [], "sector_stories": []}
+    return {
+        "stories": [s for s in data.get("stories", []) if isinstance(s, dict)],
+        "sector_stories": [s for s in data.get("sector_stories", []) if isinstance(s, dict)],
+    }
+
+
+def merge_archive(existing: list[dict[str, Any]], fresh: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Append-only merge keyed on normalise_url - a story already archived is never
+    replaced or dropped just because its company left companies.json or it aged
+    past ARCHIVE_DAYS. ARCHIVE_MAX_DAYS is only a size guard against unbounded
+    growth, and only drops items with a provably old date."""
+    by_key: dict[str, dict[str, Any]] = {}
+    for item in existing + fresh:
+        key = normalise_url(str(item.get("url", ""))) or str(item.get("id", ""))
+        if key and key not in by_key:
+            by_key[key] = item
+    archive_cutoff = cutoff(ARCHIVE_MAX_DAYS)
+    kept = []
+    for item in by_key.values():
+        parsed = parse_datetime(str(item.get("published_at", "")))
+        if parsed is not None and parsed < archive_cutoff:
+            continue
+        kept.append(item)
+    return kept
 
 
 def deduplicate_stories(stories: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -1772,6 +1881,9 @@ def main() -> None:
                       and is_within(str(s.get("published_at", "")), SECTOR_LOOKBACK_DAYS)]
     for story in carried:
         story.setdefault("first_seen", story.get("published_at", now_iso))
+        # Backfill for stories written before tier/recency existed.
+        story.setdefault("tier", story_tier(int(story.get("score", 0))))
+        story.setdefault("recency", story_recency(str(story.get("published_at", ""))))
     for story in carried_sector:
         story.setdefault("first_seen", story.get("published_at", now_iso))
 
@@ -1849,6 +1961,16 @@ def main() -> None:
         if time.monotonic() > deadline:
             LOGGER.warning("Run budget exhausted; stopping analysis.")
             break
+
+        if item.get("skip_analysis"):
+            # Authoritative items (Companies House) with no article to read - no
+            # Gemini call needed, and a malformed item here must not crash the run.
+            try:
+                stories.append(assemble_skip_analysis_story(item, now_iso))
+            except Exception as exc:
+                LOGGER.error("Failed to assemble skip_analysis item %r: %s", item, exc)
+            continue
+
         page = pages.get(idx, {"text": "", "published": "", "description": "", "title": ""})
 
         # Scraped newsroom links must prove a real published date in the markup.
@@ -1961,7 +2083,10 @@ def main() -> None:
     # Digest intro - mirror send_digest.py's load_edition() "today" scope and
     # per-company caps (same env vars/defaults) so the Gemini intro only ever
     # references what the email will actually show.
-    digest_max = max(1, int(os.getenv("DIGEST_MAX", "4")))
+    # Default must match send_digest.py's own default (both "6") - the workflow only
+    # sets DIGEST_MAX on the email step, not this one, so if they drift the intro
+    # undercounts against what the email actually renders.
+    digest_max = max(1, int(os.getenv("DIGEST_MAX", "6")))
     digest_sector_max = max(0, int(os.getenv("DIGEST_SECTOR_MAX", "3")))
     digest_sector_fallback_max = max(1, int(os.getenv("DIGEST_SECTOR_FALLBACK_MAX", "4")))
 
@@ -2059,6 +2184,21 @@ def main() -> None:
     atomic_write_json(OUTPUT_FILE, payload)
     LOGGER.info("Wrote %s stories (%s new today) and %s sector items to %s",
                 len(stories), len(todays), len(sector_final), OUTPUT_FILE)
+
+    # Back-catalogue: append-only, survives company removal and ARCHIVE_DAYS
+    # pruning. A failure here must not lose the news.json write above.
+    try:
+        archive = load_archive()
+        archive_payload = {
+            "generated_at": now_iso,
+            "stories": merge_archive(archive["stories"], stories),
+            "sector_stories": merge_archive(archive["sector_stories"], sector_final),
+        }
+        atomic_write_json(ARCHIVE_FILE, archive_payload)
+        LOGGER.info("Archive holds %s stories and %s sector items.",
+                    len(archive_payload["stories"]), len(archive_payload["sector_stories"]))
+    except Exception as exc:
+        LOGGER.error("Archive write failed: %s", exc)
 
 
 if __name__ == "__main__":

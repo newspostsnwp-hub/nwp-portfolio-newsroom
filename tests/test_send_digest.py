@@ -111,3 +111,50 @@ class TestBuildText:
     def test_fallback_intro_rendered_when_missing(self):
         text = d.build_text(BLOCKS, "2026-07-23T08:00:00Z", 1, 0, False, "")
         assert "Today's briefing carries 1 new story" in text
+
+
+# --------------------------------------------------------------------- tiering/catchup
+
+MULTI_TIER_STORIES = [
+    dict(STORY, url="https://acme.com/1", title="Acme appoints new MD",
+         tier="lead", recency="fresh"),
+    dict(STORY, url="https://acme.com/2", title="Acme wins contract",
+         tier="reported", recency="fresh"),
+    dict(STORY, url="https://acme.com/3", title="Acme mentioned in roundup",
+         tier="low", recency="catchup"),
+]
+MULTI_TIER_BLOCKS = [("Acme", MULTI_TIER_STORIES, [])]
+
+
+class TestTierAndCatchupGrouping:
+    def test_html_shows_tier_headings_when_multiple_tiers_present(self):
+        html = d.build_html(MULTI_TIER_BLOCKS, "2026-07-23T08:00:00Z", 3, 0, False)
+        assert "Lead stories" in html
+        assert "Also reported" in html
+        assert "Catching up" in html
+
+    def test_html_omits_tier_heading_for_a_single_tier(self):
+        html = d.build_html(BLOCKS, "2026-07-23T08:00:00Z", 1, 0, False)
+        assert "Lead stories" not in html
+
+    def test_text_shows_tier_and_catchup_labels(self):
+        text = d.build_text(MULTI_TIER_BLOCKS, "2026-07-23T08:00:00Z", 3, 0, False)
+        assert "[LEAD STORIES]" in text
+        assert "[ALSO REPORTED]" in text
+        assert "[CATCHING UP - NOT FROM TODAY]" in text
+
+    def test_catchup_story_still_appears_in_output(self):
+        html = d.build_html(MULTI_TIER_BLOCKS, "2026-07-23T08:00:00Z", 3, 0, False)
+        assert "Acme mentioned in roundup" in html
+
+
+# --------------------------------------------------------------------- no leaked score
+
+class TestNoNumericScoreLeaks:
+    def test_score_digits_do_not_appear_in_html(self):
+        html = d.build_html(MULTI_TIER_BLOCKS, "2026-07-23T08:00:00Z", 3, 0, False)
+        assert "90" not in html  # STORY's score value must never be printed
+
+    def test_score_digits_do_not_appear_in_text(self):
+        text = d.build_text(MULTI_TIER_BLOCKS, "2026-07-23T08:00:00Z", 3, 0, False)
+        assert "90" not in text
