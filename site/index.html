@@ -461,7 +461,7 @@
 </section>
 
 <section class="view" id="view-directory">
-  <div class="bar bar-title"><span class="lbl">Portfolio directory &mdash; jump straight to live searches</span></div>
+  <div class="bar bar-title"><span class="lbl">Portfolio directory - jump straight to live searches</span></div>
   <div class="dir" id="dir-body"></div>
 </section>
 
@@ -672,7 +672,7 @@
     btn.className = "chip hidden-ctl";
     btn.style.marginLeft = "auto";
     btn.setAttribute("data-show-dismissed", "1");
-    btn.textContent = hidden + " hidden — show all";
+    btn.textContent = hidden + " hidden - show all";
     bar.appendChild(btn);
   }
 
@@ -748,7 +748,7 @@
     if (sector.length) {
       html +=
         '<div class="sect" style="border-top:0;">' +
-          '<div class="sect-mid"><h2 style="font-size:20px;">Sector &mdash; ' +
+          '<div class="sect-mid"><h2 style="font-size:20px;">Sector - ' +
             esc(sector[0].industry || industry) + "</h2></div>" +
           '<div class="right">' + linkSet(meta.industry_links, "Search sector") + "</div>" +
         "</div>" + carousel(sector, sectorCard);
@@ -937,9 +937,9 @@
         document.getElementById("mc-industry").value = "";
         document.getElementById("mc-website").value = "";
         document.getElementById("mc-desc").value = "";
-        setCompanyMessage(name + " added — appears in the Directory after the next scheduled refresh.", true);
+        setCompanyMessage(name + " added - appears in the Directory after the next scheduled refresh.", true);
       })
-      .catch(function () { setCompanyMessage("Network error — could not reach the update service.", false); });
+      .catch(function () { setCompanyMessage("Network error - could not reach the update service.", false); });
   }
 
   function removeCompany(name) {
@@ -952,9 +952,9 @@
     }).then(function (r) { return r.json(); })
       .then(function (data) {
         if (!data.ok) { setCompanyMessage(data.error || "Could not remove company.", false); return; }
-        setCompanyMessage(name + " removed — disappears after the next scheduled refresh.", true);
+        setCompanyMessage(name + " removed - disappears after the next scheduled refresh.", true);
       })
-      .catch(function () { setCompanyMessage("Network error — could not reach the update service.", false); });
+      .catch(function () { setCompanyMessage("Network error - could not reach the update service.", false); });
   }
 
   var filterBars = {};
