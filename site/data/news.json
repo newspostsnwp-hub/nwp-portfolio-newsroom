@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T13:09:18.283596+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, with no specific news to report from our portfolio companies.",
-  "last_digest_sent_at": "2026-07-26T10:16:58.331640+00:00",
+  "generated_at": "2026-07-27T06:48:17.252036+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from Molinare or Petainer.",
+  "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -423,20 +423,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0a69b2c7f498f77e",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Foundry Launches SmartRoto AI Plugin for Nuke",
-      "url": "https://postperspective.com/foundry-launches-smartroto-ai-plugin-for-nuke/",
-      "source": "postperspective.com",
-      "published_at": "2026-07-16T21:17:29+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "Foundry has launched SmartRoto, an AI-powered plugin for Nuke designed to automate rotoscoping tasks and improve artist efficiency by up to four times.",
-      "angle": "Adoption of AI-driven automation tools is critical for maintaining competitiveness and managing increasing VFX shot volumes and complexity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "234e6486362ee287",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -451,18 +437,32 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bef68f3f033a85c8",
+      "id": "8368c358c14a2811",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "'HOPE' Director Na Hong-jin: \"There Were Over 400 Creature Shots; I Even Wondered Why I Was Covering the Actors' Faces with CGI\" - SBS Star",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOekk2dC1BVzN0eTdQQTlTelVOUmgtazgzTC1hNGMwREFnekpkOXZhZWhrRlBEYi11MHNSbkotSHpXN2NHaUxDM0FyVkgtcXhDWVQyNHF1NkRPblhWbGtzY2hQS3hIS2hMT3lhRDF3V2dzVW1Xb1M2TnZCb2hXUElwNXdXLW1sWDRfbURlbjY2TWhrR29qZVd0YjJtckV6c3lMS2hjRWRGdDRjbDlsUjNIUnNUY3pRcHluSXY2MXNib2JYWmEwa0RhZktaREFpcU45Vnl6bnRFVW5mUEFLelpEWnhiMkdpeWlUOXQ4c2dnV3FGdw?oc=5",
+      "source": "SBS Star",
+      "published_at": "2026-07-20T13:56:00+00:00",
+      "first_seen": "2026-07-27T06:48:17.252036+00:00",
+      "score": 65,
+      "summary": "Director Na Hong-jin reported that the film 'HOPE' required over 400 creature shots, involving extensive use of CGI to cover actors' faces.",
+      "angle": "Highlights the increasing reliance on high-volume VFX and creature design in modern international film production workflows.",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "3ef098f8a3591961",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPX0RPNnpYU1U5UTNGLTJKQjJGUktxeExEektSY1dRZ2VMQlBPalo4UWtfOUkwOEczN2llaEdrLWIzakNpX24zaWM3ZERkMUJBakV1dkRCeWpiRjAzVDJzR1JRcjhjWkljM285QUNrNEp0UTVpNklQVFV2MlowamxndlM3b1VxN0ZyTkFISmZDRzlva0xKR3lUMzRpQVFxeF9EeEZHbEdHU2xuZmdtVGQyZ0w5b2JZQnNJQ1QycGppUnE4bUMyS0Fia3BoTWo2Yk90WFFtUlN2NTA4QTV3UTRZZXJKZm5OdVZPZGs4bkRxZzRSODNJNkllaU9fT0xBTmozWjJjRS15RzJYdEEyUDJSWkI4c3RRaEhWMlduSHBjOVlVM3F5SUxvMTAwQ2tTNlE3NXZlZm01a27SAbgCQVVfeXFMT19ETzZ6WFNVOVEzRi0ySkIyRlJLcXhMRHpLUmNXUWdlTEJQT2paOFFrXzlJMDhHMzdpZWhHay1iM2pDaV9uM2ljN2REZDFCQWpFdXZEQnlqYkYwM1Qyc0dSUXI4Y1pJYzNvOUFDazRKdFE1aTZJUFRVdjJaMGpsZ3ZTN29VcTdGck5BSEpmQ0c5b2tMSkd5VDM0aUFRcXhfRHhGR2xHR1NsbmZnbVRkMmdMOW9iWUJzSUNUMnBqaVJxOG1DMktBYmtwaE1qNmJPdFhRbVJTdjUwOEE1d1E0WWVySmZuTnVWT2RrOG5EcWc0UjgzSTZJZWlPX09MQU5qM1oyY0UteUcyWHRBMlAyUlpCOHN0UWhIVjJXbkhwYzlZVTNxeUlMbzEwMENrUzZRNzV2ZWZtNWtu?oc=5",
-      "source": "The Manila Times",
-      "published_at": "2026-07-21T06:03:13+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
+      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market",
+      "url": "https://www.manilatimes.net/2026/07/21/tmt-newswire/globenewswire/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/2388099",
+      "source": "manilatimes.net",
+      "published_at": "2026-07-21T06:30:00+00:00",
+      "first_seen": "2026-07-27T06:48:17.252036+00:00",
       "score": 85,
-      "summary": "Carbios has successfully completed 100 batches at its industrial demonstration plant and is expanding its enzymatic recycling licensing model to the textile market.",
-      "angle": "Advances in enzymatic recycling technology impact PET circularity, feedstock availability, and regulatory compliance for packaging manufacturers.",
-      "discovered_via": "Google News RSS"
+      "summary": "Carbios has successfully processed 100 batches at its industrial demonstration plant and expanded its enzymatic biorecycling licensing to include PET polyester textile waste.",
+      "angle": "Advances in enzymatic recycling technology for PET increase the potential availability of high-quality recycled feedstock for packaging manufacturers.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "6ac85725923ca552",
@@ -849,9 +849,9 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 60,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
+    "queued_candidates": 113,
+    "llm_requests_attempted": 66,
+    "llm_requests_succeeded": 66,
     "dropped_no_valid_date": 25,
     "dropped_thin_page": 22,
     "dropped_not_about_company": 0,
