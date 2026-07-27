@@ -33,7 +33,10 @@ jobs:
   refresh:
     name: Collect and publish portfolio news
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # The 30-day lookback plus a cleared cache makes the first catch-up run the
+    # slowest this job will ever be, so the budget and the timeout both allow
+    # for it rather than silently truncating the analysis loop.
+    timeout-minutes: 45
 
     steps:
       - name: Check out latest main branch
@@ -58,21 +61,22 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .cache
-          key: newsroom-cache-${{ github.run_id }}
+          key: newsroom-cache-v2-${{ github.run_id }}
           restore-keys: |
-            newsroom-cache-
+            newsroom-cache-v2-
 
       - name: Collect news and generate drafts
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.1-flash-lite
-          LOOKBACK_DAYS: "7"
-          BLOG_FALLBACK_DAYS: "120"
-          MAX_PER_COMPANY: "4"
+          COMPANIES_HOUSE_KEY: ${{ secrets.COMPANIES_HOUSE_KEY }}
+          LOOKBACK_DAYS: "30"
+          FRESH_DAYS: "7"
           ANALYZE_PER_COMPANY: "6"
-          MIN_SCORE: "60"
-          READY_SCORE: "80"
-          RUN_BUDGET_SECONDS: "1200"
+          MIN_SCORE: "45"
+          LEAD_SCORE: "80"
+          SOLID_SCORE: "60"
+          RUN_BUDGET_SECONDS: "2400"
           PYTHONUNBUFFERED: "1"
         run: |
           python scripts/update_news.py
@@ -105,7 +109,7 @@ jobs:
 
           summary = data.get("run_summary", {})
           print(f"Validated news.json with {data['story_count']} stories "
-                f"across {summary.get('companies_with_coverage', '?')} companies.")
+                f"across {summary.get('companies_with_stories', '?')} companies.")
           PY
 
       - name: Email the morning digest
@@ -119,7 +123,6 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
           DIGEST_MAX: "6"
-          SHOW_EMPTY_COMPANIES: "true"
         shell: bash
         run: |
           python scripts/send_digest.py
@@ -132,26 +135,78 @@ jobs:
           git config user.name "nwp-news-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add site/data/news.json
-
-          if git diff --cached --quiet; then
-            echo "No news data changed. Nothing to commit."
+          # --porcelain rather than `git diff`, because archive.json is untracked
+          # on the very first run and `git diff` would not see it at all.
+          if [ -z "$(git status --porcelain -- site/data/news.json site/data/archive.json config/companies.json)" ]; then
+            echo "Nothing changed. Nothing to commit."
             exit 0
           fi
 
-          git commit -m "Refresh portfolio news"
+          # All three files are rewritten whole rather than edited hunk by hunk, so
+          # they are set aside and replayed onto the latest main instead of
+          # being merged.
+          mkdir -p "$RUNNER_TEMP/out"
+          cp site/data/news.json "$RUNNER_TEMP/out/news.json"
+          cp config/companies.json "$RUNNER_TEMP/out/companies.json"
+          # The archive write is best-effort in update_news.py, so a missing file
+          # must not abort the publish and lose the news.json update with it.
+          cp site/data/archive.json "$RUNNER_TEMP/out/archive.json" 2>/dev/null \
+            || echo "No archive.json produced this run; publishing without it."
 
           for attempt in 1 2 3; do
-            echo "Push attempt ${attempt} of 3"
+            echo "Publish attempt ${attempt} of 3"
 
             git fetch origin main
+            git reset --hard origin/main
 
-            # -X theirs keeps this run's news.json if the remote also changed it.
-            if ! git rebase -X theirs origin/main; then
-              git rebase --abort || true
-              echo "Rebase failed. Retrying shortly."
-              sleep $((attempt * 3))
-              continue
+            cp "$RUNNER_TEMP/out/news.json" site/data/news.json
+            if [ -f "$RUNNER_TEMP/out/archive.json" ]; then
+              cp "$RUNNER_TEMP/out/archive.json" site/data/archive.json
+            fi
+
+            # A company can be added or removed through the dashboard while this
+            # run is in flight, so main decides which companies exist and this
+            # run only contributes the researched fields for each one.
+            python - "$RUNNER_TEMP/out/companies.json" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          researched = {}
+          for entry in json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")):
+              if isinstance(entry, dict) and entry.get("enriched_at"):
+                  researched[entry.get("name")] = entry
+
+          live_path = Path("config/companies.json")
+          live = json.loads(live_path.read_text(encoding="utf-8"))
+
+          applied = []
+          for entry in live:
+              mine = researched.get(entry.get("name"))
+              if mine is None or entry.get("enriched_at"):
+                  continue
+              entry.update(mine)
+              applied.append(entry["name"])
+
+          if applied:
+              live_path.write_text(json.dumps(live, ensure_ascii=False, indent=2) + "\n",
+                                   encoding="utf-8")
+          print(f"Company profiles applied: {applied or 'none'}")
+          PY
+
+            # The directory rather than the two filenames, so a run that produced
+            # no archive.json does not abort here on a missing pathspec.
+            git add site/data config/companies.json
+
+            if git diff --cached --quiet; then
+              echo "No changes left to publish."
+              exit 0
+            fi
+
+            if git diff --cached --name-only | grep -qx 'config/companies.json'; then
+              git commit -m "Refresh portfolio news and researched company profiles"
+            else
+              git commit -m "Refresh portfolio news"
             fi
 
             if git push origin HEAD:main; then
