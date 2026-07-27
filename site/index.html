@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Internal news dashboard for Next Wave Partners' portfolio companies and sector coverage.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%97%9E</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -16,6 +18,7 @@
   :root{
     --serif:'Lora',Georgia,'Times New Roman',Times,serif;
     --sans:Arial,'Helvetica Neue',Helvetica,-apple-system,sans-serif;
+    --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:18px; --sp-5:24px;
     --bg:#f4f1ea; --panel:#ffffff; --panel-2:#f7f4ee; --panel-3:#ebe7dd;
     --line:#cbc4b5; --line-soft:#ded8ca;
     --ink:#100f0e; --text:#181613; --text-2:#2b2823; --dim:#3c3830; --faint:#544e45;
@@ -25,26 +28,35 @@
     --primary-bg:#143f74; --primary-fg:#ffffff;
     --bar:#000000; --bar-dim:#adadad; --bar-line:#2b2b2b;
     --firm-tint:#eaeef5;
+    /* dark palette values, single-sourced here; applied below via var() so the
+       hex values never need to be repeated for the manual toggle vs. the OS
+       preference query. */
+    --dark-bg:#131210; --dark-panel:#1b1917; --dark-panel-2:#171513; --dark-panel-3:#242119;
+    --dark-line:#35322b; --dark-line-soft:#28251f;
+    --dark-ink:#f5f1e9; --dark-text:#ece7dd; --dark-text-2:#d5cfc4; --dark-dim:#b6afa2; --dark-faint:#948d80;
+    --dark-navy:#9fc0ea; --dark-blue:#7db0ea; --dark-blue-lt:#9cc5f2; --dark-blue-pale:#bcd8f7;
+    --dark-green:#5fbf7f; --dark-amberish:#d9a441; --dark-red:#e3695a;
+    --dark-primary-bg:#2f6fd0; --dark-primary-fg:#ffffff;
+    --dark-firm-tint:#171d29;
   }
   :root[data-theme="dark"]{
-    --bg:#131210; --panel:#1b1917; --panel-2:#171513; --panel-3:#242119;
-    --line:#35322b; --line-soft:#28251f;
-    --ink:#f5f1e9; --text:#ece7dd; --text-2:#d5cfc4; --dim:#b6afa2; --faint:#948d80;
-    --navy:#9fc0ea; --blue:#7db0ea; --blue-lt:#9cc5f2; --blue-pale:#bcd8f7;
-    --green:#5fbf7f; --amberish:#d9a441; --red:#e3695a;
-    --primary-bg:#2f6fd0; --primary-fg:#ffffff;
-    --bar:#000000; --bar-dim:#adadad; --bar-line:#2b2b2b;
-    --firm-tint:#171d29;
+    --bg:var(--dark-bg); --panel:var(--dark-panel); --panel-2:var(--dark-panel-2); --panel-3:var(--dark-panel-3);
+    --line:var(--dark-line); --line-soft:var(--dark-line-soft);
+    --ink:var(--dark-ink); --text:var(--dark-text); --text-2:var(--dark-text-2); --dim:var(--dark-dim); --faint:var(--dark-faint);
+    --navy:var(--dark-navy); --blue:var(--dark-blue); --blue-lt:var(--dark-blue-lt); --blue-pale:var(--dark-blue-pale);
+    --green:var(--dark-green); --amberish:var(--dark-amberish); --red:var(--dark-red);
+    --primary-bg:var(--dark-primary-bg); --primary-fg:var(--dark-primary-fg);
+    --firm-tint:var(--dark-firm-tint);
   }
   @media (prefers-color-scheme:dark){
-    :root:not([data-theme="light"]){
-      --bg:#131210; --panel:#1b1917; --panel-2:#171513; --panel-3:#242119;
-      --line:#35322b; --line-soft:#28251f;
-      --ink:#f5f1e9; --text:#ece7dd; --text-2:#d5cfc4; --dim:#b6afa2; --faint:#948d80;
-      --navy:#9fc0ea; --blue:#7db0ea; --blue-lt:#9cc5f2; --blue-pale:#bcd8f7;
-      --green:#5fbf7f; --amberish:#d9a441; --red:#e3695a;
-      --primary-bg:#2f6fd0; --primary-fg:#ffffff;
-      --firm-tint:#171d29;
+    :root:not([data-theme="light"]):not([data-theme="dark"]){
+      --bg:var(--dark-bg); --panel:var(--dark-panel); --panel-2:var(--dark-panel-2); --panel-3:var(--dark-panel-3);
+      --line:var(--dark-line); --line-soft:var(--dark-line-soft);
+      --ink:var(--dark-ink); --text:var(--dark-text); --text-2:var(--dark-text-2); --dim:var(--dark-dim); --faint:var(--dark-faint);
+      --navy:var(--dark-navy); --blue:var(--dark-blue); --blue-lt:var(--dark-blue-lt); --blue-pale:var(--dark-blue-pale);
+      --green:var(--dark-green); --amberish:var(--dark-amberish); --red:var(--dark-red);
+      --primary-bg:var(--dark-primary-bg); --primary-fg:var(--dark-primary-fg);
+      --firm-tint:var(--dark-firm-tint);
     }
   }
   *{box-sizing:border-box;}
@@ -58,6 +70,11 @@
   a:hover{text-decoration:underline;}
   button{font-family:inherit;font-size:inherit;cursor:pointer;}
   ::selection{background:var(--yellow);color:var(--ink-on-yellow);}
+  :focus-visible{outline:2px solid var(--blue-lt);outline-offset:2px;}
+
+  .skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:#fff;
+    padding:10px 16px;z-index:3000;font-family:var(--sans);font-size:13px;text-decoration:none;}
+  .skip-link:focus{left:12px;top:12px;}
 
   /* ---------------- masthead (black bar, thicker caps) ---------------- */
   .masthead{background:var(--bar);padding:0 18px;}
@@ -66,8 +83,8 @@
             color:#ffffff;white-space:nowrap;margin:0;}
   .wordmark span{color:#5aa2e8;}
   .masthead-tag{
-    font-family:var(--sans);color:var(--bar-dim);letter-spacing:2px;font-size:11px;font-weight:800;
-    text-transform:uppercase;border-left:1px solid var(--bar-line);padding-left:18px;white-space:nowrap;
+    font-family:var(--sans);color:var(--bar-dim);letter-spacing:.4px;font-size:12px;font-weight:700;
+    border-left:1px solid var(--bar-line);padding-left:18px;white-space:nowrap;
   }
   .masthead-right{margin-left:auto;display:flex;gap:14px;align-items:center;flex-wrap:nowrap;}
   .live{display:flex;align-items:center;gap:6px;font-family:var(--sans);font-size:10.5px;
@@ -75,8 +92,8 @@
   .live-dot{width:8px;height:8px;border-radius:50%;background:#ff3b30;
             box-shadow:0 0 7px #ff3b30;animation:livepulse 1.5s ease-in-out infinite;}
   @keyframes livepulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.3;transform:scale(.65);}}
-  .stat{font-family:var(--sans);white-space:nowrap;font-size:11px;color:var(--bar-dim);
-        letter-spacing:.9px;text-transform:uppercase;font-weight:800;}
+  .stat{font-family:var(--sans);white-space:nowrap;font-size:11.5px;color:var(--bar-dim);
+        letter-spacing:.3px;font-weight:600;}
   .stat b{color:#ffffff;font-weight:800;font-size:13px;}
   .clock{font-family:var(--sans);color:#d6d6d6;font-size:12.5px;letter-spacing:1px;font-weight:700;}
   .tt{background:transparent;border:1px solid var(--bar-line);color:#d6d6d6;
@@ -88,7 +105,10 @@
           display:flex;align-items:center;}
   .ticker-label{background:var(--ink-on-yellow);color:#ffd21f;font-family:var(--sans);font-weight:800;
                 font-size:10px;letter-spacing:1.6px;padding:0 12px;height:31px;display:flex;
-                align-items:center;flex:0 0 auto;-webkit-text-fill-color:#ffd21f;}
+                align-items:center;flex:0 0 auto;-webkit-text-fill-color:#ffd21f;
+                /* The track translates left past x=0, so the label sits above it
+                   and the headlines scroll out of sight behind it. */
+                position:relative;z-index:2;}
   .ticker-track{display:inline-block;white-space:nowrap;will-change:transform;}
   .ticker-track span{color:var(--ink-on-yellow);font-family:var(--sans);font-size:11.5px;
                      letter-spacing:.3px;padding:0 26px;}
@@ -118,22 +138,19 @@
   }
 
   /* ---------------- primary nav ---------------- */
-  .nav{display:flex;flex-wrap:nowrap;align-items:stretch;background:var(--panel);
+  .nav{display:flex;flex-wrap:nowrap;justify-content:center;align-items:stretch;background:var(--panel);
        border-bottom:2px solid var(--ink);padding:0 12px;
        overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;
        scrollbar-width:none;-ms-overflow-style:none;}
   .nav::-webkit-scrollbar{display:none;height:0;}
   .nav button{
     background:transparent;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;
-    color:var(--dim);padding:12px 16px;letter-spacing:1.3px;font-size:12px;line-height:1;
-    text-transform:uppercase;font-weight:700;font-family:var(--sans);display:flex;
+    color:var(--dim);padding:12px 16px;letter-spacing:.3px;font-size:13px;line-height:1;
+    font-weight:700;font-family:var(--sans);display:flex;
     align-items:center;gap:9px;white-space:nowrap;flex:0 0 auto;
   }
   .nav button:hover{color:var(--ink);}
-  .nav button[aria-current="true"]{color:var(--ink);border-bottom-color:var(--ink);}
-  .nav .key{color:var(--faint);font-size:9.5px;border:1px solid var(--line);line-height:1;
-    padding:2px 5px;letter-spacing:.5px;font-weight:700;}
-  .nav button[aria-current="true"] .key{color:var(--ink);border-color:var(--ink);}
+  .nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink);}
   .nav .badge{color:var(--faint);font-weight:600;font-size:12px;line-height:1;letter-spacing:0;}
 
   /* ---------------- shared ---------------- */
@@ -160,6 +177,18 @@
   .empty{padding:46px 18px;text-align:center;color:var(--faint);font-size:15px;font-family:var(--serif);}
   .empty b{display:block;color:var(--text-2);margin-bottom:8px;letter-spacing:1.4px;
            text-transform:uppercase;font-size:11px;font-family:var(--sans);}
+  .empty-left{padding:var(--sp-4);text-align:left;}
+
+  /* ---------------- loading skeleton ---------------- */
+  .skel{padding:var(--sp-4);display:flex;flex-direction:column;gap:10px;}
+  .skel-row{height:16px;border-radius:2px;
+    background:linear-gradient(90deg,var(--panel-2) 25%,var(--panel-3) 37%,var(--panel-2) 63%);
+    background-size:400% 100%;animation:skel-shimmer 1.4s ease infinite;}
+  .skel-row:nth-child(1){width:35%;height:20px;}
+  .skel-row:nth-child(2){width:92%;}
+  .skel-row:nth-child(3){width:78%;}
+  @keyframes skel-shimmer{0%{background-position:100% 0;}100%{background-position:0 0;}}
+  @media (prefers-reduced-motion:reduce){.skel-row{animation:none;}}
 
   /* section / company header - true-centred title, actions in their own right
      track so they can never overlap the title at any width. */
@@ -180,6 +209,8 @@
   /* Next Wave Partners itself, not a portfolio company - a soft tinted band
      on the header only marks it apart without treating it as another tile. */
   .sect-firm{background:var(--firm-tint);}
+  .sect-flat{border-top:0;}
+  .sect-sub{font-size:20px;}
 
   .srch{
     display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);
@@ -187,6 +218,11 @@
     text-transform:uppercase;white-space:nowrap;background:transparent;
   }
   .srch:hover{border-color:var(--blue);color:var(--blue-lt);text-decoration:none;background:var(--panel-2);}
+  .archinput{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
+    font-family:var(--sans);padding:5px 9px;font-size:12px;}
+  .archinput:focus{border-color:var(--blue);}
+  .hidden-ctl{margin-left:auto;}
+  .bar-note{color:var(--faint);font-size:11.5px;font-family:var(--sans);}
 
   /* ---------------- coverage pulse ---------------- */
   .pulse{padding:12px 18px;background:var(--panel-2);border-bottom:1px solid var(--line);
@@ -206,7 +242,9 @@
              border-top:1px solid var(--line);background:var(--panel);}
   .storygrid .story{break-inside:avoid;-webkit-column-break-inside:avoid;
                     border-bottom:1px solid var(--line-soft);}
-  .storygrid .matters,.storygrid .facts,.storygrid .warn{display:none;}
+  .storygrid .matters,.storygrid .facts{display:none;}
+  .storygrid .story.story-low{display:none;}
+  .storygrid.show-low .story.story-low{display:block;}
   .story{padding:17px 22px;}
   .story:hover{background:var(--panel-2);}
   .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:10.5px;font-family:var(--sans);
@@ -216,10 +254,14 @@
        text-transform:uppercase;letter-spacing:.9px;font-size:9.5px;font-weight:700;}
   .tag.ready{border-color:var(--green);color:var(--green);}
   .tag.review{border-color:var(--amberish);color:var(--amberish);}
-  .score{margin-left:auto;color:var(--dim);}
-  .score b{color:var(--ink);}
-  .dismiss{background:transparent;border:1px solid var(--line);color:var(--faint);
-           width:19px;height:19px;padding:0;font-size:11px;line-height:1;
+  .tier{font-family:var(--sans);text-transform:uppercase;letter-spacing:.8px;font-size:9.5px;}
+  .tier-lead{color:var(--ink);font-weight:800;}
+  .tier-reported{color:var(--faint);font-weight:600;}
+  .tier-low{color:var(--faint);font-weight:500;font-style:italic;}
+  .tier-catchup,.tier-estimated{color:var(--faint);font-style:italic;font-weight:600;
+    border:1px solid var(--line);padding:1px 6px;}
+  .dismiss{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--faint);
+           width:24px;height:24px;padding:0;font-size:11px;line-height:1;
            display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
   .dismiss:hover{border-color:var(--red);color:var(--red);}
   .headline{font-family:var(--serif);font-size:23px;line-height:1.26;font-weight:700;color:var(--ink);margin:0 0 9px;}
@@ -233,6 +275,10 @@
   .facts{margin:0 0 11px;padding-left:18px;color:var(--dim);font-family:var(--serif);font-size:15px;}
   .warn{border-left:3px solid var(--red);padding-left:12px;color:var(--red);font-size:13.5px;margin:0 0 11px;}
   .rowlinks{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px;}
+  .lowtoggle{display:block;column-span:all;width:100%;background:var(--panel-2);border:0;
+    border-top:1px solid var(--line-soft);color:var(--blue-lt);font-family:var(--sans);font-size:11px;
+    letter-spacing:.6px;text-transform:uppercase;font-weight:700;padding:var(--sp-3);text-align:center;}
+  .lowtoggle:hover{color:var(--blue);background:var(--panel-3);}
 
   /* ---------------- carousel ---------------- */
   .carousel{position:relative;}
@@ -241,7 +287,7 @@
   .rail::-webkit-scrollbar-track{background:var(--panel-2);}
   .rail::-webkit-scrollbar-thumb{background:var(--line);}
   .rail::-webkit-scrollbar-thumb:hover{background:var(--blue);}
-  .card{flex:0 0 340px;background:var(--panel);border:1px solid var(--line);
+  .card{flex:0 0 min(340px, 82vw);background:var(--panel);border:1px solid var(--line);
         border-top:3px solid var(--accent,var(--ink));padding:15px 17px;display:flex;flex-direction:column;}
   .card:hover{border-color:var(--blue);}
   .card .ct{font-family:var(--serif);font-size:18px;font-weight:700;line-height:1.3;color:var(--ink);margin-bottom:8px;}
@@ -263,7 +309,7 @@
   .pick{width:100%;text-align:left;background:transparent;border:0;
         border-bottom:1px solid var(--line-soft);padding:12px 14px;color:var(--text-2);}
   .pick:hover{background:var(--panel-2);}
-  .pick[aria-current="true"]{background:var(--panel-2);border-left:3px solid var(--ink);}
+  .pick[aria-selected="true"]{background:var(--panel-2);border-left:3px solid var(--ink);}
   .pick .pc{color:var(--blue-pale);font-family:var(--sans);font-size:10px;letter-spacing:1.3px;
             text-transform:uppercase;margin-bottom:3px;font-weight:700;}
   .pick .pt{font-family:var(--serif);font-size:14.5px;line-height:1.35;color:var(--text);}
@@ -297,7 +343,7 @@
 
   /* ---------------- directory ---------------- */
   .dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;padding:18px;}
-  .dcard{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--ink);padding:16px;}
+  .dcard{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent,var(--ink));padding:16px;}
   .dcard h3{margin:0 0 3px;font-family:var(--serif);font-size:20px;color:var(--ink);letter-spacing:.2px;}
   .dcard .di{color:var(--blue-pale);font-family:var(--sans);font-size:10.5px;letter-spacing:1.3px;
              text-transform:uppercase;margin-bottom:9px;}
@@ -318,11 +364,20 @@
   .mform-full{grid-column:1/-1;}
   .mform input{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
                font-family:var(--sans);padding:9px 10px;font-size:12.5px;width:100%;}
-  .mform input:focus{outline:0;border-color:var(--blue);}
+  .mform input:focus{border-color:var(--blue);}
   .mform input::placeholder{color:var(--faint);}
   .mmsg{font-size:11.5px;font-family:var(--sans);margin-top:10px;min-height:14px;}
-  .mmsg.ok{color:var(--green);}
   .mmsg.err{color:var(--red);}
+  .mmsg.pending{color:var(--faint);}
+
+  /* ---------------- in-style confirm dialog (replaces window.confirm) ---------------- */
+  .confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:2100;
+    display:flex;align-items:center;justify-content:center;padding:var(--sp-4);}
+  .confirm-overlay[hidden]{display:none;}
+  .confirm-box{background:var(--panel);border:1px solid var(--line);max-width:360px;
+    padding:var(--sp-5);box-shadow:0 12px 32px rgba(0,0,0,.35);}
+  .confirm-box p{margin:0 0 16px;color:var(--text);font-family:var(--serif);font-size:15.5px;}
+  .confirm-actions{display:flex;gap:9px;justify-content:flex-end;}
 
   /* fixed toast (fades in at the top, visible even when scrolled) */
   #toast-host{position:fixed;top:16px;left:0;right:0;z-index:2000;display:flex;
@@ -362,8 +417,11 @@
     .sect-mid{grid-column:1;}
     .sect .right{grid-column:1;justify-self:center;justify-content:center;margin-top:6px;}
   }
-  /* ---------------- masthead collapse on shrink ---------------- */
-  @media (max-width:1280px){ .masthead .stat{display:none;} }
+  /* ---------------- masthead wraps stats to a second row on shrink ---------------- */
+  @media (max-width:1280px){
+    .masthead-row{height:auto;flex-wrap:wrap;padding:14px 0;row-gap:10px;}
+    .masthead-right{flex-wrap:wrap;row-gap:8px;}
+  }
   @media (max-width:760px){ .masthead-tag{display:none;} .wordmark{font-size:30px;} }
   /* ---------------- mobile (desktop structure unchanged) ---------------- */
   @media (max-width:640px){
@@ -400,6 +458,9 @@
   function apply(t){
     document.documentElement.setAttribute('data-theme',t);
     try{ localStorage.setItem('nwp_theme',t); }catch(e){}
+    // Company accents are baked into inline styles when a view renders, so the
+    // app has to redraw to pick up the other theme's palette.
+    document.dispatchEvent(new CustomEvent('nwp:themechange'));
   }
   document.addEventListener('DOMContentLoaded',function(){
     var b=document.getElementById('theme-toggle');
@@ -410,17 +471,19 @@
 </script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="masthead">
   <div class="masthead-row">
     <h1 class="wordmark">Next Wave <span>Partners</span></h1>
-    <div class="masthead-tag">Portfolio Newsroom</div>
+    <div class="masthead-tag">Portfolio newsroom</div>
     <div class="masthead-right">
       <span class="live"><span class="live-dot"></span>Live</span>
-      <div class="stat">COMPANIES: <b id="s-stories">--</b></div>
-      <div class="stat">SECTORS: <b id="s-sector">--</b></div>
-      <div class="stat">DRAFTS: <b id="s-drafts">--</b></div>
-      <div class="stat">REFRESH: <b id="s-refresh">--</b></div>
+      <div class="stat">Stories <b id="s-stories">--</b></div>
+      <div class="stat">Companies <b id="s-companies">--</b></div>
+      <div class="stat">Sectors <b id="s-sector">--</b></div>
+      <div class="stat">Drafts <b id="s-drafts">--</b></div>
+      <div class="stat">Refresh <b id="s-refresh">--</b></div>
       <button id="theme-toggle" class="tt" type="button" aria-label="Switch light or dark theme" title="Light / dark">&#9680;</button>
       <div class="clock" id="clock">--:--:--</div>
     </div>
@@ -428,55 +491,64 @@
 </header>
 
 <div class="ticker">
-  <div class="ticker-label">WIRE</div>
+  <div class="ticker-label">Wire</div>
   <div class="ticker-track" id="ticker"></div>
 </div>
 
-<nav class="nav" id="nav">
-  <button data-view="newsroom" aria-current="true"><span class="key">F1</span>Newsroom<span class="badge" id="b-news"></span></button>
-  <button data-view="sector"><span class="key">F2</span>Sector Wire<span class="badge" id="b-sector"></span></button>
-  <button data-view="linkedin"><span class="key">F3</span>LinkedIn Studio<span class="badge" id="b-li"></span></button>
-  <button data-view="archive"><span class="key">F4</span>Archive<span class="badge" id="b-arch"></span></button>
-  <button data-view="directory"><span class="key">F5</span>Directory</button>
-  <button data-view="companies"><span class="key">F6</span>Companies</button>
+<nav class="nav" id="nav" role="tablist" aria-label="Dashboard sections">
+  <button id="tab-newsroom" role="tab" aria-selected="true" aria-controls="view-newsroom" data-view="newsroom">Newsroom<span class="badge" id="b-news"></span></button>
+  <button id="tab-sector" role="tab" aria-selected="false" aria-controls="view-sector" data-view="sector">Sector wire<span class="badge" id="b-sector"></span></button>
+  <button id="tab-linkedin" role="tab" aria-selected="false" aria-controls="view-linkedin" data-view="linkedin">LinkedIn studio<span class="badge" id="b-li"></span></button>
+  <button id="tab-archive" role="tab" aria-selected="false" aria-controls="view-archive" data-view="archive">Archive<span class="badge" id="b-arch"></span></button>
+  <button id="tab-directory" role="tab" aria-selected="false" aria-controls="view-directory" data-view="directory">Directory</button>
+  <button id="tab-companies" role="tab" aria-selected="false" aria-controls="view-companies" data-view="companies">Companies</button>
 </nav>
 
-<main>
-<section class="view on" id="view-newsroom">
+<main id="main-content">
+<section class="view on" id="view-newsroom" role="tabpanel" aria-labelledby="tab-newsroom">
   <div class="bar" id="news-filters"><span class="lbl">Companies</span></div>
   <div id="news-pulse"></div>
   <div id="news-body"></div>
 </section>
 
-<section class="view" id="view-sector">
+<section class="view" id="view-sector" role="tabpanel" aria-labelledby="tab-sector">
   <div class="bar bar-title"><span class="lbl">Sector coverage across the portfolio</span></div>
   <div id="sector-body"></div>
 </section>
 
-<section class="view" id="view-linkedin">
+<section class="view" id="view-linkedin" role="tabpanel" aria-labelledby="tab-linkedin">
   <div class="bar">
     <span class="lbl">Post studio</span>
-    <span style="color:var(--faint);font-size:11.5px;">
+    <span class="bar-note">
       Pick a story, choose an angle, copy the post. Every draft needs a human read before it goes out.
     </span>
   </div>
   <div class="studio">
-    <div class="studio-list" id="li-list"></div>
+    <div class="studio-list" id="li-list" role="listbox" aria-label="Postable stories"></div>
     <div id="li-main"></div>
   </div>
 </section>
 
-<section class="view" id="view-archive">
+<section class="view" id="view-archive" role="tabpanel" aria-labelledby="tab-archive">
+  <div class="bar" id="arch-controls">
+    <span class="lbl">Search</span>
+    <input type="search" id="arch-search" class="archinput" placeholder="Title, summary or source">
+    <span class="lbl">From</span>
+    <input type="date" id="arch-from" class="archinput">
+    <span class="lbl">To</span>
+    <input type="date" id="arch-to" class="archinput">
+    <button type="button" class="chip" id="arch-sector-toggle" aria-pressed="false">Include sector wire</button>
+  </div>
   <div class="bar" id="arch-filters"><span class="lbl">Companies</span></div>
   <div id="arch-body"></div>
 </section>
 
-<section class="view" id="view-directory">
+<section class="view" id="view-directory" role="tabpanel" aria-labelledby="tab-directory">
   <div class="bar bar-title"><span class="lbl">Portfolio directory - jump straight to live searches</span></div>
   <div class="dir" id="dir-body"></div>
 </section>
 
-<section class="view" id="view-companies">
+<section class="view" id="view-companies" role="tabpanel" aria-labelledby="tab-companies">
   <div class="bar bar-title"><span class="lbl">Manage tracked companies</span></div>
   <div class="manage">
     <div class="mform">
@@ -501,6 +573,16 @@
 </button>
 
 <div class="foot" id="foot"></div>
+
+<div class="confirm-overlay" id="confirm-overlay" hidden>
+  <div class="confirm-box" role="alertdialog" aria-modal="true" aria-labelledby="confirm-msg">
+    <p id="confirm-msg"></p>
+    <div class="confirm-actions">
+      <button class="btn" id="confirm-cancel" type="button">Cancel</button>
+      <button class="btn primary" id="confirm-ok" type="button">Remove</button>
+    </div>
+  </div>
+</div>
 
 <script>
 (function () {
@@ -542,25 +624,27 @@
     var d = parseDate(v);
     return d ? ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) : "--";
   }
-  function dayKey(v) { var d = parseDate(v); return d ? d.toISOString().slice(0, 10) : ""; }
-  function isToday(s) { return dayKey(s.first_seen || s.published_at) === dayKey(DATA.generated_at); }
-  function inRecency(s) {
-    var day = dayKey(s.first_seen || s.published_at), gen = dayKey(DATA.generated_at);
-    if (!day || !gen) { return false; }
-    return (new Date(gen) - new Date(day)) / 86400000 <= 28;
+  // Local calendar day, not UTC - a story stamped 00:30 local during BST was
+  // previously bucketed to the wrong day against a UTC-based "today".
+  function dayKey(v) {
+    var d = parseDate(v);
+    if (!d) { return ""; }
+    return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
   }
+  function isToday(s) { return dayKey(s.first_seen || s.published_at) === dayKey(DATA.generated_at); }
 
   var DISMISS_KEY = "nwp_dismissed";
-  function getDismissed() {
-    try { return JSON.parse(localStorage.getItem(DISMISS_KEY) || "[]"); } catch (e) { return []; }
+  var ARCHIVE_DISMISS_KEY = "nwp_dismissed_archive";
+  function getDismissed(key) {
+    try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch (e) { return []; }
   }
-  function dismissStory(id) {
-    var set = getDismissed();
+  function dismissStory(key, id) {
+    var set = getDismissed(key);
     if (set.indexOf(id) === -1) { set.push(id); }
-    try { localStorage.setItem(DISMISS_KEY, JSON.stringify(set)); } catch (e) { /* ignore */ }
+    try { localStorage.setItem(key, JSON.stringify(set)); } catch (e) { /* ignore */ }
   }
-  function clearDismissed() {
-    try { localStorage.removeItem(DISMISS_KEY); } catch (e) { /* ignore */ }
+  function clearDismissed(key) {
+    try { localStorage.removeItem(key); } catch (e) { /* ignore */ }
   }
 
   function tick() {
@@ -571,19 +655,31 @@
     }
   }
 
+  // Light accents; a second set gives every accent a dark-mode variant bright
+  // enough to pass contrast on --bg:#131210, since these colours also do duty
+  // as hover text (.mrow .mname) not just borders.
   var COMPANY_ACCENTS = ["#c8102e","#e37222","#e0a400","#1f8a4c","#0a7d8c",
     "#2b5cc0","#6a3fc0","#b0308a","#8a6d1f","#0e766e","#b23a48","#3a6ea5","#7a4bd0"];
+  var COMPANY_ACCENTS_DARK = ["#ff7b86","#ffab6e","#f0cf4d","#5fd696","#4fd2e0",
+    "#7fa8f2","#b79bf5","#f094ce","#e8cf6e","#4fd9c9","#f0919c","#8fb5ec","#c79ef5"];
   var FIRM_NAME = "Next Wave Partners";
+
+  function isDarkTheme() {
+    var attr = document.documentElement.getAttribute("data-theme");
+    if (attr) { return attr === "dark"; }
+    return !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  }
 
   function companyColour(name) {
     if (name === FIRM_NAME) { return "var(--ink)"; }
+    var palette = isDarkTheme() ? COMPANY_ACCENTS_DARK : COMPANY_ACCENTS;
     var list = DATA.companies || [];
     for (var i = 0; i < list.length; i++) {
-      if (list[i].name === name) { return COMPANY_ACCENTS[i % COMPANY_ACCENTS.length]; }
+      if (list[i].name === name) { return palette[i % palette.length]; }
     }
     var h = 0, k = (name || "").toLowerCase();
     for (var j = 0; j < k.length; j++) { h = (h * 31 + k.charCodeAt(j)) >>> 0; }
-    return COMPANY_ACCENTS[h % COMPANY_ACCENTS.length];
+    return palette[h % palette.length];
   }
 
   function companyMeta(name) {
@@ -608,7 +704,16 @@
     return (label ? '<span class="sub">' + esc(label) + "</span>" : "") + out.join("");
   }
 
-  function storyHTML(story) {
+  var TIER_LABELS = { lead: "Lead", reported: "Also reported", low: "Low confidence" };
+  function tierChips(story) {
+    var out = "", label = TIER_LABELS[story.tier];
+    if (label) { out += '<span class="tier tier-' + esc(story.tier) + '">' + esc(label) + "</span>"; }
+    if (story.recency === "catchup") { out += '<span class="tier tier-catchup">Catching up</span>'; }
+    if (story.date_estimated) { out += '<span class="tier tier-estimated">Date not stated</span>'; }
+    return out;
+  }
+
+  function storyHTML(story, ns) {
     var ready = story.status === "ready";
     var facts = (story.verified_facts || []).map(function (f) {
       return "<li>" + esc(f) + "</li>";
@@ -616,15 +721,15 @@
     var warns = (story.warnings || []).map(function (w) { return esc(w); }).join(" &middot; ");
     var d = story.drafts || {};
     var hasDraft = !!(d.concise || d.investor || d.people);
-    return '<article class="story">' +
+    return '<article class="story' + (story.tier === "low" ? " story-low" : "") + '">' +
       '<div class="meta">' +
         '<span class="src">' + esc(story.source || "UNKNOWN") + "</span>" +
         "<span>" + esc(fmtDate(story.published_at)) + "</span>" +
         '<span class="tag">' + esc(story.story_type || "UPDATE") + "</span>" +
         '<span class="tag ' + (ready ? "ready" : "review") + '">' +
           (ready ? "Draft ready" : "Needs review") + "</span>" +
-        '<span class="score">SCORE <b>' + (parseInt(story.score, 10) || 0) + "</b>/100</span>" +
-        '<button class="dismiss" data-dismiss="' + esc(story.id) +
+        tierChips(story) +
+        '<button class="dismiss" data-dismiss="' + esc(story.id) + '" data-ns="' + (ns || "news") +
           '" title="Hide this story" aria-label="Hide this story">&#10005;</button>' +
       "</div>" +
       '<h3 class="headline"><a href="' + esc(story.url) + '" target="_blank" rel="noopener noreferrer">' +
@@ -676,7 +781,7 @@
     return (DATA.sector_stories || []).filter(function (s) { return s.company === company; });
   }
 
-  function updateHiddenControl(barId, hidden) {
+  function updateHiddenControl(barId, hidden, ns) {
     var bar = document.getElementById(barId);
     if (!bar) { return; }
     var existing = bar.querySelector(".hidden-ctl");
@@ -684,22 +789,26 @@
     if (!hidden) { return; }
     var btn = document.createElement("button");
     btn.className = "chip hidden-ctl";
-    btn.style.marginLeft = "auto";
-    btn.setAttribute("data-show-dismissed", "1");
+    btn.setAttribute("data-show-dismissed", ns || "news");
     btn.textContent = hidden + " hidden - show all";
     bar.appendChild(btn);
   }
 
-  function renderStoryView(live, filter, target) {
-    var scoped = (DATA.stories || []).filter(function (s) {
-      return live ? inRecency(s) : !inRecency(s);
+  var TIER_ORDER = { lead: 0, reported: 1, low: 2 };
+  function sortByTier(list) {
+    return list.slice().sort(function (a, b) {
+      var ta = TIER_ORDER.hasOwnProperty(a.tier) ? TIER_ORDER[a.tier] : 1;
+      var tb = TIER_ORDER.hasOwnProperty(b.tier) ? TIER_ORDER[b.tier] : 1;
+      return ta - tb;
     });
-    if (filter !== "ALL") {
-      scoped = scoped.filter(function (s) { return s.company === filter; });
-    }
-    var dismissed = getDismissed();
+  }
+
+  function renderNewsroom(filter) {
+    var scoped = filter === "ALL" ? (DATA.stories || []) :
+      (DATA.stories || []).filter(function (s) { return s.company === filter; });
+    var dismissed = getDismissed(DISMISS_KEY);
     var hidden = scoped.filter(function (s) { return dismissed.indexOf(s.id) !== -1; }).length;
-    updateHiddenControl(live ? "news-filters" : "arch-filters", hidden);
+    updateHiddenControl("news-filters", hidden, "news");
     var list = scoped.filter(function (s) { return dismissed.indexOf(s.id) === -1; });
     var order = [], map = {};
     list.forEach(function (s) {
@@ -708,40 +817,27 @@
       map[k].push(s);
     });
 
-    var body = document.getElementById(target);
-
-    if (live) {
-      // Companies with no story in the recency window still get their sector context.
-      var quiet = (DATA.companies || []).filter(function (c) {
-        if (order.indexOf(c.name) !== -1) { return false; }
-        if (filter !== "ALL" && c.name !== filter) { return false; }
-        return sectorFor(c.name).length > 0;
-      });
-      if (!order.length && !quiet.length) {
-        body.innerHTML = '<div class="empty"><b>Nothing here</b>' +
-          "No portfolio stories or sector news in this refresh.</div>";
-        return;
-      }
-      body.innerHTML =
-        order.map(function (name) { return companyBlock(name, map[name], true); }).join("") +
-        quiet.map(function (c) { return companyBlock(c.name, [], true); }).join("");
-      return;
-    }
-
-    if (!order.length) {
+    var body = document.getElementById("news-body");
+    // Companies with no story in this feed still get their sector context.
+    var quiet = (DATA.companies || []).filter(function (c) {
+      if (order.indexOf(c.name) !== -1) { return false; }
+      if (filter !== "ALL" && c.name !== filter) { return false; }
+      return sectorFor(c.name).length > 0;
+    });
+    if (!order.length && !quiet.length) {
       body.innerHTML = '<div class="empty"><b>Nothing here</b>' +
-        "No older stories in the archive window.</div>";
+        "No portfolio stories or sector news in this refresh.</div>";
       return;
     }
-    body.innerHTML = order.map(function (name) {
-      return companyBlock(name, map[name], false);
-    }).join("");
+    body.innerHTML =
+      order.map(function (name) { return companyBlock(name, map[name]); }).join("") +
+      quiet.map(function (c) { return companyBlock(c.name, []); }).join("");
   }
 
-  function companyBlock(name, stories, withSector) {
+  function companyBlock(name, stories) {
     var meta = companyMeta(name) || {};
     var industry = meta.industry || (stories[0] && stories[0].industry) || "";
-    var sector = withSector ? sectorFor(name) : [];
+    var sector = sectorFor(name);
     var isFirm = name === FIRM_NAME;
     var html =
       '<div class="sect' + (isFirm ? " sect-firm" : "") + '">' +
@@ -755,19 +851,145 @@
           linkSet(meta.company_links, "") +
         "</div>" +
       "</div>";
-    html += stories.length
-      ? '<div class="storygrid">' + stories.map(storyHTML).join("") + '</div>'
-      : '<div class="empty" style="padding:18px;text-align:left;">' +
-        "No company news in this refresh. Sector coverage below.</div>";
+    if (stories.length) {
+      var sorted = sortByTier(stories);
+      var lowCount = sorted.filter(function (s) { return s.tier === "low"; }).length;
+      var gridId = "sg" + (carouselSeq++);
+      html += '<div class="storygrid" id="' + gridId + '">' +
+        sorted.map(function (s) { return storyHTML(s, "news"); }).join("") +
+        (lowCount ? '<button type="button" class="lowtoggle" data-toggle-low="' + gridId +
+          '">Show ' + lowCount + " more</button>" : "") +
+        "</div>";
+    } else {
+      html += '<div class="empty empty-left">No company news in this refresh. Sector coverage below.</div>';
+    }
     if (sector.length) {
       html +=
-        '<div class="sect" style="border-top:0;">' +
-          '<div class="sect-mid"><h2 style="font-size:20px;">Sector - ' +
+        '<div class="sect sect-flat">' +
+          '<div class="sect-mid"><h2 class="sect-sub">Sector - ' +
             esc(sector[0].industry || industry) + "</h2></div>" +
           '<div class="right">' + linkSet(meta.industry_links, "Search sector") + "</div>" +
         "</div>" + carousel(sector, sectorCard);
     }
     return '<section style="--accent:' + companyColour(name) + ';">' + html + "</section>";
+  }
+
+  var MONTH_NAMES = ["January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"];
+  function monthKey(v) {
+    var d = parseDate(v);
+    return d ? d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) : "Undated";
+  }
+  function monthLabel(key) {
+    if (key === "Undated") { return "Undated"; }
+    var parts = key.split("-");
+    return MONTH_NAMES[parseInt(parts[1], 10) - 1] + " " + parts[0];
+  }
+
+  // Archive tab: its own lazily-fetched dataset (archive.json), its own
+  // dismissal namespace, and its own search/date/company/sector filters -
+  // it does not reuse DATA (news.json) or the Newsroom's per-company layout.
+  var ARCHIVE = { stories: [], sector_stories: [], loading: false, loaded: false, error: null };
+  var archSearch = "", archFrom = "", archTo = "", archIncludeSector = false;
+
+  function loadArchive() {
+    if (ARCHIVE.loading || ARCHIVE.loaded) { return; }
+    ARCHIVE.loading = true;
+    ARCHIVE.error = null;
+    renderArchiveBody();
+    fetch("data/archive.json?t=" + Date.now())
+      .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
+      .then(function (data) {
+        ARCHIVE.stories = (data && data.stories) || [];
+        ARCHIVE.sector_stories = (data && data.sector_stories) || [];
+        ARCHIVE.loading = false;
+        ARCHIVE.loaded = true;
+        buildArchiveFilters();
+        var badge = document.getElementById("b-arch");
+        if (badge) { badge.textContent = "(" + ARCHIVE.stories.length + ")"; }
+        renderArchiveBody();
+      })
+      .catch(function (err) {
+        ARCHIVE.loading = false;
+        ARCHIVE.error = "Archive data isn't available yet (" + err.message +
+          "). It appears after the next scheduled pipeline run.";
+        renderArchiveBody();
+      });
+  }
+
+  function buildArchiveFilters() {
+    var names = [];
+    (ARCHIVE.stories || []).concat(ARCHIVE.sector_stories || []).forEach(function (s) {
+      if (s.company && names.indexOf(s.company) === -1) { names.push(s.company); }
+    });
+    names.sort();
+    buildFilters("arch-filters", names, archFilter, function (n) {
+      archFilter = n; renderArchiveBody();
+    });
+  }
+
+  function matchesArchiveFilters(item) {
+    if (archFilter !== "ALL" && item.company !== archFilter) { return false; }
+    if (archSearch) {
+      var hay = ((item.title || "") + " " + (item.summary || "") + " " + (item.source || "")).toLowerCase();
+      if (hay.indexOf(archSearch) === -1) { return false; }
+    }
+    var d = parseDate(item.published_at || item.first_seen);
+    if (archFrom) {
+      var from = parseDate(archFrom);
+      if (!d || !from || d < from) { return false; }
+    }
+    if (archTo) {
+      var to = parseDate(archTo);
+      if (to) { to.setHours(23, 59, 59, 999); }
+      if (!d || !to || d > to) { return false; }
+    }
+    return true;
+  }
+
+  function renderArchiveBody() {
+    var body = document.getElementById("arch-body");
+    if (!body) { return; }
+    if (ARCHIVE.error) {
+      body.innerHTML = '<div class="empty"><b>Archive unavailable</b>' + esc(ARCHIVE.error) + "</div>";
+      return;
+    }
+    if (ARCHIVE.loading) { body.innerHTML = skeletonHTML(); return; }
+    if (!ARCHIVE.loaded) { return; }
+
+    var dismissed = getDismissed(ARCHIVE_DISMISS_KEY);
+    var pool = (ARCHIVE.stories || []).slice();
+    if (archIncludeSector) { pool = pool.concat(ARCHIVE.sector_stories || []); }
+    var hiddenCount = 0;
+    var filtered = pool.filter(function (item) {
+      if (dismissed.indexOf(item.id) !== -1) { hiddenCount++; return false; }
+      return matchesArchiveFilters(item);
+    });
+    updateHiddenControl("arch-filters", hiddenCount, "archive");
+    if (!filtered.length) {
+      body.innerHTML = '<div class="empty"><b>No matches</b>' +
+        "Try widening the search, date range or company filter.</div>";
+      return;
+    }
+    filtered.sort(function (a, b) {
+      return (parseDate(b.published_at || b.first_seen) || 0) - (parseDate(a.published_at || a.first_seen) || 0);
+    });
+    var groups = {}, order = [];
+    filtered.forEach(function (item) {
+      var k = monthKey(item.published_at || item.first_seen);
+      if (!groups[k]) { groups[k] = []; order.push(k); }
+      groups[k].push(item);
+    });
+    order.sort(function (a, b) {
+      if (a === "Undated") { return 1; }
+      if (b === "Undated") { return -1; }
+      return a < b ? 1 : -1;
+    });
+    body.innerHTML = order.map(function (key) {
+      return '<div class="sect archive-month"><div class="sect-mid"><h2>' + esc(monthLabel(key)) +
+        "</h2></div></div>" +
+        '<div class="storygrid">' + groups[key].map(function (s) { return storyHTML(s, "archive"); }).join("") + "</div>";
+    }).join("");
   }
 
   function renderSector() {
@@ -829,12 +1051,12 @@
     if (!found) { liSelected = list[0].id; }
 
     listEl.innerHTML = list.map(function (s) {
-      return '<button class="pick" data-pick="' + esc(s.id) + '" aria-current="' +
+      return '<button class="pick" role="option" data-pick="' + esc(s.id) + '" aria-selected="' +
         (s.id === liSelected) + '">' +
         '<div class="pc">' + esc(s.company) + "</div>" +
         '<div class="pt">' + esc(s.title) + "</div>" +
         '<div class="pm">' + esc(fmtDate(s.published_at)) + " &middot; " +
-          (isToday(s) ? "NEW" : "ARCHIVE") + " &middot; " +
+          (isToday(s) ? "NEW" : "EARLIER") + " &middot; " +
           (s.status === "ready" ? "READY" : "REVIEW") + "</div>" +
       "</button>";
     }).join("");
@@ -851,14 +1073,14 @@
 
     mainEl.innerHTML =
       '<div class="compose">' +
-        '<div class="variant-bar">' +
+        '<div class="variant-bar" role="tablist" aria-label="Post angle">' +
           available.map(function (k) {
-            return '<button class="variant" data-variant="' + k + '" aria-selected="' +
-              (k === liVariant) + '">' + esc(labels[k]) + "</button>";
+            return '<button class="variant" role="tab" aria-selected="' + (k === liVariant) +
+              '" aria-controls="li-body" data-variant="' + k + '">' + esc(labels[k]) + "</button>";
           }).join("") +
         "</div>" +
-        (warns ? '<div class="warn" style="margin-bottom:14px;">' + warns + "</div>" : "") +
-        '<div class="post-preview">' +
+        (warns ? '<div class="warn">' + warns + "</div>" : "") +
+        '<div class="post-preview" role="tabpanel" aria-label="Post preview">' +
           '<div class="pp-head">' +
             '<div class="pp-avatar">NWP</div>' +
             '<div><div class="pp-name">Next Wave Partners</div>' +
@@ -889,7 +1111,7 @@
       return;
     }
     body.innerHTML = list.map(function (c) {
-      return '<div class="dcard">' +
+      return '<div class="dcard" style="--accent:' + companyColour(c.name) + ';">' +
         "<h3>" + esc(c.name) + "</h3>" +
         '<div class="di">' + esc(c.industry || "") + "</div>" +
         (c.description ? '<div class="dd">' + esc(c.description) + "</div>" : "") +
@@ -924,10 +1146,10 @@
     }).join("");
   }
 
-  function setCompanyMessage(text, ok) {
+  function setCompanyMessage(text, kind) {
     var el = document.getElementById("mc-msg");
     el.textContent = text;
-    el.className = "mmsg " + (ok ? "ok" : "err");
+    el.className = "mmsg" + (kind ? " " + kind : "");
   }
 
   // Next scheduled refresh, phrased as "today at HH:MM" / "tomorrow at HH:MM"
@@ -975,45 +1197,74 @@
 
   function addCompany() {
     var name = document.getElementById("mc-name").value.trim();
-    if (!name) { setCompanyMessage("Name is required.", false); return; }
+    if (!name) { setCompanyMessage("Name is required.", "err"); return; }
     var body = {
       name: name,
       industry: document.getElementById("mc-industry").value.trim(),
       website: document.getElementById("mc-website").value.trim(),
       description: document.getElementById("mc-desc").value.trim(),
     };
-    setCompanyMessage("Adding…", true);
+    setCompanyMessage("Adding…", "pending");
     fetch(COMPANIES_API + "/companies/add", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     }).then(function (r) { return r.json(); })
       .then(function (data) {
-        if (!data.ok) { setCompanyMessage(data.error || "Could not add company.", false); return; }
+        if (!data.ok) { setCompanyMessage(data.error || "Could not add company.", "err"); return; }
         document.getElementById("mc-name").value = "";
         document.getElementById("mc-industry").value = "";
         document.getElementById("mc-website").value = "";
         document.getElementById("mc-desc").value = "";
-        setCompanyMessage(name + " added - appears in the Directory after the next scheduled refresh.", true);
+        setCompanyMessage("", "");
+        showToast(name + " added - appears in the Directory after the next scheduled refresh.");
       })
-      .catch(function () { setCompanyMessage("Network error - could not reach the update service.", false); });
+      .catch(function () { setCompanyMessage("Network error - could not reach the update service.", "err"); });
+  }
+
+  // In-style confirmation, replacing window.confirm (an OS dialog looked out
+  // of place in a custom broadsheet UI).
+  function customConfirm(message, onConfirm) {
+    var overlay = document.getElementById("confirm-overlay");
+    if (!overlay) { onConfirm(); return; }
+    var msg = document.getElementById("confirm-msg");
+    var ok = document.getElementById("confirm-ok");
+    var cancel = document.getElementById("confirm-cancel");
+    var previousFocus = document.activeElement;
+    msg.textContent = message;
+    overlay.removeAttribute("hidden");
+    function close() {
+      overlay.setAttribute("hidden", "");
+      ok.removeEventListener("click", onOk);
+      cancel.removeEventListener("click", onCancel);
+      document.removeEventListener("keydown", onKey);
+      if (previousFocus && previousFocus.focus) { previousFocus.focus(); }
+    }
+    function onOk() { close(); onConfirm(); }
+    function onCancel() { close(); }
+    function onKey(e) { if (e.key === "Escape") { close(); } }
+    ok.addEventListener("click", onOk);
+    cancel.addEventListener("click", onCancel);
+    document.addEventListener("keydown", onKey);
+    cancel.focus();
   }
 
   function removeCompany(name) {
-    if (!window.confirm("Remove " + name + " from tracked companies?")) { return; }
-    setCompanyMessage("Removing…", true);
-    fetch(COMPANIES_API + "/companies/remove", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name: name }),
-    }).then(function (r) { return r.json(); })
-      .then(function (data) {
-        if (!data.ok) { setCompanyMessage(data.error || "Could not remove company.", false); return; }
-        setCompanyMessage("", true);
-        showToast(name + " removed - disappears after the next scheduled refresh (" +
-                  nextRefreshLabel() + ").");
-      })
-      .catch(function () { setCompanyMessage("Network error - could not reach the update service.", false); });
+    customConfirm("Remove " + name + " from tracked companies?", function () {
+      setCompanyMessage("Removing…", "pending");
+      fetch(COMPANIES_API + "/companies/remove", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: name }),
+      }).then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (!data.ok) { setCompanyMessage(data.error || "Could not remove company.", "err"); return; }
+          setCompanyMessage("", "");
+          showToast(name + " removed - disappears after the next scheduled refresh (" +
+                    nextRefreshLabel() + ").");
+        })
+        .catch(function () { setCompanyMessage("Network error - could not reach the update service.", "err"); });
+    });
   }
 
   var filterBars = {};
@@ -1030,17 +1281,7 @@
     Object.keys(filterBars).forEach(function (k) { updateFilterOverflow(filterBars[k]); });
   }
 
-  function buildFilters(barId, filterValue, onPick) {
-    var names = [];
-    (DATA.stories || []).forEach(function (s) {
-      if (s.company && names.indexOf(s.company) === -1) { names.push(s.company); }
-    });
-    (DATA.companies || []).forEach(function (c) {
-      if (c.name && names.indexOf(c.name) === -1 && (c.sector_count || 0) > 0) {
-        names.push(c.name);
-      }
-    });
-    names.sort();
+  function buildFilters(barId, names, filterValue, onPick) {
     var bar = document.getElementById(barId);
     bar.innerHTML = '<span class="lbl">Companies</span>';
     var chips = document.createElement("div");
@@ -1092,7 +1333,9 @@
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) { track.style.transform = "none"; track.innerHTML = content; return; }
 
-    track.innerHTML = content + content;  // duplicate for a seamless wrap
+    // duplicate for a seamless wrap; the duplicate is hidden from assistive
+    // tech so screen readers don't read every headline twice
+    track.innerHTML = content + '<span aria-hidden="true">' + content + "</span>";
     var st = { offset: 0, vel: 0, base: 55, target: 55, last: 0, raf: 0,
                half: track.scrollWidth / 2 };
     tickerState = st;
@@ -1135,20 +1378,35 @@
 
   function updateChrome() {
     var stories = DATA.stories || [];
-    var recent = stories.filter(inRecency).length;
-    document.getElementById("s-stories").textContent = recent;
+    document.getElementById("s-stories").textContent = stories.length;
+    document.getElementById("s-companies").textContent = (DATA.companies || []).length;
     document.getElementById("s-sector").textContent = (DATA.sector_stories || []).length;
     document.getElementById("s-drafts").textContent = postable().length;
     document.getElementById("s-refresh").textContent =
       fmtDate(DATA.generated_at) + " " + fmtTime(DATA.generated_at);
-    document.getElementById("b-news").textContent = "(" + recent + ")";
+    document.getElementById("b-news").textContent = "(" + stories.length + ")";
     document.getElementById("b-sector").textContent = "(" + (DATA.sector_stories || []).length + ")";
     document.getElementById("b-li").textContent = "(" + postable().length + ")";
-    document.getElementById("b-arch").textContent = "(" + (stories.length - recent) + ")";
+    // b-arch is set once archive.json has been lazily fetched, not here.
     document.getElementById("foot").textContent =
-      "Internal briefing. Generated " + fmtDate(DATA.generated_at) + " " +
-      fmtTime(DATA.generated_at) + ". Refreshes automatically every hour. " +
-      "Review every draft before publishing.";
+      "Internal briefing. Last updated " + fmtTime(DATA.generated_at) + " (" +
+      fmtDate(DATA.generated_at) + ") - next update " + nextRefreshLabel() +
+      ". Review every draft before publishing.";
+  }
+
+  var dataLoaded = false;
+  function skeletonHTML() {
+    return '<div class="skel"><div class="skel-row"></div><div class="skel-row"></div><div class="skel-row"></div></div>';
+  }
+  function renderSkeletonFor(view) {
+    var map = {
+      newsroom: ["news-body"], sector: ["sector-body"],
+      linkedin: ["li-list", "li-main"], directory: ["dir-body"], companies: ["mc-list"],
+    };
+    (map[view] || []).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) { el.innerHTML = skeletonHTML(); }
+    });
   }
 
   function show(view) {
@@ -1157,14 +1415,20 @@
       if (v.id === "view-" + view) { v.classList.add("on"); } else { v.classList.remove("on"); }
     });
     Array.prototype.forEach.call(document.querySelectorAll(".nav button"), function (b) {
-      b.setAttribute("aria-current", String(b.getAttribute("data-view") === view));
+      b.setAttribute("aria-selected", String(b.getAttribute("data-view") === view));
     });
-    if (view === "newsroom") { renderStoryView(true, newsFilter, "news-body"); renderPulse(); }
-    if (view === "archive") { renderStoryView(false, archFilter, "arch-body"); }
-    if (view === "sector") { renderSector(); }
-    if (view === "linkedin") { renderLinkedIn(); }
-    if (view === "directory") { renderDirectory(); }
-    if (view === "companies") { renderCompanies(); }
+    if (view === "archive") {
+      loadArchive();
+      renderArchiveBody();
+    } else if (!dataLoaded) {
+      renderSkeletonFor(view);
+    } else {
+      if (view === "newsroom") { renderNewsroom(newsFilter); renderPulse(); }
+      if (view === "sector") { renderSector(); }
+      if (view === "linkedin") { renderLinkedIn(); }
+      if (view === "directory") { renderDirectory(); }
+      if (view === "companies") { renderCompanies(); }
+    }
     syncCarousels();
     recomputeFilterOverflows();
   }
@@ -1181,7 +1445,7 @@
     if (t.hasAttribute && t.hasAttribute("data-scroll")) {
       var rail = document.getElementById(t.getAttribute("data-scroll"));
       if (rail) {
-        rail.scrollBy({ left: 350 * parseInt(t.getAttribute("data-dir"), 10), behavior: "smooth" });
+        rail.scrollBy({ left: 352 * parseInt(t.getAttribute("data-dir"), 10), behavior: "smooth" });
       }
       return;
     }
@@ -1207,21 +1471,42 @@
       copy(t.getAttribute("data-copyval"), t);
       return;
     }
+    var toggleLow = t.closest ? t.closest("[data-toggle-low]") : null;
+    if (toggleLow) {
+      var grid = document.getElementById(toggleLow.getAttribute("data-toggle-low"));
+      if (grid) {
+        var showing = grid.classList.toggle("show-low");
+        var count = grid.querySelectorAll(".story-low").length;
+        toggleLow.textContent = showing ? "Show less" : "Show " + count + " more";
+      }
+      return;
+    }
     var dismissBtn = t.closest ? t.closest("[data-dismiss]") : null;
-    if (dismissBtn) { dismissStory(dismissBtn.getAttribute("data-dismiss")); refreshStories(); return; }
-    if (t.hasAttribute && t.hasAttribute("data-show-dismissed")) { clearDismissed(); refreshStories(); }
+    if (dismissBtn) {
+      var ns = dismissBtn.getAttribute("data-ns") === "archive" ? ARCHIVE_DISMISS_KEY : DISMISS_KEY;
+      dismissStory(ns, dismissBtn.getAttribute("data-dismiss"));
+      if (dismissBtn.getAttribute("data-ns") === "archive") { renderArchiveBody(); } else { refreshStories(); }
+      return;
+    }
+    if (t.hasAttribute && t.hasAttribute("data-show-dismissed")) {
+      if (t.getAttribute("data-show-dismissed") === "archive") { clearDismissed(ARCHIVE_DISMISS_KEY); renderArchiveBody(); }
+      else { clearDismissed(DISMISS_KEY); refreshStories(); }
+    }
   });
 
   function refreshStories() {
-    if (currentView === "newsroom") { renderStoryView(true, newsFilter, "news-body"); renderPulse(); }
-    if (currentView === "archive") { renderStoryView(false, archFilter, "arch-body"); }
+    if (currentView === "newsroom") { renderNewsroom(newsFilter); renderPulse(); }
     syncCarousels();
   }
 
   document.addEventListener("keydown", function (e) {
     if (e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) { return; }
-    var map = { F1: "newsroom", F2: "sector", F3: "linkedin", F4: "archive", F5: "directory", F6: "companies" };
+    var map = { F1: "newsroom", F2: "sector", F3: "linkedin", F4: "archive" };
     if (map[e.key]) { e.preventDefault(); show(map[e.key]); }
+  });
+
+  document.addEventListener("nwp:themechange", function () {
+    if (DATA.generated_at) { buildTicker(); show(currentView); }
   });
 
   function copy(text, button) {
@@ -1267,31 +1552,77 @@
     syncToTop();
   }
 
+  var archSearchEl = document.getElementById("arch-search");
+  if (archSearchEl) {
+    archSearchEl.addEventListener("input", function () {
+      archSearch = archSearchEl.value.trim().toLowerCase();
+      renderArchiveBody();
+    });
+  }
+  var archFromEl = document.getElementById("arch-from");
+  if (archFromEl) {
+    archFromEl.addEventListener("change", function () { archFrom = archFromEl.value; renderArchiveBody(); });
+  }
+  var archToEl = document.getElementById("arch-to");
+  if (archToEl) {
+    archToEl.addEventListener("change", function () { archTo = archToEl.value; renderArchiveBody(); });
+  }
+  var archSectorToggle = document.getElementById("arch-sector-toggle");
+  if (archSectorToggle) {
+    archSectorToggle.addEventListener("click", function () {
+      archIncludeSector = !archIncludeSector;
+      archSectorToggle.setAttribute("aria-pressed", String(archIncludeSector));
+      renderArchiveBody();
+    });
+  }
+
+  function showFeedError(err) {
+    var msg = '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
+      esc(err.message) + "). The page will keep retrying on its own schedule.</div>";
+    ["news-body", "sector-body", "dir-body", "mc-list"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) { el.innerHTML = msg; }
+    });
+    var liMain = document.getElementById("li-main");
+    if (liMain) { liMain.innerHTML = msg; }
+    var liList = document.getElementById("li-list");
+    if (liList) { liList.innerHTML = ""; }
+  }
+
+  // Only re-renders when generated_at actually changes, so an unchanged
+  // hourly poll doesn't blow away carousel scroll positions or re-render the
+  // LinkedIn Studio out from under someone mid-copy.
   function loadData(initial) {
     return fetch("data/news.json?t=" + Date.now())
       .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
       .then(function (data) {
+        var prevGenerated = DATA.generated_at;
         DATA = data || DATA;
         DATA.stories = DATA.stories || [];
         DATA.sector_stories = DATA.sector_stories || [];
         DATA.companies = DATA.companies || [];
+        var changed = initial || !prevGenerated || DATA.generated_at !== prevGenerated;
+        dataLoaded = true;
         updateChrome();
-        buildTicker();
-        buildFilters("news-filters", newsFilter, function (n) {
-          newsFilter = n; renderStoryView(true, n, "news-body"); syncCarousels();
-        });
-        buildFilters("arch-filters", archFilter, function (n) {
-          archFilter = n; renderStoryView(false, n, "arch-body"); syncCarousels();
-        });
-        show(initial ? "newsroom" : currentView);
+        if (changed) {
+          buildTicker();
+          var names = [];
+          DATA.stories.forEach(function (s) {
+            if (s.company && names.indexOf(s.company) === -1) { names.push(s.company); }
+          });
+          DATA.companies.forEach(function (c) {
+            if (c.name && names.indexOf(c.name) === -1 && (c.sector_count || 0) > 0) { names.push(c.name); }
+          });
+          names.sort();
+          buildFilters("news-filters", names, newsFilter, function (n) {
+            newsFilter = n; renderNewsroom(n); syncCarousels();
+          });
+          show(initial ? "newsroom" : currentView);
+        }
       });
   }
 
-  loadData(true).catch(function (err) {
-    document.getElementById("news-body").innerHTML =
-      '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
-      esc(err.message) + ").</div>";
-  });
+  loadData(true).catch(function (err) { showFeedError(err); });
 
   setInterval(function () {
     loadData(false).catch(function () { /* keep showing last good data on a failed poll */ });

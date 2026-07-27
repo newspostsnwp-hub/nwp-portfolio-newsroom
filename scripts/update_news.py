@@ -80,7 +80,6 @@ ANALYZE_PER_COMPANY = max(1, int(os.getenv("ANALYZE_PER_COMPANY", "6")))
 MAX_SECTOR_PER_COMPANY = max(0, int(os.getenv("MAX_SECTOR_PER_COMPANY", "4")))
 ANALYZE_SECTOR_PER_COMPANY = max(0, int(os.getenv("ANALYZE_SECTOR_PER_COMPANY", "10")))
 MIN_SCORE = max(0, min(100, int(os.getenv("MIN_SCORE", "45"))))
-READY_SCORE = max(0, min(100, int(os.getenv("READY_SCORE", "80"))))
 # Tiering for the dashboard/digest - LEAD/SOLID split what MIN_SCORE lets through.
 LEAD_SCORE = max(0, min(100, int(os.getenv("LEAD_SCORE", "80"))))
 SOLID_SCORE = max(0, min(100, int(os.getenv("SOLID_SCORE", "60"))))
