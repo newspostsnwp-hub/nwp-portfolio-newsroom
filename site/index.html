@@ -323,6 +323,17 @@
   .mmsg{font-size:11.5px;font-family:var(--sans);margin-top:10px;min-height:14px;}
   .mmsg.ok{color:var(--green);}
   .mmsg.err{color:var(--red);}
+
+  /* fixed toast (fades in at the top, visible even when scrolled) */
+  #toast-host{position:fixed;top:16px;left:0;right:0;z-index:2000;display:flex;
+              flex-direction:column;align-items:center;gap:8px;pointer-events:none;}
+  .toast{background:var(--panel);border:2px solid var(--green);color:var(--ink);
+         font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.2px;
+         padding:11px 20px;max-width:90vw;text-align:center;
+         box-shadow:0 6px 18px rgba(0,0,0,.18);
+         opacity:0;transform:translateY(-12px);transition:opacity .3s ease,transform .3s ease;}
+  .toast.show{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion:reduce){.toast{transition:opacity .3s ease;transform:none;}}
   .mlist{background:var(--panel);border:1px solid var(--line);}
   .mrow{display:flex;align-items:center;justify-content:space-between;gap:12px;
         padding:13px 16px;border-bottom:1px solid var(--line-soft);border-left:3px solid transparent;
@@ -504,6 +515,9 @@
   var currentView = "newsroom";
   var REFRESH_MS = 60 * 60 * 1000;
   var COMPANIES_API = "https://nwpnewsscheduler.newspostsnwp.workers.dev";
+  // Daily scheduled-refresh times, Europe/London (24h). KEEP IN SYNC with the
+  // scheduler worker's MORNING_HOUR/MINUTE and AFTERNOON_HOUR/MINUTE vars.
+  var REFRESH_TIMES = ["07:42", "15:07"];
 
   function esc(v) {
     return String(v == null ? "" : v)
@@ -916,6 +930,49 @@
     el.className = "mmsg " + (ok ? "ok" : "err");
   }
 
+  // Next scheduled refresh, phrased as "today at HH:MM" / "tomorrow at HH:MM"
+  // (Europe/London), from the hardcoded REFRESH_TIMES above.
+  function nextRefreshLabel() {
+    var fmt = new Intl.DateTimeFormat("en-GB", {
+      timeZone: "Europe/London", hour: "2-digit", minute: "2-digit", hourCycle: "h23"
+    });
+    var parts = {};
+    fmt.formatToParts(new Date()).forEach(function (p) {
+      if (p.type !== "literal") { parts[p.type] = p.value; }
+    });
+    var nowMin = parseInt(parts.hour, 10) * 60 + parseInt(parts.minute, 10);
+    var slots = REFRESH_TIMES.map(function (t) {
+      var hm = t.split(":");
+      return { label: t, min: parseInt(hm[0], 10) * 60 + parseInt(hm[1], 10) };
+    }).sort(function (a, b) { return a.min - b.min; });
+    for (var i = 0; i < slots.length; i++) {
+      if (slots[i].min > nowMin) { return "today at " + slots[i].label; }
+    }
+    return "tomorrow at " + slots[0].label;
+  }
+
+  // Fixed toast that fades in at the top of the screen (visible when scrolled),
+  // then auto-dismisses.
+  function showToast(message) {
+    var host = document.getElementById("toast-host");
+    if (!host) {
+      host = document.createElement("div");
+      host.id = "toast-host";
+      document.body.appendChild(host);
+    }
+    var t = document.createElement("div");
+    t.className = "toast";
+    t.setAttribute("role", "status");
+    t.textContent = message;
+    host.appendChild(t);
+    void t.offsetWidth; // reflow so the fade-in transition runs
+    t.classList.add("show");
+    setTimeout(function () {
+      t.classList.remove("show");
+      setTimeout(function () { if (t.parentNode) { t.parentNode.removeChild(t); } }, 400);
+    }, 6000);
+  }
+
   function addCompany() {
     var name = document.getElementById("mc-name").value.trim();
     if (!name) { setCompanyMessage("Name is required.", false); return; }
@@ -952,7 +1009,9 @@
     }).then(function (r) { return r.json(); })
       .then(function (data) {
         if (!data.ok) { setCompanyMessage(data.error || "Could not remove company.", false); return; }
-        setCompanyMessage(name + " removed - disappears after the next scheduled refresh.", true);
+        setCompanyMessage("", true);
+        showToast(name + " removed - disappears after the next scheduled refresh (" +
+                  nextRefreshLabel() + ").");
       })
       .catch(function () { setCompanyMessage("Network error - could not reach the update service.", false); });
   }
