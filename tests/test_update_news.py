@@ -248,3 +248,83 @@ class TestValidateSectorAnalysis:
         )
         assert result["summary"] == "x y"
         assert result["angle"] == ""
+
+
+# ------------------------------------------------------------- website_url
+
+class TestWebsiteUrl:
+    def test_bare_host_gets_scheme_and_root_path(self):
+        assert u.website_url("Revvi.co.uk") == "https://revvi.co.uk/"
+
+    def test_existing_scheme_and_path_kept(self):
+        assert u.website_url("HTTPS://WWW.Example.com/uk/") == "https://www.example.com/uk/"
+
+    def test_query_and_fragment_dropped(self):
+        assert u.website_url("example.com/x?utm_source=a#top") == "https://example.com/x"
+
+    def test_blank_and_nonsense_return_empty(self):
+        assert u.website_url("") == ""
+        assert u.website_url("not a website") == ""
+
+    def test_host_strips_www(self):
+        assert u.website_host("https://www.revvi.co.uk/") == "revvi.co.uk"
+
+
+# ------------------------------------------------- company_needs_enrichment
+
+class TestCompanyNeedsEnrichment:
+    def test_dashboard_shaped_entry_needs_enrichment(self):
+        assert u.company_needs_enrichment(
+            {"name": "Revvi", "search_terms": [], "domain": ""}) is True
+
+    def test_curated_entry_is_left_alone(self):
+        assert u.company_needs_enrichment(
+            {"name": "Swytch", "search_terms": ["Swytch e-bike"],
+             "domain": "swytchbike.com", "industry_terms": []}) is False
+
+    def test_already_researched_entry_is_not_repeated(self):
+        assert u.company_needs_enrichment(
+            {"name": "Revvi", "search_terms": [], "domain": "",
+             "enriched_at": "2026-07-27T00:00:00+00:00"}) is False
+
+
+# ---------------------------------------------------------- parse_json_object
+
+class TestParseJsonObject:
+    def test_plain_object(self):
+        assert u.parse_json_object('{"a": 1}') == {"a": 1}
+
+    def test_fenced_object(self):
+        assert u.parse_json_object('```json\n{"a": 1}\n```') == {"a": 1}
+
+    def test_object_wrapped_in_prose(self):
+        text = 'Here is what I found:\n{"a": 1}\nSources: example.com'
+        assert u.parse_json_object(text) == {"a": 1}
+
+    def test_non_object_rejected(self):
+        with pytest.raises(ValueError):
+            u.parse_json_object("[1, 2, 3]")
+
+
+# ------------------------------------------------------- validate_enrichment
+
+class TestValidateEnrichment:
+    def test_lists_are_cleaned_deduped_and_capped(self):
+        result = u.validate_enrichment(
+            {"search_terms": ["Revvi  bike", "revvi bike", "", "a", "b", "c", "d", "e"]})
+        assert result["search_terms"][:2] == ["Revvi bike", "a"]
+        assert len(result["search_terms"]) == 5
+
+    def test_non_http_urls_are_dropped(self):
+        result = u.validate_enrichment(
+            {"rss_feeds": ["not a url", "revvi.co.uk/feed", "https://revvi.co.uk/feed"]})
+        assert result["rss_feeds"] == ["https://revvi.co.uk/feed"]
+
+    def test_missing_fields_default_empty(self):
+        result = u.validate_enrichment({})
+        assert result["aliases"] == [] and result["description"] == ""
+        assert result["confidence"] == "unknown"
+
+    def test_overlong_description_is_truncated(self):
+        result = u.validate_enrichment({"description": "x" * 5000})
+        assert len(result["description"]) == u.DESCRIPTION_LIMIT
