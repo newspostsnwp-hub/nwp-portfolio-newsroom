@@ -221,52 +221,72 @@
   .archinput{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
     font-family:var(--sans);padding:5px 9px;font-size:12px;}
   .archinput:focus{border-color:var(--blue);}
+  .wire-select{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
+    font-family:var(--sans);padding:5px 9px;font-size:12px;}
+  .wire-select:focus{border-color:var(--blue);}
   .hidden-ctl{margin-left:auto;}
   .bar-note{color:var(--faint);font-size:11.5px;font-family:var(--sans);}
 
   /* ---------------- coverage pulse ---------------- */
   .pulse{padding:12px 18px;background:var(--panel-2);border-bottom:1px solid var(--line);
          display:flex;flex-direction:column;gap:6px;}
+  .pulse-head{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;
+              justify-content:space-between;margin-bottom:10px;}
+  .pulse-total{font-family:var(--sans);font-size:11px;color:var(--faint);letter-spacing:.3px;}
+  .pulse-empty{font-family:var(--sans);font-size:12px;color:var(--faint);margin:0;}
+  /* The 2px surface gap between segments keeps two adjacent fills legible
+     without relying on their hues differing. */
+  .pulse-bar{display:flex;gap:2px;height:14px;width:100%;overflow:hidden;}
+  .pulse-seg{height:100%;min-width:3px;border-radius:2px;}
+  .pulse-legend{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;
+                gap:6px 18px;}
+  .pulse-key{display:flex;align-items:center;gap:6px;font-family:var(--sans);font-size:11.5px;}
+  .pulse-dot{width:9px;height:9px;border-radius:2px;flex:0 0 auto;}
+  .pulse-label{color:var(--text-2);}
+  .pulse-n{color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums;}
   .pulse-title{font-family:var(--sans);color:var(--faint);font-size:10.5px;letter-spacing:1.4px;
                text-transform:uppercase;margin-bottom:2px;font-weight:700;}
-  .pulse-row{display:flex;align-items:center;gap:10px;}
-  .pulse-name{width:150px;flex:0 0 auto;color:var(--text-2);font-family:var(--sans);font-size:11px;
-              text-transform:uppercase;letter-spacing:.4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  .pulse-track{flex:1;background:var(--panel-3);height:8px;}
-  .pulse-bar{background:var(--ink);height:100%;}
-  .pulse-count{width:22px;flex:0 0 auto;text-align:right;color:var(--ink);font-family:var(--sans);
-               font-size:11px;font-weight:700;}
 
   /* ---------------- masonry story columns, condensed ---------------- */
   .storygrid{column-count:2;column-gap:0;column-rule:1px solid var(--line-soft);
              border-top:1px solid var(--line);background:var(--panel);}
+  /* One story would otherwise sit in a half-width column with the other half
+     blank; give it the full width and cap the measure so lines stay readable. */
+  .storygrid.single{column-count:1;}
+  .storygrid.single .summary,.storygrid.single .headline{max-width:74ch;}
   .storygrid .story{break-inside:avoid;-webkit-column-break-inside:avoid;
                     border-bottom:1px solid var(--line-soft);}
   .storygrid .matters,.storygrid .facts{display:none;}
-  .storygrid .story.story-low{display:none;}
-  .storygrid.show-low .story.story-low{display:block;}
-  .story{padding:17px 22px;}
+  /* Only collapsed where a toggle exists to reopen it - a small block shows
+     everything, so a hidden story there would be unreachable. */
+  .storygrid.has-low .story.story-low{display:none;}
+  .storygrid.has-low.show-low .story.story-low{display:block;}
+  /* Headline first, provenance under it, actions floated top-right clear of
+     the text column - so the eye lands on the story, not the furniture. */
+  .story{padding:18px 22px;position:relative;}
   .story:hover{background:var(--panel-2);}
-  .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:10.5px;font-family:var(--sans);
-        color:var(--dim);margin-bottom:9px;letter-spacing:.6px;text-transform:uppercase;font-weight:600;}
-  .meta .src{color:var(--ink);text-transform:uppercase;font-weight:800;}
-  .tag{padding:2px 7px;border:1px solid var(--line);color:var(--dim);font-family:var(--sans);
-       text-transform:uppercase;letter-spacing:.9px;font-size:9.5px;font-weight:700;}
-  .tag.ready{border-color:var(--green);color:var(--green);}
-  .tag.review{border-color:var(--amberish);color:var(--amberish);}
-  .tier{font-family:var(--sans);text-transform:uppercase;letter-spacing:.8px;font-size:9.5px;}
-  .tier-lead{color:var(--ink);font-weight:800;}
-  .tier-reported{color:var(--faint);font-weight:600;}
-  .tier-low{color:var(--faint);font-weight:500;font-style:italic;}
-  .tier-catchup,.tier-estimated{color:var(--faint);font-style:italic;font-weight:600;
-    border:1px solid var(--line);padding:1px 6px;}
-  .dismiss{margin-left:auto;background:transparent;border:1px solid var(--line);color:var(--faint);
-           width:24px;height:24px;padding:0;font-size:11px;line-height:1;
-           display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
-  .dismiss:hover{border-color:var(--red);color:var(--red);}
-  .headline{font-family:var(--serif);font-size:23px;line-height:1.26;font-weight:700;color:var(--ink);margin:0 0 9px;}
+  .story-low{opacity:.82;}
+  /* Faint until wanted, but never invisible - a touch device has no hover, so
+     opacity:0 here would hide them from phones entirely. */
+  .acts{position:absolute;top:14px;right:16px;display:flex;gap:4px;opacity:.35;
+        transition:opacity .12s ease;}
+  .story:hover .acts,.acts:focus-within{opacity:1;}
+  @media (hover:none){.acts{opacity:1;}}
+  .act{width:26px;height:26px;padding:0;background:var(--panel);border:1px solid var(--line);
+       color:var(--faint);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .act svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.4;
+           stroke-linecap:round;stroke-linejoin:round;}
+  .act-archive:hover{border-color:var(--blue-lt);color:var(--blue-lt);}
+  .act-bin:hover{border-color:var(--red);color:var(--red);}
+  .headline{font-family:var(--serif);font-size:22px;line-height:1.28;font-weight:700;
+            color:var(--ink);margin:0 44px 6px 0;}
   .headline a{color:inherit;}
   .headline a:hover{color:var(--blue-lt);text-decoration:none;}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline;font-size:10.5px;
+        font-family:var(--sans);color:var(--faint);margin:0 0 10px;letter-spacing:.6px;
+        text-transform:uppercase;font-weight:600;}
+  .meta .src{color:var(--dim);font-weight:700;}
+  .meta .dot{color:var(--line);}
   .summary{font-family:var(--serif);color:var(--text-2);font-size:16.5px;line-height:1.55;margin:0 0 11px;}
   .matters{border-left:3px solid var(--blue);padding-left:12px;color:var(--text-2);font-family:var(--serif);
            font-size:15.5px;margin:0 0 11px;}
@@ -479,10 +499,6 @@
     <div class="masthead-tag">Portfolio newsroom</div>
     <div class="masthead-right">
       <span class="live"><span class="live-dot"></span>Live</span>
-      <div class="stat">Stories <b id="s-stories">--</b></div>
-      <div class="stat">Companies <b id="s-companies">--</b></div>
-      <div class="stat">Sectors <b id="s-sector">--</b></div>
-      <div class="stat">Drafts <b id="s-drafts">--</b></div>
       <div class="stat">Refresh <b id="s-refresh">--</b></div>
       <button id="theme-toggle" class="tt" type="button" aria-label="Switch light or dark theme" title="Light / dark">&#9680;</button>
       <div class="clock" id="clock">--:--:--</div>
@@ -506,6 +522,14 @@
 
 <main id="main-content">
 <section class="view on" id="view-newsroom" role="tabpanel" aria-labelledby="tab-newsroom">
+  <div class="bar bar-wire">
+    <label class="lbl" for="wire-select">Wire</label>
+    <select id="wire-select" class="wire-select">
+      <option value="all">Company and sector</option>
+      <option value="company">Company wire only</option>
+      <option value="sector">Sector wire only</option>
+    </select>
+  </div>
   <div class="bar" id="news-filters"><span class="lbl">Companies</span></div>
   <div id="news-pulse"></div>
   <div id="news-body"></div>
@@ -537,7 +561,6 @@
     <input type="date" id="arch-from" class="archinput">
     <span class="lbl">To</span>
     <input type="date" id="arch-to" class="archinput">
-    <button type="button" class="chip" id="arch-sector-toggle" aria-pressed="false">Include sector wire</button>
   </div>
   <div class="bar" id="arch-filters"><span class="lbl">Companies</span></div>
   <div id="arch-body"></div>
@@ -633,18 +656,43 @@
   }
   function isToday(s) { return dayKey(s.first_seen || s.published_at) === dayKey(DATA.generated_at); }
 
-  var DISMISS_KEY = "nwp_dismissed";
-  var ARCHIVE_DISMISS_KEY = "nwp_dismissed_archive";
-  function getDismissed(key) {
-    try { return JSON.parse(localStorage.getItem(key) || "[]"); } catch (e) { return []; }
+  // Binned and archived are this browser's own choices, kept in localStorage.
+  // They are not shared with other readers and are not sent anywhere, so a
+  // binned story is gone from this dashboard but still in the underlying data.
+  var BIN_KEY = "nwp_binned";
+  var ARCHIVED_KEY = "nwp_archived";
+  function getIds(key) {
+    try {
+      var v = JSON.parse(localStorage.getItem(key) || "[]");
+      return Object.prototype.toString.call(v) === "[object Array]" ? v : [];
+    } catch (e) { return []; }
   }
-  function dismissStory(key, id) {
-    var set = getDismissed(key);
+  function addId(key, id) {
+    var set = getIds(key);
     if (set.indexOf(id) === -1) { set.push(id); }
     try { localStorage.setItem(key, JSON.stringify(set)); } catch (e) { /* ignore */ }
   }
-  function clearDismissed(key) {
+  function removeId(key, id) {
+    var set = getIds(key).filter(function (x) { return x !== id; });
+    try { localStorage.setItem(key, JSON.stringify(set)); } catch (e) { /* ignore */ }
+  }
+  function clearIds(key) {
     try { localStorage.removeItem(key); } catch (e) { /* ignore */ }
+  }
+  function isBinned(s) { return getIds(BIN_KEY).indexOf(s.id) !== -1; }
+  function isUserArchived(s) { return getIds(ARCHIVED_KEY).indexOf(s.id) !== -1; }
+  // Everything the newsroom and wires are allowed to show.
+  function liveStories() {
+    var binned = getIds(BIN_KEY), archived = getIds(ARCHIVED_KEY);
+    return (DATA.stories || []).filter(function (s) {
+      return binned.indexOf(s.id) === -1 && archived.indexOf(s.id) === -1;
+    });
+  }
+  function liveSector() {
+    var binned = getIds(BIN_KEY);
+    return (DATA.sector_stories || []).filter(function (s) {
+      return binned.indexOf(s.id) === -1;
+    });
   }
 
   function tick() {
@@ -655,13 +703,17 @@
     }
   }
 
-  // Light accents; a second set gives every accent a dark-mode variant bright
-  // enough to pass contrast on --bg:#131210, since these colours also do duty
-  // as hover text (.mrow .mname) not just borders.
-  var COMPANY_ACCENTS = ["#c8102e","#e37222","#e0a400","#1f8a4c","#0a7d8c",
-    "#2b5cc0","#6a3fc0","#b0308a","#8a6d1f","#0e766e","#b23a48","#3a6ea5","#7a4bd0"];
-  var COMPANY_ACCENTS_DARK = ["#ff7b86","#ffab6e","#f0cf4d","#5fd696","#4fd2e0",
-    "#7fa8f2","#b79bf5","#f094ce","#e8cf6e","#4fd9c9","#f0919c","#8fb5ec","#c79ef5"];
+  // A validated categorical palette in a fixed order - the order is the
+  // colour-blind-safety mechanism, not decoration, so do not reshuffle it.
+  // Both sets pass lightness, chroma, CVD separation and normal-vision
+  // separation against this site's own panel colours (#ffffff / #1b1917).
+  // The previous accents did not: old slots 6 and 7 (#2b5cc0 blue and
+  // #6a3fc0 violet) sat at normal-vision dE 9.9 and deuteranope dE 0.6 -
+  // effectively the same colour, and they are adjacent in the pulse bar.
+  var COMPANY_ACCENTS = ["#2a78d6","#eb6834","#1baf7a","#eda100",
+    "#e87ba4","#008300","#4a3aa7","#e34948"];
+  var COMPANY_ACCENTS_DARK = ["#3987e5","#d95926","#199e70","#c98500",
+    "#d55181","#008300","#9085e9","#e66767"];
   var FIRM_NAME = "Next Wave Partners";
 
   function isDarkTheme() {
@@ -704,40 +756,44 @@
     return (label ? '<span class="sub">' + esc(label) + "</span>" : "") + out.join("");
   }
 
-  var TIER_LABELS = { lead: "Lead", reported: "Also reported", low: "Low confidence" };
-  function tierChips(story) {
-    var out = "", label = TIER_LABELS[story.tier];
-    if (label) { out += '<span class="tier tier-' + esc(story.tier) + '">' + esc(label) + "</span>"; }
-    if (story.recency === "catchup") { out += '<span class="tier tier-catchup">Catching up</span>'; }
-    if (story.date_estimated) { out += '<span class="tier tier-estimated">Date not stated</span>'; }
-    return out;
+  // Inline so they need no network request and inherit currentColor.
+  var ICON_BIN = '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">' +
+    '<path d="M2.5 4h11M6.5 4V2.75h3V4M4 4l.7 9.3h6.6L12 4M6.6 6.6v4.3M9.4 6.6v4.3"/></svg>';
+  var ICON_ARCHIVE = '<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">' +
+    '<path d="M2 3.2h12v2.6H2zM3.1 5.8h9.8V13H3.1zM6.3 8.4h3.4"/></svg>';
+
+  function storyActions(story, context) {
+    // In the archive, "archive" would be a no-op, so it becomes restore.
+    var archived = context === "archive";
+    return '<div class="acts">' +
+      '<button type="button" class="act act-archive" data-act="' +
+        (archived ? "unarchive" : "archive") + '" data-id="' + esc(story.id) + '" ' +
+        'title="' + (archived ? "Move back to the newsroom" : "Move to your archive") + '" ' +
+        'aria-label="' + (archived ? "Move back to the newsroom" : "Move to your archive") + '">' +
+        ICON_ARCHIVE + "</button>" +
+      '<button type="button" class="act act-bin" data-act="bin" data-id="' + esc(story.id) + '" ' +
+        'title="Remove this story from your dashboard" ' +
+        'aria-label="Remove this story from your dashboard">' + ICON_BIN + "</button>" +
+    "</div>";
   }
 
-  function storyHTML(story, ns) {
-    var ready = story.status === "ready";
-    var facts = (story.verified_facts || []).map(function (f) {
-      return "<li>" + esc(f) + "</li>";
-    }).join("");
+  function storyHTML(story, context) {
     var warns = (story.warnings || []).map(function (w) { return esc(w); }).join(" &middot; ");
     var d = story.drafts || {};
     var hasDraft = !!(d.concise || d.investor || d.people);
+    // Tier is no longer shown as a chip, but low-confidence stories still sit
+    // last and read quieter - the ordering and the dimming carry it instead.
     return '<article class="story' + (story.tier === "low" ? " story-low" : "") + '">' +
-      '<div class="meta">' +
-        '<span class="src">' + esc(story.source || "UNKNOWN") + "</span>" +
-        "<span>" + esc(fmtDate(story.published_at)) + "</span>" +
-        '<span class="tag">' + esc(story.story_type || "UPDATE") + "</span>" +
-        '<span class="tag ' + (ready ? "ready" : "review") + '">' +
-          (ready ? "Draft ready" : "Needs review") + "</span>" +
-        tierChips(story) +
-        '<button class="dismiss" data-dismiss="' + esc(story.id) + '" data-ns="' + (ns || "news") +
-          '" title="Hide this story" aria-label="Hide this story">&#10005;</button>' +
-      "</div>" +
+      storyActions(story, context) +
       '<h3 class="headline"><a href="' + esc(story.url) + '" target="_blank" rel="noopener noreferrer">' +
         esc(story.title) + "</a></h3>" +
+      '<div class="meta">' +
+        '<span class="src">' + esc(story.source || "Unknown source") + "</span>" +
+        '<span class="dot">&middot;</span>' +
+        "<span>" + esc(story.date_estimated ? "Date not stated"
+                                            : fmtDate(story.published_at)) + "</span>" +
+      "</div>" +
       (story.summary ? '<p class="summary">' + esc(story.summary) + "</p>" : "") +
-      (story.why_it_matters ? '<div class="matters"><em>Why it matters</em>' +
-        esc(story.why_it_matters) + "</div>" : "") +
-      (facts ? '<ul class="facts">' + facts + "</ul>" : "") +
       (warns ? '<div class="warn">' + warns + "</div>" : "") +
       '<div class="rowlinks">' +
         '<a class="srch" href="' + esc(story.url) + '" target="_blank" rel="noopener noreferrer">Source &#8599;</a>' +
@@ -778,21 +834,12 @@
   }
 
   function sectorFor(company) {
-    return (DATA.sector_stories || []).filter(function (s) { return s.company === company; });
+    return liveSector().filter(function (s) { return s.company === company; });
   }
 
-  function updateHiddenControl(barId, hidden, ns) {
-    var bar = document.getElementById(barId);
-    if (!bar) { return; }
-    var existing = bar.querySelector(".hidden-ctl");
-    if (existing) { existing.remove(); }
-    if (!hidden) { return; }
-    var btn = document.createElement("button");
-    btn.className = "chip hidden-ctl";
-    btn.setAttribute("data-show-dismissed", ns || "news");
-    btn.textContent = hidden + " hidden - show all";
-    bar.appendChild(btn);
-  }
+  // Which wires the newsroom is showing: both, company stories only, or
+  // sector only. Purely a view filter - nothing is discarded.
+  var newsWire = "all";
 
   var TIER_ORDER = { lead: 0, reported: 1, low: 2 };
   function sortByTier(list) {
@@ -804,12 +851,10 @@
   }
 
   function renderNewsroom(filter) {
-    var scoped = filter === "ALL" ? (DATA.stories || []) :
-      (DATA.stories || []).filter(function (s) { return s.company === filter; });
-    var dismissed = getDismissed(DISMISS_KEY);
-    var hidden = scoped.filter(function (s) { return dismissed.indexOf(s.id) !== -1; }).length;
-    updateHiddenControl("news-filters", hidden, "news");
-    var list = scoped.filter(function (s) { return dismissed.indexOf(s.id) === -1; });
+    var wantCompany = newsWire !== "sector", wantSector = newsWire !== "company";
+    var list = wantCompany ? liveStories().filter(function (s) {
+      return filter === "ALL" || s.company === filter;
+    }) : [];
     var order = [], map = {};
     list.forEach(function (s) {
       var k = s.company || "UNASSIGNED";
@@ -819,25 +864,31 @@
 
     var body = document.getElementById("news-body");
     // Companies with no story in this feed still get their sector context.
-    var quiet = (DATA.companies || []).filter(function (c) {
+    var quiet = !wantSector ? [] : (DATA.companies || []).filter(function (c) {
       if (order.indexOf(c.name) !== -1) { return false; }
       if (filter !== "ALL" && c.name !== filter) { return false; }
       return sectorFor(c.name).length > 0;
     });
     if (!order.length && !quiet.length) {
       body.innerHTML = '<div class="empty"><b>Nothing here</b>' +
-        "No portfolio stories or sector news in this refresh.</div>";
+        (newsWire === "company" ? "No portfolio company stories in this refresh."
+         : newsWire === "sector" ? "No sector news in this refresh."
+         : "No portfolio stories or sector news in this refresh.") + "</div>";
       return;
     }
     body.innerHTML =
-      order.map(function (name) { return companyBlock(name, map[name]); }).join("") +
-      quiet.map(function (c) { return companyBlock(c.name, []); }).join("");
+      order.map(function (name) { return companyBlock(name, map[name], wantSector); }).join("") +
+      quiet.map(function (c) { return companyBlock(c.name, [], wantSector); }).join("");
   }
 
-  function companyBlock(name, stories) {
+  // Below this many stories a "show more" control is noise - the whole set
+  // fits on screen anyway, and a lone toggle under two tiles looks like a bug.
+  var LOW_TOGGLE_MIN = 5;
+
+  function companyBlock(name, stories, withSector) {
     var meta = companyMeta(name) || {};
     var industry = meta.industry || (stories[0] && stories[0].industry) || "";
-    var sector = sectorFor(name);
+    var sector = withSector === false ? [] : sectorFor(name);
     var isFirm = name === FIRM_NAME;
     var html =
       '<div class="sect' + (isFirm ? " sect-firm" : "") + '">' +
@@ -854,10 +905,12 @@
     if (stories.length) {
       var sorted = sortByTier(stories);
       var lowCount = sorted.filter(function (s) { return s.tier === "low"; }).length;
+      var collapse = lowCount > 0 && sorted.length >= LOW_TOGGLE_MIN;
       var gridId = "sg" + (carouselSeq++);
-      html += '<div class="storygrid" id="' + gridId + '">' +
+      html += '<div class="storygrid' + (collapse ? " has-low" : "") +
+        (sorted.length === 1 ? " single" : "") + '" id="' + gridId + '">' +
         sorted.map(function (s) { return storyHTML(s, "news"); }).join("") +
-        (lowCount ? '<button type="button" class="lowtoggle" data-toggle-low="' + gridId +
+        (collapse ? '<button type="button" class="lowtoggle" data-toggle-low="' + gridId +
           '">Show ' + lowCount + " more</button>" : "") +
         "</div>";
     } else {
@@ -886,11 +939,22 @@
     return MONTH_NAMES[parseInt(parts[1], 10) - 1] + " " + parts[0];
   }
 
-  // Archive tab: its own lazily-fetched dataset (archive.json), its own
-  // dismissal namespace, and its own search/date/company/sector filters -
-  // it does not reuse DATA (news.json) or the Newsroom's per-company layout.
-  var ARCHIVE = { stories: [], sector_stories: [], loading: false, loaded: false, error: null };
-  var archSearch = "", archFrom = "", archTo = "", archIncludeSector = false;
+  // The archive is two things merged: stories the pipeline has aged out of the
+  // live feed (archive.json, fetched on first open) and stories this reader
+  // archived by hand (still in news.json). Sector items are never archived.
+  var ARCHIVE = { stories: [], loading: false, loaded: false, error: null };
+  var archSearch = "", archFrom = "", archTo = "";
+
+  function archivePool() {
+    var seen = {}, out = [];
+    (DATA.stories || []).filter(isUserArchived).concat(ARCHIVE.stories || [])
+      .forEach(function (s) {
+        if (isBinned(s) || seen[s.id]) { return; }
+        seen[s.id] = 1;
+        out.push(s);
+      });
+    return out;
+  }
 
   function loadArchive() {
     if (ARCHIVE.loading || ARCHIVE.loaded) { return; }
@@ -901,25 +965,25 @@
       .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
       .then(function (data) {
         ARCHIVE.stories = (data && data.stories) || [];
-        ARCHIVE.sector_stories = (data && data.sector_stories) || [];
         ARCHIVE.loading = false;
         ARCHIVE.loaded = true;
         buildArchiveFilters();
-        var badge = document.getElementById("b-arch");
-        if (badge) { badge.textContent = "(" + ARCHIVE.stories.length + ")"; }
+        updateChrome();
         renderArchiveBody();
       })
       .catch(function (err) {
         ARCHIVE.loading = false;
-        ARCHIVE.error = "Archive data isn't available yet (" + err.message +
-          "). It appears after the next scheduled pipeline run.";
+        // Nothing has aged past 30 days yet on a young feed, so a missing file
+        // is the normal early state - only say so once anything is expected.
+        ARCHIVE.error = "Aged-out stories aren't available yet (" + err.message +
+          "). They appear once stories pass " + (DATA.archive_days || 30) + " days old.";
         renderArchiveBody();
       });
   }
 
   function buildArchiveFilters() {
     var names = [];
-    (ARCHIVE.stories || []).concat(ARCHIVE.sector_stories || []).forEach(function (s) {
+    archivePool().forEach(function (s) {
       if (s.company && names.indexOf(s.company) === -1) { names.push(s.company); }
     });
     names.sort();
@@ -950,22 +1014,14 @@
   function renderArchiveBody() {
     var body = document.getElementById("arch-body");
     if (!body) { return; }
-    if (ARCHIVE.error) {
-      body.innerHTML = '<div class="empty"><b>Archive unavailable</b>' + esc(ARCHIVE.error) + "</div>";
+    if (ARCHIVE.loading) { body.innerHTML = skeletonHTML(); return; }
+    var pool = archivePool();
+    // A fetch failure only matters if there is nothing to show without it.
+    if (ARCHIVE.error && !pool.length) {
+      body.innerHTML = '<div class="empty"><b>Nothing archived yet</b>' + esc(ARCHIVE.error) + "</div>";
       return;
     }
-    if (ARCHIVE.loading) { body.innerHTML = skeletonHTML(); return; }
-    if (!ARCHIVE.loaded) { return; }
-
-    var dismissed = getDismissed(ARCHIVE_DISMISS_KEY);
-    var pool = (ARCHIVE.stories || []).slice();
-    if (archIncludeSector) { pool = pool.concat(ARCHIVE.sector_stories || []); }
-    var hiddenCount = 0;
-    var filtered = pool.filter(function (item) {
-      if (dismissed.indexOf(item.id) !== -1) { hiddenCount++; return false; }
-      return matchesArchiveFilters(item);
-    });
-    updateHiddenControl("arch-filters", hiddenCount, "archive");
+    var filtered = pool.filter(matchesArchiveFilters);
     if (!filtered.length) {
       body.innerHTML = '<div class="empty"><b>No matches</b>' +
         "Try widening the search, date range or company filter.</div>";
@@ -994,7 +1050,7 @@
 
   function renderSector() {
     var byIndustry = {}, order = [];
-    (DATA.sector_stories || []).forEach(function (s) {
+    liveSector().forEach(function (s) {
       var key = s.industry || "Unclassified";
       if (!byIndustry[key]) { byIndustry[key] = { items: [], companies: [] }; order.push(key); }
       byIndustry[key].items.push(s);
@@ -1026,7 +1082,7 @@
   }
 
   function postable() {
-    return (DATA.stories || []).filter(function (s) {
+    return liveStories().filter(function (s) {
       var d = s.drafts || {};
       return !!(d.concise || d.investor || d.people);
     }).sort(function (a, b) {
@@ -1317,10 +1373,10 @@
 
   var tickerState = null;
   function buildTicker() {
-    var parts = (DATA.stories || []).slice(0, 12).map(function (s) {
+    var parts = liveStories().slice(0, 12).map(function (s) {
       return "<span><b>" + esc((s.company || "").toUpperCase()) + "</b> " + esc(s.title) + "</span>";
     });
-    (DATA.sector_stories || []).slice(0, 10).forEach(function (s) {
+    liveSector().slice(0, 10).forEach(function (s) {
       parts.push("<span><b>" + esc((s.industry || "SECTOR").toUpperCase()) + "</b> " +
                  esc(s.title) + "</span>");
     });
@@ -1354,40 +1410,86 @@
     st.raf = requestAnimationFrame(frame);
   }
 
+  // One stacked bar showing how today's coverage is split across companies.
+  // Colour carries identity only - the legend names and counts every segment,
+  // so nothing depends on telling two hues apart (three light-mode slots sit
+  // under 3:1 against white, which makes visible labels mandatory, not
+  // optional). Past MAX_PULSE_SEGMENTS the tail folds into a neutral "Other"
+  // rather than inventing hues the palette has not validated.
+  var MAX_PULSE_SEGMENTS = 8;
+
   function renderPulse() {
     var el = document.getElementById("news-pulse");
     if (!el) { return; }
     var counts = {}, order = [];
-    (DATA.stories || []).filter(isToday).forEach(function (s) {
+    liveStories().filter(isToday).forEach(function (s) {
       var k = s.company || "Unassigned";
       if (!counts[k]) { counts[k] = 0; order.push(k); }
       counts[k]++;
     });
-    if (!order.length) { el.innerHTML = ""; return; }
-    order.sort(function (a, b) { return counts[b] - counts[a]; });
-    var max = counts[order[0]];
-    el.innerHTML = '<div class="pulse"><div class="pulse-title">Today&rsquo;s coverage pulse</div>' +
-      order.map(function (name) {
-        var pct = Math.round((counts[name] / max) * 100);
-        return '<div class="pulse-row"><span class="pulse-name">' + esc(name) +
-          '</span><span class="pulse-track"><span class="pulse-bar" style="width:' + pct +
-          '%;"></span></span><span class="pulse-count">' + counts[name] + "</span></div>";
-      }).join("") +
+    if (!order.length) {
+      el.innerHTML = '<div class="pulse"><div class="pulse-title">Today&rsquo;s coverage</div>' +
+        '<p class="pulse-empty">No portfolio stories carrying today&rsquo;s date. ' +
+        "Earlier coverage is below.</p></div>";
+      return;
+    }
+    order.sort(function (a, b) {
+      return counts[b] - counts[a] || (a < b ? -1 : 1);
+    });
+
+    var segments = order.slice(0, MAX_PULSE_SEGMENTS).map(function (name) {
+      return { name: name, count: counts[name], colour: companyColour(name) };
+    });
+    var tail = order.slice(MAX_PULSE_SEGMENTS);
+    if (tail.length) {
+      segments.push({
+        name: "Other (" + tail.length + ")",
+        count: tail.reduce(function (n, k) { return n + counts[k]; }, 0),
+        colour: "var(--faint)",
+      });
+    }
+    var total = segments.reduce(function (n, s) { return n + s.count; }, 0);
+
+    var bar = segments.map(function (s) {
+      var pct = (s.count / total) * 100;
+      return '<span class="pulse-seg" style="width:' + pct.toFixed(2) + "%;background:" +
+        s.colour + ';" title="' + esc(s.name) + ": " + s.count +
+        (s.count === 1 ? " story" : " stories") + '"></span>';
+    }).join("");
+
+    var legend = segments.map(function (s) {
+      return '<li class="pulse-key"><span class="pulse-dot" style="background:' + s.colour +
+        '"></span><span class="pulse-label">' + esc(s.name) +
+        '</span><span class="pulse-n">' + s.count + "</span></li>";
+    }).join("");
+
+    el.innerHTML = '<div class="pulse">' +
+      '<div class="pulse-head"><span class="pulse-title">Today&rsquo;s coverage</span>' +
+        '<span class="pulse-total">' + total + (total === 1 ? " story" : " stories") +
+        " across " + segments.length + (segments.length === 1 ? " company" : " companies") +
+        "</span></div>" +
+      '<div class="pulse-bar" role="img" aria-label="Today&rsquo;s coverage by company: ' +
+        esc(segments.map(function (s) { return s.name + " " + s.count; }).join(", ")) +
+        '">' + bar + "</div>" +
+      '<ul class="pulse-legend">' + legend + "</ul>" +
     "</div>";
   }
 
+  // Aged-out stories live in archive.json, which the Archive tab fetches only
+  // when opened - so the count comes from news.json instead, and the badge is
+  // right on first paint rather than after a click.
+  function archiveCount() {
+    var aged = parseInt(DATA.archive_story_count, 10);
+    return (isNaN(aged) ? 0 : aged) + (DATA.stories || []).filter(isUserArchived).length;
+  }
+
   function updateChrome() {
-    var stories = DATA.stories || [];
-    document.getElementById("s-stories").textContent = stories.length;
-    document.getElementById("s-companies").textContent = (DATA.companies || []).length;
-    document.getElementById("s-sector").textContent = (DATA.sector_stories || []).length;
-    document.getElementById("s-drafts").textContent = postable().length;
     document.getElementById("s-refresh").textContent =
       fmtDate(DATA.generated_at) + " " + fmtTime(DATA.generated_at);
-    document.getElementById("b-news").textContent = "(" + stories.length + ")";
-    document.getElementById("b-sector").textContent = "(" + (DATA.sector_stories || []).length + ")";
+    document.getElementById("b-news").textContent = "(" + liveStories().length + ")";
+    document.getElementById("b-sector").textContent = "(" + liveSector().length + ")";
     document.getElementById("b-li").textContent = "(" + postable().length + ")";
-    // b-arch is set once archive.json has been lazily fetched, not here.
+    document.getElementById("b-arch").textContent = "(" + archiveCount() + ")";
     document.getElementById("foot").textContent =
       "Internal briefing. Last updated " + fmtTime(DATA.generated_at) + " (" +
       fmtDate(DATA.generated_at) + ") - next update " + nextRefreshLabel() +
@@ -1481,21 +1583,30 @@
       }
       return;
     }
-    var dismissBtn = t.closest ? t.closest("[data-dismiss]") : null;
-    if (dismissBtn) {
-      var ns = dismissBtn.getAttribute("data-ns") === "archive" ? ARCHIVE_DISMISS_KEY : DISMISS_KEY;
-      dismissStory(ns, dismissBtn.getAttribute("data-dismiss"));
-      if (dismissBtn.getAttribute("data-ns") === "archive") { renderArchiveBody(); } else { refreshStories(); }
+    var actBtn = t.closest ? t.closest("[data-act]") : null;
+    if (actBtn) {
+      var id = actBtn.getAttribute("data-id"), act = actBtn.getAttribute("data-act");
+      if (act === "bin") {
+        addId(BIN_KEY, id);
+        removeId(ARCHIVED_KEY, id);
+        showToast("Story removed. It stays out of your dashboard.");
+      } else if (act === "archive") {
+        addId(ARCHIVED_KEY, id);
+        showToast("Moved to your archive.");
+      } else if (act === "unarchive") {
+        removeId(ARCHIVED_KEY, id);
+        showToast("Moved back to the newsroom.");
+      }
+      updateChrome();
+      if (currentView === "archive") { renderArchiveBody(); } else { refreshStories(); }
       return;
-    }
-    if (t.hasAttribute && t.hasAttribute("data-show-dismissed")) {
-      if (t.getAttribute("data-show-dismissed") === "archive") { clearDismissed(ARCHIVE_DISMISS_KEY); renderArchiveBody(); }
-      else { clearDismissed(DISMISS_KEY); refreshStories(); }
     }
   });
 
   function refreshStories() {
     if (currentView === "newsroom") { renderNewsroom(newsFilter); renderPulse(); }
+    else if (currentView === "sector") { renderSector(); }
+    else if (currentView === "linkedin") { renderLinkedIn(); }
     syncCarousels();
   }
 
@@ -1567,12 +1678,12 @@
   if (archToEl) {
     archToEl.addEventListener("change", function () { archTo = archToEl.value; renderArchiveBody(); });
   }
-  var archSectorToggle = document.getElementById("arch-sector-toggle");
-  if (archSectorToggle) {
-    archSectorToggle.addEventListener("click", function () {
-      archIncludeSector = !archIncludeSector;
-      archSectorToggle.setAttribute("aria-pressed", String(archIncludeSector));
-      renderArchiveBody();
+  var wireSelect = document.getElementById("wire-select");
+  if (wireSelect) {
+    wireSelect.addEventListener("change", function () {
+      newsWire = wireSelect.value;
+      renderNewsroom(newsFilter);
+      syncCarousels();
     });
   }
 

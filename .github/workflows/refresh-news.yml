@@ -114,12 +114,16 @@ jobs:
 
       - name: Email the morning digest
         if: github.event.inputs.send_digest == 'true'
+        # The digest is secondary to publishing. On 28 July a rejected SMTP
+        # login failed this step, which stopped the commit step below from ever
+        # running - so a broken mailbox silently froze the dashboard too. The
+        # run is still marked failed for visibility; it just no longer blocks.
+        continue-on-error: true
         env:
-          SMTP_HOST: smtp.gmail.com
-          SMTP_PORT: "587"
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.SMTP_USER }}
+          MS_TENANT_ID: ${{ secrets.MS_TENANT_ID }}
+          MS_CLIENT_ID: ${{ secrets.MS_CLIENT_ID }}
+          MS_CLIENT_SECRET: ${{ secrets.MS_CLIENT_SECRET }}
+          EMAIL_FROM_ADDRESS: ${{ secrets.EMAIL_FROM_ADDRESS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
           DIGEST_MAX: "6"

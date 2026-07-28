@@ -249,7 +249,7 @@
   ],
   "lookback_days": 30,
   "sector_lookback_days": 10,
-  "archive_days": 45,
+  "archive_days": 30,
   "story_count": 17,
   "todays_story_count": 17,
   "stories": [
@@ -1402,5 +1402,6 @@
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 0,
     "carried_forward": 0
-  }
+  },
+  "archive_story_count": 0
 }

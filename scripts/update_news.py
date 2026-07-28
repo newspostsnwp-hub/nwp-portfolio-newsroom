@@ -54,10 +54,13 @@ from requests import Response
 ROOT = Path(__file__).resolve().parents[1]
 COMPANIES_FILE = ROOT / "config" / "companies.json"
 OUTPUT_FILE = ROOT / "site" / "data" / "news.json"
-# Append-only back-catalogue - unlike news.json, never pruned by ARCHIVE_DAYS
-# or by a company being removed from companies.json. See merge_archive().
+# The back-catalogue: company stories that have aged out of the live feed.
+# A story lives in news.json for its first ARCHIVE_DAYS, then moves here and
+# is kept for a year. Unlike news.json this survives a company being removed
+# from companies.json. Sector items are deliberately never archived - they are
+# transient context, and expire with SECTOR_LOOKBACK_DAYS. See merge_archive().
 ARCHIVE_FILE = ROOT / "site" / "data" / "archive.json"
-ARCHIVE_MAX_DAYS = 730  # ~24 months - a size guard only, not a freshness window.
+ARCHIVE_MAX_DAYS = 365  # A year, then a story is dropped for good.
 CACHE_DIR = ROOT / ".cache"
 SEEN_CACHE_FILE = CACHE_DIR / "seen.json"
 
@@ -86,7 +89,10 @@ SOLID_SCORE = max(0, min(100, int(os.getenv("SOLID_SCORE", "60"))))
 MIN_SECTOR_SCORE = max(0, min(100, int(os.getenv("MIN_SECTOR_SCORE", "50"))))
 # Relaxed floor used only to guarantee every company has some sector context.
 SECTOR_FLOOR_SCORE = max(0, min(100, int(os.getenv("SECTOR_FLOOR_SCORE", "32"))))
-ARCHIVE_DAYS = max(7, int(os.getenv("ARCHIVE_DAYS", "45")))
+# How long a story stays in the live newsroom feed before moving to the
+# archive. The frontend shows news.json and archive.json as two distinct
+# views, so this is the boundary between "current" and "back-catalogue".
+ARCHIVE_DAYS = max(7, int(os.getenv("ARCHIVE_DAYS", "30")))
 MAX_ARCHIVE_STORIES = max(10, int(os.getenv("MAX_ARCHIVE_STORIES", "200")))
 
 ARTICLE_TEXT_LIMIT = max(2000, int(os.getenv("ARTICLE_TEXT_LIMIT", "9000")))
@@ -1436,41 +1442,49 @@ def load_previous() -> dict[str, Any]:
         return {}
 
 
-def load_archive() -> dict[str, list[dict[str, Any]]]:
+def load_archive() -> list[dict[str, Any]]:
     """First run: no file yet, start empty. Corrupt/unreadable file: log it and
     start fresh rather than crash the run - but a validly-read file is used as
     is, never discarded."""
     if not ARCHIVE_FILE.exists():
-        return {"stories": [], "sector_stories": []}
+        return []
     try:
         data = json.loads(ARCHIVE_FILE.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             raise ValueError("archive.json root is not an object")
     except (OSError, json.JSONDecodeError, ValueError) as exc:
         LOGGER.error("archive.json unreadable (%s) - starting a fresh archive.", exc)
-        return {"stories": [], "sector_stories": []}
-    return {
-        "stories": [s for s in data.get("stories", []) if isinstance(s, dict)],
-        "sector_stories": [s for s in data.get("sector_stories", []) if isinstance(s, dict)],
-    }
+        return []
+    return [s for s in data.get("stories", []) if isinstance(s, dict)]
 
 
-def merge_archive(existing: list[dict[str, Any]], fresh: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Append-only merge keyed on normalise_url - a story already archived is never
-    replaced or dropped just because its company left companies.json or it aged
-    past ARCHIVE_DAYS. ARCHIVE_MAX_DAYS is only a size guard against unbounded
-    growth, and only drops items with a provably old date."""
+def merge_archive(existing: list[dict[str, Any]],
+                  fresh: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Merge keyed on normalise_url, keeping only stories old enough to have left
+    the live feed.
+
+    `fresh` is everything currently known, including the previous run's stories -
+    a story crosses the ARCHIVE_DAYS boundary between two runs, so feeding both
+    the previous and current sets is what stops it falling through the gap.
+    An item already archived is never dropped because its company left
+    companies.json, only because it passed ARCHIVE_MAX_DAYS.
+    """
     by_key: dict[str, dict[str, Any]] = {}
     for item in existing + fresh:
         key = normalise_url(str(item.get("url", ""))) or str(item.get("id", ""))
         if key and key not in by_key:
             by_key[key] = item
-    archive_cutoff = cutoff(ARCHIVE_MAX_DAYS)
+    oldest_allowed = cutoff(ARCHIVE_MAX_DAYS)
+    newest_allowed = cutoff(ARCHIVE_DAYS)
     kept = []
     for item in by_key.values():
         parsed = parse_datetime(str(item.get("published_at", "")))
-        if parsed is not None and parsed < archive_cutoff:
-            continue
+        # An unparseable date fails the live feed's is_within check too, so the
+        # story is in neither window - archive it rather than lose it entirely.
+        if parsed is not None:
+            # Still in the live feed, or older than a year - either way, not here.
+            if parsed >= newest_allowed or parsed < oldest_allowed:
+                continue
         kept.append(item)
     return kept
 
@@ -2147,9 +2161,18 @@ def main() -> None:
             "industry_links": news_search_links(company.get("industry_terms", [])),
         })
 
+    # Computed before news.json is written so the dashboard can show an archive
+    # count on load without having to fetch the archive file itself.
+    try:
+        archived = merge_archive(load_archive(), previous_stories + stories)
+    except Exception as exc:
+        LOGGER.error("Archive merge failed: %s", exc)
+        archived = None
+
     payload = {
         "generated_at": now_iso,
         "digest_intro": digest_intro,
+        "archive_story_count": len(archived) if archived is not None else 0,
         # Carried forward as-is (not owned by this script) - send_digest.py
         # sets this after a successful send so the next "today" scope starts
         # from here rather than calendar midnight, and it must survive this
@@ -2184,20 +2207,15 @@ def main() -> None:
     LOGGER.info("Wrote %s stories (%s new today) and %s sector items to %s",
                 len(stories), len(todays), len(sector_final), OUTPUT_FILE)
 
-    # Back-catalogue: append-only, survives company removal and ARCHIVE_DAYS
-    # pruning. A failure here must not lose the news.json write above.
-    try:
-        archive = load_archive()
-        archive_payload = {
-            "generated_at": now_iso,
-            "stories": merge_archive(archive["stories"], stories),
-            "sector_stories": merge_archive(archive["sector_stories"], sector_final),
-        }
-        atomic_write_json(ARCHIVE_FILE, archive_payload)
-        LOGGER.info("Archive holds %s stories and %s sector items.",
-                    len(archive_payload["stories"]), len(archive_payload["sector_stories"]))
-    except Exception as exc:
-        LOGGER.error("Archive write failed: %s", exc)
+    # A failure here must not lose the news.json write above. `archived` is None
+    # only if the merge itself failed, in which case the existing file is left
+    # untouched rather than being overwritten with a partial one.
+    if archived is not None:
+        try:
+            atomic_write_json(ARCHIVE_FILE, {"generated_at": now_iso, "stories": archived})
+            LOGGER.info("Archive holds %s stories.", len(archived))
+        except Exception as exc:
+            LOGGER.error("Archive write failed: %s", exc)
 
 
 if __name__ == "__main__":

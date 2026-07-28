@@ -550,48 +550,60 @@ class TestAssembleSkipAnalysisStory:
 
 # ---------------------------------------------------------------- archive merge
 
+def _aged(days: int) -> str:
+    return (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+
+
 class TestMergeArchive:
     def test_new_items_append(self):
-        existing = [{"url": "https://a.com/1", "published_at": "2026-07-01T00:00:00Z"}]
-        fresh = [{"url": "https://a.com/2", "published_at": "2026-07-20T00:00:00Z"}]
+        existing = [{"url": "https://a.com/1", "published_at": _aged(u.ARCHIVE_DAYS + 5)}]
+        fresh = [{"url": "https://a.com/2", "published_at": _aged(u.ARCHIVE_DAYS + 1)}]
         assert len(u.merge_archive(existing, fresh)) == 2
 
     def test_duplicate_by_normalised_url_not_appended(self):
-        existing = [{"url": "https://a.com/1?utm_source=x", "published_at": "2026-07-01T00:00:00Z"}]
-        fresh = [{"url": "https://a.com/1", "published_at": "2026-07-20T00:00:00Z"}]
+        aged = _aged(u.ARCHIVE_DAYS + 5)
+        existing = [{"url": "https://a.com/1?utm_source=x", "published_at": aged}]
+        fresh = [{"url": "https://a.com/1", "published_at": aged}]
         assert len(u.merge_archive(existing, fresh)) == 1
+
+    def test_story_still_in_the_live_feed_is_not_archived_yet(self):
+        fresh = [{"url": "https://a.com/1", "published_at": _aged(u.ARCHIVE_DAYS - 5)}]
+        assert u.merge_archive([], fresh) == []
+
+    def test_story_is_archived_once_it_passes_the_boundary(self):
+        fresh = [{"url": "https://a.com/1", "published_at": _aged(u.ARCHIVE_DAYS + 1)}]
+        assert len(u.merge_archive([], fresh)) == 1
 
     def test_entry_for_a_now_removed_company_survives(self):
         existing = [{"url": "https://old.com/1", "company": "GoneCo",
-                     "published_at": "2026-06-01T00:00:00Z"}]
+                     "published_at": _aged(u.ARCHIVE_DAYS + 20)}]
         merged = u.merge_archive(existing, [])
         assert len(merged) == 1 and merged[0]["company"] == "GoneCo"
 
-    def test_24_month_cap_drops_provably_old_items(self):
-        very_old = (datetime.now(timezone.utc) - timedelta(days=u.ARCHIVE_MAX_DAYS + 30)).isoformat()
-        existing = [{"url": "https://a.com/1", "published_at": very_old}]
+    def test_one_year_cap_drops_provably_old_items(self):
+        existing = [{"url": "https://a.com/1", "published_at": _aged(u.ARCHIVE_MAX_DAYS + 30)}]
         assert u.merge_archive(existing, []) == []
 
     def test_item_without_a_parseable_date_is_kept_not_dropped(self):
+        # It cannot satisfy the live feed's is_within check either, so archiving
+        # it is the only way it survives at all.
         existing = [{"url": "https://a.com/1", "published_at": ""}]
         assert len(u.merge_archive(existing, [])) == 1
 
 
 class TestLoadArchive:
-    def test_missing_file_returns_empty_structure(self, tmp_path, monkeypatch):
+    def test_missing_file_returns_empty_list(self, tmp_path, monkeypatch):
         monkeypatch.setattr(u, "ARCHIVE_FILE", tmp_path / "archive.json")
-        assert u.load_archive() == {"stories": [], "sector_stories": []}
+        assert u.load_archive() == []
 
     def test_corrupt_file_logs_and_starts_fresh(self, tmp_path, monkeypatch):
         path = tmp_path / "archive.json"
         path.write_text("{not valid json", encoding="utf-8")
         monkeypatch.setattr(u, "ARCHIVE_FILE", path)
-        assert u.load_archive() == {"stories": [], "sector_stories": []}
+        assert u.load_archive() == []
 
     def test_valid_file_is_read_not_discarded(self, tmp_path, monkeypatch):
         path = tmp_path / "archive.json"
-        path.write_text(json.dumps({"stories": [{"url": "https://a.com/1"}], "sector_stories": []}),
-                        encoding="utf-8")
+        path.write_text(json.dumps({"stories": [{"url": "https://a.com/1"}]}), encoding="utf-8")
         monkeypatch.setattr(u, "ARCHIVE_FILE", path)
-        result = u.load_archive()
-        assert len(result["stories"]) == 1
+        assert len(u.load_archive()) == 1
