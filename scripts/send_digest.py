@@ -20,37 +20,23 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import smtplib
 import sys
 from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
+from email.message import EmailMessage
+from email.utils import formataddr, parsedate_to_datetime
 from html import escape
 from pathlib import Path
 from typing import Any
 
-import requests
-
 ROOT = Path(__file__).resolve().parents[1]
 NEWS_FILE = ROOT / "site" / "data" / "news.json"
 
-# Sent via Microsoft Graph (app-only OAuth2), not SMTP - Exchange Online
-# retired Basic Auth for SMTP AUTH in 2025, and a stored personal password
-# logging in from GitHub Actions' rotating datacenter IPs on a fixed schedule
-# reads as a compromised-account pattern anyway (this is what got the
-# previous Gmail sender account disabled). A client-credentials token has no
-# sign-in pattern to flag and needs no human mailbox behind it at all.
-MS_TENANT_ID = os.getenv("MS_TENANT_ID", "")
-MS_CLIENT_ID = os.getenv("MS_CLIENT_ID", "")
-MS_CLIENT_SECRET = os.getenv("MS_CLIENT_SECRET", "")
-MS_TOKEN_ENDPOINT = (
-    f"https://login.microsoftonline.com/{MS_TENANT_ID}/oauth2/v2.0/token" if MS_TENANT_ID else "")
-GRAPH_SCOPE = "https://graph.microsoft.com/.default"
-# The mailbox the app sends as. Application-permission Mail.Send can send as
-# any mailbox in the tenant, so this is which one - not a personal login.
-# Graph's sendMail has no per-message display name override; the "From" name
-# shown to recipients is whatever the mailbox's own display name is set to
-# in the M365 admin centre, so set that mailbox's name to "NWP Portfolio
-# Bulletin" there rather than in this script.
-EMAIL_FROM_ADDRESS = os.getenv("EMAIL_FROM_ADDRESS", "")
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USER = os.getenv("SMTP_USER", "")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
+EMAIL_FROM = os.getenv("EMAIL_FROM", SMTP_USER)
 EMAIL_TO = [a.strip() for a in os.getenv("EMAIL_TO", "").split(",") if a.strip()]
 DASHBOARD_URL = os.getenv(
     "DASHBOARD_URL", "https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/"
@@ -572,39 +558,17 @@ def build_text(blocks, generated_at: str, story_total: int, sector_total: int,
     return "\n".join(lines)
 
 
-def get_graph_token() -> str:
-    """Client-credentials (app-only) OAuth2 - no mailbox login, no user session."""
-    response = requests.post(
-        MS_TOKEN_ENDPOINT,
-        data={"client_id": MS_CLIENT_ID, "client_secret": MS_CLIENT_SECRET,
-              "scope": GRAPH_SCOPE, "grant_type": "client_credentials"},
-        timeout=30)
-    if not response.ok:
-        raise RuntimeError(f"Microsoft token request failed {response.status_code}: {response.text}")
-    token = response.json().get("access_token")
-    if not token:
-        raise RuntimeError("Microsoft token response had no access_token.")
-    return token
-
-
 def send_email(subject: str, html_body: str, text_body: str) -> None:
-    token = get_graph_token()
-    # sendMail has no native plain-text alternative part, so the HTML body is
-    # what's sent; text_body is kept only for the build_text() caller/tests.
-    payload = {
-        "message": {
-            "subject": subject,
-            "body": {"contentType": "HTML", "content": html_body},
-            "toRecipients": [{"emailAddress": {"address": addr}} for addr in EMAIL_TO],
-        },
-        "saveToSentItems": "false",
-    }
-    response = requests.post(
-        f"https://graph.microsoft.com/v1.0/users/{EMAIL_FROM_ADDRESS}/sendMail",
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-        json=payload, timeout=30)
-    if response.status_code != 202:
-        raise RuntimeError(f"Graph sendMail failed {response.status_code}: {response.text}")
+    message = EmailMessage()
+    message["Subject"] = subject
+    message["From"] = formataddr(("NWP Portfolio News", EMAIL_FROM))
+    message["To"] = ", ".join(EMAIL_TO)
+    message.set_content(text_body)
+    message.add_alternative(html_body, subtype="html")
+    with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
+        server.starttls()
+        server.login(SMTP_USER, SMTP_PASSWORD)
+        server.send_message(message)
 
 
 def mark_digest_sent(generated_at: str) -> None:
@@ -623,9 +587,7 @@ def mark_digest_sent(generated_at: str) -> None:
 
 
 def main() -> None:
-    missing = [n for n, v in (("MS_TENANT_ID", MS_TENANT_ID), ("MS_CLIENT_ID", MS_CLIENT_ID),
-                              ("MS_CLIENT_SECRET", MS_CLIENT_SECRET),
-                              ("EMAIL_FROM_ADDRESS", EMAIL_FROM_ADDRESS),
+    missing = [n for n, v in (("SMTP_USER", SMTP_USER), ("SMTP_PASSWORD", SMTP_PASSWORD),
                               ("EMAIL_TO", EMAIL_TO)) if not v]
     if missing:
         print(f"Missing required settings: {', '.join(missing)}", file=sys.stderr)

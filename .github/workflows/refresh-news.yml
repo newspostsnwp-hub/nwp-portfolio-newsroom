@@ -120,10 +120,11 @@ jobs:
         # run is still marked failed for visibility; it just no longer blocks.
         continue-on-error: true
         env:
-          MS_TENANT_ID: ${{ secrets.MS_TENANT_ID }}
-          MS_CLIENT_ID: ${{ secrets.MS_CLIENT_ID }}
-          MS_CLIENT_SECRET: ${{ secrets.MS_CLIENT_SECRET }}
-          EMAIL_FROM_ADDRESS: ${{ secrets.EMAIL_FROM_ADDRESS }}
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "587"
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.SMTP_USER }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DASHBOARD_URL: https://nwp-portfolio-newsroom.newspostsnwp.workers.dev/
           DIGEST_MAX: "6"
