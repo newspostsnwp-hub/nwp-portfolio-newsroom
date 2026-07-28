@@ -88,8 +88,15 @@ Rules:
 """.strip()
 
 
+# Search grounding is a separate quota and is not on every key. Once it has
+# refused, stop asking: retrying it per story costs four backoff waits each,
+# and the classification does not depend on it - the article text is supplied
+# in the prompt, and titles and dates come from the page, not the model.
+_GROUNDING = {"available": True}
+
+
 def classify(story: dict[str, Any], material: str) -> dict[str, Any]:
-    """One grounded call per story, degrading to ungrounded then to 'unknown'."""
+    """Classify one story, preferring search grounding while it is available."""
     prompt = CLASSIFY_PROMPT.format(
         company=story.get("company", ""),
         title=story.get("title", ""),
@@ -98,15 +105,19 @@ def classify(story: dict[str, Any], material: str) -> dict[str, Any]:
         material=(material or "[NO ARTICLE TEXT AVAILABLE]")[:u.ARTICLE_TEXT_LIMIT],
     )
     label = f"repair {story.get('title', '')[:40]}"
-    try:
-        raw = u.call_gemini(prompt, label, grounded=True)
-    except Exception as exc:
-        LOGGER.warning("Grounded classify failed (%s); retrying without search.", exc)
+    if _GROUNDING["available"]:
         try:
-            raw = u.call_gemini(prompt, label)
-        except Exception as exc2:
-            LOGGER.error("Classify failed entirely: %s", exc2)
-            return {}
+            raw = u.call_gemini(prompt, label, grounded=True)
+            return raw if isinstance(raw, dict) else {}
+        except Exception as exc:
+            _GROUNDING["available"] = False
+            LOGGER.warning("Search grounding unavailable (%s); continuing without it "
+                           "for the rest of the run.", str(exc)[:120])
+    try:
+        raw = u.call_gemini(prompt, label)
+    except Exception as exc:
+        LOGGER.error("Classify failed: %s", str(exc)[:160])
+        return {}
     return raw if isinstance(raw, dict) else {}
 
 
@@ -133,10 +144,22 @@ def age_days(iso: str) -> float | None:
     return (datetime.now(timezone.utc) - parsed).total_seconds() / 86400.0
 
 
-def decide(story: dict[str, Any]) -> dict[str, Any]:
-    """Everything needed to route one story, without writing anything."""
+def decide(story: dict[str, Any], *, use_llm: bool = True,
+           delete_urls: set[str] | None = None) -> dict[str, Any]:
+    """Everything needed to route one story, without writing anything.
+
+    With use_llm=False the newsworthiness judgement comes from delete_urls
+    instead of the model - titles and dates are recovered from page metadata
+    either way, so the model is only ever deciding event-vs-evergreen.
+    """
     page = u.fetch_article(story.get("url", ""))
-    verdict = classify(story, page.get("text", "") or story.get("summary", ""))
+    if not use_llm:
+        listed = u.normalise_url(story.get("url", "")) in (delete_urls or set())
+        verdict = {"is_news": not listed, "headline": "", "published_date": "",
+                   "reason": "listed for deletion" if listed else "kept by review",
+                   "confidence": "high"}
+    else:
+        verdict = classify(story, page.get("text", "") or story.get("summary", ""))
 
     title = u.clean_page_title(
         u.clean_text(verdict.get("headline")) or page.get("title", ""),
@@ -193,7 +216,21 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true",
                         help="print the decision table and write nothing")
+    parser.add_argument("--no-llm", action="store_true",
+                        help="skip the model; take the delete list from --delete-urls")
+    parser.add_argument("--delete-urls", metavar="FILE",
+                        help="newline-separated URLs to treat as not-news")
     args = parser.parse_args()
+
+    delete_urls: set[str] = set()
+    if args.delete_urls:
+        delete_urls = {u.normalise_url(line.strip())
+                       for line in open(args.delete_urls, encoding="utf-8")
+                       if line.strip() and not line.startswith("#")}
+        print(f"Delete list: {len(delete_urls)} URLs.")
+    if args.no_llm and not delete_urls:
+        print("--no-llm with no --delete-urls: nothing will be deleted, only "
+              "titles and dates corrected and stories re-sorted by date.\n")
 
     previous = u.load_previous()
     stories = [s for s in previous.get("stories", []) if isinstance(s, dict)]
@@ -201,15 +238,15 @@ def main() -> None:
         print("No company stories in news.json; nothing to repair.")
         return
 
-    print(f"Auditing {len(stories)} stories. This makes one search-grounded "
-          f"call each, so expect a few minutes.\n")
+    print(f"Auditing {len(stories)} stories"
+          + ("." if args.no_llm else ", one model call each - expect a few minutes.") + "\n")
 
     keep: list[dict[str, Any]] = []
     archive: list[dict[str, Any]] = []
     deleted: list[tuple[dict[str, Any], str]] = []
 
     for index, story in enumerate(stories, start=1):
-        decision = decide(story)
+        decision = decide(story, use_llm=not args.no_llm, delete_urls=delete_urls)
         fixed = apply_decision(story, decision)
         print(f"[{index:2}/{len(stories)}] {decision['action'].upper():7} "
               f"{story.get('company', '?')[:18]:18} {decision['why']}")
@@ -266,7 +303,8 @@ def main() -> None:
 
 if __name__ == "__main__":
     api_key = u.clean_text(os.getenv("GEMINI_API_KEY"))
-    if not api_key:
-        sys.exit("GEMINI_API_KEY is not set.")
-    u.GEMINI_CLIENT = genai.Client(api_key=api_key)
+    if api_key:
+        u.GEMINI_CLIENT = genai.Client(api_key=api_key)
+    elif "--no-llm" not in sys.argv:
+        sys.exit("GEMINI_API_KEY is not set. Use --no-llm to run without it.")
     main()

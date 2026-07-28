@@ -1,4 +1,256 @@
 {
-  "generated_at": "2026-07-28T21:13:55.029358+00:00",
-  "stories": []
+  "generated_at": "2026-07-28T23:56:07.460984+00:00",
+  "stories": [
+    {
+      "id": "5430cad38a053fe9",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Whitespace to Showcase Operational AI Capability at Eurosatory 2026",
+      "url": "https://www.white.space/insights/whitespace-to-showcase-operational-ai-capability-at-eurosatory-2026",
+      "source": "white.space",
+      "published_at": "2026-06-10T00:00:00+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 95,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Partnership",
+      "summary": "Whitespace has announced a collaborative initiative with Mattermost, Arqit, and archTIS to deliver an interoperable operational AI and mission workflow environment for defence and coalition operations, debuting at Eurosatory 2026.",
+      "why_it_matters": "This partnership demonstrates the practical application of sovereign AI in complex, multi-domain defence environments, highlighting Whitespace's role in integrating mission workflows with secure, post-quantum, and zero-trust technologies.",
+      "verified_facts": [
+        "Whitespace is collaborating with Mattermost, Arqit, and archTIS.",
+        "The joint capability will debut at Eurosatory 2026 (15–19 June).",
+        "The demonstration will take place on the Microsoft stand (Hall 4, G286)."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to see Whitespace announce a new collaborative initiative alongside Mattermost, Arqit, and archTIS. This partnership aims to deliver an interoperable operational AI and mission workflow environment designed for defence and coalition operations. The joint capability will make its public debut at Eurosatory 2026, taking place from 15–19 June. By integrating operational intelligence with secure collaboration, zero-trust policy enforcement, and post-quantum security, the initiative addresses the critical need for adaptable technology across connected and disconnected environments. The team will be showcasing this integrated solution on the Microsoft stand (Hall 4, G286). #SovereignAI #DefenceTech #Whitespace",
+        "investor": "The defence sector is increasingly prioritising interoperable ecosystems that can function across cloud, edge, and air-gapped environments. Whitespace’s latest collaboration with Mattermost, Arqit, and archTIS is a significant step in this direction, creating a unified operational environment that supports the full Sense, Decide, Act, and Analyse cycle. By combining Whitespace’s mission workflow capabilities with specialist technologies in secure communication and data-centric policy enforcement, the partnership offers a scalable approach to modern military operations. We look forward to seeing the live demonstration of this integrated capability at Eurosatory 2026, where the partners will showcase how sovereign AI can be deployed with measurable impact from HQ to the tactical edge. #DefenceInnovation #SovereignAI #NextWavePartners",
+        "people": "Congratulations to the team at Whitespace on the announcement of their new collaborative initiative for defence and coalition operations. Working alongside partners Mattermost, Arqit, and archTIS, Whitespace is demonstrating how sovereign AI can reduce friction between systems and accelerate mission execution. This project highlights the importance of cross-industry cooperation in building secure, interoperable digital capabilities for the tactical edge. The team will be presenting their work at Eurosatory 2026 from 15–19 June, showcasing how their operational intelligence and mission workflow capabilities integrate within a broader secure ecosystem. It is an excellent example of the technical rigour and collaborative spirit driving the team forward. #SovereignAI #TeamWhitespace #DefenceTech"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "a933fc716a7b54ff",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "industry": "UK property and site security",
+      "title": "Clearway appoint Christian Baumbach as Managing Director of Secontec",
+      "url": "https://www.clearway.co.uk/news/clearway-appoint-christian-baumbach-as-managing-director-of-secontec",
+      "source": "clearway.co.uk",
+      "published_at": "2026-06-02T08:52:56+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 95,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Appointment",
+      "summary": "The Clearway Group has appointed Christian Baumbach as the new Managing Director of its subsidiary, SECONTEC, to lead strategic development and operations in Germany.",
+      "why_it_matters": "This appointment signals a strategic focus on the German market and strengthens the leadership team within the Clearway Group's European operations.",
+      "verified_facts": [
+        "Christian Baumbach appointed as Managing Director of SECONTEC.",
+        "Baumbach previously held senior executive positions at Safetykleen for nine years.",
+        "The role focuses on strategic development and operations in Germany."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that The Clearway Group has appointed Christian Baumbach as the new Managing Director of SECONTEC. Christian brings extensive leadership experience from his previous roles in the industrial and environmental service sectors, including nine years at Safetykleen. In this new capacity, he will lead SECONTEC’s strategic development and operations in Germany, focusing on accelerating growth and delivering high-quality security solutions. This appointment marks a significant step in the Group’s commitment to strengthening its leadership capability and expanding its footprint across Europe. Congratulations to Christian on his new role. #ClearwayGroup #SECONTEC #Leadership",
+        "investor": "The Clearway Group continues to strengthen its European operations with the appointment of Christian Baumbach as Managing Director of SECONTEC. Christian joins the team with a proven track record of driving operational excellence and commercial growth, most recently serving in senior executive roles at Safetykleen. His focus will be on the strategic development of the German market, a key region for the Group’s ongoing expansion. By investing in experienced leadership, Clearway is well-positioned to deliver sustainable growth and enhance its service delivery across its international portfolio. We look forward to seeing the impact of his leadership on the business. #ClearwayGroup #StrategicGrowth #BusinessDevelopment",
+        "people": "We are delighted to welcome Christian Baumbach to the team as the new Managing Director of SECONTEC. Christian brings a wealth of experience in business transformation and high-performing team development, having spent the last nine years in senior leadership at Safetykleen. His expertise will be instrumental as he leads SECONTEC’s operations in Germany, focusing on customer relationships and the delivery of innovative security solutions. Phil Doyle, CEO of The Clearway Group, noted that this appointment reflects the company's commitment to investing in talented leadership as they continue to expand across Europe. Please join us in welcoming Christian to the Group. #ClearwayGroup #Leadership #TeamGrowth"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "fa63c83f34bbeaa9",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Thame High Street to Host 2nd Store from Innovative New High Street Retailer, Stamp",
+      "url": "https://www.uoe.co.uk/news/thame-high-street-to-host-2nd-store-from-innovative-new-high-street-retailer-stamp",
+      "source": "uoe.co.uk",
+      "published_at": "2026-04-02T08:47:29+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "UOE is expanding its retail footprint with the launch of a second 'Stamp' store in Thame, Oxfordshire, scheduled for April 2026.",
+      "why_it_matters": "The expansion demonstrates UOE's commitment to physical high street retail, leveraging its established operational model to revitalise local community spaces.",
+      "verified_facts": [
+        "Stamp is a retail concept under the UOE group.",
+        "The new store is located at 11 High St, Thame OX9 2BZ.",
+        "The store is scheduled to open on 16th April 2026.",
+        "The site will include a community space for events and workshops."
+      ],
+      "warnings": [
+        "The source material is a press release from the company's own newsroom."
+      ],
+      "drafts": {
+        "concise": "We are pleased to see UOE continue its retail expansion with the launch of its second 'Stamp' store. Located on Thame High Street, the new site is set to open on 16th April 2026. This development builds on UOE’s established model of combining stationery and gifting retail with community-focused services. The new location will also feature a dedicated upstairs space for local events and workshops, reflecting the company's ongoing investment in the high street. Congratulations to the UOE team on this latest milestone. #UOE #Retail #Thame",
+        "investor": "UOE continues to demonstrate the viability of its independent retail model with the announcement of a second 'Stamp' store in Thame. By investing in high-quality physical locations and integrating community-centric services, UOE is executing a clear growth strategy that prioritises local engagement and operational excellence. The new store, opening 16th April 2026, will feature a versatile community space, further diversifying the revenue potential of the site. This expansion highlights the group's ability to scale its proven retail expertise while maintaining a strong connection to the local market. #Investment #RetailGrowth #UOE",
+        "people": "It is excellent to see the UOE team bringing their 'Stamp' retail concept to Thame. A key part of this expansion is the preservation of the existing retail team at the Glynswood location, ensuring that local expertise and community relationships remain at the heart of the business. CEO Elliot Jacobs has emphasised the importance of investing in the high street to support local connections, and this new store will provide a dedicated space for workshops and artist collaborations. We look forward to seeing the positive impact this team will have on the Thame community when the doors open in April 2026. #Community #Retail #TeamUOE"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "3871383c5a7f176a",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Milton Keynes Post Office And Stamp Opening",
+      "url": "https://www.uoe.co.uk/news/milton-keynes-post-office-and-stamp-opening",
+      "source": "uoe.co.uk",
+      "published_at": "2026-06-01T06:00:00+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "UOE has reopened its Milton Keynes Post Office at its original Midsummer Boulevard location following a fire, while simultaneously launching its third 'Stamp' retail concept store at the site.",
+      "why_it_matters": "The reopening demonstrates UOE's operational resilience and its strategy of integrating essential community services with modern, high-street retail concepts to drive footfall and long-term viability.",
+      "verified_facts": [
+        "The Milton Keynes Post Office has reopened at its original site on Midsummer Boulevard.",
+        "The site now incorporates the third 'Stamp' retail store.",
+        "The branch will operate seven days a week.",
+        "Elliot Jacobs is the CEO of UOE."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that UOE has successfully reopened its Milton Keynes Post Office at its original Midsummer Boulevard location. Following a period of disruption, the branch has returned to its permanent home, now featuring the third 'Stamp' retail store. This integration of essential postal services with UOE’s modern stationery and gift concept offers an enhanced experience for the local community, with extended opening hours seven days a week. It is a positive step forward for the high street and a testament to the team's commitment to restoring vital services for local residents and businesses. #UOE #Retail #MiltonKeynes",
+        "investor": "UOE continues to demonstrate operational resilience and strategic growth with the reopening of its Milton Keynes Post Office. By re-establishing this flagship location, the business has successfully integrated its 'Stamp' retail concept, creating a hybrid model that combines essential services with a modern, high-street stationery and gift offering. CEO Elliot Jacobs noted that this investment is focused on the future of the high street, ensuring the branch remains a destination for the local community. This development highlights UOE’s ability to navigate operational challenges while maintaining a clear focus on scaling its innovative retail footprint. #UOE #RetailStrategy #HighStreet",
+        "people": "Congratulations to the UOE team on the successful reopening of the Milton Keynes Post Office. After months of operating from temporary sites, the team has worked hard to restore this essential service to its original Midsummer Boulevard location. The new site also marks the launch of the third 'Stamp' store, showcasing the company's dedication to revitalising the high street through a thoughtful, modern retail experience. We recognise the effort involved in maintaining service continuity throughout this period and are pleased to see the branch now open seven days a week to serve the local community. #UOE #TeamSuccess #MiltonKeynes"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "733cecea04585e46",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Petainer at Watercoolers Europe 2025 | BPA-Free PET Watercooler Bottles & Preforms",
+      "url": "https://www.petainer.com/insights/news/petainer-watercoolers-europe-2025",
+      "source": "petainer.com",
+      "published_at": "2025-10-09T01:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Product",
+      "summary": "Petainer is set to exhibit at the Watercoolers Europe Trade Show in Milan on 7 November 2025, focusing on its BPA-free PET watercooler solutions ahead of the upcoming 2026 BPA ban on polycarbonate bottles.",
+      "why_it_matters": "The event highlights Petainer's strategic positioning to support the industry's regulatory transition to safer, more sustainable packaging materials, while showcasing their PET preform technology to help producers reduce logistics costs and carbon footprints.",
+      "verified_facts": [
+        "Petainer will exhibit at Watercoolers Europe 2025 in Milan on 7 November 2025.",
+        "The company is promoting BPA-free PET alternatives in response to the mid-2026 BPA ban on polycarbonate watercooler bottles.",
+        "Petainer will showcase PET preforms designed to help customers blow their own bottles and reduce freight emissions."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Petainer will be at the Watercoolers Europe Trade Show in Milan on 7 November 2025. With the BPA ban on polycarbonate watercooler bottles taking effect in mid-2026, the team will be at Stand S11 to discuss how PET offers a ready-to-implement, sustainable alternative. In addition to their bottle range, Petainer will present PET preforms, which allow producers to blow their own bottles, helping to reduce logistics costs and freight emissions. It is a timely opportunity for the industry to explore future-proof packaging solutions. #Petainer #PackagingInnovation #Sustainability",
+        "investor": "As the industry prepares for the mid-2026 BPA ban on polycarbonate watercooler bottles, Petainer is positioning its PET solutions as a key alternative for the market. At the upcoming Watercoolers Europe Trade Show in Milan on 7 November, the company will demonstrate how its PET preforms enable producers to bring blowing capacity in-house, effectively reducing per-unit costs and freight emissions. This focus on operational efficiency and regulatory compliance highlights Petainer’s commitment to building a more resilient and sustainable supply chain for its partners. #Petainer #SustainablePackaging #SupplyChain",
+        "people": "The Petainer team is heading to Milan for the Watercoolers Europe Trade Show on 7 November 2025. Our colleagues will be stationed at Stand S11 to provide expert guidance on the transition to BPA-free PET watercooler bottles ahead of the 2026 regulatory deadline. Whether discussing the benefits of PET or the operational advantages of in-house preform blowing, the team is ready to support producers in navigating this industry shift. We look forward to seeing the team share their expertise on low-carbon packaging solutions with the wider hydration industry. #Petainer #WatercoolersEurope #Packaging"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "f7e1a44733b5aec7",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Petainer at IBWSS London 2025 | Showcasing Low-Carbon PET Wine & Spirit Bottles",
+      "url": "https://www.petainer.com/insights/news/petainer-ibwss-london-2025",
+      "source": "petainer.com",
+      "published_at": "2025-10-07T01:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Product",
+      "summary": "Petainer will showcase its latest low-carbon PET packaging solutions for the wine and spirits industry at the International Bulk Wine & Spirits Show (IBWSS) in London on 20–21 November 2025.",
+      "why_it_matters": "The event highlights Petainer's strategic focus on helping beverage producers transition from glass to lightweight, recyclable PET alternatives, directly addressing industry demand for reduced carbon footprints and improved logistics.",
+      "verified_facts": [
+        "Petainer will exhibit at IBWSS London 2025 on 20–21 November.",
+        "The company will showcase its Premium Spirit & Liquor Bottle range and PET wine bottles at Table 23."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Petainer is set to exhibit at the International Bulk Wine & Spirits Show (IBWSS) in London this November. The team will be at Table 23 on 20–21 November to demonstrate their latest innovations in low-carbon PET packaging. As the beverage industry continues to prioritise sustainability, Petainer’s range of lightweight, recyclable PET wine and spirit bottles offers producers a practical alternative to traditional glass, designed to integrate seamlessly with existing filling lines. We look forward to seeing the team engage with industry leaders on the benefits of these circular packaging solutions. #Petainer #SustainablePackaging #IBWSS2025",
+        "investor": "Petainer continues to strengthen its market position in the sustainable packaging sector, with a focus on the wine and spirits industry. The company will be showcasing its latest PET bottle collections at IBWSS London on 20–21 November, highlighting the commercial and environmental advantages of transitioning to lightweight, recyclable materials. By offering solutions that maintain product quality while reducing transport emissions and logistics costs, Petainer is well-positioned to support producers in meeting their sustainability targets. This presence at a key industry event underscores the company's commitment to scaling its impact across the global beverage market. #SustainablePackaging #BeverageIndustry #Petainer",
+        "people": "The Petainer team is heading to London for the International Bulk Wine & Spirits Show (IBWSS) on 20–21 November. Based at Table 23, the team will be on hand to discuss the technical and logistical benefits of their low-carbon PET packaging range. Whether it is supporting boutique wineries or international co-packers, Petainer’s experts are focused on helping producers navigate the transition to more sustainable, shatterproof packaging solutions without compromising on presentation. If you are attending the show, be sure to stop by and speak with the team about their latest developments in PET innovation. #Petainer #PackagingInnovation #Sustainability"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "33b5b88310de4391",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Whitespace Awarded Defence Employer Recognition Scheme Silver Award",
+      "url": "https://www.white.space/insights/whitespace-awarded-defence-employer-recognition-scheme-silver-award",
+      "source": "white.space",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Award",
+      "summary": "Whitespace has been awarded the UK Ministry of Defence Employer Recognition Scheme (ERS) Silver Award 2026, acknowledging the company's commitment to supporting Reservists, veterans, and the wider Armed Forces community.",
+      "why_it_matters": "This recognition highlights Whitespace's corporate culture and its alignment with the values of the Defence and National Security sectors, which are core to its sovereign AI business model.",
+      "verified_facts": [
+        "Whitespace received the Defence Employer Recognition Scheme (ERS) Silver Award 2026.",
+        "The award recognises support for Reservists, veterans, Cadet Force Adult Volunteers, and military families.",
+        "Dan Braden-Astbury is the Chief Operating Officer at Whitespace."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that our portfolio company, Whitespace, has been awarded the Defence Employer Recognition Scheme (ERS) Silver Award 2026. This recognition from the UK Ministry of Defence highlights the company's sustained commitment to supporting Reservists, veterans, and the wider Armed Forces community. By integrating the unique skills and leadership experience of service personnel into their team, Whitespace continues to strengthen its capabilities in sovereign AI for demanding operational environments. Congratulations to the entire team on this achievement. #SovereignAI #Defence #Whitespace",
+        "investor": "Operational excellence is built on strong foundations, and we are proud to see Whitespace recognised for its commitment to the Armed Forces community. The company has been awarded the Defence Employer Recognition Scheme (ERS) Silver Award 2026, reflecting its dedication to supporting veterans and reservists. As Whitespace continues to develop sovereign AI for Defence and National Security, the integration of these experienced professionals provides a distinct advantage in understanding complex operational requirements. This award is a testament to the company's values and its focus on building a resilient, high-calibre team. #Investment #SovereignAI #DefenceTech",
+        "people": "At Next Wave Partners, we believe that a company's strength is defined by its people. We are delighted to see Whitespace receive the Defence Employer Recognition Scheme (ERS) Silver Award 2026. This honour recognises the company's active support for Reservists, veterans, and military families, acknowledging the vital leadership and adaptability they bring to the workplace. As COO Dan Braden-Astbury noted, this milestone reflects the company's commitment to ensuring that those who have served are empowered to succeed in their civilian careers. We are proud to support a team that values such experience and dedication. #TeamCulture #Defence #SovereignAI"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "0bfae85edfe8588c",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "UOE Saves Wimbledon's “Essential” Local Post Office at Wimbledon Hill Road",
+      "url": "https://www.uoe.co.uk/news/uoe-saves-wimbledons-essential-local-post-office-at-wimbledon-hill-road",
+      "source": "uoe.co.uk",
+      "published_at": "2026-03-26T15:16:30+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "UOE has taken over the operation of the Wimbledon Hill Road Post Office, preventing its closure and announcing plans to integrate its 'Stamp' retail concept into the site within six months.",
+      "why_it_matters": "This move demonstrates UOE's commitment to the high street and its ability to scale its hybrid retail-service model, securing essential community infrastructure while expanding its physical footprint.",
+      "verified_facts": [
+        "UOE has taken over the operation of the Wimbledon Hill Road Post Office.",
+        "The site will be transformed to include the 'Stamp' stationery and gifting concept within six months.",
+        "UOE operates over 40 Post Office branches across the UK."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to see portfolio company UOE step in to secure the future of the Wimbledon Hill Road Post Office. By taking over operations, UOE ensures that this vital community resource remains open for residents and local businesses. Looking ahead, the site is set for a transformation within the next six months as UOE introduces its 'Stamp' retail concept, which combines essential postal services with a curated range of stationery and gifts. This development highlights UOE’s ongoing commitment to investing in the UK high street and maintaining accessible services for local communities. #UOE #Retail #Community",
+        "investor": "UOE continues to demonstrate its operational strength and commitment to the high street with the acquisition of the Wimbledon Hill Road Post Office. This move secures a key location and provides a platform for the rollout of the 'Stamp' retail brand, which is scheduled for integration within six months. By blending essential Post Office services with its modern stationery and gifting concept, UOE is effectively diversifying its revenue streams and increasing the utility of its physical retail footprint. This expansion reflects the company's strategy of investing in sustainable, community-focused retail models across the South-East and beyond. #Investment #RetailGrowth #UOE",
+        "people": "Congratulations to the team at UOE for their proactive efforts in saving the Wimbledon Hill Road Post Office. As CEO Elliot Jacobs noted, the company is committed to being there for communities when it matters most. By stepping in to prevent the closure of this essential branch, the team is not only preserving a vital service but also planning for future growth by introducing the 'Stamp' retail experience to the location. It is encouraging to see UOE continue to buck the trend of high street decline through dedicated investment and a clear focus on customer service. #TeamUOE #HighStreet #CommunityImpact"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    }
+  ]
 }
