@@ -11,6 +11,7 @@ import json
 from datetime import datetime, timedelta, timezone
 
 import pytest
+from bs4 import BeautifulSoup
 
 import update_news as u
 
@@ -385,19 +386,141 @@ class TestFetchArticle:
 class TestResolveScrapedDate:
     NOW = "2026-07-27T00:00:00+00:00"
 
-    def test_official_source_undated_is_kept_and_estimated(self):
-        item = {"discovered_via": "Company newsroom",
-                "url": "https://example.com/news/jane-doe-appointed-head"}
-        page = {"published": "", "text": "x", "description": "", "title": ""}
-        assert u.resolve_scraped_date(item, page, self.NOW) is True
-        assert item["published_at"] == self.NOW
-        assert item["date_estimated"] is True
+    @staticmethod
+    def _page(published=""):
+        return {"published": published, "text": "x", "description": "", "title": ""}
 
-    def test_aggregator_undated_is_dropped(self):
-        item = {"discovered_via": "GDELT",
+    def test_recent_page_date_is_used(self):
+        recent = (datetime.now(timezone.utc) - timedelta(days=3)).isoformat()
+        item = {"discovered_via": "Company newsroom", "title": "t",
                 "url": "https://example.com/news/jane-doe-appointed-head"}
-        page = {"published": "", "text": "x", "description": "", "title": ""}
-        assert u.resolve_scraped_date(item, page, self.NOW) is False
+        assert u.resolve_scraped_date(item, self._page(recent), self.NOW) is True
+        assert item["published_at"] == recent
+
+    def test_old_page_date_is_kept_verbatim_and_the_item_dropped(self):
+        """The regression that put months-old pages in the feed dated today: a
+        real date outside the window must never be replaced with now."""
+        old = (datetime.now(timezone.utc) - timedelta(days=160)).isoformat()
+        item = {"discovered_via": "Company newsroom", "title": "t",
+                "url": "https://example.com/news/pet-lightweighting"}
+        assert u.resolve_scraped_date(item, self._page(old), self.NOW) is False
+        assert item["published_at"] == old
+        assert item["published_at"] != self.NOW
+
+    def test_date_recovered_from_scraped_card_text(self):
+        recent = datetime.now(timezone.utc) - timedelta(days=5)
+        title = f"Packaging Technology Something Happened {recent.strftime('%d %b, %Y')}"
+        item = {"discovered_via": "Company newsroom", "title": title,
+                "url": "https://example.com/news/something-happened"}
+        assert u.resolve_scraped_date(item, self._page(), self.NOW) is True
+        assert u.parse_datetime(item["published_at"]).date() == recent.date()
+
+    def test_date_recovered_from_url_path(self):
+        recent = datetime.now(timezone.utc) - timedelta(days=4)
+        url = f"https://example.com/{recent.year}/{recent.month:02d}/{recent.day:02d}/a-story-here"
+        item = {"discovered_via": "Company newsroom", "title": "No date here at all", "url": url}
+        assert u.resolve_scraped_date(item, self._page(), self.NOW) is True
+        assert u.parse_datetime(item["published_at"]).date() == recent.date()
+
+    def test_undated_with_nothing_recoverable_is_dropped(self):
+        item = {"discovered_via": "Company newsroom", "title": "No date anywhere here",
+                "url": "https://example.com/news/jane-doe-appointed-head"}
+        assert u.resolve_scraped_date(item, self._page(), self.NOW) is False
+        assert "published_at" not in item
+
+    def test_never_stamps_now(self):
+        item = {"discovered_via": "Company newsroom", "title": "Undated evergreen guide",
+                "url": "https://example.com/insights/how-to-do-a-thing"}
+        u.resolve_scraped_date(item, self._page(), self.NOW)
+        assert item.get("published_at") != self.NOW
+        assert item.get("date_estimated") is not True
+
+
+# --------------------------------------------------------- title extraction
+
+class TestCleanPageTitle:
+    def test_strips_site_suffix(self):
+        assert u.clean_page_title(
+            "Engineering Behind PET Lightweighting | Petainer News"
+        ) == "Engineering Behind PET Lightweighting"
+
+    def test_strips_hyphen_site_suffix(self):
+        assert u.clean_page_title(
+            "Clearway appoint Christian Baumbach as Managing Director - Clearway"
+        ) == "Clearway appoint Christian Baumbach as Managing Director"
+
+    def test_strips_trailing_read_time(self):
+        assert u.clean_page_title(
+            "Decision Optimisation for Strategic Command 3 min read"
+        ) == "Decision Optimisation for Strategic Command"
+
+    def test_keeps_title_when_trimming_would_gut_it(self):
+        assert u.clean_page_title("Whitespace | Insights and news updates") \
+            == "Whitespace | Insights and news updates"
+
+    def test_falls_back_when_unusable(self):
+        assert u.clean_page_title("Home", "The scraped headline goes here") \
+            == "The scraped headline goes here"
+
+
+class TestAnchorHeadline:
+    def test_prefers_heading_over_whole_card(self):
+        soup = BeautifulSoup(
+            '<a href="/x"><span>Packaging Technology</span>'
+            '<h3>The Engineering Behind PET Lightweighting</h3>'
+            '<time>20 Feb, 2026</time></a>', "html.parser")
+        assert u.anchor_headline(soup.a) == "The Engineering Behind PET Lightweighting"
+
+    def test_falls_back_to_full_text_without_a_heading(self):
+        soup = BeautifulSoup('<a href="/x">Molinare hires Des Carey for Dublin</a>',
+                             "html.parser")
+        assert u.anchor_headline(soup.a) == "Molinare hires Des Carey for Dublin"
+
+
+# ------------------------------------------------------------- suppression
+
+class TestSuppression:
+    def test_suppressed_url_makes_no_candidate(self, monkeypatch):
+        url = "https://example.com/insights/evergreen-guide"
+        monkeypatch.setattr(u, "SUPPRESSED_URLS", {u.normalise_url(url)})
+        assert u.make_candidate(
+            company={"name": "Acme"}, title="A perfectly good headline here",
+            url=url, source="example.com",
+            published_at=datetime.now(timezone.utc).isoformat(),
+            discovered_via="Company newsroom") is None
+
+    def test_tracking_params_do_not_defeat_suppression(self, monkeypatch):
+        monkeypatch.setattr(
+            u, "SUPPRESSED_URLS", {u.normalise_url("https://example.com/a/story")})
+        assert u.make_candidate(
+            company={"name": "Acme"}, title="A perfectly good headline here",
+            url="https://example.com/a/story?utm_source=x", source="example.com",
+            published_at=datetime.now(timezone.utc).isoformat(),
+            discovered_via="Company newsroom") is None
+
+    def test_unsuppressed_url_still_makes_a_candidate(self, monkeypatch):
+        monkeypatch.setattr(u, "SUPPRESSED_URLS", {"https://example.com/other"})
+        assert u.make_candidate(
+            company={"name": "Acme"}, title="A perfectly good headline here",
+            url="https://example.com/a/story", source="example.com",
+            published_at=datetime.now(timezone.utc).isoformat(),
+            discovered_via="Company newsroom") is not None
+
+    def test_missing_file_suppresses_nothing(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(u, "SUPPRESSED_FILE", tmp_path / "nope.json")
+        assert u.load_suppressed() == set()
+
+    def test_corrupt_file_suppresses_nothing(self, tmp_path, monkeypatch):
+        path = tmp_path / "suppressed.json"
+        path.write_text("{not json", encoding="utf-8")
+        monkeypatch.setattr(u, "SUPPRESSED_FILE", path)
+        assert u.load_suppressed() == set()
+
+    def test_reads_urls_key(self, tmp_path, monkeypatch):
+        path = tmp_path / "suppressed.json"
+        path.write_text(json.dumps({"urls": ["https://example.com/a/"]}), encoding="utf-8")
+        monkeypatch.setattr(u, "SUPPRESSED_FILE", path)
+        assert u.load_suppressed() == {u.normalise_url("https://example.com/a/")}
 
 
 # ----------------------------------------------------- seen-cache retry-once
@@ -497,6 +620,18 @@ def _story_analysis(**overrides):
                 "drafts": {"concise": "x", "investor": "", "people": ""}}
     analysis.update(overrides)
     return analysis
+
+
+class TestAssembleStoryDateEstimated:
+    def test_flag_survives_assembly(self):
+        story = u.assemble_story(_story_item(date_estimated=True), _story_analysis(),
+                                 datetime.now(timezone.utc).isoformat())
+        assert story["date_estimated"] is True
+
+    def test_flag_defaults_false_not_missing(self):
+        story = u.assemble_story(_story_item(), _story_analysis(),
+                                 datetime.now(timezone.utc).isoformat())
+        assert story["date_estimated"] is False
 
 
 class TestAssembleStory:

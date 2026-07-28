@@ -75,6 +75,10 @@
   .skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:#fff;
     padding:10px 16px;z-index:3000;font-family:var(--sans);font-size:13px;text-decoration:none;}
   .skip-link:focus{left:12px;top:12px;}
+  /* Readable by a screen reader, invisible on screen - for controls whose
+     meaning is carried by an icon. */
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+    overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
 
   /* ---------------- masthead (black bar, thicker caps) ---------------- */
   .masthead{background:var(--bar);padding:0 18px;}
@@ -155,20 +159,68 @@
   /* Newsroom carries a menu for narrowing to one wire; the tab itself still
      navigates, so the caret is a separate control rather than a click trap. */
   .navitem{position:relative;display:flex;align-items:stretch;flex:0 0 auto;}
-  .navitem>#tab-newsroom{padding-right:6px;}
-  .navcaret{padding:12px 10px 12px 2px;font-size:10px;color:var(--faint);}
-  .navcaret:hover,.navcaret[aria-expanded="true"]{color:var(--ink);}
+  .navitem>#tab-newsroom{padding-right:4px;}
+  /* The active wire is named on the tab so the current state is legible
+     without opening anything. */
+  .wire-tag{font-weight:600;font-size:11px;color:var(--blue-lt);letter-spacing:.2px;
+    text-transform:none;white-space:nowrap;}
+  .navcaret{padding:12px 9px 12px 2px;color:var(--faint);align-items:center;}
+  .navcaret-mark{font-size:9px;display:block;transition:transform .16s ease;}
+  .navcaret:hover{color:var(--ink);}
+  .navcaret[aria-expanded="true"]{color:var(--ink);}
+  .navcaret[aria-expanded="true"] .navcaret-mark{transform:rotate(180deg);}
+  .navitem:hover .navcaret{color:var(--ink);}
   /* Fixed, not absolute: .nav is a horizontal scroller with overflow-y:hidden,
      which would clip an absolutely-positioned menu out of sight entirely.
      Position is set from the toggle's rect when it opens. */
-  .navmenu{position:fixed;z-index:40;min-width:210px;
+  .navmenu{position:fixed;z-index:40;min-width:236px;
     background:var(--panel);border:1px solid var(--ink);
-    box-shadow:0 8px 20px rgba(0,0,0,.16);display:flex;flex-direction:column;}
+    box-shadow:0 10px 24px rgba(0,0,0,.18);display:flex;flex-direction:column;
+    opacity:0;transform:translateY(-4px);transition:opacity .13s ease,transform .13s ease;}
+  .navmenu.open{opacity:1;transform:translateY(0);}
   .navmenu[hidden]{display:none;}
+  .navmenu-head{margin:0;padding:10px 14px 6px;font-family:var(--sans);font-size:9.5px;
+    letter-spacing:1.2px;text-transform:uppercase;color:var(--faint);font-weight:700;}
+  .navmenu-foot{margin:0;padding:7px 14px 10px;font-family:var(--sans);font-size:11px;
+    color:var(--faint);border-top:1px solid var(--line-soft);}
   .navmenu button{width:100%;justify-content:space-between;border-bottom:0;margin-bottom:0;
-    padding:11px 14px;font-size:12px;color:var(--text-2);text-align:left;}
+    padding:10px 14px;font-size:12.5px;color:var(--text-2);text-align:left;}
   .navmenu button:hover{background:var(--panel-2);color:var(--ink);}
-  .navmenu button[aria-current="true"]{color:var(--ink);background:var(--panel-3);}
+  .navmenu button[aria-current="true"]{color:var(--ink);background:var(--panel-3);
+    box-shadow:inset 3px 0 0 var(--blue-lt);}
+  @media (prefers-reduced-motion:reduce){
+    .navmenu{transition:none;}
+    .navcaret-mark{transition:none;}
+  }
+
+  /* ---------------- mobile hamburger ---------------- */
+  /* Hidden by default; the media query below turns it on and the horizontal
+     tab scroller off, so only one navigation exists at any width. */
+  .hamburger{display:none;width:100%;align-items:center;gap:12px;
+    background:var(--panel);border:0;border-bottom:2px solid var(--ink);
+    padding:12px 16px;font-family:var(--sans);font-weight:700;font-size:13px;
+    color:var(--ink);text-align:left;}
+  .hamburger-bars{display:flex;flex-direction:column;gap:3px;flex:0 0 auto;}
+  .hamburger-bars i{display:block;width:17px;height:2px;background:var(--ink);}
+  .hamburger-label{color:var(--dim);font-weight:600;}
+  .mobmenu{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.42);}
+  .mobmenu[hidden]{display:none;}
+  .mobmenu-panel{position:absolute;top:0;right:0;bottom:0;width:min(300px,86vw);
+    background:var(--panel);border-left:2px solid var(--ink);overflow-y:auto;
+    display:flex;flex-direction:column;padding-bottom:24px;}
+  .mobmenu-close{position:absolute;top:10px;right:10px;width:34px;height:34px;
+    background:transparent;border:1px solid var(--line);color:var(--dim);font-size:13px;
+    display:flex;align-items:center;justify-content:center;}
+  .mobmenu-head{margin:0;padding:18px 18px 6px;font-family:var(--sans);font-size:9.5px;
+    letter-spacing:1.2px;text-transform:uppercase;color:var(--faint);font-weight:700;}
+  .mobmenu-item{display:flex;align-items:center;justify-content:space-between;gap:10px;
+    width:100%;background:transparent;border:0;border-bottom:1px solid var(--line-soft);
+    padding:14px 18px;font-family:var(--sans);font-size:14px;font-weight:600;
+    color:var(--text-2);text-align:left;}
+  .mobmenu-item:hover{background:var(--panel-2);color:var(--ink);}
+  .mobmenu-item[aria-current="true"]{color:var(--ink);background:var(--panel-3);
+    box-shadow:inset 3px 0 0 var(--blue-lt);}
+  .mobmenu-item .badge{color:var(--faint);font-weight:600;font-size:12px;}
 
   /* ---------------- shared ---------------- */
   .bar{
@@ -465,8 +517,10 @@
     .wordmark{font-size:23px;}
     .masthead-tag{display:none;}
     .masthead-right{gap:12px;width:100%;}
-    .nav{overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap;padding:0 6px;}
-    .nav button{padding:11px 13px;font-size:11px;flex:0 0 auto;}
+    /* The scrolling tab strip pushed Directory and Companies off-screen with
+       no affordance; below this width the hamburger replaces it outright. */
+    .nav{display:none;}
+    .hamburger{display:flex;}
     .totop{right:14px;bottom:14px;padding:8px;gap:0;}
     .totop-word{display:none;}
     .totop-mark{font-size:12px;padding:6px 8px;}
@@ -525,15 +579,25 @@
   <div class="ticker-track" id="ticker"></div>
 </div>
 
+<button type="button" class="hamburger" id="hamburger" aria-expanded="false"
+        aria-controls="mobile-menu" aria-label="Open menu">
+  <span class="hamburger-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+  <span class="hamburger-label" id="hamburger-label">Newsroom</span>
+</button>
+
 <nav class="nav" id="nav" role="tablist" aria-label="Dashboard sections">
-  <span class="navitem">
+  <span class="navitem" id="navitem-newsroom">
     <button id="tab-newsroom" role="tab" aria-selected="true" aria-controls="view-newsroom" data-view="newsroom">Newsroom<span class="badge" id="b-news"></span></button>
     <button type="button" class="navcaret" id="wire-toggle" aria-expanded="false"
-            aria-controls="wire-menu" aria-label="Choose which wire to show">&#9662;</button>
+            aria-haspopup="true" aria-controls="wire-menu">
+      <span class="navcaret-mark" aria-hidden="true">&#9662;</span>
+      <span class="sr-only">Choose which wire to show</span>
+    </button>
     <div class="navmenu" id="wire-menu" role="menu" hidden>
-      <button type="button" role="menuitem" data-wire="all">Company and sector</button>
+      <p class="navmenu-head">Narrow to one wire</p>
       <button type="button" role="menuitem" data-wire="company">Company wire<span class="badge" id="b-wire-company"></span></button>
       <button type="button" role="menuitem" data-wire="sector">Sector wire<span class="badge" id="b-wire-sector"></span></button>
+      <p class="navmenu-foot">Newsroom shows both.</p>
     </div>
   </span>
   <button id="tab-linkedin" role="tab" aria-selected="false" aria-controls="view-linkedin" data-view="linkedin">LinkedIn studio<span class="badge" id="b-li"></span></button>
@@ -541,6 +605,21 @@
   <button id="tab-directory" role="tab" aria-selected="false" aria-controls="view-directory" data-view="directory">Directory</button>
   <button id="tab-companies" role="tab" aria-selected="false" aria-controls="view-companies" data-view="companies">Companies</button>
 </nav>
+
+<div class="mobmenu" id="mobile-menu" hidden>
+  <div class="mobmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <button type="button" class="mobmenu-close" id="mobmenu-close" aria-label="Close menu">&#10005;</button>
+    <p class="mobmenu-head">Newsroom</p>
+    <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="all">Company and sector<span class="badge" id="b-mob-news"></span></button>
+    <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="company">Company wire<span class="badge" id="b-mob-company"></span></button>
+    <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="sector">Sector wire<span class="badge" id="b-mob-sector"></span></button>
+    <p class="mobmenu-head">Elsewhere</p>
+    <button type="button" class="mobmenu-item" data-view="linkedin">LinkedIn studio<span class="badge" id="b-mob-li"></span></button>
+    <button type="button" class="mobmenu-item" data-view="archive">Archive<span class="badge" id="b-mob-arch"></span></button>
+    <button type="button" class="mobmenu-item" data-view="directory">Directory</button>
+    <button type="button" class="mobmenu-item" data-view="companies">Companies</button>
+  </div>
+</div>
 
 <main id="main-content">
 <section class="view on" id="view-newsroom" role="tabpanel" aria-labelledby="tab-newsroom">
@@ -1465,11 +1544,19 @@
   function updateChrome() {
     document.getElementById("s-refresh").textContent =
       fmtDate(DATA.generated_at) + " " + fmtTime(DATA.generated_at);
-    document.getElementById("b-news").textContent = "(" + liveStories().length + ")";
-    document.getElementById("b-wire-company").textContent = "(" + liveStories().length + ")";
-    document.getElementById("b-wire-sector").textContent = "(" + liveSector().length + ")";
-    document.getElementById("b-li").textContent = "(" + postable().length + ")";
-    document.getElementById("b-arch").textContent = "(" + archiveCount() + ")";
+    var counts = {
+      "b-wire-company": liveStories().length,
+      "b-wire-sector": liveSector().length, "b-li": postable().length,
+      "b-arch": archiveCount(),
+      // Mirrored onto the mobile menu, which lists the same destinations.
+      "b-mob-news": liveStories().length + liveSector().length,
+      "b-mob-company": liveStories().length, "b-mob-sector": liveSector().length,
+      "b-mob-li": postable().length, "b-mob-arch": archiveCount(),
+    };
+    Object.keys(counts).forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) { el.textContent = "(" + counts[id] + ")"; }
+    });
     document.getElementById("foot").textContent =
       "Internal briefing. Last updated " + fmtTime(DATA.generated_at) + " (" +
       fmtDate(DATA.generated_at) + ") - next update " + nextRefreshLabel() +
@@ -1491,6 +1578,43 @@
     });
   }
 
+  var WIRE_LABELS = { company: "Company wire", sector: "Sector wire" };
+
+  // Say which wire is showing, on the tab and on the hamburger, so the
+  // narrowed state is never silent.
+  function markWireState() {
+    var tab = document.getElementById("tab-newsroom");
+    if (tab) {
+      var tag = tab.querySelector(".wire-tag");
+      if (WIRE_LABELS[newsWire]) {
+        if (!tag) {
+          tag = document.createElement("span");
+          tag.className = "wire-tag";
+          tab.insertBefore(tag, tab.querySelector(".badge"));
+        }
+        tag.textContent = "/ " + WIRE_LABELS[newsWire];
+      } else if (tag) {
+        tag.remove();
+      }
+    }
+    // The badge counts whatever the tab is currently showing, or it reads 26
+    // while 43 sector cards are on screen.
+    var badge = document.getElementById("b-news");
+    if (badge && DATA.generated_at) {
+      badge.textContent = "(" + (newsWire === "sector" ? liveSector().length
+        : newsWire === "company" ? liveStories().length
+        : liveStories().length + liveSector().length) + ")";
+    }
+    var label = document.getElementById("hamburger-label");
+    if (label) {
+      var names = { newsroom: "Newsroom", linkedin: "LinkedIn studio", archive: "Archive",
+                    directory: "Directory", companies: "Companies" };
+      label.textContent = currentView === "newsroom" && WIRE_LABELS[newsWire]
+        ? WIRE_LABELS[newsWire] : (names[currentView] || "Newsroom");
+    }
+    markMobMenu();
+  }
+
   function show(view) {
     currentView = view;
     Array.prototype.forEach.call(document.querySelectorAll(".view"), function (v) {
@@ -1499,6 +1623,7 @@
     Array.prototype.forEach.call(document.querySelectorAll(".nav button"), function (b) {
       b.setAttribute("aria-selected", String(b.getAttribute("data-view") === view));
     });
+    markWireState();
     if (view === "archive") {
       loadArchive();
       renderArchiveBody();
@@ -1519,7 +1644,14 @@
     // The wire menu and its caret live inside .nav but are not tabs - without
     // the data-view guard they would call show(null) and blank every panel.
     var navBtn = t.closest ? t.closest(".nav button[data-view]") : null;
-    if (navBtn) { show(navBtn.getAttribute("data-view")); return; }
+    if (navBtn) {
+      // The Newsroom tab is the combined view, so clicking it clears any
+      // narrowing the wire menu applied - that is why the menu has no
+      // "Company and sector" entry of its own.
+      if (navBtn.getAttribute("data-view") === "newsroom") { newsWire = "all"; }
+      show(navBtn.getAttribute("data-view"));
+      return;
+    }
 
     if (t.hasAttribute && t.hasAttribute("data-add-company")) { addCompany(); return; }
     var removeBtn = t.closest ? t.closest("[data-remove-company]") : null;
@@ -1658,54 +1790,141 @@
   if (archToEl) {
     archToEl.addEventListener("change", function () { archTo = archToEl.value; renderArchiveBody(); });
   }
-  // Wire menu under the Newsroom tab. The tab itself still shows both wires;
-  // the menu just narrows the same view, so every option lands on Newsroom.
+  // Wire menu under the Newsroom tab. The tab itself always shows both wires,
+  // so the menu only offers the two narrowed views - "both" is the tab.
   var wireToggle = document.getElementById("wire-toggle");
   var wireMenu = document.getElementById("wire-menu");
-  function closeWireMenu() {
-    if (!wireMenu) { return; }
-    wireMenu.hidden = true;
-    wireToggle.setAttribute("aria-expanded", "false");
-  }
+  var navItem = document.getElementById("navitem-newsroom");
+  var wireOpenTimer = null, wireCloseTimer = null;
+  // Hover is only an appropriate trigger where there is a real pointer;
+  // on touch a "hover" fires on tap and makes the menu feel unpredictable.
+  var HOVER_CAPABLE = !!(window.matchMedia &&
+    window.matchMedia("(hover:hover) and (pointer:fine)").matches);
+
   function markWireMenu() {
     if (!wireMenu) { return; }
     Array.prototype.forEach.call(wireMenu.querySelectorAll("[data-wire]"), function (b) {
       b.setAttribute("aria-current", String(b.getAttribute("data-wire") === newsWire));
     });
   }
-  if (wireToggle && wireMenu) {
+  function positionWireMenu() {
+    var tab = document.getElementById("tab-newsroom").getBoundingClientRect();
+    wireMenu.style.top = Math.round(tab.bottom) + "px";
+    // Clamp both edges: .nav scrolls horizontally, so the tab's own left can
+    // go negative and push the menu off the left of the screen.
+    wireMenu.style.left = Math.round(Math.max(8,
+      Math.min(tab.left, window.innerWidth - wireMenu.offsetWidth - 8))) + "px";
+  }
+  function openWireMenu() {
+    if (!wireMenu || !wireMenu.hidden) { return; }
+    clearTimeout(wireCloseTimer);
+    wireMenu.hidden = false;
+    positionWireMenu();
+    markWireMenu();
+    wireToggle.setAttribute("aria-expanded", "true");
+    // Next frame, so the transition has a from-state to animate out of.
+    requestAnimationFrame(function () { wireMenu.classList.add("open"); });
+  }
+  function closeWireMenu() {
+    if (!wireMenu) { return; }
+    clearTimeout(wireOpenTimer);
+    wireMenu.classList.remove("open");
+    wireMenu.hidden = true;
+    wireToggle.setAttribute("aria-expanded", "false");
+  }
+
+  if (wireToggle && wireMenu && navItem) {
     wireToggle.addEventListener("click", function (e) {
       e.stopPropagation();
-      var open = wireMenu.hidden;
-      wireMenu.hidden = !open;
-      wireToggle.setAttribute("aria-expanded", String(open));
-      if (open) {
-        var tab = document.getElementById("tab-newsroom").getBoundingClientRect();
-        wireMenu.style.top = Math.round(tab.bottom) + "px";
-        // Keep it on screen on a narrow viewport. The nav scrolls horizontally,
-        // so the tab's own left can be negative - clamp both edges, not just
-        // the right one.
-        wireMenu.style.left = Math.round(Math.max(8,
-          Math.min(tab.left, window.innerWidth - wireMenu.offsetWidth - 8))) + "px";
-        markWireMenu();
-      }
+      if (wireMenu.hidden) { openWireMenu(); } else { closeWireMenu(); }
     });
+    if (HOVER_CAPABLE) {
+      // Small delay in, longer delay out - so brushing past the tab does not
+      // flash the menu, and crossing the gap into it does not lose it.
+      navItem.addEventListener("mouseenter", function () {
+        clearTimeout(wireCloseTimer);
+        wireOpenTimer = setTimeout(openWireMenu, 130);
+      });
+      navItem.addEventListener("mouseleave", function () {
+        clearTimeout(wireOpenTimer);
+        wireCloseTimer = setTimeout(closeWireMenu, 260);
+      });
+      wireMenu.addEventListener("mouseenter", function () { clearTimeout(wireCloseTimer); });
+      wireMenu.addEventListener("mouseleave", function () {
+        wireCloseTimer = setTimeout(closeWireMenu, 200);
+      });
+    }
     window.addEventListener("resize", closeWireMenu);
     wireMenu.addEventListener("click", function (e) {
       var btn = e.target.closest ? e.target.closest("[data-wire]") : null;
       if (!btn) { return; }
       newsWire = btn.getAttribute("data-wire");
-      markWireMenu();
       closeWireMenu();
       show("newsroom");
     });
     document.addEventListener("click", function (e) {
-      if (!wireMenu.hidden && !wireMenu.contains(e.target) && e.target !== wireToggle) {
+      if (!wireMenu.hidden && !wireMenu.contains(e.target) && !navItem.contains(e.target)) {
         closeWireMenu();
       }
     });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && !wireMenu.hidden) { closeWireMenu(); wireToggle.focus(); }
+    });
+  }
+
+  // Mobile menu. Replaces the tab strip below 640px, where the strip scrolled
+  // Directory and Companies off-screen with nothing to indicate they existed.
+  var hamburger = document.getElementById("hamburger");
+  var mobMenu = document.getElementById("mobile-menu");
+  function markMobMenu() {
+    if (!mobMenu) { return; }
+    Array.prototype.forEach.call(mobMenu.querySelectorAll("[data-view]"), function (b) {
+      var wire = b.getAttribute("data-wire");
+      var active = b.getAttribute("data-view") === currentView &&
+                   (!wire || wire === newsWire);
+      b.setAttribute("aria-current", String(active));
+    });
+  }
+  function openMobMenu() {
+    if (!mobMenu || !mobMenu.hidden) { return; }
+    markMobMenu();
+    mobMenu.hidden = false;
+    hamburger.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+    var first = mobMenu.querySelector(".mobmenu-item");
+    if (first) { first.focus(); }
+  }
+  function closeMobMenu(refocus) {
+    if (!mobMenu || mobMenu.hidden) { return; }
+    mobMenu.hidden = true;
+    hamburger.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    if (refocus !== false) { hamburger.focus(); }
+  }
+  if (hamburger && mobMenu) {
+    hamburger.addEventListener("click", openMobMenu);
+    document.getElementById("mobmenu-close").addEventListener("click", function () {
+      closeMobMenu();
+    });
+    mobMenu.addEventListener("click", function (e) {
+      // The overlay itself is the click-outside target.
+      if (e.target === mobMenu) { closeMobMenu(); return; }
+      var btn = e.target.closest ? e.target.closest("[data-view]") : null;
+      if (!btn) { return; }
+      var wire = btn.getAttribute("data-wire");
+      if (wire) { newsWire = wire; }
+      closeMobMenu(false);
+      show(btn.getAttribute("data-view"));
+    });
+    mobMenu.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { closeMobMenu(); return; }
+      if (e.key !== "Tab") { return; }
+      // Focus trap: the panel is modal, so Tab must not escape behind it.
+      var items = mobMenu.querySelectorAll("button");
+      if (!items.length) { return; }
+      var first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     });
   }
 
@@ -1737,6 +1956,7 @@
         var changed = initial || !prevGenerated || DATA.generated_at !== prevGenerated;
         dataLoaded = true;
         updateChrome();
+        markWireState();
         if (changed) {
           buildTicker();
           var names = [];

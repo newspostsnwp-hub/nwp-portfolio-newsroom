@@ -53,6 +53,9 @@ from requests import Response
 
 ROOT = Path(__file__).resolve().parents[1]
 COMPANIES_FILE = ROOT / "config" / "companies.json"
+# URLs a human has deleted from the dashboard. Checked at collection time so a
+# story removed on purpose cannot come back on the next refresh.
+SUPPRESSED_FILE = ROOT / "config" / "suppressed.json"
 OUTPUT_FILE = ROOT / "site" / "data" / "news.json"
 # The back-catalogue: company stories that have aged out of the live feed.
 # A story lives in news.json for its first ARCHIVE_DAYS, then moves here and
@@ -115,7 +118,9 @@ PROFILE_NOTES_LIMIT = max(1000, int(os.getenv("PROFILE_NOTES_LIMIT", "12000")))
 TITLE_RATIO_THRESHOLD = float(os.getenv("TITLE_RATIO_THRESHOLD", "0.86"))
 TITLE_JACCARD_THRESHOLD = float(os.getenv("TITLE_JACCARD_THRESHOLD", "0.70"))
 
-MAX_LINKS_PER_NEWSROOM_PAGE = 12
+# Counts ACCEPTED tiles per seed URL, so it is a yield cap, not a scan cap. At
+# 12 a single company newsroom could fill the whole feed with back-catalogue.
+MAX_LINKS_PER_NEWSROOM_PAGE = max(1, int(os.getenv("MAX_LINKS_PER_NEWSROOM_PAGE", "6")))
 
 HOST_MIN_INTERVALS = {"api.gdeltproject.org": 5.0, "news.google.com": 2.0, "www.bing.com": 2.0}
 DEFAULT_HOST_INTERVAL = 1.0
@@ -149,6 +154,10 @@ NON_ARTICLE_SEGMENTS = {
     "sitemap", "faq", "faqs", "support", "help", "legal", "accessibility",
     "home", "index", "feed", "rss", "subscribe", "newsletter", "events",
     "gallery", "downloads", "brochures", "case-studies", "testimonials",
+    # Branch/location directories - a store listing is not an article, but its
+    # slug looks exactly like one ("/our-stores/ware-banking-hub").
+    "our-stores", "stores", "store", "locations", "location", "branches",
+    "branch", "depots", "offices", "find-us", "store-finder",
 }
 
 # Anchor text that is navigation, not a headline.
@@ -415,6 +424,44 @@ def looks_like_headline(text: str) -> bool:
     return len(text.split()) >= 3
 
 
+def anchor_headline(anchor) -> str:
+    """The headline inside a newsroom card, not the whole card.
+
+    Modern newsroom grids wrap an entire tile in one <a>, so get_text() sweeps
+    up the category badge, the date and the "N min read" note along with the
+    title - producing headlines like "Packaging Technology The Engineering
+    Behind PET Lightweighting 20 Feb, 2026". Preferring a heading element
+    inside the anchor keeps just the part that is actually the headline.
+    """
+    for node in anchor.find_all(["h1", "h2", "h3", "h4", "h5"]):
+        text = clean_text(node.get_text(" "))
+        if looks_like_headline(text):
+            return text
+    for node in anchor.select('[class*="title"], [class*="headline"]'):
+        text = clean_text(node.get_text(" "))
+        if looks_like_headline(text):
+            return text
+    return clean_text(anchor.get_text(" ")) or clean_text(anchor.get("title"))
+
+
+# " | Petainer News", " - Clearway", " | Whitespace" - the site name a CMS
+# appends to every <title>/og:title.
+TITLE_SUFFIX_PATTERN = re.compile(r"\s+[|–—-]\s+[^|–—-]{2,40}$")
+READ_TIME_PATTERN = re.compile(r"\s*\b\d+\s*min(?:ute)?s?\s+read\b\s*$", re.I)
+
+
+def clean_page_title(title: str, fallback: str = "") -> str:
+    """Strip the site-name suffix and any trailing read-time off a page title."""
+    text = clean_text(title)
+    text = READ_TIME_PATTERN.sub("", text)
+    stripped = TITLE_SUFFIX_PATTERN.sub("", text).strip()
+    # Only take the trim if something survives it - "Whitespace | Insights"
+    # would otherwise reduce to a bare word.
+    if looks_like_headline(stripped):
+        text = stripped
+    return text if looks_like_headline(text) else clean_text(fallback)
+
+
 def content_root(soup: BeautifulSoup):
     """Main editorial region, so site navigation is never scraped for links."""
     for selector in ("main", "article", '[role="main"]', "#main", "#content",
@@ -426,6 +473,31 @@ def content_root(soup: BeautifulSoup):
 
 
 # ------------------------------------------------------------------ config
+
+def load_suppressed() -> set[str]:
+    """Normalised URLs a human has deleted and does not want back.
+
+    Absent or unreadable means "suppress nothing" - a broken file must never
+    take the whole run down, and the failure mode of showing a deleted story
+    again is far milder than losing the refresh.
+    """
+    if not SUPPRESSED_FILE.exists():
+        return set()
+    try:
+        data = json.loads(SUPPRESSED_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        LOGGER.error("suppressed.json unreadable (%s); suppressing nothing.", exc)
+        return set()
+    entries = data.get("urls", []) if isinstance(data, dict) else data
+    if not isinstance(entries, list):
+        LOGGER.error("suppressed.json has no URL list; suppressing nothing.")
+        return set()
+    return {key for key in (normalise_url(str(u)) for u in entries) if key}
+
+
+# Read once at import; make_candidate consults it for every candidate.
+SUPPRESSED_URLS: set[str] = load_suppressed()
+
 
 def load_companies() -> list[dict[str, Any]]:
     if not COMPANIES_FILE.exists():
@@ -549,6 +621,8 @@ def make_candidate(*, company: dict[str, Any], title: str, url: str, source: str
     source = clean_text(source) or urlsplit(url).netloc.replace("www.", "")
     published_at = clean_text(published_at)
     if not title or not url or not looks_like_headline(title):
+        return None
+    if normalise_url(url) in SUPPRESSED_URLS:
         return None
     if exclusion_matches(company, title, source, feed_summary):
         return None
@@ -733,7 +807,7 @@ def search_company_newsroom(company: dict[str, Any]) -> tuple[list[dict[str, Any
                 continue
             if not looks_like_article_url(absolute):
                 continue
-            text = clean_text(anchor.get_text(" ")) or clean_text(anchor.get("title"))
+            text = anchor_headline(anchor)
             if not looks_like_headline(text):
                 continue
             record = make_candidate(company=company, title=text, url=absolute,
@@ -1064,24 +1138,59 @@ def fetch_article(url: str) -> dict[str, str]:
             "description": description, "title": page_title}
 
 
-def resolve_scraped_date(item: dict[str, Any], page: dict[str, str], now_iso: str) -> bool:
-    """Decide whether a newsroom-scraped item (verify_on_page) survives.
+# "20 Feb, 2026", "07 Oct 2025", "14 Apr 2026" - the shape newsroom card grids
+# render inline, which get_text() sweeps into the scraped title.
+TITLE_DATE_PATTERN = re.compile(
+    r"\b(\d{1,2})\s+"
+    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*,?\s+"
+    r"(20\d{2})\b", re.I)
+URL_DATE_PATTERN = re.compile(r"/(20\d{2})/(\d{1,2})(?:/(\d{1,2}))?/")
 
-    A real on-page date within the lookback window always wins. Failing that,
-    an official-source item (our own RSS/newsroom, not a third-party
-    aggregator) with a genuine article-shaped URL is still kept, dated "now"
-    and flagged as estimated, rather than lost outright - undated aggregator
-    hits get no such benefit of the doubt, or evergreen pages would resurface
-    as "today's news". Mutates item in place; returns False to drop it.
+
+def date_from_text(text: str) -> str:
+    """Pull a publication date out of scraped card text. Returns "" if absent."""
+    match = TITLE_DATE_PATTERN.search(clean_text(text))
+    if not match:
+        return ""
+    day, month, year = match.group(1), match.group(2)[:3].title(), match.group(3)
+    parsed = parse_datetime(f"{int(day):02d} {month} {year}")
+    return parsed.isoformat() if parsed else ""
+
+
+def date_from_url(url: str) -> str:
+    """Pull a date out of a /2026/02/20/ style URL path. Returns "" if absent."""
+    match = URL_DATE_PATTERN.search(urlsplit(clean_text(url)).path)
+    if not match:
+        return ""
+    year, month, day = match.group(1), int(match.group(2)), int(match.group(3) or 1)
+    if not 1 <= month <= 12 or not 1 <= day <= 31:
+        return ""
+    parsed = parse_datetime(f"{year}-{month:02d}-{day:02d}")
+    return parsed.isoformat() if parsed else ""
+
+
+def resolve_scraped_date(item: dict[str, Any], page: dict[str, str], now_iso: str) -> bool:
+    """Establish the real publication date of a newsroom-scraped item.
+
+    Tries the page's own metadata, then a date rendered inside the scraped card
+    text, then a dated URL path. Whatever it finds is kept verbatim and the
+    ordinary lookback window then decides whether the item survives.
+
+    It must never substitute "now" for a date it could not read. Doing so
+    previously took pages carrying a perfectly good article:published_time of
+    months ago, saw the date fall outside the window, and restamped them with
+    the refresh timestamp - which presented year-old evergreen pages as today's
+    news. An item whose date cannot be established is dropped instead.
+
+    Mutates item in place; returns False to drop it.
     """
-    if page.get("published") and is_within(page["published"], LOOKBACK_DAYS):
-        item["published_at"] = page["published"]
-        return True
-    if item.get("discovered_via") in OFFICIAL_SOURCES and looks_like_article_url(item["url"]):
-        item["published_at"] = now_iso
-        item["date_estimated"] = True
-        return True
-    return False
+    found = (clean_text(page.get("published"))
+             or date_from_text(item.get("title", ""))
+             or date_from_url(item.get("url", "")))
+    if not found:
+        return False
+    item["published_at"] = found
+    return is_within(found, LOOKBACK_DAYS)
 
 
 # ---------------------------------------------------------- gemini analysis
@@ -1213,6 +1322,8 @@ HEADLINE: {article["title"]}
 SOURCE: {article["source"]}
 URL: {article["url"]}
 DISCOVERED VIA: {article.get("discovered_via", "")}
+PUBLISHED: {article.get("published_at") or "[NO DATE FOUND]"}
+TODAY: {datetime.now(timezone.utc).date().isoformat()}
 
 <source_material>
 {material}
@@ -1228,33 +1339,49 @@ Rules:
    products, people, or commercial activity. A passing mention is not enough.
 2. is_relevant is false for: a similarly named organisation; a generic industry article that
    merely lists the company; a product page, "about us" page, or marketing boilerplate.
-   A dated post on the company's own newsroom or press page is a legitimate news item, not
-   boilerplate, purely because it is short.
-3. Score 0-100 on certainty, source credibility, significance to an external audience, and
+   A short post is not boilerplate merely because it is short - judge it on whether it
+   reports an event.
+3. THE EVENT TEST, applied before anything else. A news item reports something that
+   HAPPENED, on a date. Set is_relevant false for anything that is instead evergreen
+   reference material, however well written, however recently posted, and even when it
+   sits on the company's own newsroom, insights or blog section:
+   - explainers, how-tos, guides, "the engineering behind X", "understanding Y"
+   - technical or regulatory background with no event attached
+   - capability, service or product descriptions
+   - thought-leadership, opinion and commentary pieces
+   If you cannot name what happened and roughly when, it is not news.
+   These ARE events and must pass: appointments and departures; funding; contract and
+   customer wins; acquisitions; awards; certifications and accreditations; site, branch
+   or office openings; results and trading updates; confirmed appearances at a named
+   trade show or conference; service, network or tariff changes.
+4. Score 0-100 on certainty, source credibility, significance to an external audience, and
    strength of evidence. Weight named, reputable sources (trade press, named company statement,
-   regulator, named spokesperson) above anonymous aggregator blurbs. Be strict: the "scores
-   below 50" penalty is for genuinely promotional or contentless items only - it does NOT
-   apply to a confirmed factual event (an appointment, funding round, contract win,
-   acquisition, award, or site opening) even when reported briefly.
-4. Appointments, senior hires, promotions, departures and board changes at the portfolio
+   regulator, named spokesperson) above anonymous aggregator blurbs. Be strict: a purely
+   promotional item, or one with no concrete detail beyond the headline, scores below 50.
+   That penalty does NOT apply to a confirmed factual event (an appointment, funding round,
+   contract win, acquisition, award, certification or site opening) even when reported briefly.
+5. Note the PUBLISHED date against TODAY. Say so in warnings if the item is more than a
+   month old, and never write a draft that implies old news is a new development. Do not
+   lower the score for age alone - an older item that is genuinely news is still news.
+6. Appointments, senior hires, promotions, departures and board changes at the portfolio
    company are inherently significant news. Score them on the seniority of the role and the
    certainty of the source, not on the length of the article - a three-sentence announcement
    of a new managing director is a strong story, not a thin one.
-5. Use only facts supported by the source material. Never invent figures, quotes, customers,
+7. Use only facts supported by the source material. Never invent figures, quotes, customers,
    dates, outcomes, or any Next Wave involvement.
-6. Put uncertainty and unsupported claims in warnings.
-7. Measured British English, written for the Next Wave Partners corporate account.
-8. Do not imply Next Wave caused the development. Avoid private-equity cliche and superlatives.
-9. Each draft 80-150 words: concise (factual), investor (growth angle only where supported),
+8. Put uncertainty and unsupported claims in warnings.
+9. Measured British English, written for the Next Wave Partners corporate account.
+10. Do not imply Next Wave caused the development. Avoid private-equity cliche and superlatives.
+11. Each draft 80-150 words: concise (factual), investor (growth angle only where supported),
    people (recognise the team without exaggeration). Every draft must include at least one
    concrete, source-supported detail (a figure, name, date, or quote) - if the source material
    contains no such detail, leave the draft empty rather than fill it with generic phrasing
    like "exciting news" or "proud to announce". A brief appointment item still contains
    concrete detail (a name, a role, a date) and qualifies for a draft on that basis. Max three
    hashtags. No URLs in drafts.
-10. story_type is one of: Partnership, Funding, Contract, Acquisition, Award, Appointment,
+12. story_type is one of: Partnership, Funding, Contract, Acquisition, Award, Appointment,
     Product, Update, Other - pick the closest fit.
-11. Output valid JSON only.
+13. Output valid JSON only.
 """.strip()
 
 
@@ -1372,6 +1499,10 @@ def assemble_story(item: dict[str, Any], analysis: dict[str, Any], first_seen: s
         "url": item["url"],
         "source": item["source"],
         "published_at": published_at,
+        # The dashboard renders "Date not stated" off this, so it has to survive
+        # assembly - it previously stopped here and the UI showed a date it had
+        # no business being confident about.
+        "date_estimated": bool(item.get("date_estimated")),
         "first_seen": first_seen,
         "score": score,
         "tier": story_tier(score),
@@ -1887,10 +2018,15 @@ def main() -> None:
     previous_stories = [s for s in previous.get("stories", []) if isinstance(s, dict)]
     previous_sector = [s for s in previous.get("sector_stories", []) if isinstance(s, dict)]
 
+    # Suppression applies to what is already in the file too, or a deleted
+    # story would simply carry forward for ever.
     carried = [s for s in previous_stories
-               if s.get("company") in by_name and is_within(str(s.get("published_at", "")), ARCHIVE_DAYS)]
+               if s.get("company") in by_name
+               and normalise_url(str(s.get("url", ""))) not in SUPPRESSED_URLS
+               and is_within(str(s.get("published_at", "")), ARCHIVE_DAYS)]
     carried_sector = [s for s in previous_sector
                       if s.get("company") in by_name
+                      and normalise_url(str(s.get("url", ""))) not in SUPPRESSED_URLS
                       and is_within(str(s.get("published_at", "")), SECTOR_LOOKBACK_DAYS)]
     for story in carried:
         story.setdefault("first_seen", story.get("published_at", now_iso))
@@ -1986,12 +2122,18 @@ def main() -> None:
 
         page = pages.get(idx, {"text": "", "published": "", "description": "", "title": ""})
 
-        # Scraped newsroom links must prove a real published date in the markup.
+        # Scraped newsroom links must prove a real published date. This runs
+        # before the title is cleaned below, because one of its fallbacks reads
+        # the date out of the raw scraped card text.
         if item.get("verify_on_page"):
             if not resolve_scraped_date(item, page, now_iso):
                 drops_date += 1
                 LOGGER.info("Dropped (no verifiable recent date): %s", item["url"])
                 continue
+            # The page's own title beats link text scraped off a card grid,
+            # which carries the category badge and date with the headline.
+            if page.get("title"):
+                item["title"] = clean_page_title(page["title"], item["title"])
         elif page["published"] and not is_within(page["published"], max(LOOKBACK_DAYS, SECTOR_LOOKBACK_DAYS) + 1):
             drops_date += 1
             LOGGER.info("Dropped (page date outside window): %s", item["url"])
