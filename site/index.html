@@ -152,6 +152,23 @@
   .nav button:hover{color:var(--ink);}
   .nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--ink);}
   .nav .badge{color:var(--faint);font-weight:600;font-size:12px;line-height:1;letter-spacing:0;}
+  /* Newsroom carries a menu for narrowing to one wire; the tab itself still
+     navigates, so the caret is a separate control rather than a click trap. */
+  .navitem{position:relative;display:flex;align-items:stretch;flex:0 0 auto;}
+  .navitem>#tab-newsroom{padding-right:6px;}
+  .navcaret{padding:12px 10px 12px 2px;font-size:10px;color:var(--faint);}
+  .navcaret:hover,.navcaret[aria-expanded="true"]{color:var(--ink);}
+  /* Fixed, not absolute: .nav is a horizontal scroller with overflow-y:hidden,
+     which would clip an absolutely-positioned menu out of sight entirely.
+     Position is set from the toggle's rect when it opens. */
+  .navmenu{position:fixed;z-index:40;min-width:210px;
+    background:var(--panel);border:1px solid var(--ink);
+    box-shadow:0 8px 20px rgba(0,0,0,.16);display:flex;flex-direction:column;}
+  .navmenu[hidden]{display:none;}
+  .navmenu button{width:100%;justify-content:space-between;border-bottom:0;margin-bottom:0;
+    padding:11px 14px;font-size:12px;color:var(--text-2);text-align:left;}
+  .navmenu button:hover{background:var(--panel-2);color:var(--ink);}
+  .navmenu button[aria-current="true"]{color:var(--ink);background:var(--panel-3);}
 
   /* ---------------- shared ---------------- */
   .bar{
@@ -221,9 +238,6 @@
   .archinput{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
     font-family:var(--sans);padding:5px 9px;font-size:12px;}
   .archinput:focus{border-color:var(--blue);}
-  .wire-select{background:var(--panel-2);border:1px solid var(--line);color:var(--text);
-    font-family:var(--sans);padding:5px 9px;font-size:12px;}
-  .wire-select:focus{border-color:var(--blue);}
   .hidden-ctl{margin-left:auto;}
   .bar-note{color:var(--faint);font-size:11.5px;font-family:var(--sans);}
 
@@ -512,8 +526,16 @@
 </div>
 
 <nav class="nav" id="nav" role="tablist" aria-label="Dashboard sections">
-  <button id="tab-newsroom" role="tab" aria-selected="true" aria-controls="view-newsroom" data-view="newsroom">Newsroom<span class="badge" id="b-news"></span></button>
-  <button id="tab-sector" role="tab" aria-selected="false" aria-controls="view-sector" data-view="sector">Sector wire<span class="badge" id="b-sector"></span></button>
+  <span class="navitem">
+    <button id="tab-newsroom" role="tab" aria-selected="true" aria-controls="view-newsroom" data-view="newsroom">Newsroom<span class="badge" id="b-news"></span></button>
+    <button type="button" class="navcaret" id="wire-toggle" aria-expanded="false"
+            aria-controls="wire-menu" aria-label="Choose which wire to show">&#9662;</button>
+    <div class="navmenu" id="wire-menu" role="menu" hidden>
+      <button type="button" role="menuitem" data-wire="all">Company and sector</button>
+      <button type="button" role="menuitem" data-wire="company">Company wire<span class="badge" id="b-wire-company"></span></button>
+      <button type="button" role="menuitem" data-wire="sector">Sector wire<span class="badge" id="b-wire-sector"></span></button>
+    </div>
+  </span>
   <button id="tab-linkedin" role="tab" aria-selected="false" aria-controls="view-linkedin" data-view="linkedin">LinkedIn studio<span class="badge" id="b-li"></span></button>
   <button id="tab-archive" role="tab" aria-selected="false" aria-controls="view-archive" data-view="archive">Archive<span class="badge" id="b-arch"></span></button>
   <button id="tab-directory" role="tab" aria-selected="false" aria-controls="view-directory" data-view="directory">Directory</button>
@@ -522,22 +544,9 @@
 
 <main id="main-content">
 <section class="view on" id="view-newsroom" role="tabpanel" aria-labelledby="tab-newsroom">
-  <div class="bar bar-wire">
-    <label class="lbl" for="wire-select">Wire</label>
-    <select id="wire-select" class="wire-select">
-      <option value="all">Company and sector</option>
-      <option value="company">Company wire only</option>
-      <option value="sector">Sector wire only</option>
-    </select>
-  </div>
   <div class="bar" id="news-filters"><span class="lbl">Companies</span></div>
   <div id="news-pulse"></div>
   <div id="news-body"></div>
-</section>
-
-<section class="view" id="view-sector" role="tabpanel" aria-labelledby="tab-sector">
-  <div class="bar bar-title"><span class="lbl">Sector coverage across the portfolio</span></div>
-  <div id="sector-body"></div>
 </section>
 
 <section class="view" id="view-linkedin" role="tabpanel" aria-labelledby="tab-linkedin">
@@ -913,7 +922,9 @@
         (collapse ? '<button type="button" class="lowtoggle" data-toggle-low="' + gridId +
           '">Show ' + lowCount + " more</button>" : "") +
         "</div>";
-    } else {
+    } else if (newsWire !== "sector") {
+      // On the sector wire the absence of company stories is the point, not a
+      // gap worth announcing under every single company.
       html += '<div class="empty empty-left">No company news in this refresh. Sector coverage below.</div>';
     }
     if (sector.length) {
@@ -1048,38 +1059,6 @@
     }).join("");
   }
 
-  function renderSector() {
-    var byIndustry = {}, order = [];
-    liveSector().forEach(function (s) {
-      var key = s.industry || "Unclassified";
-      if (!byIndustry[key]) { byIndustry[key] = { items: [], companies: [] }; order.push(key); }
-      byIndustry[key].items.push(s);
-      if (byIndustry[key].companies.indexOf(s.company) === -1) {
-        byIndustry[key].companies.push(s.company);
-      }
-    });
-    order.sort();
-
-    var body = document.getElementById("sector-body");
-    if (!order.length) {
-      body.innerHTML = '<div class="empty"><b>Wire quiet</b>No sector news in this window.</div>';
-      return;
-    }
-    body.innerHTML = order.map(function (industry) {
-      var group = byIndustry[industry];
-      var meta = companyMeta(group.companies[0]) || {};
-      return "<section>" +
-        '<div class="sect">' +
-          '<div class="sect-mid">' +
-            "<h2>" + esc(industry) + "</h2>" +
-            '<span class="sub">' + esc(group.companies.join(" / ")) + "</span>" +
-          "</div>" +
-          '<div class="right">' + linkSet(meta.industry_links, "Search") + "</div>" +
-        "</div>" +
-        carousel(group.items, sectorCard) +
-      "</section>";
-    }).join("");
-  }
 
   function postable() {
     return liveStories().filter(function (s) {
@@ -1487,7 +1466,8 @@
     document.getElementById("s-refresh").textContent =
       fmtDate(DATA.generated_at) + " " + fmtTime(DATA.generated_at);
     document.getElementById("b-news").textContent = "(" + liveStories().length + ")";
-    document.getElementById("b-sector").textContent = "(" + liveSector().length + ")";
+    document.getElementById("b-wire-company").textContent = "(" + liveStories().length + ")";
+    document.getElementById("b-wire-sector").textContent = "(" + liveSector().length + ")";
     document.getElementById("b-li").textContent = "(" + postable().length + ")";
     document.getElementById("b-arch").textContent = "(" + archiveCount() + ")";
     document.getElementById("foot").textContent =
@@ -1502,7 +1482,7 @@
   }
   function renderSkeletonFor(view) {
     var map = {
-      newsroom: ["news-body"], sector: ["sector-body"],
+      newsroom: ["news-body"],
       linkedin: ["li-list", "li-main"], directory: ["dir-body"], companies: ["mc-list"],
     };
     (map[view] || []).forEach(function (id) {
@@ -1526,7 +1506,6 @@
       renderSkeletonFor(view);
     } else {
       if (view === "newsroom") { renderNewsroom(newsFilter); renderPulse(); }
-      if (view === "sector") { renderSector(); }
       if (view === "linkedin") { renderLinkedIn(); }
       if (view === "directory") { renderDirectory(); }
       if (view === "companies") { renderCompanies(); }
@@ -1537,7 +1516,9 @@
 
   document.addEventListener("click", function (e) {
     var t = e.target;
-    var navBtn = t.closest ? t.closest(".nav button") : null;
+    // The wire menu and its caret live inside .nav but are not tabs - without
+    // the data-view guard they would call show(null) and blank every panel.
+    var navBtn = t.closest ? t.closest(".nav button[data-view]") : null;
     if (navBtn) { show(navBtn.getAttribute("data-view")); return; }
 
     if (t.hasAttribute && t.hasAttribute("data-add-company")) { addCompany(); return; }
@@ -1605,14 +1586,13 @@
 
   function refreshStories() {
     if (currentView === "newsroom") { renderNewsroom(newsFilter); renderPulse(); }
-    else if (currentView === "sector") { renderSector(); }
     else if (currentView === "linkedin") { renderLinkedIn(); }
     syncCarousels();
   }
 
   document.addEventListener("keydown", function (e) {
     if (e.target && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) { return; }
-    var map = { F1: "newsroom", F2: "sector", F3: "linkedin", F4: "archive" };
+    var map = { F1: "newsroom", F2: "linkedin", F3: "archive", F4: "directory" };
     if (map[e.key]) { e.preventDefault(); show(map[e.key]); }
   });
 
@@ -1678,19 +1658,61 @@
   if (archToEl) {
     archToEl.addEventListener("change", function () { archTo = archToEl.value; renderArchiveBody(); });
   }
-  var wireSelect = document.getElementById("wire-select");
-  if (wireSelect) {
-    wireSelect.addEventListener("change", function () {
-      newsWire = wireSelect.value;
-      renderNewsroom(newsFilter);
-      syncCarousels();
+  // Wire menu under the Newsroom tab. The tab itself still shows both wires;
+  // the menu just narrows the same view, so every option lands on Newsroom.
+  var wireToggle = document.getElementById("wire-toggle");
+  var wireMenu = document.getElementById("wire-menu");
+  function closeWireMenu() {
+    if (!wireMenu) { return; }
+    wireMenu.hidden = true;
+    wireToggle.setAttribute("aria-expanded", "false");
+  }
+  function markWireMenu() {
+    if (!wireMenu) { return; }
+    Array.prototype.forEach.call(wireMenu.querySelectorAll("[data-wire]"), function (b) {
+      b.setAttribute("aria-current", String(b.getAttribute("data-wire") === newsWire));
+    });
+  }
+  if (wireToggle && wireMenu) {
+    wireToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var open = wireMenu.hidden;
+      wireMenu.hidden = !open;
+      wireToggle.setAttribute("aria-expanded", String(open));
+      if (open) {
+        var tab = document.getElementById("tab-newsroom").getBoundingClientRect();
+        wireMenu.style.top = Math.round(tab.bottom) + "px";
+        // Keep it on screen on a narrow viewport. The nav scrolls horizontally,
+        // so the tab's own left can be negative - clamp both edges, not just
+        // the right one.
+        wireMenu.style.left = Math.round(Math.max(8,
+          Math.min(tab.left, window.innerWidth - wireMenu.offsetWidth - 8))) + "px";
+        markWireMenu();
+      }
+    });
+    window.addEventListener("resize", closeWireMenu);
+    wireMenu.addEventListener("click", function (e) {
+      var btn = e.target.closest ? e.target.closest("[data-wire]") : null;
+      if (!btn) { return; }
+      newsWire = btn.getAttribute("data-wire");
+      markWireMenu();
+      closeWireMenu();
+      show("newsroom");
+    });
+    document.addEventListener("click", function (e) {
+      if (!wireMenu.hidden && !wireMenu.contains(e.target) && e.target !== wireToggle) {
+        closeWireMenu();
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !wireMenu.hidden) { closeWireMenu(); wireToggle.focus(); }
     });
   }
 
   function showFeedError(err) {
     var msg = '<div class="empty"><b>Feed unavailable</b>Could not load data/news.json (' +
       esc(err.message) + "). The page will keep retrying on its own schedule.</div>";
-    ["news-body", "sector-body", "dir-body", "mc-list"].forEach(function (id) {
+    ["news-body", "dir-body", "mc-list"].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) { el.innerHTML = msg; }
     });
