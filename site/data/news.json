@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-28T17:08:34.553087+00:00",
-  "digest_intro": "Good morning; today's briefing covers 22 portfolio updates and 10 sector items, led by the news that Clearway Group has appointed Christian Baumbach as Managing Director of Secontec.",
+  "generated_at": "2026-07-28T21:13:55.029358+00:00",
+  "digest_intro": "",
   "archive_story_count": 0,
-  "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
+  "last_digest_sent_at": "2026-07-28T21:13:55.029358+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -1671,17 +1671,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "03339ab18c6e4af7",
+      "id": "93d991a867b2bfc8",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "Workforce Pell Is Live. How’s It Going for States?",
-      "url": "https://www.insidehighered.com/news/tech-innovation/alternative-credentials/2026/07/27/workforce-pell-live-hows-it-going-states",
+      "title": "Stop Telling Students Computer Science Is Dying",
+      "url": "https://www.insidehighered.com/opinion/views/2026/07/28/stop-telling-students-computer-science-dying-opinion",
       "source": "insidehighered.com",
-      "published_at": "2026-07-27T07:00:00+00:00",
-      "first_seen": "2026-07-27T10:31:25.675205+00:00",
+      "published_at": "2026-07-28T07:00:00+00:00",
+      "first_seen": "2026-07-28T21:13:55.029358+00:00",
       "score": 85,
-      "summary": "The U.S. government has launched the Workforce Pell program, providing federal grants for short-term training programs that meet specific duration, completion, and job-placement criteria.",
-      "angle": "New federal funding for short-term credentials creates opportunities for curriculum development and alignment with workforce-ready educational products.",
+      "summary": "Data indicates that demand for computer science skills remains strong across diverse economic sectors despite recent tech-sector layoffs and concerns regarding AI-driven automation.",
+      "angle": "Informs curriculum development and market positioning for higher education providers navigating the evolving demand for technical skills.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1859,14 +1859,14 @@
     "companies_with_stories": 6,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 113,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
-    "dropped_no_valid_date": 6,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "providers_succeeded": 95,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 72,
+    "dropped_no_valid_date": 7,
+    "dropped_thin_page": 16,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 32
   }
 }
