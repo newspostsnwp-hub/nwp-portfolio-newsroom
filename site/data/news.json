@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T16:06:47.092357+00:00",
-  "digest_intro": "Good morning; today's briefing covers 22 portfolio updates and 10 sector items, led by the appointment of Christian Baumbach as Managing Director of Secontec at Clearway Group.",
+  "generated_at": "2026-07-28T17:08:34.553087+00:00",
+  "digest_intro": "Good morning; today's briefing covers 22 portfolio updates and 10 sector items, led by the news that Clearway Group has appointed Christian Baumbach as Managing Director of Secontec.",
   "archive_story_count": 0,
   "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
   "companies": [
@@ -1860,13 +1860,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 89,
-    "queued_candidates": 122,
-    "llm_requests_attempted": 99,
-    "llm_requests_succeeded": 99,
-    "dropped_no_valid_date": 0,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
-    "carried_forward": 26
+    "queued_candidates": 113,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
+    "dropped_no_valid_date": 6,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 6,
+    "carried_forward": 32
   }
 }
