@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-07-28T14:07:28.592746+00:00",
-  "digest_intro": "Good morning. Today's briefing covers 17 portfolio updates and 8 sector items, led by the news that Clearway Group has appointed Christian Baumbach as Managing Director of Secontec.",
+  "generated_at": "2026-07-28T15:38:10.193436+00:00",
+  "digest_intro": "Good morning, today's briefing covers 20 updates across our portfolio companies—including Clearway Group's appointment of Christian Baumbach as Managing Director of Secontec—alongside 8 relevant sector items.",
+  "archive_story_count": 0,
   "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
   "companies": [
     {
@@ -104,7 +105,7 @@
       "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
-      "story_count": 5,
+      "story_count": 10,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -123,7 +124,7 @@
       "description": "UK sovereign AI company behind Collective / CollectiveOS.",
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
-      "story_count": 5,
+      "story_count": 8,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -142,7 +143,7 @@
       "description": "UK independent stationery and Post Office retail chain.",
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
-      "story_count": 3,
+      "story_count": 4,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -250,9 +251,39 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 17,
-  "todays_story_count": 17,
+  "story_count": 26,
+  "todays_story_count": 26,
   "stories": [
+    {
+      "id": "5430cad38a053fe9",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Company Updates Whitespace to Showcase Operational AI Capability at Eurosatory 2026 10 Jun 2026 - 1 min read",
+      "url": "https://www.white.space/insights/whitespace-to-showcase-operational-ai-capability-at-eurosatory-2026",
+      "source": "white.space",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 95,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Partnership",
+      "summary": "Whitespace has announced a collaborative initiative with Mattermost, Arqit, and archTIS to deliver an interoperable operational AI and mission workflow environment for defence and coalition operations, debuting at Eurosatory 2026.",
+      "why_it_matters": "This partnership demonstrates the practical application of sovereign AI in complex, multi-domain defence environments, highlighting Whitespace's role in integrating mission workflows with secure, post-quantum, and zero-trust technologies.",
+      "verified_facts": [
+        "Whitespace is collaborating with Mattermost, Arqit, and archTIS.",
+        "The joint capability will debut at Eurosatory 2026 (15–19 June).",
+        "The demonstration will take place on the Microsoft stand (Hall 4, G286)."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to see Whitespace announce a new collaborative initiative alongside Mattermost, Arqit, and archTIS. This partnership aims to deliver an interoperable operational AI and mission workflow environment designed for defence and coalition operations. The joint capability will make its public debut at Eurosatory 2026, taking place from 15–19 June. By integrating operational intelligence with secure collaboration, zero-trust policy enforcement, and post-quantum security, the initiative addresses the critical need for adaptable technology across connected and disconnected environments. The team will be showcasing this integrated solution on the Microsoft stand (Hall 4, G286). #SovereignAI #DefenceTech #Whitespace",
+        "investor": "The defence sector is increasingly prioritising interoperable ecosystems that can function across cloud, edge, and air-gapped environments. Whitespace’s latest collaboration with Mattermost, Arqit, and archTIS is a significant step in this direction, creating a unified operational environment that supports the full Sense, Decide, Act, and Analyse cycle. By combining Whitespace’s mission workflow capabilities with specialist technologies in secure communication and data-centric policy enforcement, the partnership offers a scalable approach to modern military operations. We look forward to seeing the live demonstration of this integrated capability at Eurosatory 2026, where the partners will showcase how sovereign AI can be deployed with measurable impact from HQ to the tactical edge. #DefenceInnovation #SovereignAI #NextWavePartners",
+        "people": "Congratulations to the team at Whitespace on the announcement of their new collaborative initiative for defence and coalition operations. Working alongside partners Mattermost, Arqit, and archTIS, Whitespace is demonstrating how sovereign AI can reduce friction between systems and accelerate mission execution. This project highlights the importance of cross-industry cooperation in building secure, interoperable digital capabilities for the tactical edge. The team will be presenting their work at Eurosatory 2026 from 15–19 June, showcasing how their operational intelligence and mission workflow capabilities integrate within a broader secure ecosystem. It is an excellent example of the technical rigour and collaborative spirit driving the team forward. #SovereignAI #TeamWhitespace #DefenceTech"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
     {
       "id": "a933fc716a7b54ff",
       "company": "Clearway Group",
@@ -314,6 +345,35 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "5e2a34b149cb1976",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Case Study Decision Optimisation for Strategic Command 14 Apr 2026 - 1 min read",
+      "url": "https://www.white.space/insights/decision-optimisation-for-strategic-command",
+      "source": "white.space",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 90,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Contract",
+      "summary": "Whitespace has successfully deployed its Decision Optimisation application for UK Strategic Command, resulting in £69m of verified annual savings across a £7bn spend baseline.",
+      "why_it_matters": "This case study demonstrates the tangible, measurable impact of Sovereign AI in complex, high-stakes defence environments, proving that AI can effectively augment senior decision-making while maintaining human accountability.",
+      "verified_facts": [
+        "Whitespace deployed its Decision Optimisation application within its Sovereign AI platform for UK Strategic Command.",
+        "The implementation resulted in £69m of verified annual savings from a £7bn annual spend baseline."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to see Whitespace’s continued impact in the defence sector. A new case study from UK Strategic Command highlights the deployment of the Whitespace Decision Optimisation application, which has successfully delivered £69m in annual savings against a £7bn spend baseline. By structuring complex decision-making processes and improving traceability, the platform demonstrates how Sovereign AI can be deployed to drive measurable operational efficiency while ensuring that senior leaders retain full authority and accountability. It is a significant milestone in the practical application of AI within critical national infrastructure. #SovereignAI #DefenceTech #Whitespace",
+        "investor": "Whitespace continues to demonstrate the commercial viability of its Sovereign AI platform through high-impact enterprise deployments. A recent engagement with UK Strategic Command has resulted in £69m of verified annual savings, achieved by optimising decision-making across a £7bn portfolio. This project underscores the scalability of the Whitespace model, proving its ability to reduce cognitive load and operational inefficiencies for large-scale organisations. By focusing on human-led, explainable AI, Whitespace is successfully addressing the complex requirements of the defence sector, delivering clear, auditable value to its partners. #AI #EnterpriseTech #NextWavePartners",
+        "people": "Congratulations to the team at Whitespace on their latest work with UK Strategic Command. The successful deployment of their Decision Optimisation application has delivered £69m in annual savings, a testament to the team's focus on building robust, explainable AI tools that solve real-world challenges. By enabling senior decision-makers to navigate complex portfolios with greater transparency and traceability, Whitespace is setting a high standard for how Sovereign AI can be integrated into critical operations. We look forward to seeing the team continue to drive such measurable impact across the sector. #SovereignAI #Innovation #TeamWhitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
       "id": "d72573ae75644108",
       "company": "Whitespace",
       "company_domain": "white.space",
@@ -342,6 +402,129 @@
         "concise": "Whitespace has announced the launch of Project Conexus, a unified targeting operating system designed to enhance interoperability for NATO warfighters. Unveiled at the Oracle Defence Summit in Brussels, the platform aims to bridge the gap between sensing, intelligence, and decision-making by providing a common, cloud-centric foundation. Developed by a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri, Conexus is built on Whitespace’s Collective operating system. By leveraging open standards, the platform is engineered to integrate disparate data sources and applications, allowing commanders to maintain decision advantage in complex, multi-domain environments. This initiative represents a significant step toward creating a more connected and resilient infrastructure for coalition defence operations. #DefenceTech #SovereignAI #Whitespace",
         "investor": "The launch of Project Conexus marks a strategic expansion for Whitespace, demonstrating the scalability of its Collective operating system within the high-stakes defence sector. By leading a consortium that includes industry leaders like Oracle and Esri, Whitespace is positioning its technology as a foundational layer for NATO-aligned alliance operations. The platform addresses a critical market need for interoperability, moving beyond fragmented tools to a unified, evergreen operating environment. This collaborative approach not only accelerates capability delivery but also establishes a repeatable model for integrating third-party applications into a secure, sovereign framework. As the defence community prioritises the speed of the decision cycle, Whitespace’s focus on open-standards architecture provides a clear pathway for long-term integration and operational relevance. #DefenceTech #SovereignAI #Innovation",
         "people": "Congratulations to the team at Whitespace on the successful unveiling of Project Conexus at the Oracle Defence Summit. This project highlights the power of collaborative innovation, bringing together a diverse consortium of partners—including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri—to solve the complex challenge of data integration in modern defence. As Andrew Webber, Chief Partnerships Officer at Whitespace, noted, the initiative was driven by a shared commitment to act on recognised operational needs rather than waiting for formal requirements. By building a common foundation that keeps the commander’s judgement at the centre, the team is making a tangible contribution to the speed and efficacy of coalition decision-making. We look forward to seeing how this open-standards approach continues to evolve. #DefenceTech #Collaboration #Whitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "636b0a4bbc429daf",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging Regulations Ensuring Bottle Compliance with Tethered Cap Regulations 05 Jan, 2026",
+      "url": "https://www.petainer.com/insights/packaging-regulations/tethered-cap-regulations-compliance",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "Petainer has released technical guidance on complying with EU Tethered Cap Regulations, highlighting how their GME 30.40 neck finish allows brands to meet mandates while reducing plastic weight.",
+      "why_it_matters": "The article demonstrates Petainer's ability to turn regulatory compliance into a competitive advantage for their clients by engineering lightweighting solutions that offset the costs of new packaging mandates.",
+      "verified_facts": [
+        "EU Tethered Cap Regulations under the Single-Use Plastics Directive became a legal reality on July 3, 2024.",
+        "Petainer's GME 30.40 neck finish can reduce preform weight by approximately 1.6g per bottle compared to the legacy PCO 1881 standard.",
+        "The GME 30.40 finish is compatible with tethered closure designs and supports high-pressure carbonated beverages."
+      ],
+      "warnings": [
+        "The source material is a company-authored insight piece, which is inherently promotional in nature."
+      ],
+      "drafts": {
+        "concise": "Regulatory shifts in packaging, such as the EU's Tethered Cap mandate, are driving innovation in material efficiency. Petainer has addressed these requirements by optimizing their preform designs, specifically through the GME 30.40 neck finish. By transitioning to this standard, manufacturers can ensure compliance with the Single-Use Plastics Directive while achieving a weight reduction of approximately 1.6g per bottle. This approach demonstrates how technical engineering can mitigate the operational costs associated with new environmental regulations, allowing brands to maintain line efficiency while improving their sustainability profile. #Petainer #PackagingInnovation #Sustainability",
+        "investor": "Petainer continues to leverage technical expertise to support beverage brands navigating complex regulatory environments. With the implementation of the EU's Tethered Cap Regulations, the company has introduced the GME 30.40 neck finish as a solution to maintain compliance while driving material savings. By reducing preform weight by 1.6g per unit, Petainer provides a clear value proposition: offsetting the costs of regulatory compliance through improved supply chain efficiency. This focus on lightweighting and circularity positions the company well as multinational brands seek to harmonize their packaging standards globally. #CircularEconomy #Packaging #Petainer",
+        "people": "The engineering team at Petainer has been focused on solving the technical challenges posed by the EU's Tethered Cap Regulations. By re-engineering neck finishes to accommodate new closure requirements, they have successfully turned a compliance mandate into an opportunity for lightweighting. Their work on the GME 30.40 finish allows for a 1.6g reduction in plastic per bottle, helping clients manage the transition without sacrificing performance or line efficiency. It is a strong example of how technical design can support both environmental goals and operational cost management in the beverage packaging sector. #Engineering #Sustainability #Petainer"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "55dd35b04732b8ef",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Materials & Sustainability How Lightweight Packaging Drives Corporate Carbon Reduction Goals 01 Dec, 2025",
+      "url": "https://www.petainer.com/insights/materials-sustainability/lightweight-packaging-carbon-footprint",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Petainer has published a technical insight piece detailing how lightweight PET packaging serves as a strategic lever for beverage brands to reduce Scope 3 carbon emissions and operational costs.",
+      "why_it_matters": "The article highlights Petainer's role in helping multinational beverage brands meet ESG targets through engineering-led material reduction, demonstrating the company's alignment with circular economy trends and regulatory compliance.",
+      "verified_facts": [
+        "Petainer advocates for lightweighting as a method to reduce Scope 3 emissions in transit.",
+        "Manufacturing a bottle with 20% less plastic reduces the energy intensity of the blow molding process by 20%."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Sustainability remains a critical focus for the beverage industry. Our portfolio company, Petainer, has released new insights on how lightweight PET packaging can drive significant carbon reduction. By reducing material mass, brands can lower fuel consumption during transit and decrease energy intensity during production. For instance, a 20% reduction in plastic usage directly correlates to a 20% decrease in energy required for the blow molding process. This approach not only supports corporate ESG goals but also helps mitigate the financial impact of weight-based legislative penalties. It is a clear example of how engineering efficiency can deliver both environmental and economic value. #Sustainability #PackagingInnovation #Petainer",
+        "investor": "Operational efficiency and ESG performance are increasingly linked. Petainer is demonstrating this through their focus on lightweight PET packaging, which addresses the dual challenge of reducing Scope 3 emissions and managing production costs. The data is compelling: reducing plastic mass by 20% yields a corresponding 20% reduction in energy consumption during the blow molding process. Furthermore, by optimizing pallet efficiency and reducing raw material weight, brands can navigate complex Extended Producer Responsibility (EPR) frameworks more effectively. Petainer’s technical approach provides a scalable solution for beverage manufacturers looking to align their supply chains with long-term carbon reduction targets. #ESG #CircularEconomy #Manufacturing",
+        "people": "At Next Wave Partners, we value the technical expertise that our portfolio companies bring to their respective sectors. Petainer is currently highlighting the critical role of engineering in sustainability, specifically through the science of lightweighting. Their latest analysis shows that reducing plastic mass by 20% can cut energy use in the blow molding process by an equal margin, while simultaneously improving logistics efficiency. This work is essential for helping global beverage brands meet their carbon reduction goals while maintaining structural integrity. It is excellent to see the Petainer team providing the data and insights necessary to drive more sustainable packaging standards across the industry. #Engineering #Sustainability #Petainer"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "7ed97a1f6f0c3e2b",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Team Insights The Anthropic Story Isn't Really About AI 15 Jun 2026 - 3 min read",
+      "url": "https://www.white.space/insights/the-anthropic-story-isnt-really-about-ai",
+      "source": "white.space",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Whitespace has published a commentary on the operational risks of AI dependency, using recent export-control restrictions on major AI models as a case study to advocate for sovereign AI architectures.",
+      "why_it_matters": "The article highlights the growing strategic importance of sovereign AI, positioning Whitespace's approach—which prioritises deployment flexibility across cloud, edge, and on-premise environments—as a necessary solution for organisations requiring operational continuity and control.",
+      "verified_facts": [
+        "Whitespace advocates for sovereign AI to mitigate risks associated with single-point-of-failure dependencies in AI infrastructure.",
+        "The company's architecture supports deployment across cloud, edge, on-premise, and fully disconnected environments."
+      ],
+      "warnings": [
+        "The article is a thought-leadership piece authored by the company, not an independent news report."
+      ],
+      "drafts": {
+        "concise": "Recent shifts in the global AI landscape have highlighted a critical operational reality: capability is not the same as control. In a new piece on the Whitespace blog, the team explores the risks of relying on single-provider AI models and why sovereign AI is becoming an operational necessity for regulated sectors. By enabling deployment across cloud, edge, and disconnected environments, Whitespace provides the flexibility organisations need to maintain control over their critical infrastructure. Understanding these dependencies before they become problems is essential for long-term resilience. Read the full perspective on the importance of sovereign AI and operational continuity on the Whitespace website. #SovereignAI #OperationalResilience #Whitespace",
+        "investor": "As AI moves from pilot projects to core operational infrastructure, the question of control is becoming as significant as capability. Whitespace’s latest insight piece addresses the strategic risks of dependency, arguing that for government and enterprise clients, the ability to maintain operational continuity is paramount. Their approach—prioritising sovereign AI that can be deployed across cloud, edge, or on-premise environments—is designed to mitigate the risks of external service disruption. For organisations managing sensitive workflows, this focus on optionality and control is increasingly a requirement rather than a preference. We continue to support the team as they build robust, sovereign solutions for the modern enterprise. #SovereignAI #EnterpriseTech #NextWavePartners",
+        "people": "The team at Whitespace has shared a timely reflection on the importance of sovereign AI in today's complex geopolitical environment. By examining the risks of over-reliance on external model providers, they highlight why building for resilience is a priority for organisations in defence and regulated sectors. Their commitment to providing flexible, sovereign infrastructure—allowing for deployment across any environment—reflects a deep understanding of the operational challenges their clients face. It is a thoughtful contribution to the ongoing conversation about how we can adopt AI safely while maintaining control over our critical systems. Well done to the team for leading this important discussion. #SovereignAI #TechLeadership #Whitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "3871383c5a7f176a",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Milton Keynes Post Office And Stamp Opening",
+      "url": "https://www.uoe.co.uk/news/milton-keynes-post-office-and-stamp-opening",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "UOE has reopened its Milton Keynes Post Office at its original Midsummer Boulevard location following a fire, while simultaneously launching its third 'Stamp' retail concept store at the site.",
+      "why_it_matters": "The reopening demonstrates UOE's operational resilience and its strategy of integrating essential community services with modern, high-street retail concepts to drive footfall and long-term viability.",
+      "verified_facts": [
+        "The Milton Keynes Post Office has reopened at its original site on Midsummer Boulevard.",
+        "The site now incorporates the third 'Stamp' retail store.",
+        "The branch will operate seven days a week.",
+        "Elliot Jacobs is the CEO of UOE."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that UOE has successfully reopened its Milton Keynes Post Office at its original Midsummer Boulevard location. Following a period of disruption, the branch has returned to its permanent home, now featuring the third 'Stamp' retail store. This integration of essential postal services with UOE’s modern stationery and gift concept offers an enhanced experience for the local community, with extended opening hours seven days a week. It is a positive step forward for the high street and a testament to the team's commitment to restoring vital services for local residents and businesses. #UOE #Retail #MiltonKeynes",
+        "investor": "UOE continues to demonstrate operational resilience and strategic growth with the reopening of its Milton Keynes Post Office. By re-establishing this flagship location, the business has successfully integrated its 'Stamp' retail concept, creating a hybrid model that combines essential services with a modern, high-street stationery and gift offering. CEO Elliot Jacobs noted that this investment is focused on the future of the high street, ensuring the branch remains a destination for the local community. This development highlights UOE’s ability to navigate operational challenges while maintaining a clear focus on scaling its innovative retail footprint. #UOE #RetailStrategy #HighStreet",
+        "people": "Congratulations to the UOE team on the successful reopening of the Milton Keynes Post Office. After months of operating from temporary sites, the team has worked hard to restore this essential service to its original Midsummer Boulevard location. The new site also marks the launch of the third 'Stamp' store, showcasing the company's dedication to revitalising the high street through a thoughtful, modern retail experience. We recognise the effort involved in maintaining service continuity throughout this period and are pleased to see the branch now open seven days a week to serve the local community. #UOE #TeamSuccess #MiltonKeynes"
       },
       "status": "ready",
       "discovered_via": "Company newsroom"
@@ -684,6 +867,38 @@
       "discovered_via": "Official RSS"
     },
     {
+      "id": "1fbddce14a3bd923",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging Technology Designing PET Packaging for Shelf Life Stability 22 Sept, 2025",
+      "url": "https://www.petainer.com/insights/packaging-technology/pet-packaging-shelf-life-stability",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 75,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "Petainer has released a technical insight piece detailing their engineering approach to PET packaging shelf-life stability, specifically addressing gas permeability, UV protection, and the performance of 100% rPET.",
+      "why_it_matters": "The article clarifies technical misconceptions regarding rPET performance and highlights how Petainer’s monolayer-compatible barrier technology supports both product quality and circular economy compliance, which is critical for beverage brands navigating evolving packaging regulations.",
+      "verified_facts": [
+        "Petainer utilizes MOCON-certified testing for barrier integration.",
+        "Petainer's engineering data confirms that 100% rPET provides the same shelf-life stability as virgin PET.",
+        "Petainer's UV-engineered PET blocks up to 99% of light in the 350–400 nm range."
+      ],
+      "warnings": [
+        "The source is a company-authored insight piece, which is inherently promotional in nature."
+      ],
+      "drafts": {
+        "concise": "Shelf-life stability is a critical factor for beverage brands managing complex logistics and regulatory requirements. Our portfolio company, Petainer, has shared new technical insights into their approach to PET packaging, demonstrating how precision barrier integration and monolayer-compatible additives can protect product integrity. Notably, their engineering data confirms that 100% rPET performs identically to virgin PET, offering a viable path for brands to meet sustainability goals without compromising on shelf life. Furthermore, their UV-engineered solutions now provide protection comparable to amber glass, blocking up to 99% of light in the 350–400 nm range. These advancements highlight the role of material science in reducing secondary waste and ensuring compliance with evolving packaging standards. #Petainer #PackagingInnovation #Sustainability",
+        "investor": "Effective packaging is a key lever for risk mitigation and operational efficiency in the beverage sector. Petainer’s latest technical update underscores the commercial value of high-performance PET, focusing on how advanced barrier technology reduces product spoilage and reverse-logistics costs. By validating that 100% rPET maintains the same gas barrier properties as virgin resin, Petainer provides a scalable solution that helps brands navigate Extended Producer Responsibility (EPR) fee structures and plastic taxes. Their ability to integrate active scavengers into monolayer structures without disrupting recycling streams is a significant differentiator, allowing for global distribution while maintaining circular economy credentials. This focus on engineering-led ROI is essential for brands looking to balance sustainability mandates with long-term profitability. #CircularEconomy #PackagingTechnology #Petainer",
+        "people": "The engineering team at Petainer continues to push the boundaries of material science, recently detailing their methodology for achieving shelf-life stability in PET packaging. By focusing on the complex interplay between gas permeability, UV exposure, and container geometry, the team has developed solutions that ensure liquid chemistry remains stable from the filling line to the consumer. Their work on monolayer-compatible barrier technology is particularly noteworthy, as it allows brands to achieve high-performance protection while remaining fully compatible with existing recycling streams. It is encouraging to see our portfolio companies leading the industry in technical rigour and sustainable design, ensuring that packaging remains a tool for both brand protection and environmental responsibility. #Engineering #Innovation #Petainer"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company newsroom"
+    },
+    {
       "id": "91d5e10462ec8405",
       "company": "Whitespace",
       "company_domain": "white.space",
@@ -711,6 +926,69 @@
         "concise": "At the recent SSD Expo in Tallinn, the Whitespace team discussed the evolving role of sovereign AI in the defence sector. Represented by Business Development Manager Monika Mears, the team highlighted how their sovereign AI operating system, Collective, helps organisations move beyond simple information retrieval. By focusing on retaining operational knowledge and connecting context, Whitespace is enabling defence partners to improve decision-making in increasingly complex environments. Collaboration remains a core pillar of this approach, as demonstrated by their joint presence with Fujitsu at the expo. It is clear that the future of defence advantage lies in operationalising AI to ensure long-term resilience and security. #SovereignAI #DefenceTech #Whitespace",
         "investor": "Operationalising AI is becoming a critical strategic advantage for defence organisations, as evidenced by recent discussions at the SSD Expo in Tallinn. Whitespace is addressing this market need through Collective, their sovereign AI operating system designed to capture and preserve organisational knowledge. By enabling secure, governed AI deployment across cloud, edge, and air-gapped environments, the company is providing the flexibility and assurance required for mission-critical operations. Their focus on building scalable, long-term capabilities—supported by their Solutions Engineering adoption model—positions them well to support the growing demand for sovereign technology in the defence and national security sectors. #DefenceInnovation #SovereignAI #NextWavePartners",
         "people": "It was a pleasure to see the Whitespace team engaging with key partners at the SSD Expo in Tallinn this month. Business Development Manager Monika Mears led discussions on the practical application of sovereign AI, emphasising the importance of turning experience into reusable operational knowledge. By working alongside partners like Fujitsu, the team is demonstrating how collaborative ecosystems are essential for accelerating AI adoption while maintaining the rigorous governance required in defence. We are proud to support the team as they continue to build technology that helps organisations learn, adapt, and improve their decision-making processes over time. #TeamWhitespace #SovereignAI #DefenceTech"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "a96cfe9a980e0bde",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging Technology Advances in PET Preform Engineering 18 Jan, 2026",
+      "url": "https://www.petainer.com/insights/packaging-technology/pet-preform-design-engineering",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "Petainer has published a technical overview detailing the engineering advancements in PET preform design, focusing on lightweighting, material distribution, and the integration of recycled content (rPET).",
+      "why_it_matters": "The article highlights Petainer's technical expertise in sustainable packaging, demonstrating how precise preform engineering supports beverage brands in meeting sustainability targets, complying with tethered cap regulations, and optimizing supply chain logistics.",
+      "verified_facts": [
+        "Petainer is utilizing finite element analysis (FEA) to optimize PET preform design.",
+        "The engineering focus includes neck finish optimization, such as the GME 30.40 standard, and adapting preforms for rPET usage."
+      ],
+      "warnings": [
+        "The source material is a technical insight piece from the company's own website rather than a third-party news report."
+      ],
+      "drafts": {
+        "concise": "At Petainer, the foundation of high-performance packaging begins with the preform. Our latest technical insight explores how advanced engineering—including finite element analysis and precision material distribution—is driving the future of PET packaging. By optimizing designs, such as transitioning to ultra-short neck finishes like the GME 30.40, we are helping beverage brands reduce plastic weight while maintaining structural integrity. These engineering advancements are critical for brands navigating tethered cap regulations and increasing their use of recycled content. Discover how precise preform design is enabling more sustainable and efficient supply chains. #Petainer #SustainablePackaging #PETEngineering",
+        "investor": "Sustainable packaging requires a rigorous approach to material science. Petainer is leveraging advanced finite element analysis (FEA) to refine preform engineering, directly impacting raw material costs and container performance. By meticulously optimizing material distribution and adapting designs for recycled content (rPET), the company is providing beverage brands with the tools to meet aggressive sustainability targets and mitigate plastic taxes. Furthermore, the logistical shift toward on-site blowing of intelligently designed preforms offers a significant opportunity for brands to reduce inbound freight costs. This technical leadership underscores Petainer's commitment to operational efficiency and circular economy principles. #PackagingInnovation #CircularEconomy #Petainer",
+        "people": "Behind every high-performance PET bottle or keg is a team of engineers focused on the science of the preform. Our latest insight piece highlights the technical expertise required to balance strength, barrier performance, and sustainability. From mapping polymer flow to optimizing neck finishes for tethered cap compliance, our engineering team is at the forefront of PET innovation. By shaving fractions of a millimeter from specific zones, we are helping our partners achieve significant lightweighting goals without compromising quality. We are proud of the technical rigour our team applies to every project, ensuring that sustainability and performance go hand-in-hand. #EngineeringExcellence #Petainer #SustainableDesign"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "c94b6a8f5cb45a51",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging Regulations Technical Standards for FDA Compliance Beverage Packaging 30 Oct, 2025",
+      "url": "https://www.petainer.com/insights/packaging-regulations/fda-compliance-pet-beverage-packaging",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T15:38:10.193436+00:00",
+      "first_seen": "2026-07-28T15:38:10.193436+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Petainer has released a technical guide detailing the rigorous FDA compliance standards required for PET beverage packaging in the US market, focusing on food contact substances, migration testing, and the use of LNO-approved rPET.",
+      "why_it_matters": "Navigating US regulatory requirements is a critical barrier to entry for beverage brands. Petainer’s focus on technical compliance and supply chain transparency provides a competitive advantage for their clients looking to scale safely in the North American market.",
+      "verified_facts": [
+        "Petainer ensures PET materials meet FDA Food Contact Notifications (FCN) or Letters of No Objection (LNO).",
+        "The company performs batch testing on resins and additives to prevent chemical migration and ensure compliance with FDA 21 CFR standards.",
+        "Petainer only sources rPET from suppliers with valid LNOs to ensure food safety standards are maintained."
+      ],
+      "warnings": [
+        "The source material is a technical insight piece from the company's own website rather than a third-party news report."
+      ],
+      "drafts": {
+        "concise": "Navigating the US regulatory landscape is essential for beverage brands looking to scale. Petainer has published a comprehensive overview of the technical standards required for FDA-compliant PET packaging. By prioritising rigorous batch testing and ensuring all materials—including rPET—possess the necessary Letters of No Objection (LNO) or Food Contact Notifications (FCN), Petainer provides the engineering foundation brands need to de-risk their supply chains. Understanding the complexities of chemical migration and thermal stability is key to maintaining both consumer safety and brand reputation in the US market. Read the full technical breakdown on the Petainer website. #Petainer #PackagingInnovation #FDACompliance",
+        "investor": "Regulatory compliance is a critical value driver for beverage packaging manufacturers operating in the US. Petainer is reinforcing its market position by providing technical expertise on FDA standards, ensuring their PET solutions meet stringent requirements for food contact substances. By integrating LNO-backed rPET and FCN-approved barriers into their supply chain, the company is effectively de-risking the market entry process for their clients. This commitment to technical rigour and quality control is essential for long-term stability and growth in the competitive North American beverage sector. #Petainer #SustainablePackaging #Investment",
+        "people": "The Petainer engineering team continues to set the standard for technical excellence in PET packaging. Their latest insight piece highlights the rigorous processes required to meet FDA compliance, from batch-testing resins to verifying the efficacy of recycled content. By focusing on the science of chemical migration and material purity, the team ensures that Petainer’s partners can scale their operations with confidence. It is this commitment to technical oversight and supply chain integrity that enables Petainer to support brands in navigating complex regulatory environments. Well done to the team for providing such valuable guidance to the industry. #Petainer #Engineering #FoodSafety"
       },
       "status": "needs_review",
       "discovered_via": "Company newsroom"
@@ -1393,15 +1671,14 @@
     "companies_with_stories": 6,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 118,
-    "llm_requests_succeeded": 118,
+    "providers_succeeded": 89,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 105,
+    "llm_requests_succeeded": 105,
     "dropped_no_valid_date": 0,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 25,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 0,
-    "carried_forward": 0
-  },
-  "archive_story_count": 0
+    "carried_forward": 17
+  }
 }
