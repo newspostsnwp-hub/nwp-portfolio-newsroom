@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T15:38:10.193436+00:00",
-  "digest_intro": "Good morning, today's briefing covers 20 updates across our portfolio companies—including Clearway Group's appointment of Christian Baumbach as Managing Director of Secontec—alongside 8 relevant sector items.",
+  "generated_at": "2026-07-28T16:06:47.092357+00:00",
+  "digest_intro": "Good morning; today's briefing covers 22 portfolio updates and 10 sector items, led by the appointment of Christian Baumbach as Managing Director of Secontec at Clearway Group.",
   "archive_story_count": 0,
   "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
   "companies": [
@@ -105,7 +105,7 @@
       "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
-      "story_count": 10,
+      "story_count": 11,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -124,7 +124,7 @@
       "description": "UK sovereign AI company behind Collective / CollectiveOS.",
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
-      "story_count": 8,
+      "story_count": 10,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -143,7 +143,7 @@
       "description": "UK independent stationery and Post Office retail chain.",
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
-      "story_count": 4,
+      "story_count": 7,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 26,
-  "todays_story_count": 26,
+  "story_count": 32,
+  "todays_story_count": 32,
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -402,6 +402,131 @@
         "concise": "Whitespace has announced the launch of Project Conexus, a unified targeting operating system designed to enhance interoperability for NATO warfighters. Unveiled at the Oracle Defence Summit in Brussels, the platform aims to bridge the gap between sensing, intelligence, and decision-making by providing a common, cloud-centric foundation. Developed by a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri, Conexus is built on Whitespace’s Collective operating system. By leveraging open standards, the platform is engineered to integrate disparate data sources and applications, allowing commanders to maintain decision advantage in complex, multi-domain environments. This initiative represents a significant step toward creating a more connected and resilient infrastructure for coalition defence operations. #DefenceTech #SovereignAI #Whitespace",
         "investor": "The launch of Project Conexus marks a strategic expansion for Whitespace, demonstrating the scalability of its Collective operating system within the high-stakes defence sector. By leading a consortium that includes industry leaders like Oracle and Esri, Whitespace is positioning its technology as a foundational layer for NATO-aligned alliance operations. The platform addresses a critical market need for interoperability, moving beyond fragmented tools to a unified, evergreen operating environment. This collaborative approach not only accelerates capability delivery but also establishes a repeatable model for integrating third-party applications into a secure, sovereign framework. As the defence community prioritises the speed of the decision cycle, Whitespace’s focus on open-standards architecture provides a clear pathway for long-term integration and operational relevance. #DefenceTech #SovereignAI #Innovation",
         "people": "Congratulations to the team at Whitespace on the successful unveiling of Project Conexus at the Oracle Defence Summit. This project highlights the power of collaborative innovation, bringing together a diverse consortium of partners—including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri—to solve the complex challenge of data integration in modern defence. As Andrew Webber, Chief Partnerships Officer at Whitespace, noted, the initiative was driven by a shared commitment to act on recognised operational needs rather than waiting for formal requirements. By building a common foundation that keeps the commander’s judgement at the centre, the team is making a tangible contribution to the speed and efficacy of coalition decision-making. We look forward to seeing how this open-standards approach continues to evolve. #DefenceTech #Collaboration #Whitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "c7a9bbd32e512c63",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Events & Briefings Why Continuous Learning Is Becoming a Strategic Defence Capability 25 Jun 2026 - 2 min read",
+      "url": "https://www.white.space/insights/why-continuous-learning-is-becoming-a-strategic-defence-capability",
+      "source": "white.space",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Whitespace participated in the NATO–Ukraine Defence Procurement Innovation & Industry Event, where European Business Development Director Monika Mears presented the company's Operational Learning capability.",
+      "why_it_matters": "The event highlights Whitespace's role in the defence sector, specifically how its sovereign AI operating system, Collective, can be applied to help defence organisations capture and disseminate operational knowledge at scale.",
+      "verified_facts": [
+        "Whitespace was one of 23 organisations selected from over 100 applicants to participate in the NATO–Ukraine Defence Procurement Innovation & Industry Event.",
+        "Monika Mears, European Business Development Director at Whitespace, presented the company's Operational Learning capability."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to see Whitespace contributing to critical discussions on the future of defence innovation. Representing the team at the recent NATO–Ukraine Defence Procurement Innovation & Industry Event, European Business Development Director Monika Mears showcased how Whitespace’s Operational Learning capability uses sovereign AI to help organisations capture and apply institutional knowledge. Being selected as one of just 23 organisations from over 100 applicants underscores the relevance of their work in addressing complex operational challenges. It is a significant step in demonstrating how AI can move beyond simple automation to become a continuous operational capability for modern defence. #SovereignAI #DefenceInnovation #Whitespace",
+        "investor": "Operational readiness is increasingly defined by an organisation's ability to learn and adapt at speed. Whitespace’s recent participation in the NATO–Ukraine Defence Procurement Innovation & Industry Event highlights the commercial and strategic value of their sovereign AI operating system, Collective. By enabling organisations to capture, analyse, and disseminate lessons at scale, Whitespace is addressing a critical gap in the defence market. Their selection for this event, from a competitive field of over 100 applicants, reflects the growing demand for AI solutions that provide measurable, long-term operational impact. We look forward to seeing how they continue to scale these capabilities across the sector. #SovereignAI #DefenceTech #NextWavePartners",
+        "people": "Congratulations to Monika Mears, European Business Development Director at Whitespace, for representing the company at the NATO–Ukraine Defence Procurement Innovation & Industry Event in Luxembourg. Monika presented the firm's Operational Learning capability, demonstrating how AI can help defence organisations preserve institutional knowledge and improve decision-making. Whitespace was one of only 23 organisations chosen to participate from a pool of over 100 applicants, a testament to the expertise and innovation the team brings to the defence sector. It is excellent to see the team engaging with international leaders to address the most demanding operational environments in the world. #DefenceInnovation #SovereignAI #TeamWhitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "d41cac35d8b3f635",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Sovereign AI Sovereign AI Isn't About Building Walls: It's About Holding the Keys 23 Jun 2026 - 4 min read",
+      "url": "https://www.white.space/insights/sovereign-ai-isnt-about-building-walls-its-about-holding-the-keys",
+      "source": "white.space",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Whitespace has published a strategic perspective on the implementation of Sovereign AI, arguing that true sovereignty is defined by control and agency rather than isolationism.",
+      "why_it_matters": "The article clarifies the firm's operational philosophy, distinguishing between necessary national control over sensitive data layers and the pragmatic use of global infrastructure, which is critical for their work in defence and regulated sectors.",
+      "verified_facts": [
+        "Whitespace advocates for a model where sensitive layers, operating systems, and mission-critical applications remain under national control.",
+        "The firm argues that sovereignty is defined by three questions: where data lives, who can access it, and who retains the decision-making power to share it."
+      ],
+      "warnings": [
+        "The article is a thought-leadership piece written by a member of the Whitespace commercial strategy team, rather than a third-party news report."
+      ],
+      "drafts": {
+        "concise": "Sovereign AI is often misunderstood as a need to build everything in isolation. In their latest insight piece, the team at Whitespace argues that true sovereignty is about maintaining control over the 'keys'—the sensitive data layers, operating systems, and mission-critical applications—while still leveraging global infrastructure and engineering talent where appropriate. For organisations in defence and regulated sectors, the focus should be on ensuring data residency and operational agency. By holding the encryption keys and maintaining control over access, organisations can achieve the security required for sensitive workloads without sacrificing the benefits of modern, interconnected systems. Read the full perspective on the Whitespace website. #SovereignAI #DefenceTech #NextWavePartners",
+        "investor": "As the demand for secure, sovereign AI grows, clarity on deployment models is essential for enterprise and government adoption. Whitespace has outlined a pragmatic framework for Sovereign AI that balances national security requirements with the practicalities of global technology ecosystems. By advocating for a model where critical data and operating systems remain under domestic control while allowing for interoperability, Whitespace is positioning itself to address the specific compliance and risk-management needs of the defence and national security sectors. This approach enables organisations to trust AI systems for sensitive workloads, a key factor in the long-term scalability of sovereign technology platforms. #AI #SovereignAI #EnterpriseTech",
+        "people": "What does 'sovereign' really mean in the context of AI? The team at Whitespace has shared a thoughtful analysis on how to build systems that are secure enough for defence and national security, yet flexible enough to remain effective. Their approach emphasises that sovereignty is not about building walls, but about ensuring that cleared nationals retain control over the most critical layers of the stack. It is a compelling look at how to balance the responsibility to share information with the need to maintain strict operational security. We are pleased to see our partners at Whitespace contributing such clear, actionable expertise to the ongoing debate around national security and AI. #Whitespace #SovereignAI #NationalSecurity"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "fa63c83f34bbeaa9",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Thame High Street to Host 2nd Store from Innovative New High Street Retailer, Stamp",
+      "url": "https://www.uoe.co.uk/news/thame-high-street-to-host-2nd-store-from-innovative-new-high-street-retailer-stamp",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "UOE is expanding its retail footprint with the launch of a second 'Stamp' store in Thame, Oxfordshire, scheduled for April 2026.",
+      "why_it_matters": "The expansion demonstrates UOE's commitment to physical high street retail, leveraging its established operational model to revitalise local community spaces.",
+      "verified_facts": [
+        "Stamp is a retail concept under the UOE group.",
+        "The new store is located at 11 High St, Thame OX9 2BZ.",
+        "The store is scheduled to open on 16th April 2026.",
+        "The site will include a community space for events and workshops."
+      ],
+      "warnings": [
+        "The source material is a press release from the company's own newsroom."
+      ],
+      "drafts": {
+        "concise": "We are pleased to see UOE continue its retail expansion with the launch of its second 'Stamp' store. Located on Thame High Street, the new site is set to open on 16th April 2026. This development builds on UOE’s established model of combining stationery and gifting retail with community-focused services. The new location will also feature a dedicated upstairs space for local events and workshops, reflecting the company's ongoing investment in the high street. Congratulations to the UOE team on this latest milestone. #UOE #Retail #Thame",
+        "investor": "UOE continues to demonstrate the viability of its independent retail model with the announcement of a second 'Stamp' store in Thame. By investing in high-quality physical locations and integrating community-centric services, UOE is executing a clear growth strategy that prioritises local engagement and operational excellence. The new store, opening 16th April 2026, will feature a versatile community space, further diversifying the revenue potential of the site. This expansion highlights the group's ability to scale its proven retail expertise while maintaining a strong connection to the local market. #Investment #RetailGrowth #UOE",
+        "people": "It is excellent to see the UOE team bringing their 'Stamp' retail concept to Thame. A key part of this expansion is the preservation of the existing retail team at the Glynswood location, ensuring that local expertise and community relationships remain at the heart of the business. CEO Elliot Jacobs has emphasised the importance of investing in the high street to support local connections, and this new store will provide a dedicated space for workshops and artist collaborations. We look forward to seeing the positive impact this team will have on the Thame community when the doors open in April 2026. #Community #Retail #TeamUOE"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom"
+    },
+    {
+      "id": "e80cf391f900e410",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Why Post Office Banking Hubs Matter More Than Ever",
+      "url": "https://www.uoe.co.uk/news/why-post-office-banking-hubs-matter-more-than-ever",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "UOE has launched its first purpose-built Banking Hub in Ware, Hertfordshire, addressing the decline in high street bank branches and providing essential face-to-face financial services to the local community.",
+      "why_it_matters": "The initiative highlights UOE's role in maintaining vital infrastructure for personal and business customers, demonstrating how independent retail can adapt to fill gaps in essential service provision.",
+      "verified_facts": [
+        "UOE opened its first purpose-built Banking Hub in Ware in March.",
+        "The Ware Banking Hub operates 5 days a week.",
+        "Nearly 7,000 bank and building society branches have closed on UK high streets since 2015."
+      ],
+      "warnings": [
+        "The article mentions anecdotal evidence regarding the impact on local footfall, which is not a verified financial metric."
+      ],
+      "drafts": {
+        "concise": "UOE continues to play a vital role in supporting local communities by addressing the decline of high street banking. In March, the company launched its first purpose-built Banking Hub in Ware, Hertfordshire. This facility provides a shared space for personal and business customers to access everyday banking services and meet with community bankers from major institutions. With nearly 7,000 bank branches closing across the UK since 2015, UOE’s commitment to maintaining face-to-face financial access is a significant development for the high street. By integrating these services into their retail footprint, UOE is helping to ensure that essential banking remains available to those who rely on physical branches. #UOE #BankingHubs #HighStreetRetail",
+        "investor": "UOE is demonstrating the strategic value of its retail network by evolving its service model to meet changing community needs. Following the launch of its first purpose-built Banking Hub in Ware this March, the company is effectively positioning itself as a critical provider of essential financial services. This initiative addresses the significant gap left by the closure of nearly 7,000 bank branches since 2015, creating a sustainable model that drives footfall while providing necessary infrastructure for personal and business banking. By leveraging its existing footprint to offer both standard Post Office services and dedicated banking facilities, UOE is strengthening its role as a key service hub for local economies. #UOE #RetailStrategy #CommunityBanking",
+        "people": "At UOE, the team is working hard to ensure that local communities retain access to essential services. We are pleased to see the successful launch of the first purpose-built UOE Banking Hub in Ware, which opened its doors this March. This initiative is a direct response to the challenges posed by the widespread closure of bank branches, providing a dedicated space for customers to manage their finances and consult with community bankers in person. It is a great example of how the UOE team is adapting its retail operations to support the needs of local residents and small businesses, ensuring that vital services remain accessible to everyone. #UOE #CommunitySupport #HighStreet"
       },
       "status": "ready",
       "discovered_via": "Company newsroom"
@@ -867,6 +992,38 @@
       "discovered_via": "Official RSS"
     },
     {
+      "id": "d7aee82d29ae8559",
+      "company": "Petainer",
+      "company_domain": "petainer.com",
+      "industry": "PET and beverage packaging",
+      "title": "Logistics & Costs The Hidden Costs of Reverse Logistics in Returnable Packaging 18 Aug, 2025",
+      "url": "https://www.petainer.com/insights/logistics-costs/reverse-logistics-costs-returnable-packaging",
+      "source": "petainer.com",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 75,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Petainer has published a technical analysis regarding the hidden costs of reverse logistics in returnable packaging, highlighting the operational and financial complexities beverage producers face when managing returnable fleets.",
+      "why_it_matters": "The article demonstrates Petainer's expertise in packaging lifecycle management and their ability to provide strategic guidance to clients balancing sustainability goals with operational efficiency and total cost of ownership.",
+      "verified_facts": [
+        "Petainer notes that returnable steel kegs can weigh approximately 10kg empty, compared to roughly 1kg for one-way PET kegs.",
+        "The company identifies that transport distances exceeding 150-200km often render reverse logistics for returnable systems less financially viable.",
+        "Petainer advocates for a hybrid packaging strategy to optimize sustainability and profit margins."
+      ],
+      "warnings": [
+        "The source is a company-authored insight piece rather than an independent news report."
+      ],
+      "drafts": {
+        "concise": "Understanding the total cost of ownership is critical for beverage producers navigating sustainable packaging transitions. Our portfolio company, Petainer, has released a new analysis examining the complexities of reverse logistics in returnable systems. The report highlights how factors such as freight inefficiency, asset shrinkage, and sterilization costs impact the financial viability of returnable fleets. By comparing the operational demands of steel kegs—which can weigh 10kg empty—against one-way PET alternatives, Petainer provides a framework for brands to optimize their supply chains. A hybrid approach, utilizing returnable PET for local loops and one-way packaging for broader distribution, remains a key strategy for balancing environmental impact with commercial performance. #Petainer #PackagingInnovation #Sustainability",
+        "investor": "Operational efficiency remains a key driver of value in the beverage packaging sector. Petainer’s latest industry insight highlights the hidden costs associated with returnable packaging, specifically the 'empty trip' logistics that can decouple revenue from transport. With returnable steel kegs weighing significantly more than one-way PET alternatives, the logistical burden of reverse supply chains can erode margins if not managed correctly. Petainer’s analysis offers a strategic roadmap for producers to evaluate the geographic radius of their distribution, suggesting that distances beyond 200km often necessitate a shift toward one-way PET to protect the bottom line. This focus on data-driven packaging solutions underscores Petainer’s role as a technical partner for brands scaling their operations sustainably. #CircularEconomy #SupplyChain #Petainer",
+        "people": "The engineering team at Petainer continues to provide essential technical leadership in the transition toward circular packaging models. Their recent analysis of reverse logistics offers a nuanced look at the operational pillars of fleet management, from asset tracking to the energy-intensive requirements of industrial cleaning. By quantifying the impact of weight and distance on the total cost of ownership, the team is helping beverage producers make informed decisions that align environmental stewardship with commercial reality. This expertise in both refPET and one-way PET solutions allows Petainer to support brands in building resilient, efficient supply chains that adapt to the complexities of modern distribution. #Engineering #PackagingSolutions #Petainer"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company newsroom"
+    },
+    {
       "id": "1fbddce14a3bd923",
       "company": "Petainer",
       "company_domain": "petainer.com",
@@ -1028,6 +1185,37 @@
       "discovered_via": "Official RSS"
     },
     {
+      "id": "926f92f665da4304",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Study Season Starts Now! Revision Techniques That Actually Work",
+      "url": "https://www.uoe.co.uk/news/study-season-starts-now-revision-techniques-that-actually-work",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-28T16:06:47.092357+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 45,
+      "tier": "low",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "UOE has published a guide on evidence-based revision techniques, highlighting how specific stationery tools can support effective study habits.",
+      "why_it_matters": "This content demonstrates UOE's commitment to providing value-added advice to their retail customer base, reinforcing their position as a destination for educational and office supplies.",
+      "verified_facts": [
+        "UOE published a guide on revision techniques including spacing, self-testing, and active recall.",
+        "The guide recommends specific stationery items such as index cards, sticky notes, sketchbooks, and study planner pads to facilitate these techniques."
+      ],
+      "warnings": [
+        "The source material is a marketing blog post rather than a significant corporate development or financial update."
+      ],
+      "drafts": {
+        "concise": "As exam season approaches, our portfolio company UOE has shared a practical guide on evidence-based revision techniques. The article explores how methods like spaced repetition and active recall can improve memory retention, while highlighting the role of essential stationery tools—such as index cards, mind-mapping sketchbooks, and study planners—in supporting these habits. By offering expert advice alongside their product range, UOE continues to support students and learners in their academic preparation. #UOE #Education #Stationery",
+        "investor": "UOE continues to leverage its retail expertise to drive customer engagement through content-led marketing. Their latest initiative provides students with science-backed revision strategies, effectively positioning their stationery range as an essential component of academic success. By focusing on the practical application of their products—from fine-liners for mind-mapping to structured study planners—UOE strengthens its brand authority within the UK retail stationery and Post Office sector. This approach demonstrates a clear understanding of their core demographic's seasonal needs. #Retail #UOE #Growth",
+        "people": "Supporting students during the busy exam season, the team at UOE has curated a helpful guide on how to study smarter. The piece breaks down complex memory science into actionable steps, demonstrating how the right tools—like flashcards, notebooks, and planners—can make a tangible difference in revision efficiency. It is great to see the UOE team providing such practical value to their customers, helping them stay organised and prepared as they head into their assessments. #UOE #StudyTips #Retail"
+      },
+      "status": "needs_review",
+      "discovered_via": "Company newsroom"
+    },
+    {
       "id": "a477deb537f2e796",
       "company": "The Delivery Group",
       "company_domain": "thedeliverygroup.co.uk",
@@ -1147,6 +1335,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c41548d36629bdb2",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Embedding protective security in the design process in a market town",
+      "url": "https://securityjournaluk.com/protective-security-design-safecrowds-group/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-07-27T07:38:00+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "summary": "Safecrowds Group conducted a Threat, Vulnerability and Risk Assessment for a market town regeneration project, integrating hostile vehicle mitigation measures into the early design phase.",
+      "angle": "Highlights the growing industry trend of integrating protective security and counter-terrorism measures into public realm urban design.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8e44f5b172258a08",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -1158,20 +1360,6 @@
       "score": 85,
       "summary": "UK retail crime has reached record levels, with 516,971 shoplifting offences recorded in 2024, driven by organised criminal networks and increasing violence against staff.",
       "angle": "Highlights growing demand for intelligence-led, multi-layered security solutions to combat systemic retail theft and supply chain vulnerabilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "98ce2f13e9808c83",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "The user-centric future of counter-drone defence",
-      "url": "https://securityjournaluk.com/user-centric-future-of-counter-drone-defence/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-24T06:30:00+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "The article highlights the growing need for intuitive, user-centric counter-drone technology to address security threats at public venues and critical infrastructure under tightening UK regulatory pressures.",
-      "angle": "Highlights increasing demand for accessible, non-specialist drone security solutions driven by Martyn's Law and evolving public safety requirements.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1273,6 +1461,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a4dfc4f13b068027",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Ardagh Metal Packaging ( AMBP ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/24/ardagh-metal-packaging-ambp-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "published_at": "2026-07-24T07:30:00+00:00",
+      "first_seen": "2026-07-28T16:06:47.092357+00:00",
+      "score": 85,
+      "summary": "Ardagh Metal Packaging reported strong European demand for aluminum cans, while North American volumes declined due to contract resets and ongoing inflationary pressures on freight and materials.",
+      "angle": "Highlights competitive substrate shifts and inflationary headwinds impacting the broader beverage packaging market.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "3ef098f8a3591961",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -1312,20 +1514,6 @@
       "score": 75,
       "summary": "BuzzBallz removed misleading UK website claims regarding recyclability after reports confirmed their PET and aluminium containers are currently unrecyclable in UK kerbside facilities.",
       "angle": "Highlights increasing regulatory and public scrutiny regarding the recyclability of complex, multi-material PET packaging formats.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6ac85725923ca552",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Mary Creagh ‘no longer in Defra circular economy minister role’",
-      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/mary-creagh-no-longer-in-defra-circular-economy-minister-role-24-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-24T10:12:16+00:00",
-      "first_seen": "2026-07-26T10:16:58.331640+00:00",
-      "score": 75,
-      "summary": "Mary Creagh has stepped down as the Defra minister responsible for circular economy policy, with her successor's specific responsibilities yet to be confirmed by the department.",
-      "angle": "Ministerial changes create uncertainty regarding the implementation timeline for packaging EPR, simpler recycling reforms, and upcoming DRS schemes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1672,13 +1860,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 89,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 105,
-    "llm_requests_succeeded": 105,
+    "queued_candidates": 122,
+    "llm_requests_attempted": 99,
+    "llm_requests_succeeded": 99,
     "dropped_no_valid_date": 0,
-    "dropped_thin_page": 25,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 0,
-    "carried_forward": 17
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 5,
+    "carried_forward": 26
   }
 }
