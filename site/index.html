@@ -342,24 +342,25 @@
   .pulse-title{font-family:var(--sans);color:var(--faint);font-size:10.5px;letter-spacing:1.4px;
                text-transform:uppercase;margin-bottom:2px;font-weight:700;}
 
-  /* ---------------- masonry story columns, condensed ---------------- */
-  /* Dashed rules between stories rather than solid - the separator a printed
-     paper uses, and lighter on the eye across a dense grid. */
-  .storygrid{column-count:2;column-gap:0;column-rule:1px dashed var(--line);
-             border-top:1px solid var(--line);background:var(--panel);}
-  /* One story would otherwise sit in a half-width column with the other half
-     blank; give it the full width and cap the measure so lines stay readable. */
-  .storygrid.single{column-count:1;}
-  .storygrid.single .summary,.storygrid.single .headline{max-width:74ch;}
-  .storygrid .story{break-inside:avoid;-webkit-column-break-inside:avoid;
-                    border-bottom:1px dashed var(--line);}
-  /* The splash: the strongest, freshest story in a company block runs across
-     both columns and is set larger, so each section has a clear entry point
-     instead of a wall of equal-weight headlines. */
-  .storygrid .story.story-lead{column-span:all;border-bottom:1px solid var(--line);}
+  /* ---------------- story column ---------------- */
+  /* A single centred column rather than two.
+     Two columns left a blank half-column whenever a block held an odd number
+     of stories, and the count changes every time the low-confidence toggle
+     opens or closes - so no count-based fix could be right in both states.
+     One column cannot produce the gap at all, and it centres the reading
+     measure instead of running it the full width of the display. */
+  .storygrid{max-width:900px;margin:0 auto;
+             border-top:1px solid var(--line);border-left:1px solid var(--line-soft);
+             border-right:1px solid var(--line-soft);background:var(--panel);}
+  .storygrid .story{border-bottom:1px dashed var(--line);}
+  .storygrid .story:last-child{border-bottom:0;}
+  /* The splash: the strongest, freshest story in a company block is set larger,
+     so each section has a clear entry point rather than a wall of equal-weight
+     headlines. */
+  .storygrid .story.story-lead{border-bottom:1px solid var(--line);}
   .storygrid .story.story-lead .headline{font-size:31px;line-height:1.18;
-    max-width:26ch;margin-bottom:8px;}
-  .storygrid .story.story-lead .summary{font-size:18px;line-height:1.5;max-width:62ch;}
+    max-width:24ch;margin-bottom:8px;}
+  .storygrid .story.story-lead .summary{font-size:18px;line-height:1.5;}
   .storygrid .story.story-lead .kicker{font-size:10.5px;}
   .storygrid .matters,.storygrid .facts{display:none;}
   /* Only collapsed where a toggle exists to reopen it - a small block shows
@@ -404,7 +405,7 @@
   .facts{margin:0 0 11px;padding-left:18px;color:var(--dim);font-family:var(--serif);font-size:15px;}
   .warn{border-left:3px solid var(--red);padding-left:12px;color:var(--red);font-size:13.5px;margin:0 0 11px;}
   .rowlinks{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px;}
-  .lowtoggle{display:block;column-span:all;width:100%;background:var(--panel-2);border:0;
+  .lowtoggle{display:block;width:100%;background:var(--panel-2);border:0;
     border-top:1px solid var(--line-soft);color:var(--blue-lt);font-family:var(--sans);font-size:11px;
     letter-spacing:.6px;text-transform:uppercase;font-weight:700;padding:var(--sp-3);text-align:center;}
   .lowtoggle:hover{color:var(--blue);background:var(--panel-3);}
@@ -541,7 +542,6 @@
     .studio-list{border-right:0;border-bottom:1px solid var(--line);max-height:280px;}
   }
   @media (max-width:820px){
-    .storygrid{column-count:1;}
     .sect{grid-template-columns:1fr;justify-items:center;}
     .sect-mid{grid-column:1;}
     .sect .right{grid-column:1;justify-self:center;justify-content:center;margin-top:6px;}
@@ -1066,8 +1066,7 @@
       var lowCount = sorted.filter(function (s) { return s.tier === "low"; }).length;
       var collapse = lowCount > 0 && sorted.length >= LOW_TOGGLE_MIN;
       var gridId = "sg" + (carouselSeq++);
-      html += '<div class="storygrid' + (collapse ? " has-low" : "") +
-        (sorted.length === 1 ? " single" : "") + '" id="' + gridId + '">' +
+      html += '<div class="storygrid' + (collapse ? " has-low" : "") + '" id="' + gridId + '">' +
         // sortByTier puts the strongest first, so index 0 is the splash. Only
         // worth doing where there is something for it to lead.
         sorted.map(function (s, i) {
