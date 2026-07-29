@@ -81,6 +81,10 @@
     overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;}
 
   /* ---------------- masthead (black bar, thicker caps) ---------------- */
+  /* Dateline above the masthead, as a printed paper carries it. */
+  .dateline{background:var(--panel);color:var(--faint);font-family:var(--sans);
+    font-size:11px;letter-spacing:1.5px;text-transform:uppercase;text-align:center;
+    padding:7px 12px;border-bottom:1px solid var(--line-soft);}
   .masthead{background:var(--bar);padding:0 18px;}
   .masthead-row{display:flex;align-items:center;gap:14px;height:112px;}
   .wordmark{font-family:var(--sans);font-weight:800;letter-spacing:.2px;font-size:40px;
@@ -142,10 +146,21 @@
   }
 
   /* ---------------- primary nav ---------------- */
+  /* Sticks to the top so the sections stay reachable down a long feed - the
+     masthead scrolls away and used to take all navigation with it. */
   .nav{display:flex;flex-wrap:nowrap;justify-content:center;align-items:stretch;background:var(--panel);
        border-bottom:2px solid var(--ink);padding:0 12px;
+       position:sticky;top:0;z-index:50;
        overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;
        scrollbar-width:none;-ms-overflow-style:none;}
+  /* A condensed wordmark that only appears once the real masthead is gone. */
+  .nav-mark{position:absolute;left:14px;top:50%;transform:translateY(-50%);
+    font-family:var(--serif);font-size:15px;font-weight:700;color:var(--ink);
+    white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .16s ease;}
+  .nav-mark b{color:var(--blue-lt);font-weight:700;}
+  body.scrolled .nav-mark{opacity:1;}
+  @media (max-width:1100px){ .nav-mark{display:none;} }
+  @media (prefers-reduced-motion:reduce){ .nav-mark{transition:none;} }
   .nav::-webkit-scrollbar{display:none;height:0;}
   .nav button{
     background:transparent;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;
@@ -329,14 +344,24 @@
                text-transform:uppercase;margin-bottom:2px;font-weight:700;}
 
   /* ---------------- masonry story columns, condensed ---------------- */
-  .storygrid{column-count:2;column-gap:0;column-rule:1px solid var(--line-soft);
+  /* Dashed rules between stories rather than solid - the separator a printed
+     paper uses, and lighter on the eye across a dense grid. */
+  .storygrid{column-count:2;column-gap:0;column-rule:1px dashed var(--line);
              border-top:1px solid var(--line);background:var(--panel);}
   /* One story would otherwise sit in a half-width column with the other half
      blank; give it the full width and cap the measure so lines stay readable. */
   .storygrid.single{column-count:1;}
   .storygrid.single .summary,.storygrid.single .headline{max-width:74ch;}
   .storygrid .story{break-inside:avoid;-webkit-column-break-inside:avoid;
-                    border-bottom:1px solid var(--line-soft);}
+                    border-bottom:1px dashed var(--line);}
+  /* The splash: the strongest, freshest story in a company block runs across
+     both columns and is set larger, so each section has a clear entry point
+     instead of a wall of equal-weight headlines. */
+  .storygrid .story.story-lead{column-span:all;border-bottom:1px solid var(--line);}
+  .storygrid .story.story-lead .headline{font-size:31px;line-height:1.18;
+    max-width:26ch;margin-bottom:8px;}
+  .storygrid .story.story-lead .summary{font-size:18px;line-height:1.5;max-width:62ch;}
+  .storygrid .story.story-lead .kicker{font-size:10.5px;}
   .storygrid .matters,.storygrid .facts{display:none;}
   /* Only collapsed where a toggle exists to reopen it - a small block shows
      everything, so a hidden story there would be unreachable. */
@@ -359,6 +384,10 @@
            stroke-linecap:round;stroke-linejoin:round;}
   .act-archive:hover{border-color:var(--blue-lt);color:var(--blue-lt);}
   .act-bin:hover{border-color:var(--red);color:var(--red);}
+  /* One label above the headline, not the chip row that was there before -
+     and only where the story type says something ("Update" says nothing). */
+  .kicker{font-family:var(--sans);font-size:9.5px;font-weight:800;letter-spacing:1.3px;
+    text-transform:uppercase;color:var(--blue-lt);margin:0 44px 5px 0;}
   .headline{font-family:var(--serif);font-size:22px;line-height:1.28;font-weight:700;
             color:var(--ink);margin:0 44px 6px 0;}
   .headline a{color:inherit;}
@@ -542,6 +571,10 @@
     .sect{padding:18px 14px;}
     .sect h2{font-size:25px;}
     .headline{font-size:21px;}
+    /* The splash still leads, but 31px is too much on a phone. */
+    .storygrid .story.story-lead .headline{font-size:25px;}
+    .storygrid .story.story-lead .summary{font-size:16.5px;}
+    .dateline{font-size:10px;letter-spacing:1.1px;padding:6px 10px;}
     .summary{font-size:15.5px;}
     .story{padding:15px 16px;}
     .dir{grid-template-columns:1fr;padding:14px;}
@@ -576,6 +609,8 @@
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 
+<div class="dateline" id="dateline"></div>
+
 <header class="masthead">
   <div class="masthead-row">
     <h1 class="wordmark">Next Wave <span>Partners</span></h1>
@@ -601,6 +636,7 @@
 </button>
 
 <nav class="nav" id="nav" role="tablist" aria-label="Dashboard sections">
+  <span class="nav-mark" aria-hidden="true">Next Wave <b>Partners</b></span>
   <span class="navitem" id="navitem-newsroom">
     <button id="tab-newsroom" role="tab" aria-selected="true" aria-controls="view-newsroom" data-view="newsroom">Newsroom<span class="badge" id="b-news"></span></button>
     <button type="button" class="navcaret" id="wire-toggle" aria-expanded="false"
@@ -807,6 +843,14 @@
       el.textContent = ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) +
                        ":" + ("0" + d.getSeconds()).slice(-2);
     }
+    var dl = document.getElementById("dateline");
+    if (dl) {
+      // "Wednesday 29 July 2026" - masthead datelines carry no comma.
+      var text = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric",
+                                                 month: "long", year: "numeric" })
+                  .replace(",", "");
+      if (dl.textContent !== text) { dl.textContent = text; }
+    }
   }
 
   // A validated categorical palette in a fixed order - the order is the
@@ -883,14 +927,25 @@
     "</div>";
   }
 
-  function storyHTML(story, context) {
+  // "Update" and "Other" are the fallbacks the model reaches for when nothing
+  // fits, so they carry no information and get no label.
+  var VAGUE_TYPES = { update: 1, other: 1, "": 1 };
+  function kickerHTML(story) {
+    var type = String(story.story_type || "").trim();
+    if (VAGUE_TYPES[type.toLowerCase()]) { return ""; }
+    return '<p class="kicker">' + esc(type) + "</p>";
+  }
+
+  function storyHTML(story, context, isLead) {
     var warns = (story.warnings || []).map(function (w) { return esc(w); }).join(" &middot; ");
     var d = story.drafts || {};
     var hasDraft = !!(d.concise || d.investor || d.people);
     // Tier is no longer shown as a chip, but low-confidence stories still sit
     // last and read quieter - the ordering and the dimming carry it instead.
-    return '<article class="story' + (story.tier === "low" ? " story-low" : "") + '">' +
+    return '<article class="story' + (story.tier === "low" ? " story-low" : "") +
+      (isLead ? " story-lead" : "") + '">' +
       storyActions(story, context) +
+      kickerHTML(story) +
       '<h3 class="headline"><a href="' + esc(story.url) + '" target="_blank" rel="noopener noreferrer">' +
         esc(story.title) + "</a></h3>" +
       '<div class="meta">' +
@@ -1015,7 +1070,11 @@
       var gridId = "sg" + (carouselSeq++);
       html += '<div class="storygrid' + (collapse ? " has-low" : "") +
         (sorted.length === 1 ? " single" : "") + '" id="' + gridId + '">' +
-        sorted.map(function (s) { return storyHTML(s, "news"); }).join("") +
+        // sortByTier puts the strongest first, so index 0 is the splash. Only
+        // worth doing where there is something for it to lead.
+        sorted.map(function (s, i) {
+          return storyHTML(s, "news", i === 0 && sorted.length > 1);
+        }).join("") +
         (collapse ? '<button type="button" class="lowtoggle" data-toggle-low="' + gridId +
           '">Show ' + lowCount + " more</button>" : "") +
         "</div>";
@@ -1785,6 +1844,9 @@
     var syncToTop = function () {
       if (window.pageYOffset > 320) { toTop.classList.add("show"); }
       else { toTop.classList.remove("show"); }
+      // Past the masthead the sticky nav carries the wordmark instead.
+      if (window.pageYOffset > 90) { document.body.classList.add("scrolled"); }
+      else { document.body.classList.remove("scrolled"); }
     };
     window.addEventListener("scroll", syncToTop, { passive: true });
     toTop.addEventListener("click", function () {
