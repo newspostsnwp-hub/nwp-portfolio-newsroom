@@ -203,15 +203,27 @@
   .hamburger-bars{display:flex;flex-direction:column;gap:3px;flex:0 0 auto;}
   .hamburger-bars i{display:block;width:17px;height:2px;background:var(--ink);}
   .hamburger-label{color:var(--dim);font-weight:600;}
-  .mobmenu{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.42);}
+  /* The page behind is pushed back rather than just dimmed, so the panel reads
+     as the only live surface. */
+  .mobmenu{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.42);
+    -webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);}
   .mobmenu[hidden]{display:none;}
-  .mobmenu-panel{position:absolute;top:0;right:0;bottom:0;width:min(300px,86vw);
-    background:var(--panel);border-left:2px solid var(--ink);overflow-y:auto;
+  /* Opens from the left, on the same side as the hamburger that summons it. */
+  .mobmenu-panel{position:absolute;top:0;left:0;bottom:0;width:min(300px,86vw);
+    background:var(--panel);border-right:2px solid var(--ink);overflow-y:auto;
     display:flex;flex-direction:column;padding-bottom:24px;}
-  .mobmenu-close{position:absolute;top:10px;right:10px;width:34px;height:34px;
+  /* A real header row rather than an absolutely-positioned close button, which
+     sat on top of the first menu item. */
+  .mobmenu-bar{display:flex;align-items:center;justify-content:space-between;
+    gap:12px;padding:10px 10px 10px 18px;border-bottom:2px solid var(--ink);
+    flex:0 0 auto;}
+  .mobmenu-title{font-family:var(--sans);font-size:9.5px;letter-spacing:1.2px;
+    text-transform:uppercase;color:var(--faint);font-weight:700;}
+  .mobmenu-close{width:34px;height:34px;flex:0 0 auto;
     background:transparent;border:1px solid var(--line);color:var(--dim);font-size:13px;
     display:flex;align-items:center;justify-content:center;}
-  .mobmenu-head{margin:0;padding:18px 18px 6px;font-family:var(--sans);font-size:9.5px;
+  .mobmenu-close:hover{border-color:var(--ink);color:var(--ink);}
+  .mobmenu-head{margin:0;padding:16px 18px 6px;font-family:var(--sans);font-size:9.5px;
     letter-spacing:1.2px;text-transform:uppercase;color:var(--faint);font-weight:700;}
   .mobmenu-item{display:flex;align-items:center;justify-content:space-between;gap:10px;
     width:100%;background:transparent;border:0;border-bottom:1px solid var(--line-soft);
@@ -608,12 +620,15 @@
 
 <div class="mobmenu" id="mobile-menu" hidden>
   <div class="mobmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
-    <button type="button" class="mobmenu-close" id="mobmenu-close" aria-label="Close menu">&#10005;</button>
+    <div class="mobmenu-bar">
+      <span class="mobmenu-title">Menu</span>
+      <button type="button" class="mobmenu-close" id="mobmenu-close" aria-label="Close menu">&#10005;</button>
+    </div>
     <p class="mobmenu-head">Newsroom</p>
     <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="all">Company and sector<span class="badge" id="b-mob-news"></span></button>
     <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="company">Company wire<span class="badge" id="b-mob-company"></span></button>
     <button type="button" class="mobmenu-item" data-view="newsroom" data-wire="sector">Sector wire<span class="badge" id="b-mob-sector"></span></button>
-    <p class="mobmenu-head">Elsewhere</p>
+    <p class="mobmenu-head">Other</p>
     <button type="button" class="mobmenu-item" data-view="linkedin">LinkedIn studio<span class="badge" id="b-mob-li"></span></button>
     <button type="button" class="mobmenu-item" data-view="archive">Archive<span class="badge" id="b-mob-arch"></span></button>
     <button type="button" class="mobmenu-item" data-view="directory">Directory</button>
