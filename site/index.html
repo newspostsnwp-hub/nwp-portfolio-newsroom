@@ -19,6 +19,12 @@
     --serif:'Lora',Georgia,'Times New Roman',Times,serif;
     --sans:Arial,'Helvetica Neue',Helvetica,-apple-system,sans-serif;
     --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:18px; --sp-5:24px;
+    /* Every band across the feed fills the screen, but insets its contents to
+       this measure - so the panels and rules run edge to edge while the reading
+       column stays centred, and the flanks read as part of the box rather than
+       as margin beside it. */
+    --feed-max:960px;
+    --feed-pad:max(18px, calc((100% - var(--feed-max)) / 2));
     --bg:#f4f1ea; --panel:#ffffff; --panel-2:#f7f4ee; --panel-3:#ebe7dd;
     --line:#cbc4b5; --line-soft:#ded8ca;
     --ink:#100f0e; --text:#181613; --text-2:#2b2823; --dim:#3c3830; --faint:#544e45;
@@ -275,7 +281,7 @@
   .empty{padding:46px 18px;text-align:center;color:var(--faint);font-size:15px;font-family:var(--serif);}
   .empty b{display:block;color:var(--text-2);margin-bottom:8px;letter-spacing:1.4px;
            text-transform:uppercase;font-size:11px;font-family:var(--sans);}
-  .empty-left{padding:var(--sp-4);text-align:left;}
+  .empty-left{padding:var(--sp-4) var(--feed-pad);text-align:left;}
 
   /* ---------------- loading skeleton ---------------- */
   .skel{padding:var(--sp-4);display:flex;flex-direction:column;gap:10px;}
@@ -307,7 +313,9 @@
   /* Next Wave Partners itself, not a portfolio company - a soft tinted band
      on the header only marks it apart without treating it as another tile. */
   .sect-firm{background:var(--firm-tint);}
-  .sect-flat{border-top:0;}
+  /* Dashed rather than absent: this is the boundary between a company's own
+     news and its sector wire, whichever of the two came before it. */
+  .sect-flat{border-top:1px dashed var(--line);}
   .sect-sub{font-size:20px;}
 
   .srch{
@@ -323,7 +331,7 @@
   .bar-note{color:var(--faint);font-size:11.5px;font-family:var(--sans);}
 
   /* ---------------- coverage pulse ---------------- */
-  .pulse{padding:12px 18px;background:var(--panel-2);border-bottom:1px solid var(--line);
+  .pulse{padding:12px var(--feed-pad);background:var(--panel-2);border-bottom:1px solid var(--line);
          display:flex;flex-direction:column;gap:6px;}
   .pulse-head{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;
               justify-content:space-between;margin-bottom:10px;}
@@ -349,10 +357,10 @@
      opens or closes - so no count-based fix could be right in both states.
      One column cannot produce the gap at all, and it centres the reading
      measure instead of running it the full width of the display. */
-  .storygrid{max-width:900px;margin:0 auto;
-             border-top:1px solid var(--line);border-left:1px solid var(--line-soft);
-             border-right:1px solid var(--line-soft);background:var(--panel);}
+  .storygrid{border-top:1px solid var(--line);background:var(--panel);}
   .storygrid .story{border-bottom:1px dashed var(--line);}
+  /* The rule between the last story and the sector wire lives on the sector
+     header, so it appears exactly once whether or not there are stories. */
   .storygrid .story:last-child{border-bottom:0;}
   /* The splash: the strongest, freshest story in a company block is set larger,
      so each section has a clear entry point rather than a wall of equal-weight
@@ -369,7 +377,7 @@
   .storygrid.has-low.show-low .story.story-low{display:block;}
   /* Headline first, provenance under it, actions floated top-right clear of
      the text column - so the eye lands on the story, not the furniture. */
-  .story{padding:18px 22px;position:relative;}
+  .story{padding:18px var(--feed-pad);position:relative;}
   .story:hover{background:var(--panel-2);}
   .story-low{opacity:.82;}
   /* Faint until wanted, but never invisible - a touch device has no hover, so
@@ -407,12 +415,14 @@
   .rowlinks{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px;}
   .lowtoggle{display:block;width:100%;background:var(--panel-2);border:0;
     border-top:1px solid var(--line-soft);color:var(--blue-lt);font-family:var(--sans);font-size:11px;
-    letter-spacing:.6px;text-transform:uppercase;font-weight:700;padding:var(--sp-3);text-align:center;}
+    letter-spacing:.6px;text-transform:uppercase;font-weight:700;
+    padding:var(--sp-3) var(--feed-pad);text-align:center;}
   .lowtoggle:hover{color:var(--blue);background:var(--panel-3);}
 
   /* ---------------- carousel ---------------- */
   .carousel{position:relative;}
-  .rail{display:flex;gap:12px;overflow-x:auto;scroll-behavior:smooth;padding:14px 18px;scrollbar-width:thin;}
+  .rail{display:flex;gap:12px;overflow-x:auto;scroll-behavior:smooth;
+         padding:14px var(--feed-pad);scrollbar-width:thin;}
   .rail::-webkit-scrollbar{height:8px;}
   .rail::-webkit-scrollbar-track{background:var(--panel-2);}
   .rail::-webkit-scrollbar-thumb{background:var(--line);}
