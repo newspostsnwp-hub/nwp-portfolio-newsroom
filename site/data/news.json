@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-28T17:08:34.553087+00:00",
-  "digest_intro": "Good morning; today's briefing covers 22 portfolio updates and 10 sector items, led by the news that Clearway Group has appointed Christian Baumbach as Managing Director of Secontec.",
+  "generated_at": "2026-07-29T06:48:17.607868+00:00",
+  "digest_intro": "",
   "archive_story_count": 8,
-  "last_digest_sent_at": "2026-07-27T06:48:17.252036+00:00",
+  "last_digest_sent_at": "2026-07-29T06:48:17.607868+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -29,7 +29,7 @@
       "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -105,7 +105,7 @@
       "description": "PET packaging manufacturer, known for petainerKeg one-way kegs.",
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
-      "story_count": 11,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -124,7 +124,7 @@
       "description": "UK sovereign AI company behind Collective / CollectiveOS.",
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
-      "story_count": 10,
+      "story_count": 2,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -143,7 +143,7 @@
       "description": "UK independent stationery and Post Office retail chain.",
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
-      "story_count": 7,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 6,
-  "todays_story_count": 2,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -320,36 +320,6 @@
       "date_estimated": false
     },
     {
-      "id": "9dbac1f9c232bcaa",
-      "company": "Whitespace",
-      "company_domain": "white.space",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Whitespace Achieves ISO 27001 Recertification with Zero Non-Conformities",
-      "url": "https://www.white.space/insights/whitespace-achieves-iso-27001-recertification-with-zero-non-conformities",
-      "source": "white.space",
-      "published_at": "2026-07-08T00:00:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "tier": "lead",
-      "recency": "catchup",
-      "story_type": "Update",
-      "summary": "Whitespace has successfully achieved ISO 27001 recertification for its Information Security Management System, recording zero non-conformities during the independent audit process.",
-      "why_it_matters": "For a company developing sovereign AI for defence and highly regulated sectors, maintaining rigorous, independently verified security standards is a critical operational requirement and a key indicator of institutional maturity.",
-      "verified_facts": [
-        "Whitespace achieved ISO 27001 recertification with zero non-conformities.",
-        "The audit was conducted by Tempo Audits."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "Security and governance are foundational to the development of sovereign AI. We are pleased to share that Whitespace has successfully achieved ISO 27001 recertification, recording zero non-conformities throughout the independent audit of its Information Security Management System. This achievement underscores the team's commitment to maintaining rigorous security standards across all operational environments, including those critical to defence and national security. Congratulations to the entire Whitespace team on this milestone. #SovereignAI #CyberSecurity #Whitespace",
-        "investor": "Operational resilience is a key pillar of long-term value creation in the sovereign AI sector. Whitespace’s recent ISO 27001 recertification, achieved with zero non-conformities, demonstrates the maturity of the company's internal governance and risk management frameworks. By embedding these high-level security controls into their core development processes, the team continues to build the necessary trust required to scale within highly regulated, high-consequence markets. A significant achievement that reflects the discipline required to support mission-critical technology. #SovereignAI #Governance #NextWavePartners",
-        "people": "Maintaining high standards of information security requires a collective, company-wide effort. We are proud to recognise the Whitespace team for their successful ISO 27001 recertification, which was achieved with zero non-conformities. This result is a testament to the discipline and rigour applied by colleagues across the business to strengthen controls and improve internal processes throughout the year. It is this security-first culture that enables Whitespace to deliver trusted AI capabilities for the most complex environments. Well done to all involved. #TeamCulture #SovereignAI #InfoSec"
-      },
-      "status": "ready",
-      "discovered_via": "Company newsroom",
-      "date_estimated": false
-    },
-    {
       "id": "3c5cc3a7c5831c43",
       "company": "UOE",
       "company_domain": "uoe.co.uk",
@@ -379,6 +349,36 @@
       },
       "status": "ready",
       "discovered_via": "Official RSS",
+      "date_estimated": false
+    },
+    {
+      "id": "9dbac1f9c232bcaa",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Whitespace Achieves ISO 27001 Recertification with Zero Non-Conformities",
+      "url": "https://www.white.space/insights/whitespace-achieves-iso-27001-recertification-with-zero-non-conformities",
+      "source": "white.space",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "Whitespace has successfully achieved ISO 27001 recertification for its Information Security Management System, recording zero non-conformities during the independent audit process.",
+      "why_it_matters": "For a company developing sovereign AI for defence and highly regulated sectors, maintaining rigorous, independently verified security standards is a critical operational requirement and a key indicator of institutional maturity.",
+      "verified_facts": [
+        "Whitespace achieved ISO 27001 recertification with zero non-conformities.",
+        "The audit was conducted by Tempo Audits."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Security and governance are foundational to the development of sovereign AI. We are pleased to share that Whitespace has successfully achieved ISO 27001 recertification, recording zero non-conformities throughout the independent audit of its Information Security Management System. This achievement underscores the team's commitment to maintaining rigorous security standards across all operational environments, including those critical to defence and national security. Congratulations to the entire Whitespace team on this milestone. #SovereignAI #CyberSecurity #Whitespace",
+        "investor": "Operational resilience is a key pillar of long-term value creation in the sovereign AI sector. Whitespace’s recent ISO 27001 recertification, achieved with zero non-conformities, demonstrates the maturity of the company's internal governance and risk management frameworks. By embedding these high-level security controls into their core development processes, the team continues to build the necessary trust required to scale within highly regulated, high-consequence markets. A significant achievement that reflects the discipline required to support mission-critical technology. #SovereignAI #Governance #NextWavePartners",
+        "people": "Maintaining high standards of information security requires a collective, company-wide effort. We are proud to recognise the Whitespace team for their successful ISO 27001 recertification, which was achieved with zero non-conformities. This result is a testament to the discipline and rigour applied by colleagues across the business to strengthen controls and improve internal processes throughout the year. It is this security-first culture that enables Whitespace to deliver trusted AI capabilities for the most complex environments. Well done to all involved. #TeamCulture #SovereignAI #InfoSec"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
       "date_estimated": false
     },
     {
@@ -1058,17 +1058,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 6,
+    "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 113,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
-    "dropped_no_valid_date": 6,
-    "dropped_thin_page": 17,
+    "providers_succeeded": 88,
+    "queued_candidates": 119,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 86,
+    "dropped_no_valid_date": 9,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
-    "carried_forward": 32
+    "skipped_recently_evaluated": 13,
+    "carried_forward": 6
   }
 }
