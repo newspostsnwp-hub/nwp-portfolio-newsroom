@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T14:07:24.885716+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, covering ten items of interest across the market.",
+  "generated_at": "2026-07-30T06:48:56.898137+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Roof-Maker or The Delivery Group.",
   "archive_story_count": 8,
-  "last_digest_sent_at": "2026-07-29T06:48:17.607868+00:00",
+  "last_digest_sent_at": "2026-07-30T06:48:56.898137+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -481,6 +481,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3880a2f46397fda2",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "DHL and Vinted are now significantly expanding their cooperation",
+      "url": "https://postandparcel.info/162486/news/e-commerce/dhl-and-vinted-are-now-significantly-expanding-their-cooperation/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-29T14:20:28+00:00",
+      "first_seen": "2026-07-30T06:48:56.898137+00:00",
+      "score": 75,
+      "summary": "DHL and Vinted are significantly expanding their cooperation to support the growing market for trade between private individuals in Germany.",
+      "angle": "Highlights the strategic importance of C2C e-commerce logistics partnerships as a key growth driver for delivery operators.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1645cf77d749161f",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -492,20 +506,6 @@
       "score": 75,
       "summary": "Etsy has launched Royal Mail’s new postal delivery duties paid service for EU shipments following recent changes to customs requirements.",
       "angle": "Highlights evolving cross-border customs solutions and competitive service offerings for UK e-commerce logistics providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "49948e98624b6f8a",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Logistics UK: Tariffs increase costs, complicate supply chains and risk holding back trade",
-      "url": "https://postandparcel.info/162455/news/logistics/logistics-uk-tariffs-increase-costs-complicate-supply-chains-and-risk-holding-back-trade/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-24T04:59:55+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 75,
-      "summary": "Logistics UK warns that new US tariffs are increasing costs, complicating supply chains and potentially hindering international trade.",
-      "angle": "Highlights macroeconomic headwinds and regulatory pressures impacting cross-border parcel logistics and international shipping operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -985,17 +985,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4829df5f310697da",
+      "id": "262fa0e6ff76e7b8",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Forterra revenue drops 13.5% as weak product demand persists",
-      "url": "https://www.constructionnews.co.uk/financial/forterra-revenue-drops-13-5-as-weak-product-demand-persists-28-07-2026/",
+      "title": "Data centre wins lift Severfield order book",
+      "url": "https://www.constructionnews.co.uk/financial/data-centre-wins-lift-severfield-order-book-29-07-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-07-28T11:36:49+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "published_at": "2026-07-29T11:45:38+00:00",
+      "first_seen": "2026-07-30T06:48:56.898137+00:00",
       "score": 75,
-      "summary": "Forterra reported a 13.5 per cent revenue decline in the first half of 2026, citing weak market demand, macroeconomic uncertainty, and higher mortgage rates impacting the UK construction sector.",
-      "angle": "Provides critical insight into broader UK construction market headwinds, demand volatility, and inflationary pressures affecting building product manufacturers.",
+      "summary": "Severfield reported a growing order book driven by data centre contracts, while Breedon noted that the UK residential new-build market remains subdued.",
+      "angle": "Highlights shifting demand towards industrial infrastructure and ongoing weakness in the UK residential construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1061,14 +1061,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 120,
-    "llm_requests_attempted": 95,
-    "llm_requests_succeeded": 95,
+    "providers_succeeded": 63,
+    "queued_candidates": 102,
+    "llm_requests_attempted": 90,
+    "llm_requests_succeeded": 90,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 13,
+    "dropped_thin_page": 2,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 14,
     "carried_forward": 6
   }
 }
