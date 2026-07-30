@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T06:48:56.898137+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Roof-Maker or The Delivery Group.",
+  "generated_at": "2026-07-30T14:08:02.223486+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, with no specific news to report from our portfolio companies.",
   "archive_story_count": 8,
   "last_digest_sent_at": "2026-07-30T06:48:56.898137+00:00",
   "companies": [
@@ -691,6 +691,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "47a9effa7d4951ab",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Winfried Muehling | Earth Overshoot Day puts the spotlight on circular packaging",
+      "url": "https://www.packagingnews.co.uk/features/comment/winfried-muehling-earth-overshoot-day-puts-the-spotlight-on-circular-packaging-30-07-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-07-30T10:27:10+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 75,
+      "summary": "Pro Carton's 2026 survey indicates that 37% of European consumers have switched brands due to packaging concerns, with 56% prioritising sustainable living.",
+      "angle": "Highlights increasing consumer demand for circular packaging and the alignment of legislative trends with sustainability expectations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "69ba55b6101dd0d3",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -705,20 +719,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "45653d966ddb470a",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "BuzzBallz responds to greenwashing allegations",
-      "url": "https://www.packagingnews.co.uk/news/environment/recycling/buzzballz-responds-to-greenwashing-allegations-27-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-27T11:39:06+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 75,
-      "summary": "BuzzBallz removed misleading UK website claims regarding recyclability after reports confirmed their PET and aluminium containers are currently unrecyclable in UK kerbside facilities.",
-      "angle": "Highlights increasing regulatory and public scrutiny regarding the recyclability of complex, multi-material PET packaging formats.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ea3eb0d6bfa87294",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -730,6 +730,20 @@
       "score": 90,
       "summary": "Prime Minister Andy Burnham has appointed Lord Patrick Vallance to chair a new AI taskforce tasked with driving national AI strategy and public sector transformation.",
       "angle": "Signals a shift in government AI policy and potential new procurement opportunities for sovereign AI providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "73692dd92e3aada0",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Agon raises £22.5m to build AI training model for defence",
+      "url": "https://www.uktech.news/defence-tech/agon-raises-22-5m-to-build-ai-training-model-for-defence-20260730",
+      "source": "uktech.news",
+      "published_at": "2026-07-30T08:00:59+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 85,
+      "summary": "UK-based defence AI startup Agon has raised £22.5m to develop a synthetic battle arena for training and validating autonomous weapon systems in contested environments.",
+      "angle": "Highlights increasing demand for sovereign AI infrastructure and simulation capabilities within the UK defence and national security sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -761,17 +775,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "54b5e1a4b8490162",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK firms lack presence in NVIDIA’s new AI alliance",
-      "url": "https://www.uktech.news/ai/uk-firms-lack-presence-in-nvidias-new-ai-alliance-20260727",
-      "source": "uktech.news",
-      "published_at": "2026-07-27T11:00:41+00:00",
-      "first_seen": "2026-07-27T14:07:52.158329+00:00",
-      "score": 85,
-      "summary": "NVIDIA has launched the Open Secure AI Alliance to promote open-source AI security, featuring major international firms but excluding any UK-based members.",
-      "angle": "Highlights a potential gap in UK influence within global AI governance and open-source security standard-setting initiatives.",
+      "id": "fb8b4c1ad6d023b5",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Heatwaves and sports events drive record demand for cash on Britain’s high streets",
+      "url": "https://www.talkingretail.com/uncategorized/heatwaves-and-sports-events-drive-record-demand-for-cash-on-britains-high-streets-30-07-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-07-30T11:05:58+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 90,
+      "summary": "Post Office data shows record business cash deposits and increased personal withdrawals in Q2 2026, driven by summer weather and sports events.",
+      "angle": "Highlights the ongoing critical role of Post Office cash services for local businesses and consumer spending habits.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -817,17 +831,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1a269a1f0af6e430",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Independent retail associations react to PM’s business rates announcement",
-      "url": "https://www.talkingretail.com/featured/independent-retail-associations-react-to-pms-business-rates-announcement-23-07-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-07-23T11:10:54+00:00",
-      "first_seen": "2026-07-26T10:16:58.331640+00:00",
+      "id": "8ae25fa47a60e420",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Gates Foundation’s New Goal: 10M ‘Credentials of Value’ by 2045",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/07/30/gates-foundation-new-goal-focuses-credentials-value",
+      "source": "insidehighered.com",
+      "published_at": "2026-07-30T07:00:00+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
       "score": 85,
-      "summary": "Prime Minister Andy Burnham announced a 20% business rates discount for pubs and music venues, with further reforms to Small Business Rates Relief promised for the upcoming Budget.",
-      "angle": "Signals potential future business rates reform and highlights ongoing government focus on high street retail support.",
+      "summary": "The Gates Foundation has set a goal to help 10 million learners earn credentials of value by 2045 through course redesign, credit-transfer improvements, and better academic advising.",
+      "angle": "Signals a major philanthropic shift toward credential-based learning, impacting curriculum design and postsecondary educational pathways.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7b9369feb50b2318",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Law Schools Are Asking the Wrong Question About AI",
+      "url": "https://www.insidehighered.com/opinion/views/2026/07/30/law-schools-are-asking-wrong-question-about-ai-opinion",
+      "source": "insidehighered.com",
+      "published_at": "2026-07-30T07:00:00+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 85,
+      "summary": "Law schools are debating whether to focus on regulating AI for academic integrity or redesigning assessment methods to measure professional competence in an AI-integrated environment.",
+      "angle": "Highlights a critical shift in higher education assessment design, impacting how publishers develop future learning and evaluation tools.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -856,34 +884,6 @@
       "score": 85,
       "summary": "The Office of Federal Student Aid is relocating staff to a Department of Treasury building as part of the administration's broader effort to dismantle the Department of Education.",
       "angle": "Signals significant structural shifts in federal oversight of student loans and potential disruption to financial aid administration.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "aa3a4a20a0f3a6d3",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Why One Professor Abandoned the AI Resistance",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/07/28/why-one-professor-abandoned-ai-resistance",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-28T07:00:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "Professor Scott Latham has launched the AI Campus Index, an independent ranking system evaluating how higher education institutions integrate artificial intelligence into their classrooms, operations, and research.",
-      "angle": "Provides a framework for assessing institutional AI readiness and adoption trends across the higher education market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "aa3cc0d0b13cb844",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "3 Questions for SFBU President Nick Ladany on MBA Pro+",
-      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/07/28/3-questions-sfbu-president-nick-ladany-mba-pro",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-28T07:00:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "San Francisco Bay University has launched a $10,000 MBA Pro+ program that integrates AI-driven simulations and personalized mentorship to replace traditional lecture-based graduate business education models.",
-      "angle": "Demonstrates a shift toward low-cost, AI-integrated, competency-based learning models challenging traditional higher education publishing and curriculum structures.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -971,6 +971,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ee9b49e7ffe024f9",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Contractors sign deals for 11 hospitals under £37bn programme",
+      "url": "https://www.constructionnews.co.uk/contracts/contractors-sign-deals-for-11-hospitals-under-37bn-programme-30-07-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-07-30T13:34:41+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 75,
+      "summary": "Eleven contractors have signed long-term agreements to deliver hospitals under the government’s £37bn New Hospital Programme, focusing on standardised designs and modern methods of construction.",
+      "angle": "Standardised hospital designs and modern construction methods create significant procurement opportunities for specialist glazing and rooflight suppliers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7fd5473f15ee2f99",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -982,20 +996,6 @@
       "score": 75,
       "summary": "Torsion Construction has entered administration following a prolonged period of challenging trading conditions, rising costs, and reduced construction activity across the UK sector.",
       "angle": "Highlights ongoing liquidity risks and market volatility within the UK construction supply chain and contractor landscape.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "262fa0e6ff76e7b8",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Data centre wins lift Severfield order book",
-      "url": "https://www.constructionnews.co.uk/financial/data-centre-wins-lift-severfield-order-book-29-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-29T11:45:38+00:00",
-      "first_seen": "2026-07-30T06:48:56.898137+00:00",
-      "score": 75,
-      "summary": "Severfield reported a growing order book driven by data centre contracts, while Breedon noted that the UK residential new-build market remains subdued.",
-      "angle": "Highlights shifting demand towards industrial infrastructure and ongoing weakness in the UK residential construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1027,6 +1027,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b1aa75f0074ceabf",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Qualcomm completes acquisition of software platform provider Modular",
+      "url": "https://roboticsandautomationnews.com/2026/07/30/qualcomm-completes-acquisition-of-software-platform-provider-modular/103765/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-07-30T10:13:55+00:00",
+      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "score": 75,
+      "summary": "Qualcomm has acquired AI-native software infrastructure provider Modular to enhance the deployment of generative and agentic AI workloads across heterogeneous computing systems, including edge infrastructure.",
+      "angle": "Improved edge AI software tools facilitate more efficient, high-performance autonomous processing for robotics hardware in industrial environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0ea221a09b32c6db",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1039,20 +1053,6 @@
       "summary": "Neura Robotics is establishing a global network of 'Neura Gyms' to provide physical AI training environments, addressing the industry-wide shortage of real-world training data for autonomous robots.",
       "angle": "Highlights a critical industry trend: shifting from simulation-only to physical-world data collection for scaling autonomous robotic capabilities.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4073227533cd21b0",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Sapphire launches AMD-powered robotics platform for physical AI applications",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/sapphire-launches-amd-powered-robotics-platform-for-physical-ai-applications/103679/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-07-29T10:23:59+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 75,
-      "summary": "Sapphire Technology has launched the EDGE+ Apex robotics platform, featuring AMD Ryzen AI Embedded X100 processors to support real-time perception and autonomous decision-making in industrial edge environments.",
-      "angle": "Provides high-performance, ruggedised hardware options for developers building next-generation autonomous inspection systems for rail and aviation.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1061,13 +1061,13 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 63,
-    "queued_candidates": 102,
-    "llm_requests_attempted": 90,
-    "llm_requests_succeeded": 90,
+    "providers_succeeded": 98,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 102,
+    "llm_requests_succeeded": 102,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 2,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 15,
+    "dropped_not_about_company": 2,
     "skipped_recently_evaluated": 14,
     "carried_forward": 6
   }
