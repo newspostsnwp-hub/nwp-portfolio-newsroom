@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:08:02.223486+00:00",
+  "generated_at": "2026-07-31T06:48:59.040648+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -247,6 +247,40 @@
         "concise": "We are pleased to see portfolio company UOE step in to secure the future of the Wimbledon Hill Road Post Office. By taking over operations, UOE ensures that this vital community resource remains open for residents and local businesses. Looking ahead, the site is set for a transformation within the next six months as UOE introduces its 'Stamp' retail concept, which combines essential postal services with a curated range of stationery and gifts. This development highlights UOE’s ongoing commitment to investing in the UK high street and maintaining accessible services for local communities. #UOE #Retail #Community",
         "investor": "UOE continues to demonstrate its operational strength and commitment to the high street with the acquisition of the Wimbledon Hill Road Post Office. This move secures a key location and provides a platform for the rollout of the 'Stamp' retail brand, which is scheduled for integration within six months. By blending essential Post Office services with its modern stationery and gifting concept, UOE is effectively diversifying its revenue streams and increasing the utility of its physical retail footprint. This expansion reflects the company's strategy of investing in sustainable, community-focused retail models across the South-East and beyond. #Investment #RetailGrowth #UOE",
         "people": "Congratulations to the team at UOE for their proactive efforts in saving the Wimbledon Hill Road Post Office. As CEO Elliot Jacobs noted, the company is committed to being there for communities when it matters most. By stepping in to prevent the closure of this essential branch, the team is not only preserving a vital service but also planning for future growth by introducing the 'Stamp' retail experience to the location. It is encouraging to see UOE continue to buck the trend of high street decline through dedicated investment and a clear focus on customer service. #TeamUOE #HighStreet #CommunityImpact"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "d72573ae75644108",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Introducing Project Conexus: the unified targeting operating system for NATO warfighters",
+      "url": "https://www.white.space/insights/introducing-project-conexus-the-unified-targeting-operating-system-for-nato-warfighters",
+      "source": "white.space",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 90,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Product",
+      "summary": "Whitespace has unveiled Project Conexus, a cloud-centric targeting operating system designed for NATO warfighters, developed in collaboration with a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri.",
+      "why_it_matters": "Project Conexus addresses the critical 'connection problem' in modern defence by providing a unified, open-standards foundation that integrates disparate sensors, data, and AI models to accelerate the decision-making cycle for coalition operations.",
+      "verified_facts": [
+        "Project Conexus was introduced at the Oracle Defence Summit in Brussels on June 25th, 2026.",
+        "The consortium includes Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri.",
+        "The platform is built on Whitespace's Collective operating system.",
+        "Project Conexus is designed to deploy across various cloud and edge infrastructures at multiple classification levels."
+      ],
+      "warnings": [
+        "The article is a company-authored announcement, which may present the project's capabilities in a highly favourable light."
+      ],
+      "drafts": {
+        "concise": "Whitespace has announced the launch of Project Conexus, a unified targeting operating system designed to enhance interoperability for NATO warfighters. Unveiled at the Oracle Defence Summit in Brussels, the platform aims to bridge the gap between sensing, intelligence, and decision-making by providing a common, cloud-centric foundation. Developed by a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri, Conexus is built on Whitespace’s Collective operating system. By leveraging open standards, the platform is engineered to integrate disparate data sources and applications, allowing commanders to maintain decision advantage in complex, multi-domain environments. This initiative represents a significant step toward creating a more connected and resilient infrastructure for coalition defence operations. #DefenceTech #SovereignAI #Whitespace",
+        "investor": "The launch of Project Conexus marks a strategic expansion for Whitespace, demonstrating the scalability of its Collective operating system within the high-stakes defence sector. By leading a consortium that includes industry leaders like Oracle and Esri, Whitespace is positioning its technology as a foundational layer for NATO-aligned alliance operations. The platform addresses a critical market need for interoperability, moving beyond fragmented tools to a unified, evergreen operating environment. This collaborative approach not only accelerates capability delivery but also establishes a repeatable model for integrating third-party applications into a secure, sovereign framework. As the defence community prioritises the speed of the decision cycle, Whitespace’s focus on open-standards architecture provides a clear pathway for long-term integration and operational relevance. #DefenceTech #SovereignAI #Innovation",
+        "people": "Congratulations to the team at Whitespace on the successful unveiling of Project Conexus at the Oracle Defence Summit. This project highlights the power of collaborative innovation, bringing together a diverse consortium of partners—including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri—to solve the complex challenge of data integration in modern defence. As Andrew Webber, Chief Partnerships Officer at Whitespace, noted, the initiative was driven by a shared commitment to act on recognised operational needs rather than waiting for formal requirements. By building a common foundation that keeps the commander’s judgement at the centre, the team is making a tangible contribution to the speed and efficacy of coalition decision-making. We look forward to seeing how this open-standards approach continues to evolve. #DefenceTech #Collaboration #Whitespace"
       },
       "status": "ready",
       "discovered_via": "Company newsroom",

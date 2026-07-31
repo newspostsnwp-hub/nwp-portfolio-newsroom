@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-30T14:08:02.223486+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, with no specific news to report from our portfolio companies.",
-  "archive_story_count": 8,
-  "last_digest_sent_at": "2026-07-30T06:48:56.898137+00:00",
+  "generated_at": "2026-07-31T06:48:59.040648+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, with no specific news to report from Fertility Associates or Petainer.",
+  "archive_story_count": 9,
+  "last_digest_sent_at": "2026-07-31T06:48:59.040648+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -124,7 +124,7 @@
       "description": "UK sovereign AI company behind Collective / CollectiveOS.",
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
-      "story_count": 2,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
+  "story_count": 5,
   "todays_story_count": 0,
   "stories": [
     {
@@ -283,40 +283,6 @@
       },
       "status": "ready",
       "discovered_via": "GDELT",
-      "date_estimated": false
-    },
-    {
-      "id": "d72573ae75644108",
-      "company": "Whitespace",
-      "company_domain": "white.space",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Introducing Project Conexus: the unified targeting operating system for NATO warfighters",
-      "url": "https://www.white.space/insights/introducing-project-conexus-the-unified-targeting-operating-system-for-nato-warfighters",
-      "source": "white.space",
-      "published_at": "2026-07-01T00:00:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 90,
-      "tier": "lead",
-      "recency": "catchup",
-      "story_type": "Product",
-      "summary": "Whitespace has unveiled Project Conexus, a cloud-centric targeting operating system designed for NATO warfighters, developed in collaboration with a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri.",
-      "why_it_matters": "Project Conexus addresses the critical 'connection problem' in modern defence by providing a unified, open-standards foundation that integrates disparate sensors, data, and AI models to accelerate the decision-making cycle for coalition operations.",
-      "verified_facts": [
-        "Project Conexus was introduced at the Oracle Defence Summit in Brussels on June 25th, 2026.",
-        "The consortium includes Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri.",
-        "The platform is built on Whitespace's Collective operating system.",
-        "Project Conexus is designed to deploy across various cloud and edge infrastructures at multiple classification levels."
-      ],
-      "warnings": [
-        "The article is a company-authored announcement, which may present the project's capabilities in a highly favourable light."
-      ],
-      "drafts": {
-        "concise": "Whitespace has announced the launch of Project Conexus, a unified targeting operating system designed to enhance interoperability for NATO warfighters. Unveiled at the Oracle Defence Summit in Brussels, the platform aims to bridge the gap between sensing, intelligence, and decision-making by providing a common, cloud-centric foundation. Developed by a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri, Conexus is built on Whitespace’s Collective operating system. By leveraging open standards, the platform is engineered to integrate disparate data sources and applications, allowing commanders to maintain decision advantage in complex, multi-domain environments. This initiative represents a significant step toward creating a more connected and resilient infrastructure for coalition defence operations. #DefenceTech #SovereignAI #Whitespace",
-        "investor": "The launch of Project Conexus marks a strategic expansion for Whitespace, demonstrating the scalability of its Collective operating system within the high-stakes defence sector. By leading a consortium that includes industry leaders like Oracle and Esri, Whitespace is positioning its technology as a foundational layer for NATO-aligned alliance operations. The platform addresses a critical market need for interoperability, moving beyond fragmented tools to a unified, evergreen operating environment. This collaborative approach not only accelerates capability delivery but also establishes a repeatable model for integrating third-party applications into a secure, sovereign framework. As the defence community prioritises the speed of the decision cycle, Whitespace’s focus on open-standards architecture provides a clear pathway for long-term integration and operational relevance. #DefenceTech #SovereignAI #Innovation",
-        "people": "Congratulations to the team at Whitespace on the successful unveiling of Project Conexus at the Oracle Defence Summit. This project highlights the power of collaborative innovation, bringing together a diverse consortium of partners—including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri—to solve the complex challenge of data integration in modern defence. As Andrew Webber, Chief Partnerships Officer at Whitespace, noted, the initiative was driven by a shared commitment to act on recognised operational needs rather than waiting for formal requirements. By building a common foundation that keeps the commander’s judgement at the centre, the team is making a tangible contribution to the speed and efficacy of coalition decision-making. We look forward to seeing how this open-standards approach continues to evolve. #DefenceTech #Collaboration #Whitespace"
-      },
-      "status": "ready",
-      "discovered_via": "Company newsroom",
       "date_estimated": false
     },
     {
@@ -677,20 +643,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "3ef098f8a3591961",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Carbios reaches milestone of 100 batches at its Industrial demonstration plant and expands its licensing offering to the textile market",
-      "url": "https://www.manilatimes.net/2026/07/21/tmt-newswire/globenewswire/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/2388099",
-      "source": "manilatimes.net",
-      "published_at": "2026-07-21T06:30:00+00:00",
-      "first_seen": "2026-07-27T06:48:17.252036+00:00",
-      "score": 85,
-      "summary": "Carbios has successfully processed 100 batches at its industrial demonstration plant and expanded its enzymatic biorecycling licensing to include PET polyester textile waste.",
-      "angle": "Advances in enzymatic recycling technology for PET increase the potential availability of high-quality recycled feedstock for packaging manufacturers.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "47a9effa7d4951ab",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -716,6 +668,20 @@
       "score": 75,
       "summary": "The Alliance for Fibre-Based Packaging has urged the UK government to reform the packaging Extended Producer Responsibility framework to remove regulatory barriers and encourage sustainable innovation.",
       "angle": "Regulatory uncertainty regarding EPR frameworks and recycling methodologies directly impacts investment and material strategy for packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "90684e51ccc4c022",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Mondi records drop in profits for H1 as Middle East conflict causes supply chain disruptions",
+      "url": "https://www.packagingnews.co.uk/news/international/middle-east-africa/mondi-records-drop-in-profits-for-h1-as-middle-east-conflict-causes-supply-chain-disruptions-30-07-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-07-30T11:25:31+00:00",
+      "first_seen": "2026-07-31T06:48:59.040648+00:00",
+      "score": 65,
+      "summary": "Mondi reported a significant decline in H1 2026 profits, citing supply chain disruptions in the Middle East and increased input costs as primary factors.",
+      "angle": "Highlights broader macroeconomic risks, supply chain volatility, and inflationary pressures impacting the wider packaging manufacturing sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -929,17 +895,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "15f42dfe687deef7",
+      "id": "e8920894df8829f5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Beyond awareness: Why we need a top-down approach to fertility education",
-      "url": "https://www.progress.org.uk/beyond-awareness-why-we-need-a-top-down-approach-to-fertility-education/",
+      "title": "Germany's former health minister resigns over surrogate-born child",
+      "url": "https://www.progress.org.uk/germanys-former-health-minister-resigns-over-surrogate-born-child/",
       "source": "bionews.org.uk",
-      "published_at": "2026-07-20T16:19:24+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 75,
-      "summary": "Medical experts are calling for improved fertility education and evidence-based clinical guidance to address patient misconceptions regarding AMH testing, egg freezing, and reproductive conditions like PMOS.",
-      "angle": "Highlights the critical need for high-quality clinical consultation to manage patient expectations and mitigate risks from home-testing tools.",
+      "published_at": "2026-07-27T16:18:38+00:00",
+      "first_seen": "2026-07-31T06:48:59.040648+00:00",
+      "score": 65,
+      "summary": "German politician Jens Spahn has resigned following public controversy over his use of surrogacy services in the USA, which remains illegal within Germany.",
+      "angle": "Highlights ongoing regulatory friction and ethical debates surrounding cross-border surrogacy in restrictive European markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1061,14 +1027,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 98,
-    "queued_candidates": 129,
+    "providers_succeeded": 96,
+    "queued_candidates": 127,
     "llm_requests_attempted": 102,
     "llm_requests_succeeded": 102,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 15,
-    "dropped_not_about_company": 2,
-    "skipped_recently_evaluated": 14,
-    "carried_forward": 6
+    "dropped_thin_page": 14,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 16,
+    "carried_forward": 5
   }
 }
