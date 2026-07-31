@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T06:48:59.040648+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, with no specific news to report from Fertility Associates or Petainer.",
+  "generated_at": "2026-07-31T14:08:11.891062+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-07-31T06:48:59.040648+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -419,6 +419,20 @@
   ],
   "sector_stories": [
     {
+      "id": "0168e633cb25d380",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Amazon Q2: over 40% more items delivered same-day or overnight",
+      "url": "https://postandparcel.info/162494/news/e-commerce/amazon-q2-over-40-more-items-delivered-same-day-or-overnight/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-31T07:52:04+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "Amazon reported a 40% year-over-year increase in same-day or overnight deliveries during the second quarter.",
+      "angle": "Highlights rising consumer expectations for rapid delivery speeds, pressuring logistics providers to enhance network efficiency and capacity.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "25d61e3ce4896545",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -447,31 +461,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3880a2f46397fda2",
+      "id": "bf3993b57d0fe018",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "DHL and Vinted are now significantly expanding their cooperation",
-      "url": "https://postandparcel.info/162486/news/e-commerce/dhl-and-vinted-are-now-significantly-expanding-their-cooperation/",
+      "title": "Geopost records revenue growth of 5.1%",
+      "url": "https://postandparcel.info/162502/news/e-commerce/geopost-records-revenue-growth-of-5-1/",
       "source": "postandparcel.info",
-      "published_at": "2026-07-29T14:20:28+00:00",
-      "first_seen": "2026-07-30T06:48:56.898137+00:00",
+      "published_at": "2026-07-31T12:16:56+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
       "score": 75,
-      "summary": "DHL and Vinted are significantly expanding their cooperation to support the growing market for trade between private individuals in Germany.",
-      "angle": "Highlights the strategic importance of C2C e-commerce logistics partnerships as a key growth driver for delivery operators.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1645cf77d749161f",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail “committed to helping UK businesses continue trading with customers across Europe”",
-      "url": "https://postandparcel.info/162447/news/e-commerce/royal-mail-committed-to-helping-uk-businesses-continue-trading-with-customers-across-europe/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-24T06:25:54+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 75,
-      "summary": "Etsy has launched Royal Mail’s new postal delivery duties paid service for EU shipments following recent changes to customs requirements.",
-      "angle": "Highlights evolving cross-border customs solutions and competitive service offerings for UK e-commerce logistics providers.",
+      "summary": "Geopost reported a 5.1% revenue increase in the first half of 2026, driven by higher parcel volumes despite challenging market conditions.",
+      "angle": "Provides a benchmark for competitor performance and volume trends within the competitive UK parcel delivery market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -528,6 +528,20 @@
       "score": 85,
       "summary": "UK retail crime has reached record levels, with 516,971 shoplifting offences recorded in 2024, driven by organised criminal networks and increasing violence against staff.",
       "angle": "Highlights growing demand for intelligence-led, multi-layered security solutions to combat systemic retail theft and supply chain vulnerabilities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5288115ec6538cd9",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "PaNaBat: German-Chilean research project targets sustainable battery materials",
+      "url": "https://www.electrive.com/2026/07/31/panabat-german-chilean-research-project-targets-sustainable-battery-materials/",
+      "source": "electrive.com",
+      "published_at": "2026-07-31T09:34:38+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 65,
+      "summary": "The German-Chilean PaNaBat research project is developing sustainable circular economy methods for battery materials, including advanced recycling and efficient material recovery processes.",
+      "angle": "Advancements in sustainable battery material recycling and circular economy practices impact long-term supply chain and regulatory compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -615,17 +629,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "234e6486362ee287",
+      "id": "045d446c3ce521ee",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Sohonet and Bind Studio Expand Partnership to Deliver Turnkey VFX",
-      "url": "https://postperspective.com/sohonet-and-bind-studio-expand-partnership-to-deliver-turnkey-vfx/",
+      "title": "Post and Color for Raise the Flags Buccaneers Docuseries",
+      "url": "https://postperspective.com/post-and-color-for-raise-the-flags-buccaneers-docuseries/",
       "source": "postperspective.com",
-      "published_at": "2026-07-21T23:52:53+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
+      "published_at": "2026-07-30T15:26:53+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
       "score": 75,
-      "summary": "Sohonet and Bind Studio have launched a joint go-to-market offering providing a turnkey, cloud-based VFX production environment including workstations, storage, rendering, and secure file transfer.",
-      "angle": "Represents a shift toward integrated, turnkey cloud infrastructure for VFX pipelines, reducing hardware procurement and setup time for productions.",
+      "summary": "Company 3 utilized remote workflows and DaVinci Resolve to manage complex archival restoration and HDR conversion for a 10-part sports documentary series.",
+      "angle": "Demonstrates industry-standard remote collaboration workflows and technical strategies for managing mixed-format archival content in high-end HDR finishing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0608799c37bc65db",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Foodservice packaging sector calls for practical reform as Defra confirms circular economy minister",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/foodservice-packaging-sector-calls-for-practical-reform-as-defra-confirms-circular-economy-minister-31-07-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-07-31T11:31:03+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "The Foodservice Packaging Association is urging the UK government to ensure that upcoming packaging reforms, including EPR and Plastic Packaging Tax, are practical and coordinated.",
+      "angle": "Regulatory uncertainty regarding EPR and recycling infrastructure directly impacts operational costs and investment planning for UK packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -643,6 +671,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "a9130df8144fa66c",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "WRAP outlines potential for further progress on Welsh recycling rates",
+      "url": "https://www.packagingnews.co.uk/news/environment/recycling/wrap-outlines-potential-for-further-progress-on-welsh-recycling-rates-31-07-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-07-31T10:54:02+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 75,
+      "summary": "WRAP's 2026 survey indicates that recycling rates at public events in Wales remain low, highlighting a significant gap between home and away-from-home recycling habits.",
+      "angle": "Highlights market demand for improved circularity and infrastructure for beverage packaging at festivals and public venues.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "47a9effa7d4951ab",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -657,34 +699,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "69ba55b6101dd0d3",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Pack manufacturers tell PM: ‘Clear path for innovation to drive growth’",
-      "url": "https://www.packagingnews.co.uk/news/environment/sustainable-pack-manufacturers-tell-pm-clear-path-for-innovation-to-drive-growth-28-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-28T11:54:38+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 75,
-      "summary": "The Alliance for Fibre-Based Packaging has urged the UK government to reform the packaging Extended Producer Responsibility framework to remove regulatory barriers and encourage sustainable innovation.",
-      "angle": "Regulatory uncertainty regarding EPR frameworks and recycling methodologies directly impacts investment and material strategy for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "90684e51ccc4c022",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Mondi records drop in profits for H1 as Middle East conflict causes supply chain disruptions",
-      "url": "https://www.packagingnews.co.uk/news/international/middle-east-africa/mondi-records-drop-in-profits-for-h1-as-middle-east-conflict-causes-supply-chain-disruptions-30-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-30T11:25:31+00:00",
-      "first_seen": "2026-07-31T06:48:59.040648+00:00",
-      "score": 65,
-      "summary": "Mondi reported a significant decline in H1 2026 profits, citing supply chain disruptions in the Middle East and increased input costs as primary factors.",
-      "angle": "Highlights broader macroeconomic risks, supply chain volatility, and inflationary pressures impacting the wider packaging manufacturing sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ea3eb0d6bfa87294",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -696,6 +710,20 @@
       "score": 90,
       "summary": "Prime Minister Andy Burnham has appointed Lord Patrick Vallance to chair a new AI taskforce tasked with driving national AI strategy and public sector transformation.",
       "angle": "Signals a shift in government AI policy and potential new procurement opportunities for sovereign AI providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c18fa0caaf352fd5",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "ICO explores new data protection sandbox",
+      "url": "https://www.uktech.news/news/government-and-policy/ico-explores-new-data-protection-sandbox-20260731",
+      "source": "uktech.news",
+      "published_at": "2026-07-31T11:00:49+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "The Information Commissioner’s Office is exploring a Statutory Regulatory Sandbox to allow testing of innovations that would otherwise conflict with current data protection requirements.",
+      "angle": "Regulatory flexibility for AI innovation is critical for sovereign AI development and navigating complex data protection compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -725,20 +753,6 @@
       "summary": "UK energy software investment reached nearly £1bn over the last decade, with AI applications accounting for 46% of all sector deals in 2025.",
       "angle": "Highlights the critical intersection of AI demand and energy infrastructure constraints as a primary driver for software innovation.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a2b1cf3c7d645e07",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Orange forms €3bn French datacentre JV with Morrison",
-      "url": "https://www.telecomtv.com/content/ai/orange-forms-3bn-french-datacentre-jv-with-morrison-55972/",
-      "source": "telecomtv.com",
-      "published_at": "2026-07-28T12:45:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "Orange has partnered with infrastructure investor Morrison to launch a €3bn joint venture in France, aiming to increase its datacentre capacity tenfold to support sovereign AI and cloud services.",
-      "angle": "Highlights significant capital investment in European sovereign digital infrastructure to meet surging demand for AI and cloud services.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "fb8b4c1ad6d023b5",
@@ -797,6 +811,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "99df0debf1072fc1",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "GOP Rift Over Education Department’s Future",
+      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/07/31/gop-rift-over-education-departments-future",
+      "source": "insidehighered.com",
+      "published_at": "2026-07-31T07:00:00+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "A Senate committee voted to block the White House from outsourcing key Education Department offices, highlighting a political rift over the future of federal education oversight.",
+      "angle": "Regulatory uncertainty regarding the Department of Education's structure impacts federal funding, grant administration, and national education policy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "32c194eb207ce016",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "It’s Never Too Late to Go Back to College",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/07/31/its-never-too-late-go-back-college",
+      "source": "insidehighered.com",
+      "published_at": "2026-07-31T07:00:00+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are increasingly focusing on re-enrolling adult learners by removing administrative barriers and offering flexible, short-term credential pathways to support non-linear educational journeys.",
+      "angle": "Highlights a growing market shift toward adult learner retention and flexible, workforce-aligned credentialing models in higher education.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8ae25fa47a60e420",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -822,34 +864,6 @@
       "score": 85,
       "summary": "Law schools are debating whether to focus on regulating AI for academic integrity or redesigning assessment methods to measure professional competence in an AI-integrated environment.",
       "angle": "Highlights a critical shift in higher education assessment design, impacting how publishers develop future learning and evaluation tools.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "db42c6839bed1c46",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "How Colleges Are Redesigning the Path to a Degree",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/07/29/how-colleges-are-redesigning-path-degree",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-29T07:00:00+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly redesigning academic pathways to improve credit transferability, integrate apprenticeship training, and align vocational programs with degree-granting outcomes.",
-      "angle": "Shift toward flexible, modular learning pathways impacts demand for integrated curriculum solutions and digital courseware interoperability.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "47152d6f02c3434e",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "FSA Staff Slated to Move to Treasury Office Starting in August",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/07/28/fsa-staff-now-slated-move-treasury-office",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-28T07:00:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "The Office of Federal Student Aid is relocating staff to a Department of Treasury building as part of the administration's broader effort to dismantle the Department of Education.",
-      "angle": "Signals significant structural shifts in federal oversight of student loans and potential disruption to financial aid administration.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -909,6 +923,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4f84731e764a6749",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Sector’s business confidence jumps as demand strengthens",
+      "url": "https://www.constructionnews.co.uk/sections/data/sectors-business-confidence-jumps-as-demand-strengthens-31-07-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-07-31T11:45:17+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "UK construction sector business confidence rose to 56 per cent in July, driven by stronger customer demand and improved financial conditions.",
+      "angle": "Rising industry confidence and planned staff increases indicate a positive outlook for construction activity and potential market growth.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "811ae0be4f7c8113",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -951,17 +979,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7fd5473f15ee2f99",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Torsion Construction enters administration",
-      "url": "https://www.constructionnews.co.uk/financial/administrations/torsion-construction-goes-into-administration-29-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-29T11:51:16+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 75,
-      "summary": "Torsion Construction has entered administration following a prolonged period of challenging trading conditions, rising costs, and reduced construction activity across the UK sector.",
-      "angle": "Highlights ongoing liquidity risks and market volatility within the UK construction supply chain and contractor landscape.",
+      "id": "2f978353f87533fa",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Google DeepMind unveils Gemini Robotics 2 as Apptronik humanoid demonstrates whole-body AI",
+      "url": "https://roboticsandautomationnews.com/2026/07/31/google-deepmind-unveils-gemini-robotics-2-as-apptronik-humanoid-demonstrates-whole-body-ai/103802/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-07-31T10:26:39+00:00",
+      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "score": 85,
+      "summary": "Google DeepMind has launched Gemini Robotics 2, a suite of AI models enabling whole-body control, advanced dexterity, and multi-robot collaboration for various robotic platforms.",
+      "angle": "Advancements in general-purpose AI intelligence layers and on-device processing significantly accelerate autonomous capabilities for industrial inspection hardware.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1005,20 +1033,6 @@
       "summary": "Qualcomm has acquired AI-native software infrastructure provider Modular to enhance the deployment of generative and agentic AI workloads across heterogeneous computing systems, including edge infrastructure.",
       "angle": "Improved edge AI software tools facilitate more efficient, high-performance autonomous processing for robotics hardware in industrial environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0ea221a09b32c6db",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Neura Robotics expands global physical AI training network in partnership with RWTH Aachen University",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/neura-robotics-expands-global-physical-ai-training-network-in-partnership-with-rwth-aachen-university/103699/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-07-29T11:56:17+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 75,
-      "summary": "Neura Robotics is establishing a global network of 'Neura Gyms' to provide physical AI training environments, addressing the industry-wide shortage of real-world training data for autonomous robots.",
-      "angle": "Highlights a critical industry trend: shifting from simulation-only to physical-world data collection for scaling autonomous robotic capabilities.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1027,14 +1041,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 96,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 102,
-    "llm_requests_succeeded": 102,
+    "providers_succeeded": 87,
+    "queued_candidates": 112,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 14,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 16,
+    "skipped_recently_evaluated": 18,
     "carried_forward": 5
   }
 }
