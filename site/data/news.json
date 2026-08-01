@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T06:48:51.408680+00:00",
-  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
+  "generated_at": "2026-08-01T14:07:57.702083+00:00",
+  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of interest below for your review.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-01T06:48:51.408680+00:00",
   "companies": [
@@ -1027,12 +1027,12 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
+    "providers_succeeded": 92,
     "queued_candidates": 117,
     "llm_requests_attempted": 88,
     "llm_requests_succeeded": 88,
-    "dropped_no_valid_date": 10,
-    "dropped_thin_page": 18,
+    "dropped_no_valid_date": 9,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 15,
     "carried_forward": 5
