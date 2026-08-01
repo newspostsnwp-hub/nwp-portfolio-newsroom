@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T14:08:11.891062+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-08-01T06:48:51.408680+00:00",
+  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-07-31T06:48:59.040648+00:00",
+  "last_digest_sent_at": "2026-08-01T06:48:51.408680+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -615,20 +615,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b482d21bc8877aed",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Chaos V-Ray 7, Update 4: Final, Real-Time Rendering in Viewport, Deeper VP Integration",
-      "url": "https://postperspective.com/chaos-v-ray-7-update-4-final-real-time-rendering-in-viewport-deeper-vp-integration/",
-      "source": "postperspective.com",
-      "published_at": "2026-07-21T21:20:56+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "Chaos has released V-Ray 7, Update 4, introducing real-time viewport rendering, Gaussian splat relighting, and enhanced virtual production tools to streamline post-production and on-set workflows.",
-      "angle": "Advancements in real-time rendering and virtual production integration significantly improve pipeline efficiency and creative control for post-production studios.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "045d446c3ce521ee",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -811,6 +797,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4e8f74088b0cc755",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Who is Pralhad Joshi ? Senior BJP leader takes charge of Education Ministry after Dharmendra Pradhan exit",
+      "url": "https://www.businesstoday.in/india/story/who-is-pralhad-joshi-modi-names-veteran-karnataka-bjp-leader-to-lead-education-ministry-after-pradhans-exit-545249-2026-07-25",
+      "source": "businesstoday.in",
+      "published_at": "2026-07-25T16:30:00+00:00",
+      "first_seen": "2026-08-01T06:48:51.408680+00:00",
+      "score": 90,
+      "summary": "Pralhad Joshi has been appointed as India's new Union Minister of Education, succeeding Dharmendra Pradhan to oversee the National Education Policy and ongoing higher education reforms.",
+      "angle": "A change in ministerial leadership often signals shifts in regulatory priorities and implementation strategies for national education policy.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "99df0debf1072fc1",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -850,20 +850,6 @@
       "score": 85,
       "summary": "The Gates Foundation has set a goal to help 10 million learners earn credentials of value by 2045 through course redesign, credit-transfer improvements, and better academic advising.",
       "angle": "Signals a major philanthropic shift toward credential-based learning, impacting curriculum design and postsecondary educational pathways.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7b9369feb50b2318",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Law Schools Are Asking the Wrong Question About AI",
-      "url": "https://www.insidehighered.com/opinion/views/2026/07/30/law-schools-are-asking-wrong-question-about-ai-opinion",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-30T07:00:00+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 85,
-      "summary": "Law schools are debating whether to focus on regulating AI for academic integrity or redesigning assessment methods to measure professional competence in an AI-integrated environment.",
-      "angle": "Highlights a critical shift in higher education assessment design, impacting how publishers develop future learning and evaluation tools.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1041,14 +1027,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 112,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 88,
+    "queued_candidates": 117,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 16,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 18,
+    "skipped_recently_evaluated": 15,
     "carried_forward": 5
   }
 }
