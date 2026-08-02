@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-02T06:48:50.933508+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from Molinare.",
+  "generated_at": "2026-08-02T14:07:56.474872+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report regarding Molinare or UOE.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-02T06:48:50.933508+00:00",
   "companies": [
@@ -797,17 +797,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e0c6eed60ca1c134",
+      "id": "a031e3911754f337",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Falling retail crime stats received with very cautious optimism",
-      "url": "https://www.talkingretail.com/featured/falling-retail-crime-stats-received-with-very-cautious-optimism-23-07-2026/",
+      "title": "Trading Standards team steps up action on underage sales during summer holidays",
+      "url": "https://www.talkingretail.com/featured/trading-standards-team-steps-up-underage-sales-action-during-summer-holidays-30-07-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-07-23T11:28:29+00:00",
-      "first_seen": "2026-07-26T10:16:58.331640+00:00",
-      "score": 85,
-      "summary": "Official statistics show recorded shop theft in England and Wales fell to 507,086 incidents in the year to March 2026, though industry bodies warn underreporting remains a significant issue.",
-      "angle": "Retail crime impacts operational costs, staff safety, and security investment requirements for independent high-street retailers.",
+      "published_at": "2026-07-30T11:46:12+00:00",
+      "first_seen": "2026-08-02T14:07:56.474872+00:00",
+      "score": 75,
+      "summary": "Barking and Dagenham Council is increasing enforcement and test purchasing operations for age-restricted products like vapes during the summer holidays to ensure retailer compliance.",
+      "angle": "Highlights heightened regulatory scrutiny on age-restricted sales, necessitating robust staff training and verification procedures for retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1041,14 +1041,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 122,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
-    "dropped_no_valid_date": 9,
-    "dropped_thin_page": 18,
+    "providers_succeeded": 100,
+    "queued_candidates": 118,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
+    "dropped_no_valid_date": 10,
+    "dropped_thin_page": 15,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 15,
+    "skipped_recently_evaluated": 16,
     "carried_forward": 5
   }
 }
