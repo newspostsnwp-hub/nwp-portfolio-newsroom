@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-01T14:07:57.702083+00:00",
-  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of interest below for your review.",
+  "generated_at": "2026-08-02T06:48:50.933508+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from Molinare.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-08-01T06:48:51.408680+00:00",
+  "last_digest_sent_at": "2026-08-02T06:48:50.933508+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -601,20 +601,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "c8588e63a397598e",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Autodesk Adds AI and 3DGS Tools Across Maya, 3ds Max and More",
-      "url": "https://postperspective.com/autodesk-updates-bring-your-own-data-editable-3d-gaussian-splats-more/",
-      "source": "postperspective.com",
-      "published_at": "2026-07-22T18:35:11+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "Autodesk has introduced new AI-driven motion tools, editable 3D Gaussian splatting, and enhanced collaborative review features across its Maya, 3ds Max, and Flow Production Tracking software suites.",
-      "angle": "These updates provide post-production studios with more efficient workflows for animation, environment creation, and remote team collaboration.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "045d446c3ce521ee",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -626,6 +612,34 @@
       "score": 75,
       "summary": "Company 3 utilized remote workflows and DaVinci Resolve to manage complex archival restoration and HDR conversion for a 10-part sports documentary series.",
       "angle": "Demonstrates industry-standard remote collaboration workflows and technical strategies for managing mixed-format archival content in high-end HDR finishing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5944fe13ab828c2f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Vida Scene Search: AI Scene-Level Search With No Manual Logging Required",
+      "url": "https://postperspective.com/vida-scene-search-ai-scene-level-search-with-no-manual-logging-required/",
+      "source": "postperspective.com",
+      "published_at": "2026-07-30T22:53:06+00:00",
+      "first_seen": "2026-08-02T06:48:50.933508+00:00",
+      "score": 65,
+      "summary": "Vida has launched an AI-powered indexing tool, Scene Search, which enables natural language searching within video libraries without requiring manual metadata logging.",
+      "angle": "AI-driven automation is increasingly replacing manual logging, improving asset discoverability and workflow efficiency in post-production environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4ba0c374d52fec73",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy-Nominated The Bear Sound Team Talks Workflow",
+      "url": "https://postperspective.com/emmy-nominated-the-bear-sound-team-talks-workflow/",
+      "source": "postperspective.com",
+      "published_at": "2026-07-29T20:18:07+00:00",
+      "first_seen": "2026-08-02T06:48:50.933508+00:00",
+      "score": 65,
+      "summary": "The sound team for the series The Bear discusses the technical challenges of mixing complex, overlapping dialogue amidst constant environmental sound effects like heavy rain and water.",
+      "angle": "Highlights evolving technical workflows for managing high-density audio environments in premium episodic television post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1027,12 +1041,12 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 117,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
+    "providers_succeeded": 93,
+    "queued_candidates": 122,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
     "dropped_no_valid_date": 9,
-    "dropped_thin_page": 19,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 15,
     "carried_forward": 5
