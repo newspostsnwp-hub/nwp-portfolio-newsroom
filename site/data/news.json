@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T14:07:56.474872+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report regarding Molinare or UOE.",
+  "generated_at": "2026-08-03T06:48:53.825212+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, as there is no news to report from Future Maintenance Technologies or The Delivery Group.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-08-02T06:48:50.933508+00:00",
+  "last_digest_sent_at": "2026-08-03T06:48:53.825212+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -447,20 +447,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a3f9a4f89d212089",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Raising Warehouse Taxes Could Leave Industrial Parks Deserted, says logistics CEO.",
-      "url": "https://postandparcel.info/162445/news/e-commerce/raising-warehouse-taxes-could-leave-industrial-parks-deserted-says-logistics-ceo/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-24T04:19:53+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "Paxon UK CEO Wayne Chapman warns that proposed increases in warehouse taxes to fund business rate cuts for hospitality could discourage international investment in UK logistics.",
-      "angle": "Potential tax hikes on industrial property threaten operational costs and long-term infrastructure investment within the UK logistics sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bf3993b57d0fe018",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -472,6 +458,20 @@
       "score": 75,
       "summary": "Geopost reported a 5.1% revenue increase in the first half of 2026, driven by higher parcel volumes despite challenging market conditions.",
       "angle": "Provides a benchmark for competitor performance and volume trends within the competitive UK parcel delivery market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3880a2f46397fda2",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "DHL and Vinted are now significantly expanding their cooperation",
+      "url": "https://postandparcel.info/162486/news/e-commerce/dhl-and-vinted-are-now-significantly-expanding-their-cooperation/",
+      "source": "postandparcel.info",
+      "published_at": "2026-07-29T14:20:28+00:00",
+      "first_seen": "2026-08-03T06:48:53.825212+00:00",
+      "score": 75,
+      "summary": "DHL and Vinted are significantly expanding their cooperation to facilitate trade between private individuals, following data showing high participation in online marketplaces among German shoppers.",
+      "angle": "Highlights the growing importance of C2C e-commerce logistics partnerships and shifting consumer behaviour in the parcel delivery market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,20 +1007,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d1949b8005921aa1",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
-      "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
-      "source": "roboticsbusinessreview.com",
-      "published_at": "2026-07-23T18:30:56+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 85,
-      "summary": "AMD has launched its Ryzen AI Embedded X100 series and Kria AI Robotics platform, offering unified memory and real-time control capabilities for industrial robotics and edge AI applications.",
-      "angle": "Provides a new, high-performance alternative to NVIDIA for real-time sensor fusion and autonomous control in industrial robotics.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b1aa75f0074ceabf",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1033,6 +1019,20 @@
       "summary": "Qualcomm has acquired AI-native software infrastructure provider Modular to enhance the deployment of generative and agentic AI workloads across heterogeneous computing systems, including edge infrastructure.",
       "angle": "Improved edge AI software tools facilitate more efficient, high-performance autonomous processing for robotics hardware in industrial environments.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6a39d04d4051d79b",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Interview with Arduino’s Marcello Majonchi: Qualcomm acquisition ushers in new era of edge AI and robotics",
+      "url": "https://roboticsandautomationnews.com/2026/07/31/interview-with-arduinos-marcello-majonchi-qualcomm-acquisition-ushers-in-new-era-of-edge-ai-and-robotics/103805/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-07-31T11:28:05+00:00",
+      "first_seen": "2026-08-03T06:48:53.825212+00:00",
+      "score": 65,
+      "summary": "Qualcomm has acquired Arduino to integrate its AI and computing technologies into Arduino's development ecosystem, aiming to accelerate the deployment of edge AI and robotics applications.",
+      "angle": "Increased accessibility to high-performance edge AI hardware could lower development barriers for autonomous industrial and inspection robotics.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1041,14 +1041,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 100,
-    "queued_candidates": 118,
-    "llm_requests_attempted": 92,
-    "llm_requests_succeeded": 92,
+    "providers_succeeded": 88,
+    "queued_candidates": 103,
+    "llm_requests_attempted": 74,
+    "llm_requests_succeeded": 74,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 15,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 16,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 13,
     "carried_forward": 5
   }
 }
