@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T06:48:53.825212+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, as there is no news to report from Future Maintenance Technologies or The Delivery Group.",
+  "generated_at": "2026-08-03T14:07:52.546890+00:00",
+  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill, where analysts have reiterated a buy rating citing AI-driven growth and ELA momentum.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-03T06:48:53.825212+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 0,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 5,
-  "todays_story_count": 0,
+  "story_count": 6,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -346,6 +346,40 @@
       "status": "ready",
       "discovered_via": "Company newsroom",
       "date_estimated": false
+    },
+    {
+      "id": "b8b0444f0ac9ecfa",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "Analyst Reiterates Buy on McGraw Hill, Citing AI-Driven Growth and ELA Momentum; $19 Price Target Maintained - tipranks.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcUI2NF8wWEFqclU0MTVqVGl3bFJOY2xMWER0ZGpITktJREhjbnNHTTVNQWdZUHdGUE1qQjJXSk43VWhRNDQwZjRMODlvM0JwQVNsVzJEcVo4dmNOWHBJRk5YdG4wTHFnV1FyV1A5dFhQQ00wcTVYWnpkallzalRIeVhSLTRCemVkaXdsRHFUR3h3UURqcENkdk9naDRCSjZQWUhvQUpXaWVCSXMzV1VLWlJUUkJDLUMzZm9ndlQ1cVZQNlU3enlqYlhXUnY4Y3VNOWxDNnNfME1RbGpXSUlxZ0lPZFRHWEc0YnAweg?oc=5",
+      "source": "tipranks.com",
+      "published_at": "2026-08-03T10:38:28+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "An equity analyst has reiterated a 'Buy' rating for McGraw Hill, maintaining a $19 price target based on the company's progress in AI-driven learning solutions and momentum in English Language Arts (ELA) offerings.",
+      "why_it_matters": "External analyst sentiment provides insight into market confidence regarding McGraw Hill's strategic pivot toward AI-integrated educational technology and its core publishing performance.",
+      "verified_facts": [
+        "Analyst reiterated a Buy rating for McGraw Hill",
+        "Price target maintained at $19",
+        "Growth attributed to AI-driven initiatives and ELA momentum"
+      ],
+      "warnings": [
+        "The source is an aggregator (TipRanks) reporting on third-party analyst sentiment rather than a direct company announcement.",
+        "The specific analyst firm and the date of the original research note are not explicitly detailed in the provided snippet."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill continues to see positive market recognition for its strategic focus on digital transformation. An analyst has reiterated a 'Buy' rating for the company, maintaining a $19 price target. This assessment highlights the firm's ongoing momentum in English Language Arts (ELA) and the successful integration of AI-driven tools into its learning platforms. We remain focused on supporting the team as they continue to scale these educational technologies to meet evolving classroom needs. #McGrawHill #EdTech #Education",
+        "investor": "Market confidence in McGraw Hill’s growth trajectory remains strong, with analysts recently reiterating a 'Buy' rating and maintaining a $19 price target. The valuation reflects the company's successful execution of its AI-driven product strategy and sustained momentum within its English Language Arts portfolio. By leveraging technology to enhance learning outcomes, McGraw Hill is well-positioned to capture further value in the global education market. We look forward to the company's continued progress in delivering scalable, high-impact educational solutions. #Investment #EdTech #Growth",
+        "people": "It is encouraging to see the hard work of the McGraw Hill team reflected in recent market analysis. The company has received a reiterated 'Buy' rating with a $19 price target, underscoring the impact of their recent initiatives in AI-driven learning and English Language Arts. This recognition is a testament to the dedication of the teams developing and deploying these innovative educational tools. We are proud to support McGraw Hill as they continue to advance the future of learning. #TeamSuccess #Innovation #McGrawHill"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "1861f1507e74fd1e",
@@ -475,6 +509,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "84a61479d8915344",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "UK fuel forecourts offered enhanced crime-reporting technology",
+      "url": "https://securityjournaluk.com/fuel-forecourts-offered-crime-reporting-tech/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-03T08:25:47+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 85,
+      "summary": "Forecourt Eye and Facewatch have partnered to provide UK fuel retailers with an integrated crime-reporting and facial recognition platform to combat rising fuel theft and staff abuse.",
+      "angle": "Highlights the growing demand for integrated, technology-led security solutions combining ANPR and facial recognition in retail environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "50f4e7d9ade0e1da",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -517,17 +565,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8e44f5b172258a08",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "The high street threat landscape: Why retail needs an intelligence-led defence",
-      "url": "https://securityjournaluk.com/why-retail-needs-an-intelligence-led-defence/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-27T06:30:00+00:00",
-      "first_seen": "2026-07-27T10:31:25.675205+00:00",
-      "score": 85,
-      "summary": "UK retail crime has reached record levels, with 516,971 shoplifting offences recorded in 2024, driven by organised criminal networks and increasing violence against staff.",
-      "angle": "Highlights growing demand for intelligence-led, multi-layered security solutions to combat systemic retail theft and supply chain vulnerabilities.",
+      "id": "7d764890b4225ca0",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "China makes EV battery health more transparent",
+      "url": "https://www.electrive.com/2026/08/03/china-makes-ev-battery-health-more-transparent/",
+      "source": "electrive.com",
+      "published_at": "2026-08-03T10:09:07+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 65,
+      "summary": "China has introduced the GB/T 46991.1-2025 standard to improve transparency in electric vehicle battery health by defining measurement methods for ageing and residual capacity.",
+      "angle": "Sets a global benchmark for battery health transparency and degradation metrics that may influence future micromobility industry standards.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -556,34 +604,6 @@
       "score": 65,
       "summary": "Volkswagen has launched a base version of the electric ID. Polo, priced at €24,995, featuring a 37kWh battery and a 323km WLTP range.",
       "angle": "Increased availability of affordable electric cars impacts the competitive landscape for urban micromobility and alternative transport solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c8a8840b4326abad",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Study: Batteries lose lithium to the current collector",
-      "url": "https://www.electrive.com/2026/07/24/study-batteries-lose-lithium-to-the-current-collector/",
-      "source": "electrive.com",
-      "published_at": "2026-07-24T07:02:42+00:00",
-      "first_seen": "2026-07-26T10:16:58.331640+00:00",
-      "score": 65,
-      "summary": "Researchers have identified a degradation mechanism where lithium ions permanently bind to copper current collectors, reducing battery capacity and lifespan over repeated charge cycles.",
-      "angle": "Provides critical technical insight into battery degradation mechanisms relevant to future high-density energy storage and cell longevity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ab7150fb95d1ff7b",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "BMW iX1 and iX2 qualify for UK’s ECG after price cuts",
-      "url": "https://www.electrive.com/2026/07/24/bmw-ix1-and-ix2-qualify-for-uks-ecg-after-price-cuts/",
-      "source": "electrive.com",
-      "published_at": "2026-07-24T13:34:53+00:00",
-      "first_seen": "2026-07-25T12:59:58.523583+00:00",
-      "score": 35,
-      "summary": "BMW has reduced UK prices for its iX1 and iX2 electric SUVs to qualify for the government's £3,750 Electric Car Grant.",
-      "angle": "Highlights increased price competition between electric cars and alternative personal transport solutions in the UK market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -657,20 +677,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a4dfc4f13b068027",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Ardagh Metal Packaging ( AMBP ) Q2 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/07/24/ardagh-metal-packaging-ambp-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "published_at": "2026-07-24T07:30:00+00:00",
-      "first_seen": "2026-07-28T16:06:47.092357+00:00",
-      "score": 85,
-      "summary": "Ardagh Metal Packaging reported strong European demand for aluminum cans, while North American volumes declined due to contract resets and ongoing inflationary pressures on freight and materials.",
-      "angle": "Highlights competitive substrate shifts and inflationary headwinds impacting the broader beverage packaging market.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "a9130df8144fa66c",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -696,6 +702,20 @@
       "score": 75,
       "summary": "Pro Carton's 2026 survey indicates that 37% of European consumers have switched brands due to packaging concerns, with 56% prioritising sustainable living.",
       "angle": "Highlights increasing consumer demand for circular packaging and the alignment of legislative trends with sustainability expectations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "81ded8147fe9f9d0",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK chip firm OLIX valued at more than £2bn after major investment",
+      "url": "https://www.uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+      "source": "uktech.news",
+      "published_at": "2026-08-03T09:02:50+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 90,
+      "summary": "London-based AI hardware startup OLIX has raised $312m in a Series B round, valuing the company at $3.3bn to scale its specialised silicon platform for AI inference.",
+      "angle": "Highlights significant capital allocation and government support for UK-based sovereign AI hardware infrastructure and compute efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -741,20 +761,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6585dd5182a88506",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Investments surge in the UK energy software sector",
-      "url": "https://www.uktech.news/energy/investments-surge-in-the-uk-energy-software-sector-20260729",
-      "source": "uktech.news",
-      "published_at": "2026-07-29T09:00:02+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 85,
-      "summary": "UK energy software investment reached nearly £1bn over the last decade, with AI applications accounting for 46% of all sector deals in 2025.",
-      "angle": "Highlights the critical intersection of AI demand and energy infrastructure constraints as a primary driver for software innovation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "fb8b4c1ad6d023b5",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -797,17 +803,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a031e3911754f337",
+      "id": "f57e1925f4a77477",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Trading Standards team steps up action on underage sales during summer holidays",
-      "url": "https://www.talkingretail.com/featured/trading-standards-team-steps-up-underage-sales-action-during-summer-holidays-30-07-2026/",
+      "title": "New reporting tech available to forecourts as crime ‘expands beyond pumps’",
+      "url": "https://www.talkingretail.com/news/industry-news/new-reporting-tech-available-to-forecourts-as-crime-expands-beyond-pumps-03-08-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-07-30T11:46:12+00:00",
-      "first_seen": "2026-08-02T14:07:56.474872+00:00",
+      "published_at": "2026-08-03T11:13:20+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
       "score": 75,
-      "summary": "Barking and Dagenham Council is increasing enforcement and test purchasing operations for age-restricted products like vapes during the summer holidays to ensure retailer compliance.",
-      "angle": "Highlights heightened regulatory scrutiny on age-restricted sales, necessitating robust staff training and verification procedures for retail chains.",
+      "summary": "Forecourt Eye and Facewatch have partnered to offer a new integrated crime management platform to UK forecourt operators to combat rising shop theft, fuel theft, and staff abuse.",
+      "angle": "Highlights the growing trend of integrated, technology-led security solutions for multi-site retail environments facing increased retail crime.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -951,31 +957,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "802e85c0e9f5d5bf",
+      "id": "4bb063f86fbb380d",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Rayner keeps 1.5 million-home target despite mounting challenges",
-      "url": "https://www.constructionnews.co.uk/government/rayner-keeps-1-5-million-home-target-despite-mounting-challenges-24-07-2026/",
+      "title": "PI insurance ‘cut by up to a fifth’ for some contractors",
+      "url": "https://www.constructionnews.co.uk/financial/pi-insurance-cut-by-up-to-a-fifth-for-some-contractors-03-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-07-24T10:43:18+00:00",
-      "first_seen": "2026-07-26T10:16:58.331640+00:00",
-      "score": 85,
-      "summary": "Housing secretary Angela Rayner has reaffirmed the government's commitment to a 1.5 million-home target despite rising construction costs and declining annual housing completions.",
-      "angle": "Signals long-term demand for residential building products, though high costs and planning delays remain significant market headwinds.",
+      "published_at": "2026-08-03T11:45:43+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 75,
+      "summary": "Professional indemnity insurance premiums for well-performing construction contractors and consultants have decreased by 15 to 20 per cent between the first half of 2025 and 2026.",
+      "angle": "Reduced insurance costs and improved market capacity benefit the broader construction supply chain and specialist product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ee9b49e7ffe024f9",
+      "id": "c8691b5783f15be4",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Contractors sign deals for 11 hospitals under £37bn programme",
-      "url": "https://www.constructionnews.co.uk/contracts/contractors-sign-deals-for-11-hospitals-under-37bn-programme-30-07-2026/",
+      "title": "Graham JV reaches financial close on £530m Manchester student scheme",
+      "url": "https://www.constructionnews.co.uk/buildings/graham-jv-reaches-financial-close-on-530m-manchester-student-scheme-03-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-07-30T13:34:41+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
+      "published_at": "2026-08-03T10:10:25+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
       "score": 75,
-      "summary": "Eleven contractors have signed long-term agreements to deliver hospitals under the government’s £37bn New Hospital Programme, focusing on standardised designs and modern methods of construction.",
-      "angle": "Standardised hospital designs and modern construction methods create significant procurement opportunities for specialist glazing and rooflight suppliers.",
+      "summary": "Graham has reached financial close on a £530m Manchester student housing project, which is set to be the world's largest Passivhaus-certified purpose-built student accommodation development.",
+      "angle": "Highlights the growing market demand for Passivhaus-certified, energy-efficient building standards and modern methods of construction in UK projects.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,6 +1013,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "901ffa0fd0b418de",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Designing Companion Mobile Apps for Robotics and Automation Systems",
+      "url": "https://roboticsandautomationnews.com/2026/08/03/designing-companion-mobile-apps-for-robotics-and-automation-systems/103837/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-03T12:16:56+00:00",
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 75,
+      "summary": "Companion mobile applications are increasingly essential for managing industrial robot fleets, requiring real-time telemetry, offline functionality, and secure, role-based access for remote maintenance and operations.",
+      "angle": "Highlights the shift towards mobile-first operational interfaces for remote asset management in industrial robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b1aa75f0074ceabf",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1019,36 +1039,22 @@
       "summary": "Qualcomm has acquired AI-native software infrastructure provider Modular to enhance the deployment of generative and agentic AI workloads across heterogeneous computing systems, including edge infrastructure.",
       "angle": "Improved edge AI software tools facilitate more efficient, high-performance autonomous processing for robotics hardware in industrial environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6a39d04d4051d79b",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Interview with Arduino’s Marcello Majonchi: Qualcomm acquisition ushers in new era of edge AI and robotics",
-      "url": "https://roboticsandautomationnews.com/2026/07/31/interview-with-arduinos-marcello-majonchi-qualcomm-acquisition-ushers-in-new-era-of-edge-ai-and-robotics/103805/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-07-31T11:28:05+00:00",
-      "first_seen": "2026-08-03T06:48:53.825212+00:00",
-      "score": 65,
-      "summary": "Qualcomm has acquired Arduino to integrate its AI and computing technologies into Arduino's development ecosystem, aiming to accelerate the deployment of edge AI and robotics applications.",
-      "angle": "Increased accessibility to high-performance edge AI hardware could lower development barriers for autonomous industrial and inspection robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 4,
+    "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 103,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
+    "providers_succeeded": 89,
+    "queued_candidates": 116,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
     "dropped_no_valid_date": 10,
-    "dropped_thin_page": 19,
+    "dropped_thin_page": 12,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 13,
+    "skipped_recently_evaluated": 14,
     "carried_forward": 5
   }
 }
