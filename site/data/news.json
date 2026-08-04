@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T06:48:50.615339+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on four sector-specific updates, with no new developments to report from Fertility Associates, Future Maintenance Technologies, or Petainer.",
+  "generated_at": "2026-08-04T14:08:03.671395+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-04T06:48:50.615339+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -565,6 +565,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "39e6768a3d9fba51",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "KiBa-Pro brings AI to battery cell manufacturing",
+      "url": "https://www.electrive.com/2026/08/04/kiba-pro-brings-ai-to-battery-cell-manufacturing/",
+      "source": "electrive.com",
+      "published_at": "2026-08-04T12:00:00+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 65,
+      "summary": "The KiBa-Pro project has launched in Germany to develop AI-driven manufacturing processes for lithium iron phosphate battery cells, aiming to improve production efficiency and cell performance.",
+      "angle": "Advances in LFP battery manufacturing technology could lead to lower costs and improved performance for e-bike power systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "522ac7b4e5b407e6",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Europe misses out on billion-euro battery cell profits",
+      "url": "https://www.electrive.com/2026/08/04/europe-misses-out-on-billion-euro-battery-cell-profits/",
+      "source": "electrive.com",
+      "published_at": "2026-08-04T09:30:00+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 65,
+      "summary": "A Deloitte study indicates that European companies face significant revenue losses due to heavy reliance on Asian manufacturers for battery cell production and value chain components.",
+      "angle": "Highlights supply chain risks and potential future policy shifts regarding battery sourcing for European electric mobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7d764890b4225ca0",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -590,20 +618,6 @@
       "score": 65,
       "summary": "The German-Chilean PaNaBat research project is developing sustainable circular economy methods for battery materials, including advanced recycling and efficient material recovery processes.",
       "angle": "Advancements in sustainable battery material recycling and circular economy practices impact long-term supply chain and regulatory compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9fbace22a57a4859",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "ID. Polo base version now available for €24,995",
-      "url": "https://www.electrive.com/2026/07/27/id-polo-base-version-now-available-for-e24995/",
-      "source": "electrive.com",
-      "published_at": "2026-07-27T08:45:00+00:00",
-      "first_seen": "2026-07-27T10:31:25.675205+00:00",
-      "score": 65,
-      "summary": "Volkswagen has launched a base version of the electric ID. Polo, priced at €24,995, featuring a 37kWh battery and a 323km WLTP range.",
-      "angle": "Increased availability of affordable electric cars impacts the competitive landscape for urban micromobility and alternative transport solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -747,6 +761,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "53d0353710ac4e1b",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Saudi Startup MOZN Secures HUMAIN Investment to Scale AI Globally",
+      "url": "https://cairoscene.com/Business/Saudi-Startup-MOZN-Secures-HUMAIN-Investment-to-Scale-AI-Globally",
+      "source": "cairoscene.com",
+      "published_at": "2026-08-04T13:30:00+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 85,
+      "summary": "Saudi enterprise AI firm MOZN has secured a strategic investment and partnership with HUMAIN to develop secure, production-scale AI solutions for financial and public sector organisations.",
+      "angle": "Highlights the rapid growth of sovereign-backed AI infrastructure and enterprise-grade deployment models in highly regulated regional markets.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "c18fa0caaf352fd5",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -761,20 +789,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "73692dd92e3aada0",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Agon raises £22.5m to build AI training model for defence",
-      "url": "https://www.uktech.news/defence-tech/agon-raises-22-5m-to-build-ai-training-model-for-defence-20260730",
-      "source": "uktech.news",
-      "published_at": "2026-07-30T08:00:59+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 85,
-      "summary": "UK-based defence AI startup Agon has raised £22.5m to develop a synthetic battle arena for training and validating autonomous weapon systems in contested environments.",
-      "angle": "Highlights increasing demand for sovereign AI infrastructure and simulation capabilities within the UK defence and national security sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "fb8b4c1ad6d023b5",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -786,6 +800,20 @@
       "score": 90,
       "summary": "Post Office data shows record business cash deposits and increased personal withdrawals in Q2 2026, driven by summer weather and sports events.",
       "angle": "Highlights the ongoing critical role of Post Office cash services for local businesses and consumer spending habits.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9124fbbe3a0a597b",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "New tech sees Met Police quadruple number of shoplifters brought to justice",
+      "url": "https://www.talkingretail.com/featured/new-tech-sees-met-police-quadruple-number-of-shoplifters-brought-to-justice-04-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-04T09:54:19+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 85,
+      "summary": "The Metropolitan Police has quadrupled shoplifter conviction rates in London by implementing the Auror platform, which allows retailers to submit digital evidence directly to officers.",
+      "angle": "Digital evidence reporting platforms significantly improve retail security outcomes and police collaboration for high-street store chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -814,20 +842,6 @@
       "score": 85,
       "summary": "Research from PayPoint indicates that 86.5% of UK consumers value flexible delivery and collection options, with 88.3% prioritising proximity to home or work for parcel services.",
       "angle": "Validates the strategic importance of parcel services as a key footfall driver for local retail outlets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f57e1925f4a77477",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "New reporting tech available to forecourts as crime ‘expands beyond pumps’",
-      "url": "https://www.talkingretail.com/news/industry-news/new-reporting-tech-available-to-forecourts-as-crime-expands-beyond-pumps-03-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-03T11:13:20+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
-      "score": 75,
-      "summary": "Forecourt Eye and Facewatch have partnered to offer a new integrated crime management platform to UK forecourt operators to combat rising shop theft, fuel theft, and staff abuse.",
-      "angle": "Highlights the growing trend of integrated, technology-led security solutions for multi-site retail environments facing increased retail crime.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -901,6 +915,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4c0f1bc21c81e7c1",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Out of the shadows: Why transparency is the future for unregulated sperm donation",
+      "url": "https://www.progress.org.uk/out-of-the-shadows-why-transparency-is-the-future-for-unregulated-sperm-donation/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-03T16:18:25+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 75,
+      "summary": "A research group has established foundational principles for a voluntary trust framework to improve transparency and data security within the unregulated peer-to-peer sperm donation market.",
+      "angle": "Highlights growing pressure for traceability in alternative fertility pathways and potential integration between clinical and non-clinical sectors.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1cfb46e07a320c01",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -929,17 +957,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d16243e742293d8a",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Experts call for review of UK surrogacy law",
-      "url": "https://www.progress.org.uk/experts-call-for-review-of-uk-surrogacy-law/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-07-27T16:09:40+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 75,
-      "summary": "Legal and fertility professionals are urging the UK government to reform surrogacy laws, noting that most UK babies born via surrogacy in 2025 were conceived abroad.",
-      "angle": "Highlights growing demand for cross-border surrogacy services and the impact of regulatory frameworks on international fertility patient flows.",
+      "id": "71b03cf5d17b843a",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Falling demand in challenging markets hits builders merchants’ revenues",
+      "url": "https://www.constructionnews.co.uk/financial/falling-demand-in-challenging-markets-hits-builders-merchants-revenues-04-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-04T11:45:08+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 85,
+      "summary": "Major UK building product suppliers Travis Perkins and SIG reported declining revenues in the first half of 2026, citing subdued market demand and challenging construction activity.",
+      "angle": "Signals a broader downturn in UK construction demand and pricing pressure impacting the building products supply chain.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "082b0a079f7821eb",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction firm failures hit record July high",
+      "url": "https://www.constructionnews.co.uk/financial/monthly-construction-administrations/construction-firm-failures-hit-record-july-high-04-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-04T10:13:29+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "score": 85,
+      "summary": "UK construction sector insolvencies reached a record July high of 32 failures, driven by rising costs, reduced activity, and cashflow pressures across the supply chain.",
+      "angle": "Highlights systemic credit risk, supply chain instability, and potential demand softening within the UK construction market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -968,34 +1010,6 @@
       "score": 85,
       "summary": "The UK government has implemented new steel import tariffs and reduced tariff-free quotas, leading to concerns regarding price volatility, supply chain disruption, and increased material costs for construction.",
       "angle": "Rising steel costs and supply chain instability directly impact manufacturing overheads and project viability for construction product firms.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4bb063f86fbb380d",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "PI insurance ‘cut by up to a fifth’ for some contractors",
-      "url": "https://www.constructionnews.co.uk/financial/pi-insurance-cut-by-up-to-a-fifth-for-some-contractors-03-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-03T11:45:43+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
-      "score": 75,
-      "summary": "Professional indemnity insurance premiums for well-performing construction contractors and consultants have decreased by 15 to 20 per cent between the first half of 2025 and 2026.",
-      "angle": "Reduced insurance costs and improved market capacity benefit the broader construction supply chain and specialist product manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c8691b5783f15be4",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Graham JV reaches financial close on £530m Manchester student scheme",
-      "url": "https://www.constructionnews.co.uk/buildings/graham-jv-reaches-financial-close-on-530m-manchester-student-scheme-03-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-03T10:10:25+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
-      "score": 75,
-      "summary": "Graham has reached financial close on a £530m Manchester student housing project, which is set to be the world's largest Passivhaus-certified purpose-built student accommodation development.",
-      "angle": "Highlights the growing market demand for Passivhaus-certified, energy-efficient building standards and modern methods of construction in UK projects.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1041,17 +1055,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "901ffa0fd0b418de",
+      "id": "0e4ef1a7bdd8e6bd",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Designing Companion Mobile Apps for Robotics and Automation Systems",
-      "url": "https://roboticsandautomationnews.com/2026/08/03/designing-companion-mobile-apps-for-robotics-and-automation-systems/103837/",
+      "title": "Former DeepMind team launches AI robotics startup with robots that learn from workers",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-03T12:16:56+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "published_at": "2026-08-04T11:55:51+00:00",
+      "first_seen": "2026-08-04T14:08:03.671395+00:00",
       "score": 75,
-      "summary": "Companion mobile applications are increasingly essential for managing industrial robot fleets, requiring real-time telemetry, offline functionality, and secure, role-based access for remote maintenance and operations.",
-      "angle": "Highlights the shift towards mobile-first operational interfaces for remote asset management in industrial robotics.",
+      "summary": "Former DeepMind researchers have launched Reimagine Robotics, a startup developing robots that learn tasks directly from human workers through a 'monkey-see, monkey-do' demonstration process.",
+      "angle": "Advances in intuitive, human-led robot training could significantly reduce deployment times and programming complexity for industrial inspection robotics.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1061,14 +1075,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 116,
-    "llm_requests_attempted": 92,
-    "llm_requests_succeeded": 92,
-    "dropped_no_valid_date": 9,
-    "dropped_thin_page": 14,
+    "providers_succeeded": 92,
+    "queued_candidates": 126,
+    "llm_requests_attempted": 97,
+    "llm_requests_succeeded": 97,
+    "dropped_no_valid_date": 17,
+    "dropped_thin_page": 11,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 13,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 6
   }
 }
