@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T14:07:52.546890+00:00",
-  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill, where analysts have reiterated a buy rating citing AI-driven growth and ELA momentum.",
+  "generated_at": "2026-08-04T06:48:50.615339+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on four sector-specific updates, with no new developments to report from Fertility Associates, Future Maintenance Technologies, or Petainer.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-08-03T06:48:53.825212+00:00",
+  "last_digest_sent_at": "2026-08-04T06:48:50.615339+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 6,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "43ae0f8a49652b55",
@@ -677,6 +677,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a79e9ddcb3bdfe94",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Rapid Testing Offers Path to More Sustainable Material Choices",
+      "url": "https://www.newswise.com/articles/rapid-testing-offers-path-to-more-sustainable-material-choices",
+      "source": "newswise.com",
+      "published_at": "2026-08-03T17:15:00+00:00",
+      "first_seen": "2026-08-04T06:48:50.615339+00:00",
+      "score": 75,
+      "summary": "Georgia Tech researchers have developed a high-throughput testing protocol to evaluate the fracture characteristics and durability of recycled plastics under realistic environmental conditions.",
+      "angle": "Provides a methodology to validate the performance and sustainability of rPET, addressing risks of premature material failure.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "a9130df8144fa66c",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -873,6 +887,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e2cd35cd7ffec51d",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Concerns raised over fertility clinics advertising mitochondrial donation",
+      "url": "https://www.progress.org.uk/concerns-raised-over-fertility-clinics-advertising-mitochondrial-donation/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-03T17:19:55+00:00",
+      "first_seen": "2026-08-04T06:48:50.615339+00:00",
+      "score": 75,
+      "summary": "Fertility clinics in several jurisdictions are facing criticism for marketing mitochondrial donation as an unproven 'egg rejuvenation' treatment for women without mitochondrial disease.",
+      "angle": "Highlights regulatory and ethical risks regarding the marketing of experimental, unproven reproductive technologies in the global fertility market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1cfb46e07a320c01",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Body fat percentage – better than BMI at predicting male fertility?",
+      "url": "https://www.progress.org.uk/body-fat-percentage-better-than-bmi-at-predicting-male-fertility/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-03T15:57:25+00:00",
+      "first_seen": "2026-08-04T06:48:50.615339+00:00",
+      "score": 75,
+      "summary": "A Danish study indicates that body fat percentage is a more accurate predictor of male sperm count and reproductive health than traditional BMI measurements.",
+      "angle": "Refines diagnostic criteria for male infertility, potentially improving patient screening and treatment outcomes in fertility clinics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "44ce6c6f0a5ff3ea",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -898,34 +940,6 @@
       "score": 75,
       "summary": "Legal and fertility professionals are urging the UK government to reform surrogacy laws, noting that most UK babies born via surrogacy in 2025 were conceived abroad.",
       "angle": "Highlights growing demand for cross-border surrogacy services and the impact of regulatory frameworks on international fertility patient flows.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "588556c2d64cd1cd",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Transformative embryo research: Who gets to contribute?",
-      "url": "https://www.progress.org.uk/transformative-embryo-research-who-gets-to-contribute/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-07-27T16:05:36+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 75,
-      "summary": "A landmark study using base editing in human embryos highlights the critical role of patient-donated gametes and embryos in advancing reproductive research and understanding embryonic development.",
-      "angle": "Highlights the growing importance of facilitating patient-led research donation pathways within fertility clinic operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e8920894df8829f5",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Germany's former health minister resigns over surrogate-born child",
-      "url": "https://www.progress.org.uk/germanys-former-health-minister-resigns-over-surrogate-born-child/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-07-27T16:18:38+00:00",
-      "first_seen": "2026-07-31T06:48:59.040648+00:00",
-      "score": 65,
-      "summary": "German politician Jens Spahn has resigned following public controversy over his use of surrogacy services in the USA, which remains illegal within Germany.",
-      "angle": "Highlights ongoing regulatory friction and ethical debates surrounding cross-border surrogacy in restrictive European markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -985,6 +999,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "053775a35c4ab6db",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "How Automation Companies Add AI Without Locking into One Provider",
+      "url": "https://roboticsandautomationnews.com/2026/08/03/how-automation-companies-add-ai-without-locking-into-one-provider/103847/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-03T15:16:27+00:00",
+      "first_seen": "2026-08-04T06:48:50.615339+00:00",
+      "score": 85,
+      "summary": "Automation companies are increasingly adopting multi-model AI gateways to avoid vendor lock-in and maintain flexibility as the AI model market evolves rapidly.",
+      "angle": "Provides a strategic architectural framework for managing AI dependencies in long-term industrial inspection hardware and software deployments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2f978353f87533fa",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1025,20 +1053,6 @@
       "summary": "Companion mobile applications are increasingly essential for managing industrial robot fleets, requiring real-time telemetry, offline functionality, and secure, role-based access for remote maintenance and operations.",
       "angle": "Highlights the shift towards mobile-first operational interfaces for remote asset management in industrial robotics.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b1aa75f0074ceabf",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Qualcomm completes acquisition of software platform provider Modular",
-      "url": "https://roboticsandautomationnews.com/2026/07/30/qualcomm-completes-acquisition-of-software-platform-provider-modular/103765/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-07-30T10:13:55+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 75,
-      "summary": "Qualcomm has acquired AI-native software infrastructure provider Modular to enhance the deployment of generative and agentic AI workloads across heterogeneous computing systems, including edge infrastructure.",
-      "angle": "Improved edge AI software tools facilitate more efficient, high-performance autonomous processing for robotics hardware in industrial environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1047,14 +1061,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
+    "providers_succeeded": 87,
     "queued_candidates": 116,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
-    "dropped_no_valid_date": 10,
-    "dropped_thin_page": 12,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 14,
-    "carried_forward": 5
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
+    "dropped_no_valid_date": 9,
+    "dropped_thin_page": 14,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 13,
+    "carried_forward": 6
   }
 }
