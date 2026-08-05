@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-04T14:08:03.671395+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-05T06:48:54.249029+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from McGraw Hill or Petainer.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-08-04T06:48:50.615339+00:00",
+  "last_digest_sent_at": "2026-08-05T06:48:54.249029+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -691,6 +691,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "416aa60a2a502e9b",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Amcor study finds recyclable packaging a key driver for nut sales",
+      "url": "https://www.packagingnews.co.uk/news/environment/recycling/amcor-study-finds-recyclable-packaging-a-key-driver-for-nut-sales-04-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-04T07:02:48+00:00",
+      "first_seen": "2026-08-05T06:48:54.249029+00:00",
+      "score": 75,
+      "summary": "An Amcor study reveals that 62% of consumers are more likely to purchase nuts in recyclable packaging, with many willing to pay a premium for sustainable options.",
+      "angle": "Highlights growing consumer demand and regulatory pressure for recyclable packaging across European food and beverage markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a79e9ddcb3bdfe94",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -716,20 +730,6 @@
       "score": 75,
       "summary": "WRAP's 2026 survey indicates that recycling rates at public events in Wales remain low, highlighting a significant gap between home and away-from-home recycling habits.",
       "angle": "Highlights market demand for improved circularity and infrastructure for beverage packaging at festivals and public venues.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "47a9effa7d4951ab",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Winfried Muehling | Earth Overshoot Day puts the spotlight on circular packaging",
-      "url": "https://www.packagingnews.co.uk/features/comment/winfried-muehling-earth-overshoot-day-puts-the-spotlight-on-circular-packaging-30-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-30T10:27:10+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 75,
-      "summary": "Pro Carton's 2026 survey indicates that 37% of European consumers have switched brands due to packaging concerns, with 56% prioritising sustainable living.",
-      "angle": "Highlights increasing consumer demand for circular packaging and the alignment of legislative trends with sustainability expectations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -845,20 +845,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4e8f74088b0cc755",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Who is Pralhad Joshi ? Senior BJP leader takes charge of Education Ministry after Dharmendra Pradhan exit",
-      "url": "https://www.businesstoday.in/india/story/who-is-pralhad-joshi-modi-names-veteran-karnataka-bjp-leader-to-lead-education-ministry-after-pradhans-exit-545249-2026-07-25",
-      "source": "businesstoday.in",
-      "published_at": "2026-07-25T16:30:00+00:00",
-      "first_seen": "2026-08-01T06:48:51.408680+00:00",
-      "score": 90,
-      "summary": "Pralhad Joshi has been appointed as India's new Union Minister of Education, succeeding Dharmendra Pradhan to oversee the National Education Policy and ongoing higher education reforms.",
-      "angle": "A change in ministerial leadership often signals shifts in regulatory priorities and implementation strategies for national education policy.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "99df0debf1072fc1",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -898,6 +884,20 @@
       "score": 85,
       "summary": "The Gates Foundation has set a goal to help 10 million learners earn credentials of value by 2045 through course redesign, credit-transfer improvements, and better academic advising.",
       "angle": "Signals a major philanthropic shift toward credential-based learning, impacting curriculum design and postsecondary educational pathways.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ee7c645cb56248f0",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Labor Watch: Big SUNY Contract Ratified, AAUP Dives Into Politics",
+      "url": "https://www.insidehighered.com/news/faculty/labor-unionization/2026/08/04/labor-watch-suny-contract-ratified-aaup-gets-political",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-04T07:00:00+00:00",
+      "first_seen": "2026-08-05T06:48:54.249029+00:00",
+      "score": 75,
+      "summary": "The new SUNY faculty contract includes mandatory guardrails on artificial intelligence use, ensuring human oversight and accountability for all AI-generated course content.",
+      "angle": "Establishes a precedent for faculty-led AI governance and contractual limitations on technology integration in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1076,13 +1076,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 92,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 97,
-    "llm_requests_succeeded": 97,
-    "dropped_no_valid_date": 17,
-    "dropped_thin_page": 11,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
+    "dropped_no_valid_date": 24,
+    "dropped_thin_page": 12,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
 }
