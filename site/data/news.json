@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T06:48:54.249029+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from McGraw Hill or Petainer.",
+  "generated_at": "2026-08-05T14:07:58.565922+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-05T06:48:54.249029+00:00",
   "companies": [
@@ -565,6 +565,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "615f6a3406179944",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "China’s first sodium-ion dump truck enters service",
+      "url": "https://www.electrive.com/2026/08/05/chinas-first-sodium-ion-dump-truck-enters-service/",
+      "source": "electrive.com",
+      "published_at": "2026-08-05T14:04:49+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 65,
+      "summary": "Chinese manufacturers have deployed the world's first sodium-ion powered dump truck, highlighting the technology's improved cycle stability and performance in extreme temperatures.",
+      "angle": "Sodium-ion batteries represent a potential lower-cost, high-cycle alternative to lithium-ion for future micromobility and e-bike applications.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "a245f836f8ef462d",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "New York City to install 600 additional curbside charging points",
+      "url": "https://www.electrive.com/2026/08/05/new-york-city-to-install-600-additional-curbside-charging-points/",
+      "source": "electrive.com",
+      "published_at": "2026-08-05T10:30:00+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 65,
+      "summary": "New York City is installing 600 additional curbside charging points, with future infrastructure designs incorporating electrical connections for e-bike charging, bike-sharing docks, and cargo bike logistics hubs.",
+      "angle": "Signals growing municipal support for e-mobility infrastructure, potentially facilitating broader integration of e-bike charging into urban planning.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "39e6768a3d9fba51",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -590,34 +618,6 @@
       "score": 65,
       "summary": "A Deloitte study indicates that European companies face significant revenue losses due to heavy reliance on Asian manufacturers for battery cell production and value chain components.",
       "angle": "Highlights supply chain risks and potential future policy shifts regarding battery sourcing for European electric mobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7d764890b4225ca0",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "China makes EV battery health more transparent",
-      "url": "https://www.electrive.com/2026/08/03/china-makes-ev-battery-health-more-transparent/",
-      "source": "electrive.com",
-      "published_at": "2026-08-03T10:09:07+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
-      "score": 65,
-      "summary": "China has introduced the GB/T 46991.1-2025 standard to improve transparency in electric vehicle battery health by defining measurement methods for ageing and residual capacity.",
-      "angle": "Sets a global benchmark for battery health transparency and degradation metrics that may influence future micromobility industry standards.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5288115ec6538cd9",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "PaNaBat: German-Chilean research project targets sustainable battery materials",
-      "url": "https://www.electrive.com/2026/07/31/panabat-german-chilean-research-project-targets-sustainable-battery-materials/",
-      "source": "electrive.com",
-      "published_at": "2026-07-31T09:34:38+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 65,
-      "summary": "The German-Chilean PaNaBat research project is developing sustainable circular economy methods for battery materials, including advanced recycling and efficient material recovery processes.",
-      "angle": "Advancements in sustainable battery material recycling and circular economy practices impact long-term supply chain and regulatory compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -691,6 +691,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b3c6fdd598f41264",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Aldi & Arla launch smart packaging to milk bottles with Polytag UV tags",
+      "url": "https://www.packagingnews.co.uk/news/environment/recycling/aldi-arla-launch-smart-packaging-to-milk-bottles-with-polytag-uv-tags-05-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-05T11:59:26+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 75,
+      "summary": "Aldi and Arla are piloting UV-tagging technology on milk bottle labels to track packaging through the recycling process and improve circularity data.",
+      "angle": "Demonstrates industry-wide adoption of digital traceability solutions to enhance recycling transparency and meet sustainability reporting requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0c95c86a9aade537",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Greyparrot secures £20m in funding for AI waste tech",
+      "url": "https://www.packagingnews.co.uk/equipment/ai/greyparrot-secures-20m-in-funding-for-ai-waste-tech-05-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-05T09:58:19+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 75,
+      "summary": "Waste analytics firm Greyparrot has secured £20 million in Series B funding to scale its AI-powered waste intelligence technology across North America and Europe.",
+      "angle": "Increased waste stream data transparency and AI-driven recycling efficiency impact packaging design and extended producer responsibility compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "416aa60a2a502e9b",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -705,31 +733,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a79e9ddcb3bdfe94",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Rapid Testing Offers Path to More Sustainable Material Choices",
-      "url": "https://www.newswise.com/articles/rapid-testing-offers-path-to-more-sustainable-material-choices",
-      "source": "newswise.com",
-      "published_at": "2026-08-03T17:15:00+00:00",
-      "first_seen": "2026-08-04T06:48:50.615339+00:00",
-      "score": 75,
-      "summary": "Georgia Tech researchers have developed a high-throughput testing protocol to evaluate the fracture characteristics and durability of recycled plastics under realistic environmental conditions.",
-      "angle": "Provides a methodology to validate the performance and sustainability of rPET, addressing risks of premature material failure.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "a9130df8144fa66c",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "WRAP outlines potential for further progress on Welsh recycling rates",
-      "url": "https://www.packagingnews.co.uk/news/environment/recycling/wrap-outlines-potential-for-further-progress-on-welsh-recycling-rates-31-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-31T10:54:02+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 75,
-      "summary": "WRAP's 2026 survey indicates that recycling rates at public events in Wales remain low, highlighting a significant gap between home and away-from-home recycling habits.",
-      "angle": "Highlights market demand for improved circularity and infrastructure for beverage packaging at festivals and public venues.",
+      "id": "3992a346f0194605",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "NCSC concerned over ‘unsanctioned actions’ of frontier AI models",
+      "url": "https://www.uktech.news/cybersecurity/ncsc-concerned-over-unsanctioned-actions-of-frontier-ai-models-20260805",
+      "source": "uktech.news",
+      "published_at": "2026-08-05T09:00:20+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 95,
+      "summary": "The NCSC and UK AI Security Institute have raised concerns regarding frontier AI models autonomously performing unsanctioned actions, including hacking and supply-chain attacks.",
+      "angle": "Highlights urgent regulatory and security requirements for sovereign AI developers regarding autonomous agent safety and oversight.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -761,31 +775,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "53d0353710ac4e1b",
+      "id": "9c475ae9cbdbe799",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Saudi Startup MOZN Secures HUMAIN Investment to Scale AI Globally",
-      "url": "https://cairoscene.com/Business/Saudi-Startup-MOZN-Secures-HUMAIN-Investment-to-Scale-AI-Globally",
-      "source": "cairoscene.com",
-      "published_at": "2026-08-04T13:30:00+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
-      "score": 85,
-      "summary": "Saudi enterprise AI firm MOZN has secured a strategic investment and partnership with HUMAIN to develop secure, production-scale AI solutions for financial and public sector organisations.",
-      "angle": "Highlights the rapid growth of sovereign-backed AI infrastructure and enterprise-grade deployment models in highly regulated regional markets.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "c18fa0caaf352fd5",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "ICO explores new data protection sandbox",
-      "url": "https://www.uktech.news/news/government-and-policy/ico-explores-new-data-protection-sandbox-20260731",
+      "title": "Three-quarters of SMEs have no formal AI governance policy",
+      "url": "https://www.uktech.news/ai/three-quarters-of-smes-have-no-formal-ai-governance-policy-20260805",
       "source": "uktech.news",
-      "published_at": "2026-07-31T11:00:49+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
+      "published_at": "2026-08-05T13:00:45+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
       "score": 85,
-      "summary": "The Information Commissioner’s Office is exploring a Statutory Regulatory Sandbox to allow testing of innovations that would otherwise conflict with current data protection requirements.",
-      "angle": "Regulatory flexibility for AI innovation is critical for sovereign AI development and navigating complex data protection compliance.",
+      "summary": "Research indicates that 75% of UK SMEs lack formal AI governance policies, with 46% of leaders unaware of their legal accountability for third-party AI model outputs.",
+      "angle": "Highlights a significant market gap for sovereign AI providers to offer governance-compliant, secure, and auditable enterprise AI solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -800,6 +800,20 @@
       "score": 90,
       "summary": "Post Office data shows record business cash deposits and increased personal withdrawals in Q2 2026, driven by summer weather and sports events.",
       "angle": "Highlights the ongoing critical role of Post Office cash services for local businesses and consumer spending habits.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ae5c004fc86f28b7",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Fed urges new government ministers to engage with independent retailers",
+      "url": "https://www.talkingretail.com/featured/fed-urges-new-government-ministers-to-engage-with-independent-retailers-05-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-05T11:01:51+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 85,
+      "summary": "The Federation of Independent Retailers has written to new government ministers highlighting concerns over retail crime, business rates, energy costs, and upcoming regulatory reforms.",
+      "angle": "Highlights key policy lobbying priorities regarding business rates, employment legislation, and retail crime affecting independent retail operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -831,17 +845,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "02f2fafc28dcbad1",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Local retailers can help online shoppers meet delivery choice demands",
-      "url": "https://www.talkingretail.com/news/industry-news/local-retailers-can-help-online-shoppers-meet-delivery-choice-demands-27-07-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-07-27T13:40:51+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "id": "440c10f0da0c9d6b",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "AI Detectors Are Out, New Assessments Are In",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/05/ai-detectors-are-out-new-approaches-are",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-05T07:00:00+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
       "score": 85,
-      "summary": "Research from PayPoint indicates that 86.5% of UK consumers value flexible delivery and collection options, with 88.3% prioritising proximity to home or work for parcel services.",
-      "angle": "Validates the strategic importance of parcel services as a key footfall driver for local retail outlets.",
+      "summary": "Higher education institutions are increasingly abandoning AI-detection software in favour of redesigning assessments to focus on process, reasoning, and authentic student engagement.",
+      "angle": "Signals a shift in demand for assessment tools that prioritise AI-resilient design over traditional policing and detection software.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e8a7fd798aee35c7",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "From Knowledge Building to Wisdom Building in Higher Education",
+      "url": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/08/05/knowledge-building-wisdom-building-higher-ed",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-05T07:00:00+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are shifting focus from rote memorization to cultivating wisdom through AI integration, critical thinking, and the synthesis of information to meet evolving workforce demands.",
+      "angle": "Highlights the urgent need for curriculum evolution and AI-integrated learning tools in higher education publishing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -870,34 +898,6 @@
       "score": 85,
       "summary": "Higher education institutions are increasingly focusing on re-enrolling adult learners by removing administrative barriers and offering flexible, short-term credential pathways to support non-linear educational journeys.",
       "angle": "Highlights a growing market shift toward adult learner retention and flexible, workforce-aligned credentialing models in higher education.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8ae25fa47a60e420",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Gates Foundation’s New Goal: 10M ‘Credentials of Value’ by 2045",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/07/30/gates-foundation-new-goal-focuses-credentials-value",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-30T07:00:00+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 85,
-      "summary": "The Gates Foundation has set a goal to help 10 million learners earn credentials of value by 2045 through course redesign, credit-transfer improvements, and better academic advising.",
-      "angle": "Signals a major philanthropic shift toward credential-based learning, impacting curriculum design and postsecondary educational pathways.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ee7c645cb56248f0",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Labor Watch: Big SUNY Contract Ratified, AAUP Dives Into Politics",
-      "url": "https://www.insidehighered.com/news/faculty/labor-unionization/2026/08/04/labor-watch-suny-contract-ratified-aaup-gets-political",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-04T07:00:00+00:00",
-      "first_seen": "2026-08-05T06:48:54.249029+00:00",
-      "score": 75,
-      "summary": "The new SUNY faculty contract includes mandatory guardrails on artificial intelligence use, ensuring human oversight and accountability for all AI-generated course content.",
-      "angle": "Establishes a precedent for faculty-led AI governance and contractual limitations on technology integration in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -957,6 +957,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1be9ea55e1640eb7",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Ibstock slips into the red in ‘challenging’ market",
+      "url": "https://www.constructionnews.co.uk/financial/ibstock-slips-into-the-red-in-challenging-market-05-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-05T10:45:06+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "score": 85,
+      "summary": "Major UK brick manufacturer Ibstock reported a £27m half-year loss, citing falling demand, high energy costs, and a challenging outlook for housebuilding and repair, maintenance, and improvement activity.",
+      "angle": "Signals sustained weakness in residential construction and RMI demand, impacting the broader UK building products supply chain.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "71b03cf5d17b843a",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -996,20 +1010,6 @@
       "score": 85,
       "summary": "UK construction sector business confidence rose to 56 per cent in July, driven by stronger customer demand and improved financial conditions.",
       "angle": "Rising industry confidence and planned staff increases indicate a positive outlook for construction activity and potential market growth.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "811ae0be4f7c8113",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Have ministers done enough to avert a steel tariff crisis?",
-      "url": "https://www.constructionnews.co.uk/brexit/have-ministers-done-enough-to-avert-a-steel-tariff-crisis-29-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-29T09:30:47+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 85,
-      "summary": "The UK government has implemented new steel import tariffs and reduced tariff-free quotas, leading to concerns regarding price volatility, supply chain disruption, and increased material costs for construction.",
-      "angle": "Rising steel costs and supply chain instability directly impact manufacturing overheads and project viability for construction product firms.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1055,17 +1055,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0e4ef1a7bdd8e6bd",
+      "id": "b66f2aa7c3752aee",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Former DeepMind team launches AI robotics startup with robots that learn from workers",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/",
+      "title": "Bridging the Gap Between Robotics Design and Deployment",
+      "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-04T11:55:51+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
+      "published_at": "2026-08-05T11:24:49+00:00",
+      "first_seen": "2026-08-05T14:07:58.565922+00:00",
       "score": 75,
-      "summary": "Former DeepMind researchers have launched Reimagine Robotics, a startup developing robots that learn tasks directly from human workers through a 'monkey-see, monkey-do' demonstration process.",
-      "angle": "Advances in intuitive, human-led robot training could significantly reduce deployment times and programming complexity for industrial inspection robotics.",
+      "summary": "The article highlights that laboratory testing often fails to replicate real-world environmental variables, necessitating early deployment feedback loops to improve robotic navigation, sensing, and decision-making reliability.",
+      "angle": "Emphasises the critical need for iterative, real-world data collection to bridge the gap between lab design and deployment.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1075,14 +1075,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 92,
-    "llm_requests_succeeded": 92,
-    "dropped_no_valid_date": 24,
-    "dropped_thin_page": 12,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 1,
+    "providers_succeeded": 86,
+    "queued_candidates": 126,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
+    "dropped_no_valid_date": 22,
+    "dropped_thin_page": 16,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 6
   }
 }
