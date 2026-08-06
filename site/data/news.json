@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T14:07:58.565922+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-06T06:48:54.291593+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from Clearway Group, Molinare, Petainer, Roof-Maker, or Swytch.",
   "archive_story_count": 9,
-  "last_digest_sent_at": "2026-08-05T06:48:54.249029+00:00",
+  "last_digest_sent_at": "2026-08-06T06:48:54.291593+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -509,6 +509,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1f9854109c82c0cd",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "UK schools turn to security tech as Martyn’s Law approaches",
+      "url": "https://securityjournaluk.com/schools-turn-to-tech-for-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-05T13:53:32+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
+      "score": 85,
+      "summary": "UK schools are increasing investment in security technology to meet upcoming compliance requirements under the Terrorism (Protection of Premises) Act 2025, also known as Martyn’s Law.",
+      "angle": "Regulatory shifts under Martyn’s Law are driving significant demand for site security and emergency response solutions in education.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "901db75666e4f68f",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Designing out HVM threats with flexible barriers",
+      "url": "https://securityjournaluk.com/design-out-hvm-threat-with-flexible-barriers/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-05T06:30:00+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
+      "score": 85,
+      "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn's Law, is driving increased demand for integrated, aesthetically considered hostile vehicle mitigation solutions in public and commercial spaces.",
+      "angle": "Highlights regulatory shifts and the growing market requirement for design-led, compliant security infrastructure in the UK.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "84a61479d8915344",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -537,31 +565,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "cf333f95548744e4",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Carlisle Support Services launches free Martyn’s Law self-assessment tool",
-      "url": "https://securityjournaluk.com/carlisle-support-services-free-martyns-tool/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-28T07:01:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "Carlisle Support Services has launched a free self-assessment tool to help organisations evaluate their compliance with the Terrorism (Protection of Premises) Act 2025, also known as Martyn’s Law.",
-      "angle": "Highlights increasing market demand for compliance-led security consultancy and operational readiness tools under new UK counter-terrorism legislation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c41548d36629bdb2",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Embedding protective security in the design process in a market town",
-      "url": "https://securityjournaluk.com/protective-security-design-safecrowds-group/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-27T07:38:00+00:00",
-      "first_seen": "2026-07-28T16:06:47.092357+00:00",
-      "score": 85,
-      "summary": "Safecrowds Group conducted a Threat, Vulnerability and Risk Assessment for a market town regeneration project, integrating hostile vehicle mitigation measures into the early design phase.",
-      "angle": "Highlights the growing industry trend of integrating protective security and counter-terrorism measures into public realm urban design.",
+      "id": "8d73a06ed7d1eff8",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Study: Air exposure accelerates ageing in nickel-rich batteries",
+      "url": "https://www.electrive.com/2026/08/05/study-air-exposure-accelerates-ageing-in-nickel-rich-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-08-05T14:30:00+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
+      "score": 65,
+      "summary": "Researchers discovered that air exposure during precursor storage causes chemical degradation in cobalt-free, nickel-rich cathodes, significantly accelerating battery capacity loss.",
+      "angle": "Highlights critical manufacturing and supply chain quality control requirements for next-generation high-energy battery development.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -607,20 +621,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "522ac7b4e5b407e6",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Europe misses out on billion-euro battery cell profits",
-      "url": "https://www.electrive.com/2026/08/04/europe-misses-out-on-billion-euro-battery-cell-profits/",
-      "source": "electrive.com",
-      "published_at": "2026-08-04T09:30:00+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
-      "score": 65,
-      "summary": "A Deloitte study indicates that European companies face significant revenue losses due to heavy reliance on Asian manufacturers for battery cell production and value chain components.",
-      "angle": "Highlights supply chain risks and potential future policy shifts regarding battery sourcing for European electric mobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "3026ae462b392b92",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -649,31 +649,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5944fe13ab828c2f",
+      "id": "288f4412cf968cdc",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Vida Scene Search: AI Scene-Level Search With No Manual Logging Required",
-      "url": "https://postperspective.com/vida-scene-search-ai-scene-level-search-with-no-manual-logging-required/",
+      "title": "DP Celiana Cárdenas on Shooting Apple TV’s Cape Fear",
+      "url": "https://postperspective.com/dp-celiana-cardenas-on-shooting-apple-tvs-cape-fear/",
       "source": "postperspective.com",
-      "published_at": "2026-07-30T22:53:06+00:00",
-      "first_seen": "2026-08-02T06:48:50.933508+00:00",
+      "published_at": "2026-08-05T17:15:19+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
       "score": 65,
-      "summary": "Vida has launched an AI-powered indexing tool, Scene Search, which enables natural language searching within video libraries without requiring manual metadata logging.",
-      "angle": "AI-driven automation is increasingly replacing manual logging, improving asset discoverability and workflow efficiency in post-production environments.",
+      "summary": "Cinematographer Celiana Cárdenas discusses the technical and aesthetic choices used to establish the visual language of the Apple TV series Cape Fear, including format changes and lighting techniques.",
+      "angle": "Highlights evolving production workflows, including complex lighting control and format shifts, relevant to high-end post-production service providers.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4ba0c374d52fec73",
+      "id": "059b76510e533e6b",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Emmy-Nominated The Bear Sound Team Talks Workflow",
-      "url": "https://postperspective.com/emmy-nominated-the-bear-sound-team-talks-workflow/",
+      "title": "Wade Barnett on Emmy-Nominated Sound Editing of The Boys",
+      "url": "https://postperspective.com/wade-barnett-on-emmy-nominated-sound-editing-of-the-boys/",
       "source": "postperspective.com",
-      "published_at": "2026-07-29T20:18:07+00:00",
-      "first_seen": "2026-08-02T06:48:50.933508+00:00",
+      "published_at": "2026-08-05T16:01:06+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
       "score": 65,
-      "summary": "The sound team for the series The Bear discusses the technical challenges of mixing complex, overlapping dialogue amidst constant environmental sound effects like heavy rain and water.",
-      "angle": "Highlights evolving technical workflows for managing high-density audio environments in premium episodic television post-production.",
+      "summary": "Supervising sound editor Wade Barnett discusses the technical workflow, sound design strategies, and software tools used to create the complex, organic soundscape for Amazon's series The Boys.",
+      "angle": "Highlights current industry-standard software and collaborative workflows for high-end episodic sound design and post-production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9c29ab353804de35",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Gillian Garside-Wight | What will Andy Burnham do for packaging sustainability?",
+      "url": "https://www.packagingnews.co.uk/features/comment/gillian-garside-wight-what-will-andy-burnham-do-for-packaging-sustainability-05-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-05T15:45:50+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
+      "score": 85,
+      "summary": "Prime Minister Andy Burnham’s past environmental policies in Greater Manchester suggest a potential national focus on circular economy initiatives, EPR legislation, and standardized recycling regulations.",
+      "angle": "Anticipated national policy shifts on EPR, DRS, and recycling consistency directly impact PET packaging regulatory compliance and strategy.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -716,20 +730,6 @@
       "score": 75,
       "summary": "Waste analytics firm Greyparrot has secured £20 million in Series B funding to scale its AI-powered waste intelligence technology across North America and Europe.",
       "angle": "Increased waste stream data transparency and AI-driven recycling efficiency impact packaging design and extended producer responsibility compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "416aa60a2a502e9b",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Amcor study finds recyclable packaging a key driver for nut sales",
-      "url": "https://www.packagingnews.co.uk/news/environment/recycling/amcor-study-finds-recyclable-packaging-a-key-driver-for-nut-sales-04-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-04T07:02:48+00:00",
-      "first_seen": "2026-08-05T06:48:54.249029+00:00",
-      "score": 75,
-      "summary": "An Amcor study reveals that 62% of consumers are more likely to purchase nuts in recyclable packaging, with many willing to pay a premium for sustainable options.",
-      "angle": "Highlights growing consumer demand and regulatory pressure for recyclable packaging across European food and beverage markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -957,6 +957,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0fad5aea4466d0a7",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "UK construction workload decline eases in Q2, says RICS",
+      "url": "https://www.constructionnews.co.uk/sections/data/uk-construction-workload-decline-eases-in-q2-says-rics-06-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-05T23:01:57+00:00",
+      "first_seen": "2026-08-06T06:48:54.291593+00:00",
+      "score": 85,
+      "summary": "UK construction workloads remained in negative territory during Q2 2026, though the decline eased to a net balance of -4 per cent from -12 per cent in Q1.",
+      "angle": "Provides critical demand indicators for residential construction and highlights ongoing supply chain and material cost pressures.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1be9ea55e1640eb7",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -996,20 +1010,6 @@
       "score": 85,
       "summary": "UK construction sector insolvencies reached a record July high of 32 failures, driven by rising costs, reduced activity, and cashflow pressures across the supply chain.",
       "angle": "Highlights systemic credit risk, supply chain instability, and potential demand softening within the UK construction market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4f84731e764a6749",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Sector’s business confidence jumps as demand strengthens",
-      "url": "https://www.constructionnews.co.uk/sections/data/sectors-business-confidence-jumps-as-demand-strengthens-31-07-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-07-31T11:45:17+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "UK construction sector business confidence rose to 56 per cent in July, driven by stronger customer demand and improved financial conditions.",
-      "angle": "Rising industry confidence and planned staff increases indicate a positive outlook for construction activity and potential market growth.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1075,14 +1075,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
-    "dropped_no_valid_date": 22,
-    "dropped_thin_page": 16,
+    "providers_succeeded": 93,
+    "queued_candidates": 135,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
+    "dropped_no_valid_date": 23,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
 }
