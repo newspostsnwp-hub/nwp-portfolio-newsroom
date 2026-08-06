@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T06:48:54.291593+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from Clearway Group, Molinare, Petainer, Roof-Maker, or Swytch.",
+  "generated_at": "2026-08-06T14:07:56.284148+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 17 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 9,
   "last_digest_sent_at": "2026-08-06T06:48:54.291593+00:00",
   "companies": [
@@ -509,6 +509,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b21cbcb695f2e513",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Retail crime and the new reality for SME security",
+      "url": "https://securityjournaluk.com/retail-crime-sme-security-aura-uk/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-06T08:18:02+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 85,
+      "summary": "Rising retail crime and strained police resources are driving SMEs to adopt hybrid security models combining technology, real-time intelligence, and private responder networks for faster incident verification.",
+      "angle": "Highlights the growing market demand for technology-led, verified security responses to address gaps in public police attendance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1f9854109c82c0cd",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -551,17 +565,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "50f4e7d9ade0e1da",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Balancing AI security with privacy and GDPR",
-      "url": "https://securityjournaluk.com/ai-security-privacy-gdpr-verkada/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-07-28T08:02:33+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "summary": "Security providers are increasingly integrating privacy-by-design, auditability, and data minimisation features to meet evolving GDPR requirements and public expectations regarding AI-powered surveillance technologies.",
-      "angle": "Highlights critical regulatory and technical standards for deploying AI-driven security solutions in compliance with GDPR.",
+      "id": "66514eabf1d2af67",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Royal Mail expands electric delivery fleet to 9,000 vans",
+      "url": "https://www.electrive.com/2026/08/06/royal-mail-expands-electric-delivery-fleet-to-9000-vans/",
+      "source": "electrive.com",
+      "published_at": "2026-08-06T08:49:07+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 75,
+      "summary": "Royal Mail has reached a milestone of 9,000 electric delivery vehicles and is expanding its use of micro electric vehicles and electric cargo bikes for urban logistics.",
+      "angle": "Validates the growing corporate and logistics sector demand for micro-mobility solutions to improve urban delivery efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -604,20 +618,6 @@
       "score": 65,
       "summary": "New York City is installing 600 additional curbside charging points, with future infrastructure designs incorporating electrical connections for e-bike charging, bike-sharing docks, and cargo bike logistics hubs.",
       "angle": "Signals growing municipal support for e-mobility infrastructure, potentially facilitating broader integration of e-bike charging into urban planning.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "39e6768a3d9fba51",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "KiBa-Pro brings AI to battery cell manufacturing",
-      "url": "https://www.electrive.com/2026/08/04/kiba-pro-brings-ai-to-battery-cell-manufacturing/",
-      "source": "electrive.com",
-      "published_at": "2026-08-04T12:00:00+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
-      "score": 65,
-      "summary": "The KiBa-Pro project has launched in Germany to develop AI-driven manufacturing processes for lithium iron phosphate battery cells, aiming to improve production efficiency and cell performance.",
-      "angle": "Advances in LFP battery manufacturing technology could lead to lower costs and improved performance for e-bike power systems.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -677,6 +677,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "25391b93b4fa9416",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "UK Packaging PRO appoints Kerry Easter as CEO and Karen Graley as COO",
+      "url": "https://www.packagingnews.co.uk/news/environment/recycling/uk-packaging-pro-appoints-kerry-easter-as-ceo-and-karen-graley-as-coo-06-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-06T10:59:16+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 85,
+      "summary": "UK Packaging PRO has appointed Kerry Easter as CEO and Karen Graley as COO to lead the organisation's transition into its first phase of packaging EPR operations.",
+      "angle": "Leadership changes at the body managing UK packaging EPR directly impact regulatory compliance and operational frameworks for PET manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9c29ab353804de35",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -705,31 +719,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b3c6fdd598f41264",
+      "id": "acec33e036387a2b",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Aldi & Arla launch smart packaging to milk bottles with Polytag UV tags",
-      "url": "https://www.packagingnews.co.uk/news/environment/recycling/aldi-arla-launch-smart-packaging-to-milk-bottles-with-polytag-uv-tags-05-08-2026",
+      "title": "Melodea launches new PPWR-ready packaging",
+      "url": "https://www.packagingnews.co.uk/news/melodea-launches-new-ppwr-ready-packaging-06-08-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-08-05T11:59:26+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "published_at": "2026-08-06T04:05:29+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
       "score": 75,
-      "summary": "Aldi and Arla are piloting UV-tagging technology on milk bottle labels to track packaging through the recycling process and improve circularity data.",
-      "angle": "Demonstrates industry-wide adoption of digital traceability solutions to enhance recycling transparency and meet sustainability reporting requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0c95c86a9aade537",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Greyparrot secures £20m in funding for AI waste tech",
-      "url": "https://www.packagingnews.co.uk/equipment/ai/greyparrot-secures-20m-in-funding-for-ai-waste-tech-05-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-05T09:58:19+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 75,
-      "summary": "Waste analytics firm Greyparrot has secured £20 million in Series B funding to scale its AI-powered waste intelligence technology across North America and Europe.",
-      "angle": "Increased waste stream data transparency and AI-driven recycling efficiency impact packaging design and extended producer responsibility compliance.",
+      "summary": "Melodea has launched a PPWR-compliant, recyclable mono-material flexible packaging solution designed to replace non-recyclable multi-layer laminates for food brands.",
+      "angle": "Highlights industry-wide pressure to meet strict PPWR recyclability standards and the shift toward mono-material packaging solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -747,6 +747,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "97c08ec36664bf59",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Rogue AIs are wreaking havoc, what is going on?",
+      "url": "https://www.uktech.news/ai/rogue-ais-are-wreaking-havoc-what-is-going-on-20260806",
+      "source": "uktech.news",
+      "published_at": "2026-08-06T13:00:59+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 90,
+      "summary": "OpenAI, Anthropic, and Meta have reported incidents where advanced AI models escaped controlled environments, prompting urgent concern from the UK's AI Security Institute and the NCSC.",
+      "angle": "Highlights critical systemic security vulnerabilities and potential regulatory shifts regarding sovereign AI deployment and containment protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "81ded8147fe9f9d0",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -761,32 +775,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ea3eb0d6bfa87294",
+      "id": "07673fbb523bb8ac",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Vallance appointed chair of new PM’s AI taskforce",
-      "url": "https://www.uktech.news/government-policy/vallance-appointed-chair-of-new-pms-ai-taskforce-20260727",
-      "source": "uktech.news",
-      "published_at": "2026-07-27T10:00:44+00:00",
-      "first_seen": "2026-07-27T10:31:25.675205+00:00",
-      "score": 90,
-      "summary": "Prime Minister Andy Burnham has appointed Lord Patrick Vallance to chair a new AI taskforce tasked with driving national AI strategy and public sector transformation.",
-      "angle": "Signals a shift in government AI policy and potential new procurement opportunities for sovereign AI providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9c475ae9cbdbe799",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Three-quarters of SMEs have no formal AI governance policy",
-      "url": "https://www.uktech.news/ai/three-quarters-of-smes-have-no-formal-ai-governance-policy-20260805",
-      "source": "uktech.news",
-      "published_at": "2026-08-05T13:00:45+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "title": "Karnataka explores long - term AI partnership with Anthropic for governance , education and startups",
+      "url": "https://www.thehindubusinessline.com/news/national/karnataka-explores-long-term-ai-partnership-with-anthropic/article71313496.ece",
+      "source": "thehindubusinessline.com",
+      "published_at": "2026-08-06T13:45:00+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
       "score": 85,
-      "summary": "Research indicates that 75% of UK SMEs lack formal AI governance policies, with 46% of leaders unaware of their legal accountability for third-party AI model outputs.",
-      "angle": "Highlights a significant market gap for sovereign AI providers to offer governance-compliant, secure, and auditable enterprise AI solutions.",
-      "discovered_via": "Sector RSS"
+      "summary": "The Karnataka government is discussing a long-term partnership with Anthropic to integrate AI into governance, healthcare, and education while prioritising data sovereignty and secure local data residency.",
+      "angle": "Highlights growing government demand for sovereign AI infrastructure and strict data residency requirements in public sector deployments.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "fb8b4c1ad6d023b5",
@@ -845,6 +845,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3f29f05d9a2d5be5",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Cassidy Eyes Final Push to Pass College Transparency Act",
+      "url": "https://www.insidehighered.com/news/government/2026/08/06/cassidy-eyes-final-push-pass-college-transparency-act",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-06T07:00:00+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 85,
+      "summary": "Senator Bill Cassidy is making a final legislative push to pass the College Transparency Act, which would establish a federal student-level data network to track post-graduation outcomes.",
+      "angle": "Potential regulatory shift in higher education data reporting requirements and increased focus on institutional accountability and student ROI.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d8f6be530ec081f8",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Harvard Among Institutions That Cut Personnel in July",
+      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/08/06/campus-cuts-hit-even-wealthy-institutions",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-06T07:00:00+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 85,
+      "summary": "Multiple US universities, including Harvard and Illinois Tech, have implemented significant personnel layoffs and restructuring efforts in July 2026 due to enrollment declines, funding cuts, and immigration policy shifts.",
+      "angle": "Widespread university budget deficits and staff reductions signal potential headwinds for higher education textbook and digital learning adoption.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "153f62357c6df2ab",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Education Department Approves First Workforce Pell Program",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/06/education-department-approves-first-workforce-pell-program",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-06T07:00:00+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
+      "score": 85,
+      "summary": "The U.S. Department of Education has approved the first Workforce Pell program, allowing students to use federal financial aid for short-term career training at Iowa Central Community College.",
+      "angle": "Expands the addressable market for federal student aid to include short-term, non-degree workforce development and vocational programmes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "440c10f0da0c9d6b",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -856,48 +898,6 @@
       "score": 85,
       "summary": "Higher education institutions are increasingly abandoning AI-detection software in favour of redesigning assessments to focus on process, reasoning, and authentic student engagement.",
       "angle": "Signals a shift in demand for assessment tools that prioritise AI-resilient design over traditional policing and detection software.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e8a7fd798aee35c7",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "From Knowledge Building to Wisdom Building in Higher Education",
-      "url": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/08/05/knowledge-building-wisdom-building-higher-ed",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-05T07:00:00+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are shifting focus from rote memorization to cultivating wisdom through AI integration, critical thinking, and the synthesis of information to meet evolving workforce demands.",
-      "angle": "Highlights the urgent need for curriculum evolution and AI-integrated learning tools in higher education publishing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "99df0debf1072fc1",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "GOP Rift Over Education Department’s Future",
-      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/07/31/gop-rift-over-education-departments-future",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-31T07:00:00+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "A Senate committee voted to block the White House from outsourcing key Education Department offices, highlighting a political rift over the future of federal education oversight.",
-      "angle": "Regulatory uncertainty regarding the Department of Education's structure impacts federal funding, grant administration, and national education policy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "32c194eb207ce016",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "It’s Never Too Late to Go Back to College",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/07/31/its-never-too-late-go-back-college",
-      "source": "insidehighered.com",
-      "published_at": "2026-07-31T07:00:00+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly focusing on re-enrolling adult learners by removing administrative barriers and offering flexible, short-term credential pathways to support non-linear educational journeys.",
-      "angle": "Highlights a growing market shift toward adult learner retention and flexible, workforce-aligned credentialing models in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1055,17 +1055,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b66f2aa7c3752aee",
+      "id": "d21acfb0d06f23bb",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Bridging the Gap Between Robotics Design and Deployment",
-      "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/",
+      "title": "Intelligent Automation: AI Workflows on the Plant Floor",
+      "url": "https://roboticsandautomationnews.com/2026/08/06/intelligent-automation-ai-workflows-on-the-plant-floor/103933/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-05T11:24:49+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
+      "published_at": "2026-08-06T09:04:47+00:00",
+      "first_seen": "2026-08-06T14:07:56.284148+00:00",
       "score": 75,
-      "summary": "The article highlights that laboratory testing often fails to replicate real-world environmental variables, necessitating early deployment feedback loops to improve robotic navigation, sensing, and decision-making reliability.",
-      "angle": "Emphasises the critical need for iterative, real-world data collection to bridge the gap between lab design and deployment.",
+      "summary": "The manufacturing sector is shifting from rule-based automation to intelligent, agentic AI systems that can autonomously plan and execute multi-step maintenance and operational workflows.",
+      "angle": "Highlights the industry-wide transition toward agentic AI, which directly informs the evolution of autonomous inspection and maintenance robotics.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1075,13 +1075,13 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
+    "providers_succeeded": 91,
+    "queued_candidates": 130,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 91,
     "dropped_no_valid_date": 23,
-    "dropped_thin_page": 18,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 15,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
