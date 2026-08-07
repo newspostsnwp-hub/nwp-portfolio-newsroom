@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T06:49:02.816595+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-07T14:07:56.638852+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector developments, with ten items covering the broader market landscape.",
   "archive_story_count": 10,
   "last_digest_sent_at": "2026-08-07T06:49:02.816595+00:00",
   "companies": [
@@ -549,6 +549,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4fa4568decffcb6f",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "CATL Expands Its Lead in the Global Battery Market",
+      "url": "https://www.electrive.com/2026/08/07/catl-expands-its-lead-in-the-global-battery-market/",
+      "source": "electrive.com",
+      "published_at": "2026-08-07T08:30:00+00:00",
+      "first_seen": "2026-08-07T14:07:56.638852+00:00",
+      "score": 65,
+      "summary": "Global battery demand for electric and hybrid vehicles grew by 20 per cent in the first half of 2026, with CATL increasing its market share to 39.9 per cent.",
+      "angle": "Indicates broader battery supply chain trends, pricing pressures, and technological dominance of Chinese manufacturers in the electrification sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8d73a06ed7d1eff8",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -574,20 +588,6 @@
       "score": 65,
       "summary": "Chinese manufacturers have deployed the world's first sodium-ion powered dump truck, highlighting the technology's improved cycle stability and performance in extreme temperatures.",
       "angle": "Sodium-ion batteries represent a potential lower-cost, high-cycle alternative to lithium-ion for future micromobility and e-bike applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a245f836f8ef462d",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "New York City to install 600 additional curbside charging points",
-      "url": "https://www.electrive.com/2026/08/05/new-york-city-to-install-600-additional-curbside-charging-points/",
-      "source": "electrive.com",
-      "published_at": "2026-08-05T10:30:00+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 65,
-      "summary": "New York City is installing 600 additional curbside charging points, with future infrastructure designs incorporating electrical connections for e-bike charging, bike-sharing docks, and cargo bike logistics hubs.",
-      "angle": "Signals growing municipal support for e-mobility infrastructure, potentially facilitating broader integration of e-bike charging into urban planning.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -773,6 +773,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2ee53c733a74545e",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Energy ban is big leap | Editor’s comment",
+      "url": "https://www.talkingretail.com/opinion/talking-points/energy-ban-is-big-leap-editors-comment-07-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-07T13:00:29+00:00",
+      "first_seen": "2026-08-07T14:07:56.638852+00:00",
+      "score": 85,
+      "summary": "From April 2027, retailers in England will be legally prohibited from selling high-caffeine energy drinks to individuals under 16.",
+      "angle": "Introduces new compliance, staff training, and age-verification requirements for independent retailers selling convenience goods.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ae5c004fc86f28b7",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -801,17 +815,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6332c3b6a0cdaf8f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "PayPoint reports solid Q1 performance, despite revenue dip",
-      "url": "https://www.talkingretail.com/featured/paypoint-reports-solid-q1-performance-despite-revenue-dip-29-07-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-07-29T09:14:58+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
+      "id": "5e6d04dc884213ef",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "States Wrestle With Data and Program Tweaks to Access Workforce Pell",
+      "url": "https://www.insidehighered.com/news/government/state-policy/2026/08/07/states-wrestle-data-and-program-tweaks-access-workforce",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-07T07:00:00+00:00",
+      "first_seen": "2026-08-07T14:07:56.638852+00:00",
       "score": 85,
-      "summary": "PayPoint reported a Q1 revenue decline to £39.5m but noted improved retailer engagement and growth in digital services following a business-wide reorganisation.",
-      "angle": "Provides insight into parcel volume trends and evolving service expectations within the independent retail and convenience sector.",
+      "summary": "States are struggling to align data systems and short-term training programs with federal criteria required to access new Workforce Pell grant funding for nondegree credentials.",
+      "angle": "Highlights a shift toward nondegree workforce credentials, creating demand for compliant curriculum and data-tracking solutions in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -857,20 +871,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bf5cad2e4fb64a8f",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Let’s Call a Truce Between Universities and the Trump Administration",
-      "url": "https://www.insidehighered.com/opinion/views/2026/08/06/lets-call-truce-trump-administration-opinion",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-06T07:00:00+00:00",
-      "first_seen": "2026-08-07T06:49:02.816595+00:00",
-      "score": 85,
-      "summary": "Secretary of Education Linda McMahon has issued a formal call to action demanding university leadership improve transparency, accountability, cost containment, and intellectual pluralism in higher education.",
-      "angle": "Signals increased federal regulatory pressure on university governance, admissions, and curriculum, impacting the higher education publishing market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "e2cd35cd7ffec51d",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -910,6 +910,20 @@
       "score": 75,
       "summary": "A Danish study indicates that body fat percentage is a more accurate predictor of male sperm count and reproductive health than traditional BMI measurements.",
       "angle": "Refines diagnostic criteria for male infertility, potentially improving patient screening and treatment outcomes in fertility clinics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3c230e1c0e2385c0",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Lindner Prater convicted, Wintech cleared over window-fall death",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/lindner-prater-convicted-wintech-cleared-over-window-fall-death-07-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-07T11:45:30+00:00",
+      "first_seen": "2026-08-07T14:07:56.638852+00:00",
+      "score": 85,
+      "summary": "Lindner Prater and St James were convicted of health and safety breaches after a 130kg window fell from a London tower block, killing a pedestrian in 2018.",
+      "angle": "Highlights critical industry focus on window design safety, mechanical restrictor reliability, and legal liability for facade contractors.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -955,20 +969,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "71b03cf5d17b843a",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Falling demand in challenging markets hits builders merchants’ revenues",
-      "url": "https://www.constructionnews.co.uk/financial/falling-demand-in-challenging-markets-hits-builders-merchants-revenues-04-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-04T11:45:08+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
-      "score": 85,
-      "summary": "Major UK building product suppliers Travis Perkins and SIG reported declining revenues in the first half of 2026, citing subdued market demand and challenging construction activity.",
-      "angle": "Signals a broader downturn in UK construction demand and pricing pressure impacting the building products supply chain.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "053775a35c4ab6db",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1011,17 +1011,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8ebb10a383a230ff",
+      "id": "b57ff0638e135383",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Why Aircraft Lease Rates Refuse to Come Down",
-      "url": "https://www.aviationtoday.com/2026/08/06/why-aircraft-lease-rates-refuse-to-come-down/",
-      "source": "aviationtoday.com",
-      "published_at": "2026-08-06T20:24:14+00:00",
-      "first_seen": "2026-08-07T06:49:02.816595+00:00",
+      "title": "Unitree targets $9 billion valuation in landmark IPO as humanoid robot race accelerates",
+      "url": "https://roboticsandautomationnews.com/2026/08/07/unitree-targets-9-billion-valuation-in-landmark-ipo-as-humanoid-robot-race-accelerates/104008/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-07T13:07:50+00:00",
+      "first_seen": "2026-08-07T14:07:56.638852+00:00",
       "score": 75,
-      "summary": "A global shortage of commercial aircraft and production delays are forcing airlines to keep older jets in service longer, sustaining high demand for existing fleet capacity.",
-      "angle": "Extended service lives for aging aircraft increase the addressable market for maintenance and inspection robotics solutions.",
+      "summary": "Chinese robotics firm Unitree has launched a $9 billion IPO, signalling significant investor appetite for AI-powered humanoid and quadruped robotics despite rising geopolitical and regulatory tensions.",
+      "angle": "Highlights market valuation trends and increasing regulatory scrutiny for AI-powered robotics manufacturers operating in international markets.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1031,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 96,
-    "llm_requests_succeeded": 96,
-    "dropped_no_valid_date": 23,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 0,
+    "providers_succeeded": 94,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
+    "dropped_no_valid_date": 24,
+    "dropped_thin_page": 15,
+    "dropped_not_about_company": 2,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 5
   }
 }
