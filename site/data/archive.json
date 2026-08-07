@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:07:56.284148+00:00",
+  "generated_at": "2026-08-07T06:49:02.816595+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -281,6 +281,36 @@
         "concise": "Whitespace has announced the launch of Project Conexus, a unified targeting operating system designed to enhance interoperability for NATO warfighters. Unveiled at the Oracle Defence Summit in Brussels, the platform aims to bridge the gap between sensing, intelligence, and decision-making by providing a common, cloud-centric foundation. Developed by a consortium including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri, Conexus is built on Whitespace’s Collective operating system. By leveraging open standards, the platform is engineered to integrate disparate data sources and applications, allowing commanders to maintain decision advantage in complex, multi-domain environments. This initiative represents a significant step toward creating a more connected and resilient infrastructure for coalition defence operations. #DefenceTech #SovereignAI #Whitespace",
         "investor": "The launch of Project Conexus marks a strategic expansion for Whitespace, demonstrating the scalability of its Collective operating system within the high-stakes defence sector. By leading a consortium that includes industry leaders like Oracle and Esri, Whitespace is positioning its technology as a foundational layer for NATO-aligned alliance operations. The platform addresses a critical market need for interoperability, moving beyond fragmented tools to a unified, evergreen operating environment. This collaborative approach not only accelerates capability delivery but also establishes a repeatable model for integrating third-party applications into a secure, sovereign framework. As the defence community prioritises the speed of the decision cycle, Whitespace’s focus on open-standards architecture provides a clear pathway for long-term integration and operational relevance. #DefenceTech #SovereignAI #Innovation",
         "people": "Congratulations to the team at Whitespace on the successful unveiling of Project Conexus at the Oracle Defence Summit. This project highlights the power of collaborative innovation, bringing together a diverse consortium of partners—including Oracle, Mattermost, Arqit, Quantum Systems, Janes, and Esri—to solve the complex challenge of data integration in modern defence. As Andrew Webber, Chief Partnerships Officer at Whitespace, noted, the initiative was driven by a shared commitment to act on recognised operational needs rather than waiting for formal requirements. By building a common foundation that keeps the commander’s judgement at the centre, the team is making a tangible contribution to the speed and efficacy of coalition decision-making. We look forward to seeing how this open-standards approach continues to evolve. #DefenceTech #Collaboration #Whitespace"
+      },
+      "status": "ready",
+      "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "9dbac1f9c232bcaa",
+      "company": "Whitespace",
+      "company_domain": "white.space",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Whitespace Achieves ISO 27001 Recertification with Zero Non-Conformities",
+      "url": "https://www.white.space/insights/whitespace-achieves-iso-27001-recertification-with-zero-non-conformities",
+      "source": "white.space",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "Whitespace has successfully achieved ISO 27001 recertification for its Information Security Management System, recording zero non-conformities during the independent audit process.",
+      "why_it_matters": "For a company developing sovereign AI for defence and highly regulated sectors, maintaining rigorous, independently verified security standards is a critical operational requirement and a key indicator of institutional maturity.",
+      "verified_facts": [
+        "Whitespace achieved ISO 27001 recertification with zero non-conformities.",
+        "The audit was conducted by Tempo Audits."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Security and governance are foundational to the development of sovereign AI. We are pleased to share that Whitespace has successfully achieved ISO 27001 recertification, recording zero non-conformities throughout the independent audit of its Information Security Management System. This achievement underscores the team's commitment to maintaining rigorous security standards across all operational environments, including those critical to defence and national security. Congratulations to the entire Whitespace team on this milestone. #SovereignAI #CyberSecurity #Whitespace",
+        "investor": "Operational resilience is a key pillar of long-term value creation in the sovereign AI sector. Whitespace’s recent ISO 27001 recertification, achieved with zero non-conformities, demonstrates the maturity of the company's internal governance and risk management frameworks. By embedding these high-level security controls into their core development processes, the team continues to build the necessary trust required to scale within highly regulated, high-consequence markets. A significant achievement that reflects the discipline required to support mission-critical technology. #SovereignAI #Governance #NextWavePartners",
+        "people": "Maintaining high standards of information security requires a collective, company-wide effort. We are proud to recognise the Whitespace team for their successful ISO 27001 recertification, which was achieved with zero non-conformities. This result is a testament to the discipline and rigour applied by colleagues across the business to strengthen controls and improve internal processes throughout the year. It is this security-first culture that enables Whitespace to deliver trusted AI capabilities for the most complex environments. Well done to all involved. #TeamCulture #SovereignAI #InfoSec"
       },
       "status": "ready",
       "discovered_via": "Company newsroom",
