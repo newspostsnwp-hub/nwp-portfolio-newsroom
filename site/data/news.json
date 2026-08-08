@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T14:07:56.638852+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector developments, with ten items covering the broader market landscape.",
+  "generated_at": "2026-08-08T06:48:28.488790+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from The Delivery Group.",
   "archive_story_count": 10,
-  "last_digest_sent_at": "2026-08-07T06:49:02.816595+00:00",
+  "last_digest_sent_at": "2026-08-08T06:48:28.488790+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -437,20 +437,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "25d61e3ce4896545",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Fulfilment operators outpacing retailers when it comes to AI-powered shopping",
-      "url": "https://postandparcel.info/162480/news/e-commerce/fulfilment-operators-outpacing-retailers-when-it-comes-to-ai-powered-shopping/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-29T02:47:45+00:00",
-      "first_seen": "2026-07-29T14:07:24.885716+00:00",
-      "score": 85,
-      "summary": "Search interest for AI in logistics has grown by 5,000% year-on-year, significantly outpacing the 2,500% increase in search interest for AI in the retail sector.",
-      "angle": "Highlights a critical shift in market demand towards AI-integrated fulfilment solutions within the UK delivery landscape.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bf3993b57d0fe018",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -476,6 +462,20 @@
       "score": 75,
       "summary": "DHL and Vinted are significantly expanding their cooperation to facilitate trade between private individuals, following data showing high participation in online marketplaces among German shoppers.",
       "angle": "Highlights the growing importance of C2C e-commerce logistics partnerships and shifting consumer behaviour in the parcel delivery market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6bc226204a6f0201",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Austrian Post Grows Revenue 3.8% in H1 Despite Challenging Market Conditions",
+      "url": "https://postandparcel.info/162523/news/e-commerce/austrian-post-grows-revenue-3-8-in-h1-despite-challenging-market-conditions/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-07T07:09:57+00:00",
+      "first_seen": "2026-08-08T06:48:28.488790+00:00",
+      "score": 65,
+      "summary": "Austrian Post reported a 3.8% revenue increase in H1 2026, driven by e-commerce growth despite ongoing declines in traditional letter mail volumes.",
+      "angle": "Highlights broader European market trends of e-commerce resilience offsetting structural declines in traditional mail volumes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,13 +1031,13 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 94,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
+    "providers_succeeded": 79,
+    "queued_candidates": 103,
+    "llm_requests_attempted": 61,
+    "llm_requests_succeeded": 61,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 15,
-    "dropped_not_about_company": 2,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 3,
     "carried_forward": 5
   }
