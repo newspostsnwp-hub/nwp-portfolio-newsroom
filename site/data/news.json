@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T14:07:32.965657+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, as there is no specific news to report from Future Maintenance Technologies, Molinare, Petainer, or The Delivery Group.",
+  "generated_at": "2026-08-09T06:48:33.338360+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from The Delivery Group.",
   "archive_story_count": 10,
-  "last_digest_sent_at": "2026-08-08T06:48:28.488790+00:00",
+  "last_digest_sent_at": "2026-08-09T06:48:33.338360+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -451,20 +451,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3880a2f46397fda2",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "DHL and Vinted are now significantly expanding their cooperation",
-      "url": "https://postandparcel.info/162486/news/e-commerce/dhl-and-vinted-are-now-significantly-expanding-their-cooperation/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-29T14:20:28+00:00",
-      "first_seen": "2026-08-03T06:48:53.825212+00:00",
-      "score": 75,
-      "summary": "DHL and Vinted are significantly expanding their cooperation to facilitate trade between private individuals, following data showing high participation in online marketplaces among German shoppers.",
-      "angle": "Highlights the growing importance of C2C e-commerce logistics partnerships and shifting consumer behaviour in the parcel delivery market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6bc226204a6f0201",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -476,6 +462,20 @@
       "score": 65,
       "summary": "Austrian Post reported a 3.8% revenue increase in H1 2026, driven by e-commerce growth despite ongoing declines in traditional letter mail volumes.",
       "angle": "Highlights broader European market trends of e-commerce resilience offsetting structural declines in traditional mail volumes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5c5f21981b451b22",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Asendia: we’re simplifying logistics so sellers can focus more on growing their businesses",
+      "url": "https://postandparcel.info/162516/news/e-commerce/asendia-were-simplifying-logistics-so-sellers-can-focus-more-on-growing-their-businesses/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-06T20:42:31+00:00",
+      "first_seen": "2026-08-09T06:48:33.338360+00:00",
+      "score": 65,
+      "summary": "Asendia has partnered with Etsy to provide global shipping solutions through its SendNow platform.",
+      "angle": "Highlights competitor activity in cross-border e-commerce logistics and the trend towards integrated shipping platforms for marketplace sellers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 95,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
-    "dropped_no_valid_date": 23,
+    "providers_succeeded": 90,
+    "queued_candidates": 130,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
+    "dropped_no_valid_date": 24,
     "dropped_thin_page": 17,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 0,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 5
   }
 }
