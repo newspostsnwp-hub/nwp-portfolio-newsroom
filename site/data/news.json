@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T06:48:33.338360+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from The Delivery Group.",
+  "generated_at": "2026-08-09T14:07:31.265650+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, as there is no news to report from The Delivery Group or UOE.",
   "archive_story_count": 10,
   "last_digest_sent_at": "2026-08-09T06:48:33.338360+00:00",
   "companies": [
@@ -759,20 +759,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "fb8b4c1ad6d023b5",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Heatwaves and sports events drive record demand for cash on Britain’s high streets",
-      "url": "https://www.talkingretail.com/uncategorized/heatwaves-and-sports-events-drive-record-demand-for-cash-on-britains-high-streets-30-07-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-07-30T11:05:58+00:00",
-      "first_seen": "2026-07-30T14:08:02.223486+00:00",
-      "score": 90,
-      "summary": "Post Office data shows record business cash deposits and increased personal withdrawals in Q2 2026, driven by summer weather and sports events.",
-      "angle": "Highlights the ongoing critical role of Post Office cash services for local businesses and consumer spending habits.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "2ee53c733a74545e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -812,6 +798,20 @@
       "score": 85,
       "summary": "The Metropolitan Police has quadrupled shoplifter conviction rates in London by implementing the Auror platform, which allows retailers to submit digital evidence directly to officers.",
       "angle": "Digital evidence reporting platforms significantly improve retail security outcomes and police collaboration for high-street store chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "472cc1d335db0310",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Mondelēz unwraps 2026 festive range",
+      "url": "https://www.talkingretail.com/products-news/confectionery/mondelez-unwraps-2026-festive-range-06-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-06T15:33:52+00:00",
+      "first_seen": "2026-08-09T14:07:31.265650+00:00",
+      "score": 65,
+      "summary": "Mondelēz has unveiled its 2026 Christmas confectionery range, highlighting the importance of seasonal sales and gifting formats for independent convenience retailers.",
+      "angle": "Provides insight into seasonal inventory planning and consumer demand trends for independent retail outlets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 130,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 83,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "dropped_thin_page": 18,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 5
   }
 }
