@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T06:49:04.403635+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related developments, as there are no updates regarding The Delivery Group or Whitespace.",
+  "generated_at": "2026-08-10T14:07:29.074352+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, covering ten items of interest across the wider market.",
   "archive_story_count": 10,
   "last_digest_sent_at": "2026-08-10T06:49:04.403635+00:00",
   "companies": [
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 2,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -423,20 +423,6 @@
   ],
   "sector_stories": [
     {
-      "id": "0168e633cb25d380",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Amazon Q2: over 40% more items delivered same-day or overnight",
-      "url": "https://postandparcel.info/162494/news/e-commerce/amazon-q2-over-40-more-items-delivered-same-day-or-overnight/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-31T07:52:04+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "Amazon reported a 40% year-over-year increase in same-day or overnight deliveries during the second quarter.",
-      "angle": "Highlights rising consumer expectations for rapid delivery speeds, pressuring logistics providers to enhance network efficiency and capacity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "9f21f33e899709d5",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -451,20 +437,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bf3993b57d0fe018",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Geopost records revenue growth of 5.1%",
-      "url": "https://postandparcel.info/162502/news/e-commerce/geopost-records-revenue-growth-of-5-1/",
-      "source": "postandparcel.info",
-      "published_at": "2026-07-31T12:16:56+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 75,
-      "summary": "Geopost reported a 5.1% revenue increase in the first half of 2026, driven by higher parcel volumes despite challenging market conditions.",
-      "angle": "Provides a benchmark for competitor performance and volume trends within the competitive UK parcel delivery market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6bc226204a6f0201",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -476,6 +448,20 @@
       "score": 65,
       "summary": "Austrian Post reported a 3.8% revenue increase in H1 2026, driven by e-commerce growth despite ongoing declines in traditional letter mail volumes.",
       "angle": "Highlights broader European market trends of e-commerce resilience offsetting structural declines in traditional mail volumes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5c5f21981b451b22",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Asendia: we’re simplifying logistics so sellers can focus more on growing their businesses",
+      "url": "https://postandparcel.info/162516/news/e-commerce/asendia-were-simplifying-logistics-so-sellers-can-focus-more-on-growing-their-businesses/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-06T20:42:31+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 65,
+      "summary": "Asendia has partnered with Etsy to provide global shipping solutions for sellers through its SendNow platform.",
+      "angle": "Highlights competitive pressure from cross-border specialists integrating directly into major e-commerce marketplaces to capture SME shipping volumes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -549,6 +535,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "db86633ee4b5c9db",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Paris tells e-scooter riders to helmet up",
+      "url": "https://www.electrive.com/2026/08/10/paris-tells-e-scooter-riders-to-helmet-up/",
+      "source": "electrive.com",
+      "published_at": "2026-08-10T12:00:00+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 65,
+      "summary": "Paris has mandated helmets and high-visibility clothing for riders of privately owned e-scooters and other personal electric transport devices following a rise in accidents.",
+      "angle": "Regulatory tightening on personal electric transport safety often precedes broader legislative scrutiny of all micromobility categories.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4fa4568decffcb6f",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -574,20 +574,6 @@
       "score": 65,
       "summary": "Researchers discovered that air exposure during precursor storage causes chemical degradation in cobalt-free, nickel-rich cathodes, significantly accelerating battery capacity loss.",
       "angle": "Highlights critical manufacturing and supply chain quality control requirements for next-generation high-energy battery development.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "615f6a3406179944",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "China’s first sodium-ion dump truck enters service",
-      "url": "https://www.electrive.com/2026/08/05/chinas-first-sodium-ion-dump-truck-enters-service/",
-      "source": "electrive.com",
-      "published_at": "2026-08-05T14:04:49+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 65,
-      "summary": "Chinese manufacturers have deployed the world's first sodium-ion powered dump truck, highlighting the technology's improved cycle stability and performance in extreme temperatures.",
-      "angle": "Sodium-ion batteries represent a potential lower-cost, high-cycle alternative to lithium-ion for future micromobility and e-bike applications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -633,6 +619,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "189cdd6c35d55821",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Sustainability & Impact Summit | Experts call for ambitious statutory recycling targets",
+      "url": "https://www.packagingnews.co.uk/news/events/sustainability-impact-summit/sustainability-impact-summit-experts-call-for-ambitious-statute-recycling-targets-10-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-10T09:35:38+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 85,
+      "summary": "Industry experts at the Sustainability and Impact Summit discussed the challenges of implementing EPR, DRS, and Simpler Recycling regulations, highlighting the urgent need for better data and infrastructure investment.",
+      "angle": "Regulatory shifts in EPR and DRS directly impact packaging design, compliance costs, and material circularity requirements for manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "25391b93b4fa9416",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -658,20 +658,6 @@
       "score": 85,
       "summary": "Prime Minister Andy Burnham’s past environmental policies in Greater Manchester suggest a potential national focus on circular economy initiatives, EPR legislation, and standardized recycling regulations.",
       "angle": "Anticipated national policy shifts on EPR, DRS, and recycling consistency directly impact PET packaging regulatory compliance and strategy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0608799c37bc65db",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Foodservice packaging sector calls for practical reform as Defra confirms circular economy minister",
-      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/foodservice-packaging-sector-calls-for-practical-reform-as-defra-confirms-circular-economy-minister-31-07-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-07-31T11:31:03+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "The Foodservice Packaging Association is urging the UK government to ensure that upcoming packaging reforms, including EPR and Plastic Packaging Tax, are practical and coordinated.",
-      "angle": "Regulatory uncertainty regarding EPR and recycling infrastructure directly impacts operational costs and investment planning for UK packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -731,18 +717,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b9233c71d1b83169",
+      "id": "23ecb4e1206e521d",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Sovereign AI : Why Canada next technology challenge is infrastructure",
-      "url": "https://www.digitaljournal.com/article/sovereign-ai-why-canadas-next-technology-challenge-is-infrastructure/",
-      "source": "digitaljournal.com",
-      "published_at": "2026-08-10T01:30:00+00:00",
-      "first_seen": "2026-08-10T06:49:04.403635+00:00",
+      "title": "UK AI funding skyrocketed in first half of the year",
+      "url": "https://www.uktech.news/ai/uk-ai-funding-skyrocketed-in-first-half-of-the-year-20260810",
+      "source": "uktech.news",
+      "published_at": "2026-08-10T13:00:52+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
       "score": 85,
-      "summary": "Canada is addressing its sovereign AI infrastructure gap by developing large-scale domestic compute facilities to reduce reliance on foreign cloud providers for sensitive data workloads.",
-      "angle": "Highlights the global strategic shift toward domestic compute ownership as a prerequisite for national AI sovereignty and security.",
-      "discovered_via": "GDELT"
+      "summary": "UK AI funding reached $9.6bn in the first half of 2026, a 360% increase year-on-year, despite a lower volume of deals and high capital concentration in London.",
+      "angle": "Highlights significant capital inflow and market concentration trends within the UK sovereign and enterprise AI landscape.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "2ee53c733a74545e",
@@ -787,17 +773,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "472cc1d335db0310",
+      "id": "31492b01e9f85e2a",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Mondelēz unwraps 2026 festive range",
-      "url": "https://www.talkingretail.com/products-news/confectionery/mondelez-unwraps-2026-festive-range-06-08-2026/",
+      "title": "Retailers offered Powerball social media assets as jackpot rolls over",
+      "url": "https://www.talkingretail.com/news/industry-news/retailers-offered-powerball-social-media-assets-as-jackpot-rolls-over-10-08-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-08-06T15:33:52+00:00",
-      "first_seen": "2026-08-09T14:07:31.265650+00:00",
-      "score": 65,
-      "summary": "Mondelēz has unveiled its 2026 Christmas confectionery range, highlighting the importance of seasonal sales and gifting formats for independent convenience retailers.",
-      "angle": "Provides insight into seasonal inventory planning and consumer demand trends for independent retail outlets.",
+      "published_at": "2026-08-10T11:22:52+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 75,
+      "summary": "National Lottery operator Allwyn is providing retailers with downloadable social media assets to drive footfall as the Powerball jackpot reaches £467m.",
+      "angle": "Provides actionable marketing support for Post Office retailers to increase foot traffic through high-profile lottery engagement.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9c85089ff4fbb2aa",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Digital Boom Drives Down Cost of College Course Materials",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/10/digital-boom-drives-down-cost-college-course-materials",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-10T07:00:00+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 90,
+      "summary": "A NACS report reveals that student spending on course materials has declined by 44 percent over the last decade, driven by the increased adoption of digital learning resources.",
+      "angle": "Highlights the shift toward digital-first affordable access programmes and changing student preferences for multi-device, seamless learning materials.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "a34a856833fb3d65",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Linda McMahon’s Trojan Horse",
+      "url": "https://www.insidehighered.com/opinion/views/2026/08/10/linda-mcmahons-trojan-horse-opinion",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-10T07:00:00+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 85,
+      "summary": "Secretary of Education Linda McMahon has issued a letter to university leaders requesting data on admissions, research, and campus policies, signaling potential shifts in federal higher education oversight.",
+      "angle": "Regulatory pressure and potential funding alignment based on political priorities impact the higher education publishing and technology market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -826,34 +840,6 @@
       "score": 85,
       "summary": "Senator Bill Cassidy is making a final legislative push to pass the College Transparency Act, which would establish a federal student-level data network to track post-graduation outcomes.",
       "angle": "Potential regulatory shift in higher education data reporting requirements and increased focus on institutional accountability and student ROI.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d8f6be530ec081f8",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Harvard Among Institutions That Cut Personnel in July",
-      "url": "https://www.insidehighered.com/news/business/cost-cutting/2026/08/06/campus-cuts-hit-even-wealthy-institutions",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-06T07:00:00+00:00",
-      "first_seen": "2026-08-06T14:07:56.284148+00:00",
-      "score": 85,
-      "summary": "Multiple US universities, including Harvard and Illinois Tech, have implemented significant personnel layoffs and restructuring efforts in July 2026 due to enrollment declines, funding cuts, and immigration policy shifts.",
-      "angle": "Widespread university budget deficits and staff reductions signal potential headwinds for higher education textbook and digital learning adoption.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "153f62357c6df2ab",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Education Department Approves First Workforce Pell Program",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/06/education-department-approves-first-workforce-pell-program",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-06T07:00:00+00:00",
-      "first_seen": "2026-08-06T14:07:56.284148+00:00",
-      "score": 85,
-      "summary": "The U.S. Department of Education has approved the first Workforce Pell program, allowing students to use federal financial aid for short-term career training at Iowa Central Community College.",
-      "angle": "Expands the addressable market for federal student aid to include short-term, non-degree workforce development and vocational programmes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -899,6 +885,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5a96f89eb069e76b",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "‘Robust’ performance drives up profit at Marshalls",
+      "url": "https://www.constructionnews.co.uk/supply-chain/robust-performance-drives-up-profit-at-marshalls-10-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-10T11:45:37+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 85,
+      "summary": "Marshalls reported a 70 per cent increase in interim profit to £19.7m by pivoting towards infrastructure projects to mitigate the impact of a difficult new-build housing market.",
+      "angle": "Highlights market-wide challenges in new-build housing and the strategic importance of diversifying into infrastructure to counter cyclicality.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3c230e1c0e2385c0",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -941,20 +941,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1be9ea55e1640eb7",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Ibstock slips into the red in ‘challenging’ market",
-      "url": "https://www.constructionnews.co.uk/financial/ibstock-slips-into-the-red-in-challenging-market-05-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-05T10:45:06+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 85,
-      "summary": "Major UK brick manufacturer Ibstock reported a £27m half-year loss, citing falling demand, high energy costs, and a challenging outlook for housebuilding and repair, maintenance, and improvement activity.",
-      "angle": "Signals sustained weakness in residential construction and RMI demand, impacting the broader UK building products supply chain.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "053775a35c4ab6db",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -969,20 +955,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2f978353f87533fa",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Google DeepMind unveils Gemini Robotics 2 as Apptronik humanoid demonstrates whole-body AI",
-      "url": "https://roboticsandautomationnews.com/2026/07/31/google-deepmind-unveils-gemini-robotics-2-as-apptronik-humanoid-demonstrates-whole-body-ai/103802/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-07-31T10:26:39+00:00",
-      "first_seen": "2026-07-31T14:08:11.891062+00:00",
-      "score": 85,
-      "summary": "Google DeepMind has launched Gemini Robotics 2, a suite of AI models enabling whole-body control, advanced dexterity, and multi-robot collaboration for various robotic platforms.",
-      "angle": "Advancements in general-purpose AI intelligence layers and on-device processing significantly accelerate autonomous capabilities for industrial inspection hardware.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b57ff0638e135383",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -994,6 +966,20 @@
       "score": 75,
       "summary": "Chinese robotics firm Unitree has launched a $9 billion IPO, signalling significant investor appetite for AI-powered humanoid and quadruped robotics despite rising geopolitical and regulatory tensions.",
       "angle": "Highlights market valuation trends and increasing regulatory scrutiny for AI-powered robotics manufacturers operating in international markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9b040adb70b43e60",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Brain Corp reports 68 percent growth and surpasses 50,000 autonomous robots worldwide",
+      "url": "https://roboticsandautomationnews.com/2026/08/07/brain-corp-reports-68-percent-growth-and-surpasses-50000-autonomous-robots-worldwide/104006/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-07T10:44:44+00:00",
+      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "score": 75,
+      "summary": "Brain Corp reported 68 percent year-over-year growth in H1 2026, surpassing 50,000 autonomous robots deployed globally across various commercial sectors.",
+      "angle": "Demonstrates enterprise demand for scalable, secure autonomy platforms and the shift toward complex, situationally aware robotic navigation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1017,14 +1003,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 113,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 68,
+    "providers_succeeded": 87,
+    "queued_candidates": 132,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 91,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 16,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 2,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 5
   }
 }
