@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T06:48:26.871887+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from Fertility Associates, Future Maintenance Technologies, Molinare, or Swytch.",
+  "generated_at": "2026-08-11T14:07:30.267209+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 10,
   "last_digest_sent_at": "2026-08-11T06:48:26.871887+00:00",
   "companies": [
@@ -535,6 +535,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b09eb380fbca73c2",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "US government offers Sila up to $1.4 billion in funding",
+      "url": "https://www.electrive.com/2026/08/11/us-government-offers-sila-up-to-1-4-billion-in-funding/",
+      "source": "electrive.com",
+      "published_at": "2026-08-11T12:33:02+00:00",
+      "first_seen": "2026-08-11T14:07:30.267209+00:00",
+      "score": 65,
+      "summary": "The U.S. Department of Defense has offered Sila Nanotechnologies a conditional $1.4 billion loan to expand silicon-carbon anode production and establish domestic lithium-ion cell manufacturing.",
+      "angle": "Highlights significant investment in next-generation battery materials and domestic supply chain scaling for high-performance energy storage applications.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4dda12763632722b",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -560,20 +574,6 @@
       "score": 65,
       "summary": "CATL has developed a 350 Wh/kg prismatic battery system for eVTOLs that successfully passed stringent thermal runaway propagation tests.",
       "angle": "Advances in high-density, high-safety battery technology often filter down to smaller micromobility applications over time.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "db86633ee4b5c9db",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Paris tells e-scooter riders to helmet up",
-      "url": "https://www.electrive.com/2026/08/10/paris-tells-e-scooter-riders-to-helmet-up/",
-      "source": "electrive.com",
-      "published_at": "2026-08-10T12:00:00+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 65,
-      "summary": "Paris has mandated helmets and high-visibility clothing for riders of privately owned e-scooters and other personal electric transport devices following a rise in accidents.",
-      "angle": "Regulatory tightening on personal electric transport safety often precedes broader legislative scrutiny of all micromobility categories.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -731,17 +731,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "23ecb4e1206e521d",
+      "id": "3d818e040e806f80",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "UK AI funding skyrocketed in first half of the year",
-      "url": "https://www.uktech.news/ai/uk-ai-funding-skyrocketed-in-first-half-of-the-year-20260810",
+      "title": "HSBC Asset Management backs AI finance group Model ML",
+      "url": "https://www.uktech.news/fintech/hsbc-model-ml-investment-20260811",
       "source": "uktech.news",
-      "published_at": "2026-08-10T13:00:52+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
+      "published_at": "2026-08-11T13:00:05+00:00",
+      "first_seen": "2026-08-11T14:07:30.267209+00:00",
       "score": 85,
-      "summary": "UK AI funding reached $9.6bn in the first half of 2026, a 360% increase year-on-year, despite a lower volume of deals and high capital concentration in London.",
-      "angle": "Highlights significant capital inflow and market concentration trends within the UK sovereign and enterprise AI landscape.",
+      "summary": "HSBC Asset Management has invested in Model ML, a vertical AI platform that uses a model-agnostic orchestration engine to automate complex financial workflows while maintaining enterprise governance.",
+      "angle": "Validates market demand for model-agnostic orchestration layers that prioritise enterprise-grade governance and auditability in sovereign AI deployments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 96,
-    "llm_requests_succeeded": 96,
-    "dropped_no_valid_date": 23,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 2,
+    "providers_succeeded": 85,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 71,
+    "llm_requests_succeeded": 71,
+    "dropped_no_valid_date": 24,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 5
   }
 }
