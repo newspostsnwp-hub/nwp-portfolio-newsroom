@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T14:07:29.074352+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, covering ten items of interest across the wider market.",
+  "generated_at": "2026-08-11T06:48:26.871887+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from Fertility Associates, Future Maintenance Technologies, Molinare, or Swytch.",
   "archive_story_count": 10,
-  "last_digest_sent_at": "2026-08-10T06:49:04.403635+00:00",
+  "last_digest_sent_at": "2026-08-11T06:48:26.871887+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -182,7 +182,7 @@
       "website": "https://www.fertilityassociates.co.nz/",
       "newsroom_url": "https://www.fertilityassociates.co.nz/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
@@ -535,6 +535,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4dda12763632722b",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "UK awards £65m for zero-emission vehicle technologies",
+      "url": "https://www.electrive.com/2026/08/11/uk-awards-65m-for-zero-emission-vehicle-technologies/",
+      "source": "electrive.com",
+      "published_at": "2026-08-11T05:36:20+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 65,
+      "summary": "The UK government has awarded £65 million through the DRIVE35 programme to support the development, commercialisation, and manufacturing of zero-emission vehicle technologies and supply chains.",
+      "angle": "Highlights government commitment to domestic zero-emission manufacturing and supply chain development, potentially impacting broader UK electric mobility infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d53aaabe8512c9ce",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "CATL tests 350 Wh/kg battery for eVTOLs",
+      "url": "https://www.electrive.com/2026/08/10/catl-tests-350-wh-kg-battery-for-evtols/",
+      "source": "electrive.com",
+      "published_at": "2026-08-10T12:32:18+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 65,
+      "summary": "CATL has developed a 350 Wh/kg prismatic battery system for eVTOLs that successfully passed stringent thermal runaway propagation tests.",
+      "angle": "Advances in high-density, high-safety battery technology often filter down to smaller micromobility applications over time.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "db86633ee4b5c9db",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -549,31 +577,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4fa4568decffcb6f",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "CATL Expands Its Lead in the Global Battery Market",
-      "url": "https://www.electrive.com/2026/08/07/catl-expands-its-lead-in-the-global-battery-market/",
-      "source": "electrive.com",
-      "published_at": "2026-08-07T08:30:00+00:00",
-      "first_seen": "2026-08-07T14:07:56.638852+00:00",
-      "score": 65,
-      "summary": "Global battery demand for electric and hybrid vehicles grew by 20 per cent in the first half of 2026, with CATL increasing its market share to 39.9 per cent.",
-      "angle": "Indicates broader battery supply chain trends, pricing pressures, and technological dominance of Chinese manufacturers in the electrification sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8d73a06ed7d1eff8",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Study: Air exposure accelerates ageing in nickel-rich batteries",
-      "url": "https://www.electrive.com/2026/08/05/study-air-exposure-accelerates-ageing-in-nickel-rich-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-08-05T14:30:00+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 65,
-      "summary": "Researchers discovered that air exposure during precursor storage causes chemical degradation in cobalt-free, nickel-rich cathodes, significantly accelerating battery capacity loss.",
-      "angle": "Highlights critical manufacturing and supply chain quality control requirements for next-generation high-energy battery development.",
+      "id": "09f2c596e10fa0e1",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "The Secret Sauce of Post Production? Getting Involved Early",
+      "url": "https://postperspective.com/the-secret-sauce-of-post-production-getting-involved-early/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-10T15:00:42+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 75,
+      "summary": "Industry experts advocate for integrating post-production teams into the early creative and planning stages of film and television projects to improve efficiency and reduce production challenges.",
+      "angle": "Highlights the shift toward collaborative workflows, positioning post-production as a strategic creative partner rather than a final service.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -843,6 +857,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "24960b4f4f244629",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Semen microbiome may influence IVF success",
+      "url": "https://www.progress.org.uk/semen-microbiome-may-influence-ivf-success/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-10T15:01:31+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 85,
+      "summary": "A study published in The Lancet suggests that microbial imbalances in semen, termed seminal V-dysbiosis, are associated with lower live birth rates and increased pregnancy loss in IVF patients.",
+      "angle": "Highlights a potential shift toward couple-level diagnostic testing and microbiome-focused interventions in fertility treatment protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "cef6c9648399c7c1",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Embryo transfer preparation techniques not supported by evidence",
+      "url": "https://www.progress.org.uk/embryo-transfer-preparation-techniques-not-supported-by-evidence/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-10T15:07:20+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 75,
+      "summary": "A Cochrane review found no clear evidence that routine embryo transfer preparation techniques, such as bladder filling or mucus removal, improve pregnancy or live birth rates.",
+      "angle": "Highlights the shift towards evidence-based practice and potential regulatory scrutiny regarding non-proven clinical protocols in IVF.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e2cd35cd7ffec51d",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -868,20 +910,6 @@
       "score": 75,
       "summary": "A research group has established foundational principles for a voluntary trust framework to improve transparency and data security within the unregulated peer-to-peer sperm donation market.",
       "angle": "Highlights growing pressure for traceability in alternative fertility pathways and potential integration between clinical and non-clinical sectors.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1cfb46e07a320c01",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Body fat percentage – better than BMI at predicting male fertility?",
-      "url": "https://www.progress.org.uk/body-fat-percentage-better-than-bmi-at-predicting-male-fertility/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-03T15:57:25+00:00",
-      "first_seen": "2026-08-04T06:48:50.615339+00:00",
-      "score": 75,
-      "summary": "A Danish study indicates that body fat percentage is a more accurate predictor of male sperm count and reproductive health than traditional BMI measurements.",
-      "angle": "Refines diagnostic criteria for male infertility, potentially improving patient screening and treatment outcomes in fertility clinics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -941,6 +969,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "063fbdcbd2eec48b",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Interview with the IEEE’s Dejan Milojicic: 30 technology megatrends for 2030",
+      "url": "https://roboticsandautomationnews.com/2026/08/10/interview-with-the-ieees-dejan-milojicic-30-technology-megatrends-for-2030/104047/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-10T18:03:27+00:00",
+      "first_seen": "2026-08-11T06:48:26.871887+00:00",
+      "score": 85,
+      "summary": "The IEEE Technology Megatrends 2030 report identifies physical AI and robotics as a primary area for significant advancement, driven by improved human-AI interaction and autonomous capabilities.",
+      "angle": "Highlights critical industry shifts in physical AI, human-robot collaboration, and the necessity of addressing safety and cybersecurity.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "053775a35c4ab6db",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -981,20 +1023,6 @@
       "summary": "Brain Corp reported 68 percent year-over-year growth in H1 2026, surpassing 50,000 autonomous robots deployed globally across various commercial sectors.",
       "angle": "Demonstrates enterprise demand for scalable, secure autonomy platforms and the shift toward complex, situationally aware robotic navigation.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8ebb10a383a230ff",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Why Aircraft Lease Rates Refuse to Come Down",
-      "url": "https://www.aviationtoday.com/2026/08/06/why-aircraft-lease-rates-refuse-to-come-down/",
-      "source": "aviationtoday.com",
-      "published_at": "2026-08-06T20:24:14+00:00",
-      "first_seen": "2026-08-08T14:07:32.965657+00:00",
-      "score": 75,
-      "summary": "A global shortage of commercial aircraft and production delays are forcing airlines to keep older jets in service longer, sustaining high demand for existing fleet capacity.",
-      "angle": "Extended service lives for aging aircraft increase the addressable market for maintenance and inspection robotics solutions.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1003,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 132,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 91,
-    "dropped_no_valid_date": 24,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "providers_succeeded": 90,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 96,
+    "llm_requests_succeeded": 96,
+    "dropped_no_valid_date": 23,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 5
   }
 }
