@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T06:49:18.220060+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-12T14:08:11.927402+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 10,
   "last_digest_sent_at": "2026-08-12T06:49:18.220060+00:00",
   "companies": [
@@ -731,17 +731,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3d818e040e806f80",
+      "id": "409887a19a78eadd",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "HSBC Asset Management backs AI finance group Model ML",
-      "url": "https://www.uktech.news/fintech/hsbc-model-ml-investment-20260811",
+      "title": "UK semiconductor funding reaches £237m this year – more than all of 2025",
+      "url": "https://www.uktech.news/semiconductor/uk-semiconductor-funding-reaches-237m-this-year-more-than-all-of-2025-20260812",
       "source": "uktech.news",
-      "published_at": "2026-08-11T13:00:05+00:00",
-      "first_seen": "2026-08-11T14:07:30.267209+00:00",
+      "published_at": "2026-08-12T11:00:36+00:00",
+      "first_seen": "2026-08-12T14:08:11.927402+00:00",
       "score": 85,
-      "summary": "HSBC Asset Management has invested in Model ML, a vertical AI platform that uses a model-agnostic orchestration engine to automate complex financial workflows while maintaining enterprise governance.",
-      "angle": "Validates market demand for model-agnostic orchestration layers that prioritise enterprise-grade governance and auditability in sovereign AI deployments.",
+      "summary": "UK semiconductor companies have raised £237.4m in 2026, surpassing the total funding recorded for the entirety of 2025.",
+      "angle": "Increased hardware investment signals strengthening domestic infrastructure for sovereign AI compute and high-performance chip development.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -815,6 +815,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b5c9a317c812cfa3",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Loss of International Students Could Cost Economy $3.4B",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/12/loss-international-students-could-cost-economy-34b",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-12T07:00:00+00:00",
+      "first_seen": "2026-08-12T14:08:11.927402+00:00",
+      "score": 85,
+      "summary": "New projections estimate a decline of 112,000 international students in U.S. higher education for the 2026–27 academic year, potentially resulting in a $3.4 billion economic loss.",
+      "angle": "Declining international student enrollment directly impacts the total addressable market for higher education publishing and learning technology solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "12b3a213762199e6",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -840,20 +854,6 @@
       "score": 85,
       "summary": "Secretary of Education Linda McMahon has issued a letter to university leaders requesting data on admissions, research, and campus policies, signaling potential shifts in federal higher education oversight.",
       "angle": "Regulatory pressure and potential funding alignment based on political priorities impact the higher education publishing and technology market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5e6d04dc884213ef",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "States Wrestle With Data and Program Tweaks to Access Workforce Pell",
-      "url": "https://www.insidehighered.com/news/government/state-policy/2026/08/07/states-wrestle-data-and-program-tweaks-access-workforce",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-07T07:00:00+00:00",
-      "first_seen": "2026-08-07T14:07:56.638852+00:00",
-      "score": 85,
-      "summary": "States are struggling to align data systems and short-term training programs with federal criteria required to access new Workforce Pell grant funding for nondegree credentials.",
-      "angle": "Highlights a shift toward nondegree workforce credentials, creating demand for compliant curriculum and data-tracking solutions in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,14 +1031,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 86,
-    "dropped_no_valid_date": 24,
-    "dropped_thin_page": 18,
+    "providers_succeeded": 77,
+    "queued_candidates": 106,
+    "llm_requests_attempted": 64,
+    "llm_requests_succeeded": 64,
+    "dropped_no_valid_date": 23,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 5
   }
 }
