@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-11T14:07:30.267209+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-12T06:49:18.220060+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 10,
-  "last_digest_sent_at": "2026-08-11T06:48:26.871887+00:00",
+  "last_digest_sent_at": "2026-08-12T06:49:18.220060+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -675,17 +675,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ce92fc013fd3bae1",
+      "id": "ae42620b39593004",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "OPRL welcomes UK Packaging PRO appointments",
-      "url": "https://www.packagingnews.co.uk/news/materials/labelling/oprl-welcomes-uk-packaging-pro-appointments-07-08-2026",
+      "title": "Sustainability & Impact Summit | Recycling debate considers ‘acceptable public burden’ for circular progress",
+      "url": "https://www.packagingnews.co.uk/news/events/sustainability-impact-summit/sustainability-impact-summit-recycling-debate-considers-acceptable-public-burden-for-circular-progress-11-08-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-08-07T13:48:17+00:00",
-      "first_seen": "2026-08-08T14:07:32.965657+00:00",
+      "published_at": "2026-08-11T09:23:50+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
       "score": 75,
-      "summary": "The UK Packaging PRO has appointed Kerry Easter as chief executive and Karen Graley as chief operating officer to lead the organisation's strategic development.",
-      "angle": "Progress in the UK Packaging PRO structure is critical for regulatory compliance and EPR implementation within the packaging sector.",
+      "summary": "Industry experts debated the balance between infrastructure investment and public responsibility in improving recycling rates, highlighting concerns over policy uncertainty and the effectiveness of current circular economy strategies.",
+      "angle": "Highlights regulatory uncertainty and the shift towards incentivising consumer behaviour and material resilience in UK packaging waste management.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -745,6 +745,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b1446afa98e7dcbb",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Bira pushes for fair rates reform as £6.5bn proposal is revealed",
+      "url": "https://www.talkingretail.com/news/industry-news/bira-pushes-for-fair-rates-reform-as-6-5bn-proposal-is-revealed-11-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-11T14:21:36+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "score": 90,
+      "summary": "The British Independent Retailers Association is lobbying the government for comprehensive business rates reform, proposing to fund relief by closing import loopholes and addressing online VAT fraud.",
+      "angle": "Advocacy for high street tax reform directly impacts the operational cost structure of physical retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7dff7b21a38f90f5",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Make local great again | Viewpoint: Ed Woodall",
+      "url": "https://www.talkingretail.com/opinion/talking-points/make-local-great-again-viewpoint-ed-woodall-11-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-11T14:52:20+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "score": 85,
+      "summary": "The Association of Convenience Stores' Community Barometer identifies post offices and convenience stores as the most essential services for local community impact and economic growth.",
+      "angle": "Highlights the critical role of post offices and convenience stores in high street policy and community infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "48476e94dba68aea",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retailers urged to prepare for next phase of Tobacco and Vapes Act",
+      "url": "https://www.talkingretail.com/featured/retailers-urged-to-prepare-for-next-phase-of-tobacco-and-vapes-act-11-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-11T12:32:44+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "score": 85,
+      "summary": "The government has published new guidance for retailers regarding the Tobacco and Vapes Act, detailing upcoming changes to excise taxes, age restrictions, and tobacco sales regulations.",
+      "angle": "Regulatory updates on tobacco and nicotine sales directly impact operational compliance and inventory management for retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2ee53c733a74545e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -759,48 +801,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ae5c004fc86f28b7",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Fed urges new government ministers to engage with independent retailers",
-      "url": "https://www.talkingretail.com/featured/fed-urges-new-government-ministers-to-engage-with-independent-retailers-05-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-05T11:01:51+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 85,
-      "summary": "The Federation of Independent Retailers has written to new government ministers highlighting concerns over retail crime, business rates, energy costs, and upcoming regulatory reforms.",
-      "angle": "Highlights key policy lobbying priorities regarding business rates, employment legislation, and retail crime affecting independent retail operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9124fbbe3a0a597b",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "New tech sees Met Police quadruple number of shoplifters brought to justice",
-      "url": "https://www.talkingretail.com/featured/new-tech-sees-met-police-quadruple-number-of-shoplifters-brought-to-justice-04-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-04T09:54:19+00:00",
-      "first_seen": "2026-08-04T14:08:03.671395+00:00",
-      "score": 85,
-      "summary": "The Metropolitan Police has quadrupled shoplifter conviction rates in London by implementing the Auror platform, which allows retailers to submit digital evidence directly to officers.",
-      "angle": "Digital evidence reporting platforms significantly improve retail security outcomes and police collaboration for high-street store chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "31492b01e9f85e2a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retailers offered Powerball social media assets as jackpot rolls over",
-      "url": "https://www.talkingretail.com/news/industry-news/retailers-offered-powerball-social-media-assets-as-jackpot-rolls-over-10-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-10T11:22:52+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 75,
-      "summary": "National Lottery operator Allwyn is providing retailers with downloadable social media assets to drive footfall as the Powerball jackpot reaches £467m.",
-      "angle": "Provides actionable marketing support for Post Office retailers to increase foot traffic through high-profile lottery engagement.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "9c85089ff4fbb2aa",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -812,6 +812,20 @@
       "score": 90,
       "summary": "A NACS report reveals that student spending on course materials has declined by 44 percent over the last decade, driven by the increased adoption of digital learning resources.",
       "angle": "Highlights the shift toward digital-first affordable access programmes and changing student preferences for multi-device, seamless learning materials.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "12b3a213762199e6",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "3 AI-Related Questions for Notre Dame’s Sonia Howell",
+      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/08/11/3-ai-related-questions-notre-dames-sonia-howell",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-11T07:00:00+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "score": 85,
+      "summary": "Notre Dame’s Office of Digital Learning is redesigning assessments and faculty workflows to address the challenges and opportunities presented by generative AI in higher education.",
+      "angle": "Highlights institutional shifts in pedagogical design and assessment strategies as universities adapt to AI-driven learning environments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -840,20 +854,6 @@
       "score": 85,
       "summary": "States are struggling to align data systems and short-term training programs with federal criteria required to access new Workforce Pell grant funding for nondegree credentials.",
       "angle": "Highlights a shift toward nondegree workforce credentials, creating demand for compliant curriculum and data-tracking solutions in higher education.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3f29f05d9a2d5be5",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Cassidy Eyes Final Push to Pass College Transparency Act",
-      "url": "https://www.insidehighered.com/news/government/2026/08/06/cassidy-eyes-final-push-pass-college-transparency-act",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-06T07:00:00+00:00",
-      "first_seen": "2026-08-06T14:07:56.284148+00:00",
-      "score": 85,
-      "summary": "Senator Bill Cassidy is making a final legislative push to pass the College Transparency Act, which would establish a federal student-level data network to track post-graduation outcomes.",
-      "angle": "Potential regulatory shift in higher education data reporting requirements and increased focus on institutional accountability and student ROI.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -913,6 +913,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e7d0c1c0b98022c1",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "UK construction activity June 2026",
+      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-june-2026-11-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-11T14:23:02+00:00",
+      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "score": 85,
+      "summary": "UK construction activity shows a year-on-year decline, with project starts down 8 per cent and contract awards falling 6 per cent amid ongoing viability and financing challenges.",
+      "angle": "Declining project starts and contract awards indicate a softening pipeline for residential and commercial glazing installations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5a96f89eb069e76b",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -952,20 +966,6 @@
       "score": 85,
       "summary": "UK construction output continued to contract in July, though at the slowest rate in four months, with business confidence reaching its highest level since February.",
       "angle": "Provides critical macro-economic context on sector-wide demand trends, input cost inflation, and industry-wide sentiment for strategic planning.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0fad5aea4466d0a7",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "UK construction workload decline eases in Q2, says RICS",
-      "url": "https://www.constructionnews.co.uk/sections/data/uk-construction-workload-decline-eases-in-q2-says-rics-06-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-05T23:01:57+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 85,
-      "summary": "UK construction workloads remained in negative territory during Q2 2026, though the decline eased to a net balance of -4 per cent from -12 per cent in Q1.",
-      "angle": "Provides critical demand indicators for residential construction and highlights ongoing supply chain and material cost pressures.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1031,12 +1031,12 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 71,
-    "llm_requests_succeeded": 71,
+    "providers_succeeded": 87,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 1,
     "carried_forward": 5
