@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T06:49:10.725293+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no updates from our portfolio companies to report.",
+  "generated_at": "2026-08-13T14:07:28.503909+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-related updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 11,
   "last_digest_sent_at": "2026-08-13T06:49:10.725293+00:00",
   "companies": [
@@ -143,7 +143,7 @@
       "description": "UK independent stationery and Post Office retail chain.",
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 5,
+  "story_count": 4,
   "todays_story_count": 0,
   "stories": [
     {
@@ -283,38 +283,6 @@
       },
       "status": "ready",
       "discovered_via": "GDELT",
-      "date_estimated": false
-    },
-    {
-      "id": "3c5cc3a7c5831c43",
-      "company": "UOE",
-      "company_domain": "uoe.co.uk",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Big News for Islington: Your Post Office Is Getting an Upgrade (and a New Best Friend)",
-      "url": "https://www.uoe.co.uk/news/big-news-for-islington-your-post-office-is-getting-an-upgrade-and-a-new-best-friend",
-      "source": "uoe.co.uk",
-      "published_at": "2026-07-14T07:00:52+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 85,
-      "tier": "lead",
-      "recency": "catchup",
-      "story_type": "Update",
-      "summary": "UOE is relocating its Islington Post Office to a new, larger site at 129E Upper Street, integrated with its fourth 'Stamp' retail store, effective 14th July.",
-      "why_it_matters": "The move demonstrates UOE's commitment to high street revitalisation by combining essential community services with a modernised, seven-day-a-week retail experience.",
-      "verified_facts": [
-        "The new Islington branch opens on 14th July at 129E Upper Street, London N1 1QP.",
-        "The site features a modernised Post Office alongside the fourth 'Stamp' retail store.",
-        "The location will offer extended opening hours, including Sundays from 12 noon to 5pm.",
-        "Elliot Jacobs is the CEO of UOE."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "UOE is expanding its presence in Islington with the relocation of its local Post Office to a new, larger site at 129E Upper Street. Opening on 14th July, the new branch integrates a fully modernised Post Office with the fourth 'Stamp' retail store. The site will provide a broader range of services, including courier drop-offs and foreign currency exchange, with extended opening hours seven days a week to better serve the local community. This investment highlights UOE’s ongoing commitment to enhancing the high street experience. #UOE #Islington #RetailInnovation",
-        "investor": "UOE continues to execute its growth strategy with the opening of a new, flagship-style location in Islington Square. By co-locating a modernised Post Office with its 'Stamp' retail brand, UOE is creating a high-footfall, multi-service destination that addresses modern consumer needs. The new site at 129E Upper Street, launching 14th July, features extended seven-day trading hours and a curated retail offering, demonstrating the scalability of the UOE model in revitalising essential community infrastructure. This development marks the fourth 'Stamp' store, reflecting the company's disciplined approach to expanding its retail footprint. #UOE #RetailGrowth #HighStreetInvestment",
-        "people": "Congratulations to the UOE team on the upcoming launch of their new Islington branch. CEO Elliot Jacobs and his team have worked to create a space that combines essential Post Office services with a modern retail experience, designed specifically for the local community. By extending opening hours to seven days a week and offering a wide range of courier and administrative services, the team is ensuring that vital local infrastructure remains accessible and relevant. We look forward to the doors opening at 129E Upper Street on 14th July. #UOE #TeamSuccess #CommunityRetail"
-      },
-      "status": "ready",
-      "discovered_via": "Official RSS",
       "date_estimated": false
     },
     {
@@ -661,6 +629,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "46c65a6acfc1a294",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "“93% of British businesses impacted by new EU Packaging regulation”",
+      "url": "https://www.packagingnews.co.uk/top-story/93-of-british-businesses-impacted-by-new-eu-packaging-regulation-13-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-13T11:58:03+00:00",
+      "first_seen": "2026-08-13T14:07:28.503909+00:00",
+      "score": 90,
+      "summary": "A survey reveals 93% of British businesses are adapting packaging strategies to comply with the EU's Packaging and Packaging Waste Regulation and domestic Extended Producer Responsibility schemes.",
+      "angle": "Regulatory shifts mandate increased recyclability, recycled content, and packaging minimisation, directly impacting PET and beverage packaging standards.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "189cdd6c35d55821",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -686,20 +668,6 @@
       "score": 85,
       "summary": "UK Packaging PRO has appointed Kerry Easter as CEO and Karen Graley as COO to lead the organisation's transition into its first phase of packaging EPR operations.",
       "angle": "Leadership changes at the body managing UK packaging EPR directly impact regulatory compliance and operational frameworks for PET manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9c29ab353804de35",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Gillian Garside-Wight | What will Andy Burnham do for packaging sustainability?",
-      "url": "https://www.packagingnews.co.uk/features/comment/gillian-garside-wight-what-will-andy-burnham-do-for-packaging-sustainability-05-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-05T15:45:50+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 85,
-      "summary": "Prime Minister Andy Burnham’s past environmental policies in Greater Manchester suggest a potential national focus on circular economy initiatives, EPR legislation, and standardized recycling regulations.",
-      "angle": "Anticipated national policy shifts on EPR, DRS, and recycling consistency directly impact PET packaging regulatory compliance and strategy.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -731,17 +699,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "81ded8147fe9f9d0",
+      "id": "3bd4e1378dfca2af",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "UK chip firm OLIX valued at more than £2bn after major investment",
-      "url": "https://www.uktech.news/ai/uk-chip-firm-olix-valued-at-more-than-2bn-after-major-investment-20260803",
+      "title": "Lancaster spinout Mindgard raises £22m to scale AI security platform",
+      "url": "https://www.uktech.news/ai/lancaster-spinout-mindgard-raises-22m-to-scale-ai-security-platform-20260813",
       "source": "uktech.news",
-      "published_at": "2026-08-03T09:02:50+00:00",
-      "first_seen": "2026-08-03T14:07:52.546890+00:00",
-      "score": 90,
-      "summary": "London-based AI hardware startup OLIX has raised $312m in a Series B round, valuing the company at $3.3bn to scale its specialised silicon platform for AI inference.",
-      "angle": "Highlights significant capital allocation and government support for UK-based sovereign AI hardware infrastructure and compute efficiency.",
+      "published_at": "2026-08-13T14:00:43+00:00",
+      "first_seen": "2026-08-13T14:07:28.503909+00:00",
+      "score": 85,
+      "summary": "AI security firm Mindgard has raised £22.2m in Series A funding to scale its platform for continuous red teaming and threat protection across enterprise AI systems.",
+      "angle": "Highlights growing market demand for specialised security infrastructure to protect critical AI operations from emerging vulnerabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -927,6 +895,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "437d8c6edf9994d4",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "New orders drop by 12 per cent as wider economy grows more than construction",
+      "url": "https://www.constructionnews.co.uk/buildings/new-orders-drop-by-12-per-cent-as-wider-economy-grows-more-than-construction-13-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-13T11:16:39+00:00",
+      "first_seen": "2026-08-13T14:07:28.503909+00:00",
+      "score": 85,
+      "summary": "Official ONS statistics show that new construction orders in the UK fell by 12 per cent in the second quarter of 2026.",
+      "angle": "Indicates a significant contraction in construction demand, signaling potential headwinds for manufacturers and suppliers across the sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b73d8869dfe6e3b9",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -969,17 +951,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3c230e1c0e2385c0",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Lindner Prater convicted, Wintech cleared over window-fall death",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/lindner-prater-convicted-wintech-cleared-over-window-fall-death-07-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-07T11:45:30+00:00",
-      "first_seen": "2026-08-07T14:07:56.638852+00:00",
+      "id": "3db89513d8f9a728",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "LTX launches new free-to-use open world model for video and physical AI",
+      "url": "https://roboticsandautomationnews.com/2026/08/13/ltx-launches-new-free-to-use-open-world-model-for-video-and-physical-ai/104079/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-13T08:04:33+00:00",
+      "first_seen": "2026-08-13T14:07:28.503909+00:00",
       "score": 85,
-      "summary": "Lindner Prater and St James were convicted of health and safety breaches after a 130kg window fell from a London tower block, killing a pedestrian in 2018.",
-      "angle": "Highlights critical industry focus on window design safety, mechanical restrictor reliability, and legal liability for facade contractors.",
+      "summary": "LTX has released LTX-2.5, an open-weights world model designed for physical AI and robotics, enabling developers to model environmental changes and predict how actions affect surroundings.",
+      "angle": "World models improve robot simulation, training, and planning by predicting environmental states, enhancing autonomous inspection capabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1023,36 +1005,22 @@
       "summary": "Wood Mackenzie research forecasts global robotics electricity consumption will reach 363 TWh by 2035, potentially straining energy infrastructure as the operational fleet grows to 16 million units.",
       "angle": "Rising power demand and grid constraints may impact future operational costs and infrastructure requirements for autonomous inspection robotics.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b57ff0638e135383",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Unitree targets $9 billion valuation in landmark IPO as humanoid robot race accelerates",
-      "url": "https://roboticsandautomationnews.com/2026/08/07/unitree-targets-9-billion-valuation-in-landmark-ipo-as-humanoid-robot-race-accelerates/104008/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-07T13:07:50+00:00",
-      "first_seen": "2026-08-07T14:07:56.638852+00:00",
-      "score": 75,
-      "summary": "Chinese robotics firm Unitree has launched a $9 billion IPO, signalling significant investor appetite for AI-powered humanoid and quadruped robotics despite rising geopolitical and regulatory tensions.",
-      "angle": "Highlights market valuation trends and increasing regulatory scrutiny for AI-powered robotics manufacturers operating in international markets.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 4,
+    "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 143,
-    "llm_requests_attempted": 101,
-    "llm_requests_succeeded": 101,
-    "dropped_no_valid_date": 23,
+    "providers_succeeded": 96,
+    "queued_candidates": 145,
+    "llm_requests_attempted": 102,
+    "llm_requests_succeeded": 102,
+    "dropped_no_valid_date": 24,
     "dropped_thin_page": 18,
     "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 6,
-    "carried_forward": 5
+    "carried_forward": 4
   }
 }
