@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T14:08:11.927402+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, as there is no news to report from our portfolio companies.",
-  "archive_story_count": 10,
-  "last_digest_sent_at": "2026-08-12T06:49:18.220060+00:00",
+  "generated_at": "2026-08-13T06:49:10.725293+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no updates from our portfolio companies to report.",
+  "archive_story_count": 11,
+  "last_digest_sent_at": "2026-08-13T06:49:10.725293+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 2,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -423,6 +423,20 @@
   ],
   "sector_stories": [
     {
+      "id": "85f6729cbe897b8f",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "ClearJet: We’ve created a service that lets retailers build their own parcel delivery network",
+      "url": "https://postandparcel.info/162561/news/e-commerce/clearjet-weve-created-a-service-that-lets-retailers-build-their-own-parcel-delivery-network/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-12T04:17:01+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
+      "score": 75,
+      "summary": "ClearJet has secured $25 million in growth funding to expand its AI-powered SuperCarrier network, which utilises unused airline cargo capacity for parcel delivery.",
+      "angle": "Represents a potential shift in logistics infrastructure by enabling retailers to bypass traditional carrier networks using AI-optimised air freight.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9f21f33e899709d5",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -633,6 +647,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e9494d7f0a039e50",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Landmark EU packaging and waste regulations start to take effect",
+      "url": "https://www.packagingnews.co.uk/news/environment/single-use/landmark-eu-packaging-and-waste-regulations-start-to-take-effect-12-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-12T15:59:19+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
+      "score": 95,
+      "summary": "The EU’s Packaging and Packaging Waste Regulation has begun implementation, introducing new requirements for material use, recyclability, and documentation for packaging across the EU and Northern Ireland.",
+      "angle": "New regulatory compliance, mandatory recycled content, and reuse targets directly impact PET packaging design and market access.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "189cdd6c35d55821",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -672,20 +700,6 @@
       "score": 85,
       "summary": "Prime Minister Andy Burnham’s past environmental policies in Greater Manchester suggest a potential national focus on circular economy initiatives, EPR legislation, and standardized recycling regulations.",
       "angle": "Anticipated national policy shifts on EPR, DRS, and recycling consistency directly impact PET packaging regulatory compliance and strategy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ae42620b39593004",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Sustainability & Impact Summit | Recycling debate considers ‘acceptable public burden’ for circular progress",
-      "url": "https://www.packagingnews.co.uk/news/events/sustainability-impact-summit/sustainability-impact-summit-recycling-debate-considers-acceptable-public-burden-for-circular-progress-11-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-11T09:23:50+00:00",
-      "first_seen": "2026-08-12T06:49:18.220060+00:00",
-      "score": 75,
-      "summary": "Industry experts debated the balance between infrastructure investment and public responsibility in improving recycling rates, highlighting concerns over policy uncertainty and the effectiveness of current circular economy strategies.",
-      "angle": "Highlights regulatory uncertainty and the shift towards incentivising consumer behaviour and material resilience in UK packaging waste management.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -815,6 +829,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2b358b70fc22d313",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Schools spend big on AI , but struggle to know what worth buying",
+      "url": "https://ctmirror.org/2026/08/12/schools-ai-education-technology-spending/",
+      "source": "ctmirror.org",
+      "published_at": "2026-08-12T20:00:00+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
+      "score": 85,
+      "summary": "School districts are struggling to evaluate and procure AI tools due to a lack of federal guidance and the rapid pace of industry innovation.",
+      "angle": "Highlights procurement challenges and the growing demand for evidence-based, secure AI solutions in the K-12 education market.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "b5c9a317c812cfa3",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -829,31 +857,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "12b3a213762199e6",
+      "id": "be4e11f845c936f8",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "3 AI-Related Questions for Notre Dame’s Sonia Howell",
-      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/08/11/3-ai-related-questions-notre-dames-sonia-howell",
+      "title": "The Legislation That Eats Away at Higher Education’s Financial Footing",
+      "url": "https://www.insidehighered.com/opinion/columns/just-explain-it-me/2026/08/12/most-legislation-doesnt-support-higher-education",
       "source": "insidehighered.com",
-      "published_at": "2026-08-11T07:00:00+00:00",
-      "first_seen": "2026-08-12T06:49:18.220060+00:00",
+      "published_at": "2026-08-12T07:00:00+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
       "score": 85,
-      "summary": "Notre Dame’s Office of Digital Learning is redesigning assessments and faculty workflows to address the challenges and opportunities presented by generative AI in higher education.",
-      "angle": "Highlights institutional shifts in pedagogical design and assessment strategies as universities adapt to AI-driven learning environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a34a856833fb3d65",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Linda McMahon’s Trojan Horse",
-      "url": "https://www.insidehighered.com/opinion/views/2026/08/10/linda-mcmahons-trojan-horse-opinion",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-10T07:00:00+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 85,
-      "summary": "Secretary of Education Linda McMahon has issued a letter to university leaders requesting data on admissions, research, and campus policies, signaling potential shifts in federal higher education oversight.",
-      "angle": "Regulatory pressure and potential funding alignment based on political priorities impact the higher education publishing and technology market.",
+      "summary": "Rising federal and state unfunded mandates are increasing administrative and compliance costs for higher education institutions, limiting their financial flexibility and ability to invest in other areas.",
+      "angle": "Increased institutional compliance costs may reduce budgets available for educational publishing and learning technology procurement.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -913,6 +927,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b73d8869dfe6e3b9",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Grey area: Inside the greybelt planning revolution",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/features/grey-area-inside-the-greybelt-planning-revolution-12-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-12T11:21:27+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
+      "score": 85,
+      "summary": "Developers, councillors, and planning officials are currently debating the definition and development potential of 'greybelt' land in England.",
+      "angle": "Changes to planning policy regarding greybelt land directly influence future residential and commercial construction demand and project pipelines.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e7d0c1c0b98022c1",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -955,20 +983,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5fe03f0ee5965c0e",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction output decline slows in July",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-output-decline-slows-in-july-06-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-06T10:21:08+00:00",
-      "first_seen": "2026-08-07T06:49:02.816595+00:00",
-      "score": 85,
-      "summary": "UK construction output continued to contract in July, though at the slowest rate in four months, with business confidence reaching its highest level since February.",
-      "angle": "Provides critical macro-economic context on sector-wide demand trends, input cost inflation, and industry-wide sentiment for strategic planning.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "063fbdcbd2eec48b",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -997,6 +1011,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7833ecfdeae9da26",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Robots could consume as much electricity as 35 million US homes by 2035",
+      "url": "https://roboticsandautomationnews.com/2026/08/12/robots-could-consume-as-much-electricity-as-35-million-us-homes-by-2035/104073/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-12T16:47:31+00:00",
+      "first_seen": "2026-08-13T06:49:10.725293+00:00",
+      "score": 75,
+      "summary": "Wood Mackenzie research forecasts global robotics electricity consumption will reach 363 TWh by 2035, potentially straining energy infrastructure as the operational fleet grows to 16 million units.",
+      "angle": "Rising power demand and grid constraints may impact future operational costs and infrastructure requirements for autonomous inspection robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b57ff0638e135383",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1009,20 +1037,6 @@
       "summary": "Chinese robotics firm Unitree has launched a $9 billion IPO, signalling significant investor appetite for AI-powered humanoid and quadruped robotics despite rising geopolitical and regulatory tensions.",
       "angle": "Highlights market valuation trends and increasing regulatory scrutiny for AI-powered robotics manufacturers operating in international markets.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9b040adb70b43e60",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Brain Corp reports 68 percent growth and surpasses 50,000 autonomous robots worldwide",
-      "url": "https://roboticsandautomationnews.com/2026/08/07/brain-corp-reports-68-percent-growth-and-surpasses-50000-autonomous-robots-worldwide/104006/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-07T10:44:44+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 75,
-      "summary": "Brain Corp reported 68 percent year-over-year growth in H1 2026, surpassing 50,000 autonomous robots deployed globally across various commercial sectors.",
-      "angle": "Demonstrates enterprise demand for scalable, secure autonomy platforms and the shift toward complex, situationally aware robotic navigation.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1031,14 +1045,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 77,
-    "queued_candidates": 106,
-    "llm_requests_attempted": 64,
-    "llm_requests_succeeded": 64,
+    "providers_succeeded": 90,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 101,
+    "llm_requests_succeeded": 101,
     "dropped_no_valid_date": 23,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
+    "dropped_thin_page": 18,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 5
   }
 }

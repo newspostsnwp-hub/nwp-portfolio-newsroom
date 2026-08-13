@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T14:08:11.927402+00:00",
+  "generated_at": "2026-08-13T06:49:10.725293+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -314,6 +314,38 @@
       },
       "status": "ready",
       "discovered_via": "Company newsroom",
+      "date_estimated": false
+    },
+    {
+      "id": "3c5cc3a7c5831c43",
+      "company": "UOE",
+      "company_domain": "uoe.co.uk",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Big News for Islington: Your Post Office Is Getting an Upgrade (and a New Best Friend)",
+      "url": "https://www.uoe.co.uk/news/big-news-for-islington-your-post-office-is-getting-an-upgrade-and-a-new-best-friend",
+      "source": "uoe.co.uk",
+      "published_at": "2026-07-14T07:00:52+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Update",
+      "summary": "UOE is relocating its Islington Post Office to a new, larger site at 129E Upper Street, integrated with its fourth 'Stamp' retail store, effective 14th July.",
+      "why_it_matters": "The move demonstrates UOE's commitment to high street revitalisation by combining essential community services with a modernised, seven-day-a-week retail experience.",
+      "verified_facts": [
+        "The new Islington branch opens on 14th July at 129E Upper Street, London N1 1QP.",
+        "The site features a modernised Post Office alongside the fourth 'Stamp' retail store.",
+        "The location will offer extended opening hours, including Sundays from 12 noon to 5pm.",
+        "Elliot Jacobs is the CEO of UOE."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "UOE is expanding its presence in Islington with the relocation of its local Post Office to a new, larger site at 129E Upper Street. Opening on 14th July, the new branch integrates a fully modernised Post Office with the fourth 'Stamp' retail store. The site will provide a broader range of services, including courier drop-offs and foreign currency exchange, with extended opening hours seven days a week to better serve the local community. This investment highlights UOE’s ongoing commitment to enhancing the high street experience. #UOE #Islington #RetailInnovation",
+        "investor": "UOE continues to execute its growth strategy with the opening of a new, flagship-style location in Islington Square. By co-locating a modernised Post Office with its 'Stamp' retail brand, UOE is creating a high-footfall, multi-service destination that addresses modern consumer needs. The new site at 129E Upper Street, launching 14th July, features extended seven-day trading hours and a curated retail offering, demonstrating the scalability of the UOE model in revitalising essential community infrastructure. This development marks the fourth 'Stamp' store, reflecting the company's disciplined approach to expanding its retail footprint. #UOE #RetailGrowth #HighStreetInvestment",
+        "people": "Congratulations to the UOE team on the upcoming launch of their new Islington branch. CEO Elliot Jacobs and his team have worked to create a space that combines essential Post Office services with a modern retail experience, designed specifically for the local community. By extending opening hours to seven days a week and offering a wide range of courier and administrative services, the team is ensuring that vital local infrastructure remains accessible and relevant. We look forward to the doors opening at 129E Upper Street on 14th July. #UOE #TeamSuccess #CommunityRetail"
+      },
+      "status": "ready",
+      "discovered_via": "Official RSS",
       "date_estimated": false
     }
   ]
