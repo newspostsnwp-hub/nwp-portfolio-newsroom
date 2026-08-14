@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T06:48:20.726681+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, as there is no news to report from Fertility Associates, Future Maintenance Technologies, or The Delivery Group.",
+  "generated_at": "2026-08-14T14:07:23.427711+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector developments, as there are no updates from our portfolio companies to report.",
   "archive_story_count": 11,
   "last_digest_sent_at": "2026-08-14T06:48:20.726681+00:00",
   "companies": [
@@ -503,6 +503,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8bcc47483bfa13d5",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "TU Graz develops guidelines for repairable EV batteries",
+      "url": "https://www.electrive.com/2026/08/14/tu-graz-develops-guidelines-for-repairable-ev-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-08-14T07:15:00+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
+      "score": 85,
+      "summary": "Researchers at TU Graz have developed design guidelines to improve the safety, repairability, and recyclability of traction batteries, specifically focusing on electric two-wheelers.",
+      "angle": "Standardised repairable battery designs and diagnostic methods could influence future regulatory frameworks and industry safety requirements for micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "66514eabf1d2af67",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -545,17 +559,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d53aaabe8512c9ce",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "CATL tests 350 Wh/kg battery for eVTOLs",
-      "url": "https://www.electrive.com/2026/08/10/catl-tests-350-wh-kg-battery-for-evtols/",
-      "source": "electrive.com",
-      "published_at": "2026-08-10T12:32:18+00:00",
-      "first_seen": "2026-08-11T06:48:26.871887+00:00",
-      "score": 65,
-      "summary": "CATL has developed a 350 Wh/kg prismatic battery system for eVTOLs that successfully passed stringent thermal runaway propagation tests.",
-      "angle": "Advances in high-density, high-safety battery technology often filter down to smaller micromobility applications over time.",
+      "id": "64459c076bacddaa",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Director Destin Daniel Cretton Talks Spider-Man: Brand New Day",
+      "url": "https://postperspective.com/director-destin-daniel-cretton-talks-spider-man-brand-new-day/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-13T17:24:39+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
+      "score": 75,
+      "summary": "Director Destin Daniel Cretton discusses the production workflow for Spider-Man: Brand New Day, highlighting the integration of on-set stunt choreography with extensive VFX and tight post-production scheduling.",
+      "angle": "Highlights industry trends in high-end VFX integration, collaborative pipeline management, and the reliance on UK-based location filming.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,6 +587,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f20dc88952be042f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Dalet Intros Cloud-Native Suites for Media Production and Archive",
+      "url": "https://postperspective.com/dalet-intros-cloud-native-suites-for-media-production-and-archive/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-13T18:39:21+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
+      "score": 65,
+      "summary": "Dalet has launched cloud-native solution suites featuring AI-driven media asset management, automated workflows, and tools for production, distribution, and archiving.",
+      "angle": "Highlights the industry-wide shift toward cloud-native, AI-integrated media management platforms to streamline complex post-production and distribution workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b1442b8bcb316444",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -584,34 +612,6 @@
       "score": 65,
       "summary": "Untold Studios has appointed AJ Cohen as president of Film & Episodic VFX to oversee global strategy and operations as the studio continues its international expansion.",
       "angle": "Highlights competitive landscape shifts and the trend of independent studios scaling globally through integrated, cloud-native production models.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "288f4412cf968cdc",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "DP Celiana Cárdenas on Shooting Apple TV’s Cape Fear",
-      "url": "https://postperspective.com/dp-celiana-cardenas-on-shooting-apple-tvs-cape-fear/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-05T17:15:19+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 65,
-      "summary": "Cinematographer Celiana Cárdenas discusses the technical and aesthetic choices used to establish the visual language of the Apple TV series Cape Fear, including format changes and lighting techniques.",
-      "angle": "Highlights evolving production workflows, including complex lighting control and format shifts, relevant to high-end post-production service providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "059b76510e533e6b",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Wade Barnett on Emmy-Nominated Sound Editing of The Boys",
-      "url": "https://postperspective.com/wade-barnett-on-emmy-nominated-sound-editing-of-the-boys/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-05T16:01:06+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 65,
-      "summary": "Supervising sound editor Wade Barnett discusses the technical workflow, sound design strategies, and software tools used to create the complex, organic soundscape for Amazon's series The Boys.",
-      "angle": "Highlights current industry-standard software and collaborative workflows for high-end episodic sound design and post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -643,6 +643,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "38b75bb888b6ce2a",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "PackUK aiming to enhance data stability in Year 2 EPR plans",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/packuk-aiming-to-enhance-data-stability-in-year-2-epr-plans-14-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-14T11:10:44+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
+      "score": 85,
+      "summary": "PackUK is prioritising data stability and transparency for the second year of packaging EPR, intending to issue a single Notice of Liability for 2026/27 by late November.",
+      "angle": "Regulatory changes to EPR fee structures and data reporting requirements directly impact operational costs for UK packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "189cdd6c35d55821",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -654,20 +668,6 @@
       "score": 85,
       "summary": "Industry experts at the Sustainability and Impact Summit discussed the challenges of implementing EPR, DRS, and Simpler Recycling regulations, highlighting the urgent need for better data and infrastructure investment.",
       "angle": "Regulatory shifts in EPR and DRS directly impact packaging design, compliance costs, and material circularity requirements for manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "25391b93b4fa9416",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "UK Packaging PRO appoints Kerry Easter as CEO and Karen Graley as COO",
-      "url": "https://www.packagingnews.co.uk/news/environment/recycling/uk-packaging-pro-appoints-kerry-easter-as-ceo-and-karen-graley-as-coo-06-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-06T10:59:16+00:00",
-      "first_seen": "2026-08-06T14:07:56.284148+00:00",
-      "score": 85,
-      "summary": "UK Packaging PRO has appointed Kerry Easter as CEO and Karen Graley as COO to lead the organisation's transition into its first phase of packaging EPR operations.",
-      "angle": "Leadership changes at the body managing UK packaging EPR directly impact regulatory compliance and operational frameworks for PET manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -895,6 +895,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bffd3e4a26cbbabd",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Supply chain engagement planned on five New Hospital Programme jobs",
+      "url": "https://www.constructionnews.co.uk/buildings/supply-chain-engaged-on-five-new-hospital-programme-jobs-14-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-14T11:15:31+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
+      "score": 85,
+      "summary": "The New Hospital Programme is hosting a supply chain engagement event on 17 September for five hospital schemes in the East of England with a combined multi-billion pound value.",
+      "angle": "Provides early visibility into major public sector procurement pipelines and supply chain opportunities for construction product manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "437d8c6edf9994d4",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -934,20 +948,6 @@
       "score": 85,
       "summary": "UK construction activity shows a year-on-year decline, with project starts down 8 per cent and contract awards falling 6 per cent amid ongoing viability and financing challenges.",
       "angle": "Declining project starts and contract awards indicate a softening pipeline for residential and commercial glazing installations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5a96f89eb069e76b",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "‘Robust’ performance drives up profit at Marshalls",
-      "url": "https://www.constructionnews.co.uk/supply-chain/robust-performance-drives-up-profit-at-marshalls-10-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-10T11:45:37+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 85,
-      "summary": "Marshalls reported a 70 per cent increase in interim profit to £19.7m by pivoting towards infrastructure projects to mitigate the impact of a difficult new-build housing market.",
-      "angle": "Highlights market-wide challenges in new-build housing and the strategic importance of diversifying into infrastructure to counter cyclicality.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -993,17 +993,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f593a65df5f7b30e",
+      "id": "b857ecafbf610099",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Robot orders increase to $622 million in Q2 as automation demand broadens across industries",
-      "url": "https://roboticsandautomationnews.com/2026/08/13/robot-orders-increase-to-622-million-in-q2-as-automation-demand-broadens-across-industries/104092/",
+      "title": "LG to unveil new Nvidia-powered humanoid robot in early 2027",
+      "url": "https://roboticsandautomationnews.com/2026/08/14/lg-to-unveil-new-nvidia-powered-humanoid-robot-in-early-2027/104173/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-13T10:09:30+00:00",
-      "first_seen": "2026-08-14T06:48:20.726681+00:00",
+      "published_at": "2026-08-14T11:36:06+00:00",
+      "first_seen": "2026-08-14T14:07:23.427711+00:00",
       "score": 65,
-      "summary": "North American robot orders reached $622 million in Q2 2026, with a 21.3 percent revenue increase year-over-year as demand diversifies across general industries beyond automotive OEMs.",
-      "angle": "Broadening industrial automation adoption indicates a favourable macroeconomic climate for specialised robotics deployment and long-term capital investment.",
+      "summary": "LG and Nvidia have partnered to accelerate the development of physical AI, humanoid robots, and autonomous vehicle platforms using Nvidia's Isaac GR00T and Jetson Thor technologies.",
+      "angle": "Advances in foundation models and compute hardware for physical AI indicate rapid maturation of autonomous robotics capabilities.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1013,14 +1013,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 91,
+    "providers_succeeded": 92,
+    "queued_candidates": 144,
+    "llm_requests_attempted": 99,
+    "llm_requests_succeeded": 99,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 2,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 4
   }
 }
