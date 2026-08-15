@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T06:48:20.005744+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there are no specific developments from the Clearway Group portfolio to report.",
-  "archive_story_count": 11,
+  "generated_at": "2026-08-15T14:07:19.921992+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from Clearway Group or Whitespace.",
+  "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-15T06:48:20.005744+00:00",
   "companies": [
     {
@@ -67,7 +67,7 @@
       "description": "London-based TV and film post-production group (Molinare Creative Group, including Notorious DIT).",
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,40 +251,9 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 4,
+  "story_count": 3,
   "todays_story_count": 0,
   "stories": [
-    {
-      "id": "43ae0f8a49652b55",
-      "company": "Molinare",
-      "company_domain": "molinare.co.uk",
-      "industry": "TV and film post-production",
-      "title": "Molinare hires Des Carey for Dublin studio",
-      "url": "https://www.televisual.com/news/molinare-taps-carey-for-dublin-studio/",
-      "source": "televisual.com",
-      "published_at": "2026-07-16T09:40:36+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 95,
-      "tier": "lead",
-      "recency": "catchup",
-      "story_type": "Appointment",
-      "summary": "Molinare Creative Group has appointed industry veteran Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish.",
-      "why_it_matters": "The appointment signals a strategic push to expand Molinare's international footprint and capabilities in emerging production technologies, leveraging Carey's extensive background in cinematic innovation and global post-production.",
-      "verified_facts": [
-        "Des Carey appointed as Executive Director, Growth & Innovation at Elephant Goldfish.",
-        "Elephant Goldfish is a member of the Molinare Creative Group.",
-        "Carey previously held senior roles at Light Iron, Company 3, and Samsung."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "We are pleased to share that Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation. Based at the group’s Dublin studio, Elephant Goldfish, Des will lead strategic growth and partnership initiatives. With over 25 years of experience across production and post-production, including senior roles at Light Iron and Samsung, Des brings significant expertise to the team as they continue to expand their international presence. Congratulations to Des on this new role. #Molinare #PostProduction #Dublin",
-        "investor": "Molinare Creative Group continues to strengthen its leadership team with the appointment of Des Carey as Executive Director, Growth & Innovation. Based in Dublin at Elephant Goldfish, Des will focus on strategic business development and the integration of emerging production technologies. His extensive international experience, including his tenure as Global Head of Cinematic Innovation at Samsung, aligns with the group's ambition to scale its operations and enhance its service offering across the film and television sectors. #Molinare #Growth #MediaTech",
-        "people": "A warm welcome to Des Carey, who joins the Molinare Creative Group as Executive Director, Growth & Innovation. Working from the Elephant Goldfish studio in Dublin, Des will collaborate with teams across the group to drive innovation and new partnerships. His impressive career, which includes co-founding Light Iron and leading cinematic innovation at Samsung, makes him a fantastic addition to the team. We look forward to seeing the impact of his leadership on the group’s continued development. #Molinare #TeamNews #PostProduction"
-      },
-      "status": "ready",
-      "discovered_via": "GDELT",
-      "date_estimated": false
-    },
     {
       "id": "b8b0444f0ac9ecfa",
       "company": "McGraw Hill",
@@ -475,20 +444,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1f9854109c82c0cd",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "UK schools turn to security tech as Martyn’s Law approaches",
-      "url": "https://securityjournaluk.com/schools-turn-to-tech-for-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-05T13:53:32+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 85,
-      "summary": "UK schools are increasing investment in security technology to meet upcoming compliance requirements under the Terrorism (Protection of Premises) Act 2025, also known as Martyn’s Law.",
-      "angle": "Regulatory shifts under Martyn’s Law are driving significant demand for site security and emergency response solutions in education.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "a6746bad03d37069",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -500,6 +455,20 @@
       "score": 75,
       "summary": "Thermal imaging technology is increasingly shifting from a specialist tool to a mainstream security solution for commercial and critical infrastructure environments to improve early detection and reduce false alarms.",
       "angle": "Highlights the growing adoption of thermal sensors and analytics to enhance perimeter security and operational efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9c78a6e01bbe84ad",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Black Onyx deployed by Network Rail",
+      "url": "https://securityjournaluk.com/black-onyx-deployed-by-network-rail/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-12T08:12:08+00:00",
+      "first_seen": "2026-08-15T14:07:19.921992+00:00",
+      "score": 75,
+      "summary": "Black Onyx has deployed mobile response units for Network Rail to deter and intercept copper cable theft across South and West Yorkshire.",
+      "angle": "Highlights a growing industry shift toward agile, mobile-first security solutions for protecting dispersed critical infrastructure assets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -671,20 +640,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3992a346f0194605",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "NCSC concerned over ‘unsanctioned actions’ of frontier AI models",
-      "url": "https://www.uktech.news/cybersecurity/ncsc-concerned-over-unsanctioned-actions-of-frontier-ai-models-20260805",
-      "source": "uktech.news",
-      "published_at": "2026-08-05T09:00:20+00:00",
-      "first_seen": "2026-08-05T14:07:58.565922+00:00",
-      "score": 95,
-      "summary": "The NCSC and UK AI Security Institute have raised concerns regarding frontier AI models autonomously performing unsanctioned actions, including hacking and supply-chain attacks.",
-      "angle": "Highlights urgent regulatory and security requirements for sovereign AI developers regarding autonomous agent safety and oversight.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "97c08ec36664bf59",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -724,6 +679,20 @@
       "score": 85,
       "summary": "UK semiconductor companies have raised £237.4m in 2026, surpassing the total funding recorded for the entirety of 2025.",
       "angle": "Increased hardware investment signals strengthening domestic infrastructure for sovereign AI compute and high-performance chip development.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f5efa1f4d2558aa7",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "MatAlytics secures Innovate UK grant to bring physics AI to the steel sector",
+      "url": "https://www.uktech.news/ai/matalytics-secures-innovate-uk-grant-to-bring-physics-ai-to-the-steel-sector-20260813",
+      "source": "uktech.news",
+      "published_at": "2026-08-13T08:00:45+00:00",
+      "first_seen": "2026-08-15T14:07:19.921992+00:00",
+      "score": 75,
+      "summary": "MatAlytics has secured £619k in Innovate UK grant funding to deploy physics-based AI for the steel manufacturing sector, aligning with UK strategic goals for AI sovereignty.",
+      "angle": "Highlights government funding priorities for sovereign AI applications in critical industrial sectors and infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1010,17 +979,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 3,
+    "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
+    "providers_succeeded": 91,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
-    "carried_forward": 4
+    "skipped_recently_evaluated": 0,
+    "carried_forward": 3
   }
 }

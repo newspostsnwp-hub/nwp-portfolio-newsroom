@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:48:20.005744+00:00",
+  "generated_at": "2026-08-15T14:07:19.921992+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -346,6 +346,37 @@
       },
       "status": "ready",
       "discovered_via": "Official RSS",
+      "date_estimated": false
+    },
+    {
+      "id": "43ae0f8a49652b55",
+      "company": "Molinare",
+      "company_domain": "molinare.co.uk",
+      "industry": "TV and film post-production",
+      "title": "Molinare hires Des Carey for Dublin studio",
+      "url": "https://www.televisual.com/news/molinare-taps-carey-for-dublin-studio/",
+      "source": "televisual.com",
+      "published_at": "2026-07-16T09:40:36+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 95,
+      "tier": "lead",
+      "recency": "catchup",
+      "story_type": "Appointment",
+      "summary": "Molinare Creative Group has appointed industry veteran Des Carey as Executive Director, Growth & Innovation for its Dublin-based studio, Elephant Goldfish.",
+      "why_it_matters": "The appointment signals a strategic push to expand Molinare's international footprint and capabilities in emerging production technologies, leveraging Carey's extensive background in cinematic innovation and global post-production.",
+      "verified_facts": [
+        "Des Carey appointed as Executive Director, Growth & Innovation at Elephant Goldfish.",
+        "Elephant Goldfish is a member of the Molinare Creative Group.",
+        "Carey previously held senior roles at Light Iron, Company 3, and Samsung."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that Molinare Creative Group has appointed Des Carey as Executive Director, Growth & Innovation. Based at the group’s Dublin studio, Elephant Goldfish, Des will lead strategic growth and partnership initiatives. With over 25 years of experience across production and post-production, including senior roles at Light Iron and Samsung, Des brings significant expertise to the team as they continue to expand their international presence. Congratulations to Des on this new role. #Molinare #PostProduction #Dublin",
+        "investor": "Molinare Creative Group continues to strengthen its leadership team with the appointment of Des Carey as Executive Director, Growth & Innovation. Based in Dublin at Elephant Goldfish, Des will focus on strategic business development and the integration of emerging production technologies. His extensive international experience, including his tenure as Global Head of Cinematic Innovation at Samsung, aligns with the group's ambition to scale its operations and enhance its service offering across the film and television sectors. #Molinare #Growth #MediaTech",
+        "people": "A warm welcome to Des Carey, who joins the Molinare Creative Group as Executive Director, Growth & Innovation. Working from the Elephant Goldfish studio in Dublin, Des will collaborate with teams across the group to drive innovation and new partnerships. His impressive career, which includes co-founding Light Iron and leading cinematic innovation at Samsung, makes him a fantastic addition to the team. We look forward to seeing the impact of his leadership on the group’s continued development. #Molinare #TeamNews #PostProduction"
+      },
+      "status": "ready",
+      "discovered_via": "GDELT",
       "date_estimated": false
     }
   ]
