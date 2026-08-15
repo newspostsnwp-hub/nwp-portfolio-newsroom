@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T14:07:23.427711+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector developments, as there are no updates from our portfolio companies to report.",
+  "generated_at": "2026-08-15T06:48:20.005744+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there are no specific developments from the Clearway Group portfolio to report.",
   "archive_story_count": 11,
-  "last_digest_sent_at": "2026-08-14T06:48:20.726681+00:00",
+  "last_digest_sent_at": "2026-08-15T06:48:20.005744+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -489,17 +489,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "901db75666e4f68f",
+      "id": "a6746bad03d37069",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Designing out HVM threats with flexible barriers",
-      "url": "https://securityjournaluk.com/design-out-hvm-threat-with-flexible-barriers/",
+      "title": "Thermal cameras: Seeing risk before it reaches you",
+      "url": "https://securityjournaluk.com/thermal-seeing-risk-before-it-reaches-you/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-08-05T06:30:00+00:00",
-      "first_seen": "2026-08-06T06:48:54.291593+00:00",
-      "score": 85,
-      "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn's Law, is driving increased demand for integrated, aesthetically considered hostile vehicle mitigation solutions in public and commercial spaces.",
-      "angle": "Highlights regulatory shifts and the growing market requirement for design-led, compliant security infrastructure in the UK.",
+      "published_at": "2026-08-14T06:30:00+00:00",
+      "first_seen": "2026-08-15T06:48:20.005744+00:00",
+      "score": 75,
+      "summary": "Thermal imaging technology is increasingly shifting from a specialist tool to a mainstream security solution for commercial and critical infrastructure environments to improve early detection and reduce false alarms.",
+      "angle": "Highlights the growing adoption of thermal sensors and analytics to enhance perimeter security and operational efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1013,14 +1013,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 144,
-    "llm_requests_attempted": 99,
-    "llm_requests_succeeded": 99,
+    "providers_succeeded": 93,
+    "queued_candidates": 138,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 2,
-    "skipped_recently_evaluated": 5,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 4
   }
 }
