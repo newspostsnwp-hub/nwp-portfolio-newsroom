@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T14:07:19.921992+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from Clearway Group or Whitespace.",
+  "generated_at": "2026-08-16T06:49:12.378227+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on two sector updates, with no specific news to report from Future Maintenance Technologies or Whitespace.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-15T06:48:20.005744+00:00",
+  "last_digest_sent_at": "2026-08-16T06:49:12.378227+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -682,18 +682,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f5efa1f4d2558aa7",
+      "id": "df19801a65cf5857",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "MatAlytics secures Innovate UK grant to bring physics AI to the steel sector",
-      "url": "https://www.uktech.news/ai/matalytics-secures-innovate-uk-grant-to-bring-physics-ai-to-the-steel-sector-20260813",
-      "source": "uktech.news",
-      "published_at": "2026-08-13T08:00:45+00:00",
-      "first_seen": "2026-08-15T14:07:19.921992+00:00",
+      "title": "HIVE Digital Technologies Ltd .: HIVE Reports Q1 2027 Revenue of $79 . 1 Million ; Contracted GPU Cloud ARR ( 1 ) Reaches Approximately $110 million",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69321979-hive-digital-technologies-ltd-hive-reports-q1-2027-revenue-of-dollar-79-1-million-contracted-gpu-cloud-arr-1-reaches-approximately-dollar-110-million-296.htm",
+      "source": "finanznachrichten.de",
+      "published_at": "2026-08-15T17:15:00+00:00",
+      "first_seen": "2026-08-16T06:49:12.378227+00:00",
       "score": 75,
-      "summary": "MatAlytics has secured £619k in Innovate UK grant funding to deploy physics-based AI for the steel manufacturing sector, aligning with UK strategic goals for AI sovereignty.",
-      "angle": "Highlights government funding priorities for sovereign AI applications in critical industrial sectors and infrastructure.",
-      "discovered_via": "Sector RSS"
+      "summary": "HIVE Digital Technologies reported $110 million in contracted GPU cloud ARR, driven by a $225 million sovereign AI agreement with Bell AI Fabric to support Cohere.",
+      "angle": "Demonstrates rapid scaling of sovereign AI infrastructure and significant enterprise demand for dedicated GPU cloud capacity.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "b1446afa98e7dcbb",
@@ -920,6 +920,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d6ba29949d55635c",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Predictive maintenance in the real world: Why service automation and rollout discipline matter more than models",
+      "url": "https://roboticsandautomationnews.com/2026/08/15/predictive-maintenance-in-the-real-world-why-service-automation-and-rollout-discipline-matter-more-than-models/104183/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-15T19:35:57+00:00",
+      "first_seen": "2026-08-16T06:49:12.378227+00:00",
+      "score": 85,
+      "summary": "Predictive maintenance systems require robust service automation and operational workflows to translate technical anomaly detection into actionable maintenance tasks for field technicians.",
+      "angle": "Highlights the critical need for integrating AI inspection data into existing maintenance workflows to ensure operational efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3db89513d8f9a728",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -960,20 +974,6 @@
       "summary": "Wood Mackenzie research forecasts global robotics electricity consumption will reach 363 TWh by 2035, potentially straining energy infrastructure as the operational fleet grows to 16 million units.",
       "angle": "Rising power demand and grid constraints may impact future operational costs and infrastructure requirements for autonomous inspection robotics.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b857ecafbf610099",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "LG to unveil new Nvidia-powered humanoid robot in early 2027",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/lg-to-unveil-new-nvidia-powered-humanoid-robot-in-early-2027/104173/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-14T11:36:06+00:00",
-      "first_seen": "2026-08-14T14:07:23.427711+00:00",
-      "score": 65,
-      "summary": "LG and Nvidia have partnered to accelerate the development of physical AI, humanoid robots, and autonomous vehicle platforms using Nvidia's Isaac GR00T and Jetson Thor technologies.",
-      "angle": "Advances in foundation models and compute hardware for physical AI indicate rapid maturation of autonomous robotics capabilities.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -982,13 +982,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 87,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 16,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 15,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 0,
     "carried_forward": 3
   }
