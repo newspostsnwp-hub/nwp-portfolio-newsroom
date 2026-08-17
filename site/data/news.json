@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T14:08:13.420828+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-specific updates, as there is no news to report from Clearway Group, Future Maintenance Technologies, or Whitespace.",
+  "generated_at": "2026-08-17T06:49:17.052114+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-16T06:49:12.378227+00:00",
+  "last_digest_sent_at": "2026-08-17T06:49:17.052114+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -416,20 +416,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bb7ceb575fa6634d",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Corps Monitoring: Evolving deterrence, detection, decisions and response",
-      "url": "https://securityjournaluk.com/corps-monitoring-deter-detect-decide-respond/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-07T06:30:00+00:00",
-      "first_seen": "2026-08-07T06:49:02.816595+00:00",
-      "score": 85,
-      "summary": "Corps Monitoring is shifting towards a unified operating model that integrates security guarding, remote monitoring, and intelligence services to provide comprehensive, data-driven security solutions for clients.",
-      "angle": "Highlights the industry trend of consolidating fragmented security services into integrated, intelligence-led, and technology-augmented hybrid models.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "a6746bad03d37069",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -455,6 +441,20 @@
       "score": 75,
       "summary": "Black Onyx has deployed mobile response units for Network Rail to deter and intercept copper cable theft across South and West Yorkshire.",
       "angle": "Highlights a growing industry shift toward agile, mobile-first security solutions for protecting dispersed critical infrastructure assets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0305720b020b508d",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "LINEV Systems: Evolving customer needs and the deployment of AI",
+      "url": "https://securityjournaluk.com/linev-systems-evolving-customer-needs-ai/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-17T06:30:00+00:00",
+      "first_seen": "2026-08-17T06:49:17.052114+00:00",
+      "score": 65,
+      "summary": "LINEV Systems discusses the integration of AI in security screening to manage high-volume throughput while maintaining consistent detection capabilities across various operational environments.",
+      "angle": "Highlights industry-wide shifts towards AI-driven operational efficiency and balancing security effectiveness with user experience in high-footfall sites.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -968,14 +968,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 130,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 86,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 14,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 3
   }
 }
