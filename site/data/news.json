@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T06:49:17.052114+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-17T14:08:12.200945+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related items, as there are no updates regarding Clearway Group, Swytch, UOE, or Whitespace to report.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-17T06:49:17.052114+00:00",
   "companies": [
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 2,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -402,20 +402,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6bc226204a6f0201",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Austrian Post Grows Revenue 3.8% in H1 Despite Challenging Market Conditions",
-      "url": "https://postandparcel.info/162523/news/e-commerce/austrian-post-grows-revenue-3-8-in-h1-despite-challenging-market-conditions/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-07T07:09:57+00:00",
-      "first_seen": "2026-08-08T06:48:28.488790+00:00",
-      "score": 65,
-      "summary": "Austrian Post reported a 3.8% revenue increase in H1 2026, driven by e-commerce growth despite ongoing declines in traditional letter mail volumes.",
-      "angle": "Highlights broader European market trends of e-commerce resilience offsetting structural declines in traditional mail volumes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "a6746bad03d37069",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -444,31 +430,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0305720b020b508d",
+      "id": "48d7c8fdaebc03e8",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "LINEV Systems: Evolving customer needs and the deployment of AI",
-      "url": "https://securityjournaluk.com/linev-systems-evolving-customer-needs-ai/",
+      "title": "VMS Co. offers video management server subscription model",
+      "url": "https://securityjournaluk.com/vms-co-server-subscription-model/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-08-17T06:30:00+00:00",
-      "first_seen": "2026-08-17T06:49:17.052114+00:00",
+      "published_at": "2026-08-17T08:23:08+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
       "score": 65,
-      "summary": "LINEV Systems discusses the integration of AI in security screening to manage high-volume throughput while maintaining consistent detection capabilities across various operational environments.",
-      "angle": "Highlights industry-wide shifts towards AI-driven operational efficiency and balancing security effectiveness with user experience in high-footfall sites.",
+      "summary": "VMS Co. has introduced a subscription-based model for its renewed managed on-site servers, offering an alternative to traditional capital expenditure for video management infrastructure.",
+      "angle": "Highlights a shift towards OpEx-based hardware procurement and sustainable, renewed technology in site security infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "72a30173a36c52b4",
+      "id": "584ceab507f37023",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Solo replaces access control for student accommodation",
-      "url": "https://securityjournaluk.com/solo-replaces-access-control-for-students/",
+      "title": "Euralarm publishes guidance for European Sovereign Cloud",
+      "url": "https://securityjournaluk.com/euralarm-guidance-for-europe-sovereign-cloud/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-08-14T08:50:07+00:00",
-      "first_seen": "2026-08-16T14:08:13.420828+00:00",
+      "published_at": "2026-08-17T07:26:29+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
       "score": 65,
-      "summary": "Paxton has launched Solo, a cloud-based, smartphone-enabled access control system designed for sites lacking network infrastructure, reducing the need for physical fobs in student accommodation.",
-      "angle": "Demonstrates market demand for cloud-managed, mobile-first access control solutions in environments with limited traditional network infrastructure.",
+      "summary": "Euralarm has published guidance on European Sovereign Cloud criteria to help security providers navigate data residency, legal compliance, and digital resilience in fire and physical security applications.",
+      "angle": "Highlights increasing regulatory and cybersecurity requirements for cloud-based security services and remote monitoring infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -483,6 +469,20 @@
       "score": 85,
       "summary": "Researchers at TU Graz have developed design guidelines to improve the safety, repairability, and recyclability of traction batteries, specifically focusing on electric two-wheelers.",
       "angle": "Standardised repairable battery designs and diagnostic methods could influence future regulatory frameworks and industry safety requirements for micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0a7d3c5fb344c159",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "UK launches consultation on EV sales mandate",
+      "url": "https://www.electrive.com/2026/08/17/uk-launches-consultation-on-ev-sales-mandate/",
+      "source": "electrive.com",
+      "published_at": "2026-08-17T10:00:00+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
+      "score": 65,
+      "summary": "The UK government has launched a consultation to review and potentially relax ZEV mandate targets for electric vehicle sales between 2027 and 2035.",
+      "angle": "Signals potential shifts in national transport policy and consumer transition timelines toward zero-emission mobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -626,6 +626,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "03077ee9821bdba2",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Defence investor GALLOS Technologies raises £35m",
+      "url": "https://www.uktech.news/defence-tech/defence-investor-gallos-technologies-raises-35m-20260817",
+      "source": "uktech.news",
+      "published_at": "2026-08-17T11:09:07+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
+      "score": 85,
+      "summary": "Defence venture studio GALLOS Technologies has raised £35m to fund and scale early-stage startups focused on national security, defence, and resilience.",
+      "angle": "Signals increased capital allocation and strategic focus on sovereign defence technology and national security infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3bd4e1378dfca2af",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -654,32 +668,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "df19801a65cf5857",
+      "id": "a40643ca2231443e",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "HIVE Digital Technologies Ltd .: HIVE Reports Q1 2027 Revenue of $79 . 1 Million ; Contracted GPU Cloud ARR ( 1 ) Reaches Approximately $110 million",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69321979-hive-digital-technologies-ltd-hive-reports-q1-2027-revenue-of-dollar-79-1-million-contracted-gpu-cloud-arr-1-reaches-approximately-dollar-110-million-296.htm",
-      "source": "finanznachrichten.de",
-      "published_at": "2026-08-15T17:15:00+00:00",
-      "first_seen": "2026-08-16T06:49:12.378227+00:00",
+      "title": "Xpander Raises $7 . 5M Seed to Unleash AI for Enterprises",
+      "url": "http://www.prnewswire.com/news-releases/xpander-raises-7-5m-seed-to-unleash-ai-for-enterprises-302852698.html",
+      "source": "prnewswire.com",
+      "published_at": "2026-08-17T13:15:00+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
       "score": 75,
-      "summary": "HIVE Digital Technologies reported $110 million in contracted GPU cloud ARR, driven by a $225 million sovereign AI agreement with Bell AI Fabric to support Cohere.",
-      "angle": "Demonstrates rapid scaling of sovereign AI infrastructure and significant enterprise demand for dedicated GPU cloud capacity.",
+      "summary": "Xpander has raised $7.5 million to launch a vendor-neutral AI enablement platform and enterprise agent, Omni, designed to help organizations integrate AI into existing workflows and infrastructure.",
+      "angle": "Highlights the growing market demand for model-agnostic, secure infrastructure platforms that facilitate enterprise-wide AI agent deployment and governance.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "066768f305f26783",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK tech funding roundup: This week’s deals from Cambridge Aerospace to FlairMakers",
-      "url": "https://www.uktech.news/funding/uk-tech-funding-roundup-this-weeks-deals-from-cambridge-aerospace-to-flairmakers-20260814",
-      "source": "uktech.news",
-      "published_at": "2026-08-14T13:00:47+00:00",
-      "first_seen": "2026-08-16T14:08:13.420828+00:00",
-      "score": 65,
-      "summary": "UK tech funding activity included significant investment in AI-focused security platforms Mindgard and Cytix, alongside AI-driven advanced manufacturing startup MatAlytics.",
-      "angle": "Highlights growing investor appetite for enterprise AI security, threat assessment, and physics-informed AI infrastructure within the UK market.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "b1446afa98e7dcbb",
@@ -693,6 +693,20 @@
       "score": 90,
       "summary": "The British Independent Retailers Association is lobbying the government for comprehensive business rates reform, proposing to fund relief by closing import loopholes and addressing online VAT fraud.",
       "angle": "Advocacy for high street tax reform directly impacts the operational cost structure of physical retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "19df3a3336290966",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Six weeks until vape duty: are independent retailers operationally ready? | Viewpoint: Ahsan Bawa",
+      "url": "https://www.talkingretail.com/opinion/talking-points/six-weeks-until-vape-duty-are-independent-retailers-operationally-ready-viewpoint-ahsan-bawa-17-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-17T12:53:33+00:00",
+      "first_seen": "2026-08-17T14:08:12.200945+00:00",
+      "score": 85,
+      "summary": "The UK government will introduce a Vaping Products Duty of £2.20 per 10ml of liquid on 1 October 2026, requiring new products to carry a duty stamp.",
+      "angle": "Retailers must manage supply chain compliance, inventory transition, and pricing adjustments to accommodate new tax regulations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -721,20 +735,6 @@
       "score": 85,
       "summary": "The government has published new guidance for retailers regarding the Tobacco and Vapes Act, detailing upcoming changes to excise taxes, age restrictions, and tobacco sales regulations.",
       "angle": "Regulatory updates on tobacco and nicotine sales directly impact operational compliance and inventory management for retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2ee53c733a74545e",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Energy ban is big leap | Editor’s comment",
-      "url": "https://www.talkingretail.com/opinion/talking-points/energy-ban-is-big-leap-editors-comment-07-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-07T13:00:29+00:00",
-      "first_seen": "2026-08-07T14:07:56.638852+00:00",
-      "score": 85,
-      "summary": "From April 2027, retailers in England will be legally prohibited from selling high-caffeine energy drinks to individuals under 16.",
-      "angle": "Introduces new compliance, staff training, and age-verification requirements for independent retailers selling convenience goods.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -968,14 +968,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 98,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 91,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 1,
+    "dropped_thin_page": 13,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 3
   }
 }
