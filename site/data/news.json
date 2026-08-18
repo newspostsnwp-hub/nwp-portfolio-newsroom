@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T14:08:12.200945+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related items, as there are no updates regarding Clearway Group, Swytch, UOE, or Whitespace to report.",
+  "generated_at": "2026-08-18T06:49:11.343557+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-specific updates, as there is no news to report from Clearway Group, Fertility Associates, Future Maintenance Technologies, Molinare, UOE, or Whitespace.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-17T06:49:17.052114+00:00",
+  "last_digest_sent_at": "2026-08-18T06:49:11.343557+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -402,6 +402,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8f9330014fcd2e08",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "The communication gap in modern security operations",
+      "url": "https://securityjournaluk.com/communication-in-modern-security-operations/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-18T06:30:00+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 75,
+      "summary": "Security operations are increasingly shifting from standalone communication devices toward integrated platforms that combine voice, patrol verification, incident reporting, and real-time situational awareness.",
+      "angle": "Highlights the growing demand for integrated, multi-layered communication and surveillance technology in UK site security operations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a6746bad03d37069",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -441,20 +455,6 @@
       "score": 65,
       "summary": "VMS Co. has introduced a subscription-based model for its renewed managed on-site servers, offering an alternative to traditional capital expenditure for video management infrastructure.",
       "angle": "Highlights a shift towards OpEx-based hardware procurement and sustainable, renewed technology in site security infrastructure.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "584ceab507f37023",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Euralarm publishes guidance for European Sovereign Cloud",
-      "url": "https://securityjournaluk.com/euralarm-guidance-for-europe-sovereign-cloud/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-17T07:26:29+00:00",
-      "first_seen": "2026-08-17T14:08:12.200945+00:00",
-      "score": 65,
-      "summary": "Euralarm has published guidance on European Sovereign Cloud criteria to help security providers navigate data residency, legal compliance, and digital resilience in fire and physical security applications.",
-      "angle": "Highlights increasing regulatory and cybersecurity requirements for cloud-based security services and remote monitoring infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -542,6 +542,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "408ccf72c950e086",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Video Village Partners With Node Mill on LensNode 2 Lens-Simulation Plugin",
+      "url": "https://postperspective.com/video-village-partners-with-node-mill-on-lensnode-2-lens-simulation-plugin/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-17T16:56:14+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 65,
+      "summary": "Video Village has partnered with Node Mill to distribute LensNode 2, a lens-simulation plugin now compatible with FilmLight Baselight and other industry-standard post-production software.",
+      "angle": "Updates to lens-simulation tools and expanded software compatibility directly impact post-production workflows and creative capabilities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f20dc88952be042f",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -553,20 +567,6 @@
       "score": 65,
       "summary": "Dalet has launched cloud-native solution suites featuring AI-driven media asset management, automated workflows, and tools for production, distribution, and archiving.",
       "angle": "Highlights the industry-wide shift toward cloud-native, AI-integrated media management platforms to streamline complex post-production and distribution workflows.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b1442b8bcb316444",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Untold Adds AJ Cohen as President of Film & Episodic VFX",
-      "url": "https://postperspective.com/untold-adds-aj-cohen-as-president-of-film-episodic-vfx/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-07T18:18:37+00:00",
-      "first_seen": "2026-08-08T14:07:32.965657+00:00",
-      "score": 65,
-      "summary": "Untold Studios has appointed AJ Cohen as president of Film & Episodic VFX to oversee global strategy and operations as the studio continues its international expansion.",
-      "angle": "Highlights competitive landscape shifts and the trend of independent studios scaling globally through integrated, cloud-native production models.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -626,6 +626,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1cfc4ea6f1ed7fac",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Australia must move up the AI value chain to capture maximum benefit from the technology : Andrew Charlton",
+      "url": "https://theconversation.com/australia-must-move-up-the-ai-value-chain-to-capture-maximum-benefit-from-the-technology-andrew-charlton-289900",
+      "source": "theconversation.com",
+      "published_at": "2026-08-18T05:15:00+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "The Australian government is mandating that data centre operators support local AI ecosystems to ensure economic value remains domestic rather than flowing to overseas model providers.",
+      "angle": "Highlights growing sovereign AI policy trends where governments leverage infrastructure to mandate local intellectual property and research development.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "3ee9eeea727e3e93",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Dell CTO John Roese : Partners , culture , and governance are all layers of AI transformation",
+      "url": "https://www.reseller.co.nz/article/4210752/dell-cto-john-roese-partners-culture-and-governance-are-all-layers-of-ai-transformation-2.html",
+      "source": "reseller.co.nz",
+      "published_at": "2026-08-18T03:15:00+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "Dell CTO John Roese highlights that enterprise and sovereign AI success requires disciplined execution, clear governance, and strategic partnerships with agile startups to overcome internal bureaucratic inertia.",
+      "angle": "Validates the critical role of sovereign AI providers in helping large enterprises transition from experimental projects to production.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "03077ee9821bdba2",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -652,34 +680,6 @@
       "summary": "AI security firm Mindgard has raised £22.2m in Series A funding to scale its platform for continuous red teaming and threat protection across enterprise AI systems.",
       "angle": "Highlights growing market demand for specialised security infrastructure to protect critical AI operations from emerging vulnerabilities.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "409887a19a78eadd",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK semiconductor funding reaches £237m this year – more than all of 2025",
-      "url": "https://www.uktech.news/semiconductor/uk-semiconductor-funding-reaches-237m-this-year-more-than-all-of-2025-20260812",
-      "source": "uktech.news",
-      "published_at": "2026-08-12T11:00:36+00:00",
-      "first_seen": "2026-08-12T14:08:11.927402+00:00",
-      "score": 85,
-      "summary": "UK semiconductor companies have raised £237.4m in 2026, surpassing the total funding recorded for the entirety of 2025.",
-      "angle": "Increased hardware investment signals strengthening domestic infrastructure for sovereign AI compute and high-performance chip development.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a40643ca2231443e",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Xpander Raises $7 . 5M Seed to Unleash AI for Enterprises",
-      "url": "http://www.prnewswire.com/news-releases/xpander-raises-7-5m-seed-to-unleash-ai-for-enterprises-302852698.html",
-      "source": "prnewswire.com",
-      "published_at": "2026-08-17T13:15:00+00:00",
-      "first_seen": "2026-08-17T14:08:12.200945+00:00",
-      "score": 75,
-      "summary": "Xpander has raised $7.5 million to launch a vendor-neutral AI enablement platform and enterprise agent, Omni, designed to help organizations integrate AI into existing workflows and infrastructure.",
-      "angle": "Highlights the growing market demand for model-agnostic, secure infrastructure platforms that facilitate enterprise-wide AI agent deployment and governance.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "b1446afa98e7dcbb",
@@ -710,6 +710,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3675db60d26d2853",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Big brands back calls for retailers to take part in vape consultation",
+      "url": "https://www.talkingretail.com/news/industry-news/big-brands-back-calls-for-retailers-to-take-part-in-vape-rules-consultation-17-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-17T11:00:03+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "The UK government is consulting on new restrictions for vaping product packaging, design, and retail displays, with potential operational costs and profit impacts for retailers.",
+      "angle": "Regulatory changes to vape retailing impact operational workflows, stock management, and profitability for independent retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7dff7b21a38f90f5",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -721,20 +735,6 @@
       "score": 85,
       "summary": "The Association of Convenience Stores' Community Barometer identifies post offices and convenience stores as the most essential services for local community impact and economic growth.",
       "angle": "Highlights the critical role of post offices and convenience stores in high street policy and community infrastructure.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "48476e94dba68aea",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retailers urged to prepare for next phase of Tobacco and Vapes Act",
-      "url": "https://www.talkingretail.com/featured/retailers-urged-to-prepare-for-next-phase-of-tobacco-and-vapes-act-11-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-11T12:32:44+00:00",
-      "first_seen": "2026-08-12T06:49:18.220060+00:00",
-      "score": 85,
-      "summary": "The government has published new guidance for retailers regarding the Tobacco and Vapes Act, detailing upcoming changes to excise taxes, age restrictions, and tobacco sales regulations.",
-      "angle": "Regulatory updates on tobacco and nicotine sales directly impact operational compliance and inventory management for retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -794,6 +794,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f2974a67fe9b39d7",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Donor limits and genetic risk: Separating fact from perception",
+      "url": "https://www.progress.org.uk/donor-limits-and-genetic-risk-separating-fact-from-perception/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-17T15:37:06+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "Experts argue that limiting the number of children per donor does not reduce genetic risks, advocating instead for improved reporting systems and robust donor screening protocols.",
+      "angle": "Highlights regulatory and clinical challenges regarding donor-conceived genetic risks and the limitations of current cross-border donation policies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e0f43e9ddcac0291",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Why limits to gamete donor use only work if they cross borders",
+      "url": "https://www.progress.org.uk/why-limits-to-gamete-donor-use-only-work-if-they-cross-borders/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-17T15:35:15+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "The European Society of Human Reproduction and Embryology has proposed a transnational limit on the number of families created from a single gamete donor to improve safety and oversight.",
+      "angle": "Highlights growing regulatory pressure for international standards on donor usage, potentially impacting global gamete supply and clinic operations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "271d3d2f01ec4dbd",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -819,34 +847,6 @@
       "score": 85,
       "summary": "A study published in The Lancet suggests that microbial imbalances in semen, termed seminal V-dysbiosis, are associated with lower live birth rates and increased pregnancy loss in IVF patients.",
       "angle": "Highlights a potential shift toward couple-level diagnostic testing and microbiome-focused interventions in fertility treatment protocols.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cef6c9648399c7c1",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Embryo transfer preparation techniques not supported by evidence",
-      "url": "https://www.progress.org.uk/embryo-transfer-preparation-techniques-not-supported-by-evidence/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-10T15:07:20+00:00",
-      "first_seen": "2026-08-11T06:48:26.871887+00:00",
-      "score": 75,
-      "summary": "A Cochrane review found no clear evidence that routine embryo transfer preparation techniques, such as bladder filling or mucus removal, improve pregnancy or live birth rates.",
-      "angle": "Highlights the shift towards evidence-based practice and potential regulatory scrutiny regarding non-proven clinical protocols in IVF.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7bbaad6c21641e38",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Gay and bisexual men can now be sperm donors in Canada",
-      "url": "https://www.progress.org.uk/gay-and-bisexual-men-can-now-be-sperm-donors-in-canada/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-10T15:13:15+00:00",
-      "first_seen": "2026-08-14T06:48:20.726681+00:00",
-      "score": 65,
-      "summary": "Health Canada is removing discriminatory questions from sperm donor questionnaires, allowing gay and bisexual men to donate more easily.",
-      "angle": "Regulatory shifts regarding donor eligibility criteria impact global sperm supply chains and clinical recruitment policies in fertility services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -906,6 +906,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c2878313eb470fde",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Interview with Lattice Semiconductor’s Karl Wachswender: ‘Parallel processing enables more powerful edge AI’",
+      "url": "https://roboticsandautomationnews.com/2026/08/17/interview-with-lattice-semiconductors-karl-wachswender-parallel-processing-enables-more-powerful-edge-ai/104215/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-17T20:02:10+00:00",
+      "first_seen": "2026-08-18T06:49:11.343557+00:00",
+      "score": 85,
+      "summary": "Lattice Semiconductor highlights how low-power FPGAs enable real-time edge processing, sensor fusion, and hardware-level security for autonomous robotics, extending operational lifespans through post-deployment programmability.",
+      "angle": "Advancements in edge-based hardware allow for more reliable, secure, and adaptable autonomous inspection systems in resource-constrained environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d6ba29949d55635c",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -946,20 +960,6 @@
       "summary": "The IEEE Technology Megatrends 2030 report identifies physical AI and robotics as a primary area for significant advancement, driven by improved human-AI interaction and autonomous capabilities.",
       "angle": "Highlights critical industry shifts in physical AI, human-robot collaboration, and the necessity of addressing safety and cybersecurity.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7833ecfdeae9da26",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Robots could consume as much electricity as 35 million US homes by 2035",
-      "url": "https://roboticsandautomationnews.com/2026/08/12/robots-could-consume-as-much-electricity-as-35-million-us-homes-by-2035/104073/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-12T16:47:31+00:00",
-      "first_seen": "2026-08-13T06:49:10.725293+00:00",
-      "score": 75,
-      "summary": "Wood Mackenzie research forecasts global robotics electricity consumption will reach 363 TWh by 2035, potentially straining energy infrastructure as the operational fleet grows to 16 million units.",
-      "angle": "Rising power demand and grid constraints may impact future operational costs and infrastructure requirements for autonomous inspection robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -968,14 +968,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 98,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 91,
+    "providers_succeeded": 92,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 95,
+    "llm_requests_succeeded": 95,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 13,
+    "dropped_thin_page": 14,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 3
   }
 }
