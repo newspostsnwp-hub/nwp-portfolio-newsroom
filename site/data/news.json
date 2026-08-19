@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T14:08:02.798313+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-wide updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-19T06:49:00.355367+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, with no specific news to report from Clearway Group, Future Maintenance Technologies, Petainer, or The Delivery Group.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-18T06:49:11.343557+00:00",
+  "last_digest_sent_at": "2026-08-19T06:49:00.355367+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 2,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -360,6 +360,20 @@
   ],
   "sector_stories": [
     {
+      "id": "056bc2716217b063",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Offer for InPost receives clearance from the EC",
+      "url": "https://postandparcel.info/162592/news/e-commerce/offer-for-inpost-receives-clearance-from-the-ec/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-18T16:30:01+00:00",
+      "first_seen": "2026-08-19T06:49:00.355367+00:00",
+      "score": 75,
+      "summary": "Iris Lux Bidco has received European Commission clearance for its €7.8 billion takeover of InPost.",
+      "angle": "Consolidation of a major European e-commerce delivery player signals shifting competitive dynamics within the parcel logistics market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "85f6729cbe897b8f",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -402,6 +416,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "12cfca7568c8e51c",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "From cows to critical infrastructure",
+      "url": "https://securityjournaluk.com/thermal-from-cows-to-critical-infrastructure/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-19T06:30:00+00:00",
+      "first_seen": "2026-08-19T06:49:00.355367+00:00",
+      "score": 75,
+      "summary": "The article details the evolution of thermal imaging technology from cryogenically cooled systems to modern, uncooled microbolometers that enable advanced perimeter security and AI-driven threat detection.",
+      "angle": "Highlights the technological shift towards uncooled, AI-integrated thermal sensors for cost-effective, long-range perimeter and site surveillance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "cbff8da7f894a605",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "iLOQ reports strong first-half growth",
+      "url": "https://securityjournaluk.com/iloq-reports-strong-first-half-growth/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-18T08:34:32+00:00",
+      "first_seen": "2026-08-19T06:49:00.355367+00:00",
+      "score": 75,
+      "summary": "iLOQ reported a 14% revenue increase to EUR 65.0 million in H1 2026, driven by demand for battery-free smart-access solutions in residential, commercial, and critical infrastructure markets.",
+      "angle": "Highlights growing market demand for digital, sustainable access-management technologies within the broader physical security and infrastructure protection sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8f9330014fcd2e08",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -427,34 +469,6 @@
       "score": 75,
       "summary": "Thermal imaging technology is increasingly shifting from a specialist tool to a mainstream security solution for commercial and critical infrastructure environments to improve early detection and reduce false alarms.",
       "angle": "Highlights the growing adoption of thermal sensors and analytics to enhance perimeter security and operational efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9c78a6e01bbe84ad",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Black Onyx deployed by Network Rail",
-      "url": "https://securityjournaluk.com/black-onyx-deployed-by-network-rail/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-12T08:12:08+00:00",
-      "first_seen": "2026-08-15T14:07:19.921992+00:00",
-      "score": 75,
-      "summary": "Black Onyx has deployed mobile response units for Network Rail to deter and intercept copper cable theft across South and West Yorkshire.",
-      "angle": "Highlights a growing industry shift toward agile, mobile-first security solutions for protecting dispersed critical infrastructure assets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "48d7c8fdaebc03e8",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "VMS Co. offers video management server subscription model",
-      "url": "https://securityjournaluk.com/vms-co-server-subscription-model/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-17T08:23:08+00:00",
-      "first_seen": "2026-08-17T14:08:12.200945+00:00",
-      "score": 65,
-      "summary": "VMS Co. has introduced a subscription-based model for its renewed managed on-site servers, offering an alternative to traditional capital expenditure for video management infrastructure.",
-      "angle": "Highlights a shift towards OpEx-based hardware procurement and sustainable, renewed technology in site security infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -598,6 +612,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7f1d89cdb353d41b",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Two thirds of consumers ‘plan to return drinks containers during shopping trips’",
+      "url": "https://www.packagingnews.co.uk/news/markets/drinks/two-thirds-of-consumers-plan-to-return-drinks-containers-during-shopping-trips-18-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-18T16:25:43+00:00",
+      "first_seen": "2026-08-19T06:49:00.355367+00:00",
+      "score": 85,
+      "summary": "Research from Danone indicates that 68% of UK consumers intend to return drinks containers during shopping trips once a Deposit Return Scheme is implemented.",
+      "angle": "Provides critical insight into consumer behaviour and retail infrastructure requirements for upcoming UK Deposit Return Scheme legislation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "38b75bb888b6ce2a",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -609,20 +637,6 @@
       "score": 85,
       "summary": "PackUK is prioritising data stability and transparency for the second year of packaging EPR, intending to issue a single Notice of Liability for 2026/27 by late November.",
       "angle": "Regulatory changes to EPR fee structures and data reporting requirements directly impact operational costs for UK packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "189cdd6c35d55821",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Sustainability & Impact Summit | Experts call for ambitious statutory recycling targets",
-      "url": "https://www.packagingnews.co.uk/news/events/sustainability-impact-summit/sustainability-impact-summit-experts-call-for-ambitious-statute-recycling-targets-10-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-10T09:35:38+00:00",
-      "first_seen": "2026-08-10T14:07:29.074352+00:00",
-      "score": 85,
-      "summary": "Industry experts at the Sustainability and Impact Summit discussed the challenges of implementing EPR, DRS, and Simpler Recycling regulations, highlighting the urgent need for better data and infrastructure investment.",
-      "angle": "Regulatory shifts in EPR and DRS directly impact packaging design, compliance costs, and material circularity requirements for manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -906,6 +920,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d91fae8b7c5ed01c",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "FORT Robotics to go public via business combination with Newbury Street II Acquisition Corp",
+      "url": "https://roboticsandautomationnews.com/2026/08/18/fort-robotics-to-go-public-via-business-combination-with-newbury-street-ii-acquisition-corp/104238/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-18T14:29:03+00:00",
+      "first_seen": "2026-08-19T06:49:00.355367+00:00",
+      "score": 85,
+      "summary": "FORT Robotics, a provider of safety solutions for physical AI, has entered a definitive agreement to go public via a business combination with Newbury Street II Acquisition Corp.",
+      "angle": "Highlights the growing importance of universal safety and trust layers for scaling autonomous systems in industrial environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c2878313eb470fde",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -946,20 +974,6 @@
       "summary": "LTX has released LTX-2.5, an open-weights world model designed for physical AI and robotics, enabling developers to model environmental changes and predict how actions affect surroundings.",
       "angle": "World models improve robot simulation, training, and planning by predicting environmental states, enhancing autonomous inspection capabilities.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "063fbdcbd2eec48b",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Interview with the IEEE’s Dejan Milojicic: 30 technology megatrends for 2030",
-      "url": "https://roboticsandautomationnews.com/2026/08/10/interview-with-the-ieees-dejan-milojicic-30-technology-megatrends-for-2030/104047/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-10T18:03:27+00:00",
-      "first_seen": "2026-08-11T06:48:26.871887+00:00",
-      "score": 85,
-      "summary": "The IEEE Technology Megatrends 2030 report identifies physical AI and robotics as a primary area for significant advancement, driven by improved human-AI interaction and autonomous capabilities.",
-      "angle": "Highlights critical industry shifts in physical AI, human-robot collaboration, and the necessity of addressing safety and cybersecurity.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -968,14 +982,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
+    "providers_succeeded": 87,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 16,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 3
   }
 }
