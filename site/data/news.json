@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T14:08:01.978150+00:00",
-  "digest_intro": "Good morning. Today’s briefing is a sector-only edition covering 14 industry items, with no specific updates from our portfolio companies.",
+  "generated_at": "2026-08-20T06:49:03.520804+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-specific updates, with no new developments to report from McGraw Hill, Molinare, or Petainer.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-19T06:49:00.355367+00:00",
+  "last_digest_sent_at": "2026-08-20T06:49:03.520804+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -556,6 +556,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "73369663b9135b00",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy-Nominated Your Friends & Neighbors Showrunner Talks Workflow",
+      "url": "https://postperspective.com/emmy-nominated-your-friends-neighbors-showrunner-talks-shoot-and-post/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-19T18:59:20+00:00",
+      "first_seen": "2026-08-20T06:49:03.520804+00:00",
+      "score": 65,
+      "summary": "Showrunner Jonathan Tropper discusses the workflow for the series Your Friends & Neighbors, highlighting the critical role of invisible VFX and sound post-production in dialogue-heavy location shoots.",
+      "angle": "Highlights the increasing reliance on invisible VFX and complex sound mixing to solve on-set production challenges.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "14f52f24269f53c3",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -567,20 +581,6 @@
       "score": 65,
       "summary": "Cinematographer Gustav Danielson discusses the technical challenges of maintaining consistent lighting and mist effects during the dawn battle sequence for HBO’s A Knight of the Seven Kingdoms.",
       "angle": "Highlights the increasing reliance on complex VFX integration to maintain visual consistency in challenging, naturalistic location-based production environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "292a6f97cf34d68e",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "ARRI Partners With Honor on Robot Phone for Content Creators",
-      "url": "https://postperspective.com/arri-partners-with-honor-on-robot-phone-for-content-creators/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-17T17:24:32+00:00",
-      "first_seen": "2026-08-19T14:08:01.978150+00:00",
-      "score": 65,
-      "summary": "ARRI has partnered with Honor to integrate its LogC3, Wide Gamut 3, and image science technologies into a new smartphone designed for mobile content creators.",
-      "angle": "Demonstrates the convergence of professional cinematic imaging standards with mobile hardware, potentially increasing high-end post-production workflows for mobile-captured content.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -612,6 +612,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7822c6f51c30e873",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "OPRL awaits delayed EU Implementing Act on PPWR labelling",
+      "url": "https://www.packagingnews.co.uk/news/materials/labelling/oprl-awaits-delayed-eu-implementing-act-on-ppwr-labelling-19-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-19T16:17:10+00:00",
+      "first_seen": "2026-08-20T06:49:03.520804+00:00",
+      "score": 85,
+      "summary": "The EU's Implementing Act on harmonised waste sorting labelling under the PPWR has been delayed, leaving packaging producers with a 24-month window for compliance once finalised.",
+      "angle": "Regulatory clarity on mandatory labelling requirements directly impacts packaging design and compliance timelines for PET manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e4ee8ba0103588f0",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -623,20 +637,6 @@
       "score": 85,
       "summary": "Legal campaigners are urging UN members to reject a draft plastics treaty, arguing it prioritises the interests of major producers over meaningful action to curb global plastic production.",
       "angle": "Regulatory uncertainty regarding global plastic production limits and chemical restrictions directly impacts long-term PET manufacturing strategy and compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7f1d89cdb353d41b",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Two thirds of consumers ‘plan to return drinks containers during shopping trips’",
-      "url": "https://www.packagingnews.co.uk/news/markets/drinks/two-thirds-of-consumers-plan-to-return-drinks-containers-during-shopping-trips-18-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-18T16:25:43+00:00",
-      "first_seen": "2026-08-19T06:49:00.355367+00:00",
-      "score": 85,
-      "summary": "Research from Danone indicates that 68% of UK consumers intend to return drinks containers during shopping trips once a Deposit Return Scheme is implemented.",
-      "angle": "Provides critical insight into consumer behaviour and retail infrastructure requirements for upcoming UK Deposit Return Scheme legislation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -780,6 +780,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "42f4b064c11241ce",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Lawsuit Challenges New Length-of-Stay Limit for International Students",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/08/19/lawsuit-seeks-vacate-rule-ending-duration-status",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "first_seen": "2026-08-20T06:49:03.520804+00:00",
+      "score": 85,
+      "summary": "Eight higher education organizations have sued the U.S. Department of Homeland Security to vacate a new rule limiting international student stays to four years.",
+      "angle": "Regulatory changes impacting international student enrollment directly affect the addressable market for higher education publishing and learning technology.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c9ba355252c8afde",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -791,20 +805,6 @@
       "score": 85,
       "summary": "The 2026 UPCEA Benchmarking Online Enterprises Survey indicates a growing divide between institutions successfully scaling online programs and those facing budget contractions and structural governance challenges.",
       "angle": "Highlights market bifurcation, shifting institutional funding models, and increased demand for microcredential and student engagement technology.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cfff55823e85a075",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "What New Research Reveals About Student Success",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/08/18/what-new-research-reveals-about-student-success",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-18T07:00:00+00:00",
-      "first_seen": "2026-08-18T14:08:02.798313+00:00",
-      "score": 85,
-      "summary": "Recent research identifies critical gaps in student awareness of support services, declining emergency aid distribution, and underreported autistic student populations, alongside the growing importance of career literacy.",
-      "angle": "Highlights evolving institutional needs for student support and career-focused learning tools in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -982,14 +982,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 97,
-    "llm_requests_succeeded": 97,
+    "providers_succeeded": 95,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 96,
+    "llm_requests_succeeded": 96,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
+    "dropped_thin_page": 16,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 3
   }
 }
