@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T06:49:14.606438+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on Molinare, featuring James Peace joining runVT as Senior Post Producer, alongside two additional sector news items.",
+  "generated_at": "2026-08-21T14:08:01.137865+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update on Molinare, featuring James Peace joining runVT as Senior Post Producer, alongside two items of broader sector news.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-21T06:49:14.606438+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -448,6 +448,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fd9c144c487796b5",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Expanding physical security beyond loss prevention",
+      "url": "https://securityjournaluk.com/physical-security-beyond-loss-prevention/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-21T08:00:00+00:00",
+      "first_seen": "2026-08-21T14:08:01.137865+00:00",
+      "score": 75,
+      "summary": "A global report indicates that retailers are increasingly leveraging physical security data to improve operational efficiency, safety, and customer experience rather than focusing solely on loss prevention.",
+      "angle": "Highlights a shift in client demand towards data-driven, multi-purpose security solutions beyond traditional loss prevention.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bd27ac3b736d2df4",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -490,20 +504,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7e743450d844d2b3",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Schools encouraged to review security before new term starts",
-      "url": "https://securityjournaluk.com/schools-review-security-before-term-starts/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-20T06:40:00+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "summary": "Physical security specialist Safetell advises schools and public buildings to audit access control and physical security systems before the start of the new academic term in September.",
-      "angle": "Highlights seasonal demand for maintenance and security system audits within the education and public sector property markets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "8bcc47483bfa13d5",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -529,20 +529,6 @@
       "score": 65,
       "summary": "The UK government has launched a consultation to review and potentially relax ZEV mandate targets for electric vehicle sales between 2027 and 2035.",
       "angle": "Signals potential shifts in national transport policy and consumer transition timelines toward zero-emission mobility.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b09eb380fbca73c2",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "US government offers Sila up to $1.4 billion in funding",
-      "url": "https://www.electrive.com/2026/08/11/us-government-offers-sila-up-to-1-4-billion-in-funding/",
-      "source": "electrive.com",
-      "published_at": "2026-08-11T12:33:02+00:00",
-      "first_seen": "2026-08-11T14:07:30.267209+00:00",
-      "score": 65,
-      "summary": "The U.S. Department of Defense has offered Sila Nanotechnologies a conditional $1.4 billion loan to expand silicon-carbon anode production and establish domestic lithium-ion cell manufacturing.",
-      "angle": "Highlights significant investment in next-generation battery materials and domestic supply chain scaling for high-performance energy storage applications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -644,17 +630,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9b07b363464db4d9",
+      "id": "4151fb4aca665d25",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "OPRL awaits delayed EU Implementing Act on PPWR labelling",
-      "url": "https://www.packagingnews.co.uk/news/materials/labelling/oprl-awaits-delayed-eu-implementing-act-on-ppwr-labelling-20-08-2026",
+      "title": "FPA & British Glass welcome Exchange for Change appointment for Wales DRS",
+      "url": "https://www.packagingnews.co.uk/top-story/fpa-british-glass-exchange-for-change-appointment-wales-drs-21-08-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-08-20T10:28:10+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
+      "published_at": "2026-08-21T09:22:12+00:00",
+      "first_seen": "2026-08-21T14:08:01.137865+00:00",
       "score": 85,
-      "summary": "The EU Implementing Act on harmonised waste sorting labelling under the Packaging and Packaging Waste Regulation has been delayed, leaving producers with a 24-month implementation window once finalised.",
-      "angle": "Standardised labelling requirements directly impact packaging design, compliance timelines, and consumer recycling communication for PET manufacturers.",
+      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, including Wales.",
+      "angle": "Regulatory progress on UK-wide DRS implementation impacts operational requirements and compliance strategies for beverage packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -669,6 +655,20 @@
       "score": 90,
       "summary": "London-based startup Callosum has raised £73.5m in a seed round led by Atomico, marking the first investment from the UK government's £500m Sovereign AI Fund.",
       "angle": "Validates the UK government's strategic focus on sovereign AI infrastructure and efficient heterogeneous model orchestration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c7cc534aab53e198",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI Security Institute adds new executives to top team",
+      "url": "https://www.uktech.news/ai/ai-security-institute-adds-new-executives-to-top-team-20260821",
+      "source": "uktech.news",
+      "published_at": "2026-08-21T11:26:19+00:00",
+      "first_seen": "2026-08-21T14:08:01.137865+00:00",
+      "score": 85,
+      "summary": "The UK AI Security Institute has appointed Henry de Zoete as director and Nate Burnikell as chief strategy officer to lead its national security and safety research initiatives.",
+      "angle": "Signals evolving regulatory oversight and government standards for sovereign AI development and national security compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -700,20 +700,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "3ee9eeea727e3e93",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Dell CTO John Roese : Partners , culture , and governance are all layers of AI transformation",
-      "url": "https://www.reseller.co.nz/article/4210752/dell-cto-john-roese-partners-culture-and-governance-are-all-layers-of-ai-transformation-2.html",
-      "source": "reseller.co.nz",
-      "published_at": "2026-08-18T03:15:00+00:00",
-      "first_seen": "2026-08-18T06:49:11.343557+00:00",
-      "score": 85,
-      "summary": "Dell CTO John Roese highlights that enterprise and sovereign AI success requires disciplined execution, clear governance, and strategic partnerships with agile startups to overcome internal bureaucratic inertia.",
-      "angle": "Validates the critical role of sovereign AI providers in helping large enterprises transition from experimental projects to production.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "b1446afa98e7dcbb",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -725,6 +711,20 @@
       "score": 90,
       "summary": "The British Independent Retailers Association is lobbying the government for comprehensive business rates reform, proposing to fund relief by closing import loopholes and addressing online VAT fraud.",
       "angle": "Advocacy for high street tax reform directly impacts the operational cost structure of physical retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1b1cba1522f74809",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Exchange for Change appointed in Wales giving UK DRS administrator consistency",
+      "url": "https://www.talkingretail.com/featured/drs-gets-uk-administrator-consistency-with-exchange-for-change-appointed-in-wales-20-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-20T14:17:10+00:00",
+      "first_seen": "2026-08-21T14:08:01.137865+00:00",
+      "score": 85,
+      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, with a launch date of October 2027.",
+      "angle": "Retailers face significant operational and infrastructure requirements to act as return point operators for the upcoming scheme.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -756,20 +756,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "19df3a3336290966",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Six weeks until vape duty: are independent retailers operationally ready? | Viewpoint: Ahsan Bawa",
-      "url": "https://www.talkingretail.com/opinion/talking-points/six-weeks-until-vape-duty-are-independent-retailers-operationally-ready-viewpoint-ahsan-bawa-17-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-17T12:53:33+00:00",
-      "first_seen": "2026-08-17T14:08:12.200945+00:00",
-      "score": 85,
-      "summary": "The UK government will introduce a Vaping Products Duty of £2.20 per 10ml of liquid on 1 October 2026, requiring new products to carry a duty stamp.",
-      "angle": "Retailers must manage supply chain compliance, inventory transition, and pricing adjustments to accommodate new tax regulations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "e4ba4fa562e72263",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -781,6 +767,20 @@
       "score": 90,
       "summary": "Universities are increasingly integrating AI-specific requirements and courses into general education and degree programs to address growing employer demand for AI-fluent graduates.",
       "angle": "Higher education institutions are rapidly shifting curricula to include AI literacy, creating new demand for specialized educational content.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b0823f5a61f04aaf",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "An Earn-While-You-Learn Path Into Teaching",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/08/21/earn-while-you-learn-path-teaching",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "first_seen": "2026-08-21T14:08:01.137865+00:00",
+      "score": 85,
+      "summary": "Teacher degree apprenticeships are expanding rapidly across the US, offering a model where aspiring educators earn a salary while completing their degrees and teaching certifications.",
+      "angle": "Highlights a shift toward work-integrated learning models in teacher preparation, impacting demand for flexible, competency-based educational content.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -809,20 +809,6 @@
       "score": 85,
       "summary": "The University of Michigan is piloting a redesigned calculus curriculum that integrates programming, robotics applications, and AI tools to better align mathematical instruction with modern engineering requirements.",
       "angle": "Highlights a shift in higher education toward applied, technology-integrated STEM curricula, impacting demand for modernised instructional materials.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c0b37facbfee67ed",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "The Key Podcast: Newsroom Federal Policy Analysis",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/20/key-podcast-newsroom-federal-policy-analysis",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-20T07:00:00+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
-      "score": 85,
-      "summary": "The latest episode of The Key podcast discusses federal policy shifts, including new international student visa limits, accreditation rule changes, and potential grant-making oversight by political appointees.",
-      "angle": "Regulatory changes in federal policy and international student visa rules directly impact higher education market dynamics and institutional operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1000,14 +986,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 144,
-    "llm_requests_attempted": 96,
-    "llm_requests_succeeded": 96,
+    "providers_succeeded": 88,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 24,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 5,
-    "carried_forward": 3
+    "carried_forward": 4
   }
 }
