@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T14:08:01.137865+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on Molinare, featuring James Peace joining runVT as Senior Post Producer, alongside two items of broader sector news.",
+  "generated_at": "2026-08-22T06:48:38.082794+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from McGraw Hill, The Delivery Group, or UOE.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-21T06:49:14.606438+00:00",
+  "last_digest_sent_at": "2026-08-22T06:48:38.082794+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 4,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "88d1d5a7d6f304e1",
@@ -392,6 +392,20 @@
   ],
   "sector_stories": [
     {
+      "id": "a4dac4352b33facd",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "One in seven Royal Mail first-class deliveries don't arrive on time - despite them scrapping second-class post on Saturdays - Daily Mail",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYzVPdjJNR2NvbkNPaWZ4ZFZ0UUY2b2NUZ1lmSXpBaW1JTzBfclkwVW5saUpsZC1lSUxqMHZVaTdDUTIxVG04VzZhMVhuWlZHQ2lMNXpDOWY2aGlVYTgzX3BFajNCdVF3RHZabXpKNEhBUjhQUEhuZTNJMjIxd3BaV3JYVUhlY2d2WWRfSi1GVEdqdUV5bHhZZVZqVURlYXRJcFMxMzNzSTl3bVFfQmdNeGJKejBZWHd5Q21IVTdCYnk1REVxb3pJUzlsaUQtRkhNTnRiaUxHdmRob2Z3cEhra1BhNkktLWlC0gHuAUFVX3lxTE1UakdKa09zQkxUZ29PVmx5eXNKLXRja1hJa0JyOWZzV2lacEJJdVM5WlltdmEtVXJqem5BbWVKM3pBZVEwS2JvVmV4X0pIZncxSXZTdExmMmZkQ0xsWllrN2l6THBRR2dxNFp5YnplY3NDOV9GQnB6ZnNyR05MVGNzaEYyQ3E2LTdrV0RDUGZRLVRGRGpoelVWUV8tUEpKeDZ3V281Z3M5RlN0OWRCMTZCV3lQOUNLbHN6SDJ0OVVPdlMxU3UyNWYtZHlFTUhtbGtKcTRpVko2YW9ybzlpNFBHMS0xYThOWWRIeXBQWEE?oc=5",
+      "source": "Daily Mail",
+      "published_at": "2026-08-21T23:53:13+00:00",
+      "first_seen": "2026-08-22T06:48:38.082794+00:00",
+      "score": 85,
+      "summary": "Royal Mail is failing to meet first-class delivery targets for one in seven items, despite the recent removal of Saturday second-class post services.",
+      "angle": "Highlights service reliability issues at the market incumbent, potentially driving customer migration to alternative delivery providers.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "e274ac57bce53d58",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -431,20 +445,6 @@
       "score": 75,
       "summary": "DX has expanded its international delivery service, DX International, to include parcel and freight shipping to 220 countries via road and air networks.",
       "angle": "Highlights competitive expansion into international logistics markets, signalling broader industry focus on cross-border e-commerce capabilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "056bc2716217b063",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Offer for InPost receives clearance from the EC",
-      "url": "https://postandparcel.info/162592/news/e-commerce/offer-for-inpost-receives-clearance-from-the-ec/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-18T16:30:01+00:00",
-      "first_seen": "2026-08-19T06:49:00.355367+00:00",
-      "score": 75,
-      "summary": "Iris Lux Bidco has received European Commission clearance for its €7.8 billion takeover of InPost.",
-      "angle": "Consolidation of a major European e-commerce delivery player signals shifting competitive dynamics within the parcel logistics market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -700,20 +700,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "b1446afa98e7dcbb",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Bira pushes for fair rates reform as £6.5bn proposal is revealed",
-      "url": "https://www.talkingretail.com/news/industry-news/bira-pushes-for-fair-rates-reform-as-6-5bn-proposal-is-revealed-11-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-11T14:21:36+00:00",
-      "first_seen": "2026-08-12T06:49:18.220060+00:00",
-      "score": 90,
-      "summary": "The British Independent Retailers Association is lobbying the government for comprehensive business rates reform, proposing to fund relief by closing import loopholes and addressing online VAT fraud.",
-      "angle": "Advocacy for high street tax reform directly impacts the operational cost structure of physical retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "1b1cba1522f74809",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -725,6 +711,20 @@
       "score": 85,
       "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, with a launch date of October 2027.",
       "angle": "Retailers face significant operational and infrastructure requirements to act as return point operators for the upcoming scheme.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "68c5aea908f28146",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Appleby-in-Westmorland post office relocates to town’s Spar store",
+      "url": "https://www.talkingretail.com/stores/appleby-in-westmorland-post-office-relocates-to-towns-spar-store-20-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-20T10:59:49+00:00",
+      "first_seen": "2026-08-22T06:48:38.082794+00:00",
+      "score": 85,
+      "summary": "The Appleby-in-Westmorland Post Office has relocated into a local Spar store, offering extended seven-day opening hours and a range of postal, banking, and parcel services.",
+      "angle": "Illustrates the ongoing trend of integrating Post Office services into convenience retail to maintain rural service accessibility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -784,6 +784,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2fcafd9a9d32d0a2",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Ivy Tech Receives Approval for Workforce Pell Program",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/21/ivy-tech-receives-approval-workforce-pell-program",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "first_seen": "2026-08-22T06:48:38.082794+00:00",
+      "score": 85,
+      "summary": "The U.S. Department of Education has approved the first eight-week Workforce Pell Grant programs, allowing federal funding for shorter, high-demand vocational training courses.",
+      "angle": "Signals a regulatory shift expanding federal financial aid eligibility to short-term, skills-based education programs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "dfb043bcb5c299c4",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -795,20 +809,6 @@
       "score": 85,
       "summary": "International student applications to U.S. colleges dropped by 10 percent in the 2025–26 cycle, marking a significant reversal of a decade-long upward trend.",
       "angle": "Declining international enrollment impacts demand for higher education courseware, digital learning platforms, and institutional publishing services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "213eff6a2816fd94",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Rethinking Calculus for Future Engineers",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/08/20/rethinking-calculus-future-engineers",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-20T07:00:00+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
-      "score": 85,
-      "summary": "The University of Michigan is piloting a redesigned calculus curriculum that integrates programming, robotics applications, and AI tools to better align mathematical instruction with modern engineering requirements.",
-      "angle": "Highlights a shift in higher education toward applied, technology-integrated STEM curricula, impacting demand for modernised instructional materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -986,13 +986,13 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 87,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 1,
+    "dropped_thin_page": 22,
+    "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 5,
     "carried_forward": 4
   }
