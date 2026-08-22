@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:48:38.082794+00:00",
+  "generated_at": "2026-08-22T14:07:41.104787+00:00",
   "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from McGraw Hill, The Delivery Group, or UOE.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-22T06:48:38.082794+00:00",
@@ -986,14 +986,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
+    "providers_succeeded": 86,
     "queued_candidates": 131,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 22,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
