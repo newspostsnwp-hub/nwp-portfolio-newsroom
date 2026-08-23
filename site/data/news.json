@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-22T14:07:41.104787+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from McGraw Hill, The Delivery Group, or UOE.",
+  "generated_at": "2026-08-23T06:48:40.662231+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from Whitespace.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-22T06:48:38.082794+00:00",
+  "last_digest_sent_at": "2026-08-23T06:48:40.662231+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -602,20 +602,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e9494d7f0a039e50",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Landmark EU packaging and waste regulations start to take effect",
-      "url": "https://www.packagingnews.co.uk/news/environment/single-use/landmark-eu-packaging-and-waste-regulations-start-to-take-effect-12-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-12T15:59:19+00:00",
-      "first_seen": "2026-08-13T06:49:10.725293+00:00",
-      "score": 95,
-      "summary": "The EU’s Packaging and Packaging Waste Regulation has begun implementation, introducing new requirements for material use, recyclability, and documentation for packaging across the EU and Northern Ireland.",
-      "angle": "New regulatory compliance, mandatory recycled content, and reuse targets directly impact PET packaging design and market access.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "46c65a6acfc1a294",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -658,6 +644,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "afc492036d05d36f",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-keeps-55-cents-every-015801983.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-08-23T02:30:00+00:00",
+      "first_seen": "2026-08-23T06:48:40.662231+00:00",
+      "score": 85,
+      "summary": "Palantir reported a 47% operating margin and 93% year-over-year revenue growth, with CEO Alex Karp citing the sovereign AI revolution as a key driver for future optimism.",
+      "angle": "Demonstrates the massive scale and profitability potential for software providers operating within the sovereign AI market.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "c7cc534aab53e198",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -684,20 +684,6 @@
       "summary": "The Scottish AI Growth Zone in Lanarkshire has secured £300m in infrastructure financing to expand data centre capacity and support regional sovereign compute development.",
       "angle": "Highlights government-backed investment in regional sovereign compute infrastructure and the integration of hardware providers within specialized AI zones.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1cfc4ea6f1ed7fac",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Australia must move up the AI value chain to capture maximum benefit from the technology : Andrew Charlton",
-      "url": "https://theconversation.com/australia-must-move-up-the-ai-value-chain-to-capture-maximum-benefit-from-the-technology-andrew-charlton-289900",
-      "source": "theconversation.com",
-      "published_at": "2026-08-18T05:15:00+00:00",
-      "first_seen": "2026-08-18T06:49:11.343557+00:00",
-      "score": 85,
-      "summary": "The Australian government is mandating that data centre operators support local AI ecosystems to ensure economic value remains domestic rather than flowing to overseas model providers.",
-      "angle": "Highlights growing sovereign AI policy trends where governments leverage infrastructure to mandate local intellectual property and research development.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "1b1cba1522f74809",
@@ -987,13 +973,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 86,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
+    "queued_candidates": 106,
+    "llm_requests_attempted": 59,
+    "llm_requests_succeeded": 59,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 23,
+    "dropped_thin_page": 22,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 4
   }
 }
