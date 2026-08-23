@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T06:48:40.662231+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from Whitespace.",
+  "generated_at": "2026-08-23T14:07:42.592985+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-23T06:48:40.662231+00:00",
   "companies": [
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -392,6 +392,20 @@
   ],
   "sector_stories": [
     {
+      "id": "491d4cfdae5e96ab",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail Falls Short on Delivery Targets Yet Points to 'Encouraging' Performance Momentum - Low Growth Earnings - vinanet.vn",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQmo2ajhmaVU3SXdjT21MUkxSM0prbXFWR3dVM1BwSFRqUHhYOHYzS0Z5ZVpKNENpTDVESm12VFlQU25vYVZKT0t6Vy1Gbjg2cl94X3R6V0N2YjBmYzBrTFlLNDRUb29tdTI4dFViR1BRaWN4YUVZT1RBcGw1Z3daZmt3dVRVc1JWMEVUVzhPazJmR3JrRUNQLXo0VG4tb3FPRldZR2JncEl2eTVIcHBvU1JjVjRIdmRTLVhJUHlTU3p6VWVEc2xmUzZJdDI?oc=5",
+      "source": "vinanet.vn",
+      "published_at": "2026-08-23T07:46:38+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 85,
+      "summary": "Royal Mail has missed its delivery performance targets while reporting signs of encouraging momentum in its recent earnings.",
+      "angle": "Provides critical competitive intelligence regarding the market leader's operational performance and current service reliability trends.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "a4dac4352b33facd",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -431,20 +445,6 @@
       "score": 75,
       "summary": "UK goods exports fell by £2.2bn in June 2026, with exports to EU markets declining by 7.4% and non-EU markets by 5.4%.",
       "angle": "Declining export volumes indicate reduced cross-border parcel demand, impacting logistics throughput and revenue forecasts for delivery providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cca4ed21308017b2",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "DX expands its international delivery service",
-      "url": "https://postandparcel.info/162613/news/e-commerce/dx-expands-its-international-delivery-service/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-19T08:59:36+00:00",
-      "first_seen": "2026-08-19T14:08:01.978150+00:00",
-      "score": 75,
-      "summary": "DX has expanded its international delivery service, DX International, to include parcel and freight shipping to 220 countries via road and air networks.",
-      "angle": "Highlights competitive expansion into international logistics markets, signalling broader industry focus on cross-border e-commerce capabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -560,6 +560,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "dbb26b88b611b043",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy: Editor Kelly Lyon on Editing Disney+’s The Muppet Show",
+      "url": "https://postperspective.com/emmy-editor-kelly-lyon-on-editing-disneys-the-muppet-show/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-21T17:01:30+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 65,
+      "summary": "Editor Kelly Lyon discusses the technical post-production challenges of balancing nostalgia with modern pacing and synthetic audience reactions for the Disney+ Muppet Show special.",
+      "angle": "Highlights complex post-production workflows for reboots, specifically managing puppet eyelines, single-cam variety formats, and artificial laugh track integration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8154f600a73d60be",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -571,20 +585,6 @@
       "score": 65,
       "summary": "Profuz Digital has updated its SubtitleNext platform with expanded AI transcription integrations, IMSCR support, and enhanced batch processing capabilities for subtitle burn-in and broadcast compliance.",
       "angle": "Advancements in AI-driven transcription and automated subtitling workflows reflect ongoing efficiency improvements in post-production and localization services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "73369663b9135b00",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Emmy-Nominated Your Friends & Neighbors Showrunner Talks Workflow",
-      "url": "https://postperspective.com/emmy-nominated-your-friends-neighbors-showrunner-talks-shoot-and-post/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-19T18:59:20+00:00",
-      "first_seen": "2026-08-20T06:49:03.520804+00:00",
-      "score": 65,
-      "summary": "Showrunner Jonathan Tropper discusses the workflow for the series Your Friends & Neighbors, highlighting the critical role of invisible VFX and sound post-production in dialogue-heavy location shoots.",
-      "angle": "Highlights the increasing reliance on invisible VFX and complex sound mixing to solve on-set production challenges.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -602,20 +602,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "46c65a6acfc1a294",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "“93% of British businesses impacted by new EU Packaging regulation”",
-      "url": "https://www.packagingnews.co.uk/top-story/93-of-british-businesses-impacted-by-new-eu-packaging-regulation-13-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-13T11:58:03+00:00",
-      "first_seen": "2026-08-13T14:07:28.503909+00:00",
-      "score": 90,
-      "summary": "A survey reveals 93% of British businesses are adapting packaging strategies to comply with the EU's Packaging and Packaging Waste Regulation and domestic Extended Producer Responsibility schemes.",
-      "angle": "Regulatory shifts mandate increased recyclability, recycled content, and packaging minimisation, directly impacting PET and beverage packaging standards.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "4151fb4aca665d25",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -627,6 +613,34 @@
       "score": 85,
       "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, including Wales.",
       "angle": "Regulatory progress on UK-wide DRS implementation impacts operational requirements and compliance strategies for beverage packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9b07b363464db4d9",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "OPRL awaits delayed EU Implementing Act on PPWR labelling",
+      "url": "https://www.packagingnews.co.uk/news/materials/labelling/oprl-awaits-delayed-eu-implementing-act-on-ppwr-labelling-20-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-20T10:28:10+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 85,
+      "summary": "The EU Implementing Act on harmonised waste sorting labelling under the Packaging and Packaging Waste Regulation has been delayed, leaving producers with a 24-month implementation window once finalised.",
+      "angle": "Standardised labelling requirements directly impact PET packaging design, consumer recycling compliance, and cross-border regulatory alignment for manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7f1d89cdb353d41b",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Two thirds of consumers ‘plan to return drinks containers during shopping trips’",
+      "url": "https://www.packagingnews.co.uk/news/markets/drinks/two-thirds-of-consumers-plan-to-return-drinks-containers-during-shopping-trips-18-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-18T22:50:43+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 85,
+      "summary": "Research from Danone indicates that 68% of UK consumers intend to return drinks containers during shopping trips once a Deposit Return Scheme is implemented.",
+      "angle": "Provides critical insight into consumer behaviour and retail infrastructure requirements for upcoming UK Deposit Return Scheme legislation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -896,17 +910,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "437d8c6edf9994d4",
+      "id": "0c0fce94643b5aea",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "New orders drop by 12 per cent as wider economy grows more than construction",
-      "url": "https://www.constructionnews.co.uk/buildings/new-orders-drop-by-12-per-cent-as-wider-economy-grows-more-than-construction-13-08-2026/",
+      "title": "Bam, Kier and Wates among winners on £1bn North West framework",
+      "url": "https://www.constructionnews.co.uk/contracts/bam-kier-and-wates-among-winners-on-1bn-north-west-framework-21-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-13T11:16:39+00:00",
-      "first_seen": "2026-08-13T14:07:28.503909+00:00",
-      "score": 85,
-      "summary": "Official ONS statistics show that new construction orders in the UK fell by 12 per cent in the second quarter of 2026.",
-      "angle": "Indicates a significant contraction in construction demand, signaling potential headwinds for manufacturers and suppliers across the sector.",
+      "published_at": "2026-08-21T10:18:01+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 75,
+      "summary": "Wirral Council and Procure Partnerships have appointed major contractors to a four-year, £1bn construction framework covering public sector projects across the North West.",
+      "angle": "Provides a pipeline of public sector construction projects, indicating potential demand for building products in the North West.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -952,17 +966,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3db89513d8f9a728",
+      "id": "8dcc6079b42520bd",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "LTX launches new free-to-use open world model for video and physical AI",
-      "url": "https://roboticsandautomationnews.com/2026/08/13/ltx-launches-new-free-to-use-open-world-model-for-video-and-physical-ai/104079/",
+      "title": "Waymo reveals Nvidia-powered compute system behind its robotaxis",
+      "url": "https://roboticsandautomationnews.com/2026/08/21/waymo-reveals-nvidia-powered-compute-system-behind-its-robotaxis/104373/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-13T08:04:33+00:00",
-      "first_seen": "2026-08-13T14:07:28.503909+00:00",
-      "score": 85,
-      "summary": "LTX has released LTX-2.5, an open-weights world model designed for physical AI and robotics, enabling developers to model environmental changes and predict how actions affect surroundings.",
-      "angle": "World models improve robot simulation, training, and planning by predicting environmental states, enhancing autonomous inspection capabilities.",
+      "published_at": "2026-08-21T08:48:31+00:00",
+      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "score": 75,
+      "summary": "Waymo has unveiled a new Nvidia-powered compute architecture featuring a custom 5 nm ASIC capable of 1,000 TOPS to support fully autonomous, real-time sensor processing and redundancy.",
+      "angle": "Advances in edge computing, ruggedised hardware, and sensor-fusion ASICs directly inform autonomous inspection robotics development.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -972,14 +986,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 106,
-    "llm_requests_attempted": 59,
-    "llm_requests_succeeded": 59,
+    "providers_succeeded": 92,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 22,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 4
   }
 }
