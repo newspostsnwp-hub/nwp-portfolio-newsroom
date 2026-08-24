@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T06:48:39.040045+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Fertility Associates, Molinare, or Roof-Maker.",
+  "generated_at": "2026-08-24T14:07:42.586416+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector-related updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-24T06:48:39.040045+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 1,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -434,17 +434,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8c96b28e68f9a7ae",
+      "id": "8918ad47b649344c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Nearly 3 in 10 UK exporters shipped less in June",
-      "url": "https://postandparcel.info/162625/news/e-commerce/nearly-3-in-10-uk-exporters-shipped-less-in-june/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-20T04:27:18+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
+      "title": "Southend nearly nine in ten report Royal Mail not improved",
+      "url": "https://www.echo-news.co.uk/news/26486184.southend-nearly-nine-ten-report-royal-mail-not-improved/",
+      "source": "echo-news.co.uk",
+      "published_at": "2026-08-24T03:30:00+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
       "score": 75,
-      "summary": "UK goods exports fell by £2.2bn in June 2026, with exports to EU markets declining by 7.4% and non-EU markets by 5.4%.",
-      "angle": "Declining export volumes indicate reduced cross-border parcel demand, impacting logistics throughput and revenue forecasts for delivery providers.",
+      "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
+      "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "c4ed704260997557",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "UK power plant cyber attack",
+      "url": "https://securityjournaluk.com/uk-power-plant-cyber-attack/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-24T12:04:48+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "score": 75,
+      "summary": "A small UK power plant was shut down for four days following a cyber attack, prompting government briefings for energy CEOs on strengthening infrastructure security.",
+      "angle": "Highlights increasing threats to critical national infrastructure and the urgent need for enhanced physical and cyber security measures.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -487,34 +501,6 @@
       "score": 75,
       "summary": "The entrance control industry is shifting towards open-protocol systems to improve interoperability, flexibility, and integration with wider intelligent building ecosystems and third-party security technologies.",
       "angle": "Highlights the growing market demand for interoperable, future-proofed security infrastructure over proprietary, closed-system alternatives.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e4f711281b96800c",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Guardhouse acquires Mobohubb",
-      "url": "https://securityjournaluk.com/guardhouse-acquires-mobohubb/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-20T08:53:02+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "summary": "Guardhouse has acquired Mobohubb to integrate field operations, patrol verification, and proof-of-service reporting into its existing cloud-based platform for security guard management.",
-      "angle": "Consolidation of workforce management and field operations software reflects increasing demand for integrated, end-to-end digital security platforms.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8bcc47483bfa13d5",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "TU Graz develops guidelines for repairable EV batteries",
-      "url": "https://www.electrive.com/2026/08/14/tu-graz-develops-guidelines-for-repairable-ev-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-08-14T07:15:00+00:00",
-      "first_seen": "2026-08-14T14:07:23.427711+00:00",
-      "score": 85,
-      "summary": "Researchers at TU Graz have developed design guidelines to improve the safety, repairability, and recyclability of traction batteries, specifically focusing on electric two-wheelers.",
-      "angle": "Standardised repairable battery designs and diagnostic methods could influence future regulatory frameworks and industry safety requirements for micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -602,6 +588,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "cc38dc3776c7f112",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "MPMA welcomes appointment of Exchange for Change as DMO for Wales DRS",
+      "url": "https://www.packagingnews.co.uk/news/environment/single-use/mpma-welcomes-appointment-of-exchange-for-change-as-dmo-for-wales-drs-24-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-24T13:36:49+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "score": 85,
+      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Welsh Deposit Return Scheme, which is scheduled to launch in October 2027.",
+      "angle": "Regulatory progress on DRS interoperability and potential flat-rate deposit structures directly impact PET packaging market dynamics and costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4151fb4aca665d25",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -630,20 +630,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7f1d89cdb353d41b",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Two thirds of consumers ‘plan to return drinks containers during shopping trips’",
-      "url": "https://www.packagingnews.co.uk/news/markets/drinks/two-thirds-of-consumers-plan-to-return-drinks-containers-during-shopping-trips-18-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-18T22:50:43+00:00",
-      "first_seen": "2026-08-23T14:07:42.592985+00:00",
-      "score": 85,
-      "summary": "Research from Danone indicates that 68% of UK consumers intend to return drinks containers during shopping trips once a Deposit Return Scheme is implemented.",
-      "angle": "Provides critical insight into consumer behaviour and retail infrastructure requirements for upcoming UK Deposit Return Scheme legislation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "35f5a68cdc98d2b6",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -655,6 +641,34 @@
       "score": 90,
       "summary": "London-based startup Callosum has raised £73.5m in a seed round led by Atomico, marking the first investment from the UK government's £500m Sovereign AI Fund.",
       "angle": "Validates the UK government's strategic focus on sovereign AI infrastructure and efficient heterogeneous model orchestration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bd48fb372bc88149",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Thomson Reuters launches proprietary AI model for legal work",
+      "url": "https://siliconangle.com/2026/08/24/thomson-reuters-launches-proprietary-ai-model-for-legal-work/",
+      "source": "siliconangle.com",
+      "published_at": "2026-08-24T13:15:00+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "score": 85,
+      "summary": "Thomson Reuters has launched a proprietary large language model, Thomson, designed for legal work by combining open-weight base models with its own domain-specific legal data and expertise.",
+      "angle": "Demonstrates a shift toward domain-specific sovereign AI models, prioritising data governance, security, and specialised professional knowledge over general-purpose alternatives.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "37eb415871e39e68",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Prevalent AI secures £16.1m to accelerate AI context engine",
+      "url": "https://www.uktech.news/cybersecurity/prevalent-ai-secures-16-1m-to-accelerate-ai-context-engine-20260824",
+      "source": "uktech.news",
+      "published_at": "2026-08-24T12:00:35+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "score": 85,
+      "summary": "London-based Prevalent AI raised £16.1m to scale its data fabric platform, which creates sovereign knowledge graphs to provide context for enterprise AI and security decision-making.",
+      "angle": "Highlights growing enterprise demand for data contextualisation and sovereign knowledge graphs to support reliable, agentic AI deployment.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -670,34 +684,6 @@
       "summary": "Palantir reported a 47% operating margin and 93% year-over-year revenue growth, with CEO Alex Karp citing the sovereign AI revolution as a key driver for future optimism.",
       "angle": "Demonstrates the massive scale and profitability potential for software providers operating within the sovereign AI market.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "c7cc534aab53e198",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI Security Institute adds new executives to top team",
-      "url": "https://www.uktech.news/ai/ai-security-institute-adds-new-executives-to-top-team-20260821",
-      "source": "uktech.news",
-      "published_at": "2026-08-21T11:26:19+00:00",
-      "first_seen": "2026-08-21T14:08:01.137865+00:00",
-      "score": 85,
-      "summary": "The UK AI Security Institute has appointed Henry de Zoete as director and Nate Burnikell as chief strategy officer to lead its national security and safety research initiatives.",
-      "angle": "Signals evolving regulatory oversight and government standards for sovereign AI development and national security compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c8c58d6754aef6d9",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Scottish AI Growth Zone lands £300m infrastructure backing",
-      "url": "https://www.uktech.news/ai/scottish-ai-growth-zone-lands-300m-infrastructure-backing-20260818",
-      "source": "uktech.news",
-      "published_at": "2026-08-18T08:20:00+00:00",
-      "first_seen": "2026-08-18T14:08:02.798313+00:00",
-      "score": 85,
-      "summary": "The Scottish AI Growth Zone in Lanarkshire has secured £300m in infrastructure financing to expand data centre capacity and support regional sovereign compute development.",
-      "angle": "Highlights government-backed investment in regional sovereign compute infrastructure and the integration of hardware providers within specialized AI zones.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "1b1cba1522f74809",
@@ -896,31 +882,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bffd3e4a26cbbabd",
+      "id": "4c403c92de062175",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Supply chain engagement planned on five New Hospital Programme jobs",
-      "url": "https://www.constructionnews.co.uk/buildings/supply-chain-engaged-on-five-new-hospital-programme-jobs-14-08-2026/",
+      "title": "From reinvention to repetition: A greener model for construction",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/from-reinvention-to-repetition-a-greener-model-for-construction-24-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-14T11:15:31+00:00",
-      "first_seen": "2026-08-14T14:07:23.427711+00:00",
-      "score": 85,
-      "summary": "The New Hospital Programme is hosting a supply chain engagement event on 17 September for five hospital schemes in the East of England with a combined multi-billion pound value.",
-      "angle": "Provides early visibility into major public sector procurement pipelines and supply chain opportunities for construction product manufacturers.",
+      "published_at": "2026-08-24T11:51:21+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "score": 75,
+      "summary": "The construction industry is being urged to adopt platform thinking and standardised components to improve circularity, reduce waste, and lower costs through repeatable processes.",
+      "angle": "Shift towards modular, standardised building components and circular economy practices impacts design and manufacturing requirements for glazing suppliers.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c47143af0ae1c77b",
+      "id": "a88fc2f0310cf094",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Winvic holds turnover above £1bn as profit slips",
-      "url": "https://www.constructionnews.co.uk/financial/winvic-holds-turnover-above-1bn-as-profit-slips-21-08-2026/",
+      "title": "Mayors could levy developers to fund range of infrastructure",
+      "url": "https://www.constructionnews.co.uk/buildings/mayors-could-levy-developers-to-fund-range-of-infrastructure-24-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-21T11:21:21+00:00",
-      "first_seen": "2026-08-24T06:48:39.040045+00:00",
+      "published_at": "2026-08-24T10:15:52+00:00",
+      "first_seen": "2026-08-24T14:07:42.586416+00:00",
       "score": 75,
-      "summary": "Major contractor Winvic maintained turnover above £1bn while reporting a slight profit decline and highlighting strong demand in industrial, data centre, and build-to-rent residential sectors.",
-      "angle": "Provides insight into contractor financial health, project pipelines, and growth areas like data centres and residential developments.",
+      "summary": "The government is consulting on powers allowing regional mayors to levy developers for infrastructure and take over the determination of major planning applications.",
+      "angle": "Increased developer levies and mayoral planning intervention could impact project viability and the pipeline for new construction.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -986,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 87,
+    "providers_succeeded": 88,
+    "queued_candidates": 130,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 24,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 21,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 4
   }
 }
