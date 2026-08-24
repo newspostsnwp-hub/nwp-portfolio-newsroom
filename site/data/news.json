@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23T14:07:42.592985+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-24T06:48:39.040045+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Fertility Associates, Molinare, or Roof-Maker.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-23T06:48:40.662231+00:00",
+  "last_digest_sent_at": "2026-08-24T06:48:39.040045+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -546,20 +546,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "64459c076bacddaa",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Director Destin Daniel Cretton Talks Spider-Man: Brand New Day",
-      "url": "https://postperspective.com/director-destin-daniel-cretton-talks-spider-man-brand-new-day/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-13T17:24:39+00:00",
-      "first_seen": "2026-08-14T14:07:23.427711+00:00",
-      "score": 75,
-      "summary": "Director Destin Daniel Cretton discusses the production workflow for Spider-Man: Brand New Day, highlighting the integration of on-set stunt choreography with extensive VFX and tight post-production scheduling.",
-      "angle": "Highlights industry trends in high-end VFX integration, collaborative pipeline management, and the reliance on UK-based location filming.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "dbb26b88b611b043",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -585,6 +571,20 @@
       "score": 65,
       "summary": "Profuz Digital has updated its SubtitleNext platform with expanded AI transcription integrations, IMSCR support, and enhanced batch processing capabilities for subtitle burn-in and broadcast compliance.",
       "angle": "Advancements in AI-driven transcription and automated subtitling workflows reflect ongoing efficiency improvements in post-production and localization services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "73369663b9135b00",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy-Nominated Your Friends & Neighbors Showrunner Talks Workflow",
+      "url": "https://postperspective.com/emmy-nominated-your-friends-neighbors-showrunner-talks-shoot-and-post/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-19T18:59:20+00:00",
+      "first_seen": "2026-08-24T06:48:39.040045+00:00",
+      "score": 65,
+      "summary": "Showrunner Jonathan Tropper details the post-production workflow for the series Your Friends & Neighbors, highlighting the integration of invisible VFX, dialogue-heavy sound mixing, and collaborative editorial processes.",
+      "angle": "Highlights the increasing reliance on invisible VFX and complex sound design to solve on-set location challenges.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -840,20 +840,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "271d3d2f01ec4dbd",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "PET Podcast: Donor Conception and Genetic Disease – Lessons to Be Learned from Donor 7069",
-      "url": "https://www.progress.org.uk/pet-podcast-donor-conception-and-genetic-disease-lessons-to-be-learned-from-donor-7069/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-13T18:34:11+00:00",
-      "first_seen": "2026-08-14T06:48:20.726681+00:00",
-      "score": 85,
-      "summary": "Experts are reviewing the case of a sperm donor who unknowingly passed a cancer-causing genetic mutation to at least 197 children across 14 countries.",
-      "angle": "Highlights critical risks in international donor screening, regulatory oversight, and the necessity for enhanced genetic testing protocols.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "683b194dbec68936",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -865,6 +851,20 @@
       "score": 75,
       "summary": "A multidisciplinary workshop examined how emerging technologies like stem-cell-based embryo models and in vitro gametogenesis challenge existing regulatory frameworks for human reproduction.",
       "angle": "Regulatory shifts regarding embryo definitions and gametogenesis could fundamentally alter the future legal landscape for fertility service providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "72a253fcf8d27a4d",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Stem cell research shows vape flavour could affect embryo development",
+      "url": "https://www.progress.org.uk/stem-cell-research-shows-vape-flavour-could-affect-embryo-development/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-17T15:05:09+00:00",
+      "first_seen": "2026-08-24T06:48:39.040045+00:00",
+      "score": 75,
+      "summary": "Research from the University of California, Riverside, suggests that vanillin, a common e-cigarette flavouring, may disrupt human embryonic stem cell development and pluripotency.",
+      "angle": "Provides clinical context on lifestyle factors that may impact embryo development and IVF treatment success rates.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -910,17 +910,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0c0fce94643b5aea",
+      "id": "c47143af0ae1c77b",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Bam, Kier and Wates among winners on £1bn North West framework",
-      "url": "https://www.constructionnews.co.uk/contracts/bam-kier-and-wates-among-winners-on-1bn-north-west-framework-21-08-2026/",
+      "title": "Winvic holds turnover above £1bn as profit slips",
+      "url": "https://www.constructionnews.co.uk/financial/winvic-holds-turnover-above-1bn-as-profit-slips-21-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-21T10:18:01+00:00",
-      "first_seen": "2026-08-23T14:07:42.592985+00:00",
+      "published_at": "2026-08-21T11:21:21+00:00",
+      "first_seen": "2026-08-24T06:48:39.040045+00:00",
       "score": 75,
-      "summary": "Wirral Council and Procure Partnerships have appointed major contractors to a four-year, £1bn construction framework covering public sector projects across the North West.",
-      "angle": "Provides a pipeline of public sector construction projects, indicating potential demand for building products in the North West.",
+      "summary": "Major contractor Winvic maintained turnover above £1bn while reporting a slight profit decline and highlighting strong demand in industrial, data centre, and build-to-rent residential sectors.",
+      "angle": "Provides insight into contractor financial health, project pipelines, and growth areas like data centres and residential developments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -986,14 +986,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 91,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 23,
+    "dropped_thin_page": 24,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 4
   }
 }
