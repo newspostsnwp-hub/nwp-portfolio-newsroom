@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T06:48:38.441788+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Clearway Group, Fertility Associates, or Whitespace.",
+  "generated_at": "2026-08-25T14:08:08.458926+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-related updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-25T06:48:38.441788+00:00",
   "companies": [
@@ -448,6 +448,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "c4a29c1d903c0646",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Antare transforms unwatched camera footage into intelligence",
+      "url": "https://securityjournaluk.com/antare-transforms-footage-into-intelligence/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-25T07:44:21+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 75,
+      "summary": "UK startup Antare has launched an AI-powered platform that automatically reviews, transcribes, and indexes security footage from body-worn and fixed cameras to provide actionable incident intelligence.",
+      "angle": "Represents a shift toward automated, AI-driven video analytics for incident detection and risk management in physical security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8763c47dd0832f1f",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -490,20 +504,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bd27ac3b736d2df4",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Axis shifts ANPR up a gear with new camera kits",
-      "url": "https://securityjournaluk.com/axis-boosts-anpr-with-new-camera-kits/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-21T06:30:00+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "summary": "Axis Communications has launched three new all-in-one LPR camera kits that perform license plate verification on-device, eliminating the need for external servers.",
-      "angle": "Edge-based processing simplifies deployment of vehicle access control and site monitoring for security providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "0a7d3c5fb344c159",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -532,6 +532,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fb9456ed93939832",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy-Nominated Bill Lawrence on Showrunning Apple TV’s Shrinking",
+      "url": "https://postperspective.com/emmy-nominated-bill-lawrence-on-showrunning-shrinking/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-24T19:56:56+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 65,
+      "summary": "Showrunner Bill Lawrence discusses the post-production workflow for Shrinking, highlighting the importance of centralized teams, early music integration, and collaborative editing processes for modern episodic storytelling.",
+      "angle": "Highlights industry trends toward centralized post-production workflows and the increasing importance of early sound and music integration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "52472a19934344c6",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy: Alien: Earth VFX Supervisor Aladino Debert Talks Workflow",
+      "url": "https://postperspective.com/emmy-alien-earth-vfx-supervisor-aladino-debert-talks-workflow/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-24T15:34:23+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 65,
+      "summary": "Zoic Studios delivered 275 visual effects shots for Alien: Earth, utilising a team of 55 artists and industry-standard software including Houdini, Maya, and Nuke.",
+      "angle": "Highlights current high-end VFX production workflows, team scaling, and technical toolsets for major episodic sci-fi series.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "dbb26b88b611b043",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -546,34 +574,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8154f600a73d60be",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Profuz’s SubtitleNext to Feature Expanded Transcriptions, IMSCR Support",
-      "url": "https://postperspective.com/profuzs-subtitlenext-to-feature-expanded-transcriptions-imscr-support/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-20T18:03:10+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 65,
-      "summary": "Profuz Digital has updated its SubtitleNext platform with expanded AI transcription integrations, IMSCR support, and enhanced batch processing capabilities for subtitle burn-in and broadcast compliance.",
-      "angle": "Advancements in AI-driven transcription and automated subtitling workflows reflect ongoing efficiency improvements in post-production and localization services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "73369663b9135b00",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Emmy-Nominated Your Friends & Neighbors Showrunner Talks Workflow",
-      "url": "https://postperspective.com/emmy-nominated-your-friends-neighbors-showrunner-talks-shoot-and-post/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-19T18:59:20+00:00",
-      "first_seen": "2026-08-24T06:48:39.040045+00:00",
-      "score": 65,
-      "summary": "Showrunner Jonathan Tropper details the post-production workflow for the series Your Friends & Neighbors, highlighting the integration of invisible VFX, dialogue-heavy sound mixing, and collaborative editorial processes.",
-      "angle": "Highlights the increasing reliance on invisible VFX and complex sound design to solve on-set location challenges.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "d8270b7dc1e0582e",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -585,6 +585,20 @@
       "score": 95,
       "summary": "Exchange for Change has been appointed as the single Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, with a go-live date of October 2027.",
       "angle": "Regulatory alignment across the UK simplifies compliance frameworks for beverage packaging manufacturers and their supply chain partners.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "588fe61994c2dcbe",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "6,000 single-use cans & bottles returned at British Grand Prix RVMs",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/6000-single-use-cans-bottles-returned-british-grand-prix-rvms-25-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-25T11:21:59+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 85,
+      "summary": "EcoVend processed nearly 6,000 single-use containers via reverse vending machines at the British Grand Prix to demonstrate the upcoming UK Deposit Return Scheme.",
+      "angle": "Provides insight into consumer engagement and operational readiness for the UK's impending Deposit Return Scheme legislation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -616,20 +630,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9b07b363464db4d9",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "OPRL awaits delayed EU Implementing Act on PPWR labelling",
-      "url": "https://www.packagingnews.co.uk/news/materials/labelling/oprl-awaits-delayed-eu-implementing-act-on-ppwr-labelling-20-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-20T10:28:10+00:00",
-      "first_seen": "2026-08-23T14:07:42.592985+00:00",
-      "score": 85,
-      "summary": "The EU Implementing Act on harmonised waste sorting labelling under the Packaging and Packaging Waste Regulation has been delayed, leaving producers with a 24-month implementation window once finalised.",
-      "angle": "Standardised labelling requirements directly impact PET packaging design, consumer recycling compliance, and cross-border regulatory alignment for manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "35f5a68cdc98d2b6",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -641,6 +641,20 @@
       "score": 90,
       "summary": "London-based startup Callosum has raised £73.5m in a seed round led by Atomico, marking the first investment from the UK government's £500m Sovereign AI Fund.",
       "angle": "Validates the UK government's strategic focus on sovereign AI infrastructure and efficient heterogeneous model orchestration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "780bf3fa7cdb9243",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK and Ukraine sign landmark AI deal to develop new technologies",
+      "url": "https://www.uktech.news/government-policy/uk-and-ukraine-sign-landmark-ai-deal-to-develop-new-technologies-20260825",
+      "source": "uktech.news",
+      "published_at": "2026-08-25T08:00:30+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 85,
+      "summary": "The UK and Ukraine have signed an AI partnership to share battlefield data and engineering expertise to accelerate the development of sovereign defence and national security technologies.",
+      "angle": "Highlights government-led demand for sovereign AI infrastructure and the strategic value of real-world operational datasets for model training.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -670,20 +684,6 @@
       "summary": "Thomson Reuters has launched a proprietary large language model, Thomson, designed for legal work by combining open-weight base models with its own domain-specific legal data and expertise.",
       "angle": "Demonstrates a shift toward domain-specific sovereign AI models, prioritising data governance, security, and specialised professional knowledge over general-purpose alternatives.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "37eb415871e39e68",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Prevalent AI secures £16.1m to accelerate AI context engine",
-      "url": "https://www.uktech.news/cybersecurity/prevalent-ai-secures-16-1m-to-accelerate-ai-context-engine-20260824",
-      "source": "uktech.news",
-      "published_at": "2026-08-24T12:00:35+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 85,
-      "summary": "London-based Prevalent AI raised £16.1m to scale its data fabric platform, which creates sovereign knowledge graphs to provide context for enterprise AI and security decision-making.",
-      "angle": "Highlights growing enterprise demand for data contextualisation and sovereign knowledge graphs to support reliable, agentic AI deployment.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "1b1cba1522f74809",
@@ -756,6 +756,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0be05766ffb3f848",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "5 Ways Colleges Are Reshaping STEM Education",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/08/25/5-ways-colleges-are-reshaping-stem-education",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-25T07:00:00+00:00",
+      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are redesigning STEM curricula to integrate real-world applications, AI literacy, and workforce-aligned skills to improve student retention and career readiness.",
+      "angle": "Highlights shifting demand for applied, technology-integrated learning materials and courseware in higher education STEM publishing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b0823f5a61f04aaf",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -781,20 +795,6 @@
       "score": 85,
       "summary": "The U.S. Department of Education has approved the first eight-week Workforce Pell Grant programs, allowing federal funding for shorter, high-demand vocational training courses.",
       "angle": "Signals a regulatory shift expanding federal financial aid eligibility to short-term, skills-based education programs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dfb043bcb5c299c4",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "International Applications Dropped 10% This Year",
-      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/08/20/applications-international-students-down-10",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-20T22:17:05+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 85,
-      "summary": "International student applications to U.S. colleges dropped by 10 percent in the 2025–26 cycle, marking a significant reversal of a decade-long upward trend.",
-      "angle": "Declining international enrollment impacts demand for higher education courseware, digital learning platforms, and institutional publishing services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -972,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 132,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 86,
+    "providers_succeeded": 101,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 96,
+    "llm_requests_succeeded": 96,
     "dropped_no_valid_date": 24,
-    "dropped_thin_page": 21,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 4
   }
 }
