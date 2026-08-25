@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T14:07:42.586416+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector-related updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-25T06:48:38.441788+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Clearway Group, Fertility Associates, or Whitespace.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-24T06:48:39.040045+00:00",
+  "last_digest_sent_at": "2026-08-25T06:48:38.441788+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -448,6 +448,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "8763c47dd0832f1f",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Richpix 360 expands to tackle Martyn’s Law",
+      "url": "https://securityjournaluk.com/richpix-360-expands-to-tackle-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-25T06:40:00+00:00",
+      "first_seen": "2026-08-25T06:48:38.441788+00:00",
+      "score": 75,
+      "summary": "Richpix 360 is expanding its 3D digital twin and mapping services to assist UK venues in meeting upcoming compliance requirements under Martyn’s Law.",
+      "angle": "Highlights increasing demand for high-fidelity spatial data and digital mapping to support security and emergency preparedness compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c4ed704260997557",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -487,20 +501,6 @@
       "score": 75,
       "summary": "Axis Communications has launched three new all-in-one LPR camera kits that perform license plate verification on-device, eliminating the need for external servers.",
       "angle": "Edge-based processing simplifies deployment of vehicle access control and site monitoring for security providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1992bb0d5be8a936",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "The shift towards open protocol entrance control systems",
-      "url": "https://securityjournaluk.com/shift-towards-open-protocol-entrance-control/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-21T06:30:00+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "summary": "The entrance control industry is shifting towards open-protocol systems to improve interoperability, flexibility, and integration with wider intelligent building ecosystems and third-party security technologies.",
-      "angle": "Highlights the growing market demand for interoperable, future-proofed security infrastructure over proprietary, closed-system alternatives.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -644,6 +644,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "de5ecacdedbeae58",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "SCX . ai ( ASX : SCX ) Strategic Partnership With Global AI Leader DDN to Power Australia Largest Sovereign AI Inferencing Cloud",
+      "url": "http://www.vietnamtribune.com/news/279263186/scxai-asx-scx-strategic-partnership-with-global-ai-leader-ddn-to-power-australia-largest-sovereign-ai-inferencing-cloud",
+      "source": "vietnamtribune.com",
+      "published_at": "2026-08-25T05:30:00+00:00",
+      "first_seen": "2026-08-25T06:48:38.441788+00:00",
+      "score": 85,
+      "summary": "Australian firm SCX.ai has partnered with DDN to scale its sovereign AI inferencing cloud using ASIC-accelerated infrastructure and the Infinia data intelligence platform.",
+      "angle": "Demonstrates the competitive landscape for sovereign AI infrastructure, highlighting the importance of data layer efficiency and hardware-specific optimisation.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "bd48fb372bc88149",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -670,20 +684,6 @@
       "summary": "London-based Prevalent AI raised £16.1m to scale its data fabric platform, which creates sovereign knowledge graphs to provide context for enterprise AI and security decision-making.",
       "angle": "Highlights growing enterprise demand for data contextualisation and sovereign knowledge graphs to support reliable, agentic AI deployment.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "afc492036d05d36f",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-keeps-55-cents-every-015801983.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-08-23T02:30:00+00:00",
-      "first_seen": "2026-08-23T06:48:40.662231+00:00",
-      "score": 85,
-      "summary": "Palantir reported a 47% operating margin and 93% year-over-year revenue growth, with CEO Alex Karp citing the sovereign AI revolution as a key driver for future optimism.",
-      "angle": "Demonstrates the massive scale and profitability potential for software providers operating within the sovereign AI market.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "1b1cba1522f74809",
@@ -826,31 +826,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "683b194dbec68936",
+      "id": "33ae07d6d3a7aed5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Stem-cell-based embryo models: Regulating for the future",
-      "url": "https://www.progress.org.uk/stem-cell-based-embryo-models-regulating-for-the-future/",
+      "title": "Assuta clinic in new sperm mix-up",
+      "url": "https://www.progress.org.uk/assuta-clinic-in-new-sperm-mix-up/",
       "source": "bionews.org.uk",
-      "published_at": "2026-08-17T15:36:09+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
+      "published_at": "2026-08-24T16:41:07+00:00",
+      "first_seen": "2026-08-25T06:48:38.441788+00:00",
       "score": 75,
-      "summary": "A multidisciplinary workshop examined how emerging technologies like stem-cell-based embryo models and in vitro gametogenesis challenge existing regulatory frameworks for human reproduction.",
-      "angle": "Regulatory shifts regarding embryo definitions and gametogenesis could fundamentally alter the future legal landscape for fertility service providers.",
+      "summary": "An Israeli fertility clinic is facing renewed scrutiny after a DNA test confirmed a patient was treated with the wrong donor sperm for her second child.",
+      "angle": "Highlights critical clinical governance risks and the severe reputational and legal consequences of laboratory identification errors.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "72a253fcf8d27a4d",
+      "id": "650a1c15a2a782ff",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Stem cell research shows vape flavour could affect embryo development",
-      "url": "https://www.progress.org.uk/stem-cell-research-shows-vape-flavour-could-affect-embryo-development/",
+      "title": "Machine learning could help classify genetic variants in prenatal testing",
+      "url": "https://www.progress.org.uk/machine-learning-could-help-classify-genetic-variants-in-prenatal-testing/",
       "source": "bionews.org.uk",
-      "published_at": "2026-08-17T15:05:09+00:00",
-      "first_seen": "2026-08-24T06:48:39.040045+00:00",
+      "published_at": "2026-08-24T16:08:45+00:00",
+      "first_seen": "2026-08-25T06:48:38.441788+00:00",
       "score": 75,
-      "summary": "Research from the University of California, Riverside, suggests that vanillin, a common e-cigarette flavouring, may disrupt human embryonic stem cell development and pluripotency.",
-      "angle": "Provides clinical context on lifestyle factors that may impact embryo development and IVF treatment success rates.",
+      "summary": "Researchers have developed a machine learning model that uses blood-derived epigenetic patterns to identify genetic variants in prenatal tissues, potentially improving diagnostic accuracy for rare conditions.",
+      "angle": "Advances in AI-driven prenatal genetic testing improve diagnostic precision and expand the utility of non-invasive screening methods.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -972,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 130,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 90,
+    "queued_candidates": 132,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 24,
     "dropped_thin_page": 21,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 4
   }
 }
