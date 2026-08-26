@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T06:49:00.894887+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-26T14:08:05.252781+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 12,
   "last_digest_sent_at": "2026-08-26T06:49:00.894887+00:00",
   "companies": [
@@ -588,6 +588,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b6d8b3de7a1d2255",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging companies ‘forced to absorb costs due to currency volatility’",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/packaging-companies-forced-to-absorb-costs-due-to-currency-volatility-26-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-26T12:18:06+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 85,
+      "summary": "UK packaging companies are absorbing significant currency costs as geopolitical volatility impacts the price of dollar-linked commodities like food-grade plastics.",
+      "angle": "Highlights systemic FX risks and margin pressure for manufacturers reliant on dollar-denominated raw material inputs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "588fe61994c2dcbe",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -613,20 +627,6 @@
       "score": 85,
       "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Welsh Deposit Return Scheme, which is scheduled to launch in October 2027.",
       "angle": "Regulatory progress on DRS interoperability and potential flat-rate deposit structures directly impact PET packaging market dynamics and costs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4151fb4aca665d25",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "FPA & British Glass welcome Exchange for Change appointment for Wales DRS",
-      "url": "https://www.packagingnews.co.uk/top-story/fpa-british-glass-exchange-for-change-appointment-wales-drs-21-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-21T09:22:12+00:00",
-      "first_seen": "2026-08-21T14:08:01.137865+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, including Wales.",
-      "angle": "Regulatory progress on UK-wide DRS implementation impacts operational requirements and compliance strategies for beverage packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -686,6 +686,34 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "829829b457e6b87a",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "A connected approach to retail crime inside and outside the store | Viewpoint: Beth Worrall",
+      "url": "https://www.talkingretail.com/opinion/talking-points/a-connected-approach-to-retail-crime-inside-and-outside-the-store-viewpoint-beth-worrall-26-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-26T12:07:24+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 85,
+      "summary": "New Metropolitan Police technology allows retailers to submit evidence directly, significantly increasing the rate of criminal disposals for shoplifting cases.",
+      "angle": "Highlights the importance of collaborative reporting and in-store communication technology for managing retail crime and staff safety.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "39c0841efce45e5f",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "ACS highlights importance of flexible working options in convenience retail",
+      "url": "https://www.talkingretail.com/featured/acs-highlights-importance-of-flexible-working-options-in-convenience-retail-25-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-25T13:43:34+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 85,
+      "summary": "The Association of Convenience Stores is lobbying the government to protect flexible employment practices within the convenience retail sector during consultations on zero-hours contract reforms.",
+      "angle": "Regulatory changes to employment rights and shift flexibility directly impact operational costs and staffing models for independent retailers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1b1cba1522f74809",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -714,34 +742,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ea8fd3bf8557725c",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Rising consumer confidence gives Burnham golden opportunity, says BRC",
-      "url": "https://www.talkingretail.com/news/industry-news/rising-consumer-confidence-gives-burnham-golden-opportunity-20-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-20T08:00:20+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
-      "score": 85,
-      "summary": "BRC-Opinium data shows consumer confidence in the economy and personal retail spending intentions improved in August 2026, though household budget pressures remain a concern.",
-      "angle": "Rising consumer retail spending intentions and sentiment provide critical macroeconomic context for UK retail demand and operational planning.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "886ceff84fbbe706",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "AI solution helps Iceland to significantly reduce theft",
-      "url": "https://www.talkingretail.com/featured/ai-solution-helps-iceland-to-significantly-reduce-theft-19-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-19T13:40:13+00:00",
-      "first_seen": "2026-08-19T14:08:01.978150+00:00",
-      "score": 85,
-      "summary": "Iceland has reduced retail shrink by 80% by deploying SAI's AI Visual Language Model to its existing camera infrastructure to provide real-time operational intelligence and theft detection.",
-      "angle": "Demonstrates how AI-driven surveillance can mitigate high-street retail theft while improving operational productivity and staff efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "e4ba4fa562e72263",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -756,6 +756,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "baf30a402661f487",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "3 Things to Know About ED’s Accreditation Proposal",
+      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/08/26/3-key-changes-trumps-new-accreditation-rule",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 85,
+      "summary": "The Trump administration has proposed sweeping regulatory changes to the higher education accreditation system, aiming to increase competition among accreditors and mandate new standards for student outcomes and ideology.",
+      "angle": "Regulatory shifts in accreditation directly impact the higher education market, influencing institutional compliance, operational requirements, and potential curriculum demand.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b5d961d2bbc9992b",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "New Student Visas Dropped 23% in 2025",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/08/26/new-student-visas-dropped-23-2025",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 85,
+      "summary": "New U.S. student visa issuances declined by 23% in 2025, driven by processing delays, new screening requirements, and shifting perceptions of the U.S. as an unpredictable destination.",
+      "angle": "Declining international student enrollment directly impacts the addressable market for higher education publishing and digital learning materials.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0be05766ffb3f848",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -767,34 +795,6 @@
       "score": 85,
       "summary": "Higher education institutions are redesigning STEM curricula to integrate real-world applications, AI literacy, and workforce-aligned skills to improve student retention and career readiness.",
       "angle": "Highlights shifting demand for applied, technology-integrated learning materials and courseware in higher education STEM publishing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b0823f5a61f04aaf",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "An Earn-While-You-Learn Path Into Teaching",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/08/21/earn-while-you-learn-path-teaching",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-21T07:00:00+00:00",
-      "first_seen": "2026-08-21T14:08:01.137865+00:00",
-      "score": 85,
-      "summary": "Teacher degree apprenticeships are expanding rapidly across the US, offering a model where aspiring educators earn a salary while completing their degrees and teaching certifications.",
-      "angle": "Highlights a shift toward work-integrated learning models in teacher preparation, impacting demand for flexible, competency-based educational content.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2fcafd9a9d32d0a2",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Ivy Tech Receives Approval for Workforce Pell Program",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/21/ivy-tech-receives-approval-workforce-pell-program",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-21T07:00:00+00:00",
-      "first_seen": "2026-08-22T06:48:38.082794+00:00",
-      "score": 85,
-      "summary": "The U.S. Department of Education has approved the first eight-week Workforce Pell Grant programs, allowing federal funding for shorter, high-demand vocational training courses.",
-      "angle": "Signals a regulatory shift expanding federal financial aid eligibility to short-term, skills-based education programs.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -882,6 +882,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7ea5103912021110",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Steel tariffs: allocating risk and protecting margins",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/steel-tariffs-allocating-risk-and-protecting-margins-26-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-26T11:31:59+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "score": 75,
+      "summary": "New UK steel import quotas and potential tariffs are creating procurement uncertainty, supply chain volatility, and increased commercial risk for construction projects.",
+      "angle": "Highlights rising material costs and the need for robust contractual risk allocation in construction supply chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4c403c92de062175",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -893,20 +907,6 @@
       "score": 75,
       "summary": "The construction industry is being urged to adopt platform thinking and standardised components to improve circularity, reduce waste, and lower costs through repeatable processes.",
       "angle": "Shift towards modular, standardised building components and circular economy practices impacts design and manufacturing requirements for glazing suppliers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a88fc2f0310cf094",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Mayors could levy developers to fund range of infrastructure",
-      "url": "https://www.constructionnews.co.uk/buildings/mayors-could-levy-developers-to-fund-range-of-infrastructure-24-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-24T10:15:52+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 75,
-      "summary": "The government is consulting on powers allowing regional mayors to levy developers for infrastructure and take over the determination of major planning applications.",
-      "angle": "Increased developer levies and mayoral planning intervention could impact project viability and the pipeline for new construction.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -952,17 +952,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "916d9886d845876f",
+      "id": "3bf9ae58f37cb52f",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "NEC invests in US-based robotics startup Dexmate",
-      "url": "https://roboticsandautomationnews.com/2026/08/25/nec-invests-in-us-based-robotics-startup-dexmate/104453/",
+      "title": "XPeng’s new robotics business raises $900 million at $6.3 billion valuation",
+      "url": "https://roboticsandautomationnews.com/2026/08/26/xpengs-new-robotics-business-raises-900-million-at-6-3-billion-valuation/104463/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-25T10:43:32+00:00",
-      "first_seen": "2026-08-26T06:49:00.894887+00:00",
+      "published_at": "2026-08-26T09:24:44+00:00",
+      "first_seen": "2026-08-26T14:08:05.252781+00:00",
       "score": 65,
-      "summary": "NEC's venture fund has invested in Dexmate, a startup developing the VEGA humanoid robot and an integrated platform to simplify the deployment of physical AI systems.",
-      "angle": "Highlights the growing trend of major technology firms investing in integrated software platforms to accelerate physical AI deployment.",
+      "summary": "XPeng has raised $900 million at a $6.3 billion valuation to scale production of its IRON humanoid robot, which features advanced physical AI and proprietary hardware.",
+      "angle": "Demonstrates significant capital inflow into embodied AI and the transition toward mass-produced, autonomous robotic platforms for commercial applications.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -972,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 108,
-    "llm_requests_attempted": 62,
-    "llm_requests_succeeded": 62,
+    "providers_succeeded": 92,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 21,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 4
   }
 }
