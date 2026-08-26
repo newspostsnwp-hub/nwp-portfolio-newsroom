@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T14:08:08.458926+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-08-26T06:49:00.894887+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-25T06:48:38.441788+00:00",
+  "last_digest_sent_at": "2026-08-26T06:49:00.894887+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -938,20 +938,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d6ba29949d55635c",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Predictive maintenance in the real world: Why service automation and rollout discipline matter more than models",
-      "url": "https://roboticsandautomationnews.com/2026/08/15/predictive-maintenance-in-the-real-world-why-service-automation-and-rollout-discipline-matter-more-than-models/104183/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-15T19:35:57+00:00",
-      "first_seen": "2026-08-16T06:49:12.378227+00:00",
-      "score": 85,
-      "summary": "Predictive maintenance systems require robust service automation and operational workflows to translate technical anomaly detection into actionable maintenance tasks for field technicians.",
-      "angle": "Highlights the critical need for integrating AI inspection data into existing maintenance workflows to ensure operational efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "8dcc6079b42520bd",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -964,6 +950,20 @@
       "summary": "Waymo has unveiled a new Nvidia-powered compute architecture featuring a custom 5 nm ASIC capable of 1,000 TOPS to support fully autonomous, real-time sensor processing and redundancy.",
       "angle": "Advances in edge computing, ruggedised hardware, and sensor-fusion ASICs directly inform autonomous inspection robotics development.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "916d9886d845876f",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "NEC invests in US-based robotics startup Dexmate",
+      "url": "https://roboticsandautomationnews.com/2026/08/25/nec-invests-in-us-based-robotics-startup-dexmate/104453/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-25T10:43:32+00:00",
+      "first_seen": "2026-08-26T06:49:00.894887+00:00",
+      "score": 65,
+      "summary": "NEC's venture fund has invested in Dexmate, a startup developing the VEGA humanoid robot and an integrated platform to simplify the deployment of physical AI systems.",
+      "angle": "Highlights the growing trend of major technology firms investing in integrated software platforms to accelerate physical AI deployment.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -972,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 101,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 96,
-    "llm_requests_succeeded": 96,
-    "dropped_no_valid_date": 24,
-    "dropped_thin_page": 17,
+    "providers_succeeded": 87,
+    "queued_candidates": 108,
+    "llm_requests_attempted": 62,
+    "llm_requests_succeeded": 62,
+    "dropped_no_valid_date": 25,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 4
   }
 }
