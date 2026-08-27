@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T06:49:03.451052+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, with no specific news to report from McGraw Hill, Roof-Maker, or Whitespace.",
-  "archive_story_count": 12,
+  "generated_at": "2026-08-27T14:08:03.725380+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide updates, with no specific news to report from our portfolio companies.",
+  "archive_story_count": 14,
   "last_digest_sent_at": "2026-08-27T06:49:03.451052+00:00",
   "companies": [
     {
@@ -10,7 +10,7 @@
       "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
-      "story_count": 2,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 4,
+  "story_count": 2,
   "todays_story_count": 0,
   "stories": [
     {
@@ -319,75 +319,6 @@
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "1861f1507e74fd1e",
-      "company": "The Delivery Group",
-      "company_domain": "thedeliverygroup.co.uk",
-      "industry": "UK parcel and mail delivery",
-      "title": "International UnTracked Updates",
-      "url": "https://thedeliverygroup.co.uk/news/latest-international-delivery-updates/",
-      "source": "thedeliverygroup.co.uk",
-      "published_at": "2026-07-28T08:31:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 65,
-      "tier": "reported",
-      "recency": "fresh",
-      "story_type": "Update",
-      "summary": "The Delivery Group has issued a comprehensive operational update regarding international delivery disruptions caused by geopolitical instability, adverse weather, and regulatory changes across multiple global regions.",
-      "why_it_matters": "Maintaining transparency during supply chain volatility is critical for logistics providers. This update demonstrates The Delivery Group's commitment to keeping clients informed about service impacts in regions such as Spain, Chile, China, and the Middle East.",
-      "verified_facts": [
-        "The Delivery Group is managing service disruptions in Spain due to wildfires.",
-        "Export traffic to several Middle Eastern countries, including Iran, Israel, and the UAE, is currently experiencing potential delays.",
-        "New customs regulations in Chile are causing processing delays for imported goods.",
-        "Air transport for mail to and from Gibraltar has been impacted by new regulatory agreements as of 15 July 2026."
-      ],
-      "warnings": [
-        "The source material contains a mix of current 2026 updates and legacy information (e.g., references to 2021 and 2015), which may cause confusion regarding current service status.",
-        "The list of affected postal codes and regions is extensive and subject to rapid change."
-      ],
-      "drafts": {
-        "concise": "The Delivery Group has published an important operational update regarding international mail and parcel services. Due to a combination of adverse weather conditions, geopolitical instability, and evolving customs regulations, customers may experience service delays in several global markets, including Spain, Chile, and the Middle East. The team at The Delivery Group is working closely with international partners to monitor these fluid situations and mitigate impacts where possible. We encourage clients to review the latest guidance on their website to understand how these global developments may affect specific consignments. Transparency and proactive communication remain central to the firm’s commitment to service reliability during periods of international disruption. #Logistics #SupplyChain #TheDeliveryGroup",
-        "investor": "In the complex global logistics landscape, operational resilience and proactive client communication are key differentiators. The Delivery Group continues to demonstrate its commitment to these principles by providing detailed, real-time updates on international service disruptions. By navigating challenges ranging from regional wildfires in Spain to new customs requirements in Chile and transit complexities in the Middle East, the firm maintains a transparent dialogue with its customer base. This approach not only helps manage expectations during periods of volatility but also reinforces the firm’s position as a reliable partner in the UK mail and e-commerce delivery sector. We continue to support the management team as they navigate these global operational variables. #Logistics #OperationalExcellence #NextWavePartners",
-        "people": "The team at The Delivery Group is working hard to keep clients informed amidst a challenging period for international logistics. From managing the impact of wildfires in Spain to addressing new customs regulations in Chile and transit delays across the Middle East, the firm is prioritising clear communication to support its customers. These updates are essential for maintaining service standards when external factors—such as weather and geopolitical shifts—create unavoidable disruptions. We recognise the dedication of the entire team at The Delivery Group as they coordinate with global partners to manage these backlogs and provide timely information to their clients. #TeamWork #Logistics #CustomerService"
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS",
-      "date_estimated": false
-    },
-    {
-      "id": "a477deb537f2e796",
-      "company": "The Delivery Group",
-      "company_domain": "thedeliverygroup.co.uk",
-      "industry": "UK parcel and mail delivery",
-      "title": "ETRAK Network Updates",
-      "url": "https://thedeliverygroup.co.uk/news/etrak-network-updates/",
-      "source": "thedeliverygroup.co.uk",
-      "published_at": "2026-07-28T12:45:00+00:00",
-      "first_seen": "2026-07-28T14:07:28.592746+00:00",
-      "score": 45,
-      "tier": "low",
-      "recency": "fresh",
-      "story_type": "Update",
-      "summary": "The Delivery Group has issued a comprehensive service update regarding global network disruptions affecting their ETRAK service, citing geopolitical instability, extreme weather events, and customs-related delays across multiple international regions.",
-      "why_it_matters": "Operational transparency is critical in logistics. Providing clients with real-time visibility into global supply chain disruptions helps manage expectations and demonstrates the firm's commitment to proactive communication during volatile periods.",
-      "verified_facts": [
-        "The Delivery Group is experiencing international delivery delays due to extreme weather, customs changes, and geopolitical conflicts.",
-        "Specific regions impacted include Europe, the Middle East, and the Americas.",
-        "The company maintains a list of embargoed destinations including Iran, Russia, and North Korea."
-      ],
-      "warnings": [
-        "The source material contains a copyright date of 2026, suggesting the content may be misdated or part of a future-dated template.",
-        "The list of embargoed countries is extensive and should be verified against current UK trade sanctions before being shared."
-      ],
-      "drafts": {
-        "concise": "The Delivery Group has released an update regarding the current status of its ETRAK network. Due to a combination of extreme weather events, evolving customs regulations, and ongoing geopolitical instability in several key regions, customers may experience service delays. The team remains committed to monitoring these global conditions closely to ensure transparency and provide timely updates to all stakeholders. Maintaining clear communication during periods of supply chain volatility is a priority for the group as they navigate these complex international logistics challenges. #TheDeliveryGroup #Logistics #SupplyChain",
-        "investor": "Operational resilience is a key focus for The Delivery Group as they navigate a challenging global logistics landscape. The latest ETRAK network update highlights the firm's proactive approach to managing service disruptions caused by external factors, including regional conflicts, weather events, and customs shifts. By providing clear, data-driven communication to their client base, the company continues to demonstrate its commitment to service reliability and transparency. We support the management team's focus on maintaining high standards of operational oversight in an increasingly complex international delivery environment. #Logistics #SupplyChainManagement #OperationalExcellence",
-        "people": ""
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS",
-      "date_estimated": false
     }
   ],
   "sector_stories": [
@@ -504,17 +435,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0a7d3c5fb344c159",
+      "id": "f127441f6b5591a2",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "UK launches consultation on EV sales mandate",
-      "url": "https://www.electrive.com/2026/08/17/uk-launches-consultation-on-ev-sales-mandate/",
+      "title": "Lyten to acquire insolvent battery cell manufacturer Morrow Batteries",
+      "url": "https://www.electrive.com/2026/08/27/lyten-to-acquire-insolvent-battery-cell-manufacturer-morrow-batteries/",
       "source": "electrive.com",
-      "published_at": "2026-08-17T10:00:00+00:00",
-      "first_seen": "2026-08-17T14:08:12.200945+00:00",
-      "score": 65,
-      "summary": "The UK government has launched a consultation to review and potentially relax ZEV mandate targets for electric vehicle sales between 2027 and 2035.",
-      "angle": "Signals potential shifts in national transport policy and consumer transition timelines toward zero-emission mobility.",
+      "published_at": "2026-08-27T08:56:39+00:00",
+      "first_seen": "2026-08-27T14:08:03.725380+00:00",
+      "score": 45,
+      "summary": "US battery developer Lyten has signed a letter of intent to acquire the insolvent Norwegian battery cell manufacturer Morrow Batteries to establish a European production base.",
+      "angle": "Consolidation in the European battery manufacturing market highlights ongoing challenges in scaling production and securing long-term investment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bc2a7ec27bb916a5",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "EditShare Updates at IBC Include EFS, Flow AI and MediaSilo",
+      "url": "https://postperspective.com/editshare-to-update-efs-flow-ai-and-mediasilo-at-ibc/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-25T19:26:18+00:00",
+      "first_seen": "2026-08-27T14:08:03.725380+00:00",
+      "score": 75,
+      "summary": "EditShare is launching new EFS storage configurations with integrated on-premise GPU-powered AI processing and expanded multilingual transcription capabilities for post-production workflows.",
+      "angle": "Advancements in on-premise AI-driven media management and secure remote collaboration tools impact post-production operational efficiency and data security.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -532,45 +477,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "fb9456ed93939832",
+      "id": "5dc552df5293af84",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Emmy-Nominated Bill Lawrence on Showrunning Apple TV’s Shrinking",
-      "url": "https://postperspective.com/emmy-nominated-bill-lawrence-on-showrunning-shrinking/",
+      "title": "Astro Burn Game Expands Into Animated Vertical Microseries",
+      "url": "https://postperspective.com/astro-burn-game-expands-into-animated-vertical-microseries/",
       "source": "postperspective.com",
-      "published_at": "2026-08-24T19:56:56+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "published_at": "2026-08-27T13:56:04+00:00",
+      "first_seen": "2026-08-27T14:08:03.725380+00:00",
       "score": 65,
-      "summary": "Showrunner Bill Lawrence discusses the post-production workflow for Shrinking, highlighting the importance of centralized teams, early music integration, and collaborative editing processes for modern episodic storytelling.",
-      "angle": "Highlights industry trends toward centralized post-production workflows and the increasing importance of early sound and music integration.",
+      "summary": "Independent game Astro Burn has been adapted into an animated microseries using a human-led, AI-assisted production workflow to streamline content creation for social media platforms.",
+      "angle": "Demonstrates how AI-assisted production tools can accelerate post-production workflows while maintaining strict control over visual IP identity.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "52472a19934344c6",
+      "id": "17dba01234812291",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Emmy: Alien: Earth VFX Supervisor Aladino Debert Talks Workflow",
-      "url": "https://postperspective.com/emmy-alien-earth-vfx-supervisor-aladino-debert-talks-workflow/",
+      "title": "Emmy-Nominated DP Marshall Adams on Pluribus’ Look, Workflow",
+      "url": "https://postperspective.com/emmy-nominated-dp-marshall-adams-on-pluribus-look-workflow/",
       "source": "postperspective.com",
-      "published_at": "2026-08-24T15:34:23+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "published_at": "2026-08-25T14:57:19+00:00",
+      "first_seen": "2026-08-27T14:08:03.725380+00:00",
       "score": 65,
-      "summary": "Zoic Studios delivered 275 visual effects shots for Alien: Earth, utilising a team of 55 artists and industry-standard software including Houdini, Maya, and Nuke.",
-      "angle": "Highlights current high-end VFX production workflows, team scaling, and technical toolsets for major episodic sci-fi series.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dbb26b88b611b043",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Emmy: Editor Kelly Lyon on Editing Disney+’s The Muppet Show",
-      "url": "https://postperspective.com/emmy-editor-kelly-lyon-on-editing-disneys-the-muppet-show/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-21T17:01:30+00:00",
-      "first_seen": "2026-08-23T14:07:42.592985+00:00",
-      "score": 65,
-      "summary": "Editor Kelly Lyon discusses the technical post-production challenges of balancing nostalgia with modern pacing and synthetic audience reactions for the Disney+ Muppet Show special.",
-      "angle": "Highlights complex post-production workflows for reboots, specifically managing puppet eyelines, single-cam variety formats, and artificial laugh track integration.",
+      "summary": "Cinematographer Marshall Adams details the complex technical workflow, lighting challenges, and extensive VFX integration required for the Apple TV series Pluribus.",
+      "angle": "Highlights evolving technical demands in high-end episodic production, specifically regarding on-set VFX collaboration and complex lighting workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -952,34 +883,34 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3bf9ae58f37cb52f",
+      "id": "3b20b57cfd23e466",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "XPeng’s new robotics business raises $900 million at $6.3 billion valuation",
-      "url": "https://roboticsandautomationnews.com/2026/08/26/xpengs-new-robotics-business-raises-900-million-at-6-3-billion-valuation/104463/",
+      "title": "Kodiak AI and AMD collaborate to advance computing power for driverless trucking",
+      "url": "https://roboticsandautomationnews.com/2026/08/27/kodiak-ai-and-amd-collaborate-to-advance-computing-power-for-driverless-trucking/104535/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-26T09:24:44+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "published_at": "2026-08-27T13:02:44+00:00",
+      "first_seen": "2026-08-27T14:08:03.725380+00:00",
       "score": 65,
-      "summary": "XPeng has raised $900 million at a $6.3 billion valuation to scale production of its IRON humanoid robot, which features advanced physical AI and proprietary hardware.",
-      "angle": "Demonstrates significant capital inflow into embodied AI and the transition toward mass-produced, autonomous robotic platforms for commercial applications.",
+      "summary": "Kodiak AI has partnered with AMD to integrate EPYC processors into its seventh-generation autonomous trucking platform to enhance sensor data processing and path-planning performance.",
+      "angle": "Highlights the critical role of high-performance, low-latency edge computing in scaling autonomous physical AI systems.",
       "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 3,
+    "companies_with_stories": 2,
     "companies_with_sector_news": 11,
-    "sector_topups": 0,
-    "providers_succeeded": 95,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 87,
+    "sector_topups": 1,
+    "providers_succeeded": 92,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 68,
+    "llm_requests_succeeded": 68,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 12,
-    "carried_forward": 4
+    "dropped_thin_page": 21,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
+    "carried_forward": 2
   }
 }

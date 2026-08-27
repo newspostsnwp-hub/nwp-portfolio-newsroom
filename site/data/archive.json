@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T06:49:03.451052+00:00",
+  "generated_at": "2026-08-27T14:08:03.725380+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -377,6 +377,75 @@
       },
       "status": "ready",
       "discovered_via": "GDELT",
+      "date_estimated": false
+    },
+    {
+      "id": "1861f1507e74fd1e",
+      "company": "The Delivery Group",
+      "company_domain": "thedeliverygroup.co.uk",
+      "industry": "UK parcel and mail delivery",
+      "title": "International UnTracked Updates",
+      "url": "https://thedeliverygroup.co.uk/news/latest-international-delivery-updates/",
+      "source": "thedeliverygroup.co.uk",
+      "published_at": "2026-07-28T08:31:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "The Delivery Group has issued a comprehensive operational update regarding international delivery disruptions caused by geopolitical instability, adverse weather, and regulatory changes across multiple global regions.",
+      "why_it_matters": "Maintaining transparency during supply chain volatility is critical for logistics providers. This update demonstrates The Delivery Group's commitment to keeping clients informed about service impacts in regions such as Spain, Chile, China, and the Middle East.",
+      "verified_facts": [
+        "The Delivery Group is managing service disruptions in Spain due to wildfires.",
+        "Export traffic to several Middle Eastern countries, including Iran, Israel, and the UAE, is currently experiencing potential delays.",
+        "New customs regulations in Chile are causing processing delays for imported goods.",
+        "Air transport for mail to and from Gibraltar has been impacted by new regulatory agreements as of 15 July 2026."
+      ],
+      "warnings": [
+        "The source material contains a mix of current 2026 updates and legacy information (e.g., references to 2021 and 2015), which may cause confusion regarding current service status.",
+        "The list of affected postal codes and regions is extensive and subject to rapid change."
+      ],
+      "drafts": {
+        "concise": "The Delivery Group has published an important operational update regarding international mail and parcel services. Due to a combination of adverse weather conditions, geopolitical instability, and evolving customs regulations, customers may experience service delays in several global markets, including Spain, Chile, and the Middle East. The team at The Delivery Group is working closely with international partners to monitor these fluid situations and mitigate impacts where possible. We encourage clients to review the latest guidance on their website to understand how these global developments may affect specific consignments. Transparency and proactive communication remain central to the firm’s commitment to service reliability during periods of international disruption. #Logistics #SupplyChain #TheDeliveryGroup",
+        "investor": "In the complex global logistics landscape, operational resilience and proactive client communication are key differentiators. The Delivery Group continues to demonstrate its commitment to these principles by providing detailed, real-time updates on international service disruptions. By navigating challenges ranging from regional wildfires in Spain to new customs requirements in Chile and transit complexities in the Middle East, the firm maintains a transparent dialogue with its customer base. This approach not only helps manage expectations during periods of volatility but also reinforces the firm’s position as a reliable partner in the UK mail and e-commerce delivery sector. We continue to support the management team as they navigate these global operational variables. #Logistics #OperationalExcellence #NextWavePartners",
+        "people": "The team at The Delivery Group is working hard to keep clients informed amidst a challenging period for international logistics. From managing the impact of wildfires in Spain to addressing new customs regulations in Chile and transit delays across the Middle East, the firm is prioritising clear communication to support its customers. These updates are essential for maintaining service standards when external factors—such as weather and geopolitical shifts—create unavoidable disruptions. We recognise the dedication of the entire team at The Delivery Group as they coordinate with global partners to manage these backlogs and provide timely information to their clients. #TeamWork #Logistics #CustomerService"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS",
+      "date_estimated": false
+    },
+    {
+      "id": "a477deb537f2e796",
+      "company": "The Delivery Group",
+      "company_domain": "thedeliverygroup.co.uk",
+      "industry": "UK parcel and mail delivery",
+      "title": "ETRAK Network Updates",
+      "url": "https://thedeliverygroup.co.uk/news/etrak-network-updates/",
+      "source": "thedeliverygroup.co.uk",
+      "published_at": "2026-07-28T12:45:00+00:00",
+      "first_seen": "2026-07-28T14:07:28.592746+00:00",
+      "score": 45,
+      "tier": "low",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "The Delivery Group has issued a comprehensive service update regarding global network disruptions affecting their ETRAK service, citing geopolitical instability, extreme weather events, and customs-related delays across multiple international regions.",
+      "why_it_matters": "Operational transparency is critical in logistics. Providing clients with real-time visibility into global supply chain disruptions helps manage expectations and demonstrates the firm's commitment to proactive communication during volatile periods.",
+      "verified_facts": [
+        "The Delivery Group is experiencing international delivery delays due to extreme weather, customs changes, and geopolitical conflicts.",
+        "Specific regions impacted include Europe, the Middle East, and the Americas.",
+        "The company maintains a list of embargoed destinations including Iran, Russia, and North Korea."
+      ],
+      "warnings": [
+        "The source material contains a copyright date of 2026, suggesting the content may be misdated or part of a future-dated template.",
+        "The list of embargoed countries is extensive and should be verified against current UK trade sanctions before being shared."
+      ],
+      "drafts": {
+        "concise": "The Delivery Group has released an update regarding the current status of its ETRAK network. Due to a combination of extreme weather events, evolving customs regulations, and ongoing geopolitical instability in several key regions, customers may experience service delays. The team remains committed to monitoring these global conditions closely to ensure transparency and provide timely updates to all stakeholders. Maintaining clear communication during periods of supply chain volatility is a priority for the group as they navigate these complex international logistics challenges. #TheDeliveryGroup #Logistics #SupplyChain",
+        "investor": "Operational resilience is a key focus for The Delivery Group as they navigate a challenging global logistics landscape. The latest ETRAK network update highlights the firm's proactive approach to managing service disruptions caused by external factors, including regional conflicts, weather events, and customs shifts. By providing clear, data-driven communication to their client base, the company continues to demonstrate its commitment to service reliability and transparency. We support the management team's focus on maintaining high standards of operational oversight in an increasingly complex international delivery environment. #Logistics #SupplyChainManagement #OperationalExcellence",
+        "people": ""
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS",
       "date_estimated": false
     }
   ]
