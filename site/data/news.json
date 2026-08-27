@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T14:08:05.252781+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-27T06:49:03.451052+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, with no specific news to report from McGraw Hill, Roof-Maker, or Whitespace.",
   "archive_story_count": 12,
-  "last_digest_sent_at": "2026-08-26T06:49:00.894887+00:00",
+  "last_digest_sent_at": "2026-08-27T06:49:03.451052+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -630,6 +630,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "23aea67df47d7d18",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Nvidia gave its first - ever year - ahead forecast a 70 % growth bombshell meant to silence AI bubble critics and circular financing doomsayers",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-gave-first-ever-ahead-003936289.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-08-27T03:45:00+00:00",
+      "first_seen": "2026-08-27T06:49:03.451052+00:00",
+      "score": 90,
+      "summary": "Nvidia projects 70% revenue growth for the next fiscal year, driven by surging demand from sovereign AI, enterprise customers, and the widespread adoption of agentic AI systems.",
+      "angle": "Highlights massive, sustained demand for compute infrastructure within the sovereign and enterprise AI sectors.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "35f5a68cdc98d2b6",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -669,20 +683,6 @@
       "score": 85,
       "summary": "Australian firm SCX.ai has partnered with DDN to scale its sovereign AI inferencing cloud using ASIC-accelerated infrastructure and the Infinia data intelligence platform.",
       "angle": "Demonstrates the competitive landscape for sovereign AI infrastructure, highlighting the importance of data layer efficiency and hardware-specific optimisation.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "bd48fb372bc88149",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Thomson Reuters launches proprietary AI model for legal work",
-      "url": "https://siliconangle.com/2026/08/24/thomson-reuters-launches-proprietary-ai-model-for-legal-work/",
-      "source": "siliconangle.com",
-      "published_at": "2026-08-24T13:15:00+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 85,
-      "summary": "Thomson Reuters has launched a proprietary large language model, Thomson, designed for legal work by combining open-weight base models with its own domain-specific legal data and expertise.",
-      "angle": "Demonstrates a shift toward domain-specific sovereign AI models, prioritising data governance, security, and specialised professional knowledge over general-purpose alternatives.",
       "discovered_via": "GDELT"
     },
     {
@@ -784,17 +784,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0be05766ffb3f848",
+      "id": "5fd26c563e81e91c",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "5 Ways Colleges Are Reshaping STEM Education",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/08/25/5-ways-colleges-are-reshaping-stem-education",
+      "title": "Trump Attack on Higher Ed ‘More Serious Than McCarthy Era’",
+      "url": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/08/26/trump-attack-higher-ed-more-serious-mccarthy-era",
       "source": "insidehighered.com",
-      "published_at": "2026-08-25T07:00:00+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "first_seen": "2026-08-27T06:49:03.451052+00:00",
       "score": 85,
-      "summary": "Higher education institutions are redesigning STEM curricula to integrate real-world applications, AI literacy, and workforce-aligned skills to improve student retention and career readiness.",
-      "angle": "Highlights shifting demand for applied, technology-integrated learning materials and courseware in higher education STEM publishing.",
+      "summary": "The Trump administration is leveraging federal funding to exert control over university policies regarding DEI, admissions, and hiring, prompting concerns about the erosion of institutional autonomy.",
+      "angle": "Increased federal intervention in higher education threatens university funding stability and curriculum autonomy, impacting the broader academic publishing market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -896,17 +896,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4c403c92de062175",
+      "id": "7cbb21905e32b0c2",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "From reinvention to repetition: A greener model for construction",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/from-reinvention-to-repetition-a-greener-model-for-construction-24-08-2026/",
+      "title": "Devonshire Homes’ trade creditors unlikely to see a penny of £35m owed",
+      "url": "https://www.constructionnews.co.uk/financial/administrations/devonshire-homes-trade-creditors-unlikely-to-see-a-penny-of-35m-owed-26-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-24T11:51:21+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
+      "published_at": "2026-08-26T11:26:23+00:00",
+      "first_seen": "2026-08-27T06:49:03.451052+00:00",
       "score": 75,
-      "summary": "The construction industry is being urged to adopt platform thinking and standardised components to improve circularity, reduce waste, and lower costs through repeatable processes.",
-      "angle": "Shift towards modular, standardised building components and circular economy practices impacts design and manufacturing requirements for glazing suppliers.",
+      "summary": "Devonshire Homes has collapsed into administration, with administrators confirming that unsecured trade creditors are unlikely to receive any dividend from the £35.3m owed.",
+      "angle": "Highlights rising insolvency risks and credit exposure within the UK residential construction supply chain.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -972,14 +972,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 95,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 12,
     "carried_forward": 4
   }
 }
