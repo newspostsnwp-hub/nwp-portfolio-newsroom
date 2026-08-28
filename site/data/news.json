@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T06:49:04.199380+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-28T14:08:05.301932+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 18 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 14,
   "last_digest_sent_at": "2026-08-28T06:49:04.199380+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -379,6 +379,34 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "81708753f9b4cd44",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Forecourt theft: The insurance question",
+      "url": "https://securityjournaluk.com/forecourt-theft-the-insurance-question/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 75,
+      "summary": "Fuel theft from UK petrol stations has risen significantly, with daily losses estimated at £194,000, prompting insurance experts to urge operators to enhance security and incident reporting procedures.",
+      "angle": "Rising fuel theft rates increase demand for robust site security, CCTV surveillance, and effective incident management solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d5b85e44a9f78291",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Ealing Studios receives SBD ATLAS Award",
+      "url": "https://securityjournaluk.com/ealing-studios-receives-sbd-atlas-award/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-08-27T06:58:55+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 75,
+      "summary": "Ealing Studios received the Secured by Design ATLAS Commercial Development Award for integrating crime prevention design principles into its recent redevelopment project.",
+      "angle": "Highlights the growing importance of integrating physical security and CPTED principles into high-spec commercial developments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c4a29c1d903c0646",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -407,31 +435,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c4ed704260997557",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "UK power plant cyber attack",
-      "url": "https://securityjournaluk.com/uk-power-plant-cyber-attack/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-24T12:04:48+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 75,
-      "summary": "A small UK power plant was shut down for four days following a cyber attack, prompting government briefings for energy CEOs on strengthening infrastructure security.",
-      "angle": "Highlights increasing threats to critical national infrastructure and the urgent need for enhanced physical and cyber security measures.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fd9c144c487796b5",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Expanding physical security beyond loss prevention",
-      "url": "https://securityjournaluk.com/physical-security-beyond-loss-prevention/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-21T08:00:00+00:00",
-      "first_seen": "2026-08-21T14:08:01.137865+00:00",
-      "score": 75,
-      "summary": "A global report indicates that retailers are increasingly leveraging physical security data to improve operational efficiency, safety, and customer experience rather than focusing solely on loss prevention.",
-      "angle": "Highlights a shift in client demand towards data-driven, multi-purpose security solutions beyond traditional loss prevention.",
+      "id": "8f70056757790a77",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Study highlights potential solutions to economic barriers in battery recycling",
+      "url": "https://www.electrive.com/2026/08/28/study-highlights-economic-barriers-in-battery-recycling/",
+      "source": "electrive.com",
+      "published_at": "2026-08-28T10:20:36+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 65,
+      "summary": "A Safeloop study identifies high transport and disassembly costs as primary barriers to the economic viability of lithium-ion battery recycling in Europe.",
+      "angle": "Regulatory mandates and evolving circular economy requirements will impact long-term battery supply chain costs and sustainability strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -477,6 +491,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b5d7e5cbc9f34d32",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Boland Intros SMPTE ST 2110 Option for 4K HDR Monitors",
+      "url": "https://postperspective.com/boland-intros-smpte-st-2110-option-for-4k-hdr-monitors/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-27T16:51:04+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 65,
+      "summary": "Boland Communications has introduced an SMPTE ST 2110 input option for its 4K HDR monitors, enabling direct IP-based monitoring without external gateways.",
+      "angle": "Reflects the industry-wide transition toward IP-based production workflows and the simplification of high-end monitoring infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5dc552df5293af84",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -488,20 +516,6 @@
       "score": 65,
       "summary": "Independent game Astro Burn has been adapted into an animated microseries using a human-led, AI-assisted production workflow to streamline content creation for social media platforms.",
       "angle": "Demonstrates how AI-assisted production tools can accelerate post-production workflows while maintaining strict control over visual IP identity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "17dba01234812291",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Emmy-Nominated DP Marshall Adams on Pluribus’ Look, Workflow",
-      "url": "https://postperspective.com/emmy-nominated-dp-marshall-adams-on-pluribus-look-workflow/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-25T14:57:19+00:00",
-      "first_seen": "2026-08-27T14:08:03.725380+00:00",
-      "score": 65,
-      "summary": "Cinematographer Marshall Adams details the complex technical workflow, lighting challenges, and extensive VFX integration required for the Apple TV series Pluribus.",
-      "angle": "Highlights evolving technical demands in high-end episodic production, specifically regarding on-set VFX collaboration and complex lighting workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -589,6 +603,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "431e62efc94f94bc",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Fortinet Virtue AI Acquisition Advances Continuous AI Protection",
+      "url": "https://www.techpinas.com/2026/08/Fortinet-Virtue-AI-Acquisition.html",
+      "source": "techpinas.com",
+      "published_at": "2026-08-28T13:30:00+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 85,
+      "summary": "Fortinet has acquired Virtue AI to enhance its enterprise AI security portfolio, focusing on runtime protection, automated validation, and governance for autonomous AI agents.",
+      "angle": "Validates the growing market demand for robust security and governance frameworks within sovereign and enterprise AI ecosystems.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "91d22349255b383c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -601,20 +629,6 @@
       "summary": "NVIDIA has paused its cloud credit support and revenue-sharing initiatives for AI infrastructure providers due to concerns regarding potential antitrust scrutiny.",
       "angle": "Signals increased regulatory risk for sovereign AI infrastructure models reliant on deep financial integration with major hardware suppliers.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "780bf3fa7cdb9243",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK and Ukraine sign landmark AI deal to develop new technologies",
-      "url": "https://www.uktech.news/government-policy/uk-and-ukraine-sign-landmark-ai-deal-to-develop-new-technologies-20260825",
-      "source": "uktech.news",
-      "published_at": "2026-08-25T08:00:30+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
-      "score": 85,
-      "summary": "The UK and Ukraine have signed an AI partnership to share battlefield data and engineering expertise to accelerate the development of sovereign defence and national security technologies.",
-      "angle": "Highlights government-led demand for sovereign AI infrastructure and the strategic value of real-world operational datasets for model training.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "829829b457e6b87a",
@@ -673,6 +687,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bc7c527df0fe5132",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "MIT AI Report Calls for Alternative Grading, More Social Learning",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/08/28/mit-ai-report-calls-alternative-grading",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 90,
+      "summary": "An MIT committee report recommends overhauling curricula and assessment methods, including moving toward competency-based grading, to address the challenges posed by generative AI in higher education.",
+      "angle": "Signals a potential shift in institutional demand for assessment tools and curriculum design away from traditional grading models.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e4ba4fa562e72263",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -687,45 +715,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "baf30a402661f487",
+      "id": "a411c609cc3063e0",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "3 Things to Know About ED’s Accreditation Proposal",
-      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/08/26/3-key-changes-trumps-new-accreditation-rule",
+      "title": "Turning High School Credentials Into College Credit",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/08/28/turning-high-school-credentials-college-credit",
       "source": "insidehighered.com",
-      "published_at": "2026-08-26T07:00:00+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
       "score": 85,
-      "summary": "The Trump administration has proposed sweeping regulatory changes to the higher education accreditation system, aiming to increase competition among accreditors and mandate new standards for student outcomes and ideology.",
-      "angle": "Regulatory shifts in accreditation directly impact the higher education market, influencing institutional compliance, operational requirements, and potential curriculum demand.",
+      "summary": "The University of Maine System will award college credit for microcredentials earned by high school students, focusing on durable skills like financial literacy and leadership development.",
+      "angle": "Reflects a broader shift toward credentialing and recognizing prior learning pathways within the postsecondary education landscape.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b5d961d2bbc9992b",
+      "id": "6c54bf25a094b911",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "New Student Visas Dropped 23% in 2025",
-      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/08/26/new-student-visas-dropped-23-2025",
+      "title": "Readers Respond on AI Literacy",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/08/28/readers-respond-ai-literacy",
       "source": "insidehighered.com",
-      "published_at": "2026-08-26T07:00:00+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
       "score": 85,
-      "summary": "New U.S. student visa issuances declined by 23% in 2025, driven by processing delays, new screening requirements, and shifting perceptions of the U.S. as an unpredictable destination.",
-      "angle": "Declining international student enrollment directly impacts the addressable market for higher education publishing and digital learning materials.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5fd26c563e81e91c",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Trump Attack on Higher Ed ‘More Serious Than McCarthy Era’",
-      "url": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/08/26/trump-attack-higher-ed-more-serious-mccarthy-era",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-26T07:00:00+00:00",
-      "first_seen": "2026-08-27T06:49:03.451052+00:00",
-      "score": 85,
-      "summary": "The Trump administration is leveraging federal funding to exert control over university policies regarding DEI, admissions, and hiring, prompting concerns about the erosion of institutional autonomy.",
-      "angle": "Increased federal intervention in higher education threatens university funding stability and curriculum autonomy, impacting the broader academic publishing market.",
+      "summary": "Higher education professionals are debating definitions of AI literacy, focusing on critical judgment, ethical use, and the necessity of foundational subject-matter knowledge in an AI-integrated curriculum.",
+      "angle": "Informs product development and pedagogical strategies for integrating AI tools into educational publishing and learning platforms.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -785,31 +799,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "27d7e1e9efa7251b",
+      "id": "905e1139621c1667",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Contract awards soar but planning approvals fall",
-      "url": "https://www.constructionnews.co.uk/sections/data/contract-awards-soar-but-planning-approvals-fall-18-08-2026/",
+      "title": "Landfill diversion is working – but waste is still rising",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/landfill-diversion-is-working-but-waste-is-still-rising-28-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-18T11:45:23+00:00",
-      "first_seen": "2026-08-18T14:08:02.798313+00:00",
-      "score": 85,
-      "summary": "UK construction contract awards reached £33.1bn in the three months to July, representing a significant increase compared to the same period last year.",
-      "angle": "Rising contract awards indicate a strong pipeline for construction products, despite concerns over declining planning approval volumes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c07ecf1cd27122ff",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction insolvencies tick up for second consecutive month",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-insolvencies-tick-up-for-second-consecutive-month-18-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-18T11:45:23+00:00",
-      "first_seen": "2026-08-18T14:08:02.798313+00:00",
-      "score": 85,
-      "summary": "Construction sector insolvencies increased for the second consecutive month in July, with 343 business collapses recorded, highlighting ongoing financial strain across the industry.",
-      "angle": "Rising insolvency rates signal increased counterparty risk and potential supply chain instability within the UK construction market.",
+      "published_at": "2026-08-28T11:40:44+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 75,
+      "summary": "Data from 4,800 UK construction projects shows that while landfill diversion has reached 99.5 per cent, waste intensity per square metre has increased by over 10 per cent.",
+      "angle": "Industry focus is shifting from waste management to circular design and reducing material waste at the specification stage.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -838,6 +838,20 @@
       "score": 75,
       "summary": "The Iran war is causing volatility in energy markets and supply chains, creating additional stress for the UK construction sector.",
       "angle": "Highlights macroeconomic risks to material costs and supply chain stability for UK construction product manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "09228d8edc30bc49",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Sisk profit jumps 20%",
+      "url": "https://www.constructionnews.co.uk/financial/sisk-profit-jumps-20-28-08-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-08-28T11:45:13+00:00",
+      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "score": 65,
+      "summary": "Major contractor John Sisk & Son reported a 20 per cent increase in pre-tax profit to £7.2m for 2025, supported by strong residential and commercial project performance.",
+      "angle": "Provides insight into the financial health and project pipeline of a significant UK construction market participant.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 87,
+    "providers_succeeded": 96,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 95,
+    "llm_requests_succeeded": 95,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 12,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 2
   }
 }
