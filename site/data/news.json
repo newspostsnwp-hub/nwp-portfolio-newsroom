@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T14:08:03.725380+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide updates, with no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-28T06:49:04.199380+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-08-27T06:49:03.451052+00:00",
+  "last_digest_sent_at": "2026-08-28T06:49:04.199380+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -505,6 +505,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "623ceb798d207879",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Exchange for Change unveils next steps in DRS launch plans",
+      "url": "https://www.packagingnews.co.uk/top-story/exchange-for-change-unveils-next-steps-in-drs-launch-plans-27-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-27T15:04:25+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 95,
+      "summary": "Exchange for Change has confirmed that UK-wide deposit return schemes are scheduled to launch in October 2027, with a certified list of reverse vending machines expected by October 2024.",
+      "angle": "Regulatory implementation of DRS across the UK directly impacts PET packaging demand, recycling requirements, and circular economy strategies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d8270b7dc1e0582e",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -519,6 +533,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9829cfef39184d27",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "One third of plastics taxable under PPT – with revenues dropping to £250m",
+      "url": "https://www.packagingnews.co.uk/news/environment/plastic-packaging-tax/one-third-of-plastics-taxable-under-ppt-with-revenues-dropping-to-250m-28-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-27T23:01:22+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 85,
+      "summary": "HMRC data reveals that 37% of plastic packaging remains taxable under the Plastic Packaging Tax, with revenues falling to £250m as recycled content adoption stagnates.",
+      "angle": "Regulatory pressure and potential future mandatory recycled-content targets directly impact PET packaging manufacturing and material sourcing strategies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b6d8b3de7a1d2255",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -530,34 +558,6 @@
       "score": 85,
       "summary": "UK packaging companies are absorbing significant currency costs as geopolitical volatility impacts the price of dollar-linked commodities like food-grade plastics.",
       "angle": "Highlights systemic FX risks and margin pressure for manufacturers reliant on dollar-denominated raw material inputs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "588fe61994c2dcbe",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "6,000 single-use cans & bottles returned at British Grand Prix RVMs",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/6000-single-use-cans-bottles-returned-british-grand-prix-rvms-25-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-25T11:21:59+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
-      "score": 85,
-      "summary": "EcoVend processed nearly 6,000 single-use containers via reverse vending machines at the British Grand Prix to demonstrate the upcoming UK Deposit Return Scheme.",
-      "angle": "Provides insight into consumer engagement and operational readiness for the UK's impending Deposit Return Scheme legislation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cc38dc3776c7f112",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "MPMA welcomes appointment of Exchange for Change as DMO for Wales DRS",
-      "url": "https://www.packagingnews.co.uk/news/environment/single-use/mpma-welcomes-appointment-of-exchange-for-change-as-dmo-for-wales-drs-24-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-24T13:36:49+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Welsh Deposit Return Scheme, which is scheduled to launch in October 2027.",
-      "angle": "Regulatory progress on DRS interoperability and potential flat-rate deposit structures directly impact PET packaging market dynamics and costs.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -589,6 +589,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "91d22349255b383c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "NVIDIA Quietly Freezes Its Cloud Credit Support Deals After Internal Talks Warn of Antitrust Exposure",
+      "url": "https://wccftech.com/nvidia-quietly-freezes-its-cloud-credit-support-deals-after-internal-talks-warn-of-antitrust-exposure/",
+      "source": "wccftech.com",
+      "published_at": "2026-08-28T02:30:00+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 85,
+      "summary": "NVIDIA has paused its cloud credit support and revenue-sharing initiatives for AI infrastructure providers due to concerns regarding potential antitrust scrutiny.",
+      "angle": "Signals increased regulatory risk for sovereign AI infrastructure models reliant on deep financial integration with major hardware suppliers.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "780bf3fa7cdb9243",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -601,20 +615,6 @@
       "summary": "The UK and Ukraine have signed an AI partnership to share battlefield data and engineering expertise to accelerate the development of sovereign defence and national security technologies.",
       "angle": "Highlights government-led demand for sovereign AI infrastructure and the strategic value of real-world operational datasets for model training.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "de5ecacdedbeae58",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "SCX . ai ( ASX : SCX ) Strategic Partnership With Global AI Leader DDN to Power Australia Largest Sovereign AI Inferencing Cloud",
-      "url": "http://www.vietnamtribune.com/news/279263186/scxai-asx-scx-strategic-partnership-with-global-ai-leader-ddn-to-power-australia-largest-sovereign-ai-inferencing-cloud",
-      "source": "vietnamtribune.com",
-      "published_at": "2026-08-25T05:30:00+00:00",
-      "first_seen": "2026-08-25T06:48:38.441788+00:00",
-      "score": 85,
-      "summary": "Australian firm SCX.ai has partnered with DDN to scale its sovereign AI inferencing cloud using ASIC-accelerated infrastructure and the Infinia data intelligence platform.",
-      "angle": "Demonstrates the competitive landscape for sovereign AI infrastructure, highlighting the importance of data layer efficiency and hardware-specific optimisation.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "829829b457e6b87a",
@@ -729,34 +729,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f2974a67fe9b39d7",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Donor limits and genetic risk: Separating fact from perception",
-      "url": "https://www.progress.org.uk/donor-limits-and-genetic-risk-separating-fact-from-perception/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-17T15:37:06+00:00",
-      "first_seen": "2026-08-18T06:49:11.343557+00:00",
-      "score": 85,
-      "summary": "Experts argue that limiting the number of children per donor does not reduce genetic risks, advocating instead for improved reporting systems and robust donor screening protocols.",
-      "angle": "Highlights regulatory and clinical challenges regarding donor-conceived genetic risks and the limitations of current cross-border donation policies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e0f43e9ddcac0291",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Why limits to gamete donor use only work if they cross borders",
-      "url": "https://www.progress.org.uk/why-limits-to-gamete-donor-use-only-work-if-they-cross-borders/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-17T15:35:15+00:00",
-      "first_seen": "2026-08-18T06:49:11.343557+00:00",
-      "score": 85,
-      "summary": "The European Society of Human Reproduction and Embryology has proposed a transnational limit on the number of families created from a single gamete donor to improve safety and oversight.",
-      "angle": "Highlights growing regulatory pressure for international standards on donor usage, potentially impacting global gamete supply and clinic operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "33ae07d6d3a7aed5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -782,6 +754,34 @@
       "score": 75,
       "summary": "Researchers have developed a machine learning model that uses blood-derived epigenetic patterns to identify genetic variants in prenatal tissues, potentially improving diagnostic accuracy for rare conditions.",
       "angle": "Advances in AI-driven prenatal genetic testing improve diagnostic precision and expand the utility of non-invasive screening methods.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6c64a520d8ab66de",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Baby with heart defect born amid US surrogacy conflict",
+      "url": "https://www.progress.org.uk/baby-with-heart-defect-born-amid-us-surrogacy-conflict/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-24T16:15:52+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 65,
+      "summary": "A high-profile legal dispute in Texas involving a surrogate, intended parents, and conflicting state laws highlights the complexities of surrogacy agreements and medical decision-making rights.",
+      "angle": "Highlights significant legal and ethical risks in cross-border surrogacy, impacting regulatory compliance and patient management strategies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "602f8c667f98cc78",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Newborn genomic screening identifies ALD risk in two brothers",
+      "url": "https://www.progress.org.uk/newborn-genomic-screening-identifies-ald-risk-in-two-brothers/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-08-24T16:10:09+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 65,
+      "summary": "The UK's Generation Study is successfully using whole genome sequencing on newborns to identify rare genetic conditions, enabling earlier clinical intervention for affected families.",
+      "angle": "Advances in newborn genomic screening highlight growing clinical demand for integrated genetic testing and diagnostic services in reproductive medicine.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -813,31 +813,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7ea5103912021110",
+      "id": "31fc718645c87991",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Steel tariffs: allocating risk and protecting margins",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/steel-tariffs-allocating-risk-and-protecting-margins-26-08-2026/",
+      "title": "What the data tells us about late contractor appointment",
+      "url": "https://www.constructionnews.co.uk/supply-chain/what-the-data-tells-us-about-late-contractor-appointment-27-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-26T11:31:59+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
+      "published_at": "2026-08-27T12:16:04+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
       "score": 75,
-      "summary": "New UK steel import quotas and potential tariffs are creating procurement uncertainty, supply chain volatility, and increased commercial risk for construction projects.",
-      "angle": "Highlights rising material costs and the need for robust contractual risk allocation in construction supply chains.",
+      "summary": "A report analyzing 400 public sector projects indicates that late contractor appointments significantly increase construction costs due to design and buildability issues.",
+      "angle": "Highlights the industry shift towards early contractor involvement, impacting how glazing specifications and supply chain interfaces are managed.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7cbb21905e32b0c2",
+      "id": "b3220d74d63d4e3e",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Devonshire Homes’ trade creditors unlikely to see a penny of £35m owed",
-      "url": "https://www.constructionnews.co.uk/financial/administrations/devonshire-homes-trade-creditors-unlikely-to-see-a-penny-of-35m-owed-26-08-2026/",
+      "title": "Collateral damage: How the Iran war is hitting UK construction",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/features/collateral-damage-how-the-iran-war-is-hitting-uk-construction-27-08-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-26T11:26:23+00:00",
-      "first_seen": "2026-08-27T06:49:03.451052+00:00",
+      "published_at": "2026-08-27T09:58:21+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
       "score": 75,
-      "summary": "Devonshire Homes has collapsed into administration, with administrators confirming that unsecured trade creditors are unlikely to receive any dividend from the £35.3m owed.",
-      "angle": "Highlights rising insolvency risks and credit exposure within the UK residential construction supply chain.",
+      "summary": "The Iran war is causing volatility in energy markets and supply chains, creating additional stress for the UK construction sector.",
+      "angle": "Highlights macroeconomic risks to material costs and supply chain stability for UK construction product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -852,20 +852,6 @@
       "score": 85,
       "summary": "FORT Robotics, a provider of safety solutions for physical AI, has entered a definitive agreement to go public via a business combination with Newbury Street II Acquisition Corp.",
       "angle": "Highlights the growing importance of universal safety and trust layers for scaling autonomous systems in industrial environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c2878313eb470fde",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Interview with Lattice Semiconductor’s Karl Wachswender: ‘Parallel processing enables more powerful edge AI’",
-      "url": "https://roboticsandautomationnews.com/2026/08/17/interview-with-lattice-semiconductors-karl-wachswender-parallel-processing-enables-more-powerful-edge-ai/104215/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-17T20:02:10+00:00",
-      "first_seen": "2026-08-18T06:49:11.343557+00:00",
-      "score": 85,
-      "summary": "Lattice Semiconductor highlights how low-power FPGAs enable real-time edge processing, sensor fusion, and hardware-level security for autonomous robotics, extending operational lifespans through post-deployment programmability.",
-      "angle": "Advancements in edge-based hardware allow for more reliable, secure, and adaptable autonomous inspection systems in resource-constrained environments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -895,6 +881,20 @@
       "summary": "Kodiak AI has partnered with AMD to integrate EPYC processors into its seventh-generation autonomous trucking platform to enhance sensor data processing and path-planning performance.",
       "angle": "Highlights the critical role of high-performance, low-latency edge computing in scaling autonomous physical AI systems.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e136e1ce8d51cb67",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Agibot wins 46 medals to top World Humanoid Robot Games on debut",
+      "url": "https://roboticsandautomationnews.com/2026/08/27/agibot-wins-46-medals-to-top-world-humanoid-robot-games-on-debut/104508/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-27T11:02:31+00:00",
+      "first_seen": "2026-08-28T06:49:04.199380+00:00",
+      "score": 65,
+      "summary": "Agibot secured 46 medals at the World Humanoid Robot Games, demonstrating the real-world deployment and dexterous manipulation capabilities of its mass-produced humanoid platforms.",
+      "angle": "Advances in general-purpose embodied AI and Sim2Real locomotion frameworks accelerate the feasibility of autonomous industrial inspection robotics.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -902,15 +902,15 @@
     "companies_enriched": [],
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
-    "sector_topups": 1,
-    "providers_succeeded": 92,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 68,
-    "llm_requests_succeeded": 68,
+    "sector_topups": 0,
+    "providers_succeeded": 93,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 21,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 12,
     "carried_forward": 2
   }
 }
