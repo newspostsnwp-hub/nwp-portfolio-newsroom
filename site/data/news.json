@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T14:08:05.301932+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 18 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-08-29T06:49:03.600023+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-08-28T06:49:04.199380+00:00",
+  "last_digest_sent_at": "2026-08-29T06:49:03.600023+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -855,20 +855,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d91fae8b7c5ed01c",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "FORT Robotics to go public via business combination with Newbury Street II Acquisition Corp",
-      "url": "https://roboticsandautomationnews.com/2026/08/18/fort-robotics-to-go-public-via-business-combination-with-newbury-street-ii-acquisition-corp/104238/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-18T14:29:03+00:00",
-      "first_seen": "2026-08-19T06:49:00.355367+00:00",
-      "score": 85,
-      "summary": "FORT Robotics, a provider of safety solutions for physical AI, has entered a definitive agreement to go public via a business combination with Newbury Street II Acquisition Corp.",
-      "angle": "Highlights the growing importance of universal safety and trust layers for scaling autonomous systems in industrial environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "8dcc6079b42520bd",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -880,6 +866,20 @@
       "score": 75,
       "summary": "Waymo has unveiled a new Nvidia-powered compute architecture featuring a custom 5 nm ASIC capable of 1,000 TOPS to support fully autonomous, real-time sensor processing and redundancy.",
       "angle": "Advances in edge computing, ruggedised hardware, and sensor-fusion ASICs directly inform autonomous inspection robotics development.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "74162e5433164927",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "AI Automation’s PR Problem: Businesses Keep Selling What it Can Do, Not Why it Should Be Trusted",
+      "url": "https://roboticsandautomationnews.com/2026/08/28/ai-automations-pr-problem-businesses-keep-selling-what-it-can-do-not-why-it-should-be-trusted/104569/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-08-28T19:11:02+00:00",
+      "first_seen": "2026-08-29T06:49:03.600023+00:00",
+      "score": 65,
+      "summary": "An industry perspective argues that businesses must prioritize transparency regarding human oversight and AI limitations to build trust, rather than focusing solely on speed and automation capabilities.",
+      "angle": "Highlights the critical need for safety-critical sectors to emphasize human-in-the-loop accountability over pure autonomous performance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 96,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 95,
-    "llm_requests_succeeded": 95,
+    "providers_succeeded": 99,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "skipped_recently_evaluated": 13,
     "carried_forward": 2
   }
 }
