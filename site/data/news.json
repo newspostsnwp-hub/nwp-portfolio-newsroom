@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T06:49:03.600023+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-08-29T14:08:05.761659+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on three sector-specific updates, as there is no news to report from Future Maintenance Technologies, McGraw Hill, or The Delivery Group.",
   "archive_story_count": 14,
   "last_digest_sent_at": "2026-08-29T06:49:03.600023+00:00",
   "companies": [
@@ -351,20 +351,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "e274ac57bce53d58",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Evri targets 1.4 billion deliveries by 2030",
-      "url": "https://postandparcel.info/162616/news/e-commerce/evri-targets-1-4-billion-deliveries-by-2030/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-19T12:26:22+00:00",
-      "first_seen": "2026-08-19T14:08:01.978150+00:00",
-      "score": 85,
-      "summary": "Evri has announced plans to recruit over 10,000 staff to support peak season operations and long-term growth following a record financial year.",
-      "angle": "Signals aggressive capacity expansion and sustained volume growth expectations among major UK parcel delivery competitors.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "8918ad47b649344c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -377,6 +363,20 @@
       "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
       "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "8c96b28e68f9a7ae",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Nearly 3 in 10 UK exporters shipped less in June",
+      "url": "https://postandparcel.info/162625/news/e-commerce/nearly-3-in-10-uk-exporters-shipped-less-in-june/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-20T04:27:18+00:00",
+      "first_seen": "2026-08-29T14:08:05.761659+00:00",
+      "score": 75,
+      "summary": "UK goods exports fell by £2.2bn in June 2026, with exports to EU markets declining by 7.4% and non-EU markets by 5.4%.",
+      "angle": "Signals a potential contraction in cross-border parcel volumes and international shipping demand for UK logistics providers.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "81708753f9b4cd44",
@@ -715,6 +715,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "56b7effa8aaf221e",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "DOJ Finds Racial Discrimination at George Washington U Medical School",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/28/doj-finds-racial-discrimination-george-washington-medical",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-28T18:27:00+00:00",
+      "first_seen": "2026-08-29T14:08:05.761659+00:00",
+      "score": 85,
+      "summary": "The Department of Justice found that George Washington University’s medical school violated civil rights law by using race-conscious admissions practices for Black and Hispanic applicants.",
+      "angle": "Regulatory scrutiny of higher education admissions processes impacts institutional software, data compliance, and assessment tool requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a411c609cc3063e0",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -726,20 +740,6 @@
       "score": 85,
       "summary": "The University of Maine System will award college credit for microcredentials earned by high school students, focusing on durable skills like financial literacy and leadership development.",
       "angle": "Reflects a broader shift toward credentialing and recognizing prior learning pathways within the postsecondary education landscape.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6c54bf25a094b911",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Readers Respond on AI Literacy",
-      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/08/28/readers-respond-ai-literacy",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-28T07:00:00+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 85,
-      "summary": "Higher education professionals are debating definitions of AI literacy, focusing on critical judgment, ethical use, and the necessity of foundational subject-matter knowledge in an AI-integrated curriculum.",
-      "angle": "Informs product development and pedagogical strategies for integrating AI tools into educational publishing and learning platforms.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 99,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 86,
+    "providers_succeeded": 98,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 21,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 13,
+    "skipped_recently_evaluated": 15,
     "carried_forward": 2
   }
 }
