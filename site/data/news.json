@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T06:49:15.767654+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report regarding our portfolio companies.",
+  "generated_at": "2026-08-30T14:08:16.835859+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from McGraw Hill, The Delivery Group, UOE, or Whitespace.",
   "archive_story_count": 14,
   "last_digest_sent_at": "2026-08-30T06:49:15.767654+00:00",
   "companies": [
@@ -365,18 +365,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "028d42ac792ea4cc",
+      "id": "bb6843f84fbd68e3",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "UPS’ investments across Europe, Asia-Pacific and the Americas help businesses navigate changing trade routes",
-      "url": "https://postandparcel.info/162654/news/e-commerce/ups-investments-across-europe-asia-pacific-and-the-americas-help-businesses-navigate-changing-trade-routes/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-24T15:16:11+00:00",
-      "first_seen": "2026-08-30T06:49:15.767654+00:00",
+      "title": "Bridgwater residents face long waits over Royal Mail delays",
+      "url": "https://www.bridgwatermercury.co.uk/news/26505849.bridgwater-residents-face-long-waits-royal-mail-delays/",
+      "source": "bridgwatermercury.co.uk",
+      "published_at": "2026-08-30T07:15:00+00:00",
+      "first_seen": "2026-08-30T14:08:16.835859+00:00",
       "score": 65,
-      "summary": "UPS is investing over $2 billion globally to enhance service speed, customer control, and supply chain resilience.",
-      "angle": "Highlights global logistics infrastructure investment trends and competitive pressure on international delivery capabilities and supply chain efficiency.",
-      "discovered_via": "Sector RSS"
+      "summary": "Royal Mail is experiencing significant delivery delays and staffing shortages in Bridgwater, leading to long queues at the local delivery office for residents collecting undelivered post.",
+      "angle": "Highlights operational vulnerabilities and service reliability issues within the incumbent national postal provider.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "81708753f9b4cd44",
@@ -589,20 +589,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "35f5a68cdc98d2b6",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Callosum raises £73.5m to ‘redefine how humanity computes’",
-      "url": "https://www.uktech.news/ai/callosum-raises-73-5m-to-redefine-how-humanity-computes-20260820",
-      "source": "uktech.news",
-      "published_at": "2026-08-20T08:00:29+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
-      "score": 90,
-      "summary": "London-based startup Callosum has raised £73.5m in a seed round led by Atomico, marking the first investment from the UK government's £500m Sovereign AI Fund.",
-      "angle": "Validates the UK government's strategic focus on sovereign AI infrastructure and efficient heterogeneous model orchestration.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "431e62efc94f94bc",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -629,6 +615,20 @@
       "summary": "NVIDIA has paused its cloud credit support and revenue-sharing initiatives for AI infrastructure providers due to concerns regarding potential antitrust scrutiny.",
       "angle": "Signals increased regulatory risk for sovereign AI infrastructure models reliant on deep financial integration with major hardware suppliers.",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "780bf3fa7cdb9243",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK and Ukraine sign landmark AI deal to develop new technologies",
+      "url": "https://www.uktech.news/government-policy/uk-and-ukraine-sign-landmark-ai-deal-to-develop-new-technologies-20260825",
+      "source": "uktech.news",
+      "published_at": "2026-08-25T08:00:30+00:00",
+      "first_seen": "2026-08-30T14:08:16.835859+00:00",
+      "score": 85,
+      "summary": "The UK and Ukraine have signed a partnership to share battlefield data from Avengers AI Labs to accelerate the development of sovereign AI and national security technologies.",
+      "angle": "Highlights government-led demand for sovereign AI infrastructure and the strategic value of real-world operational datasets for model training.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "829829b457e6b87a",
@@ -673,17 +673,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "68c5aea908f28146",
+      "id": "ce5a90eb3be27f8a",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Appleby-in-Westmorland post office relocates to town’s Spar store",
-      "url": "https://www.talkingretail.com/stores/appleby-in-westmorland-post-office-relocates-to-towns-spar-store-20-08-2026/",
+      "title": "Shoplifter who targeted c-stores and supermarkets jailed",
+      "url": "https://www.talkingretail.com/news/industry-news/shoplifter-who-targeted-c-stores-and-supermarkets-jailed-28-08-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-08-20T10:59:49+00:00",
-      "first_seen": "2026-08-22T06:48:38.082794+00:00",
-      "score": 85,
-      "summary": "The Appleby-in-Westmorland Post Office has relocated into a local Spar store, offering extended seven-day opening hours and a range of postal, banking, and parcel services.",
-      "angle": "Illustrates the ongoing trend of integrating Post Office services into convenience retail to maintain rural service accessibility.",
+      "published_at": "2026-08-28T14:16:53+00:00",
+      "first_seen": "2026-08-30T14:08:16.835859+00:00",
+      "score": 65,
+      "summary": "A prolific shoplifter in South Gloucestershire has been sentenced to 82 weeks in prison after pleading guilty to multiple counts of theft from convenience stores and supermarkets.",
+      "angle": "Highlights ongoing retail security challenges and the impact of shoplifting on operational costs and staff safety.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -698,20 +698,6 @@
       "score": 90,
       "summary": "An MIT committee report recommends overhauling curricula and assessment methods, including moving toward competency-based grading, to address the challenges posed by generative AI in higher education.",
       "angle": "Signals a potential shift in institutional demand for assessment tools and curriculum design away from traditional grading models.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e4ba4fa562e72263",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "With New AI Requirements and Courses, Colleges Eye AI Fluency",
-      "url": "https://www.insidehighered.com/news/faculty/teaching/2026/08/20/ai-requirements-and-courses-colleges-eye-ai-fluency",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-20T07:00:00+00:00",
-      "first_seen": "2026-08-20T14:08:02.351810+00:00",
-      "score": 90,
-      "summary": "Universities are increasingly integrating AI-specific requirements and courses into general education and degree programs to address growing employer demand for AI-fluent graduates.",
-      "angle": "Higher education institutions are rapidly shifting curricula to include AI literacy, creating new demand for specialized educational content.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -740,6 +726,20 @@
       "score": 85,
       "summary": "The University of Maine System will award college credit for microcredentials earned by high school students, focusing on durable skills like financial literacy and leadership development.",
       "angle": "Reflects a broader shift toward credentialing and recognizing prior learning pathways within the postsecondary education landscape.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2533a7a43e9ccc27",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Tennessee Promise Boosts College Enrollment and Attainment, Data Shows",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/28/tennessee-promise-boosts-college-enrollment-and-attainment",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "first_seen": "2026-08-30T14:08:16.835859+00:00",
+      "score": 75,
+      "summary": "A NBER working paper indicates that Tennessee’s tuition-free community college program increased enrollment, associate degree attainment, and subsequent transfers to bachelor’s degree programs.",
+      "angle": "Demonstrates how state-level policy interventions can drive higher education participation and demand for associated learning materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 97,
-    "queued_candidates": 123,
-    "llm_requests_attempted": 77,
-    "llm_requests_succeeded": 77,
+    "providers_succeeded": 98,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 80,
+    "llm_requests_succeeded": 80,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 12,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 2
   }
 }
