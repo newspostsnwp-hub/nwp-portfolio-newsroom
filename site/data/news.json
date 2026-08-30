@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T14:08:05.761659+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on three sector-specific updates, as there is no news to report from Future Maintenance Technologies, McGraw Hill, or The Delivery Group.",
+  "generated_at": "2026-08-30T06:49:15.767654+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report regarding our portfolio companies.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-08-29T06:49:03.600023+00:00",
+  "last_digest_sent_at": "2026-08-30T06:49:15.767654+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -365,17 +365,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "8c96b28e68f9a7ae",
+      "id": "028d42ac792ea4cc",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Nearly 3 in 10 UK exporters shipped less in June",
-      "url": "https://postandparcel.info/162625/news/e-commerce/nearly-3-in-10-uk-exporters-shipped-less-in-june/",
+      "title": "UPS’ investments across Europe, Asia-Pacific and the Americas help businesses navigate changing trade routes",
+      "url": "https://postandparcel.info/162654/news/e-commerce/ups-investments-across-europe-asia-pacific-and-the-americas-help-businesses-navigate-changing-trade-routes/",
       "source": "postandparcel.info",
-      "published_at": "2026-08-20T04:27:18+00:00",
-      "first_seen": "2026-08-29T14:08:05.761659+00:00",
-      "score": 75,
-      "summary": "UK goods exports fell by £2.2bn in June 2026, with exports to EU markets declining by 7.4% and non-EU markets by 5.4%.",
-      "angle": "Signals a potential contraction in cross-border parcel volumes and international shipping demand for UK logistics providers.",
+      "published_at": "2026-08-24T15:16:11+00:00",
+      "first_seen": "2026-08-30T06:49:15.767654+00:00",
+      "score": 65,
+      "summary": "UPS is investing over $2 billion globally to enhance service speed, customer control, and supply chain resilience.",
+      "angle": "Highlights global logistics infrastructure investment trends and competitive pressure on international delivery capabilities and supply chain efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 98,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 97,
+    "queued_candidates": 123,
+    "llm_requests_attempted": 77,
+    "llm_requests_succeeded": 77,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 15,
+    "skipped_recently_evaluated": 12,
     "carried_forward": 2
   }
 }
