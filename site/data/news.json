@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T14:08:16.835859+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from McGraw Hill, The Delivery Group, UOE, or Whitespace.",
+  "generated_at": "2026-08-31T06:49:12.549414+00:00",
+  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-08-30T06:49:15.767654+00:00",
+  "last_digest_sent_at": "2026-08-31T06:49:12.549414+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -477,20 +477,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9ca3fa68d7097a90",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Adobe Firefly Updates: Expanded Audio Tools, More AI Models, Free AI Assistant",
-      "url": "https://postperspective.com/adobe-firefly-updates-expanded-audio-tools-more-ai-models-free-ai-assistant/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-20T16:52:45+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "summary": "Adobe has expanded its Firefly AI platform to include new audio generation tools and integrated third-party models like Google Gemini, Kling AI, and OpenAI.",
-      "angle": "Rapid advancements in generative AI tools for audio and video production are increasingly impacting post-production workflows and licensing requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b5d7e5cbc9f34d32",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -530,20 +516,6 @@
       "score": 95,
       "summary": "Exchange for Change has confirmed that UK-wide deposit return schemes are scheduled to launch in October 2027, with a certified list of reverse vending machines expected by October 2024.",
       "angle": "Regulatory implementation of DRS across the UK directly impacts PET packaging demand, recycling requirements, and circular economy strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d8270b7dc1e0582e",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change appointed in Wales giving UK DRS administrator consistency",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/exchange-for-change-appointed-in-wales-giving-uk-drs-administrator-consistency-20-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-20T15:16:26+00:00",
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 95,
-      "summary": "Exchange for Change has been appointed as the single Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, with a go-live date of October 2027.",
-      "angle": "Regulatory alignment across the UK simplifies compliance frameworks for beverage packaging manufacturers and their supply chain partners.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -659,20 +631,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1b1cba1522f74809",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Exchange for Change appointed in Wales giving UK DRS administrator consistency",
-      "url": "https://www.talkingretail.com/featured/drs-gets-uk-administrator-consistency-with-exchange-for-change-appointed-in-wales-20-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-20T14:17:10+00:00",
-      "first_seen": "2026-08-21T14:08:01.137865+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has been appointed as the Deposit Management Organisation for the Deposit Return Scheme across all four UK nations, with a launch date of October 2027.",
-      "angle": "Retailers face significant operational and infrastructure requirements to act as return point operators for the upcoming scheme.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ce5a90eb3be27f8a",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -729,17 +687,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2533a7a43e9ccc27",
+      "id": "6c54bf25a094b911",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "Tennessee Promise Boosts College Enrollment and Attainment, Data Shows",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/08/28/tennessee-promise-boosts-college-enrollment-and-attainment",
+      "title": "Readers Respond on AI Literacy",
+      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/08/28/readers-respond-ai-literacy",
       "source": "insidehighered.com",
       "published_at": "2026-08-28T07:00:00+00:00",
-      "first_seen": "2026-08-30T14:08:16.835859+00:00",
-      "score": 75,
-      "summary": "A NBER working paper indicates that Tennessee’s tuition-free community college program increased enrollment, associate degree attainment, and subsequent transfers to bachelor’s degree programs.",
-      "angle": "Demonstrates how state-level policy interventions can drive higher education participation and demand for associated learning materials.",
+      "first_seen": "2026-08-31T06:49:12.549414+00:00",
+      "score": 85,
+      "summary": "Higher education professionals are debating definitions of AI literacy, focusing on critical judgment, ethical considerations, and the balance between using AI tools and maintaining foundational subject-matter knowledge.",
+      "angle": "Informs product development and pedagogical strategies for integrating AI tools into educational curricula and assessment frameworks.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +875,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 98,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 80,
-    "llm_requests_succeeded": 80,
+    "providers_succeeded": 88,
+    "queued_candidates": 94,
+    "llm_requests_attempted": 46,
+    "llm_requests_succeeded": 46,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 8,
+    "dropped_thin_page": 22,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 2
   }
 }
