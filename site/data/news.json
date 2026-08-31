@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T06:49:12.549414+00:00",
-  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
+  "generated_at": "2026-08-31T14:08:12.967336+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no specific updates from our portfolio companies to report.",
   "archive_story_count": 14,
   "last_digest_sent_at": "2026-08-31T06:49:12.549414+00:00",
   "companies": [
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -220,7 +220,7 @@
       "website": "https://www.thinkfmt.com/",
       "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
@@ -323,6 +323,20 @@
   ],
   "sector_stories": [
     {
+      "id": "6c8621744ffda1d5",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "InPost: We delivered a quarter of strong growth in Q2",
+      "url": "https://postandparcel.info/162669/news/e-commerce/inpost-we-delivered-a-quarter-of-strong-growth-in-q2/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-31T08:31:19+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 85,
+      "summary": "InPost reported strong Q2 2026 growth across international markets alongside the continued expansion of its out-of-home delivery network.",
+      "angle": "Highlights increasing consumer demand for out-of-home delivery solutions and competitive pressure within the UK parcel market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "491d4cfdae5e96ab",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -362,20 +376,6 @@
       "score": 75,
       "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
       "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "bb6843f84fbd68e3",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Bridgwater residents face long waits over Royal Mail delays",
-      "url": "https://www.bridgwatermercury.co.uk/news/26505849.bridgwater-residents-face-long-waits-royal-mail-delays/",
-      "source": "bridgwatermercury.co.uk",
-      "published_at": "2026-08-30T07:15:00+00:00",
-      "first_seen": "2026-08-30T14:08:16.835859+00:00",
-      "score": 65,
-      "summary": "Royal Mail is experiencing significant delivery delays and staffing shortages in Bridgwater, leading to long queues at the local delivery office for residents collecting undelivered post.",
-      "angle": "Highlights operational vulnerabilities and service reliability issues within the incumbent national postal provider.",
       "discovered_via": "GDELT"
     },
     {
@@ -505,6 +505,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "17dba01234812291",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Emmy-Nominated DP Marshall Adams on Pluribus’ Look, Workflow",
+      "url": "https://postperspective.com/emmy-nominated-dp-marshall-adams-on-pluribus-look-workflow/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-25T14:57:19+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 65,
+      "summary": "Cinematographer Marshall Adams discusses the technical workflow, complex lighting, and extensive VFX integration required for the Apple TV series Pluribus, which involved a year-long production schedule.",
+      "angle": "Highlights evolving technical demands in high-end episodic production, specifically regarding on-set VFX collaboration and complex lighting workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "623ceb798d207879",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -547,6 +561,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ba9a40b77c386f15",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Valpak analysis suggests UK capacity challenge for flexible collections",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/valpak-analysis-suggests-uk-capacity-challenge-for-flexible-collections-26-08-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-08-25T23:52:57+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 65,
+      "summary": "Valpak research indicates that UK recycling infrastructure lacks sufficient capacity to process mandatory household flexible plastic collections, leading England to delay implementation until 2030.",
+      "angle": "Highlights systemic waste management capacity constraints and regulatory delays impacting the broader plastic packaging and recycling landscape.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "23aea67df47d7d18",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -558,6 +586,20 @@
       "score": 90,
       "summary": "Nvidia projects 70% revenue growth for the next fiscal year, driven by surging demand from sovereign AI, enterprise customers, and the widespread adoption of agentic AI systems.",
       "angle": "Highlights massive, sustained demand for compute infrastructure within the sovereign and enterprise AI sectors.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "afedb20275dd11dd",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI could cause global economic downturn , Bank of England governor warns",
+      "url": "https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/26508272.ai-cause-global-economic-downturn-bank-england-governor-warns/",
+      "source": "burnhamandhighbridgeweeklynews.co.uk",
+      "published_at": "2026-08-31T12:15:00+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 85,
+      "summary": "Bank of England Governor Andrew Bailey warned G20 finance ministers that an AI market bubble could trigger a disorderly global economic correction due to high valuations and leverage.",
+      "angle": "Highlights systemic financial risks and sovereign debt vulnerabilities associated with current AI market concentration and capital intensity.",
       "discovered_via": "GDELT"
     },
     {
@@ -587,20 +629,6 @@
       "summary": "NVIDIA has paused its cloud credit support and revenue-sharing initiatives for AI infrastructure providers due to concerns regarding potential antitrust scrutiny.",
       "angle": "Signals increased regulatory risk for sovereign AI infrastructure models reliant on deep financial integration with major hardware suppliers.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "780bf3fa7cdb9243",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK and Ukraine sign landmark AI deal to develop new technologies",
-      "url": "https://www.uktech.news/government-policy/uk-and-ukraine-sign-landmark-ai-deal-to-develop-new-technologies-20260825",
-      "source": "uktech.news",
-      "published_at": "2026-08-25T08:00:30+00:00",
-      "first_seen": "2026-08-30T14:08:16.835859+00:00",
-      "score": 85,
-      "summary": "The UK and Ukraine have signed a partnership to share battlefield data from Avengers AI Labs to accelerate the development of sovereign AI and national security technologies.",
-      "angle": "Highlights government-led demand for sovereign AI infrastructure and the strategic value of real-world operational datasets for model training.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "829829b457e6b87a",
@@ -645,6 +673,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "41da26894431070f",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Two men charged after Spar worker punched in face",
+      "url": "https://www.talkingretail.com/news/industry-news/two-men-charged-after-spar-worker-punched-in-face-28-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-28T13:54:57+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 65,
+      "summary": "Two men were charged following an assault on a Spar shop worker who challenged them for stealing chocolate bars in a Liverpool store.",
+      "angle": "Highlights the ongoing industry challenge of retail crime, staff safety, and the operational impact of shoplifting.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bc7c527df0fe5132",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -656,6 +698,20 @@
       "score": 90,
       "summary": "An MIT committee report recommends overhauling curricula and assessment methods, including moving toward competency-based grading, to address the challenges posed by generative AI in higher education.",
       "angle": "Signals a potential shift in institutional demand for assessment tools and curriculum design away from traditional grading models.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0aedb4d242a69497",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Failure to Measure Learning Is Hurting Higher Education",
+      "url": "https://www.insidehighered.com/opinion/columns/tough-love/2026/08/31/higher-ed-needs-prove-students-are-learning-column",
+      "source": "insidehighered.com",
+      "published_at": "2026-08-31T07:00:00+00:00",
+      "first_seen": "2026-08-31T14:08:12.967336+00:00",
+      "score": 85,
+      "summary": "Higher education institutions face a crisis of confidence due to their inability to provide measurable proof of student learning outcomes and skill development.",
+      "angle": "Highlights a growing market demand for assessment tools and data-driven evidence of learning efficacy in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -684,20 +740,6 @@
       "score": 85,
       "summary": "The University of Maine System will award college credit for microcredentials earned by high school students, focusing on durable skills like financial literacy and leadership development.",
       "angle": "Reflects a broader shift toward credentialing and recognizing prior learning pathways within the postsecondary education landscape.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6c54bf25a094b911",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Readers Respond on AI Literacy",
-      "url": "https://www.insidehighered.com/opinion/columns/confessions-community-college-dean/2026/08/28/readers-respond-ai-literacy",
-      "source": "insidehighered.com",
-      "published_at": "2026-08-28T07:00:00+00:00",
-      "first_seen": "2026-08-31T06:49:12.549414+00:00",
-      "score": 85,
-      "summary": "Higher education professionals are debating definitions of AI literacy, focusing on critical judgment, ethical considerations, and the balance between using AI tools and maintaining foundational subject-matter knowledge.",
-      "angle": "Informs product development and pedagogical strategies for integrating AI tools into educational curricula and assessment frameworks.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -813,20 +855,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8dcc6079b42520bd",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Waymo reveals Nvidia-powered compute system behind its robotaxis",
-      "url": "https://roboticsandautomationnews.com/2026/08/21/waymo-reveals-nvidia-powered-compute-system-behind-its-robotaxis/104373/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-21T08:48:31+00:00",
-      "first_seen": "2026-08-23T14:07:42.592985+00:00",
-      "score": 75,
-      "summary": "Waymo has unveiled a new Nvidia-powered compute architecture featuring a custom 5 nm ASIC capable of 1,000 TOPS to support fully autonomous, real-time sensor processing and redundancy.",
-      "angle": "Advances in edge computing, ruggedised hardware, and sensor-fusion ASICs directly inform autonomous inspection robotics development.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "74162e5433164927",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -875,14 +903,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 94,
-    "llm_requests_attempted": 46,
-    "llm_requests_succeeded": 46,
+    "providers_succeeded": 93,
+    "queued_candidates": 121,
+    "llm_requests_attempted": 76,
+    "llm_requests_succeeded": 76,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 22,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 10,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 2
   }
 }
