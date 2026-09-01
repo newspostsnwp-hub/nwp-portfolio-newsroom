@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T06:49:16.978426+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from Molinare, Swytch, The Delivery Group, UOE, or Whitespace.",
+  "generated_at": "2026-09-01T14:08:16.491919+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 14,
   "last_digest_sent_at": "2026-09-01T06:49:16.978426+00:00",
   "companies": [
@@ -379,6 +379,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3d53161eefcfaca6",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "SIA consults on changes to security licence qualifications",
+      "url": "https://securityjournaluk.com/sia-consults-on-changes-to-security-licence/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-01T08:22:45+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 90,
+      "summary": "The Security Industry Authority has launched a public consultation on proposed changes to licence-linked qualifications, including new standards for first aid, English language proficiency, and conflict management.",
+      "angle": "Regulatory updates to training and licensing standards directly impact operational compliance and workforce requirements for security service providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b5f77da6d96a5474",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "New animations added to Martyn’s Law resources",
+      "url": "https://securityjournaluk.com/new-animations-for-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-01T08:37:18+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 85,
+      "summary": "The Home Office has released two new animations to help organisations understand the requirements of the Terrorism (Protection of Premises) Act, also known as Martyn's Law.",
+      "angle": "Provides critical regulatory guidance on public protection measures that impact security requirements for commercial and public premises.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "30521553bcf6a753",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Over 80% of employees overshare on social media",
+      "url": "https://securityjournaluk.com/employees-overshare-on-social-media/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-01T08:01:03+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 75,
+      "summary": "Cybersecurity experts warn that employees unintentionally reveal sensitive information about business operations, security systems, and access points through social media posts, increasing risks of social engineering and impersonation.",
+      "angle": "Highlights physical and digital security vulnerabilities created by staff social media activity, impacting site security risk management.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "81708753f9b4cd44",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -390,48 +432,6 @@
       "score": 75,
       "summary": "Fuel theft from UK petrol stations has risen significantly, with daily losses estimated at £194,000, prompting insurance experts to urge operators to enhance security and incident reporting procedures.",
       "angle": "Rising fuel theft rates increase demand for robust site security, CCTV surveillance, and effective incident management solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d5b85e44a9f78291",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Ealing Studios receives SBD ATLAS Award",
-      "url": "https://securityjournaluk.com/ealing-studios-receives-sbd-atlas-award/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-27T06:58:55+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 75,
-      "summary": "Ealing Studios received the Secured by Design ATLAS Commercial Development Award for integrating crime prevention design principles into its recent redevelopment project.",
-      "angle": "Highlights the growing importance of integrating physical security and CPTED principles into high-spec commercial developments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c4a29c1d903c0646",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Antare transforms unwatched camera footage into intelligence",
-      "url": "https://securityjournaluk.com/antare-transforms-footage-into-intelligence/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-25T07:44:21+00:00",
-      "first_seen": "2026-08-25T14:08:08.458926+00:00",
-      "score": 75,
-      "summary": "UK startup Antare has launched an AI-powered platform that automatically reviews, transcribes, and indexes security footage from body-worn and fixed cameras to provide actionable incident intelligence.",
-      "angle": "Represents a shift toward automated, AI-driven video analytics for incident detection and risk management in physical security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8763c47dd0832f1f",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Richpix 360 expands to tackle Martyn’s Law",
-      "url": "https://securityjournaluk.com/richpix-360-expands-to-tackle-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-25T06:40:00+00:00",
-      "first_seen": "2026-08-25T06:48:38.441788+00:00",
-      "score": 75,
-      "summary": "Richpix 360 is expanding its 3D digital twin and mapping services to assist UK venues in meeting upcoming compliance requirements under Martyn’s Law.",
-      "angle": "Highlights increasing demand for high-fidelity spatial data and digital mapping to support security and emergency preparedness compliance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -547,6 +547,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3957957289e639f1",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "BRC calls for reform as PRN charges ‘double in one year’",
+      "url": "https://www.packagingnews.co.uk/news/markets/food/brc-calls-for-reform-as-prn-charges-double-in-one-year-01-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-01T11:01:19+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 90,
+      "summary": "The British Retail Consortium is calling for the PRN system to be phased out after plastic PRN costs doubled to over £370 per tonne in 2026.",
+      "angle": "Regulatory volatility and rising compliance costs for plastic packaging directly impact the operational environment for PET manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9829cfef39184d27",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -575,20 +589,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ba9a40b77c386f15",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Valpak analysis suggests UK capacity challenge for flexible collections",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/valpak-analysis-suggests-uk-capacity-challenge-for-flexible-collections-26-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-25T23:52:57+00:00",
-      "first_seen": "2026-08-31T14:08:12.967336+00:00",
-      "score": 65,
-      "summary": "Valpak research indicates that UK recycling infrastructure lacks sufficient capacity to process mandatory household flexible plastic collections, leading England to delay implementation until 2030.",
-      "angle": "Highlights systemic waste management capacity constraints and regulatory delays impacting the broader plastic packaging and recycling landscape.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "23aea67df47d7d18",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -600,6 +600,20 @@
       "score": 90,
       "summary": "Nvidia projects 70% revenue growth for the next fiscal year, driven by surging demand from sovereign AI, enterprise customers, and the widespread adoption of agentic AI systems.",
       "angle": "Highlights massive, sustained demand for compute infrastructure within the sovereign and enterprise AI sectors.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "bbe861303aa5264c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "PM reaffirms Pakistan commitment to peaceful dispute resolution",
+      "url": "https://www.radio.gov.pk/01-09-2026/pm-reaffirms-pakistans-commitment-to-peaceful-dispute-resolution",
+      "source": "radio.gov.pk",
+      "published_at": "2026-09-01T11:30:00+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 85,
+      "summary": "As Pakistan assumes the SCO chairmanship, the Prime Minister proposed establishing a sovereign AI infrastructure and governance framework to promote responsible and inclusive regional AI development.",
+      "angle": "Signals potential new international policy frameworks and collaborative infrastructure projects for sovereign AI development within the SCO region.",
       "discovered_via": "GDELT"
     },
     {
@@ -631,18 +645,32 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "431e62efc94f94bc",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Fortinet Virtue AI Acquisition Advances Continuous AI Protection",
-      "url": "https://www.techpinas.com/2026/08/Fortinet-Virtue-AI-Acquisition.html",
-      "source": "techpinas.com",
-      "published_at": "2026-08-28T13:30:00+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "id": "76840d99a62e38c3",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Shoppers look to local stores for safer parcel collection and returns",
+      "url": "https://www.talkingretail.com/news/industry-news/shoppers-look-to-local-stores-for-safer-parcel-collection-and-returns-01-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-01T11:56:49+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 95,
+      "summary": "Research indicates 73% of UK consumers use parcel shops, driven by rising concerns over parcel theft and a demand for secure, flexible collection and return options.",
+      "angle": "Validates the strategic importance of parcel services as a key driver of footfall for local retail businesses.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "99418bfe0b9c2217",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "UK DRS: what retailers and wholesalers need to be asking suppliers now | Viewpoint: Bill Power",
+      "url": "https://www.talkingretail.com/opinion/talking-points/uk-drs-what-retailers-and-wholesalers-need-to-be-asking-suppliers-now-viewpoint-bill-power-01-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-01T12:05:45+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
       "score": 85,
-      "summary": "Fortinet has acquired Virtue AI to enhance its enterprise AI security portfolio, focusing on runtime protection, automated validation, and governance for autonomous AI agents.",
-      "angle": "Validates the growing market demand for robust security and governance frameworks within sovereign and enterprise AI ecosystems.",
-      "discovered_via": "GDELT"
+      "summary": "The confirmation of the UK Deposit Return Scheme Producer Fee prompts retailers to engage suppliers regarding pricing, stock changes, and operational readiness before the October 2027 launch.",
+      "angle": "Regulatory compliance and supply chain adjustments for in-scope drinks products sold within retail outlets.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "829829b457e6b87a",
@@ -670,34 +698,6 @@
       "score": 85,
       "summary": "The Association of Convenience Stores is lobbying the government to protect flexible employment practices within the convenience retail sector during consultations on zero-hours contract reforms.",
       "angle": "Regulatory changes to employment rights and shift flexibility directly impact operational costs and staffing models for independent retailers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "af64f3b7ecf65f52",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ACS calls on Scottish government to rethink statutory food price caps",
-      "url": "https://www.talkingretail.com/news/industry-news/acs-calls-on-scottish-government-to-rethink-statutory-food-price-caps-31-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-30T23:01:36+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
-      "score": 65,
-      "summary": "The Association of Convenience Stores and 22 other organisations have urged the Scottish government to reconsider proposed statutory price caps on food and drink products.",
-      "angle": "Highlights potential regulatory intervention in retail pricing models and the broader impact of government policy on convenience stores.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ce5a90eb3be27f8a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Shoplifter who targeted c-stores and supermarkets jailed",
-      "url": "https://www.talkingretail.com/news/industry-news/shoplifter-who-targeted-c-stores-and-supermarkets-jailed-28-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-28T14:16:53+00:00",
-      "first_seen": "2026-08-30T14:08:16.835859+00:00",
-      "score": 65,
-      "summary": "A prolific shoplifter in South Gloucestershire has been sentenced to 82 weeks in prison after pleading guilty to multiple counts of theft from convenience stores and supermarkets.",
-      "angle": "Highlights ongoing retail security challenges and the impact of shoplifting on operational costs and staff safety.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -757,6 +757,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7cf5b8988b69e22c",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "FILM: Male Infertility – Today's Insights, Tomorrow's Treatments",
+      "url": "https://www.progress.org.uk/film-male-infertility-todays-insights-tomorrows-treatments/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-01T11:21:24+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "score": 75,
+      "summary": "A PET event film and associated research highlight emerging clinical insights and future treatment modalities for male infertility, including advancements in testicular tissue preservation and genetic research.",
+      "angle": "Provides clinical context on evolving male infertility treatments and future reproductive technologies relevant to fertility service providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "33ae07d6d3a7aed5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -796,20 +810,6 @@
       "score": 65,
       "summary": "A high-profile legal dispute in Texas involving a surrogate, intended parents, and conflicting state laws highlights the complexities of surrogacy agreements and medical decision-making rights.",
       "angle": "Highlights significant legal and ethical risks in cross-border surrogacy, impacting regulatory compliance and patient management strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "602f8c667f98cc78",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Newborn genomic screening identifies ALD risk in two brothers",
-      "url": "https://www.progress.org.uk/newborn-genomic-screening-identifies-ald-risk-in-two-brothers/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-24T16:10:09+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 65,
-      "summary": "The UK's Generation Study is successfully using whole genome sequencing on newborns to identify rare genetic conditions, enabling earlier clinical intervention for affected families.",
-      "angle": "Advances in newborn genomic screening highlight growing clinical demand for integrated genetic testing and diagnostic services in reproductive medicine.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -855,17 +855,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "09228d8edc30bc49",
+      "id": "bc3706449dd61426",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Sisk profit jumps 20%",
-      "url": "https://www.constructionnews.co.uk/financial/sisk-profit-jumps-20-28-08-2026/",
+      "title": "Firm charged with corporate manslaughter after death of worker",
+      "url": "https://www.constructionnews.co.uk/legal/firm-charged-with-corporate-manslaughter-after-death-of-worker-01-09-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-08-28T11:45:13+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
+      "published_at": "2026-09-01T11:45:29+00:00",
+      "first_seen": "2026-09-01T14:08:16.491919+00:00",
       "score": 65,
-      "summary": "Major contractor John Sisk & Son reported a 20 per cent increase in pre-tax profit to £7.2m for 2025, supported by strong residential and commercial project performance.",
-      "angle": "Provides insight into the financial health and project pipeline of a significant UK construction market participant.",
+      "summary": "Green Steel & Cladding Ltd and an individual face corporate manslaughter charges following a fatal workplace accident in April 2021.",
+      "angle": "Highlights heightened regulatory scrutiny and severe legal consequences for health and safety failures within the construction industry.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -917,14 +917,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 121,
-    "llm_requests_attempted": 76,
-    "llm_requests_succeeded": 76,
+    "providers_succeeded": 95,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 19,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 2
   }
 }
