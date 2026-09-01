@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T14:08:12.967336+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no specific updates from our portfolio companies to report.",
+  "generated_at": "2026-09-01T06:49:16.978426+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from Molinare, Swytch, The Delivery Group, UOE, or Whitespace.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-08-31T06:49:12.549414+00:00",
+  "last_digest_sent_at": "2026-09-01T06:49:16.978426+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -351,20 +351,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "a4dac4352b33facd",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "One in seven Royal Mail first-class deliveries don't arrive on time - despite them scrapping second-class post on Saturdays - Daily Mail",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYzVPdjJNR2NvbkNPaWZ4ZFZ0UUY2b2NUZ1lmSXpBaW1JTzBfclkwVW5saUpsZC1lSUxqMHZVaTdDUTIxVG04VzZhMVhuWlZHQ2lMNXpDOWY2aGlVYTgzX3BFajNCdVF3RHZabXpKNEhBUjhQUEhuZTNJMjIxd3BaV3JYVUhlY2d2WWRfSi1GVEdqdUV5bHhZZVZqVURlYXRJcFMxMzNzSTl3bVFfQmdNeGJKejBZWHd5Q21IVTdCYnk1REVxb3pJUzlsaUQtRkhNTnRiaUxHdmRob2Z3cEhra1BhNkktLWlC0gHuAUFVX3lxTE1UakdKa09zQkxUZ29PVmx5eXNKLXRja1hJa0JyOWZzV2lacEJJdVM5WlltdmEtVXJqem5BbWVKM3pBZVEwS2JvVmV4X0pIZncxSXZTdExmMmZkQ0xsWllrN2l6THBRR2dxNFp5YnplY3NDOV9GQnB6ZnNyR05MVGNzaEYyQ3E2LTdrV0RDUGZRLVRGRGpoelVWUV8tUEpKeDZ3V281Z3M5RlN0OWRCMTZCV3lQOUNLbHN6SDJ0OVVPdlMxU3UyNWYtZHlFTUhtbGtKcTRpVko2YW9ybzlpNFBHMS0xYThOWWRIeXBQWEE?oc=5",
-      "source": "Daily Mail",
-      "published_at": "2026-08-21T23:53:13+00:00",
-      "first_seen": "2026-08-22T06:48:38.082794+00:00",
-      "score": 85,
-      "summary": "Royal Mail is failing to meet first-class delivery targets for one in seven items, despite the recent removal of Saturday second-class post services.",
-      "angle": "Highlights service reliability issues at the market incumbent, potentially driving customer migration to alternative delivery providers.",
-      "discovered_via": "Google News RSS"
-    },
-    {
       "id": "8918ad47b649344c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -377,6 +363,20 @@
       "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
       "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "028d42ac792ea4cc",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "UPS’ investments across Europe, Asia-Pacific and the Americas help businesses navigate changing trade routes",
+      "url": "https://postandparcel.info/162654/news/e-commerce/ups-investments-across-europe-asia-pacific-and-the-americas-help-businesses-navigate-changing-trade-routes/",
+      "source": "postandparcel.info",
+      "published_at": "2026-08-24T15:16:11+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 65,
+      "summary": "UPS is investing over $2 billion globally to enhance service speed, customer control, and supply chain resilience.",
+      "angle": "Highlights major competitor capital expenditure trends and strategic focus on global supply chain infrastructure and service efficiency.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "81708753f9b4cd44",
@@ -435,6 +435,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "16ebdf056f779173",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Asahi Kasei develops novel pre-doping lithium technology for silicon anodes",
+      "url": "https://www.electrive.com/2026/08/31/asahi-kasei-develops-novel-pre-doping-lithium-technology-for-silicon-anodes/",
+      "source": "electrive.com",
+      "published_at": "2026-08-31T16:03:45+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 65,
+      "summary": "Asahi Kasei has developed a pre-lithiation technology for silicon-based anodes that reportedly increases lithium-ion battery energy density by 10 per cent.",
+      "angle": "Advancements in battery energy density and cost-efficiency directly impact the performance and affordability of e-bike power systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8f70056757790a77",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -463,6 +477,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "162e6cb78d9f79ac",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Avid Media Composer 2026.8 at IBC: Agentic Workflows, More",
+      "url": "https://postperspective.com/avid-media-composer-2026-8-at-ibc-agentic-workflows-more/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-31T21:21:38+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 85,
+      "summary": "Avid has announced Media Composer 2026.8, introducing agentic AI workflows, Google Gemini integration, and expanded support for third-party storage solutions in enterprise environments.",
+      "angle": "Adoption of agentic AI and flexible storage integration directly impacts post-production efficiency and technical infrastructure requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3ce6d3ff944507ad",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Nice Touch Launches V2 of Its AI Edit Assistant for Pro Editors",
+      "url": "https://postperspective.com/nice-touch-launches-v2-of-its-ai-edit-assistant-for-pro-editors/",
+      "source": "postperspective.com",
+      "published_at": "2026-08-31T21:07:33+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 75,
+      "summary": "Nice Touch has released Version 2 of its AI-powered edit assistant, which integrates directly into Adobe Premiere and DaVinci Resolve to automate assembly and multicam workflows.",
+      "angle": "AI-driven automation tools are increasingly streamlining labour-intensive post-production tasks like logging and assembly, impacting operational efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bc2a7ec27bb916a5",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -488,34 +530,6 @@
       "score": 65,
       "summary": "Boland Communications has introduced an SMPTE ST 2110 input option for its 4K HDR monitors, enabling direct IP-based monitoring without external gateways.",
       "angle": "Reflects the industry-wide transition toward IP-based production workflows and the simplification of high-end monitoring infrastructure.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5dc552df5293af84",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Astro Burn Game Expands Into Animated Vertical Microseries",
-      "url": "https://postperspective.com/astro-burn-game-expands-into-animated-vertical-microseries/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-27T13:56:04+00:00",
-      "first_seen": "2026-08-27T14:08:03.725380+00:00",
-      "score": 65,
-      "summary": "Independent game Astro Burn has been adapted into an animated microseries using a human-led, AI-assisted production workflow to streamline content creation for social media platforms.",
-      "angle": "Demonstrates how AI-assisted production tools can accelerate post-production workflows while maintaining strict control over visual IP identity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "17dba01234812291",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Emmy-Nominated DP Marshall Adams on Pluribus’ Look, Workflow",
-      "url": "https://postperspective.com/emmy-nominated-dp-marshall-adams-on-pluribus-look-workflow/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-25T14:57:19+00:00",
-      "first_seen": "2026-08-31T14:08:12.967336+00:00",
-      "score": 65,
-      "summary": "Cinematographer Marshall Adams discusses the technical workflow, complex lighting, and extensive VFX integration required for the Apple TV series Pluribus, which involved a year-long production schedule.",
-      "angle": "Highlights evolving technical demands in high-end episodic production, specifically regarding on-set VFX collaboration and complex lighting workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -589,6 +603,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "ca8e60cb2c77b45d",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Top stocks in news : Symbiotech , EPL , Milky Mist , TBZ , Skyways , PVR Inox , Hy Tech , Cipla , Kotak Bank",
+      "url": "https://www.businesstoday.in/markets/stocks/story/top-stocks-in-news-symbiotech-epl-milky-mist-tbz-skyways-pvr-inox-hy-tech-cipla-kotak-bank-552424-2026-09-01",
+      "source": "businesstoday.in",
+      "published_at": "2026-09-01T04:45:00+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 85,
+      "summary": "E2E Networks has signed a binding term sheet with an India-based sovereign AI company for NVIDIA Blackwell cloud GPUs and services valued at approximately Rs 1,000 crore.",
+      "angle": "Highlights significant market demand for sovereign AI infrastructure and high-performance GPU cloud services in the Indian market.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "afedb20275dd11dd",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -614,20 +642,6 @@
       "score": 85,
       "summary": "Fortinet has acquired Virtue AI to enhance its enterprise AI security portfolio, focusing on runtime protection, automated validation, and governance for autonomous AI agents.",
       "angle": "Validates the growing market demand for robust security and governance frameworks within sovereign and enterprise AI ecosystems.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "91d22349255b383c",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "NVIDIA Quietly Freezes Its Cloud Credit Support Deals After Internal Talks Warn of Antitrust Exposure",
-      "url": "https://wccftech.com/nvidia-quietly-freezes-its-cloud-credit-support-deals-after-internal-talks-warn-of-antitrust-exposure/",
-      "source": "wccftech.com",
-      "published_at": "2026-08-28T02:30:00+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 85,
-      "summary": "NVIDIA has paused its cloud credit support and revenue-sharing initiatives for AI infrastructure providers due to concerns regarding potential antitrust scrutiny.",
-      "angle": "Signals increased regulatory risk for sovereign AI infrastructure models reliant on deep financial integration with major hardware suppliers.",
       "discovered_via": "GDELT"
     },
     {
@@ -659,6 +673,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "af64f3b7ecf65f52",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "ACS calls on Scottish government to rethink statutory food price caps",
+      "url": "https://www.talkingretail.com/news/industry-news/acs-calls-on-scottish-government-to-rethink-statutory-food-price-caps-31-08-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-08-30T23:01:36+00:00",
+      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "score": 65,
+      "summary": "The Association of Convenience Stores and 22 other organisations have urged the Scottish government to reconsider proposed statutory price caps on food and drink products.",
+      "angle": "Highlights potential regulatory intervention in retail pricing models and the broader impact of government policy on convenience stores.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ce5a90eb3be27f8a",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -670,20 +698,6 @@
       "score": 65,
       "summary": "A prolific shoplifter in South Gloucestershire has been sentenced to 82 weeks in prison after pleading guilty to multiple counts of theft from convenience stores and supermarkets.",
       "angle": "Highlights ongoing retail security challenges and the impact of shoplifting on operational costs and staff safety.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "41da26894431070f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Two men charged after Spar worker punched in face",
-      "url": "https://www.talkingretail.com/news/industry-news/two-men-charged-after-spar-worker-punched-in-face-28-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-28T13:54:57+00:00",
-      "first_seen": "2026-08-31T14:08:12.967336+00:00",
-      "score": 65,
-      "summary": "Two men were charged following an assault on a Spar shop worker who challenged them for stealing chocolate bars in a Liverpool store.",
-      "angle": "Highlights the ongoing industry challenge of retail crime, staff safety, and the operational impact of shoplifting.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -908,8 +922,8 @@
     "llm_requests_attempted": 76,
     "llm_requests_succeeded": 76,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 1,
     "carried_forward": 2
   }
