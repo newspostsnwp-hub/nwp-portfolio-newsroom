@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-01T14:08:16.491919+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-09-02T06:49:11.746497+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from Clearway Group, Fertility Associates, Molinare, Roof-Maker, or The Delivery Group.",
   "archive_story_count": 14,
-  "last_digest_sent_at": "2026-09-01T06:49:16.978426+00:00",
+  "last_digest_sent_at": "2026-09-02T06:49:11.746497+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -351,6 +351,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "824f62f1cd4d1710",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "The Future of Posts 2026",
+      "url": "https://postandparcel.info/162679/research/white-papers/the-future-of-posts-2026/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-01T14:39:33+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "score": 75,
+      "summary": "Escher's tenth edition of the Future of Posts report details investment trends, operational successes, and market pressures from 98 global postal operators.",
+      "angle": "Provides global benchmarking data on operational strategies and competitive pressures relevant to UK mail and parcel delivery.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8918ad47b649344c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -363,20 +377,6 @@
       "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
       "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "028d42ac792ea4cc",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "UPS’ investments across Europe, Asia-Pacific and the Americas help businesses navigate changing trade routes",
-      "url": "https://postandparcel.info/162654/news/e-commerce/ups-investments-across-europe-asia-pacific-and-the-americas-help-businesses-navigate-changing-trade-routes/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-24T15:16:11+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
-      "score": 65,
-      "summary": "UPS is investing over $2 billion globally to enhance service speed, customer control, and supply chain resilience.",
-      "angle": "Highlights major competitor capital expenditure trends and strategic focus on global supply chain infrastructure and service efficiency.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "3d53161eefcfaca6",
@@ -407,6 +407,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "86e95ea3b631d74c",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Secured by Design welcomes KYNEKT as a new member",
+      "url": "https://securityjournaluk.com/sbd-welcomes-kynekt-as-a-new-member/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-02T06:45:00+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "score": 75,
+      "summary": "Secured by Design has accredited KYNEKT's GPS tracking and digital identification platform, which aims to combat the rising trend of tool and plant machinery theft on construction sites.",
+      "angle": "Highlights growing demand for integrated, tech-enabled asset protection and digital verification solutions within the UK construction security market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "30521553bcf6a753",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -418,20 +432,6 @@
       "score": 75,
       "summary": "Cybersecurity experts warn that employees unintentionally reveal sensitive information about business operations, security systems, and access points through social media posts, increasing risks of social engineering and impersonation.",
       "angle": "Highlights physical and digital security vulnerabilities created by staff social media activity, impacting site security risk management.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "81708753f9b4cd44",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Forecourt theft: The insurance question",
-      "url": "https://securityjournaluk.com/forecourt-theft-the-insurance-question/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-08-28T07:00:00+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 75,
-      "summary": "Fuel theft from UK petrol stations has risen significantly, with daily losses estimated at £194,000, prompting insurance experts to urge operators to enhance security and incident reporting procedures.",
-      "angle": "Rising fuel theft rates increase demand for robust site security, CCTV surveillance, and effective incident management solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -491,6 +491,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "37ae21edb69459b1",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "How Cinematographer Colin Hoult Gave Off Campus an ‘80s Glow",
+      "url": "https://postperspective.com/how-cinematographer-colin-hoult-gave-off-campus-an-80s-glow/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-01T21:29:30+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "score": 75,
+      "summary": "Cinematographer Colin Hoult used digital filtration plugins in DaVinci Resolve to replicate traditional glass filter looks for the Amazon series Off Campus, streamlining production and post-production workflows.",
+      "angle": "Highlights the increasing shift toward digital-first post-production workflows and advanced software-based image manipulation over traditional on-set optical filtration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3ce6d3ff944507ad",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -516,20 +530,6 @@
       "score": 75,
       "summary": "EditShare is launching new EFS storage configurations with integrated on-premise GPU-powered AI processing and expanded multilingual transcription capabilities for post-production workflows.",
       "angle": "Advancements in on-premise AI-driven media management and secure remote collaboration tools impact post-production operational efficiency and data security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b5d7e5cbc9f34d32",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Boland Intros SMPTE ST 2110 Option for 4K HDR Monitors",
-      "url": "https://postperspective.com/boland-intros-smpte-st-2110-option-for-4k-hdr-monitors/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-27T16:51:04+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 65,
-      "summary": "Boland Communications has introduced an SMPTE ST 2110 input option for its 4K HDR monitors, enabling direct IP-based monitoring without external gateways.",
-      "angle": "Reflects the industry-wide transition toward IP-based production workflows and the simplification of high-end monitoring infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -757,6 +757,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0d5d5c57e40d6e6f",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "'Choosing not to look is not the same as not caring' – public attitudes to embryo selection",
+      "url": "https://www.progress.org.uk/choosing-not-to-look-is-not-the-same-as-not-caring-public-attitudes-to-embryo-selection/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-01T16:17:34+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "score": 85,
+      "summary": "A study of 2000 people in the USA and China reveals that individuals often act on polygenic risk information for embryo selection despite stating they would prefer not to.",
+      "angle": "Highlights the gap between public ethical stances and actual consumer demand for non-medical embryo trait selection.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "98e90eed74c153da",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Parliament must fix the law on trans parenthood",
+      "url": "https://www.progress.org.uk/parliament-must-fix-the-law-on-trans-parenthood/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-01T16:23:38+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "score": 75,
+      "summary": "Legal inconsistencies between the Gender Recognition Act 2004 and fertility legislation create significant challenges for the legal parentage of children born to transgender parents in the UK.",
+      "angle": "Highlights critical regulatory risks and compliance requirements for fertility clinics regarding patient record-keeping and legal parentage documentation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7cf5b8988b69e22c",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -785,31 +813,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "650a1c15a2a782ff",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Machine learning could help classify genetic variants in prenatal testing",
-      "url": "https://www.progress.org.uk/machine-learning-could-help-classify-genetic-variants-in-prenatal-testing/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-24T16:08:45+00:00",
-      "first_seen": "2026-08-25T06:48:38.441788+00:00",
+      "id": "a29e92aea82f0783",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "The risks of rushing hospital builds",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-risks-of-rushing-hospital-builds-01-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-01T09:06:23+00:00",
+      "first_seen": "2026-09-02T06:49:11.746497+00:00",
       "score": 75,
-      "summary": "Researchers have developed a machine learning model that uses blood-derived epigenetic patterns to identify genetic variants in prenatal tissues, potentially improving diagnostic accuracy for rare conditions.",
-      "angle": "Advances in AI-driven prenatal genetic testing improve diagnostic precision and expand the utility of non-invasive screening methods.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6c64a520d8ab66de",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Baby with heart defect born amid US surrogacy conflict",
-      "url": "https://www.progress.org.uk/baby-with-heart-defect-born-amid-us-surrogacy-conflict/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-08-24T16:15:52+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 65,
-      "summary": "A high-profile legal dispute in Texas involving a surrogate, intended parents, and conflicting state laws highlights the complexities of surrogacy agreements and medical decision-making rights.",
-      "angle": "Highlights significant legal and ethical risks in cross-border surrogacy, impacting regulatory compliance and patient management strategies.",
+      "summary": "The NHS Hospital 2.0 programme aims to deliver standardised hospital builds using modern methods of construction, though the lack of a prototype risks locking in design flaws.",
+      "angle": "Highlights shifts toward standardised construction methods and stricter regulatory oversight in large-scale public sector infrastructure projects.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -852,20 +866,6 @@
       "score": 75,
       "summary": "The Iran war is causing volatility in energy markets and supply chains, creating additional stress for the UK construction sector.",
       "angle": "Highlights macroeconomic risks to material costs and supply chain stability for UK construction product manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bc3706449dd61426",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Firm charged with corporate manslaughter after death of worker",
-      "url": "https://www.constructionnews.co.uk/legal/firm-charged-with-corporate-manslaughter-after-death-of-worker-01-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-01T11:45:29+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
-      "score": 65,
-      "summary": "Green Steel & Cladding Ltd and an individual face corporate manslaughter charges following a fatal workplace accident in April 2021.",
-      "angle": "Highlights heightened regulatory scrutiny and severe legal consequences for health and safety failures within the construction industry.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -918,13 +918,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 95,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "queued_candidates": 126,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "skipped_recently_evaluated": 13,
     "carried_forward": 2
   }
 }
