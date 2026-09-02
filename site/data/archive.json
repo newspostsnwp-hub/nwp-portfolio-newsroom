@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T06:49:11.746497+00:00",
+  "generated_at": "2026-09-02T14:08:13.893673+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -447,6 +447,40 @@
       "status": "needs_review",
       "discovered_via": "Official RSS",
       "date_estimated": false
+    },
+    {
+      "id": "b8b0444f0ac9ecfa",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "Analyst Reiterates Buy on McGraw Hill, Citing AI-Driven Growth and ELA Momentum; $19 Price Target Maintained - tipranks.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcUI2NF8wWEFqclU0MTVqVGl3bFJOY2xMWER0ZGpITktJREhjbnNHTTVNQWdZUHdGUE1qQjJXSk43VWhRNDQwZjRMODlvM0JwQVNsVzJEcVo4dmNOWHBJRk5YdG4wTHFnV1FyV1A5dFhQQ00wcTVYWnpkallzalRIeVhSLTRCemVkaXdsRHFUR3h3UURqcENkdk9naDRCSjZQWUhvQUpXaWVCSXMzV1VLWlJUUkJDLUMzZm9ndlQ1cVZQNlU3enlqYlhXUnY4Y3VNOWxDNnNfME1RbGpXSUlxZ0lPZFRHWEc0YnAweg?oc=5",
+      "source": "tipranks.com",
+      "published_at": "2026-08-03T10:38:28+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-08-03T14:07:52.546890+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "An equity analyst has reiterated a 'Buy' rating for McGraw Hill, maintaining a $19 price target based on the company's progress in AI-driven learning solutions and momentum in English Language Arts (ELA) offerings.",
+      "why_it_matters": "External analyst sentiment provides insight into market confidence regarding McGraw Hill's strategic pivot toward AI-integrated educational technology and its core publishing performance.",
+      "verified_facts": [
+        "Analyst reiterated a Buy rating for McGraw Hill",
+        "Price target maintained at $19",
+        "Growth attributed to AI-driven initiatives and ELA momentum"
+      ],
+      "warnings": [
+        "The source is an aggregator (TipRanks) reporting on third-party analyst sentiment rather than a direct company announcement.",
+        "The specific analyst firm and the date of the original research note are not explicitly detailed in the provided snippet."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill continues to see positive market recognition for its strategic focus on digital transformation. An analyst has reiterated a 'Buy' rating for the company, maintaining a $19 price target. This assessment highlights the firm's ongoing momentum in English Language Arts (ELA) and the successful integration of AI-driven tools into its learning platforms. We remain focused on supporting the team as they continue to scale these educational technologies to meet evolving classroom needs. #McGrawHill #EdTech #Education",
+        "investor": "Market confidence in McGraw Hill’s growth trajectory remains strong, with analysts recently reiterating a 'Buy' rating and maintaining a $19 price target. The valuation reflects the company's successful execution of its AI-driven product strategy and sustained momentum within its English Language Arts portfolio. By leveraging technology to enhance learning outcomes, McGraw Hill is well-positioned to capture further value in the global education market. We look forward to the company's continued progress in delivering scalable, high-impact educational solutions. #Investment #EdTech #Growth",
+        "people": "It is encouraging to see the hard work of the McGraw Hill team reflected in recent market analysis. The company has received a reiterated 'Buy' rating with a $19 price target, underscoring the impact of their recent initiatives in AI-driven learning and English Language Arts. This recognition is a testament to the dedication of the teams developing and deploying these innovative educational tools. We are proud to support McGraw Hill as they continue to advance the future of learning. #TeamSuccess #Innovation #McGrawHill"
+      },
+      "status": "needs_review",
+      "discovered_via": "Google News RSS"
     }
   ]
 }
