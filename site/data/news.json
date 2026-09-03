@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T14:08:13.893673+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on McGraw Hill's acquisition of Teachally, alongside one additional sector news item.",
+  "generated_at": "2026-09-03T06:49:17.025767+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, with no specific news to report from Petainer, Roof-Maker, or UOE.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-02T06:49:11.746497+00:00",
+  "last_digest_sent_at": "2026-09-03T06:49:17.025767+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 2,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "34f9a0b394c2933e",
@@ -345,20 +345,6 @@
       "summary": "Escher's tenth edition of the Future of Posts report details investment trends, operational successes, and market pressures from 98 global postal operators.",
       "angle": "Provides global benchmarking data on operational strategies and competitive pressures relevant to UK mail and parcel delivery.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8918ad47b649344c",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Southend nearly nine in ten report Royal Mail not improved",
-      "url": "https://www.echo-news.co.uk/news/26486184.southend-nearly-nine-ten-report-royal-mail-not-improved/",
-      "source": "echo-news.co.uk",
-      "published_at": "2026-08-24T03:30:00+00:00",
-      "first_seen": "2026-08-24T14:07:42.586416+00:00",
-      "score": 75,
-      "summary": "A survey of Southend and Leigh residents indicates that 88 per cent report Royal Mail's postal service has not improved or has worsened since April.",
-      "angle": "Highlights ongoing service reliability issues at the dominant incumbent, potentially driving customer churn toward alternative delivery providers.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "028d42ac792ea4cc",
@@ -571,6 +557,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b039b8262bdb4359",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Special Olympics GB features DRS trial to assess accessibility",
+      "url": "https://www.packagingnews.co.uk/news/markets/drinks/special-olympics-gb-features-drs-trial-to-assess-accessibility-02-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-02T08:47:19+00:00",
+      "first_seen": "2026-09-03T06:49:17.025767+00:00",
+      "score": 85,
+      "summary": "Coca-Cola Europacific Partners and partners conducted a Deposit Return Scheme trial at the Special Olympics GB National Summer Games to assess accessibility ahead of the 2027 UK launch.",
+      "angle": "Provides critical insights into consumer interaction with reverse vending infrastructure ahead of mandatory UK-wide DRS implementation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9829cfef39184d27",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -582,20 +582,6 @@
       "score": 85,
       "summary": "HMRC data reveals that 37% of plastic packaging remains taxable under the Plastic Packaging Tax, with revenues falling to £250m as recycled content adoption stagnates.",
       "angle": "Regulatory pressure and potential future mandatory recycled-content targets directly impact PET packaging manufacturing and material sourcing strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b6d8b3de7a1d2255",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Packaging companies ‘forced to absorb costs due to currency volatility’",
-      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/packaging-companies-forced-to-absorb-costs-due-to-currency-volatility-26-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-26T12:18:06+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
-      "score": 85,
-      "summary": "UK packaging companies are absorbing significant currency costs as geopolitical volatility impacts the price of dollar-linked commodities like food-grade plastics.",
-      "angle": "Highlights systemic FX risks and margin pressure for manufacturers reliant on dollar-denominated raw material inputs.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -669,6 +655,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b01d0469917a3434",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "ACS welcomes new government taskforce for community renewal",
+      "url": "https://www.talkingretail.com/news/industry-news/acs-welcomes-new-government-taskforce-for-community-renewal-02-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-02T13:53:13+00:00",
+      "first_seen": "2026-09-03T06:49:17.025767+00:00",
+      "score": 85,
+      "summary": "The government has launched a cross-departmental taskforce to regenerate high streets, with the Association of Convenience Stores highlighting the essential role of post offices in local communities.",
+      "angle": "Policy focus on high street regeneration and the essential status of post offices impacts long-term retail strategy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "dad8c32216314054",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Government must use budget to cut business costs if it wants growth, says ACS",
+      "url": "https://www.talkingretail.com/news/industry-news/government-must-use-budget-to-cut-business-costs-if-it-wants-growth-says-acs-02-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-02T11:46:37+00:00",
+      "first_seen": "2026-09-03T06:49:17.025767+00:00",
+      "score": 85,
+      "summary": "The Association of Convenience Stores has urged the government to reduce business rates, employment costs, and retail crime in the upcoming budget to support struggling local shops.",
+      "angle": "Highlights critical policy advocacy regarding operational cost burdens and regulatory pressures facing independent UK retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "99418bfe0b9c2217",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -680,34 +694,6 @@
       "score": 85,
       "summary": "The confirmation of the UK Deposit Return Scheme Producer Fee prompts retailers to engage suppliers regarding pricing, stock changes, and operational readiness before the October 2027 launch.",
       "angle": "Regulatory compliance and supply chain adjustments for in-scope drinks products sold within retail outlets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "829829b457e6b87a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "A connected approach to retail crime inside and outside the store | Viewpoint: Beth Worrall",
-      "url": "https://www.talkingretail.com/opinion/talking-points/a-connected-approach-to-retail-crime-inside-and-outside-the-store-viewpoint-beth-worrall-26-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-26T12:07:24+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
-      "score": 85,
-      "summary": "New Metropolitan Police technology allows retailers to submit evidence directly, significantly increasing the rate of criminal disposals for shoplifting cases.",
-      "angle": "Highlights the importance of collaborative reporting and in-store communication technology for managing retail crime and staff safety.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "39c0841efce45e5f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ACS highlights importance of flexible working options in convenience retail",
-      "url": "https://www.talkingretail.com/featured/acs-highlights-importance-of-flexible-working-options-in-convenience-retail-25-08-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-08-25T13:43:34+00:00",
-      "first_seen": "2026-08-26T14:08:05.252781+00:00",
-      "score": 85,
-      "summary": "The Association of Convenience Stores is lobbying the government to protect flexible employment practices within the convenience retail sector during consultations on zero-hours contract reforms.",
-      "angle": "Regulatory changes to employment rights and shift flexibility directly impact operational costs and staffing models for independent retailers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -823,6 +809,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7a20cfc91f740e71",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "What does Andy Burnham’s devolution drive mean for construction?",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/what-does-andy-burnhams-devolution-drive-mean-for-construction-02-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-02T11:46:47+00:00",
+      "first_seen": "2026-09-03T06:49:17.025767+00:00",
+      "score": 75,
+      "summary": "Prime Minister Andy Burnham has announced a devolution drive to grant local leaders greater control over planning, housing, and infrastructure funding to stimulate regional growth.",
+      "angle": "Devolution may accelerate housing delivery and regional infrastructure projects, potentially increasing demand for construction products and glazing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a29e92aea82f0783",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -862,20 +862,6 @@
       "score": 75,
       "summary": "A report analyzing 400 public sector projects indicates that late contractor appointments significantly increase construction costs due to design and buildability issues.",
       "angle": "Highlights the industry shift towards early contractor involvement, impacting how glazing specifications and supply chain interfaces are managed.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b3220d74d63d4e3e",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Collateral damage: How the Iran war is hitting UK construction",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/features/collateral-damage-how-the-iran-war-is-hitting-uk-construction-27-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-27T09:58:21+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 75,
-      "summary": "The Iran war is causing volatility in energy markets and supply chains, creating additional stress for the UK construction sector.",
-      "angle": "Highlights macroeconomic risks to material costs and supply chain stability for UK construction product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -927,14 +913,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 100,
-    "llm_requests_attempted": 54,
-    "llm_requests_succeeded": 54,
+    "providers_succeeded": 90,
+    "queued_candidates": 125,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 13,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
-    "carried_forward": 1
+    "skipped_recently_evaluated": 8,
+    "carried_forward": 2
   }
 }
