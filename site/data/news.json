@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T14:08:19.213521+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-09-04T06:49:17.589898+00:00",
+  "digest_intro": "Good morning. Today's briefing highlights the Florida Department of Education's approval of McGraw Hill's K-12 math programs.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-03T06:49:17.025767+00:00",
+  "last_digest_sent_at": "2026-09-04T06:49:17.589898+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 1,
+      "story_count": 2,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,9 +251,39 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 2,
-  "todays_story_count": 0,
+  "story_count": 3,
+  "todays_story_count": 1,
   "stories": [
+    {
+      "id": "f8cf21fcb3a59173",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill K-12 Math Programs Approved by Florida Department of Education Through State Adoption Process - News-Press NOW",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQazlyTXR4Q01mejZpNVBhZ2pxOTVGWDJZaVRHRVFDOGJ5eFBJbXpkV29lY21lcTQtX2haOGdadVhOU3Y3aVlSV0ZOY1o1MkhTcF8zTXZlQnhLYmVrblhpdlpGUUtCOTRyWWRCVXFMdTFfVVJRTURCaktWTHptazF1X3pYU1VidWMteEgwdDZnVloxR1plQUs4Y0R5LUtaRWRfYVRIY2tZOExrWGFLX0hFTUVQX0tJd09fMlhiX3VEdGFKOW1vcjRBRHJFZXhmWlJFVDM2ZGRVSjhfanVMU0V5OXRsLUtzNGZOeU5MeUs0MklNUWs4cTV3SnpLUWpVdmZUaVFDVmcwQkhLbDkzdVdqaFJiQ0hhNHdRS0E?oc=5",
+      "source": "News-Press NOW",
+      "published_at": "2026-09-03T12:51:14+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "The Florida Department of Education has officially approved McGraw Hill's K-12 mathematics programs through its state adoption process.",
+      "why_it_matters": "State-level adoption in Florida represents a significant commercial milestone, validating the quality of McGraw Hill's curriculum and securing access to a major market for its K-12 learning solutions.",
+      "verified_facts": [
+        "McGraw Hill's K-12 math programs received approval from the Florida Department of Education.",
+        "The approval was granted through the state's formal adoption process."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill’s K-12 mathematics programmes have been officially approved by the Florida Department of Education. This achievement follows the state’s rigorous adoption process, marking a significant milestone for the company’s curriculum offerings. By securing this approval, McGraw Hill continues to demonstrate its commitment to providing high-quality, standards-aligned learning materials to students and educators across Florida. This development reinforces the company’s position as a trusted partner in the K-12 education sector, ensuring that its resources meet the specific academic requirements set by the state. We look forward to seeing the positive impact these programmes will have in classrooms throughout the region. #Education #EdTech #McGrawHill",
+        "investor": "McGraw Hill has successfully navigated the Florida Department of Education’s state adoption process, securing approval for its K-12 mathematics portfolio. This regulatory milestone is a key indicator of the company’s product strength and its ability to scale within large, competitive state markets. State-level adoptions are a critical driver of long-term commercial growth in the education publishing sector, providing a stable foundation for revenue and market penetration. This success underscores the efficacy of McGraw Hill’s investment in curriculum development and its alignment with evolving educational standards. We continue to support the team as they expand their reach and deliver high-impact learning solutions to a broader student base. #Growth #Education #NextWavePartners",
+        "people": "Congratulations to the team at McGraw Hill on the recent approval of their K-12 mathematics programmes by the Florida Department of Education. Achieving state-level adoption is a testament to the hard work, pedagogical expertise, and dedication of the product and development teams involved in this process. Their commitment to creating rigorous, accessible, and effective learning tools ensures that educators have the resources they need to support student success. It is rewarding to see the team’s efforts recognised by state authorities, further solidifying McGraw Hill’s reputation for excellence in the edtech space. Well done to everyone who contributed to this significant achievement. #TeamSuccess #Education #Innovation"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
     {
       "id": "34f9a0b394c2933e",
       "company": "McGraw Hill",
@@ -344,20 +374,6 @@
       "score": 75,
       "summary": "Escher's tenth edition of the Future of Posts report details investment trends, operational successes, and market pressures from 98 global postal operators.",
       "angle": "Provides global benchmarking data on operational strategies and competitive pressures relevant to UK mail and parcel delivery.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "028d42ac792ea4cc",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "UPS’ investments across Europe, Asia-Pacific and the Americas help businesses navigate changing trade routes",
-      "url": "https://postandparcel.info/162654/news/e-commerce/ups-investments-across-europe-asia-pacific-and-the-americas-help-businesses-navigate-changing-trade-routes/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-24T15:16:11+00:00",
-      "first_seen": "2026-09-02T14:08:13.893673+00:00",
-      "score": 65,
-      "summary": "UPS is investing over $2 billion globally to enhance service speed, customer control, and supply chain resilience.",
-      "angle": "Highlights global logistics infrastructure investment trends and competitive pressure on service standards within the international parcel market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -473,6 +489,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "65c5740ba8e01604",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Signiant at IBC 2026: Acceleration Beyond Just File Transfers",
+      "url": "https://postperspective.com/signiant-at-ibc-2026-acceleration-beyond-just-file-transfers/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-03T19:06:04+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 85,
+      "summary": "Signiant is expanding its platform at IBC 2026 to include AI-driven content management, automated quality control, and collaborative review tools that operate directly on existing storage infrastructure.",
+      "angle": "Post-production facilities are increasingly adopting AI-integrated, storage-agnostic workflows to improve content accessibility, review efficiency, and automated delivery validation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "162e6cb78d9f79ac",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -515,17 +545,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bc2a7ec27bb916a5",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "EditShare Updates at IBC Include EFS, Flow AI and MediaSilo",
-      "url": "https://postperspective.com/editshare-to-update-efs-flow-ai-and-mediasilo-at-ibc/",
-      "source": "postperspective.com",
-      "published_at": "2026-08-25T19:26:18+00:00",
-      "first_seen": "2026-08-27T14:08:03.725380+00:00",
-      "score": 75,
-      "summary": "EditShare is launching new EFS storage configurations with integrated on-premise GPU-powered AI processing and expanded multilingual transcription capabilities for post-production workflows.",
-      "angle": "Advancements in on-premise AI-driven media management and secure remote collaboration tools impact post-production operational efficiency and data security.",
+      "id": "be84b9adf6d413a6",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Rhenus Group warns exporters of immediate EU packaging regulation impact",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/rhenus-group-warns-exporters-of-immediate-eu-packaging-regulation-impact-03-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-03T12:57:37+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 95,
+      "summary": "The EU's Packaging and Packaging Waste Regulation (PPWR) is now mandatory, requiring UK exporters to ensure packaging is recyclable, reusable, and compliant with new labelling and documentation standards.",
+      "angle": "Direct regulatory impact on cross-border packaging standards, compliance documentation, and recycled content requirements for EU market access.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "44a49f870901cbe8",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Exchange for Change to forgo DRS producer fees for 15 months",
+      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/exchange-for-change-to-forgo-drs-producer-fees-for-15-months-03-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-03T10:46:19+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 95,
+      "summary": "Exchange for Change will charge zero producer fees for the first 15 months of the UK's deposit return scheme, which launches in October 2027.",
+      "angle": "Provides critical regulatory clarity on cost structures for PET packaging producers ahead of the national DRS implementation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -554,34 +598,6 @@
       "score": 90,
       "summary": "The British Retail Consortium is calling for the PRN system to be phased out after plastic PRN costs doubled to over £370 per tonne in 2026.",
       "angle": "Regulatory volatility and rising compliance costs for plastic packaging directly impact the operational environment for PET manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b039b8262bdb4359",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Special Olympics GB features DRS trial to assess accessibility",
-      "url": "https://www.packagingnews.co.uk/news/markets/drinks/special-olympics-gb-features-drs-trial-to-assess-accessibility-02-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-02T08:47:19+00:00",
-      "first_seen": "2026-09-03T06:49:17.025767+00:00",
-      "score": 85,
-      "summary": "Coca-Cola Europacific Partners and partners conducted a Deposit Return Scheme trial at the Special Olympics GB National Summer Games to assess accessibility ahead of the 2027 UK launch.",
-      "angle": "Provides critical insights into consumer interaction with reverse vending infrastructure ahead of mandatory UK-wide DRS implementation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9829cfef39184d27",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "One third of plastics taxable under PPT – with revenues dropping to £250m",
-      "url": "https://www.packagingnews.co.uk/news/environment/plastic-packaging-tax/one-third-of-plastics-taxable-under-ppt-with-revenues-dropping-to-250m-28-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-27T23:01:22+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 85,
-      "summary": "HMRC data reveals that 37% of plastic packaging remains taxable under the Plastic Packaging Tax, with revenues falling to £250m as recycled content adoption stagnates.",
-      "angle": "Regulatory pressure and potential future mandatory recycled-content targets directly impact PET packaging manufacturing and material sourcing strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -655,6 +671,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "92070c7d2c9db299",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "BRC calls on chancellor to ‘boost job creation’ by raising NICs threshold",
+      "url": "https://www.talkingretail.com/featured/brc-calls-on-chancellor-to-boost-job-creation-by-raising-nics-threshold-03-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-03T10:14:14+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 90,
+      "summary": "The British Retail Consortium has urged the Chancellor to raise the employer National Insurance Contributions threshold from £5,000 to £6,000 to support retail job creation.",
+      "angle": "Rising employment costs significantly impact retail margins and operational capacity for staffing across the UK sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "241fa46b7cddba94",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Digital proof of age adoption must be cross-compatible, says ACS",
+      "url": "https://www.talkingretail.com/news/industry-news/digital-proof-of-age-adoption-must-be-cross-compatible-says-acs-03-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-03T11:59:17+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 85,
+      "summary": "The Association of Convenience Stores is calling for interoperability in digital proof of age schemes as regulations expand to include alcohol sales.",
+      "angle": "Operational guidance for retailers adopting digital ID verification systems for age-restricted product sales.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b01d0469917a3434",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -666,34 +710,6 @@
       "score": 85,
       "summary": "The government has launched a cross-departmental taskforce to regenerate high streets, with the Association of Convenience Stores highlighting the essential role of post offices in local communities.",
       "angle": "Policy focus on high street regeneration and the essential status of post offices impacts long-term retail strategy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dad8c32216314054",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Government must use budget to cut business costs if it wants growth, says ACS",
-      "url": "https://www.talkingretail.com/news/industry-news/government-must-use-budget-to-cut-business-costs-if-it-wants-growth-says-acs-02-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-02T11:46:37+00:00",
-      "first_seen": "2026-09-03T06:49:17.025767+00:00",
-      "score": 85,
-      "summary": "The Association of Convenience Stores has urged the government to reduce business rates, employment costs, and retail crime in the upcoming budget to support struggling local shops.",
-      "angle": "Highlights critical policy advocacy regarding operational cost burdens and regulatory pressures facing independent UK retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "99418bfe0b9c2217",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "UK DRS: what retailers and wholesalers need to be asking suppliers now | Viewpoint: Bill Power",
-      "url": "https://www.talkingretail.com/opinion/talking-points/uk-drs-what-retailers-and-wholesalers-need-to-be-asking-suppliers-now-viewpoint-bill-power-01-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-01T12:05:45+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
-      "score": 85,
-      "summary": "The confirmation of the UK Deposit Return Scheme Producer Fee prompts retailers to engage suppliers regarding pricing, stock changes, and operational readiness before the October 2027 launch.",
-      "angle": "Regulatory compliance and supply chain adjustments for in-scope drinks products sold within retail outlets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -795,17 +811,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "33ae07d6d3a7aed5",
+      "id": "dc8e20205d91c8a5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Assuta clinic in new sperm mix-up",
-      "url": "https://www.progress.org.uk/assuta-clinic-in-new-sperm-mix-up/",
+      "title": "Scotland to consider expanding NHS IVF",
+      "url": "https://www.progress.org.uk/scotland-to-consider-expanding-nhs-ivf/",
       "source": "bionews.org.uk",
-      "published_at": "2026-08-24T16:41:07+00:00",
-      "first_seen": "2026-08-25T06:48:38.441788+00:00",
+      "published_at": "2026-09-01T17:07:06+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 65,
+      "summary": "Scotland's National Fertility Group is reviewing NHS IVF access criteria, including potential expansion for single people and couples with existing children, alongside donor gamete and fertility preservation services.",
+      "angle": "Signals a potential shift in public policy and demand for broader IVF access and fertility preservation services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ce01a454e98c54a9",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Laing O’Rourke’s de-risk strategy keeps it in profit",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/laing-orourkes-de-risk-strategy-keeps-it-in-profit-03-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-03T11:50:33+00:00",
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
       "score": 75,
-      "summary": "An Israeli fertility clinic is facing renewed scrutiny after a DNA test confirmed a patient was treated with the wrong donor sperm for her second child.",
-      "angle": "Highlights critical clinical governance risks and the severe reputational and legal consequences of laboratory identification errors.",
+      "summary": "Laing O’Rourke has returned to profit by adopting a disciplined project selection strategy, rejecting high-risk fixed-price contracts and increasing investment in offsite manufacturing and modern construction methods.",
+      "angle": "Highlights a major contractor's shift toward vertical integration and offsite manufacturing, impacting supply chain and procurement expectations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -848,20 +878,6 @@
       "score": 75,
       "summary": "Data from 4,800 UK construction projects shows that while landfill diversion has reached 99.5 per cent, waste intensity per square metre has increased by over 10 per cent.",
       "angle": "Industry focus is shifting from waste management to circular design and reducing material waste at the specification stage.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "31fc718645c87991",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "What the data tells us about late contractor appointment",
-      "url": "https://www.constructionnews.co.uk/supply-chain/what-the-data-tells-us-about-late-contractor-appointment-27-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-27T12:16:04+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 75,
-      "summary": "A report analyzing 400 public sector projects indicates that late contractor appointments significantly increase construction costs due to design and buildability issues.",
-      "angle": "Highlights the industry shift towards early contractor involvement, impacting how glazing specifications and supply chain interfaces are managed.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -913,14 +929,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 91,
-    "llm_requests_attempted": 53,
-    "llm_requests_succeeded": 53,
-    "dropped_no_valid_date": 26,
-    "dropped_thin_page": 10,
-    "dropped_not_about_company": 2,
-    "skipped_recently_evaluated": 4,
+    "providers_succeeded": 85,
+    "queued_candidates": 121,
+    "llm_requests_attempted": 74,
+    "llm_requests_succeeded": 74,
+    "dropped_no_valid_date": 25,
+    "dropped_thin_page": 22,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 2
   }
 }
