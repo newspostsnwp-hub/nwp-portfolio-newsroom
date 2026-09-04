@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T06:49:17.589898+00:00",
-  "digest_intro": "Good morning. Today's briefing highlights the Florida Department of Education's approval of McGraw Hill's K-12 math programs.",
+  "generated_at": "2026-09-04T14:08:17.526444+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update regarding McGraw Hill's recent curriculum approval in Florida, alongside one additional sector news item.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-04T06:49:17.589898+00:00",
   "companies": [
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -363,6 +363,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7a14969da90b275d",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Paypoint: Security is front of mind for many shoppers",
+      "url": "https://postandparcel.info/162698/news/e-commerce/paypoint-security-is-front-of-mind-for-many-shoppers/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-04T07:36:31+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 75,
+      "summary": "Collect+ data indicates that UK consumers are increasingly prioritising secure parcel delivery options due to rising concerns regarding porch piracy.",
+      "angle": "Highlights growing consumer demand for secure delivery solutions, influencing service expectations and operational priorities within the UK logistics sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "824f62f1cd4d1710",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -433,6 +447,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5845f4755e1a73b6",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "China further reduces tax incentives for EVs",
+      "url": "https://www.electrive.com/2026/09/04/china-further-reduces-tax-incentives-for-evs/",
+      "source": "electrive.com",
+      "published_at": "2026-09-04T12:00:00+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 65,
+      "summary": "China has introduced a two per cent consumption tax on lithium-ion batteries, which is scheduled to increase to four per cent by September 2027.",
+      "angle": "Rising battery production costs in China may impact global supply chain pricing for e-bike manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7cce201320d0ab69",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -472,20 +500,6 @@
       "score": 65,
       "summary": "A Safeloop study identifies high transport and disassembly costs as primary barriers to the economic viability of lithium-ion battery recycling in Europe.",
       "angle": "Regulatory mandates and evolving circular economy requirements will impact long-term battery supply chain costs and sustainability strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f127441f6b5591a2",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Lyten to acquire insolvent battery cell manufacturer Morrow Batteries",
-      "url": "https://www.electrive.com/2026/08/27/lyten-to-acquire-insolvent-battery-cell-manufacturer-morrow-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-08-27T08:56:39+00:00",
-      "first_seen": "2026-08-27T14:08:03.725380+00:00",
-      "score": 45,
-      "summary": "US battery developer Lyten has signed a letter of intent to acquire the insolvent Norwegian battery cell manufacturer Morrow Batteries to establish a European production base.",
-      "angle": "Consolidation in the European battery manufacturing market highlights ongoing challenges in scaling production and securing long-term investment.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -545,17 +559,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "be84b9adf6d413a6",
+      "id": "8c3272847cccf70d",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
       "title": "Rhenus Group warns exporters of immediate EU packaging regulation impact",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/rhenus-group-warns-exporters-of-immediate-eu-packaging-regulation-impact-03-09-2026",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/rhenus-group-warns-exporters-of-immediate-eu-packaging-regulation-impact-04-09-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-03T12:57:37+00:00",
-      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "published_at": "2026-09-04T09:57:37+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
       "score": 95,
-      "summary": "The EU's Packaging and Packaging Waste Regulation (PPWR) is now mandatory, requiring UK exporters to ensure packaging is recyclable, reusable, and compliant with new labelling and documentation standards.",
-      "angle": "Direct regulatory impact on cross-border packaging standards, compliance documentation, and recycled content requirements for EU market access.",
+      "summary": "The EU's new Packaging and Packaging Waste Regulation (PPWR) is now mandatory, requiring UK exporters to ensure packaging is recyclable, reusable, and compliant with new labelling and documentation standards.",
+      "angle": "Direct regulatory impact on cross-border packaging standards, compliance documentation, and material design requirements for EU market access.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -587,17 +601,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3957957289e639f1",
+      "id": "ff6e894de2edab94",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "BRC calls for reform as PRN charges ‘double in one year’",
-      "url": "https://www.packagingnews.co.uk/news/markets/food/brc-calls-for-reform-as-prn-charges-double-in-one-year-01-09-2026",
+      "title": "London Packaging Week | PackUK to deliver critical EPR updates",
+      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-packuk-to-deliver-critical-epr-updates-04-09-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-01T11:01:19+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "published_at": "2026-09-04T10:45:52+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
       "score": 90,
-      "summary": "The British Retail Consortium is calling for the PRN system to be phased out after plastic PRN costs doubled to over £370 per tonne in 2026.",
-      "angle": "Regulatory volatility and rising compliance costs for plastic packaging directly impact the operational environment for PET manufacturers.",
+      "summary": "PackUK and UK Packaging PRO will host sessions at London Packaging Week 2026 to discuss pEPR updates, future roadmaps, and the transition to fee structures based on recyclability.",
+      "angle": "Regulatory shifts in EPR and recyclability-based fee structures directly impact operational costs and packaging design requirements for manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -685,6 +699,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3839d28f741b99d8",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retail needs Budget boost, says BRC as data shows sluggish footfall",
+      "url": "https://www.talkingretail.com/news/industry-news/retail-needs-budget-boost-says-brc-as-data-shows-sluggish-footfall-04-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-04T10:04:39+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 85,
+      "summary": "Total UK retail footfall declined by 1.7% in August, with high street footfall falling by 3.1%, though the pace of decline is showing signs of easing.",
+      "angle": "Highlights ongoing high street traffic challenges and the critical need for government intervention on business rates and costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "241fa46b7cddba94",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -699,20 +727,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b01d0469917a3434",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ACS welcomes new government taskforce for community renewal",
-      "url": "https://www.talkingretail.com/news/industry-news/acs-welcomes-new-government-taskforce-for-community-renewal-02-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-02T13:53:13+00:00",
-      "first_seen": "2026-09-03T06:49:17.025767+00:00",
-      "score": 85,
-      "summary": "The government has launched a cross-departmental taskforce to regenerate high streets, with the Association of Convenience Stores highlighting the essential role of post offices in local communities.",
-      "angle": "Policy focus on high street regeneration and the essential status of post offices impacts long-term retail strategy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bc7c527df0fe5132",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -724,6 +738,20 @@
       "score": 90,
       "summary": "An MIT committee report recommends overhauling curricula and assessment methods, including moving toward competency-based grading, to address the challenges posed by generative AI in higher education.",
       "angle": "Signals a potential shift in institutional demand for assessment tools and curriculum design away from traditional grading models.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bdd94208bf6ad5b7",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Trump Administration Threatens Colleges’ Tax-Exempt Status",
+      "url": "https://www.insidehighered.com/news/government/2026/09/04/trump-administration-threatens-colleges-tax-exempt-status",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-04T07:00:00+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 85,
+      "summary": "The Trump administration has proposed a rule to revoke the tax-exempt status of private nonprofit colleges that maintain admissions or scholarship programs based on race.",
+      "angle": "Significant regulatory shift impacting the financial stability and operational policies of higher education institutions, a key customer segment.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -752,20 +780,6 @@
       "score": 85,
       "summary": "Paul LeBlanc’s new book argues that higher education must shift from knowledge transfer toward developing human skills to remain relevant amidst AI-driven technological disruption.",
       "angle": "Highlights the strategic shift toward hyper-personalised learning platforms and human-centric curricula in response to AI automation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "87f5ee0e7c941155",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Now Is the Time to Plan and Prepare Your Students and Colleagues on Workplace AI",
-      "url": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/09/02/time-plan-and-prepare-students-and-colleagues-ai",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-02T07:00:00+00:00",
-      "first_seen": "2026-09-02T14:08:13.893673+00:00",
-      "score": 85,
-      "summary": "Higher education experts argue that rapid AI model updates necessitate integrating AI fluency and practical application modules directly into curricula to prepare students for the modern workforce.",
-      "angle": "Highlights the urgent demand for adaptive, AI-integrated educational content and professional development tools in higher education publishing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -825,6 +839,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "37a4d93dca9df7be",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Almost 7,500 firms in critical financial distress as construction output declines again",
+      "url": "https://www.constructionnews.co.uk/financial/almost-7500-firms-in-critical-financial-distress-as-construction-output-declines-again-04-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-04T11:29:06+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 85,
+      "summary": "A report from BTG indicates that 7,458 UK construction businesses were in critical financial distress during Q2 2026, representing a 6.6 per cent year-on-year increase.",
+      "angle": "Highlights significant sector-wide financial instability and declining construction output, impacting supply chain health and project demand.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9594b575240567db",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction administrations fall for second consecutive month",
+      "url": "https://www.constructionnews.co.uk/financial/monthly-construction-administrations/construction-administrations-fall-for-second-consecutive-month-04-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-04T11:16:12+00:00",
+      "first_seen": "2026-09-04T14:08:17.526444+00:00",
+      "score": 75,
+      "summary": "Construction sector administrations fell for the second consecutive month, with 25 firms collapsing in August compared to 32 in July.",
+      "angle": "Indicates a potential stabilisation in the construction supply chain and reduced insolvency risk among contractors and clients.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ce01a454e98c54a9",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -850,34 +892,6 @@
       "score": 75,
       "summary": "Prime Minister Andy Burnham has announced a devolution drive to grant local leaders greater control over planning, housing, and infrastructure funding to stimulate regional growth.",
       "angle": "Devolution may accelerate housing delivery and regional infrastructure projects, potentially increasing demand for construction products and glazing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a29e92aea82f0783",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "The risks of rushing hospital builds",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-risks-of-rushing-hospital-builds-01-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-01T09:06:23+00:00",
-      "first_seen": "2026-09-02T06:49:11.746497+00:00",
-      "score": 75,
-      "summary": "The NHS Hospital 2.0 programme aims to deliver standardised hospital builds using modern methods of construction, though the lack of a prototype risks locking in design flaws.",
-      "angle": "Highlights shifts toward standardised construction methods and stricter regulatory oversight in large-scale public sector infrastructure projects.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "905e1139621c1667",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Landfill diversion is working – but waste is still rising",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/landfill-diversion-is-working-but-waste-is-still-rising-28-08-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-08-28T11:40:44+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 75,
-      "summary": "Data from 4,800 UK construction projects shows that while landfill diversion has reached 99.5 per cent, waste intensity per square metre has increased by over 10 per cent.",
-      "angle": "Industry focus is shifting from waste management to circular design and reducing material waste at the specification stage.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -929,14 +943,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 121,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
+    "providers_succeeded": 82,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 73,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 22,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
-    "carried_forward": 2
+    "skipped_recently_evaluated": 6,
+    "carried_forward": 3
   }
 }
