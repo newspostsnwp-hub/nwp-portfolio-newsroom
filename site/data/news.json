@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T14:08:17.526444+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update regarding McGraw Hill's recent curriculum approval in Florida, alongside one additional sector news item.",
+  "generated_at": "2026-09-05T06:49:20.129913+00:00",
+  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-04T06:49:17.589898+00:00",
+  "last_digest_sent_at": "2026-09-05T06:49:20.129913+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 3,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "f8cf21fcb3a59173",
@@ -755,6 +755,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2e0f7f671ece352a",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Trump’s Latest Move Threatens Any College That Seeks to Promote Equality",
+      "url": "https://www.insidehighered.com/opinion/views/2026/09/04/latest-trump-move-threatens-colleges-seeking-promote-equality",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-04T07:00:00+00:00",
+      "first_seen": "2026-09-05T06:49:20.129913+00:00",
+      "score": 85,
+      "summary": "The U.S. Treasury Department has introduced new rules allowing the IRS to revoke the tax-exempt status of schools providing targeted support to minority students.",
+      "angle": "Significant regulatory shift impacting institutional funding, operational compliance, and diversity-focused programming within the U.S. higher education market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bb4547fc98351fad",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -766,20 +780,6 @@
       "score": 85,
       "summary": "A new EAB survey indicates that colleges are struggling with declining student academic and social readiness, alongside significant budget and staffing constraints that hinder student retention efforts.",
       "angle": "Highlights growing institutional demand for scalable, technology-driven student support solutions to address capacity and resource gaps.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ac8844d31bca3e10",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Set the World on Fire",
-      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/09/03/set-world-fire",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-03T07:00:00+00:00",
-      "first_seen": "2026-09-03T14:08:19.213521+00:00",
-      "score": 85,
-      "summary": "Paul LeBlanc’s new book argues that higher education must shift from knowledge transfer toward developing human skills to remain relevant amidst AI-driven technological disruption.",
-      "angle": "Highlights the strategic shift toward hyper-personalised learning platforms and human-centric curricula in response to AI automation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -943,14 +943,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 73,
-    "llm_requests_succeeded": 73,
+    "providers_succeeded": 85,
+    "queued_candidates": 122,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 25,
-    "dropped_thin_page": 26,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 3
   }
 }
