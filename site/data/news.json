@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T14:08:16.230100+00:00",
-  "digest_intro": "Good morning. We have no portfolio updates to share today, but please find one sector item of note below for your review.",
+  "generated_at": "2026-09-06T06:48:26.935137+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-05T06:49:20.129913+00:00",
+  "last_digest_sent_at": "2026-09-06T06:48:26.935137+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -615,6 +615,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "114e857681c2cf3c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Nvidia $12 . 9B Hugging Face Deal Will Aid Enterprise AI Push : Partners",
+      "url": "https://www.crn.com/news/ai/2026/nvidia-s-12-9b-hugging-face-deal-will-aid-enterprise-ai-push-partners",
+      "source": "crn.com",
+      "published_at": "2026-09-04T18:30:00+00:00",
+      "first_seen": "2026-09-06T06:48:26.935137+00:00",
+      "score": 95,
+      "summary": "Nvidia has announced a $12.9 billion acquisition of open model repository Hugging Face to accelerate enterprise AI adoption and infrastructure sales.",
+      "angle": "Validates the shift toward open-source models for sovereign enterprise AI and the development of internal AI factories.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "a0c1cfb92cb1fbb0",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -626,20 +640,6 @@
       "score": 90,
       "summary": "Sovereign cloud AI capacity is projected to grow from 1 GW to 12 GW by 2035, driven by enterprise demand for local infrastructure, regulatory compliance, and data control.",
       "angle": "Validates the long-term market growth and strategic necessity of sovereign cloud infrastructure for enterprise and government data.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "23aea67df47d7d18",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Nvidia gave its first - ever year - ahead forecast a 70 % growth bombshell meant to silence AI bubble critics and circular financing doomsayers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-gave-first-ever-ahead-003936289.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-08-27T03:45:00+00:00",
-      "first_seen": "2026-08-27T06:49:03.451052+00:00",
-      "score": 90,
-      "summary": "Nvidia projects 70% revenue growth for the next fiscal year, driven by surging demand from sovereign AI, enterprise customers, and the widespread adoption of agentic AI systems.",
-      "angle": "Highlights massive, sustained demand for compute infrastructure within the sovereign and enterprise AI sectors.",
       "discovered_via": "GDELT"
     },
     {
@@ -943,14 +943,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 102,
-    "llm_requests_attempted": 51,
-    "llm_requests_succeeded": 51,
-    "dropped_no_valid_date": 25,
-    "dropped_thin_page": 26,
+    "providers_succeeded": 92,
+    "queued_candidates": 120,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 73,
+    "dropped_no_valid_date": 27,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 3
   }
 }
