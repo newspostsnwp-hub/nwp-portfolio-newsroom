@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T06:48:26.935137+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from Whitespace.",
+  "generated_at": "2026-09-06T14:07:28.805349+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-06T06:48:26.935137+00:00",
   "companies": [
@@ -220,7 +220,7 @@
       "website": "https://www.thinkfmt.com/",
       "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 1,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
@@ -907,34 +907,6 @@
       "summary": "An industry perspective argues that businesses must prioritize transparency regarding human oversight and AI limitations to build trust, rather than focusing solely on speed and automation capabilities.",
       "angle": "Highlights the critical need for safety-critical sectors to emphasize human-in-the-loop accountability over pure autonomous performance.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3b20b57cfd23e466",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Kodiak AI and AMD collaborate to advance computing power for driverless trucking",
-      "url": "https://roboticsandautomationnews.com/2026/08/27/kodiak-ai-and-amd-collaborate-to-advance-computing-power-for-driverless-trucking/104535/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-27T13:02:44+00:00",
-      "first_seen": "2026-08-27T14:08:03.725380+00:00",
-      "score": 65,
-      "summary": "Kodiak AI has partnered with AMD to integrate EPYC processors into its seventh-generation autonomous trucking platform to enhance sensor data processing and path-planning performance.",
-      "angle": "Highlights the critical role of high-performance, low-latency edge computing in scaling autonomous physical AI systems.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e136e1ce8d51cb67",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Agibot wins 46 medals to top World Humanoid Robot Games on debut",
-      "url": "https://roboticsandautomationnews.com/2026/08/27/agibot-wins-46-medals-to-top-world-humanoid-robot-games-on-debut/104508/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-27T11:02:31+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 65,
-      "summary": "Agibot secured 46 medals at the World Humanoid Robot Games, demonstrating the real-world deployment and dexterous manipulation capabilities of its mass-produced humanoid platforms.",
-      "angle": "Advances in general-purpose embodied AI and Sim2Real locomotion frameworks accelerate the feasibility of autonomous industrial inspection robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -943,14 +915,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 120,
-    "llm_requests_attempted": 73,
-    "llm_requests_succeeded": 73,
+    "providers_succeeded": 87,
+    "queued_candidates": 118,
+    "llm_requests_attempted": 70,
+    "llm_requests_succeeded": 70,
     "dropped_no_valid_date": 27,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 3
   }
 }
