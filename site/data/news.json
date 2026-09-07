@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T14:07:28.805349+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
+  "generated_at": "2026-09-07T06:48:30.471144+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, with no specific news to report from Petainer, Swytch, or Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-06T06:48:26.935137+00:00",
+  "last_digest_sent_at": "2026-09-07T06:48:30.471144+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -447,6 +447,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e1f69138cdd876a0",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "EVs now 33% cheaper to run than gasoline vehicles",
+      "url": "https://www.electrive.com/2026/09/07/evs-now-33-cheaper-to-run-than-gasoline-vehicles/",
+      "source": "electrive.com",
+      "published_at": "2026-09-07T05:00:00+00:00",
+      "first_seen": "2026-09-07T06:48:30.471144+00:00",
+      "score": 65,
+      "summary": "A study by the ICCT reports that battery-electric vehicles in the EU were 33 per cent cheaper to operate than gasoline cars in 2025.",
+      "angle": "Demonstrates strong consumer economic tailwinds for electric mobility adoption, reinforcing the value proposition of electrified transport alternatives.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5845f4755e1a73b6",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -486,20 +500,6 @@
       "score": 65,
       "summary": "Asahi Kasei has developed a pre-lithiation technology for silicon-based anodes that reportedly increases lithium-ion battery energy density by 10 per cent.",
       "angle": "Advancements in battery energy density and cost-efficiency directly impact the performance and affordability of e-bike power systems.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8f70056757790a77",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Study highlights potential solutions to economic barriers in battery recycling",
-      "url": "https://www.electrive.com/2026/08/28/study-highlights-economic-barriers-in-battery-recycling/",
-      "source": "electrive.com",
-      "published_at": "2026-08-28T10:20:36+00:00",
-      "first_seen": "2026-08-28T14:08:05.301932+00:00",
-      "score": 65,
-      "summary": "A Safeloop study identifies high transport and disassembly costs as primary barriers to the economic viability of lithium-ion battery recycling in Europe.",
-      "angle": "Regulatory mandates and evolving circular economy requirements will impact long-term battery supply chain costs and sustainability strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -587,20 +587,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "623ceb798d207879",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change unveils next steps in DRS launch plans",
-      "url": "https://www.packagingnews.co.uk/top-story/exchange-for-change-unveils-next-steps-in-drs-launch-plans-27-08-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-08-27T15:04:25+00:00",
-      "first_seen": "2026-08-28T06:49:04.199380+00:00",
-      "score": 95,
-      "summary": "Exchange for Change has confirmed that UK-wide deposit return schemes are scheduled to launch in October 2027, with a certified list of reverse vending machines expected by October 2024.",
-      "angle": "Regulatory implementation of DRS across the UK directly impacts PET packaging demand, recycling requirements, and circular economy strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ff6e894de2edab94",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -612,6 +598,20 @@
       "score": 90,
       "summary": "PackUK and UK Packaging PRO will host sessions at London Packaging Week 2026 to discuss pEPR updates, future roadmaps, and the transition to fee structures based on recyclability.",
       "angle": "Regulatory shifts in EPR and recyclability-based fee structures directly impact operational costs and packaging design requirements for manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4e79623bd057e88d",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "EverestLabs launches enhanced AI platform for recycling plants",
+      "url": "https://www.packagingnews.co.uk/news/environment/recycling/everestlabs-launches-enhanced-ai-platform-for-recycling-plants-04-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-04T08:02:08+00:00",
+      "first_seen": "2026-09-07T06:48:30.471144+00:00",
+      "score": 75,
+      "summary": "EverestLabs has launched an AI platform, Navigator, designed to improve automation, sorting efficiency, and predictive maintenance in recycling and material recovery facilities.",
+      "angle": "Enhanced sorting technology improves PET recovery rates and supports compliance with evolving extended producer responsibility regulations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -629,6 +629,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "bbbf1ce21c93595f",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Ex - head of MI6 warns foreign states have fingerprint all over public service tech",
+      "url": "https://www.aol.co.uk/articles/ex-head-mi6-warns-foreign-172155000.html",
+      "source": "aol.co.uk",
+      "published_at": "2026-09-06T18:15:00+00:00",
+      "first_seen": "2026-09-07T06:48:30.471144+00:00",
+      "score": 90,
+      "summary": "Former MI6 head Sir Richard Dearlove has warned that foreign state involvement in UK critical infrastructure poses significant national security risks, urging greater domestic technological independence.",
+      "angle": "Highlights growing political and public pressure for sovereign AI solutions over reliance on foreign-owned technology providers.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "a0c1cfb92cb1fbb0",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -643,31 +657,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "bbe861303aa5264c",
+      "id": "2f7debc8604aa68f",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "PM reaffirms Pakistan commitment to peaceful dispute resolution",
-      "url": "https://www.radio.gov.pk/01-09-2026/pm-reaffirms-pakistans-commitment-to-peaceful-dispute-resolution",
-      "source": "radio.gov.pk",
-      "published_at": "2026-09-01T11:30:00+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
+      "title": "AWS , Microsoft and Google Face a $600 Billion AI Question : Where Is the Return on AI Capex ?",
+      "url": "https://infotechlead.com/cloud/aws-microsoft-and-google-face-a-600-billion-ai-question-where-is-the-return-on-ai-capex-98190",
+      "source": "infotechlead.com",
+      "published_at": "2026-09-06T17:45:00+00:00",
+      "first_seen": "2026-09-07T06:48:30.471144+00:00",
       "score": 85,
-      "summary": "As Pakistan assumes the SCO chairmanship, the Prime Minister proposed establishing a sovereign AI infrastructure and governance framework to promote responsible and inclusive regional AI development.",
-      "angle": "Signals potential new international policy frameworks and collaborative infrastructure projects for sovereign AI development within the SCO region.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "ca8e60cb2c77b45d",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Top stocks in news : Symbiotech , EPL , Milky Mist , TBZ , Skyways , PVR Inox , Hy Tech , Cipla , Kotak Bank",
-      "url": "https://www.businesstoday.in/markets/stocks/story/top-stocks-in-news-symbiotech-epl-milky-mist-tbz-skyways-pvr-inox-hy-tech-cipla-kotak-bank-552424-2026-09-01",
-      "source": "businesstoday.in",
-      "published_at": "2026-09-01T04:45:00+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
-      "score": 85,
-      "summary": "E2E Networks has signed a binding term sheet with an India-based sovereign AI company for NVIDIA Blackwell cloud GPUs and services valued at approximately Rs 1,000 crore.",
-      "angle": "Highlights significant market demand for sovereign AI infrastructure and high-performance GPU cloud services in the Indian market.",
+      "summary": "Hyperscalers are investing hundreds of billions in AI infrastructure, shifting focus from market share to enterprise workload utilization and measurable economic returns from generative AI.",
+      "angle": "Highlights the critical industry shift toward proving ROI and infrastructure utilization for sovereign and enterprise AI deployments.",
       "discovered_via": "GDELT"
     },
     {
@@ -915,14 +915,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
+    "providers_succeeded": 83,
     "queued_candidates": 118,
     "llm_requests_attempted": 70,
     "llm_requests_succeeded": 70,
     "dropped_no_valid_date": 27,
     "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 7,
+    "skipped_recently_evaluated": 0,
     "carried_forward": 3
   }
 }
