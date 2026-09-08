@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T06:48:29.754058+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on Roof-Maker and one additional sector item for your review.",
+  "generated_at": "2026-09-08T14:07:39.270086+00:00",
+  "digest_intro": "Good morning, partners. Today's briefing includes one update on Roof-Maker, led by the 2026 press coverage, alongside two sector-related items.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-08T06:48:29.754058+00:00",
   "companies": [
@@ -11,7 +11,7 @@
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&tbm=nws",
@@ -384,6 +384,20 @@
   ],
   "sector_stories": [
     {
+      "id": "6a09455864e6d51c",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "EU approves new parcel fee and e-commerce rules",
+      "url": "https://postandparcel.info/162737/news/e-commerce/eu-approves-new-parcel-fee-and-e-commerce-rules/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-08T03:55:39+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 85,
+      "summary": "The EU is overhauling its customs system by introducing a new small parcel handling fee, centralising customs authority, and making e-commerce platforms responsible for compliance.",
+      "angle": "Significant regulatory changes to cross-border customs processes impact operational compliance and costs for UK-EU parcel delivery services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6c8621744ffda1d5",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -482,6 +496,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "cf30bee5663a9fe5",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Renault subsidiary refurbishes electric motors",
+      "url": "https://www.electrive.com/2026/09/08/renault-subsidiary-refurbishes-electric-motors/",
+      "source": "electrive.com",
+      "published_at": "2026-09-08T14:00:00+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 65,
+      "summary": "Renault subsidiary The Future is Neutral has launched an industrial refurbishment programme for its electric motors, offering performance equivalent to new units at 30 per cent lower cost.",
+      "angle": "Highlights growing industrial-scale circular economy models and cost-effective component remanufacturing trends within the broader electric mobility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "63dc5ef42761014b",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -521,20 +549,6 @@
       "score": 65,
       "summary": "China has introduced a two per cent consumption tax on lithium-ion batteries, which is scheduled to increase to four per cent by September 2027.",
       "angle": "Rising battery production costs in China may impact global supply chain pricing for e-bike manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7cce201320d0ab69",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "‘SHERLOCK’ project aims to standardise black mass for battery recycling",
-      "url": "https://www.electrive.com/2026/09/02/sherlock-project-aims-to-standardise-black-mass-for-battery-recycling/",
-      "source": "electrive.com",
-      "published_at": "2026-09-02T10:30:12+00:00",
-      "first_seen": "2026-09-02T14:08:13.893673+00:00",
-      "score": 65,
-      "summary": "The SHERLOCK research project is developing standardised quality classes for black mass to improve the efficiency and economic viability of lithium-ion battery recycling.",
-      "angle": "Standardisation of battery recycling processes is critical for meeting future EU regulatory requirements and circular economy mandates.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -622,6 +636,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "61f1e7369532cae9",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "EPR in action | ‘1,800 additional producers brought into compliance’, £1.43bn paid to local authorities",
+      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/1800-additional-producers-brought-into-pepr-compliance-1-43bn-paid-to-local-authorities-08-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-08T11:10:37+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 90,
+      "summary": "The UK government has brought 1,800 additional packaging producers into pEPR compliance, with £1.43bn distributed to local authorities for household packaging waste management.",
+      "angle": "Increased regulatory enforcement and transparency regarding producer fees directly impacts operational costs and compliance strategy for packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ff6e894de2edab94",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -636,20 +664,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7a38b549090930c6",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change launches monthly DRS retailer survey",
-      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/exchange-for-change-launches-monthly-drs-retailer-survey-07-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-07T09:25:40+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has launched a monthly survey to assess retailer readiness for the UK Deposit Return Scheme, scheduled for implementation in October 2027.",
-      "angle": "Regulatory progress on DRS directly impacts packaging design requirements and market demand for circular packaging solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "114e857681c2cf3c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -661,6 +675,20 @@
       "score": 95,
       "summary": "Nvidia has announced a $12.9 billion acquisition of open model repository Hugging Face to accelerate enterprise AI adoption and infrastructure sales.",
       "angle": "Validates the shift toward open-source models for sovereign enterprise AI and the development of internal AI factories.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "3cbb86a893d96833",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Malaysia weighs Huawei chips for sovereign AI , Bloomberg reports",
+      "url": "https://thenextweb.com/news/malaysia-huawei-ai-chips-sovereign-ai-us-export-warning",
+      "source": "thenextweb.com",
+      "published_at": "2026-09-08T04:00:00+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 90,
+      "summary": "Malaysia is considering using Huawei's Ascend 910C chips for its national AI project to avoid potential US Cloud Act data access by American authorities.",
+      "angle": "Highlights geopolitical tensions and data sovereignty concerns driving demand for non-US AI infrastructure in emerging markets.",
       "discovered_via": "GDELT"
     },
     {
@@ -692,20 +720,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "652c9db1dd07ff34",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Malaysia eyes Huawei chips for AI project despite US warning",
-      "url": "https://www.businesstimes.com.sg/international/malaysia-eyes-huawei-chips-ai-project-despite-us-warning",
-      "source": "businesstimes.com.sg",
-      "published_at": "2026-09-07T09:15:00+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "Malaysia is evaluating the use of Huawei's Ascend 910C AI chips for a national sovereign AI project, potentially defying US export warnings.",
-      "angle": "Highlights geopolitical fragmentation in sovereign AI infrastructure and the emergence of non-Western hardware alternatives for national data control.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "76840d99a62e38c3",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -734,6 +748,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "29ce82c1be42c667",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Bira responds to chancellor’s growth speech",
+      "url": "https://www.talkingretail.com/news/industry-news/bira-responds-to-chancellors-growth-speech-08-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-08T12:19:35+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 85,
+      "summary": "The British Independent Retailers Association has urged the Chancellor to address business rates and employment costs in the upcoming Budget to support independent retail growth.",
+      "angle": "Policy shifts regarding business rates and regulatory burdens directly impact the operational cost base for independent retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6be037e818614050",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -745,20 +773,6 @@
       "score": 85,
       "summary": "Exchange for Change has launched a monthly survey to assess retailer readiness for the UK Deposit Return Scheme, which is scheduled for launch in October 2027.",
       "angle": "Provides critical regulatory updates and engagement opportunities regarding DRS implementation and infrastructure funding for independent retail operators.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ac91a37100194761",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Tax and inflation outpacing investment and sales, ACS Report shows",
-      "url": "https://www.talkingretail.com/news/industry-news/tax-and-inflation-outpacing-investment-and-sales-acs-report-shows-07-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-07T06:51:41+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "The 2026 ACS Local Shop Report indicates that rising taxes and inflation are suppressing investment in the convenience sector, forcing retailers to seek efficiencies and reduce operating costs.",
-      "angle": "Highlights systemic cost pressures and regulatory headwinds impacting operational margins and capital expenditure across the UK convenience retail sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -874,6 +888,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5042ed2889bd3c90",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction starts down 20% year on year amid persistent housing slump",
+      "url": "https://www.constructionnews.co.uk/sections/data/construction-starts-down-20-year-on-year-amid-persistent-housing-slump-08-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-08T11:45:40+00:00",
+      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "score": 85,
+      "summary": "New analysis from Glenigan indicates that construction project starts fell by 20 per cent in the three months to 31 August compared to the same period last year.",
+      "angle": "Indicates a significant contraction in the construction pipeline, signalling reduced demand for building products and glazing materials.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d1c62bc95a64a4fe",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -914,20 +942,6 @@
       "summary": "The new Building Safety Levy, effective 1 October, imposes additional costs on residential developments, raising concerns among industry bodies regarding project viability and potential delays in housing delivery.",
       "angle": "Increased development costs and project cancellations directly threaten the pipeline for new residential glazing and rooflight installations.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "37a4d93dca9df7be",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Almost 7,500 firms in critical financial distress as construction output declines again",
-      "url": "https://www.constructionnews.co.uk/financial/almost-7500-firms-in-critical-financial-distress-as-construction-output-declines-again-04-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-04T11:29:06+00:00",
-      "first_seen": "2026-09-04T14:08:17.526444+00:00",
-      "score": 85,
-      "summary": "A report from BTG indicates that 7,458 UK construction businesses were in critical financial distress during Q2 2026, representing a 6.6 per cent year-on-year increase.",
-      "angle": "Highlights significant sector-wide financial instability and declining construction output, impacting supply chain health and project demand.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -936,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 66,
-    "llm_requests_succeeded": 66,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 30,
+    "providers_succeeded": 96,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 70,
+    "llm_requests_succeeded": 69,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
-    "carried_forward": 3
+    "skipped_recently_evaluated": 1,
+    "carried_forward": 4
   }
 }
