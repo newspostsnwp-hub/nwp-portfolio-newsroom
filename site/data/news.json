@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T14:07:33.807698+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector updates, with no specific news to report from the portfolio companies.",
+  "generated_at": "2026-09-08T06:48:29.754058+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update on Roof-Maker and one additional sector item for your review.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-07T06:48:30.471144+00:00",
+  "last_digest_sent_at": "2026-09-08T06:48:29.754058+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -200,7 +200,7 @@
       "description": "UK designer and manufacturer of rooflights.",
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
-      "story_count": 0,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -220,7 +220,7 @@
       "website": "https://www.thinkfmt.com/",
       "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 0,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 3,
-  "todays_story_count": 0,
+  "story_count": 4,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "f8cf21fcb3a59173",
@@ -345,6 +345,41 @@
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "310fa19a2a63a72b",
+      "company": "Roof-Maker",
+      "company_domain": "roof-maker.co.uk",
+      "industry": "UK construction products and glazing",
+      "title": "Press Coverage – 2026",
+      "url": "https://roof-maker.co.uk/blog/press-coverage-2026/",
+      "source": "roof-maker.co.uk",
+      "published_at": "2026-08-27T10:08:55+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "catchup",
+      "story_type": "Product",
+      "summary": "Roof-Maker has received significant trade press coverage in August 2026, highlighting recent product innovations including the Hinged Slimline Roof Lantern, the Luxlite® Plus, and the Sky-Blind integration.",
+      "why_it_matters": "The coverage demonstrates the company's continued market penetration and technical leadership in the UK glazing sector, specifically regarding ventilation solutions and energy-efficient product design.",
+      "verified_facts": [
+        "Roof-Maker's Hinged Opening Slimline Roof Lantern was featured in Architecture Magazine.",
+        "The Luxlite® Plus was showcased at the Homebuilding & Renovating Show at the NEC.",
+        "Managing Director Scott Nicholas provided commentary on the company's product development strategy.",
+        "Glazing Today and Glass Times also featured Roof-Maker's recent product developments."
+      ],
+      "warnings": [
+        "The source material is a retrospective blog post from the company's own website summarizing coverage from throughout 2026, rather than a single breaking news event.",
+        "The article was published on 27 August 2026, which is within the one-month window of today's date (08 September 2026)."
+      ],
+      "drafts": {
+        "concise": "Roof-Maker continues to gain industry recognition for its latest product innovations. Recent features in Architecture Magazine, Specification Online, Glazing Today, and Glass Times highlight the company's focus on design and functionality. Key developments include the launch of the Hinged Opening Slimline Roof Lantern, the Luxlite® Plus—which debuted at the Homebuilding & Renovating Show—and the integrated Sky-Blind system. These products address evolving market needs for improved ventilation and thermal performance in UK homes. Managing Director Scott Nicholas noted that these innovations aim to fill specific gaps in the market, such as providing hinged systems without bulky glazing bars. We are pleased to see the team’s commitment to engineering excellence being acknowledged by leading trade publications. #RoofMaker #UKManufacturing #GlazingInnovation",
+        "investor": "Roof-Maker’s recent product pipeline is gaining strong traction within the UK construction and glazing sectors. Trade press coverage throughout 2026 has spotlighted the company’s ability to scale its portfolio with high-value additions, including the Hinged Slimline Roof Lantern and the Luxlite® Plus. These products demonstrate a clear strategy of addressing consumer demand for energy efficiency and year-round comfort, moving beyond basic thermal performance. By successfully launching these solutions—and showcasing them at major industry events like the Homebuilding & Renovating Show—the team continues to strengthen its competitive position. Managing Director Scott Nicholas emphasizes that this growth is driven by identifying and filling specific market gaps, ensuring the company remains at the forefront of modern glazing design. #Construction #Investment #RoofMaker",
+        "people": "It is excellent to see the team at Roof-Maker receiving such positive recognition from industry experts and leading publications. Recent features in Architecture Magazine, Glazing Today, and Glass Times underscore the hard work behind the company’s latest product launches. From the development of the Hinged Opening Slimline Roof Lantern to the successful reception of the Luxlite® Plus at the Homebuilding & Renovating Show, the team’s focus on innovation is clear. Managing Director Scott Nicholas has been instrumental in articulating the vision behind these designs, ensuring they meet the practical needs of homeowners while maintaining a high standard of aesthetics. Congratulations to everyone involved in bringing these products to market and for the continued dedication to excellence in UK manufacturing. #TeamSuccess #Innovation #RoofMaker"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
     }
   ],
   "sector_stories": [
@@ -447,6 +482,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "63dc5ef42761014b",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Lanxess commissions battery laboratory for LFP materials in Germany",
+      "url": "https://www.electrive.com/2026/09/07/lanxess-commissions-german-battery-laboratory-for-lfp-materials/",
+      "source": "electrive.com",
+      "published_at": "2026-09-07T11:30:00+00:00",
+      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "score": 65,
+      "summary": "Lanxess has opened a new battery laboratory in Germany to test and develop iron oxide and iron phosphate materials for LFP cathode production.",
+      "angle": "Signals a strengthening European supply chain for LFP battery materials, potentially improving future cost and performance for micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e1f69138cdd876a0",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -486,20 +535,6 @@
       "score": 65,
       "summary": "The SHERLOCK research project is developing standardised quality classes for black mass to improve the efficiency and economic viability of lithium-ion battery recycling.",
       "angle": "Standardisation of battery recycling processes is critical for meeting future EU regulatory requirements and circular economy mandates.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "16ebdf056f779173",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Asahi Kasei develops novel pre-doping lithium technology for silicon anodes",
-      "url": "https://www.electrive.com/2026/08/31/asahi-kasei-develops-novel-pre-doping-lithium-technology-for-silicon-anodes/",
-      "source": "electrive.com",
-      "published_at": "2026-08-31T16:03:45+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
-      "score": 65,
-      "summary": "Asahi Kasei has developed a pre-lithiation technology for silicon-based anodes that reportedly increases lithium-ion battery energy density by 10 per cent.",
-      "angle": "Advancements in battery energy density and cost-efficiency directly impact the performance and affordability of e-bike power systems.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -783,6 +818,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "69cf2b6d41d80bee",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Sperm from donor carrying disease-associated gene variant used to conceive 53 children",
+      "url": "https://www.progress.org.uk/sperm-from-donor-carrying-disease-associated-gene-variant-used-to-conceive-53-children/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-07T15:44:38+00:00",
+      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "score": 85,
+      "summary": "A Danish sperm donor carrying a pathogenic COL3A1 gene variant was used to conceive 53 children in Belgium, highlighting systemic failures in international donor quota enforcement.",
+      "angle": "Highlights increasing regulatory pressure for cross-border donor traceability and stricter genetic screening standards in fertility services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0d5d5c57e40d6e6f",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -825,17 +874,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7cf5b8988b69e22c",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "FILM: Male Infertility – Today's Insights, Tomorrow's Treatments",
-      "url": "https://www.progress.org.uk/film-male-infertility-todays-insights-tomorrows-treatments/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-01T11:21:24+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
-      "score": 75,
-      "summary": "A PET event film and associated research highlight emerging clinical insights and future treatment modalities for male infertility, including advancements in testicular tissue preservation and genetic research.",
-      "angle": "Provides clinical context on evolving male infertility treatments and future reproductive technologies relevant to fertility service providers.",
+      "id": "d1c62bc95a64a4fe",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "UK construction activity July 2026: Health",
+      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-july-2026-health-07-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-07T14:42:24+00:00",
+      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "score": 85,
+      "summary": "UK health sector construction activity saw significant year-on-year growth in July 2026, with project starts up 32 per cent and detailed planning approvals rising by 65 per cent.",
+      "angle": "Increased health sector project starts and planning approvals indicate a growing pipeline for specialist glazing and rooflight installations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -879,50 +928,22 @@
       "summary": "A report from BTG indicates that 7,458 UK construction businesses were in critical financial distress during Q2 2026, representing a 6.6 per cent year-on-year increase.",
       "angle": "Highlights significant sector-wide financial instability and declining construction output, impacting supply chain health and project demand.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1cadf3ec1e63d39a",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "DfE’s top construction contractors revealed",
-      "url": "https://www.constructionnews.co.uk/buildings/dfes-top-construction-contractors-revealed-07-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-07T11:45:08+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 75,
-      "summary": "The Department for Education has confirmed its top construction contractors for 2025/26, highlighting a significant pipeline of school rebuilding projects valued at £20bn through 2035.",
-      "angle": "Identifies major contractors and long-term public sector demand for school infrastructure projects within the UK construction market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "74162e5433164927",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "AI Automation’s PR Problem: Businesses Keep Selling What it Can Do, Not Why it Should Be Trusted",
-      "url": "https://roboticsandautomationnews.com/2026/08/28/ai-automations-pr-problem-businesses-keep-selling-what-it-can-do-not-why-it-should-be-trusted/104569/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-08-28T19:11:02+00:00",
-      "first_seen": "2026-08-29T06:49:03.600023+00:00",
-      "score": 65,
-      "summary": "An industry perspective argues that businesses must prioritize transparency regarding human oversight and AI limitations to build trust, rather than focusing solely on speed and automation capabilities.",
-      "angle": "Highlights the critical need for safety-critical sectors to emphasize human-in-the-loop accountability over pure autonomous performance.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 2,
-    "companies_with_sector_news": 11,
+    "companies_with_stories": 3,
+    "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 132,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
-    "dropped_no_valid_date": 31,
-    "dropped_thin_page": 18,
+    "providers_succeeded": 88,
+    "queued_candidates": 126,
+    "llm_requests_attempted": 66,
+    "llm_requests_succeeded": 66,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 30,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 0,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 3
   }
 }
