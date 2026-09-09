@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T06:49:07.357944+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Molinare or Whitespace.",
+  "generated_at": "2026-09-09T14:08:00.194584+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, with no specific news to report from Molinare, Swytch, UOE, or Whitespace.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-09T06:49:07.357944+00:00",
   "companies": [
@@ -496,6 +496,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b869b246dea43671",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "LG Energy Solution reports progress in LMR batteries",
+      "url": "https://www.electrive.com/2026/09/09/lg-energy-solution-reports-progress-in-lmr-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-09-09T10:22:47+00:00",
+      "first_seen": "2026-09-09T14:08:00.194584+00:00",
+      "score": 65,
+      "summary": "LG Energy Solution has developed a method to stabilise LMR batteries by adjusting voltage ranges and formation processes, potentially enabling high energy density at lower material costs.",
+      "angle": "Advancements in cobalt-free, manganese-rich battery chemistries could reduce future production costs for lightweight electric mobility applications.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "cf30bee5663a9fe5",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -535,20 +549,6 @@
       "score": 65,
       "summary": "A study by the ICCT reports that battery-electric vehicles in the EU were 33 per cent cheaper to operate than gasoline cars in 2025.",
       "angle": "Demonstrates strong consumer economic tailwinds for electric mobility adoption, reinforcing the value proposition of electrified transport alternatives.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5845f4755e1a73b6",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "China further reduces tax incentives for EVs",
-      "url": "https://www.electrive.com/2026/09/04/china-further-reduces-tax-incentives-for-evs/",
-      "source": "electrive.com",
-      "published_at": "2026-09-04T12:00:00+00:00",
-      "first_seen": "2026-09-04T14:08:17.526444+00:00",
-      "score": 65,
-      "summary": "China has introduced a two per cent consumption tax on lithium-ion batteries, which is scheduled to increase to four per cent by September 2027.",
-      "angle": "Rising battery production costs in China may impact global supply chain pricing for e-bike manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -734,6 +734,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "69f9225392fecbbf",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retail industry urges home secretary to enact the protection of workers’ law",
+      "url": "https://www.talkingretail.com/featured/retail-industry-urges-home-secretary-to-enact-the-protection-of-workers-law-09-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-09T13:47:20+00:00",
+      "first_seen": "2026-09-09T14:08:00.194584+00:00",
+      "score": 90,
+      "summary": "Retail industry bodies and unions are urging the Home Secretary to expedite the enforcement of a standalone offence for assaulting shop workers under the Crime and Policing Act.",
+      "angle": "New legal protections against retail violence directly impact operational safety and security policies for UK store-based retailers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "92070c7d2c9db299",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -759,20 +773,6 @@
       "score": 85,
       "summary": "The British Independent Retailers Association has urged the Chancellor to address business rates and employment costs in the upcoming Budget to support independent retail growth.",
       "angle": "Policy shifts regarding business rates and regulatory burdens directly impact the operational cost base for independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6be037e818614050",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Exchange for Change launches monthly pulse check of retailer readiness for DRS",
-      "url": "https://www.talkingretail.com/news/industry-news/exchange-for-change-launches-monthly-pulse-check-of-retailer-readiness-for-drs-07-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-07T10:40:13+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has launched a monthly survey to assess retailer readiness for the UK Deposit Return Scheme, which is scheduled for launch in October 2027.",
-      "angle": "Provides critical regulatory updates and engagement opportunities regarding DRS implementation and infrastructure funding for independent retail operators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 72,
+    "providers_succeeded": 54,
+    "queued_candidates": 83,
+    "llm_requests_attempted": 49,
+    "llm_requests_succeeded": 49,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "dropped_thin_page": 4,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 4
   }
 }
