@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T14:07:39.270086+00:00",
-  "digest_intro": "Good morning, partners. Today's briefing includes one update on Roof-Maker, led by the 2026 press coverage, alongside two sector-related items.",
+  "generated_at": "2026-09-09T06:49:07.357944+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Molinare or Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-08T06:48:29.754058+00:00",
+  "last_digest_sent_at": "2026-09-09T06:49:07.357944+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 4,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "f8cf21fcb3a59173",
@@ -580,31 +580,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "37ae21edb69459b1",
+      "id": "48cd2849ae87a8c9",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "How Cinematographer Colin Hoult Gave Off Campus an ‘80s Glow",
-      "url": "https://postperspective.com/how-cinematographer-colin-hoult-gave-off-campus-an-80s-glow/",
+      "title": "Origami Platform Updates Media Management, Audio Conform, Security and AI Capabilities",
+      "url": "https://postperspective.com/origami-platform-updates-media-management-audio-conform-security-and-ai-capabilities/",
       "source": "postperspective.com",
-      "published_at": "2026-09-01T21:29:30+00:00",
-      "first_seen": "2026-09-02T06:49:11.746497+00:00",
+      "published_at": "2026-09-08T21:54:37+00:00",
+      "first_seen": "2026-09-09T06:49:07.357944+00:00",
       "score": 75,
-      "summary": "Cinematographer Colin Hoult used digital filtration plugins in DaVinci Resolve to replicate traditional glass filter looks for the Amazon series Off Campus, streamlining production and post-production workflows.",
-      "angle": "Highlights the increasing shift toward digital-first post-production workflows and advanced software-based image manipulation over traditional on-set optical filtration.",
+      "summary": "Origami Platform has updated its workflow software to include automated media management, unified audio and picture conforming, and expanded lossless codec trimming capabilities.",
+      "angle": "Automation of manual media management and conforming workflows represents a significant efficiency shift for post-production facility operations.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3ce6d3ff944507ad",
+      "id": "bfaea38fcc810f4c",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Nice Touch Launches V2 of Its AI Edit Assistant for Pro Editors",
-      "url": "https://postperspective.com/nice-touch-launches-v2-of-its-ai-edit-assistant-for-pro-editors/",
+      "title": "Arch Intros Fallback Instances for Better Cloud Workstation Availability",
+      "url": "https://postperspective.com/arch-intros-fallback-instances-for-better-cloud-workstation-availability/",
       "source": "postperspective.com",
-      "published_at": "2026-08-31T21:07:33+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
+      "published_at": "2026-09-08T21:40:49+00:00",
+      "first_seen": "2026-09-09T06:49:07.357944+00:00",
       "score": 75,
-      "summary": "Nice Touch has released Version 2 of its AI-powered edit assistant, which integrates directly into Adobe Premiere and DaVinci Resolve to automate assembly and multicam workflows.",
-      "angle": "AI-driven automation tools are increasingly streamlining labour-intensive post-production tasks like logging and assembly, impacting operational efficiency.",
+      "summary": "Arch Platform Technologies has introduced Fallback Instances, an automated feature for AWS cloud workstations that selects alternative GPU configurations when preferred instances are unavailable due to capacity constraints.",
+      "angle": "Highlights increasing GPU demand and infrastructure resilience strategies for high-performance post-production cloud workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -664,6 +664,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c9b3afa142172630",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "url": "http://www.businessghana.com/site/news/technology/355798/Mistral-raises-%E2%82%AC3B-as-sovereign-AI-becomes-big-business",
+      "source": "businessghana.com",
+      "published_at": "2026-09-09T05:30:00+00:00",
+      "first_seen": "2026-09-09T06:49:07.357944+00:00",
+      "score": 95,
+      "summary": "Mistral AI has raised €3 billion in a Series D funding round to scale compute capacity and expand its sovereign AI infrastructure and international footprint.",
+      "angle": "Validates strong market demand for sovereign AI alternatives to US-centric models and highlights evolving geopolitical funding dynamics.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "80b6984e07378925",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Tech Bytes : Mistral record €3 billion raise turns sovereign AI into a global investment race",
+      "url": "https://www.proactiveinvestors.com.au/companies/news/1098251/tech-bytes-mistral-s-record-3-billion-raise-turns-sovereign-ai-into-a-global-investment-race-1098251.html",
+      "source": "proactiveinvestors.com.au",
+      "published_at": "2026-09-09T04:30:00+00:00",
+      "first_seen": "2026-09-09T06:49:07.357944+00:00",
+      "score": 95,
+      "summary": "Mistral AI raised €3 billion in a Samsung-led funding round, valuing the company at over €21 billion to support sovereign AI infrastructure and international expansion.",
+      "angle": "Validates the growing market demand for sovereign, on-premises AI solutions that ensure data control and security for enterprises.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "114e857681c2cf3c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -689,34 +717,6 @@
       "score": 90,
       "summary": "Malaysia is considering using Huawei's Ascend 910C chips for its national AI project to avoid potential US Cloud Act data access by American authorities.",
       "angle": "Highlights geopolitical tensions and data sovereignty concerns driving demand for non-US AI infrastructure in emerging markets.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "bbbf1ce21c93595f",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Ex - head of MI6 warns foreign states have fingerprint all over public service tech",
-      "url": "https://www.aol.co.uk/articles/ex-head-mi6-warns-foreign-172155000.html",
-      "source": "aol.co.uk",
-      "published_at": "2026-09-06T18:15:00+00:00",
-      "first_seen": "2026-09-07T06:48:30.471144+00:00",
-      "score": 90,
-      "summary": "Former MI6 head Sir Richard Dearlove has warned that foreign state involvement in UK critical infrastructure poses significant national security risks, urging greater domestic technological independence.",
-      "angle": "Highlights growing political and public pressure for sovereign AI solutions over reliance on foreign-owned technology providers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "a0c1cfb92cb1fbb0",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI Workloads to Hit 94 . 8 GW by 2035 as Inference , Agentic AI and Physical AI Reshape Enterprise IT",
-      "url": "https://infotechlead.com/artificial-intelligence/ai-workloads-to-hit-94-8-gw-by-2035-as-inference-agentic-ai-and-physical-ai-reshape-enterprise-it-98158",
-      "source": "infotechlead.com",
-      "published_at": "2026-09-03T12:45:00+00:00",
-      "first_seen": "2026-09-03T14:08:19.213521+00:00",
-      "score": 90,
-      "summary": "Sovereign cloud AI capacity is projected to grow from 1 GW to 12 GW by 2035, driven by enterprise demand for local infrastructure, regulatory compliance, and data control.",
-      "angle": "Validates the long-term market growth and strategic necessity of sovereign cloud infrastructure for enterprise and government data.",
       "discovered_via": "GDELT"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 96,
+    "providers_succeeded": 89,
     "queued_candidates": 124,
-    "llm_requests_attempted": 70,
-    "llm_requests_succeeded": 69,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
