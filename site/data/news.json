@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T06:48:59.742875+00:00",
-  "digest_intro": "Good morning. We have three sector items to cover today, with no specific updates from Clearway Group, Swytch, or Whitespace to report.",
+  "generated_at": "2026-09-10T14:08:01.624504+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide developments, as there are no specific updates from Clearway Group, Swytch, The Delivery Group, UOE, or Whitespace to report.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-10T06:48:59.742875+00:00",
   "companies": [
@@ -384,6 +384,20 @@
   ],
   "sector_stories": [
     {
+      "id": "b545191eb31df338",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "DPD to expand electric van fleet to over 4,000 vehicles",
+      "url": "https://postandparcel.info/162750/news/e-commerce/dpd-to-expand-electric-van-fleet-to-over-4000-vehicles/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-10T13:46:55+00:00",
+      "first_seen": "2026-09-10T14:08:01.624504+00:00",
+      "score": 85,
+      "summary": "DPD is expanding its sustainable fleet by taking delivery of 341 new Mercedes-Benz eSprinters in September, bringing its total electric van fleet to over 4,000 vehicles.",
+      "angle": "Highlights industry-wide acceleration towards fleet electrification and sustainable delivery infrastructure to meet evolving environmental standards.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6a09455864e6d51c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -395,20 +409,6 @@
       "score": 85,
       "summary": "The EU is overhauling its customs system by introducing a new small parcel handling fee, centralising customs authority, and making e-commerce platforms responsible for compliance.",
       "angle": "Significant regulatory changes to cross-border customs processes impact operational compliance and costs for UK-EU parcel delivery services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6c8621744ffda1d5",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "InPost: We delivered a quarter of strong growth in Q2",
-      "url": "https://postandparcel.info/162669/news/e-commerce/inpost-we-delivered-a-quarter-of-strong-growth-in-q2/",
-      "source": "postandparcel.info",
-      "published_at": "2026-08-31T08:31:19+00:00",
-      "first_seen": "2026-08-31T14:08:12.967336+00:00",
-      "score": 85,
-      "summary": "InPost reported strong Q2 2026 growth across international markets alongside the continued expansion of its out-of-home delivery network.",
-      "angle": "Highlights increasing consumer demand for out-of-home delivery solutions and competitive pressure within the UK parcel market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -437,6 +437,20 @@
       "score": 75,
       "summary": "Escher's tenth edition of the Future of Posts report details investment trends, operational successes, and market pressures from 98 global postal operators.",
       "angle": "Provides global benchmarking data on operational strategies and competitive pressures relevant to UK mail and parcel delivery.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "68cd038f0d654c4d",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Bringing counter-terrorism voices together",
+      "url": "https://securityjournaluk.com/bringing-counter-terrorism-voices-together/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-10T10:20:34+00:00",
+      "first_seen": "2026-09-10T14:08:01.624504+00:00",
+      "score": 90,
+      "summary": "A recent webinar discussed the practical implementation of the Terrorism (Protection of Premises) Act 2025, highlighting the need for organisational risk assessment and professional security training.",
+      "angle": "Provides critical context on regulatory compliance and evolving client expectations regarding protective security under Martyn's Law.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -482,17 +496,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8d7549f47a9ebd15",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Safer public spaces & compliant security",
-      "url": "https://securityjournaluk.com/safer-public-spaces-and-compliant-security/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-02T11:31:42+00:00",
-      "first_seen": "2026-09-02T14:08:13.893673+00:00",
-      "score": 85,
-      "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn’s Law, mandates that organisations assess terrorist risks and implement protective security measures in public spaces by 2027.",
-      "angle": "Highlights regulatory shifts requiring security providers to act as expert advisors on risk assessment and compliant access control.",
+      "id": "1d3e284ef6d5272e",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Fraunhofer ISE increases energy density of battery cells",
+      "url": "https://www.electrive.com/2026/09/10/fraunhofer-ise-increases-energy-density-of-battery-cells/",
+      "source": "electrive.com",
+      "published_at": "2026-09-10T11:30:27+00:00",
+      "first_seen": "2026-09-10T14:08:01.624504+00:00",
+      "score": 75,
+      "summary": "Fraunhofer ISE has developed a battery cell architecture using thicker electrodes to increase energy density by 10 to 15 per cent while maintaining the same weight.",
+      "angle": "Advancements in energy density could enable lighter, longer-range e-bike battery packs, improving portability and performance for conversion kits.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "18b5f8b316859b27",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "BAM identifies lithium isotopes as diagnostic tool for battery ageing",
+      "url": "https://www.electrive.com/2026/09/10/bam-identifies-lithium-isotopes-as-diagnostic-tool-for-battery-ageing/",
+      "source": "electrive.com",
+      "published_at": "2026-09-10T13:15:00+00:00",
+      "first_seen": "2026-09-10T14:08:01.624504+00:00",
+      "score": 65,
+      "summary": "Researchers at the Federal Institute for Materials Research and Testing have identified lithium isotope distribution as a diagnostic tool to track battery ageing mechanisms and capacity loss.",
+      "angle": "Provides a new diagnostic method to better understand and predict battery degradation in lithium-ion cells.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -521,34 +549,6 @@
       "score": 65,
       "summary": "LG Energy Solution has developed a method to stabilise LMR batteries by adjusting voltage ranges and formation processes, potentially enabling high energy density at lower material costs.",
       "angle": "Advancements in cobalt-free, manganese-rich battery chemistries could reduce future production costs for lightweight electric mobility applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cf30bee5663a9fe5",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Renault subsidiary refurbishes electric motors",
-      "url": "https://www.electrive.com/2026/09/08/renault-subsidiary-refurbishes-electric-motors/",
-      "source": "electrive.com",
-      "published_at": "2026-09-08T14:00:00+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
-      "score": 65,
-      "summary": "Renault subsidiary The Future is Neutral has launched an industrial refurbishment programme for its electric motors, offering performance equivalent to new units at 30 per cent lower cost.",
-      "angle": "Highlights growing industrial-scale circular economy models and cost-effective component remanufacturing trends within the broader electric mobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "63dc5ef42761014b",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Lanxess commissions battery laboratory for LFP materials in Germany",
-      "url": "https://www.electrive.com/2026/09/07/lanxess-commissions-german-battery-laboratory-for-lfp-materials/",
-      "source": "electrive.com",
-      "published_at": "2026-09-07T11:30:00+00:00",
-      "first_seen": "2026-09-08T06:48:29.754058+00:00",
-      "score": 65,
-      "summary": "Lanxess has opened a new battery laboratory in Germany to test and develop iron oxide and iron phosphate materials for LFP cathode production.",
-      "angle": "Signals a strengthening European supply chain for LFP battery materials, potentially improving future cost and performance for micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -762,17 +762,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "29ce82c1be42c667",
+      "id": "92227de2c42551fc",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Bira responds to chancellor’s growth speech",
-      "url": "https://www.talkingretail.com/news/industry-news/bira-responds-to-chancellors-growth-speech-08-09-2026/",
+      "title": "Local Shops take Cost of Trading campaign to Parliament during ACS event",
+      "url": "https://www.talkingretail.com/featured/local-shops-take-cost-of-trading-campaign-to-parliament-during-acs-event-10-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-08T12:19:35+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "published_at": "2026-09-10T12:50:29+00:00",
+      "first_seen": "2026-09-10T14:08:01.624504+00:00",
       "score": 85,
-      "summary": "The British Independent Retailers Association has urged the Chancellor to address business rates and employment costs in the upcoming Budget to support independent retail growth.",
-      "angle": "Policy shifts regarding business rates and regulatory burdens directly impact the operational cost base for independent retail chains.",
+      "summary": "The Association of Convenience Stores launched the #Checkout the Cost of Trading campaign in Parliament, calling for urgent fiscal relief to address rising operational costs for local retailers.",
+      "angle": "Highlights industry-wide lobbying efforts for business rate and National Insurance relief impacting independent retail operating costs.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 128,
+    "providers_succeeded": 88,
+    "queued_candidates": 124,
     "llm_requests_attempted": 75,
     "llm_requests_succeeded": 75,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 23,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
