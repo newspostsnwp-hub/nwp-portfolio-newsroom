@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T14:08:00.194584+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, with no specific news to report from Molinare, Swytch, UOE, or Whitespace.",
+  "generated_at": "2026-09-10T06:48:59.742875+00:00",
+  "digest_intro": "Good morning. We have three sector items to cover today, with no specific updates from Clearway Group, Swytch, or Whitespace to report.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-09T06:49:07.357944+00:00",
+  "last_digest_sent_at": "2026-09-10T06:48:59.742875+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -454,6 +454,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d67ec80574552ec8",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "The security myth holding physical security teams back",
+      "url": "https://securityjournaluk.com/the-security-myth-holding-security-teams-back/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-09T06:35:00+00:00",
+      "first_seen": "2026-09-10T06:48:59.742875+00:00",
+      "score": 85,
+      "summary": "Industry analysis argues that cloud-based physical security infrastructure offers superior security, automated patching, and disaster recovery compared to traditional on-premise systems.",
+      "angle": "Highlights a critical shift in security procurement and technology adoption trends within the physical security sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1706950f5b68056c",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -482,17 +496,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "356235b10c78cbee",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "92% probability of a major attack on UK battery energy storage",
-      "url": "https://securityjournaluk.com/92-probability-of-a-major-attack-on-uk-bess/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-02T10:20:59+00:00",
-      "first_seen": "2026-09-02T14:08:13.893673+00:00",
-      "score": 85,
-      "summary": "A new risk assessment report indicates a 92% probability of a major cyber-physical attack on UK battery energy storage infrastructure within the next five years.",
-      "angle": "Highlights growing demand for physical and cyber security solutions to protect critical national energy infrastructure.",
+      "id": "e36d8e449a2c2ab4",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "’Mandates drive scale’: ICCT India’s Amit Bhatt calls for a policy-led EV push",
+      "url": "https://www.electrive.com/2026/09/09/mandates-drive-scale-icct-indias-amit-bhatt-calls-for-a-policy-led-ev-push/",
+      "source": "electrive.com",
+      "published_at": "2026-09-09T16:00:00+00:00",
+      "first_seen": "2026-09-10T06:48:59.742875+00:00",
+      "score": 65,
+      "summary": "ICCT India’s Amit Bhatt argues that regulatory mandates, such as phase-out targets for ICE vehicles, are essential to drive the scale of electric vehicle adoption beyond initial subsidy-led growth.",
+      "angle": "Highlights the shift from subsidy-dependent models to regulatory-driven market adoption for light electric vehicles.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -535,20 +549,6 @@
       "score": 65,
       "summary": "Lanxess has opened a new battery laboratory in Germany to test and develop iron oxide and iron phosphate materials for LFP cathode production.",
       "angle": "Signals a strengthening European supply chain for LFP battery materials, potentially improving future cost and performance for micromobility.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e1f69138cdd876a0",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EVs now 33% cheaper to run than gasoline vehicles",
-      "url": "https://www.electrive.com/2026/09/07/evs-now-33-cheaper-to-run-than-gasoline-vehicles/",
-      "source": "electrive.com",
-      "published_at": "2026-09-07T05:00:00+00:00",
-      "first_seen": "2026-09-07T06:48:30.471144+00:00",
-      "score": 65,
-      "summary": "A study by the ICCT reports that battery-electric vehicles in the EU were 33 per cent cheaper to operate than gasoline cars in 2025.",
-      "angle": "Demonstrates strong consumer economic tailwinds for electric mobility adoption, reinforcing the value proposition of electrified transport alternatives.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -706,17 +706,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "3cbb86a893d96833",
+      "id": "e21ce3a7fa5018f8",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Malaysia weighs Huawei chips for sovereign AI , Bloomberg reports",
-      "url": "https://thenextweb.com/news/malaysia-huawei-ai-chips-sovereign-ai-us-export-warning",
-      "source": "thenextweb.com",
-      "published_at": "2026-09-08T04:00:00+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
+      "title": "Palantir and Nebius Partner on Sovereign AI Infrastructure",
+      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nebius-partner-sovereign-ai-130353486.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-09-10T01:00:00+00:00",
+      "first_seen": "2026-09-10T06:48:59.742875+00:00",
       "score": 90,
-      "summary": "Malaysia is considering using Huawei's Ascend 910C chips for its national AI project to avoid potential US Cloud Act data access by American authorities.",
-      "angle": "Highlights geopolitical tensions and data sovereignty concerns driving demand for non-US AI infrastructure in emerging markets.",
+      "summary": "Palantir and Nebius have partnered to integrate Nebius's cloud and AI infrastructure with Palantir's enterprise platform, focusing on providing customers with greater control over data and computing environments.",
+      "angle": "Highlights market demand for sovereign AI infrastructure that combines enterprise software with controlled, high-performance compute environments.",
       "discovered_via": "GDELT"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 54,
-    "queued_candidates": 83,
-    "llm_requests_attempted": 49,
-    "llm_requests_succeeded": 49,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 4,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "providers_succeeded": 89,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 4
   }
 }
