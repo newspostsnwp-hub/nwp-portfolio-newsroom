@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T06:49:06.482207+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-wide updates, with no specific news to report from Clearway Group, Molinare, or The Delivery Group.",
+  "generated_at": "2026-09-11T14:08:11.334689+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-11T06:49:06.482207+00:00",
   "companies": [
@@ -30,7 +30,7 @@
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
@@ -454,20 +454,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3d53161eefcfaca6",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "SIA consults on changes to security licence qualifications",
-      "url": "https://securityjournaluk.com/sia-consults-on-changes-to-security-licence/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-01T08:22:45+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
-      "score": 90,
-      "summary": "The Security Industry Authority has launched a public consultation on proposed changes to licence-linked qualifications, including new standards for first aid, English language proficiency, and conflict management.",
-      "angle": "Regulatory updates to training and licensing standards directly impact operational compliance and workforce requirements for security service providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ec2ad7a501ebfa37",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -510,6 +496,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "467c9da3f1a1c458",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "R3 Lithium launches lithium recycling facility in Georgia",
+      "url": "https://www.electrive.com/2026/09/11/r3-lithium-launches-lithium-recycling-facility-in-georgia/",
+      "source": "electrive.com",
+      "published_at": "2026-09-11T11:30:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 65,
+      "summary": "R3 Lithium has launched a commercial-scale facility in Georgia capable of producing 2,500 tonnes of lithium carbonate annually from recycled battery materials.",
+      "angle": "Advancements in domestic lithium recycling infrastructure improve supply chain sustainability and material availability for the broader micromobility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "fc9f9cc08b9d69c0",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "EU Commission proposes new procurement rules: more Europe, less China",
+      "url": "https://www.electrive.com/2026/09/11/eu-commission-proposes-new-procurement-rules-more-europe-less-china/",
+      "source": "electrive.com",
+      "published_at": "2026-09-11T10:00:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 65,
+      "summary": "The EU Commission has proposed new procurement rules to simplify the exclusion of non-EU companies from public tenders, prioritising European industrial capacity and strategic resilience.",
+      "angle": "Potential shift in public procurement policy favouring EU-manufactured components and products over non-EU competitors.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "18b5f8b316859b27",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -521,34 +535,6 @@
       "score": 65,
       "summary": "Researchers at the Federal Institute for Materials Research and Testing have identified lithium isotope distribution as a diagnostic tool to track battery ageing mechanisms and capacity loss.",
       "angle": "Provides a new diagnostic method to better understand and predict battery degradation in lithium-ion cells.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e36d8e449a2c2ab4",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "’Mandates drive scale’: ICCT India’s Amit Bhatt calls for a policy-led EV push",
-      "url": "https://www.electrive.com/2026/09/09/mandates-drive-scale-icct-indias-amit-bhatt-calls-for-a-policy-led-ev-push/",
-      "source": "electrive.com",
-      "published_at": "2026-09-09T16:00:00+00:00",
-      "first_seen": "2026-09-10T06:48:59.742875+00:00",
-      "score": 65,
-      "summary": "ICCT India’s Amit Bhatt argues that regulatory mandates, such as phase-out targets for ICE vehicles, are essential to drive the scale of electric vehicle adoption beyond initial subsidy-led growth.",
-      "angle": "Highlights the shift from subsidy-dependent models to regulatory-driven market adoption for light electric vehicles.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b869b246dea43671",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "LG Energy Solution reports progress in LMR batteries",
-      "url": "https://www.electrive.com/2026/09/09/lg-energy-solution-reports-progress-in-lmr-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-09-09T10:22:47+00:00",
-      "first_seen": "2026-09-09T14:08:00.194584+00:00",
-      "score": 65,
-      "summary": "LG Energy Solution has developed a method to stabilise LMR batteries by adjusting voltage ranges and formation processes, potentially enabling high energy density at lower material costs.",
-      "angle": "Advancements in cobalt-free, manganese-rich battery chemistries could reduce future production costs for lightweight electric mobility applications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -720,20 +706,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "76840d99a62e38c3",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Shoppers look to local stores for safer parcel collection and returns",
-      "url": "https://www.talkingretail.com/news/industry-news/shoppers-look-to-local-stores-for-safer-parcel-collection-and-returns-01-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-01T11:56:49+00:00",
-      "first_seen": "2026-09-01T14:08:16.491919+00:00",
-      "score": 95,
-      "summary": "Research indicates 73% of UK consumers use parcel shops, driven by rising concerns over parcel theft and a demand for secure, flexible collection and return options.",
-      "angle": "Validates the strategic importance of parcel services as a key driver of footfall for local retail businesses.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "69f9225392fecbbf",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -776,6 +748,62 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f83ccf5b6893b88a",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Bira warns new visitor levy risks squeezing high street spending",
+      "url": "https://www.talkingretail.com/news/industry-news/bira-warns-new-visitor-levy-risks-squeezing-high-street-spending-11-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-11T11:46:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 75,
+      "summary": "The British Independent Retailers Association warns that a new government-backed Overnight Visitor Levy could reduce consumer spending power on high streets.",
+      "angle": "Potential reduction in discretionary spending for independent retailers in tourist-heavy areas due to new local taxation policies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4c020152825d5a93",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Senior College Leaders Experiencing ‘Heightened Uncertainty’",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/11/survey-senior-college-leaders-experiencing-uncertainty",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-11T07:00:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 85,
+      "summary": "A survey of senior college leaders reveals heightened uncertainty regarding financial viability, public perception, and the capacity to navigate complex state and federal policy changes.",
+      "angle": "Signals potential shifts in institutional procurement, budget prioritisation, and demand for adaptive learning technology solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ca0a121da8c653ef",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Architect of Ohio Higher Ed Overhaul Calls Shared Governance ‘Garbage’",
+      "url": "https://www.insidehighered.com/news/government/state-policy/2026/09/11/architect-ohio-higher-ed-overhaul-shared-governance-garbage",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-11T07:00:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 85,
+      "summary": "Ohio's Senate Bill 1 mandates institutional neutrality, prohibits DEI offices, requires intellectual diversity in course approvals, and forces the closure of undergraduate degree programs with low enrollment.",
+      "angle": "Legislative shifts in higher education governance and curriculum oversight significantly impact institutional demand for publishing and learning technology.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5b1b402141b8ef6e",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Can AI Help Colleges Reach Struggling Students Earlier?",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/09/11/can-ai-help-colleges-reach-struggling-students",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-11T07:00:00+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 85,
+      "summary": "Austin Community College is launching a 'Digital Twin' AI initiative to integrate student data and provide proactive, automated interventions for struggling students.",
+      "angle": "Highlights the shift toward AI-driven student success platforms and the integration of disparate institutional data systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8f4e33ce7d22bad0",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -788,48 +816,6 @@
       "summary": "UpGrad has acquired Unacademy in an all-stock deal valued at $200 million, representing a 94% valuation decline from its 2021 peak and marking significant consolidation in the edtech sector.",
       "angle": "Highlights the end of hyper-growth edtech valuations and the shift toward consolidation and sustainable business models.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "bdd94208bf6ad5b7",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Trump Administration Threatens Colleges’ Tax-Exempt Status",
-      "url": "https://www.insidehighered.com/news/government/2026/09/04/trump-administration-threatens-colleges-tax-exempt-status",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-04T07:00:00+00:00",
-      "first_seen": "2026-09-04T14:08:17.526444+00:00",
-      "score": 85,
-      "summary": "The Trump administration has proposed a rule to revoke the tax-exempt status of private nonprofit colleges that maintain admissions or scholarship programs based on race.",
-      "angle": "Significant regulatory shift impacting the financial stability and operational policies of higher education institutions, a key customer segment.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2e0f7f671ece352a",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Trump’s Latest Move Threatens Any College That Seeks to Promote Equality",
-      "url": "https://www.insidehighered.com/opinion/views/2026/09/04/latest-trump-move-threatens-colleges-seeking-promote-equality",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-04T07:00:00+00:00",
-      "first_seen": "2026-09-05T06:49:20.129913+00:00",
-      "score": 85,
-      "summary": "The U.S. Treasury Department has introduced new rules allowing the IRS to revoke the tax-exempt status of schools providing targeted support to minority students.",
-      "angle": "Significant regulatory shift impacting institutional funding, operational compliance, and diversity-focused programming within the U.S. higher education market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bb4547fc98351fad",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Student Support Needs Outpace College Capacity",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/09/03/student-support-needs-outpace-college-capacity",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-03T07:00:00+00:00",
-      "first_seen": "2026-09-03T14:08:19.213521+00:00",
-      "score": 85,
-      "summary": "A new EAB survey indicates that colleges are struggling with declining student academic and social readiness, alongside significant budget and staffing constraints that hinder student retention efforts.",
-      "angle": "Highlights growing institutional demand for scalable, technology-driven student support solutions to address capacity and resource gaps.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "69cf2b6d41d80bee",
@@ -888,6 +874,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2afe4095e1764154",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Clients must lead on competence, says government construction adviser",
+      "url": "https://www.constructionnews.co.uk/government/clients-must-lead-on-competence-says-government-construction-adviser-11-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-11T11:45:37+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 85,
+      "summary": "Outgoing interim chief construction adviser Thouria Istephan has urged clients and funders to prioritise building safety and competence over cost and programme pressures.",
+      "angle": "Highlights increasing regulatory and client focus on safety culture and competence standards within the UK built environment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "223eb963c1d5a235",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Housing downturn holds back construction growth",
+      "url": "https://www.constructionnews.co.uk/sections/data/housing-downturn-holds-back-construction-growth-11-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-11T11:34:44+00:00",
+      "first_seen": "2026-09-11T14:08:11.334689+00:00",
+      "score": 85,
+      "summary": "UK construction output growth remains stagnant at 0.1 per cent, driven by a persistent housebuilding slump, despite modest gains in infrastructure and private housing repair and maintenance.",
+      "angle": "Highlights a shift in demand from new-build housing towards repair and maintenance, impacting rooflight sales opportunities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5042ed2889bd3c90",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -914,34 +928,6 @@
       "summary": "UK health sector construction activity saw significant year-on-year growth in July 2026, with project starts up 32 per cent and detailed planning approvals rising by 65 per cent.",
       "angle": "Increased health sector project starts and planning approvals indicate a growing pipeline for specialist glazing and rooflight installations.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bf60576fde6883ce",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Industry calls for delay to looming Building Safety Levy",
-      "url": "https://www.constructionnews.co.uk/buildings/industry-calls-for-delay-to-looming-building-safety-levy-07-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-07T11:30:33+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "Construction and property bodies are urging the government to delay the Building Safety Levy, citing concerns that it will render housing developments unviable and reduce overall supply.",
-      "angle": "Potential slowdown in residential development pipelines directly impacts demand for glazing and rooflight products in new builds.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "70623e284c55d43c",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Viability warning as building safety levy looms",
-      "url": "https://www.constructionnews.co.uk/buildings/viability-warning-as-building-safety-levy-looms-07-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-07T11:30:09+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "The new Building Safety Levy, effective 1 October, imposes additional costs on residential developments, raising concerns among industry bodies regarding project viability and potential delays in housing delivery.",
-      "angle": "Increased development costs and project cancellations directly threaten the pipeline for new residential glazing and rooflight installations.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -950,14 +936,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
+    "providers_succeeded": 90,
+    "queued_candidates": 119,
+    "llm_requests_attempted": 67,
+    "llm_requests_succeeded": 67,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 27,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 3,
+    "dropped_thin_page": 22,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 4
   }
 }
