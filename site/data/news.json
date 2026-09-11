@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T14:08:01.624504+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide developments, as there are no specific updates from Clearway Group, Swytch, The Delivery Group, UOE, or Whitespace to report.",
+  "generated_at": "2026-09-11T06:49:06.482207+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-wide updates, with no specific news to report from Clearway Group, Molinare, or The Delivery Group.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-10T06:48:59.742875+00:00",
+  "last_digest_sent_at": "2026-09-11T06:49:06.482207+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -412,6 +412,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1440066735a2c347",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Logistics UK: Budget Must Back Growth Across Every Postcode",
+      "url": "https://postandparcel.info/162761/news/e-commerce/logistics-uk-budget-must-back-growth-across-every-postcode/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-10T03:06:34+00:00",
+      "first_seen": "2026-09-11T06:49:06.482207+00:00",
+      "score": 75,
+      "summary": "Logistics UK has submitted recommendations to the government ahead of the Autumn Budget, urging measures to alleviate cost pressures and stimulate growth across the logistics sector.",
+      "angle": "Highlights industry-wide policy advocacy regarding cost pressures and economic growth priorities ahead of the UK Autumn Budget.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7a14969da90b275d",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -423,20 +437,6 @@
       "score": 75,
       "summary": "Collect+ data indicates that UK consumers are increasingly prioritising secure parcel delivery options due to rising concerns regarding porch piracy.",
       "angle": "Highlights growing consumer demand for secure delivery solutions, influencing service expectations and operational priorities within the UK logistics sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "824f62f1cd4d1710",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "The Future of Posts 2026",
-      "url": "https://postandparcel.info/162679/research/white-papers/the-future-of-posts-2026/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-01T14:39:33+00:00",
-      "first_seen": "2026-09-02T06:49:11.746497+00:00",
-      "score": 75,
-      "summary": "Escher's tenth edition of the Future of Posts report details investment trends, operational successes, and market pressures from 98 global postal operators.",
-      "angle": "Provides global benchmarking data on operational strategies and competitive pressures relevant to UK mail and parcel delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -468,6 +468,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ec2ad7a501ebfa37",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "IREX unveils video analytics defined by a prompt",
+      "url": "https://securityjournaluk.com/irex-unveils-streamvlm/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-11T06:45:00+00:00",
+      "first_seen": "2026-09-11T06:49:06.482207+00:00",
+      "score": 85,
+      "summary": "IREX has launched StreamVLM, a vision-language model that allows operators to create custom video analytics detectors using plain-language prompts instead of traditional AI model training.",
+      "angle": "Advances in prompt-based AI analytics significantly reduce the time and cost of deploying bespoke site security monitoring solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d67ec80574552ec8",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -479,20 +493,6 @@
       "score": 85,
       "summary": "Industry analysis argues that cloud-based physical security infrastructure offers superior security, automated patching, and disaster recovery compared to traditional on-premise systems.",
       "angle": "Highlights a critical shift in security procurement and technology adoption trends within the physical security sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1706950f5b68056c",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Unified security: The new business strategy",
-      "url": "https://securityjournaluk.com/unified-security-the-new-business-strategy/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-07T08:09:35+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "Industry leaders are shifting from siloed security products to unified, cloud-native platforms that integrate access control, video management, and AI to improve operational efficiency and incident response.",
-      "angle": "Highlights the industry-wide transition toward cloud-based, unified security platforms and AI-driven automation for multi-site property management.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -552,6 +552,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0d2c1e04689cb45a",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Blackmagic Resolve 21.1 Integrates AI Assistants, Adds New Tools System Wide",
+      "url": "https://postperspective.com/blackmagic-resolve-21-1-integrates-ai-assistants-adds-new-tools-system-wide/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-09T20:24:40+00:00",
+      "first_seen": "2026-09-11T06:49:06.482207+00:00",
+      "score": 85,
+      "summary": "Blackmagic Design released DaVinci Resolve 21.1, introducing AI assistant integration for project analysis, media organization, and batch rendering, alongside expanded multicam, color grading, and Fusion toolset capabilities.",
+      "angle": "Integration of AI assistants into industry-standard post-production software signals a shift toward automated workflows and increased operational efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "65c5740ba8e01604",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -566,17 +580,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "162e6cb78d9f79ac",
+      "id": "372f4b5c472a161f",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Avid Media Composer 2026.8 at IBC: Agentic Workflows, More",
-      "url": "https://postperspective.com/avid-media-composer-2026-8-at-ibc-agentic-workflows-more/",
+      "title": "OWC Acquires OpenDrives, Expanding Data Ecosystem",
+      "url": "https://postperspective.com/owc-acquires-opendrives-expanding-data-ecosystem/",
       "source": "postperspective.com",
-      "published_at": "2026-08-31T21:21:38+00:00",
-      "first_seen": "2026-09-01T06:49:16.978426+00:00",
-      "score": 85,
-      "summary": "Avid has announced Media Composer 2026.8, introducing agentic AI workflows, Google Gemini integration, and expanded support for third-party storage solutions in enterprise environments.",
-      "angle": "Adoption of agentic AI and flexible storage integration directly impacts post-production efficiency and technical infrastructure requirements.",
+      "published_at": "2026-09-10T16:29:39+00:00",
+      "first_seen": "2026-09-11T06:49:06.482207+00:00",
+      "score": 75,
+      "summary": "Other World Computing has acquired OpenDrives to integrate high-performance storage and software-defined data management services for enterprise-scale post-production and broadcast workflows.",
+      "angle": "Consolidation of storage and data management vendors impacts infrastructure procurement and workflow efficiency for large-scale post-production facilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -591,20 +605,6 @@
       "score": 75,
       "summary": "Origami Platform has updated its workflow software to include automated media management, unified audio and picture conforming, and expanded lossless codec trimming capabilities.",
       "angle": "Automation of manual media management and conforming workflows represents a significant efficiency shift for post-production facility operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bfaea38fcc810f4c",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Arch Intros Fallback Instances for Better Cloud Workstation Availability",
-      "url": "https://postperspective.com/arch-intros-fallback-instances-for-better-cloud-workstation-availability/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-08T21:40:49+00:00",
-      "first_seen": "2026-09-09T06:49:07.357944+00:00",
-      "score": 75,
-      "summary": "Arch Platform Technologies has introduced Fallback Instances, an automated feature for AWS cloud workstations that selects alternative GPU configurations when preferred instances are unavailable due to capacity constraints.",
-      "angle": "Highlights increasing GPU demand and infrastructure resilience strategies for high-performance post-production cloud workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,13 +950,13 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 0,
+    "providers_succeeded": 86,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 79,
+    "llm_requests_succeeded": 79,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 27,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
