@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T06:48:31.372323+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, as there is no specific news to report from Clearway Group, Fertility Associates, or Petainer.",
+  "generated_at": "2026-09-12T14:07:22.021897+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, as there is no news to report from Clearway Group, Fertility Associates, Petainer, or Whitespace.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-12T06:48:31.372323+00:00",
   "companies": [
@@ -706,17 +706,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "e21ce3a7fa5018f8",
+      "id": "807963edbabb4de8",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Palantir and Nebius Partner on Sovereign AI Infrastructure",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nebius-partner-sovereign-ai-130353486.html",
+      "title": "Palantir and Nvidia Are Building a Sovereign AI Stack . Who Captures More of the Economics ?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html",
       "source": "finance.yahoo.com",
-      "published_at": "2026-09-10T01:00:00+00:00",
-      "first_seen": "2026-09-10T06:48:59.742875+00:00",
+      "published_at": "2026-09-12T09:30:00+00:00",
+      "first_seen": "2026-09-12T14:07:22.021897+00:00",
       "score": 90,
-      "summary": "Palantir and Nebius have partnered to integrate Nebius's cloud and AI infrastructure with Palantir's enterprise platform, focusing on providing customers with greater control over data and computing environments.",
-      "angle": "Highlights market demand for sovereign AI infrastructure that combines enterprise software with controlled, high-performance compute environments.",
+      "summary": "Palantir and Nvidia have launched a sovereign AI architecture integrating Nvidia's Nemotron models with Palantir's Foundry and AIP to secure proprietary data and operational intelligence.",
+      "angle": "Validates the market demand for sovereign AI architectures that prioritize data control and governance within enterprise workflows.",
       "discovered_via": "GDELT"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 80,
-    "llm_requests_succeeded": 80,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 19,
+    "providers_succeeded": 90,
+    "queued_candidates": 126,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
