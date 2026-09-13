@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T14:07:22.021897+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, as there is no news to report from Clearway Group, Fertility Associates, Petainer, or Whitespace.",
+  "generated_at": "2026-09-13T06:48:30.822008+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on a sector update, as there is no news to report from Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-12T06:48:31.372323+00:00",
+  "last_digest_sent_at": "2026-09-13T06:48:30.822008+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -706,17 +706,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "807963edbabb4de8",
+      "id": "100c2cd25adde8b7",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Palantir and Nvidia Are Building a Sovereign AI Stack . Who Captures More of the Economics ?",
-      "url": "https://finance.yahoo.com/technology/ai/articles/palantir-nvidia-building-sovereign-ai-085205506.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-09-12T09:30:00+00:00",
-      "first_seen": "2026-09-12T14:07:22.021897+00:00",
+      "title": "AI Servers Reshape $166 Billion Market as GPU Systems Hit $170 , 000 Average Price",
+      "url": "https://infotechlead.com/networking/ai-servers-reshape-166-billion-market-as-gpu-systems-hit-170000-average-price-98297",
+      "source": "infotechlead.com",
+      "published_at": "2026-09-12T20:30:00+00:00",
+      "first_seen": "2026-09-13T06:48:30.822008+00:00",
       "score": 90,
-      "summary": "Palantir and Nvidia have launched a sovereign AI architecture integrating Nvidia's Nemotron models with Palantir's Foundry and AIP to secure proprietary data and operational intelligence.",
-      "angle": "Validates the market demand for sovereign AI architectures that prioritize data control and governance within enterprise workflows.",
+      "summary": "Global server market revenue reached a record $166.3 billion in Q2 2026, driven by a 43.6 percent increase in average GPU-accelerated server prices to nearly $170,200.",
+      "angle": "Highlights the shift toward branded, integrated AI infrastructure solutions for sovereign and enterprise deployments beyond hyperscalers.",
       "discovered_via": "GDELT"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
+    "providers_succeeded": 62,
+    "queued_candidates": 109,
+    "llm_requests_attempted": 74,
+    "llm_requests_succeeded": 74,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 21,
+    "dropped_thin_page": 5,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 4
   }
 }
