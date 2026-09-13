@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T06:48:30.822008+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on a sector update, as there is no news to report from Whitespace.",
+  "generated_at": "2026-09-13T14:07:25.641128+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on three sector-specific updates, with no new developments to report from Petainer, UOE, or Whitespace.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-13T06:48:30.822008+00:00",
   "companies": [
@@ -622,20 +622,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "44a49f870901cbe8",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change to forgo DRS producer fees for 15 months",
-      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/exchange-for-change-to-forgo-drs-producer-fees-for-15-months-03-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-03T10:46:19+00:00",
-      "first_seen": "2026-09-04T06:49:17.589898+00:00",
-      "score": 95,
-      "summary": "Exchange for Change will charge zero producer fees for the first 15 months of the UK's deposit return scheme, which launches in October 2027.",
-      "angle": "Provides critical regulatory clarity on cost structures for PET packaging producers ahead of the national DRS implementation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "f83b431ddaabf69a",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -661,6 +647,20 @@
       "score": 90,
       "summary": "The UK government has brought 1,800 additional packaging producers into pEPR compliance, with £1.43bn distributed to local authorities for household packaging waste management.",
       "angle": "Increased regulatory enforcement and transparency regarding producer fees directly impacts operational costs and compliance strategy for packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4d1eed8d76959c18",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "McDonald’s Netherlands found to breach single-use dine in rules",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/mcdonalds-netherlands-found-to-breach-single-use-dine-in-rules-09-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-09T22:58:14+00:00",
+      "first_seen": "2026-09-13T14:07:25.641128+00:00",
+      "score": 75,
+      "summary": "The Dutch regulator has ordered McDonald’s Netherlands to transition to reusable packaging for dine-in customers by January 2027 following repeated breaches of single-use plastic regulations.",
+      "angle": "Highlights increasing regulatory pressure and enforcement against single-use packaging in the European foodservice sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -734,20 +734,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "92070c7d2c9db299",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "BRC calls on chancellor to ‘boost job creation’ by raising NICs threshold",
-      "url": "https://www.talkingretail.com/featured/brc-calls-on-chancellor-to-boost-job-creation-by-raising-nics-threshold-03-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-03T10:14:14+00:00",
-      "first_seen": "2026-09-04T06:49:17.589898+00:00",
-      "score": 90,
-      "summary": "The British Retail Consortium has urged the Chancellor to raise the employer National Insurance Contributions threshold from £5,000 to £6,000 to support retail job creation.",
-      "angle": "Rising employment costs significantly impact retail margins and operational capacity for staffing across the UK sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "92227de2c42551fc",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -773,6 +759,20 @@
       "score": 75,
       "summary": "The British Independent Retailers Association warns that a new government-backed Overnight Visitor Levy could reduce consumer spending power on high streets.",
       "angle": "Potential reduction in discretionary spending for independent retailers in tourist-heavy areas due to new local taxation policies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "44dcf3aa5cbc632f",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Dhamecha opens new depot in Bristol",
+      "url": "https://www.talkingretail.com/news/industry-news/dhamecha-opens-new-depot-in-bristol-11-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-11T11:42:33+00:00",
+      "first_seen": "2026-09-13T14:07:25.641128+00:00",
+      "score": 65,
+      "summary": "Wholesaler Dhamecha has opened its 14th cash and carry depot in Bristol, marking its expansion into the South West of England.",
+      "angle": "Indicates increased wholesale competition and supply chain infrastructure investment within the independent retail sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 62,
-    "queued_candidates": 109,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
+    "providers_succeeded": 80,
+    "queued_candidates": 111,
+    "llm_requests_attempted": 55,
+    "llm_requests_succeeded": 55,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 5,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
