@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T06:48:34.057558+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-09-14T14:07:23.308905+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-14T06:48:34.057558+00:00",
   "companies": [
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -426,17 +426,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7a14969da90b275d",
+      "id": "6f6f1aee82a4b397",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Paypoint: Security is front of mind for many shoppers",
-      "url": "https://postandparcel.info/162698/news/e-commerce/paypoint-security-is-front-of-mind-for-many-shoppers/",
+      "title": "Alibaba: AI is fundamentally changing how businesses participate in global trade",
+      "url": "https://postandparcel.info/162764/news/e-commerce/alibaba-ai-is-fundamentally-changing-how-businesses-participate-in-global-trade/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-04T07:36:31+00:00",
-      "first_seen": "2026-09-04T14:08:17.526444+00:00",
-      "score": 75,
-      "summary": "Collect+ data indicates that UK consumers are increasingly prioritising secure parcel delivery options due to rising concerns regarding porch piracy.",
-      "angle": "Highlights growing consumer demand for secure delivery solutions, influencing service expectations and operational priorities within the UK logistics sector.",
+      "published_at": "2026-09-11T09:13:37+00:00",
+      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "score": 65,
+      "summary": "DHL Group and Alibaba.com have signed a memorandum of understanding to utilise artificial intelligence to enhance end-to-end logistics for SMEs in international trade.",
+      "angle": "Highlights the growing integration of AI in logistics to streamline cross-border e-commerce operations for small businesses.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -566,6 +566,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c204ec5184958b66",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "SNS Adds AI Suite Advanced, Avid Media Composer Support to EVO, More",
+      "url": "https://postperspective.com/sns-adds-ai-suite-advanced-avid-media-composer-support-to-evo-more/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-11T15:32:23+00:00",
+      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "score": 75,
+      "summary": "Studio Network Solutions has updated its EVO storage systems with increased throughput, new AI-driven media analysis tools, and expanded compatibility for Avid Media Composer and Windows-based workflows.",
+      "angle": "Advancements in on-premises AI analysis and storage performance directly impact post-production efficiency and collaborative media management workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "372f4b5c472a161f",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -591,20 +605,6 @@
       "score": 75,
       "summary": "Origami Platform has updated its workflow software to include automated media management, unified audio and picture conforming, and expanded lossless codec trimming capabilities.",
       "angle": "Automation of manual media management and conforming workflows represents a significant efficiency shift for post-production facility operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8c3272847cccf70d",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Rhenus Group warns exporters of immediate EU packaging regulation impact",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/rhenus-group-warns-exporters-of-immediate-eu-packaging-regulation-impact-04-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-04T09:57:37+00:00",
-      "first_seen": "2026-09-04T14:08:17.526444+00:00",
-      "score": 95,
-      "summary": "The EU's new Packaging and Packaging Waste Regulation (PPWR) is now mandatory, requiring UK exporters to ensure packaging is recyclable, reusable, and compliant with new labelling and documentation standards.",
-      "angle": "Direct regulatory impact on cross-border packaging standards, compliance documentation, and material design requirements for EU market access.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -647,6 +647,20 @@
       "score": 75,
       "summary": "The Dutch regulator has ordered McDonald’s Netherlands to transition to reusable packaging for dine-in customers by January 2027 following repeated breaches of single-use plastic regulations.",
       "angle": "Highlights increasing regulatory pressure and enforcement against single-use packaging in the European foodservice sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1d072ac0d2222edd",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Recycle Week | Survey finds 1% of people never recycle, 38% could recycle more",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/recycle-week-survey-finds-1-of-people-never-recycle-38-could-recycle-more-14-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-14T10:00:48+00:00",
+      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "score": 65,
+      "summary": "A Recycle Now survey indicates that 38% of Britons believe they could recycle more, while the number of people viewing recycling as worthwhile has declined to 69%.",
+      "angle": "Consumer recycling sentiment and habits directly impact the circular economy and demand for sustainable PET packaging solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -720,6 +734,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a3301138594e9aea",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Fed calls for government to put independent retailers at heart of Budget agenda",
+      "url": "https://www.talkingretail.com/featured/fed-calls-for-government-to-put-independent-retailers-at-heart-of-its-budget-agenda-14-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-14T10:02:39+00:00",
+      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "score": 85,
+      "summary": "The Federation of Independent Retailers has urged the Chancellor to address business rates, rising operating costs, and retail crime in the upcoming October Budget.",
+      "angle": "Highlights critical policy lobbying efforts regarding business rates, National Insurance thresholds, and retail crime affecting independent high-street retailers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "92227de2c42551fc",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -748,17 +776,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "44dcf3aa5cbc632f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Dhamecha opens new depot in Bristol",
-      "url": "https://www.talkingretail.com/news/industry-news/dhamecha-opens-new-depot-in-bristol-11-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-11T11:42:33+00:00",
-      "first_seen": "2026-09-13T14:07:25.641128+00:00",
-      "score": 65,
-      "summary": "Wholesaler Dhamecha has opened its 14th cash and carry depot in Bristol, marking its expansion into the South West of England.",
-      "angle": "Indicates increased wholesale competition and supply chain infrastructure investment within the independent retail sector.",
+      "id": "5a1f478b22923b63",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "The ‘Nonexistent’ Research on AI’s Benefits for Education",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-14T07:00:00+00:00",
+      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "score": 85,
+      "summary": "Experts warn that the evidence base for AI's efficacy in higher education is almost nonexistent, with current research struggling to keep pace with rapid technological evolution.",
+      "angle": "Highlights the growing demand for rigorous, independent efficacy data to justify institutional investment in AI-powered learning tools.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -802,20 +830,6 @@
       "summary": "Austin Community College is launching a 'Digital Twin' AI initiative to integrate student data and provide proactive, automated interventions for struggling students.",
       "angle": "Highlights the shift toward AI-driven student success platforms and the integration of disparate institutional data systems.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8f4e33ce7d22bad0",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Unacademy sale to upGrad is the final act of India edtech boom",
-      "url": "https://www.businesstoday.in/technology/news/story/unacademys-sale-to-upgrad-is-the-final-act-of-indias-edtech-boom-553343-2026-09-04",
-      "source": "businesstoday.in",
-      "published_at": "2026-09-04T09:15:00+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 85,
-      "summary": "UpGrad has acquired Unacademy in an all-stock deal valued at $200 million, representing a 94% valuation decline from its 2021 peak and marking significant consolidation in the edtech sector.",
-      "angle": "Highlights the end of hyper-growth edtech valuations and the shift toward consolidation and sustainable business models.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "69cf2b6d41d80bee",
@@ -936,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 108,
-    "llm_requests_attempted": 57,
-    "llm_requests_succeeded": 57,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 23,
+    "providers_succeeded": 89,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 22,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
