@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T14:07:25.641128+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on three sector-specific updates, with no new developments to report from Petainer, UOE, or Whitespace.",
+  "generated_at": "2026-09-14T06:48:34.057558+00:00",
+  "digest_intro": "",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-13T06:48:30.822008+00:00",
+  "last_digest_sent_at": "2026-09-14T06:48:34.057558+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 1,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -566,20 +566,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "65c5740ba8e01604",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Signiant at IBC 2026: Acceleration Beyond Just File Transfers",
-      "url": "https://postperspective.com/signiant-at-ibc-2026-acceleration-beyond-just-file-transfers/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-03T19:06:04+00:00",
-      "first_seen": "2026-09-04T06:49:17.589898+00:00",
-      "score": 85,
-      "summary": "Signiant is expanding its platform at IBC 2026 to include AI-driven content management, automated quality control, and collaborative review tools that operate directly on existing storage infrastructure.",
-      "angle": "Post-production facilities are increasingly adopting AI-integrated, storage-agnostic workflows to improve content accessibility, review efficiency, and automated delivery validation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "372f4b5c472a161f",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -950,14 +936,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 111,
-    "llm_requests_attempted": 55,
-    "llm_requests_succeeded": 55,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 26,
+    "providers_succeeded": 83,
+    "queued_candidates": 108,
+    "llm_requests_attempted": 57,
+    "llm_requests_succeeded": 57,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 4
   }
 }
