@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T06:48:25.725513+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, with no specific news to report from Fertility Associates, Petainer, or Whitespace.",
+  "generated_at": "2026-09-15T14:07:29.789418+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on seven sector updates, with no specific news to report from Fertility Associates, Petainer, UOE, or Whitespace.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-15T06:48:25.725513+00:00",
   "companies": [
@@ -608,6 +608,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0e3a36d795f06b80",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "London Packaging Week | Packaging leaders to discuss DRS readiness",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/london-packaging-week-packaging-leaders-to-discuss-drs-readiness-15-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-15T11:14:39+00:00",
+      "first_seen": "2026-09-15T14:07:29.789418+00:00",
+      "score": 95,
+      "summary": "Industry leaders are convening at London Packaging Week to discuss operational readiness for the UK's Deposit Return Scheme, which is scheduled to launch in October 2027.",
+      "angle": "Regulatory shifts regarding packaging specifications and barcodes directly impact PET manufacturers' production and compliance requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f83b431ddaabf69a",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -648,20 +662,6 @@
       "summary": "The Dutch regulator has ordered McDonald’s Netherlands to transition to reusable packaging for dine-in customers by January 2027 following repeated breaches of single-use plastic regulations.",
       "angle": "Highlights increasing regulatory pressure and enforcement against single-use packaging in the European foodservice sector.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a75b106c26ee1ca4",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Stock Market Highlights , September 9 : Sensex crashes 813 pts , Nifty closes at 23 , 431 as crude prices cross $100",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-9th-september-2026/article71445394.ece",
-      "source": "thehindubusinessline.com",
-      "published_at": "2026-09-09T13:30:00+00:00",
-      "first_seen": "2026-09-15T06:48:25.725513+00:00",
-      "score": 75,
-      "summary": "Brent crude oil futures have risen above $100 per barrel for the first time since late July, driven by escalating conflict in the Middle East.",
-      "angle": "Rising crude oil prices significantly impact the cost of raw materials for PET plastic packaging manufacturing.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "c9b3afa142172630",
@@ -720,6 +720,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "65987e8d8d187746",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Yoti and partners to help shops accept digital proof of age for alcohol sales",
+      "url": "https://www.talkingretail.com/news/industry-news/yoti-and-partners-to-help-shops-accept-digital-proof-of-age-for-alcohol-sales-15-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-15T10:10:14+00:00",
+      "first_seen": "2026-09-15T14:07:29.789418+00:00",
+      "score": 95,
+      "summary": "A change in UK law now allows licensed premises to accept digital IDs, such as Post Office EasyID, as valid proof of age for alcohol sales.",
+      "angle": "Directly impacts Post Office retail operations by enabling digital age verification for age-restricted products.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "69f9225392fecbbf",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -734,6 +748,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c6b8c9847575bd1e",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retail jobs fall as employment costs soar, ONS figures show",
+      "url": "https://www.talkingretail.com/featured/retail-jobs-fall-as-employment-costs-soar-ons-figures-show-15-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-15T10:20:09+00:00",
+      "first_seen": "2026-09-15T14:07:29.789418+00:00",
+      "score": 85,
+      "summary": "ONS figures show UK retail employment has fallen to record lows, with retailers facing £6.5bn in increased costs from National Insurance and National Living Wage rises.",
+      "angle": "Rising employment costs and sector-wide job losses impact operational overheads and recruitment strategies for independent retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a3301138594e9aea",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -745,34 +773,6 @@
       "score": 85,
       "summary": "The Federation of Independent Retailers has urged the Chancellor to address business rates, rising operating costs, and retail crime in the upcoming October Budget.",
       "angle": "Highlights critical policy lobbying efforts regarding business rates, National Insurance thresholds, and retail crime affecting independent high-street retailers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "92227de2c42551fc",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Local Shops take Cost of Trading campaign to Parliament during ACS event",
-      "url": "https://www.talkingretail.com/featured/local-shops-take-cost-of-trading-campaign-to-parliament-during-acs-event-10-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-10T12:50:29+00:00",
-      "first_seen": "2026-09-10T14:08:01.624504+00:00",
-      "score": 85,
-      "summary": "The Association of Convenience Stores launched the #Checkout the Cost of Trading campaign in Parliament, calling for urgent fiscal relief to address rising operational costs for local retailers.",
-      "angle": "Highlights industry-wide lobbying efforts for business rate and National Insurance relief impacting independent retail operating costs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f83ccf5b6893b88a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Bira warns new visitor levy risks squeezing high street spending",
-      "url": "https://www.talkingretail.com/news/industry-news/bira-warns-new-visitor-levy-risks-squeezing-high-street-spending-11-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-11T11:46:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 75,
-      "summary": "The British Independent Retailers Association warns that a new government-backed Overnight Visitor Levy could reduce consumer spending power on high streets.",
-      "angle": "Potential reduction in discretionary spending for independent retailers in tourist-heavy areas due to new local taxation policies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 21,
+    "providers_succeeded": 85,
+    "queued_candidates": 123,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 71,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 22,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 4
   }
 }
