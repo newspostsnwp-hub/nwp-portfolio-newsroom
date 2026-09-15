@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T14:07:23.308905+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-09-15T06:48:25.725513+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, with no specific news to report from Fertility Associates, Petainer, or Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-14T06:48:34.057558+00:00",
+  "last_digest_sent_at": "2026-09-15T06:48:25.725513+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -650,18 +650,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1d072ac0d2222edd",
+      "id": "a75b106c26ee1ca4",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Recycle Week | Survey finds 1% of people never recycle, 38% could recycle more",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/recycle-week-survey-finds-1-of-people-never-recycle-38-could-recycle-more-14-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-14T10:00:48+00:00",
-      "first_seen": "2026-09-14T14:07:23.308905+00:00",
-      "score": 65,
-      "summary": "A Recycle Now survey indicates that 38% of Britons believe they could recycle more, while the number of people viewing recycling as worthwhile has declined to 69%.",
-      "angle": "Consumer recycling sentiment and habits directly impact the circular economy and demand for sustainable PET packaging solutions.",
-      "discovered_via": "Sector RSS"
+      "title": "Stock Market Highlights , September 9 : Sensex crashes 813 pts , Nifty closes at 23 , 431 as crude prices cross $100",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-9th-september-2026/article71445394.ece",
+      "source": "thehindubusinessline.com",
+      "published_at": "2026-09-09T13:30:00+00:00",
+      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "score": 75,
+      "summary": "Brent crude oil futures have risen above $100 per barrel for the first time since late July, driven by escalating conflict in the Middle East.",
+      "angle": "Rising crude oil prices significantly impact the cost of raw materials for PET plastic packaging manufacturing.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "c9b3afa142172630",
@@ -692,20 +692,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "114e857681c2cf3c",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Nvidia $12 . 9B Hugging Face Deal Will Aid Enterprise AI Push : Partners",
-      "url": "https://www.crn.com/news/ai/2026/nvidia-s-12-9b-hugging-face-deal-will-aid-enterprise-ai-push-partners",
-      "source": "crn.com",
-      "published_at": "2026-09-04T18:30:00+00:00",
-      "first_seen": "2026-09-06T06:48:26.935137+00:00",
-      "score": 95,
-      "summary": "Nvidia has announced a $12.9 billion acquisition of open model repository Hugging Face to accelerate enterprise AI adoption and infrastructure sales.",
-      "angle": "Validates the shift toward open-source models for sovereign enterprise AI and the development of internal AI factories.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "100c2cd25adde8b7",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -718,6 +704,20 @@
       "summary": "Global server market revenue reached a record $166.3 billion in Q2 2026, driven by a 43.6 percent increase in average GPU-accelerated server prices to nearly $170,200.",
       "angle": "Highlights the shift toward branded, integrated AI infrastructure solutions for sovereign and enterprise deployments beyond hyperscalers.",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "d010a97487684a4c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "FuriosaAI Deploys Inference Servers at Equinix Lisbon Data Center, Targeting Europe's Sovereign AI Market - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sNEFna05YTEU2UTNxLUp5UlJ5Z0NLbk5Ta3hZUUliTUNYYzFQTGFybi00U1ZVZkRwWk13dXBpS01UMVo2aFExQ1M5aTNCV1FJUUlRTHpGTjJ3Smh3WFJWbHdWT0s4RjMyZENoRHFzQjB6TU95ZFE?oc=5",
+      "source": "finance.biggo.com",
+      "published_at": "2026-09-15T05:05:00+00:00",
+      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "score": 85,
+      "summary": "South Korean chipmaker FuriosaAI has deployed its inference servers at an Equinix data centre in Lisbon to target the European sovereign AI market.",
+      "angle": "Highlights increasing competition from international hardware providers entering the European sovereign AI infrastructure space.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "69f9225392fecbbf",
@@ -832,6 +832,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d86b87bd1c41fada",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Egg freezing becoming more commonplace in women's sports",
+      "url": "https://www.progress.org.uk/egg-freezing-becoming-more-commonplace-in-womens-sports/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-14T15:44:37+00:00",
+      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "score": 85,
+      "summary": "Professional sports organisations, including Chelsea FC and the Royal Spanish Football Federation, are increasingly funding egg freezing and fertility treatments for female athletes.",
+      "angle": "Highlights growing corporate and institutional demand for fertility services as an employee benefit and workplace support mechanism.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f91f50b60b7ab1a9",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Withdrawal of donor consent after the creation of embryos requires HFEA intervention",
+      "url": "https://www.progress.org.uk/withdrawal-of-donor-consent-after-the-creation-of-embryos-requires-hfea-intervention/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-14T15:42:40+00:00",
+      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "score": 85,
+      "summary": "Medical directors are calling for UK law reform to prevent gamete donors from withdrawing consent for embryo use after the creation of embryos has already occurred.",
+      "angle": "Highlights critical regulatory risks regarding donor consent, embryo storage, and patient rights in fertility treatment frameworks.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1787da9c2f0e9e40",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Egg freezing is not reproductive insurance – so what does 'success' really mean?",
+      "url": "https://www.progress.org.uk/egg-freezing-is-not-reproductive-insurance-so-what-does-success-really-mean/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-14T15:41:32+00:00",
+      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "score": 85,
+      "summary": "The Royal College of Obstetricians and Gynaecologists has published a scientific impact paper addressing the complexities, success rates, and emotional demands of elective egg freezing.",
+      "angle": "Highlights the need for transparent communication regarding success rates and patient support in a rapidly growing market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "69cf2b6d41d80bee",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -843,48 +885,6 @@
       "score": 85,
       "summary": "A Danish sperm donor carrying a pathogenic COL3A1 gene variant was used to conceive 53 children in Belgium, highlighting systemic failures in international donor quota enforcement.",
       "angle": "Highlights increasing regulatory pressure for cross-border donor traceability and stricter genetic screening standards in fertility services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "669cd35911ec19dc",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Parenthood at birth, protection before pregnancy: A clinician's case for surrogacy reform",
-      "url": "https://www.progress.org.uk/parenthood-at-birth-protection-before-pregnancy-a-clinicians-case-for-surrogacy-reform-2/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-07T09:55:55+00:00",
-      "first_seen": "2026-09-07T14:07:33.807698+00:00",
-      "score": 75,
-      "summary": "UK clinicians are advocating for mandatory preconception safeguarding and improved regulatory frameworks to address obstetric risks associated with gestational surrogacy.",
-      "angle": "Highlights evolving clinical standards and regulatory debates regarding surrogate welfare and legal parenthood in fertility services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2ba1f8cb8f292826",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Potential changes to NHS IVF in England and Scotland",
-      "url": "https://www.progress.org.uk/potential-changes-to-nhs-ivf-in-england-and-scotland/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-07T15:49:43+00:00",
-      "first_seen": "2026-09-12T06:48:31.372323+00:00",
-      "score": 65,
-      "summary": "The UK and Scottish Governments are proposing significant reforms to standardise and potentially expand NHS-funded IVF access, including increased cycle counts and broader eligibility criteria.",
-      "angle": "Regulatory shifts in public funding models significantly influence private market demand and patient pathways within the fertility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f75b17c56c6a6d1b",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "CRISPR/Cas genome editing explained",
-      "url": "https://www.progress.org.uk/crispr-cas-genome-editing-explained/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-07T15:13:28+00:00",
-      "first_seen": "2026-09-12T06:48:31.372323+00:00",
-      "score": 65,
-      "summary": "Dr Sandeep Rajan explains the origins, development, and potential healthcare applications of CRISPR/Cas genome-editing technology in a recent interview.",
-      "angle": "Advances in genome editing represent long-term technological shifts with potential implications for future reproductive medicine and genetic screening.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 22,
+    "providers_succeeded": 87,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 4
   }
 }
