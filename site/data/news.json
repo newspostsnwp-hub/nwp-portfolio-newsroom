@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T06:49:12.438878+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-09-16T14:08:13.877082+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no specific news to report from our portfolio companies this morning.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-16T06:49:12.438878+00:00",
   "companies": [
@@ -412,6 +412,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "76f1a6f7d5ef05ba",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "SwipBox Launches Hardware-Agnostic Software Platform for Mixed Locker Networks",
+      "url": "https://postandparcel.info/162797/news/e-commerce/swipbox-launches-hardware-agnostic-software-platform-for-mixed-locker-networks/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-16T11:55:36+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "score": 75,
+      "summary": "SwipBox has launched a hardware-agnostic software platform that allows carriers and network operators to manage mixed parcel locker networks through a single solution.",
+      "angle": "Highlights a shift towards interoperability in last-mile delivery infrastructure, potentially reducing barriers to expanding automated locker networks.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1440066735a2c347",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -423,20 +437,6 @@
       "score": 75,
       "summary": "Logistics UK has submitted recommendations to the government ahead of the Autumn Budget, urging measures to alleviate cost pressures and stimulate growth across the logistics sector.",
       "angle": "Highlights industry-wide policy advocacy regarding cost pressures and economic growth priorities ahead of the UK Autumn Budget.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6f6f1aee82a4b397",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Alibaba: AI is fundamentally changing how businesses participate in global trade",
-      "url": "https://postandparcel.info/162764/news/e-commerce/alibaba-ai-is-fundamentally-changing-how-businesses-participate-in-global-trade/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-11T09:13:37+00:00",
-      "first_seen": "2026-09-14T14:07:23.308905+00:00",
-      "score": 65,
-      "summary": "DHL Group and Alibaba.com have signed a memorandum of understanding to utilise artificial intelligence to enhance end-to-end logistics for SMEs in international trade.",
-      "angle": "Highlights the growing integration of AI in logistics to streamline cross-border e-commerce operations for small businesses.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -468,6 +468,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f41d49f5058f02b2",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Facial recognition in London: Who should have a say over it?",
+      "url": "https://securityjournaluk.com/facial-recognition-london-impact/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-16T07:09:00+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "score": 85,
+      "summary": "Public support for facial recognition technology varies by use case, with high backing for security and identity checks but significant concerns regarding privacy, data protection, and algorithmic bias.",
+      "angle": "Highlights regulatory and public trust challenges for security firms deploying biometric monitoring and surveillance technologies in public spaces.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ec2ad7a501ebfa37",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -479,20 +493,6 @@
       "score": 85,
       "summary": "IREX has launched StreamVLM, a vision-language model that allows operators to create custom video analytics detectors using plain-language prompts instead of traditional AI model training.",
       "angle": "Advances in prompt-based AI analytics significantly reduce the time and cost of deploying bespoke site security monitoring solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d67ec80574552ec8",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "The security myth holding physical security teams back",
-      "url": "https://securityjournaluk.com/the-security-myth-holding-security-teams-back/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-09T06:35:00+00:00",
-      "first_seen": "2026-09-10T06:48:59.742875+00:00",
-      "score": 85,
-      "summary": "Industry analysis argues that cloud-based physical security infrastructure offers superior security, automated patching, and disaster recovery compared to traditional on-premise systems.",
-      "angle": "Highlights a critical shift in security procurement and technology adoption trends within the physical security sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -748,31 +748,59 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c6b8c9847575bd1e",
+      "id": "ec9f8ddaea9d089e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Retail jobs fall as employment costs soar, ONS figures show",
-      "url": "https://www.talkingretail.com/featured/retail-jobs-fall-as-employment-costs-soar-ons-figures-show-15-09-2026/",
+      "title": "Tomra unveils space-saving reverse vending machine for convenience retailers",
+      "url": "https://www.talkingretail.com/featured/tomra-unveils-space-saving-reverse-vending-machine-for-convenience-retailers-16-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-15T10:20:09+00:00",
-      "first_seen": "2026-09-15T14:07:29.789418+00:00",
+      "published_at": "2026-09-16T12:41:54+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
       "score": 85,
-      "summary": "ONS figures show UK retail employment has fallen to record lows, with retailers facing £6.5bn in increased costs from National Insurance and National Living Wage rises.",
-      "angle": "Rising employment costs and sector-wide job losses impact operational overheads and recruitment strategies for independent retail chains.",
+      "summary": "Tomra has launched a compact reverse vending machine designed for convenience retailers ahead of the UK's 2027 deposit return scheme implementation.",
+      "angle": "Provides critical operational infrastructure and financial incentives for independent retailers preparing for mandatory deposit return scheme compliance.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a3301138594e9aea",
+      "id": "7eb3573274e66036",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Fed calls for government to put independent retailers at heart of Budget agenda",
-      "url": "https://www.talkingretail.com/featured/fed-calls-for-government-to-put-independent-retailers-at-heart-of-its-budget-agenda-14-09-2026/",
+      "title": "Independent owner-operators remain dominant buyers of convenience stores",
+      "url": "https://www.talkingretail.com/news/industry-news/independent-owner-operators-remain-dominant-buyers-of-convenience-stores-16-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-14T10:02:39+00:00",
-      "first_seen": "2026-09-14T14:07:23.308905+00:00",
+      "published_at": "2026-09-16T11:35:39+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
       "score": 85,
-      "summary": "The Federation of Independent Retailers has urged the Chancellor to address business rates, rising operating costs, and retail crime in the upcoming October Budget.",
-      "angle": "Highlights critical policy lobbying efforts regarding business rates, National Insurance thresholds, and retail crime affecting independent high-street retailers.",
+      "summary": "Christie & Co reports a 26% increase in retail business offers in H1 2026, with independent owner-operators accounting for 65% of convenience store acquisitions.",
+      "angle": "Highlights strong market demand for independent convenience retail and the importance of diversifying services like parcel delivery.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4ec805c694546356",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Survey: Americans Concerned About AI’s Effect on Human Connection and Thinking",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/16/survey-ais-perceived-effect-human-connection-thinking",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "score": 85,
+      "summary": "A survey from Elon University reveals that while 65 percent of Americans use AI, over half express concerns regarding its impact on critical thinking and human agency.",
+      "angle": "Highlights public anxiety regarding AI's role in education, necessitating careful design of learning tools to support cognitive development.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3d0f15f460eae851",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Big School Districts Pause AI Access at School",
+      "url": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/09/16/big-school-districts-pause-ai-access-school",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "score": 85,
+      "summary": "Major US school districts, including New York City and Los Angeles, have implemented moratoriums or restrictions on generative AI tools in classrooms due to safety and screen-time concerns.",
+      "angle": "Regulatory shifts and school district policy changes directly impact the adoption and integration of AI-driven educational publishing products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -801,34 +829,6 @@
       "score": 85,
       "summary": "A survey of senior college leaders reveals heightened uncertainty regarding financial viability, public perception, and the capacity to navigate complex state and federal policy changes.",
       "angle": "Signals potential shifts in institutional procurement, budget prioritisation, and demand for adaptive learning technology solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ca0a121da8c653ef",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Architect of Ohio Higher Ed Overhaul Calls Shared Governance ‘Garbage’",
-      "url": "https://www.insidehighered.com/news/government/state-policy/2026/09/11/architect-ohio-higher-ed-overhaul-shared-governance-garbage",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-11T07:00:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 85,
-      "summary": "Ohio's Senate Bill 1 mandates institutional neutrality, prohibits DEI offices, requires intellectual diversity in course approvals, and forces the closure of undergraduate degree programs with low enrollment.",
-      "angle": "Legislative shifts in higher education governance and curriculum oversight significantly impact institutional demand for publishing and learning technology.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5b1b402141b8ef6e",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Can AI Help Colleges Reach Struggling Students Earlier?",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/09/11/can-ai-help-colleges-reach-struggling-students",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-11T07:00:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 85,
-      "summary": "Austin Community College is launching a 'Digital Twin' AI initiative to integrate student data and provide proactive, automated interventions for struggling students.",
-      "angle": "Highlights the shift toward AI-driven student success platforms and the integration of disparate institutional data systems.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -888,6 +888,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4f5e4b0d922aa44e",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Brick deliveries plunge 23% as materials demand weakens",
+      "url": "https://www.constructionnews.co.uk/supply-chain/brick-deliveries-plunge-23-as-materials-demand-weakens-16-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-16T10:07:31+00:00",
+      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "score": 85,
+      "summary": "UK brick deliveries fell 22.8 per cent year on year in July, reflecting a broader decline in construction materials demand and housebuilding starts.",
+      "angle": "Signals a significant slowdown in new residential construction activity, a key demand driver for rooflight manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2afe4095e1764154",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -928,20 +942,6 @@
       "summary": "New analysis from Glenigan indicates that construction project starts fell by 20 per cent in the three months to 31 August compared to the same period last year.",
       "angle": "Indicates a significant contraction in the construction pipeline, signalling reduced demand for building products and glazing materials.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d1c62bc95a64a4fe",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "UK construction activity July 2026: Health",
-      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-july-2026-health-07-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-07T14:42:24+00:00",
-      "first_seen": "2026-09-08T06:48:29.754058+00:00",
-      "score": 85,
-      "summary": "UK health sector construction activity saw significant year-on-year growth in July 2026, with project starts up 32 per cent and detailed planning approvals rising by 65 per cent.",
-      "angle": "Increased health sector project starts and planning approvals indicate a growing pipeline for specialist glazing and rooflight installations.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 78,
-    "queued_candidates": 82,
-    "llm_requests_attempted": 29,
-    "llm_requests_succeeded": 29,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 2,
+    "providers_succeeded": 80,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 4
   }
 }
