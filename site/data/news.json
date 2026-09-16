@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-15T14:07:29.789418+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on seven sector updates, with no specific news to report from Fertility Associates, Petainer, UOE, or Whitespace.",
+  "generated_at": "2026-09-16T06:49:12.438878+00:00",
+  "digest_intro": "",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-15T06:48:25.725513+00:00",
+  "last_digest_sent_at": "2026-09-16T06:49:12.438878+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -950,14 +950,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 123,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 71,
+    "providers_succeeded": 78,
+    "queued_candidates": 82,
+    "llm_requests_attempted": 29,
+    "llm_requests_succeeded": 29,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 22,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 8,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
