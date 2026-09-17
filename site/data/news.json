@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T06:49:03.666757+00:00",
-  "digest_intro": "Good morning. Today's briefing covers two portfolio updates, led by Clearway Group's support for the Prologis UK 100 Challenge, alongside one sector item.",
+  "generated_at": "2026-09-17T14:08:07.886212+00:00",
+  "digest_intro": "Good morning. Today's briefing covers three portfolio updates, led by McGraw Hill's acquisition of TeachFX, alongside four additional sector items.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-17T06:49:03.666757+00:00",
   "companies": [
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 2,
+      "story_count": 3,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,9 +251,39 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
-  "todays_story_count": 2,
+  "story_count": 7,
+  "todays_story_count": 3,
   "stories": [
+    {
+      "id": "52c48b39cf0a668d",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill Acquires TeachFX, Expanding Commitment to Great Teaching with AI Coaching Tool Designed by Educators - The Joplin Globe",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPNVpocDFDNHFoY3I1ZU1xUGwteWZqazFYLVBEX3hKS01MOWRfRVdya2tqVHVQekdYSGdRNmU0cE5UckNPdUxxdE1WSWw3S3hCQkR2RUZsZjAtXzF3dlVFdzBJY0FtbmVrWGI3eTFPbFplZWhKSGhvX1dfdnJxYXloV3NfRkNoMlcwcXp2MzhiTUJhQkZUdGIxRS1tZ19hUXllaFltdEd1Y3phNWltWHhrYWRiLVRzU0hkQjNvMDRlUm5HanpFeE1GTFVpZUdTS05Nb05xa19aQ3E0WXdtX081M0kxRTlhdjR3OGZjNzZ1NkNGaEVpU1dEeDNkQ0pYeUdlY3d1UnVqZmFlSTUzZklBb0NPZ2Qydk8xbTc5WkNkQ2VUWUpNSFBva3Z5R2o?oc=5",
+      "source": "The Joplin Globe",
+      "published_at": "2026-09-17T12:35:04+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
+      "score": 90,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Acquisition",
+      "summary": "McGraw Hill has acquired TeachFX, an edtech company specialising in AI-powered professional development tools for educators.",
+      "why_it_matters": "This acquisition strengthens McGraw Hill's portfolio by integrating AI-driven coaching technology designed to support teachers and improve classroom instruction.",
+      "verified_facts": [
+        "McGraw Hill has acquired TeachFX.",
+        "TeachFX provides an AI coaching tool designed by educators."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill has acquired TeachFX. This move integrates AI-powered coaching tools into McGraw Hill’s existing suite of educational resources, further supporting their commitment to enhancing teaching practices and classroom outcomes. By leveraging technology designed by educators, McGraw Hill continues to evolve its offerings to meet the changing needs of the global education sector. We look forward to seeing how this integration supports teachers in their professional development and instructional impact. #McGrawHill #EdTech #Education",
+        "investor": "McGraw Hill’s acquisition of TeachFX marks a strategic expansion of its learning technology capabilities. By incorporating AI-driven coaching tools, the company is well-positioned to address the growing demand for scalable, data-informed professional development for educators. This investment aligns with McGraw Hill’s focus on providing high-quality, evidence-based solutions that drive instructional improvement. We remain focused on supporting the team as they integrate this new technology to deliver enhanced value across their global education platforms. #EducationInvestment #GrowthStrategy #AI",
+        "people": "Congratulations to the McGraw Hill team on the acquisition of TeachFX. This partnership brings together McGraw Hill’s extensive reach in education publishing with TeachFX’s innovative AI coaching tools, which were specifically designed by educators to support their peers. By prioritising tools that empower teachers, McGraw Hill is reinforcing its dedication to the people at the heart of the classroom. We are excited to see how this collaboration will foster professional growth and support educators in their vital work. #ProfessionalDevelopment #TeachingExcellence #McGrawHill"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
     {
       "id": "f8cf21fcb3a59173",
       "company": "McGraw Hill",
@@ -546,17 +576,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f41d49f5058f02b2",
+      "id": "a516ca3b1434c9a6",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Facial recognition in London: Who should have a say over it?",
-      "url": "https://securityjournaluk.com/facial-recognition-london-impact/",
+      "title": "Drones to transform rail-incident response",
+      "url": "https://securityjournaluk.com/drones-to-transform-rail-incident-response/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-16T07:09:00+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
+      "published_at": "2026-09-16T09:51:58+00:00",
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
       "score": 85,
-      "summary": "Public support for facial recognition technology varies by use case, with high backing for security and identity checks but significant concerns regarding privacy, data protection, and algorithmic bias.",
-      "angle": "Highlights regulatory and public trust challenges for security firms deploying biometric monitoring and surveillance technologies in public spaces.",
+      "summary": "The British Transport Police has launched a national Beyond Visual Line of Sight drone-in-a-box network to improve incident response times across the UK rail infrastructure.",
+      "angle": "Demonstrates the increasing adoption of automated, remote-operated drone surveillance for securing large-scale, critical infrastructure sites.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -728,6 +758,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "37ec9fa62b42776d",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI Competition Moves Beyond Companies to Nation-States: 'Sovereign AI' Spending by 67 Countries Surges 26-Fold in 3 Years - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9STnplTFRlNERTYWtyN2ZsVHJ2eEJ2WnIxV1paTkNoX09TbnNCRHVlU3MtdDdyS0U0eGJBVVpXNURPOG5sRmlsUkJEWnNXYjRDWnVOSDg1YXpLTE1FTWo1OWl5NFlOdzZOYWF3TEZ2YVN0VnNWWnc?oc=5",
+      "source": "finance.biggo.com",
+      "published_at": "2026-09-17T09:26:00+00:00",
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
+      "score": 95,
+      "summary": "Global sovereign AI spending across 67 countries has increased 26-fold over the past three years as nation-states prioritise domestic AI capabilities.",
+      "angle": "Validates the rapid expansion of the sovereign AI market and highlights significant growth in government-level demand.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "c9b3afa142172630",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -768,20 +812,6 @@
       "summary": "Global server market revenue reached a record $166.3 billion in Q2 2026, driven by a 43.6 percent increase in average GPU-accelerated server prices to nearly $170,200.",
       "angle": "Highlights the shift toward branded, integrated AI infrastructure solutions for sovereign and enterprise deployments beyond hyperscalers.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "651e73fb1e9b83db",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Nebius Group (NBIS) Is Down 12.9% After Becoming Palantir’s Preferred Sovereign AI Cloud Partner – Has The Bull Case Changed? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHBCYkN0d1Fkd1lOQmlRMGpKT0F2QklLYm1STUYwVmMyeVUyNUtkMUg1OUxCYzZaZ1dDNkEtTGd1M1VNd1g2Tk5Ba1NzVDJVd1VzM2Y5a3JnN2g4R3owWktTY3QxRENXbXBfbG42U1RVYjh4YnVoZ2dQUTVCdDhkYmVnbjVYelFCZkdHZ1oyR0p2dHM?oc=5",
-      "source": "Yahoo Finance",
-      "published_at": "2026-09-17T01:12:00+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "Nebius Group has been named Palantir's preferred sovereign AI cloud partner, resulting in a 12.9% decline in the company's share price.",
-      "angle": "Highlights strategic partnerships and market volatility within the competitive sovereign AI cloud infrastructure landscape.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "65987e8d8d187746",
@@ -840,6 +870,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3e4f78d51185449a",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "The Key Podcast: Higher Ed’s Accreditation Overhaul Is Only Getting Started",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/17/podcast-accreditation-overhaul-only-getting-started",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
+      "score": 85,
+      "summary": "The U.S. Department of Education is implementing a sweeping rewrite of accreditation regulations, focusing on student credit transfers and institutional accountability for student outcomes.",
+      "angle": "Regulatory shifts in accreditation directly impact higher education business models, compliance requirements, and institutional demand for learning technology.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2ee5c5cb1bec7f1a",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "2 in 3 Harvard Professors Say AI Has a Negative Impact on Class",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/17/2-3-harvard-professors-say-ai-has-negative-impact",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
+      "score": 85,
+      "summary": "A survey of Harvard faculty indicates that nearly two-thirds now view artificial intelligence as having a negative impact on their courses, with most implementing explicit usage policies.",
+      "angle": "Reflects growing academic resistance to AI integration, highlighting potential barriers for edtech adoption in higher education.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4ec805c694546356",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -865,34 +923,6 @@
       "score": 85,
       "summary": "Major US school districts, including New York City and Los Angeles, have implemented moratoriums or restrictions on generative AI tools in classrooms due to safety and screen-time concerns.",
       "angle": "Regulatory shifts and school district policy changes directly impact the adoption and integration of AI-driven educational publishing products.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6727182d6db956b5",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Will Trump’s Accreditation Revamp Force Campus Changes?",
-      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/09/16/will-trumps-accreditation-revamp-force-campus-changes",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-16T07:00:00+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "The Trump administration's proposed accreditation overhaul, slated for July 2027, introduces new requirements for credit transfer policies and federal recognition of accrediting agencies.",
-      "angle": "Regulatory changes to accreditation and credit transfer policies directly impact higher education institutional operations and curriculum delivery standards.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5a1f478b22923b63",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "The ‘Nonexistent’ Research on AI’s Benefits for Education",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/09/14/nonexistent-research-ais-benefits-education",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-14T07:00:00+00:00",
-      "first_seen": "2026-09-14T14:07:23.308905+00:00",
-      "score": 85,
-      "summary": "Experts warn that the evidence base for AI's efficacy in higher education is almost nonexistent, with current research struggling to keep pace with rapid technological evolution.",
-      "angle": "Highlights the growing demand for rigorous, independent efficacy data to justify institutional investment in AI-powered learning tools.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1014,14 +1044,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 91,
+    "providers_succeeded": 80,
+    "queued_candidates": 101,
+    "llm_requests_attempted": 56,
+    "llm_requests_succeeded": 56,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 16,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
-    "carried_forward": 4
+    "skipped_recently_evaluated": 9,
+    "carried_forward": 6
   }
 }
