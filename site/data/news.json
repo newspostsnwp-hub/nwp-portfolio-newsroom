@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T14:08:13.877082+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no specific news to report from our portfolio companies this morning.",
+  "generated_at": "2026-09-17T06:49:03.666757+00:00",
+  "digest_intro": "Good morning. Today's briefing covers two portfolio updates, led by Clearway Group's support for the Prologis UK 100 Challenge, alongside one sector item.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-16T06:49:12.438878+00:00",
+  "last_digest_sent_at": "2026-09-17T06:49:03.666757+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -10,7 +10,7 @@
       "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
-      "story_count": 0,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -29,7 +29,7 @@
       "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
-      "story_count": 0,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 4,
-  "todays_story_count": 0,
+  "story_count": 6,
+  "todays_story_count": 2,
   "stories": [
     {
       "id": "f8cf21fcb3a59173",
@@ -313,6 +313,36 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "8dc60999216f8428",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "industry": "UK property and site security",
+      "title": "Clearway supports the Prologis UK 100 Challenge, helping raise over £120,000 for charity",
+      "url": "https://www.clearway.co.uk/news/clearway-supports-the-prologis-uk-100-challenge/",
+      "source": "clearway.co.uk",
+      "published_at": "2026-09-16T12:29:05+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 75,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Other",
+      "summary": "Clearway Group participated in the Prologis UK 100 Challenge on 10 September 2026, with Senior Client Director Paul Delany completing a 100-furlong hike to help raise over £120,000 for four charitable causes.",
+      "why_it_matters": "Demonstrates the company's active engagement in industry-wide CSR initiatives and its commitment to supporting community and charitable organisations alongside key sector partners.",
+      "verified_facts": [
+        "Clearway Senior Client Director Paul Delany participated in the Prologis UK 100 Challenge on 10 September 2026.",
+        "The event raised over £120,000 for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Clearway Group is pleased to have supported the 2026 Prologis UK 100 Challenge. The event, which brought together professionals from across the property and logistics sectors, successfully raised over £120,000 to support LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. We would like to congratulate our own Senior Client Director, Paul Delany, who represented the team by completing the 100-furlong hike. It is encouraging to see the industry unite for such a significant collective fundraising effort, and we remain committed to supporting the communities in which we operate. Well done to all 246 participants involved in this year's challenge. #ClearwayGroup #CSR #PrologisUK100",
+        "investor": "Clearway Group continues to demonstrate its commitment to corporate social responsibility through active participation in industry-led initiatives. On 10 September, the team joined the Prologis UK 100 Challenge, a collaborative event that raised over £120,000 for four major charitable organisations, including LandAid and Parkinson’s UK. Clearway Senior Client Director Paul Delany participated in the 100-furlong hike, highlighting the firm's engagement with key stakeholders across the property and logistics sectors. Such initiatives reflect the company’s broader values and its role as a responsible participant within the UK property security market. We are proud to support the team’s involvement in these meaningful community-focused activities. #ClearwayGroup #ESG #PropertySector",
+        "people": "A huge well done to Clearway Senior Client Director Paul Delany for representing the team at the 2026 Prologis UK 100 Challenge! Paul took on the 100-furlong hike on 10 September, contributing to an impressive total of over £120,000 raised for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. It is fantastic to see our people getting involved in such a challenging and rewarding event alongside colleagues from across the property and logistics industry. Thank you to everyone who participated and contributed to this outstanding fundraising result for these four vital causes. #ClearwayGroup #TeamClearway #CommunitySupport"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
     },
     {
       "id": "88d1d5a7d6f304e1",
@@ -377,6 +407,40 @@
         "concise": "Roof-Maker continues to gain industry recognition for its latest product innovations. Recent features in Architecture Magazine, Specification Online, Glazing Today, and Glass Times highlight the company's focus on design and functionality. Key developments include the launch of the Hinged Opening Slimline Roof Lantern, the Luxlite® Plus—which debuted at the Homebuilding & Renovating Show—and the integrated Sky-Blind system. These products address evolving market needs for improved ventilation and thermal performance in UK homes. Managing Director Scott Nicholas noted that these innovations aim to fill specific gaps in the market, such as providing hinged systems without bulky glazing bars. We are pleased to see the team’s commitment to engineering excellence being acknowledged by leading trade publications. #RoofMaker #UKManufacturing #GlazingInnovation",
         "investor": "Roof-Maker’s recent product pipeline is gaining strong traction within the UK construction and glazing sectors. Trade press coverage throughout 2026 has spotlighted the company’s ability to scale its portfolio with high-value additions, including the Hinged Slimline Roof Lantern and the Luxlite® Plus. These products demonstrate a clear strategy of addressing consumer demand for energy efficiency and year-round comfort, moving beyond basic thermal performance. By successfully launching these solutions—and showcasing them at major industry events like the Homebuilding & Renovating Show—the team continues to strengthen its competitive position. Managing Director Scott Nicholas emphasizes that this growth is driven by identifying and filling specific market gaps, ensuring the company remains at the forefront of modern glazing design. #Construction #Investment #RoofMaker",
         "people": "It is excellent to see the team at Roof-Maker receiving such positive recognition from industry experts and leading publications. Recent features in Architecture Magazine, Glazing Today, and Glass Times underscore the hard work behind the company’s latest product launches. From the development of the Hinged Opening Slimline Roof Lantern to the successful reception of the Luxlite® Plus at the Homebuilding & Renovating Show, the team’s focus on innovation is clear. Managing Director Scott Nicholas has been instrumental in articulating the vision behind these designs, ensuring they meet the practical needs of homeowners while maintaining a high standard of aesthetics. Congratulations to everyone involved in bringing these products to market and for the continued dedication to excellence in UK manufacturing. #TeamSuccess #Innovation #RoofMaker"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
+    },
+    {
+      "id": "1861f1507e74fd1e",
+      "company": "The Delivery Group",
+      "company_domain": "thedeliverygroup.co.uk",
+      "industry": "UK parcel and mail delivery",
+      "title": "International UnTracked Updates",
+      "url": "https://thedeliverygroup.co.uk/news/latest-international-delivery-updates/",
+      "source": "thedeliverygroup.co.uk",
+      "published_at": "2026-09-16T12:30:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 45,
+      "tier": "low",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "The Delivery Group has issued an operational update regarding international delivery services, highlighting ongoing transit delays in the Middle East, Chile, and Italy due to geopolitical, environmental, and customs-related factors.",
+      "why_it_matters": "Operational transparency is critical for logistics firms to manage client expectations and maintain service reliability during periods of global disruption.",
+      "verified_facts": [
+        "The Delivery Group is experiencing international delivery delays in the Middle East, Chile, and Italy.",
+        "Delays in Chile are attributed to new customs regulations and weather-related disruptions in the Coquimbo and Atacama regions.",
+        "The Delivery Group is actively monitoring the situation and communicating with destination partners."
+      ],
+      "warnings": [
+        "The source material is a rolling operational status page rather than a singular news event; it contains multiple updates with varying dates, some dating back to 2021.",
+        "The content is purely operational and lacks a strategic growth or corporate development angle."
+      ],
+      "drafts": {
+        "concise": "The Delivery Group continues to provide transparent updates on international logistics, navigating complex global conditions to maintain service standards. The team is currently managing transit delays across several regions, including the Middle East, Chile, and Italy, due to a combination of geopolitical factors, customs changes, and adverse weather. By maintaining close communication with international partners and suppliers, The Delivery Group remains committed to keeping customers informed as the situation evolves. We support the team’s proactive approach to operational resilience in a challenging global delivery environment. #Logistics #SupplyChain #TheDeliveryGroup",
+        "investor": "Operational resilience is a key component of long-term value creation in the logistics sector. The Delivery Group’s latest update demonstrates a disciplined approach to managing international service disruptions, ensuring that clients are kept informed amidst complex customs and geopolitical challenges. By maintaining strong relationships with global partners, the firm continues to navigate these fluid conditions while prioritising service continuity. This commitment to operational transparency is essential for maintaining trust and stability within their e-commerce and mail delivery networks. #Logistics #OperationalExcellence #TheDeliveryGroup",
+        "people": "Navigating global logistics requires constant vigilance and clear communication. The team at The Delivery Group is currently managing a range of international service challenges, from customs updates in Chile to weather-related disruptions in Italy. We recognise the dedication of the operations teams who are working closely with international partners to mitigate delays and keep global supply chains moving. Their commitment to providing timely, accurate information to customers is a testament to the professionalism of the entire group. #Teamwork #Logistics #TheDeliveryGroup"
       },
       "status": "needs_review",
       "discovered_via": "Official RSS"
@@ -468,6 +532,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "027d4cfc25e0e81b",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Beyond installation: Why security needs a lifecycle approach",
+      "url": "https://securityjournaluk.com/beyond-install-securitys-lifecycle-approach/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-17T06:30:00+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 85,
+      "summary": "The security industry is shifting towards a lifecycle management approach, prioritising ongoing system health, remote diagnostics, and firmware maintenance over simple initial installation.",
+      "angle": "Highlights the growing importance of remote monitoring and managed service models in maintaining long-term physical site security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f41d49f5058f02b2",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -479,20 +557,6 @@
       "score": 85,
       "summary": "Public support for facial recognition technology varies by use case, with high backing for security and identity checks but significant concerns regarding privacy, data protection, and algorithmic bias.",
       "angle": "Highlights regulatory and public trust challenges for security firms deploying biometric monitoring and surveillance technologies in public spaces.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ec2ad7a501ebfa37",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "IREX unveils video analytics defined by a prompt",
-      "url": "https://securityjournaluk.com/irex-unveils-streamvlm/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-11T06:45:00+00:00",
-      "first_seen": "2026-09-11T06:49:06.482207+00:00",
-      "score": 85,
-      "summary": "IREX has launched StreamVLM, a vision-language model that allows operators to create custom video analytics detectors using plain-language prompts instead of traditional AI model training.",
-      "angle": "Advances in prompt-based AI analytics significantly reduce the time and cost of deploying bespoke site security monitoring solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -552,6 +616,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4b32e15b62e39df3",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Jim Cameron’s Lightstorm Vision Buys Outsyders for 3D AI Pipeline",
+      "url": "https://postperspective.com/jim-camerons-lightstorm-vision-buys-outsyders-for-3d-ai-pipeline/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-16T16:21:07+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 85,
+      "summary": "James Cameron’s Lightstorm Vision has acquired Outsyders, a creative-tech collective specialising in AI-driven 3D stereoscopic post-production and conversion technology.",
+      "angle": "Demonstrates how AI-integrated pipelines are significantly reducing the time and cost of high-volume 3D content production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ba141c574f59ea7d",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Colorfront: Auto Timeline Comparison, Dolby Vision 2 Mastering, More at IBC",
+      "url": "https://postperspective.com/colorfront-auto-timeline-comparison-dolby-vision-2-mastering-more-at-ibc/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-15T19:46:43+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 85,
+      "summary": "Colorfront has introduced new automated timeline comparison tools, AI-assisted QC workflows, and support for Dolby Vision 2 mastering at the IBC show.",
+      "angle": "Advancements in automated QC and mastering standards directly impact operational efficiency and technical delivery requirements in post-production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b62eb916727b8718",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "IBC Report: Keeping an Eye on What’s New From Adobe, BMD and More",
+      "url": "https://postperspective.com/ibc-report-keeping-an-eye-on-whats-new-from-adobe-bmd-and-more/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-15T14:58:09+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 85,
+      "summary": "IBC 2026 featured significant updates to Adobe Premiere and After Effects, alongside Blackmagic DaVinci Resolve 21.1, focusing on generative AI integration and automated metadata tagging workflows.",
+      "angle": "Rapid adoption of generative AI and automated post-production tools directly impacts operational efficiency and technical workflows in post-production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0d2c1e04689cb45a",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -563,48 +669,6 @@
       "score": 85,
       "summary": "Blackmagic Design released DaVinci Resolve 21.1, introducing AI assistant integration for project analysis, media organization, and batch rendering, alongside expanded multicam, color grading, and Fusion toolset capabilities.",
       "angle": "Integration of AI assistants into industry-standard post-production software signals a shift toward automated workflows and increased operational efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c204ec5184958b66",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "SNS Adds AI Suite Advanced, Avid Media Composer Support to EVO, More",
-      "url": "https://postperspective.com/sns-adds-ai-suite-advanced-avid-media-composer-support-to-evo-more/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-11T15:32:23+00:00",
-      "first_seen": "2026-09-14T14:07:23.308905+00:00",
-      "score": 75,
-      "summary": "Studio Network Solutions has updated its EVO storage systems with increased throughput, new AI-driven media analysis tools, and expanded compatibility for Avid Media Composer and Windows-based workflows.",
-      "angle": "Advancements in on-premises AI analysis and storage performance directly impact post-production efficiency and collaborative media management workflows.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "372f4b5c472a161f",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "OWC Acquires OpenDrives, Expanding Data Ecosystem",
-      "url": "https://postperspective.com/owc-acquires-opendrives-expanding-data-ecosystem/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-10T16:29:39+00:00",
-      "first_seen": "2026-09-11T06:49:06.482207+00:00",
-      "score": 75,
-      "summary": "Other World Computing has acquired OpenDrives to integrate high-performance storage and software-defined data management services for enterprise-scale post-production and broadcast workflows.",
-      "angle": "Consolidation of storage and data management vendors impacts infrastructure procurement and workflow efficiency for large-scale post-production facilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "48cd2849ae87a8c9",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Origami Platform Updates Media Management, Audio Conform, Security and AI Capabilities",
-      "url": "https://postperspective.com/origami-platform-updates-media-management-audio-conform-security-and-ai-capabilities/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-08T21:54:37+00:00",
-      "first_seen": "2026-09-09T06:49:07.357944+00:00",
-      "score": 75,
-      "summary": "Origami Platform has updated its workflow software to include automated media management, unified audio and picture conforming, and expanded lossless codec trimming capabilities.",
-      "angle": "Automation of manual media management and conforming workflows represents a significant efficiency shift for post-production facility operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -706,17 +770,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "d010a97487684a4c",
+      "id": "651e73fb1e9b83db",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "FuriosaAI Deploys Inference Servers at Equinix Lisbon Data Center, Targeting Europe's Sovereign AI Market - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sNEFna05YTEU2UTNxLUp5UlJ5Z0NLbk5Ta3hZUUliTUNYYzFQTGFybi00U1ZVZkRwWk13dXBpS01UMVo2aFExQ1M5aTNCV1FJUUlRTHpGTjJ3Smh3WFJWbHdWT0s4RjMyZENoRHFzQjB6TU95ZFE?oc=5",
-      "source": "finance.biggo.com",
-      "published_at": "2026-09-15T05:05:00+00:00",
-      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "title": "Nebius Group (NBIS) Is Down 12.9% After Becoming Palantir’s Preferred Sovereign AI Cloud Partner – Has The Bull Case Changed? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHBCYkN0d1Fkd1lOQmlRMGpKT0F2QklLYm1STUYwVmMyeVUyNUtkMUg1OUxCYzZaZ1dDNkEtTGd1M1VNd1g2Tk5Ba1NzVDJVd1VzM2Y5a3JnN2g4R3owWktTY3QxRENXbXBfbG42U1RVYjh4YnVoZ2dQUTVCdDhkYmVnbjVYelFCZkdHZ1oyR0p2dHM?oc=5",
+      "source": "Yahoo Finance",
+      "published_at": "2026-09-17T01:12:00+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
       "score": 85,
-      "summary": "South Korean chipmaker FuriosaAI has deployed its inference servers at an Equinix data centre in Lisbon to target the European sovereign AI market.",
-      "angle": "Highlights increasing competition from international hardware providers entering the European sovereign AI infrastructure space.",
+      "summary": "Nebius Group has been named Palantir's preferred sovereign AI cloud partner, resulting in a 12.9% decline in the company's share price.",
+      "angle": "Highlights strategic partnerships and market volatility within the competitive sovereign AI cloud infrastructure landscape.",
       "discovered_via": "Google News RSS"
     },
     {
@@ -804,6 +868,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6727182d6db956b5",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Will Trump’s Accreditation Revamp Force Campus Changes?",
+      "url": "https://www.insidehighered.com/news/governance/accreditation/2026/09/16/will-trumps-accreditation-revamp-force-campus-changes",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 85,
+      "summary": "The Trump administration's proposed accreditation overhaul, slated for July 2027, introduces new requirements for credit transfer policies and federal recognition of accrediting agencies.",
+      "angle": "Regulatory changes to accreditation and credit transfer policies directly impact higher education institutional operations and curriculum delivery standards.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5a1f478b22923b63",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -815,20 +893,6 @@
       "score": 85,
       "summary": "Experts warn that the evidence base for AI's efficacy in higher education is almost nonexistent, with current research struggling to keep pace with rapid technological evolution.",
       "angle": "Highlights the growing demand for rigorous, independent efficacy data to justify institutional investment in AI-powered learning tools.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4c020152825d5a93",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Senior College Leaders Experiencing ‘Heightened Uncertainty’",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/11/survey-senior-college-leaders-experiencing-uncertainty",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-11T07:00:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 85,
-      "summary": "A survey of senior college leaders reveals heightened uncertainty regarding financial viability, public perception, and the capacity to navigate complex state and federal policy changes.",
-      "angle": "Signals potential shifts in institutional procurement, budget prioritisation, and demand for adaptive learning technology solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -947,15 +1011,15 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 3,
+    "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
+    "providers_succeeded": 93,
+    "queued_candidates": 135,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 91,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 1,
     "carried_forward": 4
