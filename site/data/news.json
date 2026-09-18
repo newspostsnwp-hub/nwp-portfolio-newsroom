@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T06:48:46.866542+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-09-18T14:07:57.490367+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-18T06:48:46.866542+00:00",
   "companies": [
@@ -730,20 +730,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "61f1e7369532cae9",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "EPR in action | ‘1,800 additional producers brought into compliance’, £1.43bn paid to local authorities",
-      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/1800-additional-producers-brought-into-pepr-compliance-1-43bn-paid-to-local-authorities-08-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-08T11:10:37+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
-      "score": 90,
-      "summary": "The UK government has brought 1,800 additional packaging producers into pEPR compliance, with £1.43bn distributed to local authorities for household packaging waste management.",
-      "angle": "Increased regulatory enforcement and transparency regarding producer fees directly impacts operational costs and compliance strategy for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "64d1f79b6c174144",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -755,6 +741,20 @@
       "score": 85,
       "summary": "London Packaging Week 2026 highlighted critical industry developments including the upcoming UK deposit return scheme and new recyclability assessment methodologies for packaging materials.",
       "angle": "Regulatory shifts regarding DRS and EPR directly impact operational compliance and material design standards for PET packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e815874e59eeee6f",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "London Packaging Week | 2026 show closes with insight-packed final day",
+      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-2026-show-closes-with-insight-packed-final-day-18-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-18T11:17:25+00:00",
+      "first_seen": "2026-09-18T14:07:57.490367+00:00",
+      "score": 75,
+      "summary": "London Packaging Week 2026 highlighted industry trends including the integration of QR codes, self-cooling technology, and the collaborative implementation of Extended Producer Responsibility (EPR) schemes.",
+      "angle": "EPR policy and smart packaging integration are critical regulatory and technological shifts impacting the beverage packaging sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -982,6 +982,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f719fa86102f7c16",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction insolvencies fall 20% in August",
+      "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-18T11:45:58+00:00",
+      "first_seen": "2026-09-18T14:07:57.490367+00:00",
+      "score": 85,
+      "summary": "UK construction insolvencies fell 20 per cent in August to 294, though the sector remains the industry with the highest number of business collapses.",
+      "angle": "Highlights ongoing financial fragility and a two-speed market, particularly impacting residential construction and building completion sub-sectors.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c27d3a37fb2a3b97",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction starts plunge 49% but contract awards soar",
+      "url": "https://www.constructionnews.co.uk/sections/data/construction-starts-plunge-49-as-contract-awards-soar-17-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-17T11:45:25+00:00",
+      "first_seen": "2026-09-18T14:07:57.490367+00:00",
+      "score": 85,
+      "summary": "Data from Glenigan indicates that the value of UK construction project starts fell by 49 per cent between June and August compared to the previous three months.",
+      "angle": "Provides critical insight into short-term demand fluctuations and pipeline activity within the UK construction and glazing market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "326bc9b0e7f3e596",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -1008,34 +1036,6 @@
       "summary": "UK brick deliveries fell 22.8 per cent year on year in July, reflecting a broader decline in construction materials demand and housebuilding starts.",
       "angle": "Signals a significant slowdown in new residential construction activity, a key demand driver for rooflight manufacturers.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2afe4095e1764154",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Clients must lead on competence, says government construction adviser",
-      "url": "https://www.constructionnews.co.uk/government/clients-must-lead-on-competence-says-government-construction-adviser-11-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-11T11:45:37+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 85,
-      "summary": "Outgoing interim chief construction adviser Thouria Istephan has urged clients and funders to prioritise building safety and competence over cost and programme pressures.",
-      "angle": "Highlights increasing regulatory and client focus on safety culture and competence standards within the UK built environment.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "223eb963c1d5a235",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Housing downturn holds back construction growth",
-      "url": "https://www.constructionnews.co.uk/sections/data/housing-downturn-holds-back-construction-growth-11-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-11T11:34:44+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 85,
-      "summary": "UK construction output growth remains stagnant at 0.1 per cent, driven by a persistent housebuilding slump, despite modest gains in infrastructure and private housing repair and maintenance.",
-      "angle": "Highlights a shift in demand from new-build housing towards repair and maintenance, impacting rooflight sales opportunities.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1044,12 +1044,12 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 93,
-    "queued_candidates": 135,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
+    "providers_succeeded": 83,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 79,
+    "llm_requests_succeeded": 79,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 4,
     "carried_forward": 7
