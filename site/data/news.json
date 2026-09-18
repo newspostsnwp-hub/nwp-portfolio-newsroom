@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T14:08:07.886212+00:00",
-  "digest_intro": "Good morning. Today's briefing covers three portfolio updates, led by McGraw Hill's acquisition of TeachFX, alongside four additional sector items.",
+  "generated_at": "2026-09-18T06:48:46.866542+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-17T06:49:03.666757+00:00",
+  "last_digest_sent_at": "2026-09-18T06:48:46.866542+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 7,
-  "todays_story_count": 3,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "52c48b39cf0a668d",
@@ -492,20 +492,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6a09455864e6d51c",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "EU approves new parcel fee and e-commerce rules",
-      "url": "https://postandparcel.info/162737/news/e-commerce/eu-approves-new-parcel-fee-and-e-commerce-rules/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-08T03:55:39+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
-      "score": 85,
-      "summary": "The EU is overhauling its customs system by introducing a new small parcel handling fee, centralising customs authority, and making e-commerce platforms responsible for compliance.",
-      "angle": "Significant regulatory changes to cross-border customs processes impact operational compliance and costs for UK-EU parcel delivery services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "76f1a6f7d5ef05ba",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -531,6 +517,20 @@
       "score": 75,
       "summary": "Logistics UK has submitted recommendations to the government ahead of the Autumn Budget, urging measures to alleviate cost pressures and stimulate growth across the logistics sector.",
       "angle": "Highlights industry-wide policy advocacy regarding cost pressures and economic growth priorities ahead of the UK Autumn Budget.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d0260f8fac700566",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "IPC: The need for action has never been greater",
+      "url": "https://postandparcel.info/162820/news/e-commerce/ipc-the-need-for-action-has-never-been-greater/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-17T17:16:49+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "score": 65,
+      "summary": "Global postal operators have reduced annual emissions by over 41% since 2008, approaching their 2030 target of a 50% reduction.",
+      "angle": "Highlights industry-wide decarbonisation progress and increasing pressure on UK delivery firms to meet sustainability targets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -604,6 +604,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7d0d8eb422734afa",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Panasonic Energy opens battery development centre in Osaka",
+      "url": "https://www.electrive.com/2026/09/17/panasonic-energy-opens-battery-development-centre-in-osaka/",
+      "source": "electrive.com",
+      "published_at": "2026-09-17T16:30:00+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "score": 65,
+      "summary": "Panasonic Energy has opened a new R&D centre in Osaka to accelerate battery development efficiency and integrate cell design with mass production processes.",
+      "angle": "Advances in battery energy density and production efficiency are critical for the long-term evolution of micromobility power solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "467c9da3f1a1c458",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -629,20 +643,6 @@
       "score": 65,
       "summary": "The EU Commission has proposed new procurement rules to simplify the exclusion of non-EU companies from public tenders, prioritising European industrial capacity and strategic resilience.",
       "angle": "Potential shift in public procurement policy favouring EU-manufactured components and products over non-EU competitors.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "18b5f8b316859b27",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "BAM identifies lithium isotopes as diagnostic tool for battery ageing",
-      "url": "https://www.electrive.com/2026/09/10/bam-identifies-lithium-isotopes-as-diagnostic-tool-for-battery-ageing/",
-      "source": "electrive.com",
-      "published_at": "2026-09-10T13:15:00+00:00",
-      "first_seen": "2026-09-10T14:08:01.624504+00:00",
-      "score": 65,
-      "summary": "Researchers at the Federal Institute for Materials Research and Testing have identified lithium isotope distribution as a diagnostic tool to track battery ageing mechanisms and capacity loss.",
-      "angle": "Provides a new diagnostic method to better understand and predict battery degradation in lithium-ion cells.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -744,17 +744,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4d1eed8d76959c18",
+      "id": "64d1f79b6c174144",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "McDonald’s Netherlands found to breach single-use dine in rules",
-      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/mcdonalds-netherlands-found-to-breach-single-use-dine-in-rules-09-09-2026",
+      "title": "London Packaging Week | Strong turnout as ‘Discovery’ theme takes centre stage",
+      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-strong-turnout-as-discovery-theme-takes-centre-stage-17-09-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-09T22:58:14+00:00",
-      "first_seen": "2026-09-13T14:07:25.641128+00:00",
-      "score": 75,
-      "summary": "The Dutch regulator has ordered McDonald’s Netherlands to transition to reusable packaging for dine-in customers by January 2027 following repeated breaches of single-use plastic regulations.",
-      "angle": "Highlights increasing regulatory pressure and enforcement against single-use packaging in the European foodservice sector.",
+      "published_at": "2026-09-17T09:32:19+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "score": 85,
+      "summary": "London Packaging Week 2026 highlighted critical industry developments including the upcoming UK deposit return scheme and new recyclability assessment methodologies for packaging materials.",
+      "angle": "Regulatory shifts regarding DRS and EPR directly impact operational compliance and material design standards for PET packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -842,6 +842,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7029916d239582df",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Modern slavery rife in UK supermarkets and c-stores, report shows",
+      "url": "https://www.talkingretail.com/featured/modern-slavery-rife-in-uk-supermarkets-and-c-stores-report-shows-17-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-17T13:59:31+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "score": 85,
+      "summary": "A report by charity Unseen reveals a sharp rise in modern slavery and labour abuse within UK supermarkets and convenience stores between 2024 and 2026.",
+      "angle": "Highlights increasing regulatory and reputational risks regarding supply chain and recruitment oversight in the retail sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ec9f8ddaea9d089e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -853,20 +867,6 @@
       "score": 85,
       "summary": "Tomra has launched a compact reverse vending machine designed for convenience retailers ahead of the UK's 2027 deposit return scheme implementation.",
       "angle": "Provides critical operational infrastructure and financial incentives for independent retailers preparing for mandatory deposit return scheme compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7eb3573274e66036",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Independent owner-operators remain dominant buyers of convenience stores",
-      "url": "https://www.talkingretail.com/news/industry-news/independent-owner-operators-remain-dominant-buyers-of-convenience-stores-16-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-16T11:35:39+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 85,
-      "summary": "Christie & Co reports a 26% increase in retail business offers in H1 2026, with independent owner-operators accounting for 65% of convenience store acquisitions.",
-      "angle": "Highlights strong market demand for independent convenience retail and the importance of diversifying services like parcel delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -968,17 +968,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "69cf2b6d41d80bee",
+      "id": "740eb05032ea4bbc",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Sperm from donor carrying disease-associated gene variant used to conceive 53 children",
-      "url": "https://www.progress.org.uk/sperm-from-donor-carrying-disease-associated-gene-variant-used-to-conceive-53-children/",
+      "title": "Couples' embryos to be destroyed after sperm donors withdraw consent",
+      "url": "https://www.progress.org.uk/couples-embryos-to-be-destroyed-after-sperm-donors-withdraw-consent/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-07T15:44:38+00:00",
-      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "published_at": "2026-09-14T15:40:07+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "score": 75,
+      "summary": "UK law allows sperm donors to withdraw consent for embryo use at any point before transfer, leading to the mandatory destruction of embryos after a 12-month cooling-off period.",
+      "angle": "Highlights critical regulatory risks regarding donor consent and the potential for legal challenges in fertility treatment management.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "326bc9b0e7f3e596",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Sub-inflation bid prices expected as orders shrink",
+      "url": "https://www.constructionnews.co.uk/sections/data/sub-inflation-bid-prices-expected-as-orders-shrink-17-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-17T11:45:05+00:00",
+      "first_seen": "2026-09-18T06:48:46.866542+00:00",
       "score": 85,
-      "summary": "A Danish sperm donor carrying a pathogenic COL3A1 gene variant was used to conceive 53 children in Belgium, highlighting systemic failures in international donor quota enforcement.",
-      "angle": "Highlights increasing regulatory pressure for cross-border donor traceability and stricter genetic screening standards in fertility services.",
+      "summary": "A report by Arcadis warns that shrinking construction work volumes are intensifying competition, leading many contractors to bid at sub-inflation prices.",
+      "angle": "Signals increased margin pressure and competitive pricing dynamics within the broader UK construction supply chain.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1022,20 +1036,6 @@
       "summary": "UK construction output growth remains stagnant at 0.1 per cent, driven by a persistent housebuilding slump, despite modest gains in infrastructure and private housing repair and maintenance.",
       "angle": "Highlights a shift in demand from new-build housing towards repair and maintenance, impacting rooflight sales opportunities.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5042ed2889bd3c90",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction starts down 20% year on year amid persistent housing slump",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-starts-down-20-year-on-year-amid-persistent-housing-slump-08-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-08T11:45:40+00:00",
-      "first_seen": "2026-09-08T14:07:39.270086+00:00",
-      "score": 85,
-      "summary": "New analysis from Glenigan indicates that construction project starts fell by 20 per cent in the three months to 31 August compared to the same period last year.",
-      "angle": "Indicates a significant contraction in the construction pipeline, signalling reduced demand for building products and glazing materials.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1044,14 +1044,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 101,
-    "llm_requests_attempted": 56,
-    "llm_requests_succeeded": 56,
+    "providers_succeeded": 93,
+    "queued_candidates": 135,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
-    "carried_forward": 6
+    "skipped_recently_evaluated": 4,
+    "carried_forward": 7
   }
 }
