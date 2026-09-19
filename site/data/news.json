@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T14:07:57.490367+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-09-19T06:48:51.529273+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from The Delivery Group or Whitespace.",
   "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-18T06:48:46.866542+00:00",
+  "last_digest_sent_at": "2026-09-19T06:48:51.529273+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -492,6 +492,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "34ef4a03a41e2d5c",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "89.81% of InPost shareholders have agreed to sell their shares",
+      "url": "https://postandparcel.info/162852/news/e-commerce/89-81-of-inpost-shareholders-have-agreed-to-sell-their-shares/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-18T05:22:32+00:00",
+      "first_seen": "2026-09-19T06:48:51.529273+00:00",
+      "score": 75,
+      "summary": "InPost’s takeover by IS Iris Lux Bidco has moved closer to completion after 89.81% of shareholders tendered their shares, surpassing the 80% minimum acceptance threshold.",
+      "angle": "Consolidation and ownership changes among major parcel locker operators impact competitive dynamics within the UK delivery market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "76f1a6f7d5ef05ba",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -517,20 +531,6 @@
       "score": 75,
       "summary": "Logistics UK has submitted recommendations to the government ahead of the Autumn Budget, urging measures to alleviate cost pressures and stimulate growth across the logistics sector.",
       "angle": "Highlights industry-wide policy advocacy regarding cost pressures and economic growth priorities ahead of the UK Autumn Budget.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d0260f8fac700566",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "IPC: The need for action has never been greater",
-      "url": "https://postandparcel.info/162820/news/e-commerce/ipc-the-need-for-action-has-never-been-greater/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-17T17:16:49+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
-      "score": 65,
-      "summary": "Global postal operators have reduced annual emissions by over 41% since 2008, approaching their 2030 target of a 50% reduction.",
-      "angle": "Highlights industry-wide decarbonisation progress and increasing pressure on UK delivery firms to meet sustainability targets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -772,34 +772,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "c9b3afa142172630",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Mistral raises €3B as sovereign AI becomes big business",
-      "url": "http://www.businessghana.com/site/news/technology/355798/Mistral-raises-%E2%82%AC3B-as-sovereign-AI-becomes-big-business",
-      "source": "businessghana.com",
-      "published_at": "2026-09-09T05:30:00+00:00",
-      "first_seen": "2026-09-09T06:49:07.357944+00:00",
-      "score": 95,
-      "summary": "Mistral AI has raised €3 billion in a Series D funding round to scale compute capacity and expand its sovereign AI infrastructure and international footprint.",
-      "angle": "Validates strong market demand for sovereign AI alternatives to US-centric models and highlights evolving geopolitical funding dynamics.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "80b6984e07378925",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Tech Bytes : Mistral record €3 billion raise turns sovereign AI into a global investment race",
-      "url": "https://www.proactiveinvestors.com.au/companies/news/1098251/tech-bytes-mistral-s-record-3-billion-raise-turns-sovereign-ai-into-a-global-investment-race-1098251.html",
-      "source": "proactiveinvestors.com.au",
-      "published_at": "2026-09-09T04:30:00+00:00",
-      "first_seen": "2026-09-09T06:49:07.357944+00:00",
-      "score": 95,
-      "summary": "Mistral AI raised €3 billion in a Samsung-led funding round, valuing the company at over €21 billion to support sovereign AI infrastructure and international expansion.",
-      "angle": "Validates the growing market demand for sovereign, on-premises AI solutions that ensure data control and security for enterprises.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "100c2cd25adde8b7",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -811,6 +783,34 @@
       "score": 90,
       "summary": "Global server market revenue reached a record $166.3 billion in Q2 2026, driven by a 43.6 percent increase in average GPU-accelerated server prices to nearly $170,200.",
       "angle": "Highlights the shift toward branded, integrated AI infrastructure solutions for sovereign and enterprise deployments beyond hyperscalers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "f3499771ec4d4b53",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UNDP and FLock.io strengthen relationship to advance public sector digital innovation in the Dominican Republic",
+      "url": "https://www.uktech.news/ai/undp-and-flock-io-strengthen-relationship-to-advance-public-sector-digital-innovation-in-the-dominican-republic-20260916",
+      "source": "uktech.news",
+      "published_at": "2026-09-16T17:05:00+00:00",
+      "first_seen": "2026-09-19T06:48:51.529273+00:00",
+      "score": 75,
+      "summary": "The UNDP and FLock.io have signed an MoU to implement privacy-preserving AI and blockchain infrastructure for public sector digital innovation in the Dominican Republic.",
+      "angle": "Highlights growing international demand for sovereign AI frameworks that prioritise data privacy and ethical governance in public services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2ce130c49937ccc0",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "India is a great leader to organise such an amazing event : Egyptian AI expert Ahmed Elsharkawy hails BRICS Summit",
+      "url": "http://www.calcuttanews.net/news/279303548/india-is-a-great-leader-to-organise-such-an-amazing-event-egyptian-ai-expert-ahmed-elsharkawy-hails-brics-summit",
+      "source": "calcuttanews.net",
+      "published_at": "2026-09-13T01:15:00+00:00",
+      "first_seen": "2026-09-19T06:48:51.529273+00:00",
+      "score": 75,
+      "summary": "The 2026 BRICS Summit in New Delhi resulted in a declaration committing member nations to deepen cooperation on sovereign AI, digital public infrastructure, and quantum technologies.",
+      "angle": "Indicates growing international policy momentum and potential cross-border collaboration frameworks for sovereign AI development.",
       "discovered_via": "GDELT"
     },
     {
@@ -1044,14 +1044,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
+    "providers_succeeded": 78,
+    "queued_candidates": 88,
+    "llm_requests_attempted": 36,
+    "llm_requests_succeeded": 36,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 24,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 7
   }
 }
