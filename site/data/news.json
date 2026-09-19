@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T06:48:51.529273+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from The Delivery Group or Whitespace.",
+  "generated_at": "2026-09-19T14:08:02.129647+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no specific updates from our portfolio companies this morning.",
   "archive_story_count": 15,
   "last_digest_sent_at": "2026-09-19T06:48:51.529273+00:00",
   "companies": [
@@ -646,6 +646,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0079716c01d64af0",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Colorfront, Qumulo Make Footage Searchable Throughout Production",
+      "url": "https://postperspective.com/sponsored-content-colorfront-qumulo-make-footage-searchable-throughout-production/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-16T22:01:04+00:00",
+      "first_seen": "2026-09-19T14:08:02.129647+00:00",
+      "score": 85,
+      "summary": "Colorfront and Qumulo have collaborated to embed production metadata directly into files, enabling searchable, persistent data throughout the post-production workflow.",
+      "angle": "Improves operational efficiency by reducing time spent searching for media assets across complex post-production pipelines.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4b32e15b62e39df3",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -685,20 +699,6 @@
       "score": 85,
       "summary": "IBC 2026 featured significant updates to Adobe Premiere and After Effects, alongside Blackmagic DaVinci Resolve 21.1, focusing on generative AI integration and automated metadata tagging workflows.",
       "angle": "Rapid adoption of generative AI and automated post-production tools directly impacts operational efficiency and technical workflows in post-production.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0d2c1e04689cb45a",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Blackmagic Resolve 21.1 Integrates AI Assistants, Adds New Tools System Wide",
-      "url": "https://postperspective.com/blackmagic-resolve-21-1-integrates-ai-assistants-adds-new-tools-system-wide/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-09T20:24:40+00:00",
-      "first_seen": "2026-09-11T06:49:06.482207+00:00",
-      "score": 85,
-      "summary": "Blackmagic Design released DaVinci Resolve 21.1, introducing AI assistant integration for project analysis, media organization, and batch rendering, alongside expanded multicam, color grading, and Fusion toolset capabilities.",
-      "angle": "Integration of AI assistants into industry-standard post-production software signals a shift toward automated workflows and increased operational efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -786,6 +786,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "37860542a070c0b1",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-sees-ai-boom-170200109.html",
+      "source": "finance.yahoo.com",
+      "published_at": "2026-09-12T18:00:00+00:00",
+      "first_seen": "2026-09-19T14:08:02.129647+00:00",
+      "score": 90,
+      "summary": "Dell reports a $95 billion AI server backlog and identifies sovereign AI projects in most of the world's 50 largest economies as a significant long-term demand driver.",
+      "angle": "Validates strong global demand for sovereign AI infrastructure and highlights the shift toward on-premises, proprietary data deployments.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "f3499771ec4d4b53",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -800,20 +814,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2ce130c49937ccc0",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "India is a great leader to organise such an amazing event : Egyptian AI expert Ahmed Elsharkawy hails BRICS Summit",
-      "url": "http://www.calcuttanews.net/news/279303548/india-is-a-great-leader-to-organise-such-an-amazing-event-egyptian-ai-expert-ahmed-elsharkawy-hails-brics-summit",
-      "source": "calcuttanews.net",
-      "published_at": "2026-09-13T01:15:00+00:00",
-      "first_seen": "2026-09-19T06:48:51.529273+00:00",
-      "score": 75,
-      "summary": "The 2026 BRICS Summit in New Delhi resulted in a declaration committing member nations to deepen cooperation on sovereign AI, digital public infrastructure, and quantum technologies.",
-      "angle": "Indicates growing international policy momentum and potential cross-border collaboration frameworks for sovereign AI development.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "65987e8d8d187746",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -825,20 +825,6 @@
       "score": 95,
       "summary": "A change in UK law now allows licensed premises to accept digital IDs, such as Post Office EasyID, as valid proof of age for alcohol sales.",
       "angle": "Directly impacts Post Office retail operations by enabling digital age verification for age-restricted products.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "69f9225392fecbbf",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retail industry urges home secretary to enact the protection of workers’ law",
-      "url": "https://www.talkingretail.com/featured/retail-industry-urges-home-secretary-to-enact-the-protection-of-workers-law-09-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-09T13:47:20+00:00",
-      "first_seen": "2026-09-09T14:08:00.194584+00:00",
-      "score": 90,
-      "summary": "Retail industry bodies and unions are urging the Home Secretary to expedite the enforcement of a standalone offence for assaulting shop workers under the Crime and Policing Act.",
-      "angle": "New legal protections against retail violence directly impact operational safety and security policies for UK store-based retailers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -867,6 +853,20 @@
       "score": 85,
       "summary": "Tomra has launched a compact reverse vending machine designed for convenience retailers ahead of the UK's 2027 deposit return scheme implementation.",
       "angle": "Provides critical operational infrastructure and financial incentives for independent retailers preparing for mandatory deposit return scheme compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c884748531df34a8",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "AI-powered platform unveiled for Snappy Shopper retailers",
+      "url": "https://www.talkingretail.com/featured/ai-powered-platform-unveiled-for-snappy-shopper-retailers-17-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-17T14:56:26+00:00",
+      "first_seen": "2026-09-19T14:08:02.129647+00:00",
+      "score": 65,
+      "summary": "Snappy Technologies has launched Snappy AI, a tool designed to help retailers analyse sales data, identify trends, and automate operational tasks like updating prices and store hours.",
+      "angle": "Demonstrates the increasing integration of generative AI tools to streamline operational efficiency and data analysis in retail.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -982,6 +982,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fa7e26af30facd91",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Fatal tower fire came day after 31-week BSR approval wait",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-18T11:56:30+00:00",
+      "first_seen": "2026-09-19T14:08:02.129647+00:00",
+      "score": 85,
+      "summary": "The Building Safety Regulator faced criticism for a 31-week delay in approving fire-safety remediation works at a London high-rise, which suffered a fatal fire one day after approval.",
+      "angle": "Highlights regulatory bottlenecks and heightened scrutiny on building safety compliance and fire-resistant materials in the UK construction sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f719fa86102f7c16",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -1022,20 +1036,6 @@
       "summary": "A report by Arcadis warns that shrinking construction work volumes are intensifying competition, leading many contractors to bid at sub-inflation prices.",
       "angle": "Signals increased margin pressure and competitive pricing dynamics within the broader UK construction supply chain.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4f5e4b0d922aa44e",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Brick deliveries plunge 23% as materials demand weakens",
-      "url": "https://www.constructionnews.co.uk/supply-chain/brick-deliveries-plunge-23-as-materials-demand-weakens-16-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-16T10:07:31+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 85,
-      "summary": "UK brick deliveries fell 22.8 per cent year on year in July, reflecting a broader decline in construction materials demand and housebuilding starts.",
-      "angle": "Signals a significant slowdown in new residential construction activity, a key demand driver for rooflight manufacturers.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1044,14 +1044,14 @@
     "companies_with_stories": 5,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 78,
-    "queued_candidates": 88,
-    "llm_requests_attempted": 36,
-    "llm_requests_succeeded": 36,
+    "providers_succeeded": 90,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 78,
+    "llm_requests_succeeded": 78,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 24,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 7
   }
 }
