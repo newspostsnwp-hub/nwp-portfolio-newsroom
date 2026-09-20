@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T06:48:50.773200+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from The Delivery Group.",
+  "generated_at": "2026-09-20T14:08:18.440950+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from Clearway Group or The Delivery Group.",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-20T06:48:50.773200+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -446,20 +446,6 @@
   ],
   "sector_stories": [
     {
-      "id": "b545191eb31df338",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "DPD to expand electric van fleet to over 4,000 vehicles",
-      "url": "https://postandparcel.info/162750/news/e-commerce/dpd-to-expand-electric-van-fleet-to-over-4000-vehicles/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-10T13:46:55+00:00",
-      "first_seen": "2026-09-10T14:08:01.624504+00:00",
-      "score": 85,
-      "summary": "DPD is expanding its sustainable fleet by taking delivery of 341 new Mercedes-Benz eSprinters in September, bringing its total electric van fleet to over 4,000 vehicles.",
-      "angle": "Highlights industry-wide acceleration towards fleet electrification and sustainable delivery infrastructure to meet evolving environmental standards.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "34ef4a03a41e2d5c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -502,6 +488,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "14a5f029a5e6a7b2",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "FedEx: The future of delivery isn’t just moving packages quickly",
+      "url": "https://postandparcel.info/162817/news/e-commerce/fedex-the-future-of-delivery-isnt-just-moving-packages-quickly/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-17T17:11:32+00:00",
+      "first_seen": "2026-09-20T14:08:18.440950+00:00",
+      "score": 65,
+      "summary": "FedEx has launched FedEx Authenticated Delivery, a premium service designed to provide increased confidence for specific shipments.",
+      "angle": "Highlights industry trends towards premium, high-security delivery services to meet evolving e-commerce consumer expectations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9b9dc2e30e9c2f05",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -513,20 +513,6 @@
       "score": 90,
       "summary": "A 2026 industry report reveals that construction site crime is becoming more targeted and disruptive, with 76% of firms cutting security budgets despite rising theft and digital threats.",
       "angle": "Highlights shifting criminal tactics and declining security adoption, indicating a critical need for advanced, integrated site protection services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "68cd038f0d654c4d",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Bringing counter-terrorism voices together",
-      "url": "https://securityjournaluk.com/bringing-counter-terrorism-voices-together/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-10T10:20:34+00:00",
-      "first_seen": "2026-09-10T14:08:01.624504+00:00",
-      "score": 90,
-      "summary": "A recent webinar discussed the practical implementation of the Terrorism (Protection of Premises) Act 2025, highlighting the need for organisational risk assessment and professional security training.",
-      "angle": "Provides critical context on regulatory compliance and evolving client expectations regarding protective security under Martyn's Law.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -558,17 +544,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1d3e284ef6d5272e",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Fraunhofer ISE increases energy density of battery cells",
-      "url": "https://www.electrive.com/2026/09/10/fraunhofer-ise-increases-energy-density-of-battery-cells/",
-      "source": "electrive.com",
-      "published_at": "2026-09-10T11:30:27+00:00",
-      "first_seen": "2026-09-10T14:08:01.624504+00:00",
-      "score": 75,
-      "summary": "Fraunhofer ISE has developed a battery cell architecture using thicker electrodes to increase energy density by 10 to 15 per cent while maintaining the same weight.",
-      "angle": "Advancements in energy density could enable lighter, longer-range e-bike battery packs, improving portability and performance for conversion kits.",
+      "id": "8e8d0674dadb83f9",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Dahua Technology UK & Ireland achieves ISO 27001 Certification",
+      "url": "https://securityjournaluk.com/dahua-technology-uk-ire-iso-27001-cert/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-18T07:25:51+00:00",
+      "first_seen": "2026-09-20T14:08:18.440950+00:00",
+      "score": 65,
+      "summary": "Dahua Technology UK & Ireland has achieved ISO 27001 certification for its information security management systems to strengthen its local data processes and cyber resilience.",
+      "angle": "Highlights increasing industry focus on data security standards and supply chain compliance for UK security technology providers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1012,12 +998,12 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
+    "providers_succeeded": 80,
+    "queued_candidates": 94,
+    "llm_requests_attempted": 41,
+    "llm_requests_succeeded": 41,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 21,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 4,
     "carried_forward": 6
