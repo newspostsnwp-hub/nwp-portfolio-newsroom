@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T14:08:02.129647+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related developments, as there are no specific updates from our portfolio companies this morning.",
-  "archive_story_count": 15,
-  "last_digest_sent_at": "2026-09-19T06:48:51.529273+00:00",
+  "generated_at": "2026-09-20T06:48:50.773200+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from The Delivery Group.",
+  "archive_story_count": 16,
+  "last_digest_sent_at": "2026-09-20T06:48:50.773200+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -67,7 +67,7 @@
       "description": "London-based TV and film post-production group (Molinare Creative Group, including Notorious DIT).",
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 7,
+  "story_count": 6,
   "todays_story_count": 0,
   "stories": [
     {
@@ -375,38 +375,6 @@
       "discovered_via": "Official RSS"
     },
     {
-      "id": "88d1d5a7d6f304e1",
-      "company": "Molinare",
-      "company_domain": "molinare.co.uk",
-      "industry": "TV and film post-production",
-      "title": "James Peace joins runVT as Senior Post Producer",
-      "url": "https://www.televisual.com/news/james-peace-joins-runvt-as-senior-post-producer/",
-      "source": "televisual.com",
-      "published_at": "2026-08-20T18:00:00+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-08-21T06:49:14.606438+00:00",
-      "score": 75,
-      "tier": "reported",
-      "recency": "fresh",
-      "story_type": "Appointment",
-      "summary": "James Peace, formerly of Molinare, has been appointed as Senior Post Producer at runVT.",
-      "why_it_matters": "The movement of senior talent between established post-production houses is a key indicator of industry shifts and talent retention trends within the sector.",
-      "verified_facts": [
-        "James Peace has joined runVT as Senior Post Producer.",
-        "James Peace previously held a role at Molinare."
-      ],
-      "warnings": [
-        "The news item focuses on a departure from the portfolio company to a competitor, rather than an internal appointment."
-      ],
-      "drafts": {
-        "concise": "We note the recent career move of James Peace, who has joined runVT as Senior Post Producer. James previously held a position at Molinare, where he contributed to a range of high-profile film and television projects. We wish him well in his new role at runVT. #PostProduction #IndustryNews",
-        "investor": "Talent mobility remains a defining feature of the UK post-production landscape. James Peace, formerly of Molinare, has transitioned to a Senior Post Producer role at runVT. This move highlights the ongoing demand for experienced production talent capable of delivering complex scripted and unscripted content for major streamers and broadcasters. We continue to monitor how such movements reflect the broader competitive dynamics within the creative services sector. #MediaIndustry #PostProduction",
-        "people": "We would like to acknowledge the time James Peace spent with the team at Molinare. James has now taken up a new position as Senior Post Producer at runVT. His experience across significant titles such as 'Red, White & Royal Blue' and 'Scoop' is a testament to the high calibre of talent that has been part of the Molinare group. We wish him every success in this next chapter of his career. #CreativeTalent #PostProduction"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "310fa19a2a63a72b",
       "company": "Roof-Maker",
       "company_domain": "roof-maker.co.uk",
@@ -520,17 +488,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1440066735a2c347",
+      "id": "d0260f8fac700566",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Logistics UK: Budget Must Back Growth Across Every Postcode",
-      "url": "https://postandparcel.info/162761/news/e-commerce/logistics-uk-budget-must-back-growth-across-every-postcode/",
+      "title": "IPC: The need for action has never been greater",
+      "url": "https://postandparcel.info/162820/news/e-commerce/ipc-the-need-for-action-has-never-been-greater/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-10T03:06:34+00:00",
-      "first_seen": "2026-09-11T06:49:06.482207+00:00",
-      "score": 75,
-      "summary": "Logistics UK has submitted recommendations to the government ahead of the Autumn Budget, urging measures to alleviate cost pressures and stimulate growth across the logistics sector.",
-      "angle": "Highlights industry-wide policy advocacy regarding cost pressures and economic growth priorities ahead of the UK Autumn Budget.",
+      "published_at": "2026-09-17T17:16:49+00:00",
+      "first_seen": "2026-09-20T06:48:50.773200+00:00",
+      "score": 65,
+      "summary": "Global postal operators have reduced annual emissions by over 41% since 2008, approaching their 2030 target of a 50% reduction.",
+      "angle": "Highlights industry-wide decarbonisation progress and increasing pressure on UK delivery firms to meet sustainability targets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1041,17 +1009,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 5,
+    "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
     "providers_succeeded": 90,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 78,
-    "llm_requests_succeeded": 78,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
     "dropped_no_valid_date": 28,
     "dropped_thin_page": 21,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 8,
-    "carried_forward": 7
+    "skipped_recently_evaluated": 4,
+    "carried_forward": 6
   }
 }

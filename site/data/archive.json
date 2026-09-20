@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:08:02.129647+00:00",
+  "generated_at": "2026-09-20T06:48:50.773200+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -481,6 +481,38 @@
       },
       "status": "needs_review",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "88d1d5a7d6f304e1",
+      "company": "Molinare",
+      "company_domain": "molinare.co.uk",
+      "industry": "TV and film post-production",
+      "title": "James Peace joins runVT as Senior Post Producer",
+      "url": "https://www.televisual.com/news/james-peace-joins-runvt-as-senior-post-producer/",
+      "source": "televisual.com",
+      "published_at": "2026-08-20T18:00:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-08-21T06:49:14.606438+00:00",
+      "score": 75,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Appointment",
+      "summary": "James Peace, formerly of Molinare, has been appointed as Senior Post Producer at runVT.",
+      "why_it_matters": "The movement of senior talent between established post-production houses is a key indicator of industry shifts and talent retention trends within the sector.",
+      "verified_facts": [
+        "James Peace has joined runVT as Senior Post Producer.",
+        "James Peace previously held a role at Molinare."
+      ],
+      "warnings": [
+        "The news item focuses on a departure from the portfolio company to a competitor, rather than an internal appointment."
+      ],
+      "drafts": {
+        "concise": "We note the recent career move of James Peace, who has joined runVT as Senior Post Producer. James previously held a position at Molinare, where he contributed to a range of high-profile film and television projects. We wish him well in his new role at runVT. #PostProduction #IndustryNews",
+        "investor": "Talent mobility remains a defining feature of the UK post-production landscape. James Peace, formerly of Molinare, has transitioned to a Senior Post Producer role at runVT. This move highlights the ongoing demand for experienced production talent capable of delivering complex scripted and unscripted content for major streamers and broadcasters. We continue to monitor how such movements reflect the broader competitive dynamics within the creative services sector. #MediaIndustry #PostProduction",
+        "people": "We would like to acknowledge the time James Peace spent with the team at Molinare. James has now taken up a new position as Senior Post Producer at runVT. His experience across significant titles such as 'Red, White & Royal Blue' and 'Scoop' is a testament to the high calibre of talent that has been part of the Molinare group. We wish him every success in this next chapter of his career. #CreativeTalent #PostProduction"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
     }
   ]
 }
