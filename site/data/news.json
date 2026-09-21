@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T14:08:18.440950+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no news to report from Clearway Group or The Delivery Group.",
+  "generated_at": "2026-09-21T06:48:46.290067+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from Whitespace.",
   "archive_story_count": 16,
-  "last_digest_sent_at": "2026-09-20T06:48:50.773200+00:00",
+  "last_digest_sent_at": "2026-09-21T06:48:46.290067+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -754,18 +754,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "f3499771ec4d4b53",
+      "id": "7a5c4e890d12162c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "UNDP and FLock.io strengthen relationship to advance public sector digital innovation in the Dominican Republic",
-      "url": "https://www.uktech.news/ai/undp-and-flock-io-strengthen-relationship-to-advance-public-sector-digital-innovation-in-the-dominican-republic-20260916",
-      "source": "uktech.news",
-      "published_at": "2026-09-16T17:05:00+00:00",
-      "first_seen": "2026-09-19T06:48:51.529273+00:00",
-      "score": 75,
-      "summary": "The UNDP and FLock.io have signed an MoU to implement privacy-preserving AI and blockchain infrastructure for public sector digital innovation in the Dominican Republic.",
-      "angle": "Highlights growing international demand for sovereign AI frameworks that prioritise data privacy and ethical governance in public services.",
-      "discovered_via": "Sector RSS"
+      "title": "Treasurer Jim Chalmers unveils 2026 Intergenerational Report | The Advertiser - Cessnock",
+      "url": "https://www.cessnockadvertiser.com.au/story/9353968/treasurer-jim-chalmers-unveils-2026-intergenerational-report/",
+      "source": "cessnockadvertiser.com.au",
+      "published_at": "2026-09-21T06:15:00+00:00",
+      "first_seen": "2026-09-21T06:48:46.290067+00:00",
+      "score": 85,
+      "summary": "Australia's 2026 Intergenerational Report outlines a strategy for government-led AI adoption, including potential data sharing with private firms and the use of procurement to influence market competitiveness.",
+      "angle": "Highlights shifting government policy on sovereign AI procurement, data access, and direct investment in national AI capabilities.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "65987e8d8d187746",
@@ -998,14 +998,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 94,
-    "llm_requests_attempted": 41,
-    "llm_requests_succeeded": 41,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
+    "providers_succeeded": 67,
+    "queued_candidates": 105,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 1,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 6
   }
 }
