@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T06:48:46.290067+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from Whitespace.",
+  "generated_at": "2026-09-21T14:08:04.202311+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-specific updates, with no new developments to report from Clearway Group, Petainer, UOE, or Whitespace.",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-21T06:48:46.290067+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 1,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -502,20 +502,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9b9dc2e30e9c2f05",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "New survey lays bare human cost of construction-site crime",
-      "url": "https://securityjournaluk.com/survey-human-cost-of-construction-site-crime/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-11T09:39:43+00:00",
-      "first_seen": "2026-09-12T06:48:31.372323+00:00",
-      "score": 90,
-      "summary": "A 2026 industry report reveals that construction site crime is becoming more targeted and disruptive, with 76% of firms cutting security budgets despite rising theft and digital threats.",
-      "angle": "Highlights shifting criminal tactics and declining security adoption, indicating a critical need for advanced, integrated site protection services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "027d4cfc25e0e81b",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -544,17 +530,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8e8d0674dadb83f9",
+      "id": "9ed2a01f3b73db33",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Dahua Technology UK & Ireland achieves ISO 27001 Certification",
-      "url": "https://securityjournaluk.com/dahua-technology-uk-ire-iso-27001-cert/",
+      "title": "Accredit Solutions launches Accredit Induct ahead of Martyn’s Law",
+      "url": "https://securityjournaluk.com/accredit-induct-launch-ahead-of-martyns-law/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-18T07:25:51+00:00",
-      "first_seen": "2026-09-20T14:08:18.440950+00:00",
+      "published_at": "2026-09-21T14:07:53+00:00",
+      "first_seen": "2026-09-21T14:08:04.202311+00:00",
       "score": 65,
-      "summary": "Dahua Technology UK & Ireland has achieved ISO 27001 certification for its information security management systems to strengthen its local data processes and cyber resilience.",
-      "angle": "Highlights increasing industry focus on data security standards and supply chain compliance for UK security technology providers.",
+      "summary": "Accredit Solutions has launched Accredit Induct, a platform integrating workforce induction, identity, and access control to assist venues in meeting upcoming Martyn’s Law compliance requirements.",
+      "angle": "Highlights increasing regulatory pressure for integrated security and compliance systems within UK site access management.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9b8b2c32e2dcffe4",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Pushing boundaries in fence design and supply",
+      "url": "https://securityjournaluk.com/pushing-boundaries-in-fence-design-supply/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-21T07:27:42+00:00",
+      "first_seen": "2026-09-21T14:08:04.202311+00:00",
+      "score": 65,
+      "summary": "Alexandra Security is expanding its focus on high-security mesh fencing for the utilities sector, driven by increasing insurance requirements for solar and energy storage sites.",
+      "angle": "Highlights growing demand for high-rated physical perimeter security and insurance-led specifications in the UK utilities and energy sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -569,34 +569,6 @@
       "score": 65,
       "summary": "Panasonic Energy has opened a new R&D centre in Osaka to accelerate battery development efficiency and integrate cell design with mass production processes.",
       "angle": "Advances in battery energy density and production efficiency are critical for the long-term evolution of micromobility power solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "467c9da3f1a1c458",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "R3 Lithium launches lithium recycling facility in Georgia",
-      "url": "https://www.electrive.com/2026/09/11/r3-lithium-launches-lithium-recycling-facility-in-georgia/",
-      "source": "electrive.com",
-      "published_at": "2026-09-11T11:30:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 65,
-      "summary": "R3 Lithium has launched a commercial-scale facility in Georgia capable of producing 2,500 tonnes of lithium carbonate annually from recycled battery materials.",
-      "angle": "Advancements in domestic lithium recycling infrastructure improve supply chain sustainability and material availability for the broader micromobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fc9f9cc08b9d69c0",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EU Commission proposes new procurement rules: more Europe, less China",
-      "url": "https://www.electrive.com/2026/09/11/eu-commission-proposes-new-procurement-rules-more-europe-less-china/",
-      "source": "electrive.com",
-      "published_at": "2026-09-11T10:00:00+00:00",
-      "first_seen": "2026-09-11T14:08:11.334689+00:00",
-      "score": 65,
-      "summary": "The EU Commission has proposed new procurement rules to simplify the exclusion of non-EU companies from public tenders, prioritising European industrial capacity and strategic resilience.",
-      "angle": "Potential shift in public procurement policy favouring EU-manufactured components and products over non-EU competitors.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -670,6 +642,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "dfb48227a8ec3a1a",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "PackUK to set out five-year strategy for EPR delivery",
+      "url": "https://www.packagingnews.co.uk/news/packuk-to-set-out-five-year-strategy-for-epr-delivery-21-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-21T10:28:28+00:00",
+      "first_seen": "2026-09-21T14:08:04.202311+00:00",
+      "score": 90,
+      "summary": "PackUK is developing a five-year strategy for the packaging extended producer responsibility scheme to track environmental benefits, recycling quality, and packaging reduction.",
+      "angle": "Provides critical regulatory visibility for long-term investment and packaging design decisions within the UK market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f83b431ddaabf69a",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -695,20 +681,6 @@
       "score": 85,
       "summary": "London Packaging Week 2026 highlighted critical industry developments including the upcoming UK deposit return scheme and new recyclability assessment methodologies for packaging materials.",
       "angle": "Regulatory shifts regarding DRS and EPR directly impact operational compliance and material design standards for PET packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e815874e59eeee6f",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "London Packaging Week | 2026 show closes with insight-packed final day",
-      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-2026-show-closes-with-insight-packed-final-day-18-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-18T11:17:25+00:00",
-      "first_seen": "2026-09-18T14:07:57.490367+00:00",
-      "score": 75,
-      "summary": "London Packaging Week 2026 highlighted industry trends including the integration of QR codes, self-cooling technology, and the collaborative implementation of Extended Producer Responsibility (EPR) schemes.",
-      "angle": "EPR policy and smart packaging integration are critical regulatory and technological shifts impacting the beverage packaging sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -754,18 +726,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "7a5c4e890d12162c",
+      "id": "118f222149efc15c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Treasurer Jim Chalmers unveils 2026 Intergenerational Report | The Advertiser - Cessnock",
-      "url": "https://www.cessnockadvertiser.com.au/story/9353968/treasurer-jim-chalmers-unveils-2026-intergenerational-report/",
-      "source": "cessnockadvertiser.com.au",
-      "published_at": "2026-09-21T06:15:00+00:00",
-      "first_seen": "2026-09-21T06:48:46.290067+00:00",
+      "title": "56% of Sovereign AI LLMs Are Adapted Models, With Meta’s Llama the Dominant Base, Followed by Alibaba’s Qwen and France’s Mistral - Counterpoint Research",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRzJUWkJfdExfbE1NLTRsMi1wYzNwSDU4bVVWaWktNlE4R2FWbndjUG5ENHlKeEFKa2ZCR0dlZDRjWmRyaHVvckFybTVYeUtEYzZKT3dYeVA0ckxXODBGMGd3ZVdpM25lVWI3dGhSblhlemtSYS1SVjl4T1FNdVh5Um05SUJpUE1ZX0xmWGdsYjhFTFhST09RNWZGeFpybU5VN1BKN3pQd0czaUxOVVdoVzQyaXJDOE52WXdZbURFNnM3a2R6a25BOWd3?oc=5",
+      "source": "Counterpoint Research",
+      "published_at": "2026-09-21T09:24:26+00:00",
+      "first_seen": "2026-09-21T14:08:04.202311+00:00",
       "score": 85,
-      "summary": "Australia's 2026 Intergenerational Report outlines a strategy for government-led AI adoption, including potential data sharing with private firms and the use of procurement to influence market competitiveness.",
-      "angle": "Highlights shifting government policy on sovereign AI procurement, data access, and direct investment in national AI capabilities.",
-      "discovered_via": "GDELT"
+      "summary": "Counterpoint Research reports that 56% of sovereign AI LLMs are adapted models, with Meta’s Llama, Alibaba’s Qwen, and Mistral serving as the primary base models.",
+      "angle": "Highlights the reliance on open-weight models for sovereign AI deployments, impacting build-versus-buy strategies and infrastructure requirements.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "65987e8d8d187746",
@@ -810,17 +782,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c884748531df34a8",
+      "id": "dd38e3c9b7be42fd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "AI-powered platform unveiled for Snappy Shopper retailers",
-      "url": "https://www.talkingretail.com/featured/ai-powered-platform-unveiled-for-snappy-shopper-retailers-17-09-2026/",
+      "title": "Retail Trust ramps up support for retail workers in the run up to Christmas",
+      "url": "https://www.talkingretail.com/featured/retail-trust-ramps-up-support-for-retail-workers-in-the-run-up-to-christmas-21-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-17T14:56:26+00:00",
-      "first_seen": "2026-09-19T14:08:02.129647+00:00",
-      "score": 65,
-      "summary": "Snappy Technologies has launched Snappy AI, a tool designed to help retailers analyse sales data, identify trends, and automate operational tasks like updating prices and store hours.",
-      "angle": "Demonstrates the increasing integration of generative AI tools to streamline operational efficiency and data analysis in retail.",
+      "published_at": "2026-09-21T11:57:51+00:00",
+      "first_seen": "2026-09-21T14:08:04.202311+00:00",
+      "score": 75,
+      "summary": "The Retail Trust has launched new safety resources and a campaign to help retail staff manage increasing customer abuse and mental health challenges ahead of the Christmas period.",
+      "angle": "Highlights rising operational risks regarding staff safety and wellbeing in UK retail environments during peak trading seasons.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -998,14 +970,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 67,
-    "queued_candidates": 105,
+    "providers_succeeded": 90,
+    "queued_candidates": 127,
     "llm_requests_attempted": 75,
     "llm_requests_succeeded": 75,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 1,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 24,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
 }
