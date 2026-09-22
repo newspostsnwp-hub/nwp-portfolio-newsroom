@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T06:48:54.210071+00:00",
-  "digest_intro": "Good morning. We have three sector updates for you today, though there are no specific developments regarding Fertility Associates or Petainer to report.",
+  "generated_at": "2026-09-22T14:07:53.020787+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-22T06:48:54.210071+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 1,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -474,6 +474,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "110db7b3be491d73",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "YEEP! to drive service delivery as UK locker network scales",
+      "url": "https://postandparcel.info/162866/news/e-commerce/yeep-appoints-ella-layton-to-drive-service-delivery-as-uk-locker-network-scales/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-22T11:07:24+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 65,
+      "summary": "Open parcel locker operator YEEP! has appointed Ella Layton as Director of Service Delivery to support the expansion of its UK out-of-home network.",
+      "angle": "Highlights the ongoing growth and competitive expansion of out-of-home delivery infrastructure within the UK logistics market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d0260f8fac700566",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -485,20 +499,6 @@
       "score": 65,
       "summary": "Global postal operators have reduced annual emissions by over 41% since 2008, approaching their 2030 target of a 50% reduction.",
       "angle": "Highlights industry-wide decarbonisation progress and increasing pressure on UK delivery firms to meet sustainability targets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "14a5f029a5e6a7b2",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "FedEx: The future of delivery isn’t just moving packages quickly",
-      "url": "https://postandparcel.info/162817/news/e-commerce/fedex-the-future-of-delivery-isnt-just-moving-packages-quickly/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-17T17:11:32+00:00",
-      "first_seen": "2026-09-20T14:08:18.440950+00:00",
-      "score": 65,
-      "summary": "FedEx has launched FedEx Authenticated Delivery, a premium service designed to provide increased confidence for specific shipments.",
-      "angle": "Highlights industry trends towards premium, high-security delivery services to meet evolving e-commerce consumer expectations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -530,31 +530,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9ed2a01f3b73db33",
+      "id": "5323604536d339ea",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Accredit Solutions launches Accredit Induct ahead of Martyn’s Law",
-      "url": "https://securityjournaluk.com/accredit-induct-launch-ahead-of-martyns-law/",
+      "title": "Physical security market “needs a major shake-up”",
+      "url": "https://securityjournaluk.com/physical-security-mkt-needs-a-major-shake-up/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-21T14:07:53+00:00",
-      "first_seen": "2026-09-21T14:08:04.202311+00:00",
-      "score": 65,
-      "summary": "Accredit Solutions has launched Accredit Induct, a platform integrating workforce induction, identity, and access control to assist venues in meeting upcoming Martyn’s Law compliance requirements.",
-      "angle": "Highlights increasing regulatory pressure for integrated security and compliance systems within UK site access management.",
+      "published_at": "2026-09-22T11:35:51+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 75,
+      "summary": "The physical security market faces pressure from Martyn’s Law, rising shoplifting, and a need for more flexible, AI-driven technology to replace traditional, rigid, and reactive security platforms.",
+      "angle": "Highlights regulatory shifts and demand for flexible, tech-enabled security solutions in the UK market.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9b8b2c32e2dcffe4",
+      "id": "e61fd2e3ac979f11",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Pushing boundaries in fence design and supply",
-      "url": "https://securityjournaluk.com/pushing-boundaries-in-fence-design-supply/",
+      "title": "“NDAA-Compliant”: Badge of pride or an irrelevant buzzword?",
+      "url": "https://securityjournaluk.com/ndaa-compliant-badge-of-pride-or-buzzword/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-21T07:27:42+00:00",
-      "first_seen": "2026-09-21T14:08:04.202311+00:00",
+      "published_at": "2026-09-22T10:37:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 75,
+      "summary": "The term 'NDAA-compliant' is increasingly used in UK security procurement as a proxy for cybersecurity, despite lacking formal certification or direct legal application in the UK market.",
+      "angle": "Highlights the distinction between US-centric procurement policy and independent cybersecurity standards when evaluating equipment for UK site security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "224f18107adf6c72",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "ACEA calls for delay to stricter EU-UK battery rules",
+      "url": "https://www.electrive.com/2026/09/22/acea-calls-for-delay-to-stricter-eu-uk-battery-rules/",
+      "source": "electrive.com",
+      "published_at": "2026-09-22T12:00:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
       "score": 65,
-      "summary": "Alexandra Security is expanding its focus on high-security mesh fencing for the utilities sector, driven by increasing insurance requirements for solar and energy storage sites.",
-      "angle": "Highlights growing demand for high-rated physical perimeter security and insurance-led specifications in the UK utilities and energy sector.",
+      "summary": "The European Automobile Manufacturers’ Association is requesting a delay until 2029 for stricter EU-UK rules of origin requirements for battery cells and materials.",
+      "angle": "Regulatory shifts in battery supply chains and trade tariffs impact costs and sourcing strategies for micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -569,6 +583,20 @@
       "score": 65,
       "summary": "Panasonic Energy has opened a new R&D centre in Osaka to accelerate battery development efficiency and integrate cell design with mass production processes.",
       "angle": "Advances in battery energy density and production efficiency are critical for the long-term evolution of micromobility power solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1b77f5ce94b5679f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "IBC 2026: Splats, Sync and Scene-Aware Cameras",
+      "url": "https://postperspective.com/ibc-2026-splats-sync-and-scene-aware-cameras/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-21T18:26:30+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 85,
+      "summary": "IBC 2026 showcased advancements in AI-driven post-production tools, including automated editing assistants, lip-sync localisation platforms, and Gaussian splatting for photorealistic 3D environment creation.",
+      "angle": "Emerging AI and spatial capture technologies are significantly altering post-production workflows, efficiency, and asset creation capabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -611,20 +639,6 @@
       "score": 85,
       "summary": "Colorfront has introduced new automated timeline comparison tools, AI-assisted QC workflows, and support for Dolby Vision 2 mastering at the IBC show.",
       "angle": "Advancements in automated QC and mastering standards directly impact operational efficiency and technical delivery requirements in post-production.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b62eb916727b8718",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "IBC Report: Keeping an Eye on What’s New From Adobe, BMD and More",
-      "url": "https://postperspective.com/ibc-report-keeping-an-eye-on-whats-new-from-adobe-bmd-and-more/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-15T14:58:09+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "IBC 2026 featured significant updates to Adobe Premiere and After Effects, alongside Blackmagic DaVinci Resolve 21.1, focusing on generative AI integration and automated metadata tagging workflows.",
-      "angle": "Rapid adoption of generative AI and automated post-production tools directly impacts operational efficiency and technical workflows in post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -698,6 +712,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "8def4a537149f9e4",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "GOV . UK founder warns AI gold rush could leave Britain locked in",
+      "url": "https://www.theregister.com/public-sector/2026/09/22/govuk-founder-warns-ai-gold-rush-could-leave-britain-locked-in/5297828",
+      "source": "theregister.com",
+      "published_at": "2026-09-22T09:00:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 90,
+      "summary": "Mike Bracken, founder of the Government Digital Service, warns that sovereign AI initiatives risk creating new dependencies on a small group of technology suppliers.",
+      "angle": "Challenges the definition of sovereign AI, highlighting the importance of operational flexibility and avoiding vendor lock-in.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "100c2cd25adde8b7",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -724,20 +752,6 @@
       "summary": "Dell reports a $95 billion AI server backlog and identifies sovereign AI projects in most of the world's 50 largest economies as a significant long-term demand driver.",
       "angle": "Validates strong global demand for sovereign AI infrastructure and highlights the shift toward on-premises, proprietary data deployments.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "118f222149efc15c",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "56% of Sovereign AI LLMs Are Adapted Models, With Meta’s Llama the Dominant Base, Followed by Alibaba’s Qwen and France’s Mistral - Counterpoint Research",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRzJUWkJfdExfbE1NLTRsMi1wYzNwSDU4bVVWaWktNlE4R2FWbndjUG5ENHlKeEFKa2ZCR0dlZDRjWmRyaHVvckFybTVYeUtEYzZKT3dYeVA0ckxXODBGMGd3ZVdpM25lVWI3dGhSblhlemtSYS1SVjl4T1FNdVh5Um05SUJpUE1ZX0xmWGdsYjhFTFhST09RNWZGeFpybU5VN1BKN3pQd0czaUxOVVdoVzQyaXJDOE52WXdZbURFNnM3a2R6a25BOWd3?oc=5",
-      "source": "Counterpoint Research",
-      "published_at": "2026-09-21T09:24:26+00:00",
-      "first_seen": "2026-09-21T14:08:04.202311+00:00",
-      "score": 85,
-      "summary": "Counterpoint Research reports that 56% of sovereign AI LLMs are adapted models, with Meta’s Llama, Alibaba’s Qwen, and Mistral serving as the primary base models.",
-      "angle": "Highlights the reliance on open-weight models for sovereign AI deployments, impacting build-versus-buy strategies and infrastructure requirements.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "65987e8d8d187746",
@@ -796,6 +810,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "feef623c4e826022",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Higher Ed Groups Push Back on Trump’s New Accreditation Rule",
+      "url": "https://www.insidehighered.com/news/government/student-aid-policy/2026/09/22/higher-ed-groups-push-back-accreditation-overhaul",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-22T07:00:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 85,
+      "summary": "Higher education groups are opposing a proposed federal rule that would expand government oversight of accreditation agencies and mandate new standards for institutional compliance and student outcomes.",
+      "angle": "Regulatory changes to accreditation impact institutional operations, student aid eligibility, and the demand for learning technology solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4dba71e66cbeaf51",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "How Apprenticeships Can Help Colleges Access Workforce Pell",
+      "url": "https://www.insidehighered.com/news/government/student-aid-policy/2026/09/22/how-apprenticeships-can-help-colleges-access",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-22T07:00:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 85,
+      "summary": "New Department of Labor guidance allows Workforce Pell grants to cover instruction for registered apprenticeship programs, incentivizing colleges to expand their workforce training offerings.",
+      "angle": "Policy shifts expanding federal funding for apprenticeship-linked higher education impact demand for curriculum and learning technology solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1e42c34f12f9ccbf",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Career Readiness Cannot Wait Until Graduation, and It Doesn’t Have To",
+      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/09/22/career-readiness-cannot-wait-until-graduation",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-22T07:00:00+00:00",
+      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are increasingly integrating industry partnerships and project-based learning into undergraduate curricula to better prepare students for a rapidly evolving, AI-driven labour market.",
+      "angle": "Shift from content-based learning to applied, industry-integrated models necessitates new digital tools and pedagogical frameworks for publishers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3e4f78d51185449a",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -807,48 +863,6 @@
       "score": 85,
       "summary": "The U.S. Department of Education is implementing a sweeping rewrite of accreditation regulations, focusing on student credit transfers and institutional accountability for student outcomes.",
       "angle": "Regulatory shifts in accreditation directly impact higher education business models, compliance requirements, and institutional demand for learning technology.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2ee5c5cb1bec7f1a",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "2 in 3 Harvard Professors Say AI Has a Negative Impact on Class",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/17/2-3-harvard-professors-say-ai-has-negative-impact",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-17T07:00:00+00:00",
-      "first_seen": "2026-09-17T14:08:07.886212+00:00",
-      "score": 85,
-      "summary": "A survey of Harvard faculty indicates that nearly two-thirds now view artificial intelligence as having a negative impact on their courses, with most implementing explicit usage policies.",
-      "angle": "Reflects growing academic resistance to AI integration, highlighting potential barriers for edtech adoption in higher education.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4ec805c694546356",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Survey: Americans Concerned About AI’s Effect on Human Connection and Thinking",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/16/survey-ais-perceived-effect-human-connection-thinking",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-16T07:00:00+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 85,
-      "summary": "A survey from Elon University reveals that while 65 percent of Americans use AI, over half express concerns regarding its impact on critical thinking and human agency.",
-      "angle": "Highlights public anxiety regarding AI's role in education, necessitating careful design of learning tools to support cognitive development.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3d0f15f460eae851",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Big School Districts Pause AI Access at School",
-      "url": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/09/16/big-school-districts-pause-ai-access-school",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-16T07:00:00+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 85,
-      "summary": "Major US school districts, including New York City and Los Angeles, have implemented moratoriums or restrictions on generative AI tools in classrooms due to safety and screen-time concerns.",
-      "angle": "Regulatory shifts and school district policy changes directly impact the adoption and integration of AI-driven educational publishing products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -970,14 +984,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 125,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 72,
+    "providers_succeeded": 96,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 78,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 11,
     "carried_forward": 6
   }
 }
