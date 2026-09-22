@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T14:08:04.202311+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-specific updates, with no new developments to report from Clearway Group, Petainer, UOE, or Whitespace.",
+  "generated_at": "2026-09-22T06:48:54.210071+00:00",
+  "digest_intro": "Good morning. We have three sector updates for you today, though there are no specific developments regarding Fertility Associates or Petainer to report.",
   "archive_story_count": 16,
-  "last_digest_sent_at": "2026-09-21T06:48:46.290067+00:00",
+  "last_digest_sent_at": "2026-09-22T06:48:54.210071+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -656,20 +656,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f83b431ddaabf69a",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "LARAC calls for urgent review into impact of Deposit Return Scheme (DRS) on councils",
-      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/larac-calls-for-urgent-review-into-impact-of-deposit-return-scheme-drs-on-councils-11-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-11T15:16:49+00:00",
-      "first_seen": "2026-09-12T06:48:31.372323+00:00",
-      "score": 90,
-      "summary": "LARAC has requested an urgent government review of the Deposit Return Scheme's financial impact on local authorities, citing concerns over lost revenue and increased operational costs.",
-      "angle": "Regulatory uncertainty regarding DRS implementation directly impacts the collection and recycling economics of PET beverage packaging.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "64d1f79b6c174144",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -681,6 +667,20 @@
       "score": 85,
       "summary": "London Packaging Week 2026 highlighted critical industry developments including the upcoming UK deposit return scheme and new recyclability assessment methodologies for packaging materials.",
       "angle": "Regulatory shifts regarding DRS and EPR directly impact operational compliance and material design standards for PET packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e815874e59eeee6f",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "London Packaging Week | 2026 show closes with insight-packed final day",
+      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-2026-show-closes-with-insight-packed-final-day-18-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-18T11:17:25+00:00",
+      "first_seen": "2026-09-22T06:48:54.210071+00:00",
+      "score": 75,
+      "summary": "London Packaging Week 2026 highlighted industry trends including EPR implementation, the integration of QR codes for retail, and a focus on sustainable, purpose-driven packaging innovation.",
+      "angle": "Provides critical regulatory updates on EPR and insights into evolving consumer-facing packaging technology and sustainability requirements.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -852,6 +852,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "578d6145da6dba1c",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Non-invasive PGT-A did not improve pregnancy rates",
+      "url": "https://www.progress.org.uk/non-invasive-pgt-a-did-not-improve-pregnancy-rates/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-21T15:53:44+00:00",
+      "first_seen": "2026-09-22T06:48:54.210071+00:00",
+      "score": 85,
+      "summary": "A clinical trial of 1152 patients found that non-invasive PGT-A did not improve ongoing pregnancy rates compared to standard morphology, though it significantly reduced early miscarriage rates.",
+      "angle": "Provides critical clinical evidence regarding the efficacy of emerging non-invasive genetic testing technologies in IVF treatment protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b73fdb991e801b02",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "The Genetics of Infertility: Causes, Choices and Treatments",
+      "url": "https://www.progress.org.uk/the-genetics-of-infertility-causes-choices-and-treatments/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-21T15:48:37+00:00",
+      "first_seen": "2026-09-22T06:48:54.210071+00:00",
+      "score": 85,
+      "summary": "Recent clinical research highlights that genetic testing and sequencing are increasingly identifying causes of previously unexplained infertility, though diagnostic utility remains an evolving area between research and clinical practice.",
+      "angle": "Advancements in reproductive genomics and diagnostic gene panels are set to reshape clinical infertility assessment and treatment pathways.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d86b87bd1c41fada",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -877,34 +905,6 @@
       "score": 85,
       "summary": "Medical directors are calling for UK law reform to prevent gamete donors from withdrawing consent for embryo use after the creation of embryos has already occurred.",
       "angle": "Highlights critical regulatory risks regarding donor consent, embryo storage, and patient rights in fertility treatment frameworks.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1787da9c2f0e9e40",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Egg freezing is not reproductive insurance – so what does 'success' really mean?",
-      "url": "https://www.progress.org.uk/egg-freezing-is-not-reproductive-insurance-so-what-does-success-really-mean/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-14T15:41:32+00:00",
-      "first_seen": "2026-09-15T06:48:25.725513+00:00",
-      "score": 85,
-      "summary": "The Royal College of Obstetricians and Gynaecologists has published a scientific impact paper addressing the complexities, success rates, and emotional demands of elective egg freezing.",
-      "angle": "Highlights the need for transparent communication regarding success rates and patient support in a rapidly growing market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "740eb05032ea4bbc",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Couples' embryos to be destroyed after sperm donors withdraw consent",
-      "url": "https://www.progress.org.uk/couples-embryos-to-be-destroyed-after-sperm-donors-withdraw-consent/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-14T15:40:07+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
-      "score": 75,
-      "summary": "UK law allows sperm donors to withdraw consent for embryo use at any point before transfer, leading to the mandatory destruction of embryos after a 12-month cooling-off period.",
-      "angle": "Highlights critical regulatory risks regarding donor consent and the potential for legal challenges in fertility treatment management.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -970,14 +970,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
+    "providers_succeeded": 88,
+    "queued_candidates": 125,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 24,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
 }
