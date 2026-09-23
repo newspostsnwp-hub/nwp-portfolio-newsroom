@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T06:48:43.210499+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on five sector-specific updates, with no new developments to report from Clearway Group, Molinare, or Whitespace.",
+  "generated_at": "2026-09-23T14:08:05.075663+00:00",
+  "digest_intro": "",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-23T06:48:43.210499+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -558,6 +558,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c2beebfd13c0643d",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "CATL begins test production of battery cells in Debrecen",
+      "url": "https://www.electrive.com/2026/09/23/catl-begins-test-production-of-battery-cells-in-debrecen/",
+      "source": "electrive.com",
+      "published_at": "2026-09-23T11:31:55+00:00",
+      "first_seen": "2026-09-23T14:08:05.075663+00:00",
+      "score": 65,
+      "summary": "CATL has commenced test production of battery cells at its new facility in Debrecen, Hungary, following regulatory approvals and previous delays.",
+      "angle": "Increased European battery cell production capacity may improve supply chain stability and reduce costs for micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "224f18107adf6c72",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -984,14 +998,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 106,
-    "llm_requests_attempted": 58,
-    "llm_requests_succeeded": 58,
+    "providers_succeeded": 81,
+    "queued_candidates": 111,
+    "llm_requests_attempted": 25,
+    "llm_requests_succeeded": 4,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 7,
+    "dropped_thin_page": 11,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
 }
