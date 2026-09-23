@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T14:07:53.020787+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-09-23T06:48:43.210499+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on five sector-specific updates, with no new developments to report from Clearway Group, Molinare, or Whitespace.",
   "archive_story_count": 16,
-  "last_digest_sent_at": "2026-09-22T06:48:54.210071+00:00",
+  "last_digest_sent_at": "2026-09-23T06:48:43.210499+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -530,31 +530,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5323604536d339ea",
+      "id": "2e3a72a7a505434d",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Physical security market “needs a major shake-up”",
-      "url": "https://securityjournaluk.com/physical-security-mkt-needs-a-major-shake-up/",
+      "title": "AddSecure launches plug-and-play router solution",
+      "url": "https://securityjournaluk.com/addsecure-plug-and-play-router-solution/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-22T11:35:51+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "published_at": "2026-09-23T06:45:00+00:00",
+      "first_seen": "2026-09-23T06:48:43.210499+00:00",
       "score": 75,
-      "summary": "The physical security market faces pressure from Martyn’s Law, rising shoplifting, and a need for more flexible, AI-driven technology to replace traditional, rigid, and reactive security platforms.",
-      "angle": "Highlights regulatory shifts and demand for flexible, tech-enabled security solutions in the UK market.",
+      "summary": "AddSecure has launched a plug-and-play router solution designed to simplify security system deployments by providing pre-configured hardware and managed mobile connectivity.",
+      "angle": "Highlights industry trends toward simplified, secure-by-design connectivity for remote site monitoring and CCTV deployments.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e61fd2e3ac979f11",
+      "id": "c0d753445888621a",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "“NDAA-Compliant”: Badge of pride or an irrelevant buzzword?",
-      "url": "https://securityjournaluk.com/ndaa-compliant-badge-of-pride-or-buzzword/",
+      "title": "Beyond the card reader: redefining access control",
+      "url": "https://securityjournaluk.com/beyond-card-reader-redefining-access-control/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-22T10:37:00+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "published_at": "2026-09-23T06:30:00+00:00",
+      "first_seen": "2026-09-23T06:48:43.210499+00:00",
       "score": 75,
-      "summary": "The term 'NDAA-compliant' is increasingly used in UK security procurement as a proxy for cybersecurity, despite lacking formal certification or direct legal application in the UK market.",
-      "angle": "Highlights the distinction between US-centric procurement policy and independent cybersecurity standards when evaluating equipment for UK site security.",
+      "summary": "The article explores emerging access control technologies, including quantum-enhanced authentication, brain-computer interfaces, biological computing, and edge AI with federated learning, as they move toward operational deployment.",
+      "angle": "Highlights long-term technological shifts in access control that will influence future security infrastructure and procurement cycles.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -583,6 +583,20 @@
       "score": 65,
       "summary": "Panasonic Energy has opened a new R&D centre in Osaka to accelerate battery development efficiency and integrate cell design with mass production processes.",
       "angle": "Advances in battery energy density and production efficiency are critical for the long-term evolution of micromobility power solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "85521b2f5c90343f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Fix It or Risk It: Every Security Breach Has an Origin Story",
+      "url": "https://postperspective.com/fix-it-or-risk-it-every-security-breach-has-an-origin-story/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-22T21:43:36+00:00",
+      "first_seen": "2026-09-23T06:48:43.210499+00:00",
+      "score": 85,
+      "summary": "The Trusted Partner Network has launched the 'Fix It or Risk It' campaign to encourage post-production teams to adopt routine security practices against everyday cyber vulnerabilities.",
+      "angle": "Highlights increasing industry pressure for rigorous content security protocols across collaborative, distributed post-production workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -625,20 +639,6 @@
       "score": 85,
       "summary": "James Cameron’s Lightstorm Vision has acquired Outsyders, a creative-tech collective specialising in AI-driven 3D stereoscopic post-production and conversion technology.",
       "angle": "Demonstrates how AI-integrated pipelines are significantly reducing the time and cost of high-volume 3D content production.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ba141c574f59ea7d",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Colorfront: Auto Timeline Comparison, Dolby Vision 2 Mastering, More at IBC",
-      "url": "https://postperspective.com/colorfront-auto-timeline-comparison-dolby-vision-2-mastering-more-at-ibc/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-15T19:46:43+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "Colorfront has introduced new automated timeline comparison tools, AI-assisted QC workflows, and support for Dolby Vision 2 mastering at the IBC show.",
-      "angle": "Advancements in automated QC and mastering standards directly impact operational efficiency and technical delivery requirements in post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -698,6 +698,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9fbc89307dc34a7d",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI biggest risk is becoming a geopolitical dependency",
+      "url": "https://www.thenationalnews.com/business/2026/09/23/ais-biggest-risk-is-becoming-a-geopolitical-dependency/",
+      "source": "thenationalnews.com",
+      "published_at": "2026-09-23T05:45:00+00:00",
+      "first_seen": "2026-09-23T06:48:43.210499+00:00",
+      "score": 95,
+      "summary": "Geopolitical risks and export controls are driving a shift toward sovereign AI, with Gartner predicting one in five cloud workloads will move to local providers by 2027.",
+      "angle": "Validates the strategic necessity of sovereign AI infrastructure as enterprises seek to mitigate dependency on foreign-controlled AI platforms.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "37ec9fa62b42776d",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -726,31 +740,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "100c2cd25adde8b7",
+      "id": "2c00921123db123d",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "AI Servers Reshape $166 Billion Market as GPU Systems Hit $170 , 000 Average Price",
-      "url": "https://infotechlead.com/networking/ai-servers-reshape-166-billion-market-as-gpu-systems-hit-170000-average-price-98297",
-      "source": "infotechlead.com",
-      "published_at": "2026-09-12T20:30:00+00:00",
-      "first_seen": "2026-09-13T06:48:30.822008+00:00",
-      "score": 90,
-      "summary": "Global server market revenue reached a record $166.3 billion in Q2 2026, driven by a 43.6 percent increase in average GPU-accelerated server prices to nearly $170,200.",
-      "angle": "Highlights the shift toward branded, integrated AI infrastructure solutions for sovereign and enterprise deployments beyond hyperscalers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "37860542a070c0b1",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Dell Technologies Sees AI Boom Building as $95B Server Backlog Signals Demand",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-sees-ai-boom-170200109.html",
-      "source": "finance.yahoo.com",
-      "published_at": "2026-09-12T18:00:00+00:00",
-      "first_seen": "2026-09-19T14:08:02.129647+00:00",
-      "score": 90,
-      "summary": "Dell reports a $95 billion AI server backlog and identifies sovereign AI projects in most of the world's 50 largest economies as a significant long-term demand driver.",
-      "angle": "Validates strong global demand for sovereign AI infrastructure and highlights the shift toward on-premises, proprietary data deployments.",
+      "title": "Interview : Cloudera says open - ended AI spending is over",
+      "url": "https://channellife.co.nz/story/interview-cloudera-says-open-ended-ai-spending-is-over",
+      "source": "channellife.co.nz",
+      "published_at": "2026-09-23T05:15:00+00:00",
+      "first_seen": "2026-09-23T06:48:43.210499+00:00",
+      "score": 85,
+      "summary": "Cloudera reports that enterprises are shifting from experimental AI spending to demanding measurable business outcomes, cost discipline, and robust data governance for private and sovereign AI deployments.",
+      "angle": "Highlights a critical market pivot toward ROI-focused, controlled sovereign AI infrastructure over speculative, open-ended experimentation.",
       "discovered_via": "GDELT"
     },
     {
@@ -984,14 +984,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 96,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 78,
+    "providers_succeeded": 87,
+    "queued_candidates": 106,
+    "llm_requests_attempted": 58,
+    "llm_requests_succeeded": 58,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 11,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 6
   }
 }
