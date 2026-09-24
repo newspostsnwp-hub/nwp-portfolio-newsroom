@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T06:48:53.160624+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on McGraw Hill and three additional items covering the broader sector.",
+  "generated_at": "2026-09-24T14:08:16.730016+00:00",
+  "digest_intro": "",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-24T06:48:53.160624+00:00",
   "companies": [
@@ -1028,14 +1028,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 99,
-    "llm_requests_attempted": 57,
-    "llm_requests_succeeded": 57,
+    "providers_succeeded": 86,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 22,
+    "llm_requests_succeeded": 2,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
-    "carried_forward": 6
+    "dropped_thin_page": 10,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 9,
+    "carried_forward": 7
   }
 }
