@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T14:08:05.075663+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-09-24T06:48:53.160624+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update on McGraw Hill and three additional items covering the broader sector.",
   "archive_story_count": 16,
-  "last_digest_sent_at": "2026-09-23T06:48:43.210499+00:00",
+  "last_digest_sent_at": "2026-09-24T06:48:53.160624+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 3,
+      "story_count": 4,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
-  "todays_story_count": 0,
+  "story_count": 7,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "52c48b39cf0a668d",
@@ -280,6 +280,36 @@
         "concise": "We are pleased to share that McGraw Hill has acquired TeachFX. This move integrates AI-powered coaching tools into McGraw Hill’s existing suite of educational resources, further supporting their commitment to enhancing teaching practices and classroom outcomes. By leveraging technology designed by educators, McGraw Hill continues to evolve its offerings to meet the changing needs of the global education sector. We look forward to seeing how this integration supports teachers in their professional development and instructional impact. #McGrawHill #EdTech #Education",
         "investor": "McGraw Hill’s acquisition of TeachFX marks a strategic expansion of its learning technology capabilities. By incorporating AI-driven coaching tools, the company is well-positioned to address the growing demand for scalable, data-informed professional development for educators. This investment aligns with McGraw Hill’s focus on providing high-quality, evidence-based solutions that drive instructional improvement. We remain focused on supporting the team as they integrate this new technology to deliver enhanced value across their global education platforms. #EducationInvestment #GrowthStrategy #AI",
         "people": "Congratulations to the McGraw Hill team on the acquisition of TeachFX. This partnership brings together McGraw Hill’s extensive reach in education publishing with TeachFX’s innovative AI coaching tools, which were specifically designed by educators to support their peers. By prioritising tools that empower teachers, McGraw Hill is reinforcing its dedication to the people at the heart of the classroom. We are excited to see how this collaboration will foster professional growth and support educators in their vital work. #ProfessionalDevelopment #TeachingExcellence #McGrawHill"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "ed06f37918517fac",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill's Emerge! K-5 Science of Reading Program Included on Pennsylvania's Curriculum Materials List for Evidence-Based Reading Instruction - The Joplin Globe",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOOURWeWJIUHhXYlZJOEZKdHRsXzktNXdCbGFLNEQyRFl5TFNxN1lkRmxOSzJWbUU2cGtvdVhWd3IteU5ONGppWmNjTzU1Z0hMMEpWa1VoYVU2S1lLSkVCYzdSNm1FWmFWS1h4OFFIWjZhOVhSeWwyU25xRUNIM2M2dkd2blk2OGZiTTRLUjV0UDA5WE15VUJyaDdzdWZvWFRJQUVkQm9XYlZ4ay1wQ2N1QUQ3eDFCQVdRTlNKX2VyMUtDM0MwVkZQbGlXS3dLZXJhOVhrR0tta1EzMzVaVjJqYV9RTnlQdnBsdmNuMjloRWo5X2JHa1lzNnlDeVhIR05JMllzc0RYR1BMLXhGRDZyNkw0NEFoVU5iWnhMWHBqdldjMmF0N0hZaml0SlgxUQ?oc=5",
+      "source": "The Joplin Globe",
+      "published_at": "2026-09-23T13:02:59+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "McGraw Hill's 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania's state-approved list of curriculum materials for evidence-based reading instruction.",
+      "why_it_matters": "State-level curriculum approvals are critical milestones for education publishers, as they validate the efficacy of learning materials and significantly increase the addressable market within public school districts.",
+      "verified_facts": [
+        "McGraw Hill's Emerge! K-5 Science of Reading program is the product in question.",
+        "The program has been included on Pennsylvania's curriculum materials list for evidence-based reading instruction."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill’s 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania’s list of approved curriculum materials for evidence-based reading instruction. This recognition underscores the program's alignment with rigorous educational standards and its commitment to supporting foundational literacy development in classrooms. By meeting these state-level requirements, McGraw Hill continues to provide educators and students with high-quality, evidence-backed resources designed to improve reading outcomes. Congratulations to the team on this significant achievement in the K-5 space. #Education #Literacy #McGrawHill",
+        "investor": "McGraw Hill continues to strengthen its market position in the K-5 sector, with its 'Emerge!' Science of Reading program recently securing a place on Pennsylvania’s list of approved curriculum materials. State-level approvals of this nature are key drivers for adoption, validating the efficacy of the company's learning technology and expanding its footprint within public school districts. This development reflects the ongoing demand for evidence-based pedagogical tools and highlights McGraw Hill's ability to navigate complex regulatory environments to deliver scalable, high-impact educational solutions. #EdTech #Growth #Education",
+        "people": "A significant milestone for the McGraw Hill team as their 'Emerge!' K-5 Science of Reading program is now included on Pennsylvania’s list of approved curriculum materials. This achievement is a testament to the hard work and dedication of the product and pedagogical teams who have developed a curriculum grounded in evidence-based reading instruction. It is rewarding to see their commitment to improving literacy outcomes recognised at the state level, ensuring that teachers and students have access to the best possible tools for success. Well done to everyone involved in this accomplishment. #TeamSuccess #Education #ScienceOfReading"
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
@@ -530,6 +560,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1375745aab988863",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Reducing false alarms with smart 3D LiDAR",
+      "url": "https://securityjournaluk.com/reducing-false-alarms-with-smart-3d-lidar/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-24T06:30:00+00:00",
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 75,
+      "summary": "Smart 3D LiDAR technology is increasingly used in perimeter security to reduce false alarms by providing precise spatial data and object classification in complex environmental conditions.",
+      "angle": "Advancements in LiDAR offer a technical solution to improve detection reliability and operational efficiency in vacant property security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2e3a72a7a505434d",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -541,20 +585,6 @@
       "score": 75,
       "summary": "AddSecure has launched a plug-and-play router solution designed to simplify security system deployments by providing pre-configured hardware and managed mobile connectivity.",
       "angle": "Highlights industry trends toward simplified, secure-by-design connectivity for remote site monitoring and CCTV deployments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c0d753445888621a",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Beyond the card reader: redefining access control",
-      "url": "https://securityjournaluk.com/beyond-card-reader-redefining-access-control/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-23T06:30:00+00:00",
-      "first_seen": "2026-09-23T06:48:43.210499+00:00",
-      "score": 75,
-      "summary": "The article explores emerging access control technologies, including quantum-enhanced authentication, brain-computer interfaces, biological computing, and edge AI with federated learning, as they move toward operational deployment.",
-      "angle": "Highlights long-term technological shifts in access control that will influence future security infrastructure and procurement cycles.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -824,6 +854,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2bcb419e2ee92428",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "The Future of the American University, According to Cornell Faculty",
+      "url": "https://www.insidehighered.com/news/institutions/research-universities/2026/09/23/how-cornell-committee-wants-university-change",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 85,
+      "summary": "A Cornell faculty committee report outlines strategic shifts for higher education, including adopting subscription models for lifelong learning and adapting to generative artificial intelligence.",
+      "angle": "Signals institutional shifts toward lifelong learning models and AI integration, impacting long-term demand for educational content and platforms.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "89246a787f7f0872",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Out Now: 2026 Survey of College and University Chief Academic Officers",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/23/provosts-survey-2026-responsiveness-amid-constraint",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 85,
+      "summary": "A 2026 survey of chief academic officers reveals that provosts face significant resource constraints, skepticism regarding AI's educational impact, and challenges in scaling work-integrated learning and nondegree credential infrastructure.",
+      "angle": "Provides critical insights into institutional budget pressures, technology adoption barriers, and shifting academic priorities in higher education.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "92576e70e5ea0dac",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "From AI Use to Funding Cuts: How Provosts Are Navigating 2026",
+      "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/09/23/ai-use-funding-cuts-how-provosts-navigate-2026",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 85,
+      "summary": "A 2026 survey of 376 provosts reveals that while most use AI for personal productivity, only one in ten institutions has a centralized AI strategy.",
+      "angle": "Highlights institutional AI adoption barriers and shifting higher education funding priorities relevant to edtech product strategy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "feef623c4e826022",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -835,48 +907,6 @@
       "score": 85,
       "summary": "Higher education groups are opposing a proposed federal rule that would expand government oversight of accreditation agencies and mandate new standards for institutional compliance and student outcomes.",
       "angle": "Regulatory changes to accreditation impact institutional operations, student aid eligibility, and the demand for learning technology solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4dba71e66cbeaf51",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "How Apprenticeships Can Help Colleges Access Workforce Pell",
-      "url": "https://www.insidehighered.com/news/government/student-aid-policy/2026/09/22/how-apprenticeships-can-help-colleges-access",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-22T07:00:00+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
-      "score": 85,
-      "summary": "New Department of Labor guidance allows Workforce Pell grants to cover instruction for registered apprenticeship programs, incentivizing colleges to expand their workforce training offerings.",
-      "angle": "Policy shifts expanding federal funding for apprenticeship-linked higher education impact demand for curriculum and learning technology solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1e42c34f12f9ccbf",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Career Readiness Cannot Wait Until Graduation, and It Doesn’t Have To",
-      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/09/22/career-readiness-cannot-wait-until-graduation",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-22T07:00:00+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly integrating industry partnerships and project-based learning into undergraduate curricula to better prepare students for a rapidly evolving, AI-driven labour market.",
-      "angle": "Shift from content-based learning to applied, industry-integrated models necessitates new digital tools and pedagogical frameworks for publishers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3e4f78d51185449a",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "The Key Podcast: Higher Ed’s Accreditation Overhaul Is Only Getting Started",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/17/podcast-accreditation-overhaul-only-getting-started",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-17T07:00:00+00:00",
-      "first_seen": "2026-09-17T14:08:07.886212+00:00",
-      "score": 85,
-      "summary": "The U.S. Department of Education is implementing a sweeping rewrite of accreditation regulations, focusing on student credit transfers and institutional accountability for student outcomes.",
-      "angle": "Regulatory shifts in accreditation directly impact higher education business models, compliance requirements, and institutional demand for learning technology.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -998,14 +1028,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 111,
-    "llm_requests_attempted": 25,
-    "llm_requests_succeeded": 4,
+    "providers_succeeded": 84,
+    "queued_candidates": 99,
+    "llm_requests_attempted": 57,
+    "llm_requests_succeeded": 57,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 11,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "dropped_thin_page": 14,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
 }
