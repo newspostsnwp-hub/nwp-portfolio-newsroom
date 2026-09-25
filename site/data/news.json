@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T14:08:16.730016+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-09-25T06:49:08.127111+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update on Clearway Group regarding the Canada Responsible Data Centre Development Principles, alongside two additional sector items.",
   "archive_story_count": 16,
-  "last_digest_sent_at": "2026-09-24T06:48:53.160624+00:00",
+  "last_digest_sent_at": "2026-09-25T06:49:08.127111+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -29,7 +29,7 @@
       "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
-      "story_count": 1,
+      "story_count": 2,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 7,
+  "story_count": 8,
   "todays_story_count": 1,
   "stories": [
     {
@@ -405,6 +405,38 @@
       "discovered_via": "Official RSS"
     },
     {
+      "id": "32bca1eb9bf0e772",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "industry": "UK property and site security",
+      "title": "Government of Canada welcomes 19 additional signatories to Canada Responsible Data Centre Development Principles",
+      "url": "http://www.torontotelegraph.com/news/279324048/government-of-canada-welcomes-19-additional-signatories-to-canada-responsible-data-centre-development-principles",
+      "source": "torontotelegraph.com",
+      "published_at": "2026-09-23T06:45:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Clearway Group has been named as one of 19 new signatories to the Canada Responsible Data Centre Development Principles, a national framework established to guide the sustainable development of digital infrastructure.",
+      "why_it_matters": "This commitment highlights Clearway Group's alignment with international standards for responsible infrastructure development and environmental stewardship, reinforcing its reputation as a partner capable of operating within complex, regulated environments.",
+      "verified_facts": [
+        "Clearway Group is one of 19 new signatories to Canada's Responsible Data Centre Development Principles.",
+        "The principles were launched on September 3, 2026, and include commitments to local benefits, electricity ratepayer protection, and environmental impact mitigation."
+      ],
+      "warnings": [
+        "The source material is a general news aggregator report; while the fact of the signature is clear, the specific nature of Clearway's operational involvement in Canada is not detailed."
+      ],
+      "drafts": {
+        "concise": "We are pleased to share that Clearway Group has become a signatory to Canada's Responsible Data Centre Development Principles. This national framework sets clear expectations for the sustainable development of digital infrastructure, focusing on environmental impact, local community benefits, and strategic value. By joining this initiative alongside other industry leaders, Clearway Group continues to demonstrate its commitment to responsible site security and infrastructure management. This alignment reflects the firm's dedication to maintaining high standards of transparency and operational excellence as it supports the evolving needs of the technology sector. #ClearwayGroup #DigitalInfrastructure #Sustainability",
+        "investor": "Clearway Group’s recent commitment to Canada's Responsible Data Centre Development Principles marks a strategic step in its ongoing operational development. By adopting this national framework, the company is formalising its approach to sustainable infrastructure, ensuring that its site security and management services align with rigorous standards for environmental impact and local community engagement. This proactive stance is essential for long-term value creation within the data centre and technology ecosystem, positioning Clearway Group as a responsible partner for large-scale digital infrastructure projects. We look forward to seeing the company continue to integrate these principles into its service delivery. #NextWavePartners #ClearwayGroup #InfrastructureInvestment",
+        "people": "Congratulations to the team at Clearway Group on becoming a signatory to Canada's Responsible Data Centre Development Principles. This commitment underscores the team's dedication to responsible growth and operational integrity within the critical digital infrastructure sector. By adhering to these national standards—which prioritise environmental stewardship and local community benefits—the Clearway team continues to lead by example in the property and site security industry. It is excellent to see the company’s expertise being recognised as part of this important national framework for the future of Canadian technology. #ClearwayGroup #TeamSuccess #ResponsibleDevelopment"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "310fa19a2a63a72b",
       "company": "Roof-Maker",
       "company_domain": "roof-maker.co.uk",
@@ -476,6 +508,20 @@
   ],
   "sector_stories": [
     {
+      "id": "bcf461f2ab54adff",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail “making significant investments” to help ensure every parcel arrives in time for Christmas",
+      "url": "https://postandparcel.info/162897/news/e-commerce/royal-mail-making-significant-investments-to-help-ensure-every-parcel-arrives-in-time-for-christmas/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-24T14:01:48+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 75,
+      "summary": "Royal Mail is recruiting nearly 22,000 temporary workers to manage increased parcel and mail volumes during the upcoming festive period.",
+      "angle": "Indicates seasonal capacity planning and labour market competition within the UK parcel delivery sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "34ef4a03a41e2d5c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -504,31 +550,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "110db7b3be491d73",
+      "id": "af26354689a95d6c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "YEEP! to drive service delivery as UK locker network scales",
-      "url": "https://postandparcel.info/162866/news/e-commerce/yeep-appoints-ella-layton-to-drive-service-delivery-as-uk-locker-network-scales/",
+      "title": "Parcel Perform Rebrands as Perform.AI",
+      "url": "https://postandparcel.info/162901/news/e-commerce/parcel-perform-rebrands-as-perform-ai/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-22T11:07:24+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
+      "published_at": "2026-09-24T04:04:08+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
       "score": 65,
-      "summary": "Open parcel locker operator YEEP! has appointed Ella Layton as Director of Service Delivery to support the expansion of its UK out-of-home network.",
-      "angle": "Highlights the ongoing growth and competitive expansion of out-of-home delivery infrastructure within the UK logistics market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d0260f8fac700566",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "IPC: The need for action has never been greater",
-      "url": "https://postandparcel.info/162820/news/e-commerce/ipc-the-need-for-action-has-never-been-greater/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-17T17:16:49+00:00",
-      "first_seen": "2026-09-20T06:48:50.773200+00:00",
-      "score": 65,
-      "summary": "Global postal operators have reduced annual emissions by over 41% since 2008, approaching their 2030 target of a 50% reduction.",
-      "angle": "Highlights industry-wide decarbonisation progress and increasing pressure on UK delivery firms to meet sustainability targets.",
+      "summary": "Parcel Perform has rebranded as Perform.AI, transitioning from e-commerce management software to an AI-driven operating system designed for end-to-end execution.",
+      "angle": "Highlights the industry shift towards integrating AI-led automation into e-commerce logistics and delivery management workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -560,31 +592,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1375745aab988863",
+      "id": "18edb57de8546515",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Reducing false alarms with smart 3D LiDAR",
-      "url": "https://securityjournaluk.com/reducing-false-alarms-with-smart-3d-lidar/",
+      "title": "Why unified security is becoming the new standard",
+      "url": "https://securityjournaluk.com/unified-security-becoming-the-new-standard/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-24T06:30:00+00:00",
-      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "published_at": "2026-09-25T06:45:00+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
       "score": 75,
-      "summary": "Smart 3D LiDAR technology is increasingly used in perimeter security to reduce false alarms by providing precise spatial data and object classification in complex environmental conditions.",
-      "angle": "Advancements in LiDAR offer a technical solution to improve detection reliability and operational efficiency in vacant property security.",
+      "summary": "The security industry is shifting from siloed physical systems toward unified platforms that integrate perimeter detection, video surveillance, and access control for improved operational intelligence.",
+      "angle": "Highlights the growing market demand for integrated security ecosystems over standalone site protection technologies.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2e3a72a7a505434d",
+      "id": "1e3335f166369191",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "AddSecure launches plug-and-play router solution",
-      "url": "https://securityjournaluk.com/addsecure-plug-and-play-router-solution/",
+      "title": "Nice expands European security capabilities with HySecurity division",
+      "url": "https://securityjournaluk.com/nice-expands-with-hysecurity-division/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-23T06:45:00+00:00",
-      "first_seen": "2026-09-23T06:48:43.210499+00:00",
+      "published_at": "2026-09-24T07:30:00+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
       "score": 75,
-      "summary": "AddSecure has launched a plug-and-play router solution designed to simplify security system deployments by providing pre-configured hardware and managed mobile connectivity.",
-      "angle": "Highlights industry trends toward simplified, secure-by-design connectivity for remote site monitoring and CCTV deployments.",
+      "summary": "Nice is launching its HySecurity division in Europe, offering crash-rated gates, barriers, and hostile vehicle mitigation solutions for critical infrastructure and high-security sites.",
+      "angle": "Highlights increasing demand for physical infrastructure resilience and integrated security technology in the UK and European markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -700,6 +732,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "090bd517ce715c65",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Biffa urges manufacturers to review recyclability ahead of pEPR deadline",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/biffa-urges-manufacturers-to-review-recyclability-ahead-of-pepr-deadline-24-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-24T06:15:02+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 90,
+      "summary": "Biffa is urging manufacturers to review packaging recyclability ahead of the 1 October pEPR reporting deadline to avoid high modulated fees based on the Recyclability Assessment Methodology.",
+      "angle": "Regulatory pressure on packaging recyclability directly impacts cost structures and design requirements for PET and beverage packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "dfb48227a8ec3a1a",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -714,31 +760,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "64d1f79b6c174144",
+      "id": "9148e842858161a0",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "London Packaging Week | Strong turnout as ‘Discovery’ theme takes centre stage",
-      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-strong-turnout-as-discovery-theme-takes-centre-stage-17-09-2026",
+      "title": "Household recycling rates stalled in 2024, Defra figures show",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/household-recycling-rates-stalled-in-2024-defra-figures-show-24-09-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-17T09:32:19+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
+      "published_at": "2026-09-24T06:58:58+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
       "score": 85,
-      "summary": "London Packaging Week 2026 highlighted critical industry developments including the upcoming UK deposit return scheme and new recyclability assessment methodologies for packaging materials.",
-      "angle": "Regulatory shifts regarding DRS and EPR directly impact operational compliance and material design standards for PET packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e815874e59eeee6f",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "London Packaging Week | 2026 show closes with insight-packed final day",
-      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/london-packaging-week-2026-show-closes-with-insight-packed-final-day-18-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-18T11:17:25+00:00",
-      "first_seen": "2026-09-22T06:48:54.210071+00:00",
-      "score": 75,
-      "summary": "London Packaging Week 2026 highlighted industry trends including EPR implementation, the integration of QR codes for retail, and a focus on sustainable, purpose-driven packaging innovation.",
-      "angle": "Provides critical regulatory updates on EPR and insights into evolving consumer-facing packaging technology and sustainability requirements.",
+      "summary": "UK household recycling rates stalled at 44.5% in 2024, while packaging waste recycling rates fell to 70.5% from 73.2% the previous year.",
+      "angle": "Stagnant recycling rates and regulatory delays for plastic collection impact long-term demand for circular packaging solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -812,6 +844,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "cbbeca8e35cfabbd",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Unitas launches DRS support tool and implores retailers to act now",
+      "url": "https://www.talkingretail.com/news/industry-news/unitas-launches-drs-support-tool-and-urges-retailers-to-act-now-23-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-23T13:45:59+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 90,
+      "summary": "Unitas Wholesale has launched a DRS calculator to help independent retailers prepare for the operational and financial impacts of the Deposit Return Scheme launching in October 2027.",
+      "angle": "Provides critical operational guidance for independent retailers managing upcoming regulatory changes regarding container returns and deposit handling.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7029916d239582df",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -840,17 +886,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "dd38e3c9b7be42fd",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retail Trust ramps up support for retail workers in the run up to Christmas",
-      "url": "https://www.talkingretail.com/featured/retail-trust-ramps-up-support-for-retail-workers-in-the-run-up-to-christmas-21-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-21T11:57:51+00:00",
-      "first_seen": "2026-09-21T14:08:04.202311+00:00",
-      "score": 75,
-      "summary": "The Retail Trust has launched new safety resources and a campaign to help retail staff manage increasing customer abuse and mental health challenges ahead of the Christmas period.",
-      "angle": "Highlights rising operational risks regarding staff safety and wellbeing in UK retail environments during peak trading seasons.",
+      "id": "be87219b83ba85df",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Silicon Valley AI Academy Seeks ‘Main Character’ Students",
+      "url": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/24/silicon-valley-ai-academy-seeks-main-character",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-24T07:00:00+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 85,
+      "summary": "Venture capital firm Andreessen Horowitz has launched an unaccredited, for-profit academy for students aged 16 to 22, focusing on AI-driven skills rather than traditional academic curricula.",
+      "angle": "Represents a disruptive, industry-led challenge to the traditional higher education model and established academic publishing markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "31e44a640abc9e1c",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "When Nontraditional Students Become the Norm",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/24/when-nontraditional-students-become-norm",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-24T07:00:00+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are increasingly shifting their focus toward 'modern learners' who balance work, family, and financial instability, necessitating more flexible, nonlinear, and accessible academic models.",
+      "angle": "Highlights the urgent need for adaptive, flexible learning solutions and digital tools to support non-traditional student demographics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -882,34 +942,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "92576e70e5ea0dac",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "From AI Use to Funding Cuts: How Provosts Are Navigating 2026",
-      "url": "https://www.insidehighered.com/news/governance/executive-leadership/2026/09/23/ai-use-funding-cuts-how-provosts-navigate-2026",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-23T07:00:00+00:00",
-      "first_seen": "2026-09-24T06:48:53.160624+00:00",
-      "score": 85,
-      "summary": "A 2026 survey of 376 provosts reveals that while most use AI for personal productivity, only one in ten institutions has a centralized AI strategy.",
-      "angle": "Highlights institutional AI adoption barriers and shifting higher education funding priorities relevant to edtech product strategy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "feef623c4e826022",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Higher Ed Groups Push Back on Trump’s New Accreditation Rule",
-      "url": "https://www.insidehighered.com/news/government/student-aid-policy/2026/09/22/higher-ed-groups-push-back-accreditation-overhaul",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-22T07:00:00+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
-      "score": 85,
-      "summary": "Higher education groups are opposing a proposed federal rule that would expand government oversight of accreditation agencies and mandate new standards for institutional compliance and student outcomes.",
-      "angle": "Regulatory changes to accreditation impact institutional operations, student aid eligibility, and the demand for learning technology solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "578d6145da6dba1c",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -938,31 +970,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d86b87bd1c41fada",
+      "id": "5ab0dbb5c0b97f3d",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Egg freezing becoming more commonplace in women's sports",
-      "url": "https://www.progress.org.uk/egg-freezing-becoming-more-commonplace-in-womens-sports/",
+      "title": "Event Review: From Concealment to Recognition – Ethics and lived experiences of insemination fraud",
+      "url": "https://www.progress.org.uk/event-review-from-concealment-to-recognition-ethics-and-lived-experiences-of-insemination-fraud/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-14T15:44:37+00:00",
-      "first_seen": "2026-09-15T06:48:25.725513+00:00",
-      "score": 85,
-      "summary": "Professional sports organisations, including Chelsea FC and the Royal Spanish Football Federation, are increasingly funding egg freezing and fertility treatments for female athletes.",
-      "angle": "Highlights growing corporate and institutional demand for fertility services as an employee benefit and workplace support mechanism.",
+      "published_at": "2026-09-21T15:38:12+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 75,
+      "summary": "Academic research highlights the profound ethical, legal, and psychological consequences of insemination fraud, exacerbated by the increasing prevalence of commercial DNA testing and inadequate historical record-keeping.",
+      "angle": "Highlights rising regulatory and reputational risks regarding patient consent, data integrity, and long-term clinical record-keeping standards.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f91f50b60b7ab1a9",
+      "id": "c2a6c395c02a0a41",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Withdrawal of donor consent after the creation of embryos requires HFEA intervention",
-      "url": "https://www.progress.org.uk/withdrawal-of-donor-consent-after-the-creation-of-embryos-requires-hfea-intervention/",
+      "title": "Inside the Facebook group where donor-conceived people find each other",
+      "url": "https://www.progress.org.uk/inside-the-facebook-group-where-donor-conceived-people-find-each-other/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-14T15:42:40+00:00",
-      "first_seen": "2026-09-15T06:48:25.725513+00:00",
+      "published_at": "2026-09-21T15:37:46+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 75,
+      "summary": "Research into Australian donor-conceived adults reveals that online peer networks are increasingly providing the support, advocacy, and practical guidance that clinics and government registries currently fail to offer.",
+      "angle": "Highlights a growing gap in patient support services and the rising influence of donor-conceived advocacy on regulatory reform.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2503079e3bb39f33",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Building Safety Levy adds further pressure to housing delivery",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-safety-levy-adds-further-pressure-to-housing-delivery-24-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-24T11:18:55+00:00",
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
       "score": 85,
-      "summary": "Medical directors are calling for UK law reform to prevent gamete donors from withdrawing consent for embryo use after the creation of embryos has already occurred.",
-      "angle": "Highlights critical regulatory risks regarding donor consent, embryo storage, and patient rights in fertility treatment frameworks.",
+      "summary": "The Building Safety Levy, effective 1 October 2026, introduces new financial obligations for residential developers, potentially impacting project viability and the overall pipeline of new housing developments.",
+      "angle": "Regulatory cost pressures on residential developers may dampen new housing starts and project procurement across the construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1006,20 +1052,6 @@
       "summary": "Data from Glenigan indicates that the value of UK construction project starts fell by 49 per cent between June and August compared to the previous three months.",
       "angle": "Provides critical insight into short-term demand fluctuations and pipeline activity within the UK construction and glazing market.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "326bc9b0e7f3e596",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Sub-inflation bid prices expected as orders shrink",
-      "url": "https://www.constructionnews.co.uk/sections/data/sub-inflation-bid-prices-expected-as-orders-shrink-17-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-17T11:45:05+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
-      "score": 85,
-      "summary": "A report by Arcadis warns that shrinking construction work volumes are intensifying competition, leading many contractors to bid at sub-inflation prices.",
-      "angle": "Signals increased margin pressure and competitive pricing dynamics within the broader UK construction supply chain.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1028,14 +1060,14 @@
     "companies_with_stories": 4,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 22,
-    "llm_requests_succeeded": 2,
+    "providers_succeeded": 92,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 10,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 15,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 7
   }
 }
