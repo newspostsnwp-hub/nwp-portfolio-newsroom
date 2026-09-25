@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T06:49:08.127111+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on Clearway Group regarding the Canada Responsible Data Centre Development Principles, alongside two additional sector items.",
+  "generated_at": "2026-09-25T14:16:52.086687+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update regarding Clearway Group and two additional sector items for your review.",
   "archive_story_count": 16,
   "last_digest_sent_at": "2026-09-25T06:49:08.127111+00:00",
   "companies": [
@@ -718,20 +718,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0e3a36d795f06b80",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "London Packaging Week | Packaging leaders to discuss DRS readiness",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/london-packaging-week-packaging-leaders-to-discuss-drs-readiness-15-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-15T11:14:39+00:00",
-      "first_seen": "2026-09-15T14:07:29.789418+00:00",
-      "score": 95,
-      "summary": "Industry leaders are convening at London Packaging Week to discuss operational readiness for the UK's Deposit Return Scheme, which is scheduled to launch in October 2027.",
-      "angle": "Regulatory shifts regarding packaging specifications and barcodes directly impact PET manufacturers' production and compliance requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "090bd517ce715c65",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -771,6 +757,20 @@
       "score": 85,
       "summary": "UK household recycling rates stalled at 44.5% in 2024, while packaging waste recycling rates fell to 70.5% from 73.2% the previous year.",
       "angle": "Stagnant recycling rates and regulatory delays for plastic collection impact long-term demand for circular packaging solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "56ee8d0a9ef2eab4",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "FPA seeks clarity on threshold and evidence requirements for PFAS",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/fpa-seeks-clarity-on-threshold-and-evidence-requirements-for-fpfas-25-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-25T06:02:16+00:00",
+      "first_seen": "2026-09-25T14:16:52.086687+00:00",
+      "score": 75,
+      "summary": "The Foodservice Packaging Association is seeking clarity on PFAS threshold requirements and evidence standards within the 2027 Recyclability Assessment Methodology for food-contact packaging.",
+      "angle": "Regulatory shifts regarding chemical content thresholds directly impact compliance and recyclability ratings for food-contact packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -830,20 +830,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "65987e8d8d187746",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Yoti and partners to help shops accept digital proof of age for alcohol sales",
-      "url": "https://www.talkingretail.com/news/industry-news/yoti-and-partners-to-help-shops-accept-digital-proof-of-age-for-alcohol-sales-15-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-15T10:10:14+00:00",
-      "first_seen": "2026-09-15T14:07:29.789418+00:00",
-      "score": 95,
-      "summary": "A change in UK law now allows licensed premises to accept digital IDs, such as Post Office EasyID, as valid proof of age for alcohol sales.",
-      "angle": "Directly impacts Post Office retail operations by enabling digital age verification for age-restricted products.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "cbbeca8e35cfabbd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -883,6 +869,20 @@
       "score": 85,
       "summary": "Tomra has launched a compact reverse vending machine designed for convenience retailers ahead of the UK's 2027 deposit return scheme implementation.",
       "angle": "Provides critical operational infrastructure and financial incentives for independent retailers preparing for mandatory deposit return scheme compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "afe0167bcf0de6fe",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Prolific Sussex shoplifter tagged to curb offending",
+      "url": "https://www.talkingretail.com/news/industry-news/prolific-sussex-shoplifter-tagged-to-curb-offending-25-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-25T08:48:30+00:00",
+      "first_seen": "2026-09-25T14:16:52.086687+00:00",
+      "score": 65,
+      "summary": "West Sussex authorities have introduced GPS ankle tags for prolific shoplifters as part of a pilot scheme to monitor movements and deter repeat retail crime.",
+      "angle": "Demonstrates new law enforcement technology and strategies available to protect retail premises from repeat offenders.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -998,6 +998,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2fdd1aa16ca3bf70",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Berkeley subsidiary and Lindner Prater fined £1.3m over death of passerby",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/berkeley-subsidiary-and-lindner-prater-fined-1-3m-over-death-of-passerby-25-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-25T11:45:21+00:00",
+      "first_seen": "2026-09-25T14:16:52.086687+00:00",
+      "score": 85,
+      "summary": "A Berkeley Group subsidiary and Lindner Prater were fined £1.3m after a 130kg window fell from a high-rise development, killing a pedestrian in 2018.",
+      "angle": "Highlights critical importance of rigorous design risk assessment and safety protocols for high-level glazing and window installations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6a29535194dd98e7",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Firm in construction bid-rigging inquiry fined after exec removed evidence",
+      "url": "https://www.constructionnews.co.uk/government/firm-in-construction-bid-rigging-inquiry-fined-after-exec-removed-evidence-24-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-24T16:03:18+00:00",
+      "first_seen": "2026-09-25T14:16:52.086687+00:00",
+      "score": 85,
+      "summary": "The Competition and Markets Authority has fined M&J Group and two employees for concealing evidence during an investigation into bid-rigging for roofing and construction contracts.",
+      "angle": "Highlights increased CMA enforcement risks and scrutiny regarding competitive bidding practices within the UK roofing and construction sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2503079e3bb39f33",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -1024,34 +1052,6 @@
       "summary": "The Building Safety Regulator faced criticism for a 31-week delay in approving fire-safety remediation works at a London high-rise, which suffered a fatal fire one day after approval.",
       "angle": "Highlights regulatory bottlenecks and heightened scrutiny on building safety compliance and fire-resistant materials in the UK construction sector.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f719fa86102f7c16",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction insolvencies fall 20% in August",
-      "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-18T11:45:58+00:00",
-      "first_seen": "2026-09-18T14:07:57.490367+00:00",
-      "score": 85,
-      "summary": "UK construction insolvencies fell 20 per cent in August to 294, though the sector remains the industry with the highest number of business collapses.",
-      "angle": "Highlights ongoing financial fragility and a two-speed market, particularly impacting residential construction and building completion sub-sectors.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c27d3a37fb2a3b97",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction starts plunge 49% but contract awards soar",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-starts-plunge-49-as-contract-awards-soar-17-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-17T11:45:25+00:00",
-      "first_seen": "2026-09-18T14:07:57.490367+00:00",
-      "score": 85,
-      "summary": "Data from Glenigan indicates that the value of UK construction project starts fell by 49 per cent between June and August compared to the previous three months.",
-      "angle": "Provides critical insight into short-term demand fluctuations and pipeline activity within the UK construction and glazing market.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1061,13 +1061,13 @@
     "companies_with_sector_news": 10,
     "sector_topups": 0,
     "providers_succeeded": 92,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 15,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 7,
-    "carried_forward": 7
+    "skipped_recently_evaluated": 1,
+    "carried_forward": 8
   }
 }
