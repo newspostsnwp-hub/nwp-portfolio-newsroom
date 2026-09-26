@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T06:48:29.984589+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on one sector update, with no specific news to report from Whitespace.",
-  "archive_story_count": 16,
+  "generated_at": "2026-09-26T14:07:32.527217+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "archive_story_count": 17,
   "last_digest_sent_at": "2026-09-26T06:48:29.984589+00:00",
   "companies": [
     {
@@ -200,7 +200,7 @@
       "description": "UK designer and manufacturer of rooflights.",
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 8,
+  "story_count": 7,
   "todays_story_count": 0,
   "stories": [
     {
@@ -437,41 +437,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "310fa19a2a63a72b",
-      "company": "Roof-Maker",
-      "company_domain": "roof-maker.co.uk",
-      "industry": "UK construction products and glazing",
-      "title": "Press Coverage – 2026",
-      "url": "https://roof-maker.co.uk/blog/press-coverage-2026/",
-      "source": "roof-maker.co.uk",
-      "published_at": "2026-08-27T10:08:55+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-08T06:48:29.754058+00:00",
-      "score": 65,
-      "tier": "reported",
-      "recency": "catchup",
-      "story_type": "Product",
-      "summary": "Roof-Maker has received significant trade press coverage in August 2026, highlighting recent product innovations including the Hinged Slimline Roof Lantern, the Luxlite® Plus, and the Sky-Blind integration.",
-      "why_it_matters": "The coverage demonstrates the company's continued market penetration and technical leadership in the UK glazing sector, specifically regarding ventilation solutions and energy-efficient product design.",
-      "verified_facts": [
-        "Roof-Maker's Hinged Opening Slimline Roof Lantern was featured in Architecture Magazine.",
-        "The Luxlite® Plus was showcased at the Homebuilding & Renovating Show at the NEC.",
-        "Managing Director Scott Nicholas provided commentary on the company's product development strategy.",
-        "Glazing Today and Glass Times also featured Roof-Maker's recent product developments."
-      ],
-      "warnings": [
-        "The source material is a retrospective blog post from the company's own website summarizing coverage from throughout 2026, rather than a single breaking news event.",
-        "The article was published on 27 August 2026, which is within the one-month window of today's date (08 September 2026)."
-      ],
-      "drafts": {
-        "concise": "Roof-Maker continues to gain industry recognition for its latest product innovations. Recent features in Architecture Magazine, Specification Online, Glazing Today, and Glass Times highlight the company's focus on design and functionality. Key developments include the launch of the Hinged Opening Slimline Roof Lantern, the Luxlite® Plus—which debuted at the Homebuilding & Renovating Show—and the integrated Sky-Blind system. These products address evolving market needs for improved ventilation and thermal performance in UK homes. Managing Director Scott Nicholas noted that these innovations aim to fill specific gaps in the market, such as providing hinged systems without bulky glazing bars. We are pleased to see the team’s commitment to engineering excellence being acknowledged by leading trade publications. #RoofMaker #UKManufacturing #GlazingInnovation",
-        "investor": "Roof-Maker’s recent product pipeline is gaining strong traction within the UK construction and glazing sectors. Trade press coverage throughout 2026 has spotlighted the company’s ability to scale its portfolio with high-value additions, including the Hinged Slimline Roof Lantern and the Luxlite® Plus. These products demonstrate a clear strategy of addressing consumer demand for energy efficiency and year-round comfort, moving beyond basic thermal performance. By successfully launching these solutions—and showcasing them at major industry events like the Homebuilding & Renovating Show—the team continues to strengthen its competitive position. Managing Director Scott Nicholas emphasizes that this growth is driven by identifying and filling specific market gaps, ensuring the company remains at the forefront of modern glazing design. #Construction #Investment #RoofMaker",
-        "people": "It is excellent to see the team at Roof-Maker receiving such positive recognition from industry experts and leading publications. Recent features in Architecture Magazine, Glazing Today, and Glass Times underscore the hard work behind the company’s latest product launches. From the development of the Hinged Opening Slimline Roof Lantern to the successful reception of the Luxlite® Plus at the Homebuilding & Renovating Show, the team’s focus on innovation is clear. Managing Director Scott Nicholas has been instrumental in articulating the vision behind these designs, ensuring they meet the practical needs of homeowners while maintaining a high standard of aesthetics. Congratulations to everyone involved in bringing these products to market and for the continued dedication to excellence in UK manufacturing. #TeamSuccess #Innovation #RoofMaker"
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS"
-    },
-    {
       "id": "1861f1507e74fd1e",
       "company": "The Delivery Group",
       "company_domain": "thedeliverygroup.co.uk",
@@ -536,20 +501,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "76f1a6f7d5ef05ba",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "SwipBox Launches Hardware-Agnostic Software Platform for Mixed Locker Networks",
-      "url": "https://postandparcel.info/162797/news/e-commerce/swipbox-launches-hardware-agnostic-software-platform-for-mixed-locker-networks/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-16T11:55:36+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 75,
-      "summary": "SwipBox has launched a hardware-agnostic software platform that allows carriers and network operators to manage mixed parcel locker networks through a single solution.",
-      "angle": "Highlights a shift towards interoperability in last-mile delivery infrastructure, potentially reducing barriers to expanding automated locker networks.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "af26354689a95d6c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -564,6 +515,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "110db7b3be491d73",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "YEEP! to drive service delivery as UK locker network scales",
+      "url": "https://postandparcel.info/162866/news/e-commerce/yeep-appoints-ella-layton-to-drive-service-delivery-as-uk-locker-network-scales/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-22T11:07:24+00:00",
+      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "score": 65,
+      "summary": "Open parcel locker operator YEEP! has appointed Ella Layton as Director of Service Delivery to support the expansion of its UK out-of-home network.",
+      "angle": "Highlights the ongoing growth and competitive expansion of out-of-home delivery infrastructure within the UK logistics market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "027d4cfc25e0e81b",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -575,20 +540,6 @@
       "score": 85,
       "summary": "The security industry is shifting towards a lifecycle management approach, prioritising ongoing system health, remote diagnostics, and firmware maintenance over simple initial installation.",
       "angle": "Highlights the growing importance of remote monitoring and managed service models in maintaining long-term physical site security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a516ca3b1434c9a6",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Drones to transform rail-incident response",
-      "url": "https://securityjournaluk.com/drones-to-transform-rail-incident-response/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-16T09:51:58+00:00",
-      "first_seen": "2026-09-17T14:08:07.886212+00:00",
-      "score": 85,
-      "summary": "The British Transport Police has launched a national Beyond Visual Line of Sight drone-in-a-box network to improve incident response times across the UK rail infrastructure.",
-      "angle": "Demonstrates the increasing adoption of automated, remote-operated drone surveillance for securing large-scale, critical infrastructure sites.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -617,6 +568,20 @@
       "score": 75,
       "summary": "Nice is launching its HySecurity division in Europe, offering crash-rated gates, barriers, and hostile vehicle mitigation solutions for critical infrastructure and high-security sites.",
       "angle": "Highlights increasing demand for physical infrastructure resilience and integrated security technology in the UK and European markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "733f11ebd04fff1f",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Cyber responsibilities go beyond job descriptions",
+      "url": "https://securityjournaluk.com/cyber-responsibilities-beyond-job-desc/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "score": 65,
+      "summary": "A survey of SME employees reveals that 43% of businesses experienced a cyberattack in 2025, with many staff lacking formal training or clearly defined cybersecurity responsibilities.",
+      "angle": "Highlights operational risks and training requirements for security service providers managing digital infrastructure and client site security.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -662,6 +627,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ec8330274fc2513c",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Beeble’s SwitchX 2.0: Native 4K, Longer Clips, Enhanced Motion",
+      "url": "https://postperspective.com/beebles-switchx-2-0-native-4k-longer-clips-enhanced-motion/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-23T19:58:09+00:00",
+      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "score": 85,
+      "summary": "Beeble has updated its SwitchX 2.0 video-to-video model, introducing native 4K output, 10-bit color depth, and improved camera tracking for VFX artists.",
+      "angle": "Advancements in AI-driven video-to-video tools are increasingly integrating into professional post-production workflows for VFX and finishing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "85521b2f5c90343f",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -701,20 +680,6 @@
       "score": 85,
       "summary": "Colorfront and Qumulo have collaborated to embed production metadata directly into files, enabling searchable, persistent data throughout the post-production workflow.",
       "angle": "Improves operational efficiency by reducing time spent searching for media assets across complex post-production pipelines.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4b32e15b62e39df3",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Jim Cameron’s Lightstorm Vision Buys Outsyders for 3D AI Pipeline",
-      "url": "https://postperspective.com/jim-camerons-lightstorm-vision-buys-outsyders-for-3d-ai-pipeline/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-16T16:21:07+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "James Cameron’s Lightstorm Vision has acquired Outsyders, a creative-tech collective specialising in AI-driven 3D stereoscopic post-production and conversion technology.",
-      "angle": "Demonstrates how AI-integrated pipelines are significantly reducing the time and cost of high-volume 3D content production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -858,20 +823,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ec9f8ddaea9d089e",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Tomra unveils space-saving reverse vending machine for convenience retailers",
-      "url": "https://www.talkingretail.com/featured/tomra-unveils-space-saving-reverse-vending-machine-for-convenience-retailers-16-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-16T12:41:54+00:00",
-      "first_seen": "2026-09-16T14:08:13.877082+00:00",
-      "score": 85,
-      "summary": "Tomra has launched a compact reverse vending machine designed for convenience retailers ahead of the UK's 2027 deposit return scheme implementation.",
-      "angle": "Provides critical operational infrastructure and financial incentives for independent retailers preparing for mandatory deposit return scheme compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "afe0167bcf0de6fe",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -883,6 +834,34 @@
       "score": 65,
       "summary": "West Sussex authorities have introduced GPS ankle tags for prolific shoplifters as part of a pilot scheme to monitor movements and deter repeat retail crime.",
       "angle": "Demonstrates new law enforcement technology and strategies available to protect retail premises from repeat offenders.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "242e3665fa4ed2c8",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Co-op shuts down standalone on-the-go test stores",
+      "url": "https://www.talkingretail.com/news/industry-news/co-op-shuts-down-standalone-on-the-go-test-stores-24-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-24T15:02:54+00:00",
+      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "score": 65,
+      "summary": "Co-op has closed five standalone food-to-go micro-stores, concluding that the concept is more sustainable when integrated into existing convenience stores alongside a broader grocery range.",
+      "angle": "Highlights the operational challenges of standalone small-format retail versus integrating food-to-go into established high-footfall convenience locations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "80c785c85bf2fa5c",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Colleges Are Losing Young Men. What Brings Them Back?",
+      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/09/25/colleges-are-losing-young-men-what-brings-them-back",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-25T07:00:00+00:00",
+      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are facing declining male enrollment and are exploring new strategies to improve retention, including mentorship programs and alternative career pathways like apprenticeships.",
+      "angle": "Highlights shifting demand for higher education and the need for institutions to prove value and support diverse student demographics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -925,20 +904,6 @@
       "score": 85,
       "summary": "A Cornell faculty committee report outlines strategic shifts for higher education, including adopting subscription models for lifelong learning and adapting to generative artificial intelligence.",
       "angle": "Signals institutional shifts toward lifelong learning models and AI integration, impacting long-term demand for educational content and platforms.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "89246a787f7f0872",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Out Now: 2026 Survey of College and University Chief Academic Officers",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/09/23/provosts-survey-2026-responsiveness-amid-constraint",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-23T07:00:00+00:00",
-      "first_seen": "2026-09-24T06:48:53.160624+00:00",
-      "score": 85,
-      "summary": "A 2026 survey of chief academic officers reveals that provosts face significant resource constraints, skepticism regarding AI's educational impact, and challenges in scaling work-integrated learning and nondegree credential infrastructure.",
-      "angle": "Provides critical insights into institutional budget pressures, technology adoption barriers, and shifting academic priorities in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1057,17 +1022,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 4,
+    "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 118,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 72,
-    "dropped_no_valid_date": 28,
+    "providers_succeeded": 86,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 80,
+    "llm_requests_succeeded": 80,
+    "dropped_no_valid_date": 29,
     "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
-    "carried_forward": 8
+    "skipped_recently_evaluated": 1,
+    "carried_forward": 7
   }
 }

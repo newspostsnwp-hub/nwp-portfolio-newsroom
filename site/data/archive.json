@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T06:48:29.984589+00:00",
+  "generated_at": "2026-09-26T14:07:32.527217+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -513,6 +513,41 @@
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "310fa19a2a63a72b",
+      "company": "Roof-Maker",
+      "company_domain": "roof-maker.co.uk",
+      "industry": "UK construction products and glazing",
+      "title": "Press Coverage – 2026",
+      "url": "https://roof-maker.co.uk/blog/press-coverage-2026/",
+      "source": "roof-maker.co.uk",
+      "published_at": "2026-08-27T10:08:55+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-08T06:48:29.754058+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "catchup",
+      "story_type": "Product",
+      "summary": "Roof-Maker has received significant trade press coverage in August 2026, highlighting recent product innovations including the Hinged Slimline Roof Lantern, the Luxlite® Plus, and the Sky-Blind integration.",
+      "why_it_matters": "The coverage demonstrates the company's continued market penetration and technical leadership in the UK glazing sector, specifically regarding ventilation solutions and energy-efficient product design.",
+      "verified_facts": [
+        "Roof-Maker's Hinged Opening Slimline Roof Lantern was featured in Architecture Magazine.",
+        "The Luxlite® Plus was showcased at the Homebuilding & Renovating Show at the NEC.",
+        "Managing Director Scott Nicholas provided commentary on the company's product development strategy.",
+        "Glazing Today and Glass Times also featured Roof-Maker's recent product developments."
+      ],
+      "warnings": [
+        "The source material is a retrospective blog post from the company's own website summarizing coverage from throughout 2026, rather than a single breaking news event.",
+        "The article was published on 27 August 2026, which is within the one-month window of today's date (08 September 2026)."
+      ],
+      "drafts": {
+        "concise": "Roof-Maker continues to gain industry recognition for its latest product innovations. Recent features in Architecture Magazine, Specification Online, Glazing Today, and Glass Times highlight the company's focus on design and functionality. Key developments include the launch of the Hinged Opening Slimline Roof Lantern, the Luxlite® Plus—which debuted at the Homebuilding & Renovating Show—and the integrated Sky-Blind system. These products address evolving market needs for improved ventilation and thermal performance in UK homes. Managing Director Scott Nicholas noted that these innovations aim to fill specific gaps in the market, such as providing hinged systems without bulky glazing bars. We are pleased to see the team’s commitment to engineering excellence being acknowledged by leading trade publications. #RoofMaker #UKManufacturing #GlazingInnovation",
+        "investor": "Roof-Maker’s recent product pipeline is gaining strong traction within the UK construction and glazing sectors. Trade press coverage throughout 2026 has spotlighted the company’s ability to scale its portfolio with high-value additions, including the Hinged Slimline Roof Lantern and the Luxlite® Plus. These products demonstrate a clear strategy of addressing consumer demand for energy efficiency and year-round comfort, moving beyond basic thermal performance. By successfully launching these solutions—and showcasing them at major industry events like the Homebuilding & Renovating Show—the team continues to strengthen its competitive position. Managing Director Scott Nicholas emphasizes that this growth is driven by identifying and filling specific market gaps, ensuring the company remains at the forefront of modern glazing design. #Construction #Investment #RoofMaker",
+        "people": "It is excellent to see the team at Roof-Maker receiving such positive recognition from industry experts and leading publications. Recent features in Architecture Magazine, Glazing Today, and Glass Times underscore the hard work behind the company’s latest product launches. From the development of the Hinged Opening Slimline Roof Lantern to the successful reception of the Luxlite® Plus at the Homebuilding & Renovating Show, the team’s focus on innovation is clear. Managing Director Scott Nicholas has been instrumental in articulating the vision behind these designs, ensuring they meet the practical needs of homeowners while maintaining a high standard of aesthetics. Congratulations to everyone involved in bringing these products to market and for the continued dedication to excellence in UK manufacturing. #TeamSuccess #Innovation #RoofMaker"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
     }
   ]
 }
