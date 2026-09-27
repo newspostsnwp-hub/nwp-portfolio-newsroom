@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T06:48:30.937358+00:00",
-  "digest_intro": "Good morning. We have one sector update to share with you today, though there are no specific developments from the Clearway Group portfolio to report.",
+  "generated_at": "2026-09-27T14:07:27.600706+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-wide updates, with no specific news to report from Clearway Group, Molinare, The Delivery Group, UOE, or Whitespace.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-09-27T06:48:30.937358+00:00",
   "companies": [
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -473,6 +473,34 @@
   ],
   "sector_stories": [
     {
+      "id": "5913885a7bba8b69",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail to hire 22 , 000 temporary workers to keep up with Christmas demand",
+      "url": "https://www.chroniclelive.co.uk/news/uk-news/royal-mail-hire-22000-temporary-34665433",
+      "source": "chroniclelive.co.uk",
+      "published_at": "2026-09-24T14:30:00+00:00",
+      "first_seen": "2026-09-27T14:07:27.600706+00:00",
+      "score": 85,
+      "summary": "Royal Mail is recruiting 22,000 temporary workers and adding 7,500 hire vans to manage increased parcel and mail volumes during the Christmas peak period.",
+      "angle": "Indicates seasonal capacity planning and labour market competition within the UK parcel and mail delivery sector.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "c36050e2020ea4f2",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail to hire hundreds of temporary staff in Northern Ireland to help deliver Christmas post",
+      "url": "https://www.belfastlive.co.uk/news/belfast-news/royal-mail-hire-hundreds-temporary-34664654",
+      "source": "belfastlive.co.uk",
+      "published_at": "2026-09-24T14:30:00+00:00",
+      "first_seen": "2026-09-27T14:07:27.600706+00:00",
+      "score": 75,
+      "summary": "Royal Mail is recruiting 22,000 temporary workers and adding 7,500 hire vans to its fleet to manage increased parcel and mail volumes during the Christmas period.",
+      "angle": "Indicates seasonal capacity planning and labour market competition within the UK logistics and parcel delivery sector.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "bcf461f2ab54adff",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -498,34 +526,6 @@
       "score": 75,
       "summary": "InPost’s takeover by IS Iris Lux Bidco has moved closer to completion after 89.81% of shareholders tendered their shares, surpassing the 80% minimum acceptance threshold.",
       "angle": "Consolidation and ownership changes among major parcel locker operators impact competitive dynamics within the UK delivery market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "af26354689a95d6c",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Parcel Perform Rebrands as Perform.AI",
-      "url": "https://postandparcel.info/162901/news/e-commerce/parcel-perform-rebrands-as-perform-ai/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-24T04:04:08+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 65,
-      "summary": "Parcel Perform has rebranded as Perform.AI, transitioning from e-commerce management software to an AI-driven operating system designed for end-to-end execution.",
-      "angle": "Highlights the industry shift towards integrating AI-led automation into e-commerce logistics and delivery management workflows.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "110db7b3be491d73",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "YEEP! to drive service delivery as UK locker network scales",
-      "url": "https://postandparcel.info/162866/news/e-commerce/yeep-appoints-ella-layton-to-drive-service-delivery-as-uk-locker-network-scales/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-22T11:07:24+00:00",
-      "first_seen": "2026-09-26T14:07:32.527217+00:00",
-      "score": 65,
-      "summary": "Open parcel locker operator YEEP! has appointed Ella Layton as Director of Service Delivery to support the expansion of its UK out-of-home network.",
-      "angle": "Highlights the ongoing growth and competitive expansion of out-of-home delivery infrastructure within the UK logistics market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -669,6 +669,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d417ef3b1fac691f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Danny Duke Heading Up VFX Features and Episodic at Harbor London",
+      "url": "https://postperspective.com/danny-duke-heading-up-vfx-features-and-episodic-at-harbor-london/",
+      "source": "postperspective.com",
+      "published_at": "2026-09-24T16:44:58+00:00",
+      "first_seen": "2026-09-27T14:07:27.600706+00:00",
+      "score": 75,
+      "summary": "Harbor London has appointed Danny Duke as head of VFX features and episodic to lead its growing team of over 40 artists.",
+      "angle": "Highlights competitive talent acquisition and the trend of integrating VFX with broader post-production services in the London market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "090bd517ce715c65",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -739,20 +753,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "37ec9fa62b42776d",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI Competition Moves Beyond Companies to Nation-States: 'Sovereign AI' Spending by 67 Countries Surges 26-Fold in 3 Years - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9STnplTFRlNERTYWtyN2ZsVHJ2eEJ2WnIxV1paTkNoX09TbnNCRHVlU3MtdDdyS0U0eGJBVVpXNURPOG5sRmlsUkJEWnNXYjRDWnVOSDg1YXpLTE1FTWo1OWl5NFlOdzZOYWF3TEZ2YVN0VnNWWnc?oc=5",
-      "source": "finance.biggo.com",
-      "published_at": "2026-09-17T09:26:00+00:00",
-      "first_seen": "2026-09-17T14:08:07.886212+00:00",
-      "score": 95,
-      "summary": "Global sovereign AI spending across 67 countries has increased 26-fold over the past three years as nation-states prioritise domestic AI capabilities.",
-      "angle": "Validates the rapid expansion of the sovereign AI market and highlights significant growth in government-level demand.",
-      "discovered_via": "Google News RSS"
-    },
-    {
       "id": "8def4a537149f9e4",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -781,6 +781,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "cab0d25d61c0c6f4",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Liberal Democrat conference 2026: what stood out for small tech businesses",
+      "url": "https://www.uktech.news/opinion/liberal-democrat-conference-2026-what-stood-out-for-small-tech-businesses-20260925",
+      "source": "uktech.news",
+      "published_at": "2026-09-25T10:55:39+00:00",
+      "first_seen": "2026-09-27T14:07:27.600706+00:00",
+      "score": 75,
+      "summary": "The Liberal Democrat conference proposed policies to improve SME access to public procurement, address AI skills gaps, and implement a levy on large AI companies for safety initiatives.",
+      "angle": "Highlights potential shifts in UK public procurement policy and regulatory frameworks for AI and digital service providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "cbbeca8e35cfabbd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -792,20 +806,6 @@
       "score": 90,
       "summary": "Unitas Wholesale has launched a DRS calculator to help independent retailers prepare for the operational and financial impacts of the Deposit Return Scheme launching in October 2027.",
       "angle": "Provides critical operational guidance for independent retailers managing upcoming regulatory changes regarding container returns and deposit handling.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7029916d239582df",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Modern slavery rife in UK supermarkets and c-stores, report shows",
-      "url": "https://www.talkingretail.com/featured/modern-slavery-rife-in-uk-supermarkets-and-c-stores-report-shows-17-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-17T13:59:31+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
-      "score": 85,
-      "summary": "A report by charity Unseen reveals a sharp rise in modern slavery and labour abuse within UK supermarkets and convenience stores between 2024 and 2026.",
-      "angle": "Highlights increasing regulatory and reputational risks regarding supply chain and recruitment oversight in the retail sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -834,6 +834,20 @@
       "score": 65,
       "summary": "Co-op has closed five standalone food-to-go micro-stores, concluding that the concept is more sustainable when integrated into existing convenience stores alongside a broader grocery range.",
       "angle": "Highlights the operational challenges of standalone small-format retail versus integrating food-to-go into established high-footfall convenience locations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ad1faa5605a2aa5a",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Ready for the rush | In focus: Winter remedies",
+      "url": "https://www.talkingretail.com/advice/category-management/ready-for-the-rush-in-focus-winter-remedies-23-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-23T14:50:57+00:00",
+      "first_seen": "2026-09-27T14:07:27.600706+00:00",
+      "score": 65,
+      "summary": "Independent retailers are advised to stock core winter remedy ranges, prioritise trusted brands, and use secondary till-point merchandising to capture impulse sales as seasonal demand increases.",
+      "angle": "Provides actionable category management advice for independent retailers to optimise seasonal healthcare sales and impulse purchasing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1011,14 +1025,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 117,
-    "llm_requests_attempted": 69,
-    "llm_requests_succeeded": 69,
+    "providers_succeeded": 87,
+    "queued_candidates": 111,
+    "llm_requests_attempted": 63,
+    "llm_requests_succeeded": 63,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 18,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 7
   }
 }
