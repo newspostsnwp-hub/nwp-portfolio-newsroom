@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T14:07:32.527217+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-09-27T06:48:30.937358+00:00",
+  "digest_intro": "Good morning. We have one sector update to share with you today, though there are no specific developments from the Clearway Group portfolio to report.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-09-26T06:48:29.984589+00:00",
+  "last_digest_sent_at": "2026-09-27T06:48:30.937358+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -529,20 +529,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "027d4cfc25e0e81b",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Beyond installation: Why security needs a lifecycle approach",
-      "url": "https://securityjournaluk.com/beyond-install-securitys-lifecycle-approach/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-17T06:30:00+00:00",
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 85,
-      "summary": "The security industry is shifting towards a lifecycle management approach, prioritising ongoing system health, remote diagnostics, and firmware maintenance over simple initial installation.",
-      "angle": "Highlights the growing importance of remote monitoring and managed service models in maintaining long-term physical site security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "18edb57de8546515",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -582,6 +568,20 @@
       "score": 65,
       "summary": "A survey of SME employees reveals that 43% of businesses experienced a cyberattack in 2025, with many staff lacking formal training or clearly defined cybersecurity responsibilities.",
       "angle": "Highlights operational risks and training requirements for security service providers managing digital infrastructure and client site security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f492b080f32ecf97",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Hirsch set to showcase at International Security Expo 2026",
+      "url": "https://securityjournaluk.com/hirsch-showcase-solutions-ise-2026/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-24T13:20:59+00:00",
+      "first_seen": "2026-09-27T06:48:30.937358+00:00",
+      "score": 65,
+      "summary": "Hirsch will showcase its integrated perimeter, intrusion, and access control solutions alongside the GARDiS platform at the International Security Expo 2026 in London.",
+      "angle": "Highlights industry trends towards unified, NPSA-accredited security platforms and the integration of disparate site security technologies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -666,20 +666,6 @@
       "score": 85,
       "summary": "IBC 2026 showcased advancements in AI-driven post-production tools, including automated editing assistants, lip-sync localisation platforms, and Gaussian splatting for photorealistic 3D environment creation.",
       "angle": "Emerging AI and spatial capture technologies are significantly altering post-production workflows, efficiency, and asset creation capabilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0079716c01d64af0",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Colorfront, Qumulo Make Footage Searchable Throughout Production",
-      "url": "https://postperspective.com/sponsored-content-colorfront-qumulo-make-footage-searchable-throughout-production/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-16T22:01:04+00:00",
-      "first_seen": "2026-09-19T14:08:02.129647+00:00",
-      "score": 85,
-      "summary": "Colorfront and Qumulo have collaborated to embed production metadata directly into files, enabling searchable, persistent data throughout the post-production workflow.",
-      "angle": "Improves operational efficiency by reducing time spent searching for media assets across complex post-production pipelines.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1025,14 +1011,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 80,
-    "llm_requests_succeeded": 80,
+    "providers_succeeded": 89,
+    "queued_candidates": 117,
+    "llm_requests_attempted": 69,
+    "llm_requests_succeeded": 69,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 18,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 7
   }
 }
