@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T06:48:30.619992+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, as there is no news to report from Clearway Group, The Delivery Group, UOE, or Whitespace.",
+  "generated_at": "2026-09-28T14:07:45.843239+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide developments, as there are no specific updates from Clearway Group, Swytch, The Delivery Group, UOE, or Whitespace to report.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-09-28T06:48:30.619992+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -201,7 +201,7 @@
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&tbm=nws",
@@ -515,17 +515,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "af26354689a95d6c",
+      "id": "335bfcfc52e3f9bd",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Parcel Perform Rebrands as Perform.AI",
-      "url": "https://postandparcel.info/162901/news/e-commerce/parcel-perform-rebrands-as-perform-ai/",
+      "title": "What APAC exporters targeting Europe — and beyond — need to know.",
+      "url": "https://postandparcel.info/162924/features/e-commerce-features/what-apac-exporters-targeting-europe-and-beyond-need-to-know/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-24T04:04:08+00:00",
-      "first_seen": "2026-09-28T06:48:30.619992+00:00",
+      "published_at": "2026-09-28T10:20:46+00:00",
+      "first_seen": "2026-09-28T14:07:45.843239+00:00",
       "score": 65,
-      "summary": "Parcel delivery data platform Parcel Perform has rebranded as Perform.AI, transitioning its focus from e-commerce management software to an AI-driven commerce operating system.",
-      "angle": "Highlights the industry-wide shift towards integrating end-to-end AI execution within e-commerce logistics and parcel tracking workflows.",
+      "summary": "Patrick Frith of Avalara discusses how APAC exporters can protect growth and navigate shifting global trade regulations in 2026.",
+      "angle": "Understanding cross-border trade regulation shifts is critical for UK delivery firms managing international e-commerce parcel flows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -571,17 +571,59 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "733f11ebd04fff1f",
+      "id": "76dcc681ed950a63",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Cyber responsibilities go beyond job descriptions",
-      "url": "https://securityjournaluk.com/cyber-responsibilities-beyond-job-desc/",
+      "title": "VMS Co. creates technology partnership with Network Optix",
+      "url": "https://securityjournaluk.com/vms-co-tech-partnership-with-network-optix/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-09-25T07:00:00+00:00",
-      "first_seen": "2026-09-26T14:07:32.527217+00:00",
+      "published_at": "2026-09-28T08:24:14+00:00",
+      "first_seen": "2026-09-28T14:07:45.843239+00:00",
       "score": 65,
-      "summary": "A survey of SME employees reveals that 43% of businesses experienced a cyberattack in 2025, with many staff lacking formal training or clearly defined cybersecurity responsibilities.",
-      "angle": "Highlights operational risks and training requirements for security service providers managing digital infrastructure and client site security.",
+      "summary": "VMS Co. has partnered with Network Optix to provide hardware optimised for the Nx Witness video management platform, offering an integrated, scalable subscription-based surveillance solution for UK integrators.",
+      "angle": "Highlights the growing market shift toward open-platform, subscription-based video management systems with integrated AI and analytics capabilities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6f788dfd047b4f47",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "China to bring solid-state batteries to mass production by 2030",
+      "url": "https://www.electrive.com/2026/09/28/china-to-bring-solid-state-batteries-to-mass-production-by-2030/",
+      "source": "electrive.com",
+      "published_at": "2026-09-28T14:03:43+00:00",
+      "first_seen": "2026-09-28T14:07:45.843239+00:00",
+      "score": 65,
+      "summary": "China's 2026-2030 battery industry plan targets mass production of solid-state batteries, alongside advancements in sodium-ion technology, fast charging, and stricter recycling and supply chain requirements.",
+      "angle": "Advances in battery density and safety standards will influence future component costs and performance benchmarks for micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7fd59a341d9101af",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Britain aims to extract lithium from geothermal brine in Cornwall from 2029",
+      "url": "https://www.electrive.com/2026/09/28/britain-aims-to-extract-lithium-from-geothermal-brine-in-cornwall-from-2029/",
+      "source": "electrive.com",
+      "published_at": "2026-09-28T10:15:59+00:00",
+      "first_seen": "2026-09-28T14:07:45.843239+00:00",
+      "score": 65,
+      "summary": "Geothermal Engineering Limited plans to begin commercial lithium carbonate production in Cornwall by 2029, targeting an annual output of 1,500 tonnes to support the UK battery supply chain.",
+      "angle": "Domestic lithium production improves supply chain resilience and reduces raw material dependency for UK-based battery and micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d5f2c80238ba1055",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "EU urges UK to raise tariffs on Chinese electric vehicles",
+      "url": "https://www.electrive.com/2026/09/28/eu-reportedly-urges-uk-to-raise-tariffs-on-chinese-electric-vehicles/",
+      "source": "electrive.com",
+      "published_at": "2026-09-28T09:14:14+00:00",
+      "first_seen": "2026-09-28T14:07:45.843239+00:00",
+      "score": 65,
+      "summary": "The EU is pressuring the UK to align its trade policy with Brussels by increasing import tariffs on Chinese electric vehicles to secure access to EU industrial funding.",
+      "angle": "Potential shifts in UK trade policy and tariffs on Chinese components could impact supply chain costs for micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -596,20 +638,6 @@
       "score": 65,
       "summary": "CATL has commenced test production of battery cells at its new facility in Debrecen, Hungary, following regulatory approvals and previous delays.",
       "angle": "Increased European battery cell production capacity may improve supply chain stability and reduce costs for micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "224f18107adf6c72",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "ACEA calls for delay to stricter EU-UK battery rules",
-      "url": "https://www.electrive.com/2026/09/22/acea-calls-for-delay-to-stricter-eu-uk-battery-rules/",
-      "source": "electrive.com",
-      "published_at": "2026-09-22T12:00:00+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
-      "score": 65,
-      "summary": "The European Automobile Manufacturers’ Association is requesting a delay until 2029 for stricter EU-UK rules of origin requirements for battery cells and materials.",
-      "angle": "Regulatory shifts in battery supply chains and trade tariffs impact costs and sourcing strategies for micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -989,20 +1017,6 @@
       "summary": "The Building Safety Levy, effective 1 October 2026, introduces new financial obligations for residential developers, potentially impacting project viability and the overall pipeline of new housing developments.",
       "angle": "Regulatory cost pressures on residential developers may dampen new housing starts and project procurement across the construction sector.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fa7e26af30facd91",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Fatal tower fire came day after 31-week BSR approval wait",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-18T11:56:30+00:00",
-      "first_seen": "2026-09-19T14:08:02.129647+00:00",
-      "score": 85,
-      "summary": "The Building Safety Regulator faced criticism for a 31-week delay in approving fire-safety remediation works at a London high-rise, which suffered a fatal fire one day after approval.",
-      "angle": "Highlights regulatory bottlenecks and heightened scrutiny on building safety compliance and fire-resistant materials in the UK construction sector.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1011,14 +1025,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 68,
-    "llm_requests_succeeded": 68,
+    "providers_succeeded": 83,
+    "queued_candidates": 104,
+    "llm_requests_attempted": 54,
+    "llm_requests_succeeded": 45,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 7
   }
 }
