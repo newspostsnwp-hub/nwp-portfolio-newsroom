@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T14:07:27.600706+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-wide updates, with no specific news to report from Clearway Group, Molinare, The Delivery Group, UOE, or Whitespace.",
+  "generated_at": "2026-09-28T06:48:30.619992+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, as there is no news to report from Clearway Group, The Delivery Group, UOE, or Whitespace.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-09-27T06:48:30.937358+00:00",
+  "last_digest_sent_at": "2026-09-28T06:48:30.619992+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -515,17 +515,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "34ef4a03a41e2d5c",
+      "id": "af26354689a95d6c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "89.81% of InPost shareholders have agreed to sell their shares",
-      "url": "https://postandparcel.info/162852/news/e-commerce/89-81-of-inpost-shareholders-have-agreed-to-sell-their-shares/",
+      "title": "Parcel Perform Rebrands as Perform.AI",
+      "url": "https://postandparcel.info/162901/news/e-commerce/parcel-perform-rebrands-as-perform-ai/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-18T05:22:32+00:00",
-      "first_seen": "2026-09-19T06:48:51.529273+00:00",
+      "published_at": "2026-09-24T04:04:08+00:00",
+      "first_seen": "2026-09-28T06:48:30.619992+00:00",
+      "score": 65,
+      "summary": "Parcel delivery data platform Parcel Perform has rebranded as Perform.AI, transitioning its focus from e-commerce management software to an AI-driven commerce operating system.",
+      "angle": "Highlights the industry-wide shift towards integrating end-to-end AI execution within e-commerce logistics and parcel tracking workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f862e8c3963c0d0b",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "A smarter, more sustainable choice for video management",
+      "url": "https://securityjournaluk.com/smarter-more-sustainable-video-management/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-28T06:30:00+00:00",
+      "first_seen": "2026-09-28T06:48:30.619992+00:00",
       "score": 75,
-      "summary": "InPost’s takeover by IS Iris Lux Bidco has moved closer to completion after 89.81% of shareholders tendered their shares, surpassing the 80% minimum acceptance threshold.",
-      "angle": "Consolidation and ownership changes among major parcel locker operators impact competitive dynamics within the UK delivery market.",
+      "summary": "Video Management Servers Ltd. is promoting the use of professionally renewed enterprise-grade server hardware to reduce carbon emissions and costs for security infrastructure deployments.",
+      "angle": "Increasing client demand for ESG-compliant, sustainable, and cost-effective security infrastructure creates a competitive differentiator for systems integrators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -571,20 +585,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f492b080f32ecf97",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Hirsch set to showcase at International Security Expo 2026",
-      "url": "https://securityjournaluk.com/hirsch-showcase-solutions-ise-2026/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-24T13:20:59+00:00",
-      "first_seen": "2026-09-27T06:48:30.937358+00:00",
-      "score": 65,
-      "summary": "Hirsch will showcase its integrated perimeter, intrusion, and access control solutions alongside the GARDiS platform at the International Security Expo 2026 in London.",
-      "angle": "Highlights industry trends towards unified, NPSA-accredited security platforms and the integration of disparate site security technologies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "c2beebfd13c0643d",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -610,20 +610,6 @@
       "score": 65,
       "summary": "The European Automobile Manufacturers’ Association is requesting a delay until 2029 for stricter EU-UK rules of origin requirements for battery cells and materials.",
       "angle": "Regulatory shifts in battery supply chains and trade tariffs impact costs and sourcing strategies for micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7d0d8eb422734afa",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Panasonic Energy opens battery development centre in Osaka",
-      "url": "https://www.electrive.com/2026/09/17/panasonic-energy-opens-battery-development-centre-in-osaka/",
-      "source": "electrive.com",
-      "published_at": "2026-09-17T16:30:00+00:00",
-      "first_seen": "2026-09-18T06:48:46.866542+00:00",
-      "score": 65,
-      "summary": "Panasonic Energy has opened a new R&D centre in Osaka to accelerate battery development efficiency and integrate cell design with mass production processes.",
-      "angle": "Advances in battery energy density and production efficiency are critical for the long-term evolution of micromobility power solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -767,6 +753,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "a964e608a8803981",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "The march of the data centres",
+      "url": "https://theweek.com/tech/the-march-of-the-data-centres",
+      "source": "theweek.com",
+      "published_at": "2026-09-27T07:30:00+00:00",
+      "first_seen": "2026-09-28T06:48:30.619992+00:00",
+      "score": 85,
+      "summary": "Public and political opposition to data centre infrastructure is rising in the UK and US due to concerns over high energy consumption, water usage, and local environmental impact.",
+      "angle": "Highlights critical infrastructure bottlenecks and regulatory friction facing the scaling of sovereign AI ecosystems in the UK.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "cf5db836f2507935",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -781,20 +781,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "cab0d25d61c0c6f4",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Liberal Democrat conference 2026: what stood out for small tech businesses",
-      "url": "https://www.uktech.news/opinion/liberal-democrat-conference-2026-what-stood-out-for-small-tech-businesses-20260925",
-      "source": "uktech.news",
-      "published_at": "2026-09-25T10:55:39+00:00",
-      "first_seen": "2026-09-27T14:07:27.600706+00:00",
-      "score": 75,
-      "summary": "The Liberal Democrat conference proposed policies to improve SME access to public procurement, address AI skills gaps, and implement a levy on large AI companies for safety initiatives.",
-      "angle": "Highlights potential shifts in UK public procurement policy and regulatory frameworks for AI and digital service providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "cbbeca8e35cfabbd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -806,6 +792,20 @@
       "score": 90,
       "summary": "Unitas Wholesale has launched a DRS calculator to help independent retailers prepare for the operational and financial impacts of the Deposit Return Scheme launching in October 2027.",
       "angle": "Provides critical operational guidance for independent retailers managing upcoming regulatory changes regarding container returns and deposit handling.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "df2712eb01738c15",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Vapers in the dark over price hikes as vape tax hits",
+      "url": "https://www.talkingretail.com/news/industry-news/vapers-in-the-dark-over-price-hikes-as-vape-tax-hits-28-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-27T23:01:05+00:00",
+      "first_seen": "2026-09-28T06:48:30.619992+00:00",
+      "score": 65,
+      "summary": "A new government duty on vaping products, effective 1 October 2026, will increase prices by up to 264%, potentially impacting consumer spending and retail demand for these items.",
+      "angle": "Significant regulatory price hikes on vaping products may affect footfall and sales for retailers stocking these goods.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -834,20 +834,6 @@
       "score": 65,
       "summary": "Co-op has closed five standalone food-to-go micro-stores, concluding that the concept is more sustainable when integrated into existing convenience stores alongside a broader grocery range.",
       "angle": "Highlights the operational challenges of standalone small-format retail versus integrating food-to-go into established high-footfall convenience locations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ad1faa5605a2aa5a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Ready for the rush | In focus: Winter remedies",
-      "url": "https://www.talkingretail.com/advice/category-management/ready-for-the-rush-in-focus-winter-remedies-23-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-23T14:50:57+00:00",
-      "first_seen": "2026-09-27T14:07:27.600706+00:00",
-      "score": 65,
-      "summary": "Independent retailers are advised to stock core winter remedy ranges, prioritise trusted brands, and use secondary till-point merchandising to capture impulse sales as seasonal demand increases.",
-      "angle": "Provides actionable category management advice for independent retailers to optimise seasonal healthcare sales and impulse purchasing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1025,14 +1011,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 111,
-    "llm_requests_attempted": 63,
-    "llm_requests_succeeded": 63,
+    "providers_succeeded": 88,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 68,
+    "llm_requests_succeeded": 68,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 19,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 7
   }
 }
