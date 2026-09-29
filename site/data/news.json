@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T06:49:21.273395+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no specific news to report from Clearway Group, Fertility Associates, Roof-Maker, Swytch, or UOE.",
+  "generated_at": "2026-09-29T14:08:22.514076+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-related items, with no specific updates from the portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-09-29T06:49:21.273395+00:00",
   "companies": [
@@ -529,6 +529,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8c936f10bf711115",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Human-verified threat detection bought to the UK",
+      "url": "https://securityjournaluk.com/human-verified-threat-detection-bought-to-uk/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-29T07:05:00+00:00",
+      "first_seen": "2026-09-29T14:08:22.514076+00:00",
+      "score": 85,
+      "summary": "ZeroEyes has partnered with Samson Security to introduce AI-powered, human-verified weapon and threat detection technology to the UK market using existing CCTV infrastructure.",
+      "angle": "Highlights increasing demand for proactive, AI-driven security monitoring solutions in response to Martyn's Law compliance requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d8f4f664b46c7a56",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -571,17 +585,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1e3335f166369191",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Nice expands European security capabilities with HySecurity division",
-      "url": "https://securityjournaluk.com/nice-expands-with-hysecurity-division/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-24T07:30:00+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "id": "1b054b8d55b4f552",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Industrial Accelerator Act: industry may fail to meet battery demand in EU",
+      "url": "https://www.electrive.com/2026/09/29/industrial-accelerator-act-industry-may-fail-to-meet-battery-demand-in-eu/",
+      "source": "electrive.com",
+      "published_at": "2026-09-29T11:00:00+00:00",
+      "first_seen": "2026-09-29T14:08:22.514076+00:00",
       "score": 75,
-      "summary": "Nice is launching its HySecurity division in Europe, offering crash-rated gates, barriers, and hostile vehicle mitigation solutions for critical infrastructure and high-security sites.",
-      "angle": "Highlights increasing demand for physical infrastructure resilience and integrated security technology in the UK and European markets.",
+      "summary": "A new study warns that the proposed EU Industrial Accelerator Act may cause a significant battery supply deficit, as local production struggles to meet stringent sourcing requirements.",
+      "angle": "Potential regulatory shifts and supply chain constraints for battery components impact costs and sourcing strategies for European micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -624,20 +638,6 @@
       "score": 65,
       "summary": "Geothermal Engineering Limited plans to begin commercial lithium carbonate production in Cornwall by 2029, targeting an annual output of 1,500 tonnes to support the UK battery supply chain.",
       "angle": "Domestic lithium production improves supply chain resilience and reduces raw material dependency for UK-based battery and micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d5f2c80238ba1055",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EU urges UK to raise tariffs on Chinese electric vehicles",
-      "url": "https://www.electrive.com/2026/09/28/eu-reportedly-urges-uk-to-raise-tariffs-on-chinese-electric-vehicles/",
-      "source": "electrive.com",
-      "published_at": "2026-09-28T09:14:14+00:00",
-      "first_seen": "2026-09-28T14:07:45.843239+00:00",
-      "score": 65,
-      "summary": "The EU is pressuring the UK to align its trade policy with Brussels by increasing import tariffs on Chinese electric vehicles to secure access to EU industrial funding.",
-      "angle": "Potential shifts in UK trade policy and tariffs on Chinese components could impact supply chain costs for micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -781,6 +781,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "1eb314bc684d1883",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK launches expanded Semiconductor Catapult targeting AI hardware and defence",
+      "url": "https://www.uktech.news/semiconductor/uk-launches-expanded-semiconductor-catapult-targeting-ai-hardware-and-defence-20260929",
+      "source": "uktech.news",
+      "published_at": "2026-09-29T10:42:10+00:00",
+      "first_seen": "2026-09-29T14:08:22.514076+00:00",
+      "score": 85,
+      "summary": "The UK government has expanded the Semiconductor Catapult to support AI hardware and defence, providing startups with access to engineering expertise, laboratories, and specialist equipment for technology validation.",
+      "angle": "Provides critical infrastructure and government-backed support for the domestic AI hardware supply chain and sovereign technology development.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a964e608a8803981",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -793,20 +807,6 @@
       "summary": "Public and political opposition to data centre infrastructure is rising in the UK and US due to concerns over high energy consumption, water usage, and local environmental impact.",
       "angle": "Highlights critical infrastructure bottlenecks and regulatory friction facing the scaling of sovereign AI ecosystems in the UK.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "cf5db836f2507935",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Enterprise AI adoption remains limited as data, integration and governance pose challenges - cio.economictimes.indiatimes.com",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWTZZR2JlTnZhd1NtcjZmbDZYTWZ1b0c0Sy1SUjAyWkN0WHowQnJrVncxZUl6SkJoMENBWHVmaExXV1oxRmRZVnMxcEl0dFBuVDJ3anpxVEoxb0VhZVJ0ZTdYbUxxcXRBSUNqR01TMkcwTGJSUnU1TXdiWDAwZm1Ea0lLNFFEOEYzTVBuNnpOczJpTXF5MFhNVlhiRHM0Y3pEdnpuWkthTlNnQ1ZJUEVZZDlWeVJGcWt4SVFXT3VoOEJ0Y18ySTJmeDUwZC1HdDM2Zi14NGlaV2syU1J2aUZTWDBrMGFLQ1d2cEdqb3lVb1FtU29xQS05QzdobG4tLVd6RktJ0gGDAkFVX3lxTE9ZNllHYmVOdmF3U21yNmZsNlhNZnVvRzRLLVJSMDJaQ3RYejBCcmtWdzFlSXpKQmgwQ0FYdWZoTFdXWjFGZFlWczFwSXR0UG5UMndqenFUSjFvRWFlUnRlN1htTHFxdEFJQ2pHTVMyRzBMYlJSdTVNd2JYMDBmbURrSUs0UUQ4RjNNUG42ek5zMmlNcXkwWE1WWGJEczRjekR2em5aS2FOU2dDVklQRVlkOVZ5UkZxa3hJUVdPdWg4QnRjXzJJMmZ4NTBkLUd0MzZmLXg0aVpXazJTUnZpRlNYMGswYUtDV3ZwR2pveVVvUW1Tb3FBLTlDN2hsbi0tV3pGS0k?oc=5",
-      "source": "cio.economictimes.indiatimes.com",
-      "published_at": "2026-09-26T02:30:00+00:00",
-      "first_seen": "2026-09-26T06:48:29.984589+00:00",
-      "score": 85,
-      "summary": "Enterprise AI adoption remains constrained by significant challenges related to data quality, system integration, and governance frameworks.",
-      "angle": "Highlights critical friction points in enterprise AI deployment that sovereign AI solutions must address to drive adoption.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "cbbeca8e35cfabbd",
@@ -823,6 +823,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "481f4b200dd82e92",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Usdaw welcomes home secretary’s ‘continuing commitment’ to tackling retail crime",
+      "url": "https://www.talkingretail.com/featured/usdaw-welcomes-home-secretarys-continuing-commitment-to-tackling-retail-crime-29-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-29T10:15:54+00:00",
+      "first_seen": "2026-09-29T14:08:22.514076+00:00",
+      "score": 85,
+      "summary": "The Home Secretary reaffirmed the government's commitment to neighbourhood policing and tackling retail crime, with Usdaw calling for the urgent implementation of new legal protections for shop workers.",
+      "angle": "Legislative changes to retail crime laws and increased policing directly impact operational security and staff safety in retail.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "a0bd025e18b1b839",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "ATMs linked to nearly £500m of monthly in-store spend",
+      "url": "https://www.talkingretail.com/news/industry-news/atms-linked-to-nearly-500m-of-monthly-in-store-spend-29-09-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-09-29T10:03:47+00:00",
+      "first_seen": "2026-09-29T14:08:22.514076+00:00",
+      "score": 85,
+      "summary": "Research from Atleos indicates that in-store ATMs drive repeat visits and increased consumer spending, with 37% of users spending cash withdrawn on-site.",
+      "angle": "Highlights the commercial value of ATMs in driving footfall and incremental spend within retail environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "709a71265c88f919",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -834,34 +862,6 @@
       "score": 85,
       "summary": "Shop price inflation for non-food items fell to 0.8% in September, driven by strong discounting on back-to-school essentials including stationery.",
       "angle": "Highlights margin pressure from discounting and upcoming regulatory cost burdens like business rates and employment taxes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1e3623f3a8bada99",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "True size of Symbol & Independent sector’s share of UK grocery market revealed",
-      "url": "https://www.talkingretail.com/featured/true-size-of-symbol-independent-si-sectors-share-of-uk-grocery-market-revealed-28-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-28T13:00:04+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 75,
-      "summary": "New data from TWC Group’s Channel Track service indicates that the symbol and independent convenience sector holds a 12% share of the UK grocery market.",
-      "angle": "Provides more accurate market sizing data for independent retail channels, influencing supplier investment and resource allocation strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a40e8c7e04938456",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Policymakers set out blueprint for tackling dodgy shops at Labour Party Conference",
-      "url": "https://www.talkingretail.com/news/industry-news/policymakers-set-out-blueprint-for-tackling-dodgy-shops-at-labour-party-conference-28-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-28T09:26:38+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 75,
-      "summary": "Policymakers and industry leaders are calling for increased enforcement and sustainable funding to tackle illegal 'rogue' shops undermining legitimate high street businesses.",
-      "angle": "Highlights regulatory focus on protecting compliant high street retailers from unfair competition by illicit operators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1039,14 +1039,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 81,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 16,
+    "providers_succeeded": 87,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 79,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 7
   }
 }
