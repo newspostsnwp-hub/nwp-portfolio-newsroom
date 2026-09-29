@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T14:07:45.843239+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-wide developments, as there are no specific updates from Clearway Group, Swytch, The Delivery Group, UOE, or Whitespace to report.",
+  "generated_at": "2026-09-29T06:49:21.273395+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no specific news to report from Clearway Group, Fertility Associates, Roof-Maker, Swytch, or UOE.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-09-28T06:48:30.619992+00:00",
+  "last_digest_sent_at": "2026-09-29T06:49:21.273395+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -201,7 +201,7 @@
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&tbm=nws",
@@ -529,6 +529,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d8f4f664b46c7a56",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Milestone Systems ranked number one in EMEA VMS/cloud-based security market",
+      "url": "https://securityjournaluk.com/milestone-systems-ranked-number-one-in-emea-vms-cloud-based-security-market/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-29T06:30:00+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 75,
+      "summary": "Milestone Systems has maintained its position as the leading provider of video management software and VSaaS in the EMEA region, holding a 19.1 per cent market share.",
+      "angle": "Highlights the growing market demand for open, cloud-based video platforms and AI-driven operational intelligence in UK security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f862e8c3963c0d0b",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -571,20 +585,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "76dcc681ed950a63",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "VMS Co. creates technology partnership with Network Optix",
-      "url": "https://securityjournaluk.com/vms-co-tech-partnership-with-network-optix/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-28T08:24:14+00:00",
-      "first_seen": "2026-09-28T14:07:45.843239+00:00",
-      "score": 65,
-      "summary": "VMS Co. has partnered with Network Optix to provide hardware optimised for the Nx Witness video management platform, offering an integrated, scalable subscription-based surveillance solution for UK integrators.",
-      "angle": "Highlights the growing market shift toward open-platform, subscription-based video management systems with integrated AI and analytics capabilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6f788dfd047b4f47",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -596,6 +596,20 @@
       "score": 65,
       "summary": "China's 2026-2030 battery industry plan targets mass production of solid-state batteries, alongside advancements in sodium-ion technology, fast charging, and stricter recycling and supply chain requirements.",
       "angle": "Advances in battery density and safety standards will influence future component costs and performance benchmarks for micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "71a32d3d24d860df",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Echion secures ETS as partner for niobium anode material",
+      "url": "https://www.electrive.com/2026/09/28/echion-secures-ets-as-partner-for-niobium-anode-material/",
+      "source": "electrive.com",
+      "published_at": "2026-09-28T11:36:24+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 65,
+      "summary": "UK startup Echion has partnered with Energy Tech Solution to manufacture battery cells using its niobium-based XNO anode material, which enables rapid charging and high cycle stability.",
+      "angle": "Advancements in fast-charging, high-cycle battery chemistries could significantly improve performance and durability for future micromobility applications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -624,20 +638,6 @@
       "score": 65,
       "summary": "The EU is pressuring the UK to align its trade policy with Brussels by increasing import tariffs on Chinese electric vehicles to secure access to EU industrial funding.",
       "angle": "Potential shifts in UK trade policy and tariffs on Chinese components could impact supply chain costs for micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c2beebfd13c0643d",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "CATL begins test production of battery cells in Debrecen",
-      "url": "https://www.electrive.com/2026/09/23/catl-begins-test-production-of-battery-cells-in-debrecen/",
-      "source": "electrive.com",
-      "published_at": "2026-09-23T11:31:55+00:00",
-      "first_seen": "2026-09-23T14:08:05.075663+00:00",
-      "score": 65,
-      "summary": "CATL has commenced test production of battery cells at its new facility in Debrecen, Hungary, following regulatory approvals and previous delays.",
-      "angle": "Increased European battery cell production capacity may improve supply chain stability and reduce costs for micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -823,45 +823,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "df2712eb01738c15",
+      "id": "709a71265c88f919",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Vapers in the dark over price hikes as vape tax hits",
-      "url": "https://www.talkingretail.com/news/industry-news/vapers-in-the-dark-over-price-hikes-as-vape-tax-hits-28-09-2026/",
+      "title": "Retailers keep prices low despite rising cost pressures",
+      "url": "https://www.talkingretail.com/featured/retailers-keep-prices-low-despite-rising-cost-pressures-29-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-27T23:01:05+00:00",
-      "first_seen": "2026-09-28T06:48:30.619992+00:00",
-      "score": 65,
-      "summary": "A new government duty on vaping products, effective 1 October 2026, will increase prices by up to 264%, potentially impacting consumer spending and retail demand for these items.",
-      "angle": "Significant regulatory price hikes on vaping products may affect footfall and sales for retailers stocking these goods.",
+      "published_at": "2026-09-29T04:40:00+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 85,
+      "summary": "Shop price inflation for non-food items fell to 0.8% in September, driven by strong discounting on back-to-school essentials including stationery.",
+      "angle": "Highlights margin pressure from discounting and upcoming regulatory cost burdens like business rates and employment taxes.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "afe0167bcf0de6fe",
+      "id": "1e3623f3a8bada99",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Prolific Sussex shoplifter tagged to curb offending",
-      "url": "https://www.talkingretail.com/news/industry-news/prolific-sussex-shoplifter-tagged-to-curb-offending-25-09-2026/",
+      "title": "True size of Symbol & Independent sector’s share of UK grocery market revealed",
+      "url": "https://www.talkingretail.com/featured/true-size-of-symbol-independent-si-sectors-share-of-uk-grocery-market-revealed-28-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-25T08:48:30+00:00",
-      "first_seen": "2026-09-25T14:16:52.086687+00:00",
-      "score": 65,
-      "summary": "West Sussex authorities have introduced GPS ankle tags for prolific shoplifters as part of a pilot scheme to monitor movements and deter repeat retail crime.",
-      "angle": "Demonstrates new law enforcement technology and strategies available to protect retail premises from repeat offenders.",
+      "published_at": "2026-09-28T13:00:04+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 75,
+      "summary": "New data from TWC Group’s Channel Track service indicates that the symbol and independent convenience sector holds a 12% share of the UK grocery market.",
+      "angle": "Provides more accurate market sizing data for independent retail channels, influencing supplier investment and resource allocation strategies.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "242e3665fa4ed2c8",
+      "id": "a40e8c7e04938456",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Co-op shuts down standalone on-the-go test stores",
-      "url": "https://www.talkingretail.com/news/industry-news/co-op-shuts-down-standalone-on-the-go-test-stores-24-09-2026/",
+      "title": "Policymakers set out blueprint for tackling dodgy shops at Labour Party Conference",
+      "url": "https://www.talkingretail.com/news/industry-news/policymakers-set-out-blueprint-for-tackling-dodgy-shops-at-labour-party-conference-28-09-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-09-24T15:02:54+00:00",
-      "first_seen": "2026-09-26T14:07:32.527217+00:00",
-      "score": 65,
-      "summary": "Co-op has closed five standalone food-to-go micro-stores, concluding that the concept is more sustainable when integrated into existing convenience stores alongside a broader grocery range.",
-      "angle": "Highlights the operational challenges of standalone small-format retail versus integrating food-to-go into established high-footfall convenience locations.",
+      "published_at": "2026-09-28T09:26:38+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 75,
+      "summary": "Policymakers and industry leaders are calling for increased enforcement and sustainable funding to tackle illegal 'rogue' shops undermining legitimate high street businesses.",
+      "angle": "Highlights regulatory focus on protecting compliant high street retailers from unfair competition by illicit operators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -921,6 +921,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "70ccb3cc99c81490",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Following birth of baby, parents allege that a Florida IVF clinic used the wrong sperm",
+      "url": "https://www.progress.org.uk/following-birth-of-baby-parents-allege-that-a-florida-ivf-clinic-used-the-wrong-sperm/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-09-28T15:34:43+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 85,
+      "summary": "A Florida couple is suing Brown Fertility, alleging the clinic used the wrong sperm during their IVF treatment, resulting in a child not biologically related to the father.",
+      "angle": "Highlights critical operational risks, the necessity of robust laboratory verification protocols, and potential for significant reputational and legal damage.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "578d6145da6dba1c",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -963,17 +977,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c2a6c395c02a0a41",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Inside the Facebook group where donor-conceived people find each other",
-      "url": "https://www.progress.org.uk/inside-the-facebook-group-where-donor-conceived-people-find-each-other/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-21T15:37:46+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 75,
-      "summary": "Research into Australian donor-conceived adults reveals that online peer networks are increasingly providing the support, advocacy, and practical guidance that clinics and government registries currently fail to offer.",
-      "angle": "Highlights a growing gap in patient support services and the rising influence of donor-conceived advocacy on regulatory reform.",
+      "id": "37d4dac717c8cba7",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "UK construction activity August 2026",
+      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-august-2026-28-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-28T13:21:39+00:00",
+      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "score": 85,
+      "summary": "UK construction activity remains subdued, with detailed planning approvals declining by 13 per cent and project starts falling by 28 per cent compared to the previous year.",
+      "angle": "Declining project starts and planning approvals indicate a softening pipeline for residential and commercial glazing installations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1025,14 +1039,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 104,
-    "llm_requests_attempted": 54,
-    "llm_requests_succeeded": 45,
+    "providers_succeeded": 91,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 16,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 7
   }
 }
