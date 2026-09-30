@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T06:49:14.526691+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Swytch, The Delivery Group, or Whitespace.",
+  "generated_at": "2026-09-30T14:08:19.161127+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-09-30T06:49:14.526691+00:00",
   "companies": [
@@ -529,6 +529,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "43d768bdb0a65012",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "ZeroEyes brings human-verified threat detection to the UK",
+      "url": "https://securityjournaluk.com/zeroeyes-partner-samson-security-fire/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-09-30T09:28:07+00:00",
+      "first_seen": "2026-09-30T14:08:19.161127+00:00",
+      "score": 85,
+      "summary": "ZeroEyes has partnered with Samson Security to introduce AI-driven, human-verified weapon detection technology to the UK market, aiming to support compliance with the Terrorism (Protection of Premises) Act 2025.",
+      "angle": "Highlights increasing demand for AI-enhanced, proactive security monitoring solutions driven by new UK public premises legislation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8c936f10bf711115",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -571,20 +585,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "18edb57de8546515",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Why unified security is becoming the new standard",
-      "url": "https://securityjournaluk.com/unified-security-becoming-the-new-standard/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-25T06:45:00+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 75,
-      "summary": "The security industry is shifting from siloed physical systems toward unified platforms that integrate perimeter detection, video surveillance, and access control for improved operational intelligence.",
-      "angle": "Highlights the growing market demand for integrated security ecosystems over standalone site protection technologies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "1b054b8d55b4f552",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -599,6 +599,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f963490dcc4b266a",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Vianode and FAAM report successful graphite recycling from battery waste",
+      "url": "https://www.electrive.com/2026/09/30/vianode-and-faam-report-successful-graphite-recycling-from-battery-waste/",
+      "source": "electrive.com",
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "first_seen": "2026-09-30T14:08:19.161127+00:00",
+      "score": 65,
+      "summary": "Vianode and FAAM have successfully demonstrated a scalable process for recycling graphite from battery production waste into high-performance anode material.",
+      "angle": "Advances in circular battery supply chains could reduce long-term material costs and improve sustainability for e-bike manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "79793aae89383ed6",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Gotion targets 400 Wh/kg solid-state batteries",
+      "url": "https://www.electrive.com/2026/09/30/gotion-targets-400-wh-kg-solid-state-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "first_seen": "2026-09-30T14:08:19.161127+00:00",
+      "score": 65,
+      "summary": "Battery manufacturer Gotion has announced a 400 Wh/kg energy density target for its solid-state batteries, aiming for long-term production costs of approximately US$150 per kWh.",
+      "angle": "Advancements in battery energy density and cost reduction are critical for the future performance and affordability of e-bikes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "401c50ada1cf64ed",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -610,34 +638,6 @@
       "score": 65,
       "summary": "The US government has lowered fuel consumption standards to 34.9 mpg by 2031, reducing regulatory pressure on automakers to transition to electric vehicles.",
       "angle": "Signals a potential slowdown in US electric vehicle adoption, impacting broader market sentiment and infrastructure development for micromobility.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6f788dfd047b4f47",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "China to bring solid-state batteries to mass production by 2030",
-      "url": "https://www.electrive.com/2026/09/28/china-to-bring-solid-state-batteries-to-mass-production-by-2030/",
-      "source": "electrive.com",
-      "published_at": "2026-09-28T14:03:43+00:00",
-      "first_seen": "2026-09-28T14:07:45.843239+00:00",
-      "score": 65,
-      "summary": "China's 2026-2030 battery industry plan targets mass production of solid-state batteries, alongside advancements in sodium-ion technology, fast charging, and stricter recycling and supply chain requirements.",
-      "angle": "Advances in battery density and safety standards will influence future component costs and performance benchmarks for micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "71a32d3d24d860df",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Echion secures ETS as partner for niobium anode material",
-      "url": "https://www.electrive.com/2026/09/28/echion-secures-ets-as-partner-for-niobium-anode-material/",
-      "source": "electrive.com",
-      "published_at": "2026-09-28T11:36:24+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 65,
-      "summary": "UK startup Echion has partnered with Energy Tech Solution to manufacture battery cells using its niobium-based XNO anode material, which enables rapid charging and high cycle stability.",
-      "angle": "Advancements in fast-charging, high-cycle battery chemistries could significantly improve performance and durability for future micromobility applications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -865,6 +865,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fb2e627e3d942824",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Higher Ed’s AI Integration Overhyped, New Data Shows",
+      "url": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/09/30/higher-eds-ai-integration-overhyped-new-data",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "first_seen": "2026-09-30T14:08:19.161127+00:00",
+      "score": 95,
+      "summary": "Instructure data identifies McGraw Hill as the most used learning tool integration in U.S. higher education, while dedicated AI tools have yet to achieve significant institutional scale.",
+      "angle": "Validates the continued dominance of established digital publishing platforms over emerging AI-native tools in higher education workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "da34a0ea94d16771",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Adult Learners Want More Than Flexibility",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/09/30/adult-learners-want-more-flexibility",
+      "source": "insidehighered.com",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "first_seen": "2026-09-30T14:08:19.161127+00:00",
+      "score": 85,
+      "summary": "A survey of 600 prospective students indicates that adult learners value competency-based education but require structured support, instructor interaction, and deadlines to ensure academic success and completion.",
+      "angle": "Highlights the necessity of balancing flexible, self-paced learning models with structured support to improve student retention and outcomes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "80c785c85bf2fa5c",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -890,34 +918,6 @@
       "score": 85,
       "summary": "Venture capital firm Andreessen Horowitz has launched an unaccredited, for-profit academy for students aged 16 to 22, focusing on AI-driven skills rather than traditional academic curricula.",
       "angle": "Represents a disruptive, industry-led challenge to the traditional higher education model and established academic publishing markets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "31e44a640abc9e1c",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "When Nontraditional Students Become the Norm",
-      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/09/24/when-nontraditional-students-become-norm",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-24T07:00:00+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly shifting their focus toward 'modern learners' who balance work, family, and financial instability, necessitating more flexible, nonlinear, and accessible academic models.",
-      "angle": "Highlights the urgent need for adaptive, flexible learning solutions and digital tools to support non-traditional student demographics.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2bcb419e2ee92428",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "The Future of the American University, According to Cornell Faculty",
-      "url": "https://www.insidehighered.com/news/institutions/research-universities/2026/09/23/how-cornell-committee-wants-university-change",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-23T07:00:00+00:00",
-      "first_seen": "2026-09-24T06:48:53.160624+00:00",
-      "score": 85,
-      "summary": "A Cornell faculty committee report outlines strategic shifts for higher education, including adopting subscription models for lifelong learning and adapting to generative artificial intelligence.",
-      "angle": "Signals institutional shifts toward lifelong learning models and AI integration, impacting long-term demand for educational content and platforms.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1039,14 +1039,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 76,
-    "queued_candidates": 102,
-    "llm_requests_attempted": 57,
-    "llm_requests_succeeded": 57,
+    "providers_succeeded": 80,
+    "queued_candidates": 100,
+    "llm_requests_attempted": 53,
+    "llm_requests_succeeded": 53,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 16,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 7
   }
 }
