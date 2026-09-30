@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T14:08:22.514076+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-related items, with no specific updates from the portfolio companies.",
+  "generated_at": "2026-09-30T06:49:14.526691+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Swytch, The Delivery Group, or Whitespace.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-09-29T06:49:21.273395+00:00",
+  "last_digest_sent_at": "2026-09-30T06:49:14.526691+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -487,6 +487,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "c6f572fa05e463d9",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Retailers “need to be careful not to confuse their operational readiness with customer readiness”",
+      "url": "https://postandparcel.info/162932/news/e-commerce/retailers-need-to-be-careful-not-to-confuse-their-operational-readiness-with-customer-readiness/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-29T17:42:18+00:00",
+      "first_seen": "2026-09-30T06:49:14.526691+00:00",
+      "score": 75,
+      "summary": "Research from Scurri indicates that 58% of UK enterprise retailers intend to use automated AI systems to manage their delivery strategies and carrier operations.",
+      "angle": "Increasing retailer adoption of AI-driven delivery management platforms shifts operational expectations and integration requirements for logistics providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c36050e2020ea4f2",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -512,20 +526,6 @@
       "score": 75,
       "summary": "Royal Mail is recruiting nearly 22,000 temporary workers to manage increased parcel and mail volumes during the upcoming festive period.",
       "angle": "Indicates seasonal capacity planning and labour market competition within the UK parcel delivery sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "335bfcfc52e3f9bd",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "What APAC exporters targeting Europe — and beyond — need to know.",
-      "url": "https://postandparcel.info/162924/features/e-commerce-features/what-apac-exporters-targeting-europe-and-beyond-need-to-know/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-28T10:20:46+00:00",
-      "first_seen": "2026-09-28T14:07:45.843239+00:00",
-      "score": 65,
-      "summary": "Patrick Frith of Avalara discusses how APAC exporters can protect growth and navigate shifting global trade regulations in 2026.",
-      "angle": "Understanding cross-border trade regulation shifts is critical for UK delivery firms managing international e-commerce parcel flows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -599,6 +599,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "401c50ada1cf64ed",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "New fuel consumption regulation sees US EV adoption slow",
+      "url": "https://www.electrive.com/2026/09/29/new-fuel-consumption-regulation-sees-us-ev-adoption-slow/",
+      "source": "electrive.com",
+      "published_at": "2026-09-29T10:30:00+00:00",
+      "first_seen": "2026-09-30T06:49:14.526691+00:00",
+      "score": 65,
+      "summary": "The US government has lowered fuel consumption standards to 34.9 mpg by 2031, reducing regulatory pressure on automakers to transition to electric vehicles.",
+      "angle": "Signals a potential slowdown in US electric vehicle adoption, impacting broader market sentiment and infrastructure development for micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6f788dfd047b4f47",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -624,20 +638,6 @@
       "score": 65,
       "summary": "UK startup Echion has partnered with Energy Tech Solution to manufacture battery cells using its niobium-based XNO anode material, which enables rapid charging and high cycle stability.",
       "angle": "Advancements in fast-charging, high-cycle battery chemistries could significantly improve performance and durability for future micromobility applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7fd59a341d9101af",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Britain aims to extract lithium from geothermal brine in Cornwall from 2029",
-      "url": "https://www.electrive.com/2026/09/28/britain-aims-to-extract-lithium-from-geothermal-brine-in-cornwall-from-2029/",
-      "source": "electrive.com",
-      "published_at": "2026-09-28T10:15:59+00:00",
-      "first_seen": "2026-09-28T14:07:45.843239+00:00",
-      "score": 65,
-      "summary": "Geothermal Engineering Limited plans to begin commercial lithium carbonate production in Cornwall by 2029, targeting an annual output of 1,500 tonnes to support the UK battery supply chain.",
-      "angle": "Domestic lithium production improves supply chain resilience and reduces raw material dependency for UK-based battery and micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -781,6 +781,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "ac512dd24e0a7eb2",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Bell signs agreement with Cisco to collaborate on sovereign AI infrastructure",
+      "url": "https://toronto.citynews.ca/2026/09/29/bell-signs-agreement-with-cisco-to-collaborate-on-sovereign-ai-infrastructure/",
+      "source": "toronto.citynews.ca",
+      "published_at": "2026-09-29T17:45:00+00:00",
+      "first_seen": "2026-09-30T06:49:14.526691+00:00",
+      "score": 85,
+      "summary": "Bell Canada and Cisco have signed a memorandum of understanding to provide sovereign AI infrastructure, leveraging Cisco's networking and security technologies for Canadian organisations.",
+      "angle": "Demonstrates major telecommunications providers partnering with hardware giants to capture the growing demand for sovereign AI infrastructure.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "1eb314bc684d1883",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -793,20 +807,6 @@
       "summary": "The UK government has expanded the Semiconductor Catapult to support AI hardware and defence, providing startups with access to engineering expertise, laboratories, and specialist equipment for technology validation.",
       "angle": "Provides critical infrastructure and government-backed support for the domestic AI hardware supply chain and sovereign technology development.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a964e608a8803981",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "The march of the data centres",
-      "url": "https://theweek.com/tech/the-march-of-the-data-centres",
-      "source": "theweek.com",
-      "published_at": "2026-09-27T07:30:00+00:00",
-      "first_seen": "2026-09-28T06:48:30.619992+00:00",
-      "score": 85,
-      "summary": "Public and political opposition to data centre infrastructure is rising in the UK and US due to concerns over high energy consumption, water usage, and local environmental impact.",
-      "angle": "Highlights critical infrastructure bottlenecks and regulatory friction facing the scaling of sovereign AI ecosystems in the UK.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "cbbeca8e35cfabbd",
@@ -1039,12 +1039,12 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 81,
-    "llm_requests_succeeded": 79,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 19,
+    "providers_succeeded": 76,
+    "queued_candidates": 102,
+    "llm_requests_attempted": 57,
+    "llm_requests_succeeded": 57,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 4,
     "carried_forward": 7
