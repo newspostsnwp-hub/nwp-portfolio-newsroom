@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T06:48:41.067501+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on five sector-related updates, with no specific news to report from Molinare, Petainer, Roof-Maker, or Whitespace.",
+  "generated_at": "2026-10-01T14:07:24.569633+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-10-01T06:48:41.067501+00:00",
   "companies": [
@@ -220,7 +220,7 @@
       "website": "https://www.thinkfmt.com/",
       "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
       "story_count": 0,
-      "sector_count": 0,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
@@ -599,6 +599,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "12c91e54fa87a2b2",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "T&E analysis: sufficient European battery cells by 2030",
+      "url": "https://www.electrive.com/2026/10/01/te-analysis-sufficient-european-battery-cells-by-2030/",
+      "source": "electrive.com",
+      "published_at": "2026-10-01T12:45:00+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 65,
+      "summary": "A T&E analysis suggests that European battery cell production will be sufficient to meet demand by 2030, potentially influencing future EU local content requirements for electric vehicles.",
+      "angle": "Regulatory shifts in battery supply chain requirements could impact component sourcing and costs for European micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f963490dcc4b266a",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -624,20 +638,6 @@
       "score": 65,
       "summary": "Battery manufacturer Gotion has announced a 400 Wh/kg energy density target for its solid-state batteries, aiming for long-term production costs of approximately US$150 per kWh.",
       "angle": "Advancements in battery energy density and cost reduction are critical for the future performance and affordability of e-bikes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "401c50ada1cf64ed",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "New fuel consumption regulation sees US EV adoption slow",
-      "url": "https://www.electrive.com/2026/09/29/new-fuel-consumption-regulation-sees-us-ev-adoption-slow/",
-      "source": "electrive.com",
-      "published_at": "2026-09-29T10:30:00+00:00",
-      "first_seen": "2026-09-30T06:49:14.526691+00:00",
-      "score": 65,
-      "summary": "The US government has lowered fuel consumption standards to 34.9 mpg by 2031, reducing regulatory pressure on automakers to transition to electric vehicles.",
-      "angle": "Signals a potential slowdown in US electric vehicle adoption, impacting broader market sentiment and infrastructure development for micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -697,6 +697,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c3ca5aea9aea03a6",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Recycling partners appointed to support DRS collections network",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-partners-appointed-to-support-drs-collections-network-01-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-01T09:25:20+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 95,
+      "summary": "Exchange for Change has appointed five waste management partners to develop infrastructure for the UK's deposit return scheme, which launches in October 2027.",
+      "angle": "Regulatory implementation of DRS directly impacts the supply chain, collection, and recycling requirements for PET beverage packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7580e5d6977c01a4",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -725,31 +739,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "dfb48227a8ec3a1a",
+      "id": "b8b10a60df570e17",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "PackUK to set out five-year strategy for EPR delivery",
-      "url": "https://www.packagingnews.co.uk/news/packuk-to-set-out-five-year-strategy-for-epr-delivery-21-09-2026",
+      "title": "‘Nearly half of businesses’ report more packaging waste under pEPR",
+      "url": "https://www.packagingnews.co.uk/top-story/nearly-half-of-businesses-report-more-packaging-waste-under-pepr-01-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-21T10:28:28+00:00",
-      "first_seen": "2026-09-21T14:08:04.202311+00:00",
-      "score": 90,
-      "summary": "PackUK is developing a five-year strategy for the packaging extended producer responsibility scheme to track environmental benefits, recycling quality, and packaging reduction.",
-      "angle": "Provides critical regulatory visibility for long-term investment and packaging design decisions within the UK market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1d0fcd6ba041d4ae",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "EU’s new green claims rules challenge UK brands’ environmental marketing strategies",
-      "url": "https://www.packagingnews.co.uk/news/environment/eus-new-green-claims-rules-challenge-uk-brands-environmental-marketing-strategies-30-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-30T07:40:38+00:00",
-      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "published_at": "2026-10-01T09:16:43+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
       "score": 85,
-      "summary": "The EU’s Green Transition Directive, enacted 27 September 2026, mandates stricter evidence requirements for environmental marketing claims and sustainability labels on products sold within the European Union.",
-      "angle": "Packaging manufacturers must ensure sustainability claims are backed by approved certifications to avoid regulatory non-compliance in European markets.",
+      "summary": "A survey of 200 British businesses indicates that 47% report increased packaging waste following the implementation of the packaging Extended Producer Responsibility (pEPR) scheme.",
+      "angle": "Regulatory compliance is driving operational complexity and increased packaging requirements across the UK supply chain.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -809,6 +809,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "460cfa1ddf635422",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "High street tax burden ‘costing jobs and pushing up prices’, says BRC",
+      "url": "https://www.talkingretail.com/featured/high-street-tax-burden-costing-jobs-and-pushing-up-prices-says-brc-01-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-01T07:36:37+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 95,
+      "summary": "The British Retail Consortium reports that retail and hospitality sectors face the highest effective tax rates in the UK, contributing to significant job losses and increased consumer prices.",
+      "angle": "Highlights systemic high street tax pressures and policy advocacy relevant to operational cost management and retail viability.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "cbbeca8e35cfabbd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -823,6 +837,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b4021e6a0a90a328",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Early preparation key to smooth DRS rollout for retailers, says RVM maker",
+      "url": "https://www.talkingretail.com/news/industry-news/early-preparation-key-to-smooth-drs-rollout-for-retailers-says-rvm-maker-01-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-01T10:55:42+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 85,
+      "summary": "Retailers have one year to prepare for the UK's deposit return scheme, which mandates charging refundable deposits on eligible drinks containers and managing return points from October 2027.",
+      "angle": "Operational compliance and infrastructure planning for upcoming mandatory recycling legislation affecting retail store layouts and daily processes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "481f4b200dd82e92",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -834,34 +862,6 @@
       "score": 85,
       "summary": "The Home Secretary reaffirmed the government's commitment to neighbourhood policing and tackling retail crime, with Usdaw calling for the urgent implementation of new legal protections for shop workers.",
       "angle": "Legislative changes to retail crime laws and increased policing directly impact operational security and staff safety in retail.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a0bd025e18b1b839",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ATMs linked to nearly £500m of monthly in-store spend",
-      "url": "https://www.talkingretail.com/news/industry-news/atms-linked-to-nearly-500m-of-monthly-in-store-spend-29-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-29T10:03:47+00:00",
-      "first_seen": "2026-09-29T14:08:22.514076+00:00",
-      "score": 85,
-      "summary": "Research from Atleos indicates that in-store ATMs drive repeat visits and increased consumer spending, with 37% of users spending cash withdrawn on-site.",
-      "angle": "Highlights the commercial value of ATMs in driving footfall and incremental spend within retail environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "709a71265c88f919",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retailers keep prices low despite rising cost pressures",
-      "url": "https://www.talkingretail.com/featured/retailers-keep-prices-low-despite-rising-cost-pressures-29-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-29T04:40:00+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 85,
-      "summary": "Shop price inflation for non-food items fell to 0.8% in September, driven by strong discounting on back-to-school essentials including stationery.",
-      "angle": "Highlights margin pressure from discounting and upcoming regulatory cost burdens like business rates and employment taxes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -977,6 +977,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "998086349d11601a",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Housing ministry referred to prosecutors over Grenfell",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/housing-ministry-referred-to-prosecutors-over-grenfell-01-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-01T09:42:07+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 85,
+      "summary": "The Metropolitan Police has referred the housing ministry to the Crown Prosecution Service regarding potential health and safety breaches linked to the Grenfell Tower fire.",
+      "angle": "Signals heightened regulatory scrutiny and stricter enforcement of building safety standards across the UK construction products sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b704f4b9c382a433",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -1019,17 +1033,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6a29535194dd98e7",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Firm in construction bid-rigging inquiry fined after exec removed evidence",
-      "url": "https://www.constructionnews.co.uk/government/firm-in-construction-bid-rigging-inquiry-fined-after-exec-removed-evidence-24-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-24T16:03:18+00:00",
-      "first_seen": "2026-09-25T14:16:52.086687+00:00",
-      "score": 85,
-      "summary": "The Competition and Markets Authority has fined M&J Group and two employees for concealing evidence during an investigation into bid-rigging for roofing and construction contracts.",
-      "angle": "Highlights increased CMA enforcement risks and scrutiny regarding competitive bidding practices within the UK roofing and construction sector.",
+      "id": "18a77a0709266f5d",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Only 12% of AI-Using Manufacturers Have AI Integrated into Their Business Systems. What is Holding the Smart Factory Back?",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/only-12-of-ai-using-manufacturers-have-ai-integrated-into-their-business-systems-what-is-holding-the-smart-factory-back/105377/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-01T13:26:57+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 75,
+      "summary": "A 2026 UK survey reveals that only 12% of manufacturers have fully integrated AI into their business systems, highlighting significant challenges in bridging OT and IT infrastructure.",
+      "angle": "Highlights the critical industry-wide need for seamless software integration between autonomous hardware and existing enterprise management systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "24c4440cd433d1c2",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Inbolt raises $12.5 million to bring sight and intelligence to industrial robots",
+      "url": "https://roboticsandautomationnews.com/2026/09/30/inbolt-raises-12-5-million-to-bring-sight-and-intelligence-to-industrial-robots/105360/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-09-30T21:50:54+00:00",
+      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "score": 75,
+      "summary": "Inbolt has raised $12.5 million to expand its hardware-agnostic 3D vision and AI software, which allows industrial robots to perceive and adapt to their environments in real time.",
+      "angle": "Demonstrates growing market demand for retrofitting existing industrial robotics with real-time AI vision and adaptive control capabilities.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1037,15 +1065,15 @@
     "companies_checked": 13,
     "companies_enriched": [],
     "companies_with_stories": 3,
-    "companies_with_sector_news": 10,
+    "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 80,
-    "llm_requests_succeeded": 80,
+    "providers_succeeded": 85,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 1,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 6,
     "carried_forward": 7
   }
