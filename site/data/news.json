@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T14:08:19.161127+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-01T06:48:41.067501+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on five sector-related updates, with no specific news to report from Molinare, Petainer, Roof-Maker, or Whitespace.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-09-30T06:49:14.526691+00:00",
+  "last_digest_sent_at": "2026-10-01T06:48:41.067501+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -641,6 +641,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8e984346eb518d90",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Apple Studios Visual Effects Workers Secure First IATSE Contract",
+      "url": "https://variety.com/2026/artisans/news/apple-studios-visual-effects-workers-secure-iatse-contract-1236893814/",
+      "source": "variety.com",
+      "published_at": "2026-09-30T19:15:00+00:00",
+      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "score": 85,
+      "summary": "Apple Studios visual effects workers have ratified their first IATSE contract, establishing new industry standards for wages, benefits, working hours, and artificial intelligence protections.",
+      "angle": "Signals a broader industry trend toward unionisation and standardised labour costs for VFX and post-production talent.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "ec8330274fc2513c",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -683,17 +697,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d417ef3b1fac691f",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Danny Duke Heading Up VFX Features and Episodic at Harbor London",
-      "url": "https://postperspective.com/danny-duke-heading-up-vfx-features-and-episodic-at-harbor-london/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-24T16:44:58+00:00",
-      "first_seen": "2026-09-27T14:07:27.600706+00:00",
-      "score": 75,
-      "summary": "Harbor London has appointed Danny Duke as head of VFX features and episodic to lead its growing team of over 40 artists.",
-      "angle": "Highlights competitive talent acquisition and the trend of integrating VFX with broader post-production services in the London market.",
+      "id": "7580e5d6977c01a4",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Exchange for Change opens UK DRS registration process",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/exchange-for-change-opens-uk-drs-registration-process-30-09-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-09-30T07:45:52+00:00",
+      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "score": 95,
+      "summary": "Exchange for Change has launched the initial registration process for UK-wide deposit return schemes, which are scheduled to go live in October 2027.",
+      "angle": "Regulatory implementation of DRS directly impacts PET packaging compliance, producer fees, and circularity requirements for beverage manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -725,31 +739,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9148e842858161a0",
+      "id": "1d0fcd6ba041d4ae",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Household recycling rates stalled in 2024, Defra figures show",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/household-recycling-rates-stalled-in-2024-defra-figures-show-24-09-2026",
+      "title": "EU’s new green claims rules challenge UK brands’ environmental marketing strategies",
+      "url": "https://www.packagingnews.co.uk/news/environment/eus-new-green-claims-rules-challenge-uk-brands-environmental-marketing-strategies-30-09-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-24T06:58:58+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "published_at": "2026-09-30T07:40:38+00:00",
+      "first_seen": "2026-10-01T06:48:41.067501+00:00",
       "score": 85,
-      "summary": "UK household recycling rates stalled at 44.5% in 2024, while packaging waste recycling rates fell to 70.5% from 73.2% the previous year.",
-      "angle": "Stagnant recycling rates and regulatory delays for plastic collection impact long-term demand for circular packaging solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "56ee8d0a9ef2eab4",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "FPA seeks clarity on threshold and evidence requirements for PFAS",
-      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/fpa-seeks-clarity-on-threshold-and-evidence-requirements-for-fpfas-25-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-25T06:02:16+00:00",
-      "first_seen": "2026-09-25T14:16:52.086687+00:00",
-      "score": 75,
-      "summary": "The Foodservice Packaging Association is seeking clarity on PFAS threshold requirements and evidence standards within the 2027 Recyclability Assessment Methodology for food-contact packaging.",
-      "angle": "Regulatory shifts regarding chemical content thresholds directly impact compliance and recyclability ratings for food-contact packaging manufacturers.",
+      "summary": "The EU’s Green Transition Directive, enacted 27 September 2026, mandates stricter evidence requirements for environmental marketing claims and sustainability labels on products sold within the European Union.",
+      "angle": "Packaging manufacturers must ensure sustainability claims are backed by approved certifications to avoid regulatory non-compliance in European markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -781,6 +781,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "5c4913e0f0fc7a57",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "When every small business has the same AI adviser, the advice stops being an advantage",
+      "url": "https://www.uktech.news/ai/when-every-small-business-has-the-same-ai-adviser-the-advice-stops-being-an-advantage-20260929",
+      "source": "uktech.news",
+      "published_at": "2026-10-01T01:00:03+00:00",
+      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "score": 85,
+      "summary": "The article argues that as general-purpose AI models converge, competitive advantage shifts toward platforms that leverage proprietary, sector-specific data to provide actionable, outcome-based business advice.",
+      "angle": "Highlights the critical shift from generic AI assistants to context-aware, proprietary data-driven sovereign and enterprise AI solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ac512dd24e0a7eb2",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -793,20 +807,6 @@
       "summary": "Bell Canada and Cisco have signed a memorandum of understanding to provide sovereign AI infrastructure, leveraging Cisco's networking and security technologies for Canadian organisations.",
       "angle": "Demonstrates major telecommunications providers partnering with hardware giants to capture the growing demand for sovereign AI infrastructure.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "1eb314bc684d1883",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK launches expanded Semiconductor Catapult targeting AI hardware and defence",
-      "url": "https://www.uktech.news/semiconductor/uk-launches-expanded-semiconductor-catapult-targeting-ai-hardware-and-defence-20260929",
-      "source": "uktech.news",
-      "published_at": "2026-09-29T10:42:10+00:00",
-      "first_seen": "2026-09-29T14:08:22.514076+00:00",
-      "score": 85,
-      "summary": "The UK government has expanded the Semiconductor Catapult to support AI hardware and defence, providing startups with access to engineering expertise, laboratories, and specialist equipment for technology validation.",
-      "angle": "Provides critical infrastructure and government-backed support for the domestic AI hardware supply chain and sovereign technology development.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "cbbeca8e35cfabbd",
@@ -977,6 +977,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b704f4b9c382a433",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Police ask CPS to consider Grenfell manslaughter charges",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/cps-asked-to-consider-grenfell-manslaughter-charges-30-09-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-09-30T11:45:54+00:00",
+      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "score": 85,
+      "summary": "The Metropolitan Police have submitted files to the Crown Prosecution Service to consider charges of corporate and gross negligence manslaughter regarding the 2017 Grenfell Tower fire.",
+      "angle": "Heightened regulatory scrutiny and liability risks for manufacturers regarding fire safety compliance and building product standards.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "37d4dac717c8cba7",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -1017,20 +1031,6 @@
       "summary": "The Competition and Markets Authority has fined M&J Group and two employees for concealing evidence during an investigation into bid-rigging for roofing and construction contracts.",
       "angle": "Highlights increased CMA enforcement risks and scrutiny regarding competitive bidding practices within the UK roofing and construction sector.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2503079e3bb39f33",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Building Safety Levy adds further pressure to housing delivery",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-safety-levy-adds-further-pressure-to-housing-delivery-24-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-24T11:18:55+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 85,
-      "summary": "The Building Safety Levy, effective 1 October 2026, introduces new financial obligations for residential developers, potentially impacting project viability and the overall pipeline of new housing developments.",
-      "angle": "Regulatory cost pressures on residential developers may dampen new housing starts and project procurement across the construction sector.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1039,14 +1039,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 10,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 100,
-    "llm_requests_attempted": 53,
-    "llm_requests_succeeded": 53,
+    "providers_succeeded": 91,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 80,
+    "llm_requests_succeeded": 80,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 18,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 7
   }
 }
