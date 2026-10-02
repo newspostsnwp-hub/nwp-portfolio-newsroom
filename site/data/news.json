@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T14:07:24.569633+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 12 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-02T06:48:32.920055+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-01T06:48:41.067501+00:00",
+  "last_digest_sent_at": "2026-10-02T06:48:32.920055+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -220,7 +220,7 @@
       "website": "https://www.thinkfmt.com/",
       "newsroom_url": "https://www.thinkfmt.com/showcase/news-press",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Future+Maintenance+Technologies%22+OR+%22FMT+Robotics%22+OR+%22ARIIS+rail+inspection+robot%22+OR+%22TRES+train+inspection+robot%22&tbm=nws",
@@ -557,6 +557,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4235db050db66e50",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "What airports can learn from the Manchester cyber-attack",
+      "url": "https://securityjournaluk.com/airports-manchester-cyber-attack/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-01T07:31:00+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 75,
+      "summary": "The Manchester Airport Group cyber-attack, which compromised 8.7 million records, highlights how third-party database vulnerabilities and human error can expose critical infrastructure to significant security risks.",
+      "angle": "Highlights the growing necessity for physical security providers to integrate robust cyber-resilience and third-party risk management into service offerings.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d8f4f664b46c7a56",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -568,20 +582,6 @@
       "score": 75,
       "summary": "Milestone Systems has maintained its position as the leading provider of video management software and VSaaS in the EMEA region, holding a 19.1 per cent market share.",
       "angle": "Highlights the growing market demand for open, cloud-based video platforms and AI-driven operational intelligence in UK security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f862e8c3963c0d0b",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "A smarter, more sustainable choice for video management",
-      "url": "https://securityjournaluk.com/smarter-more-sustainable-video-management/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-28T06:30:00+00:00",
-      "first_seen": "2026-09-28T06:48:30.619992+00:00",
-      "score": 75,
-      "summary": "Video Management Servers Ltd. is promoting the use of professionally renewed enterprise-grade server hardware to reduce carbon emissions and costs for security infrastructure deployments.",
-      "angle": "Increasing client demand for ESG-compliant, sustainable, and cost-effective security infrastructure creates a competitive differentiator for systems integrators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -683,20 +683,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1b77f5ce94b5679f",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "IBC 2026: Splats, Sync and Scene-Aware Cameras",
-      "url": "https://postperspective.com/ibc-2026-splats-sync-and-scene-aware-cameras/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-21T18:26:30+00:00",
-      "first_seen": "2026-09-22T14:07:53.020787+00:00",
-      "score": 85,
-      "summary": "IBC 2026 showcased advancements in AI-driven post-production tools, including automated editing assistants, lip-sync localisation platforms, and Gaussian splatting for photorealistic 3D environment creation.",
-      "angle": "Emerging AI and spatial capture technologies are significantly altering post-production workflows, efficiency, and asset creation capabilities.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "c3ca5aea9aea03a6",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -781,6 +767,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "fe6785487219a50e",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Accenture ( ACN ) Q4 2026 Earnings Call Transcript",
+      "url": "https://www.aol.com/articles/accenture-acn-q4-2026-earnings-022853000.html",
+      "source": "aol.com",
+      "published_at": "2026-10-02T04:15:00+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 85,
+      "summary": "Accenture reported strong demand for advanced AI services, with over 400 clients initiating projects in fiscal 2026 and a workforce of 110,000 dedicated AI and data professionals.",
+      "angle": "Demonstrates accelerating enterprise demand for large-scale AI transformation and the competitive landscape for AI-specialised talent and services.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "5c4913e0f0fc7a57",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -793,20 +793,6 @@
       "summary": "The article argues that as general-purpose AI models converge, competitive advantage shifts toward platforms that leverage proprietary, sector-specific data to provide actionable, outcome-based business advice.",
       "angle": "Highlights the critical shift from generic AI assistants to context-aware, proprietary data-driven sovereign and enterprise AI solutions.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ac512dd24e0a7eb2",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Bell signs agreement with Cisco to collaborate on sovereign AI infrastructure",
-      "url": "https://toronto.citynews.ca/2026/09/29/bell-signs-agreement-with-cisco-to-collaborate-on-sovereign-ai-infrastructure/",
-      "source": "toronto.citynews.ca",
-      "published_at": "2026-09-29T17:45:00+00:00",
-      "first_seen": "2026-09-30T06:49:14.526691+00:00",
-      "score": 85,
-      "summary": "Bell Canada and Cisco have signed a memorandum of understanding to provide sovereign AI infrastructure, leveraging Cisco's networking and security technologies for Canadian organisations.",
-      "angle": "Demonstrates major telecommunications providers partnering with hardware giants to capture the growing demand for sovereign AI infrastructure.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "460cfa1ddf635422",
@@ -935,45 +921,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "578d6145da6dba1c",
+      "id": "b5186a14857aaef5",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Non-invasive PGT-A did not improve pregnancy rates",
-      "url": "https://www.progress.org.uk/non-invasive-pgt-a-did-not-improve-pregnancy-rates/",
+      "title": "Giving more choices to survivors of childhood cancer",
+      "url": "https://www.progress.org.uk/giving-more-choices-to-survivors-of-childhood-cancer/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-21T15:53:44+00:00",
-      "first_seen": "2026-09-22T06:48:54.210071+00:00",
-      "score": 85,
-      "summary": "A clinical trial of 1152 patients found that non-invasive PGT-A did not improve ongoing pregnancy rates compared to standard morphology, though it significantly reduced early miscarriage rates.",
-      "angle": "Provides critical clinical evidence regarding the efficacy of emerging non-invasive genetic testing technologies in IVF treatment protocols.",
+      "published_at": "2026-09-28T15:41:22+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 65,
+      "summary": "Researchers have successfully reprogrammed testicular somatic cells from childhood cancer survivors into induced pluripotent stem cells, potentially offering a future pathway to restore fertility in patients.",
+      "angle": "Advances in in vitro gametogenesis and stem cell research represent long-term technological shifts in fertility restoration and reproductive medicine.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b73fdb991e801b02",
+      "id": "a87598c5ec4e1809",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "The Genetics of Infertility: Causes, Choices and Treatments",
-      "url": "https://www.progress.org.uk/the-genetics-of-infertility-causes-choices-and-treatments/",
+      "title": "FILM: What Does the NICE Fertility Guideline Update Mean for You?",
+      "url": "https://www.progress.org.uk/film-what-does-the-nice-fertility-guideline-update-mean-for-you/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-21T15:48:37+00:00",
-      "first_seen": "2026-09-22T06:48:54.210071+00:00",
-      "score": 85,
-      "summary": "Recent clinical research highlights that genetic testing and sequencing are increasingly identifying causes of previously unexplained infertility, though diagnostic utility remains an evolving area between research and clinical practice.",
-      "angle": "Advancements in reproductive genomics and diagnostic gene panels are set to reshape clinical infertility assessment and treatment pathways.",
+      "published_at": "2026-09-28T15:40:10+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 65,
+      "summary": "The UK's National Institute for Health and Care Excellence has updated its fertility guidelines, recommending up to three additional NHS-funded IVF cycles for patients with unsuccessful initial treatments.",
+      "angle": "Significant shifts in public funding and clinical guidelines often influence global fertility policy and private sector service demand.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5ab0dbb5c0b97f3d",
+      "id": "47b09d1988ffcf2b",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Event Review: From Concealment to Recognition – Ethics and lived experiences of insemination fraud",
-      "url": "https://www.progress.org.uk/event-review-from-concealment-to-recognition-ethics-and-lived-experiences-of-insemination-fraud/",
+      "title": "UK Government to offer bereavement leave after failed IVF transfers",
+      "url": "https://www.progress.org.uk/uk-to-offer-bereavement-leave-after-failed-ivf-transfers/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-21T15:38:12+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 75,
-      "summary": "Academic research highlights the profound ethical, legal, and psychological consequences of insemination fraud, exacerbated by the increasing prevalence of commercial DNA testing and inadequate historical record-keeping.",
-      "angle": "Highlights rising regulatory and reputational risks regarding patient consent, data integrity, and long-term clinical record-keeping standards.",
+      "published_at": "2026-09-28T15:36:24+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 65,
+      "summary": "The UK Government will introduce a legal right to two weeks of unpaid bereavement leave for employees experiencing pregnancy loss or failed IVF embryo transfers from April 2027.",
+      "angle": "Signals a growing regulatory and societal shift toward formalising workplace support for patients undergoing fertility treatments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1033,6 +1019,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0473a9bcad4f64c8",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Runway moves into robotics with open-weight Praxis-1 AI model",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-01T18:12:54+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 85,
+      "summary": "Runway has introduced Praxis-1, an open-weight 'world action model' that uses large-scale video pretraining to enable robots to understand physical environments and object behaviour.",
+      "angle": "Reduces reliance on expensive, proprietary robot-generated training data by leveraging internet video for physical AI policy development.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "eff04183bd3b2f62",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "ANYbotics launches Shift platform to manage autonomous robot fleets and industrial inspections",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/anybotics-launches-shift-platform-to-manage-autonomous-robot-fleets-and-industrial-inspections/105398/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-01T17:30:55+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 85,
+      "summary": "ANYbotics has launched Shift, a software platform designed to manage autonomous robot fleets and integrate inspection data directly into enterprise maintenance and asset management systems.",
+      "angle": "Highlights industry demand for hardware-agnostic fleet management and seamless integration of robotic inspection data into existing maintenance workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b187ed1607380b7a",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "RobotPlusPlus raises ‘tens of millions of dollars’ to scale working-at-height robots",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/robotplusplus-raises-tens-of-millions-of-dollars-to-scale-working-at-height-robots/105412/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-01T19:12:10+00:00",
+      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "score": 75,
+      "summary": "RobotPlusPlus has raised tens of millions of dollars to scale its embodied AI robots designed for hazardous industrial maintenance tasks across global markets.",
+      "angle": "Demonstrates strong investor appetite for autonomous industrial robotics and the shift toward scaling fleets in high-risk environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "18a77a0709266f5d",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1045,20 +1073,6 @@
       "summary": "A 2026 UK survey reveals that only 12% of manufacturers have fully integrated AI into their business systems, highlighting significant challenges in bridging OT and IT infrastructure.",
       "angle": "Highlights the critical industry-wide need for seamless software integration between autonomous hardware and existing enterprise management systems.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "24c4440cd433d1c2",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Inbolt raises $12.5 million to bring sight and intelligence to industrial robots",
-      "url": "https://roboticsandautomationnews.com/2026/09/30/inbolt-raises-12-5-million-to-bring-sight-and-intelligence-to-industrial-robots/105360/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-09-30T21:50:54+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 75,
-      "summary": "Inbolt has raised $12.5 million to expand its hardware-agnostic 3D vision and AI software, which allows industrial robots to perceive and adapt to their environments in real time.",
-      "angle": "Demonstrates growing market demand for retrofitting existing industrial robotics with real-time AI vision and adaptive control capabilities.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1067,14 +1081,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
+    "providers_succeeded": 86,
+    "queued_candidates": 105,
+    "llm_requests_attempted": 56,
+    "llm_requests_succeeded": 56,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "dropped_thin_page": 19,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 7
   }
 }
