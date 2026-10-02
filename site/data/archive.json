@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:48:32.920055+00:00",
+  "generated_at": "2026-10-02T14:08:07.227090+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -548,6 +548,36 @@
       },
       "status": "needs_review",
       "discovered_via": "Official RSS"
+    },
+    {
+      "id": "34f9a0b394c2933e",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill Acquires Teachally to Accelerate K-12 Curriculum Development and Expand AI Tools for Educators - Eagle-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeWVHVnhEdFN2eVVIQjR0cjlzN0Mya21haXYyaUgzUDZYTm1DQnJSUkxvaXlUT19SelIyVFlnWXdjZGpCMks3Y0hHUnpaeHdaWmxtd3B1SnFuT2F6SHQ4Z0J4bXNCWm1Lc0tRaVZTUzRXYXc1THN1SkNyTXZBZWtIeERybXVIVEV4UW9DVFVKWDdVLTFCNVV3aVZiS2tHQ1hhZmtjU1kwTnQ1cXBuc29qUWpDZHpTVW9zalR2eTdEa200bDE5SGJIRWhoV29zcjV3MDFGSFYyUVJSWEwxMkc0b3c1SmlzSHkzOGdtVWhYbWtIQTc3OWdHSXBPcnN2Y0tubWloNFhCRlJDNlpfdjNj?oc=5",
+      "source": "Eagle-Tribune",
+      "published_at": "2026-09-02T12:30:06+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-02T14:08:13.893673+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Acquisition",
+      "summary": "McGraw Hill has acquired Teachally to enhance its K-12 curriculum development capabilities and integrate advanced AI-driven tools for educators.",
+      "why_it_matters": "This acquisition signals a strategic move by McGraw Hill to strengthen its digital learning portfolio and leverage AI to support K-12 teaching environments, directly impacting their product roadmap and market competitiveness.",
+      "verified_facts": [
+        "McGraw Hill has acquired Teachally.",
+        "The acquisition aims to accelerate K-12 curriculum development and expand AI tools for educators."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill has acquired Teachally. This strategic move is set to accelerate the development of K-12 curriculum offerings and expand the suite of AI-powered tools available to educators. By integrating Teachally’s capabilities, McGraw Hill continues to evolve its digital learning ecosystem to better support classrooms and improve educational outcomes. This development marks an important step in the company's ongoing commitment to innovation in the edtech sector. #McGrawHill #EdTech #Innovation",
+        "investor": "McGraw Hill’s acquisition of Teachally represents a clear commitment to scaling its digital capabilities within the K-12 market. By incorporating Teachally’s AI-driven tools, the company is well-positioned to enhance its curriculum development pipeline and deliver more sophisticated, data-informed solutions to educators. This investment underscores McGraw Hill’s focus on long-term growth through the integration of high-impact technology that addresses the evolving needs of the global education sector. #McGrawHill #EducationInvestment #GrowthStrategy",
+        "people": "Congratulations to the team at McGraw Hill on the acquisition of Teachally. This partnership brings together deep expertise in curriculum development with innovative AI technology, creating new opportunities to support teachers and students across the K-12 landscape. We look forward to seeing how this collaboration enhances the tools and resources available to educators as they navigate the future of learning. A significant milestone for the McGraw Hill team as they continue to lead in the education publishing and technology space. #McGrawHill #Education #TeamGrowth"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
     }
   ]
 }
