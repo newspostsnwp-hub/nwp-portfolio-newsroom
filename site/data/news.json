@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T14:08:07.227090+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on the 12 sector developments relevant to our portfolio companies, as there are no specific updates for Clearway Group, Fertility Associates, Future Maintenance Technologies, McGraw Hill, Molinare, or Whitespace to report.",
+  "generated_at": "2026-10-03T06:48:27.869423+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, with no specific news to report from our portfolio companies.",
   "archive_story_count": 18,
-  "last_digest_sent_at": "2026-10-02T06:48:32.920055+00:00",
+  "last_digest_sent_at": "2026-10-03T06:48:27.869423+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -653,17 +653,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "85521b2f5c90343f",
+      "id": "f8f25d7c0c3a446f",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Fix It or Risk It: Every Security Breach Has an Origin Story",
-      "url": "https://postperspective.com/fix-it-or-risk-it-every-security-breach-has-an-origin-story/",
+      "title": "Maxon Cinema 4D Adds MCP Support for Claude and ChatGPT",
+      "url": "https://postperspective.com/maxon-cinema-4d-adds-mcp-support-for-claude-and-chatgpt/",
       "source": "postperspective.com",
-      "published_at": "2026-09-22T21:43:36+00:00",
-      "first_seen": "2026-09-23T06:48:43.210499+00:00",
-      "score": 85,
-      "summary": "The Trusted Partner Network has launched the 'Fix It or Risk It' campaign to encourage post-production teams to adopt routine security practices against everyday cyber vulnerabilities.",
-      "angle": "Highlights increasing industry pressure for rigorous content security protocols across collaborative, distributed post-production workflows.",
+      "published_at": "2026-09-30T23:29:31+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "score": 75,
+      "summary": "Maxon has integrated Model Context Protocol support into Cinema 4D, allowing artists to use AI assistants for repetitive technical tasks directly within their existing production workflows.",
+      "angle": "Demonstrates how AI integration is evolving to automate manual post-production tasks while maintaining artist control and security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "457ba8d4cc13f1c6",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Sector marks ‘one year countdown’ to UK DRS launches",
+      "url": "https://www.packagingnews.co.uk/top-story/sector-marks-one-year-countdown-to-uk-drs-launches-02-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-02T08:57:37+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "score": 95,
+      "summary": "The UK is entering a 12-month countdown to the 2027 launch of national Deposit Return Schemes for drink containers, including plastic bottles and cans.",
+      "angle": "Regulatory shift impacting collection infrastructure, packaging design requirements, and the circular economy for PET and aluminium containers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -695,46 +709,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "090bd517ce715c65",
+      "id": "0ee4f39ff8116d37",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Biffa urges manufacturers to review recyclability ahead of pEPR deadline",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/biffa-urges-manufacturers-to-review-recyclability-ahead-of-pepr-deadline-24-09-2026",
+      "title": "PackUK annual report shows £1.41bn fees collected",
+      "url": "https://www.packagingnews.co.uk/news/environment/marine-litter-environment/packuk-annual-report-shows-1-41bn-fees-collected-02-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-09-24T06:15:02+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "published_at": "2026-10-02T08:14:29+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
       "score": 90,
-      "summary": "Biffa is urging manufacturers to review packaging recyclability ahead of the 1 October pEPR reporting deadline to avoid high modulated fees based on the Recyclability Assessment Methodology.",
-      "angle": "Regulatory pressure on packaging recyclability directly impacts cost structures and design requirements for PET and beverage packaging manufacturers.",
+      "summary": "PackUK's annual report confirms £1.41bn in packaging waste disposal fees were collected during the first year of extended producer responsibility, with £1.34bn distributed to local authorities.",
+      "angle": "Highlights the financial impact and regulatory compliance costs of extended producer responsibility schemes on packaging manufacturers.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b8b10a60df570e17",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "‘Nearly half of businesses’ report more packaging waste under pEPR",
-      "url": "https://www.packagingnews.co.uk/top-story/nearly-half-of-businesses-report-more-packaging-waste-under-pepr-01-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-01T09:16:43+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 85,
-      "summary": "A survey of 200 British businesses indicates that 47% report increased packaging waste following the implementation of the packaging Extended Producer Responsibility (pEPR) scheme.",
-      "angle": "Regulatory compliance is driving operational complexity and increased packaging requirements across the UK supply chain.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9fbc89307dc34a7d",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI biggest risk is becoming a geopolitical dependency",
-      "url": "https://www.thenationalnews.com/business/2026/09/23/ais-biggest-risk-is-becoming-a-geopolitical-dependency/",
-      "source": "thenationalnews.com",
-      "published_at": "2026-09-23T05:45:00+00:00",
-      "first_seen": "2026-09-23T06:48:43.210499+00:00",
-      "score": 95,
-      "summary": "Geopolitical risks and export controls are driving a shift toward sovereign AI, with Gartner predicting one in five cloud workloads will move to local providers by 2027.",
-      "angle": "Validates the strategic necessity of sovereign AI infrastructure as enterprises seek to mitigate dependency on foreign-controlled AI platforms.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "fe6785487219a50e",
@@ -779,6 +765,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1c77d486f8717013",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Is Manchester poised to drive the Edge AI revolution?",
+      "url": "https://www.uktech.news/ai/is-manchester-poised-to-drive-the-edge-ai-revolution-20260930",
+      "source": "uktech.news",
+      "published_at": "2026-09-30T07:00:38+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "score": 75,
+      "summary": "Manchester is launching an Edge AI hub to bypass national compute infrastructure bottlenecks, positioning the city as a testbed for real-world AI deployment and regional innovation.",
+      "angle": "Highlights the strategic shift toward regional Edge AI as a solution to national data centre and compute capacity constraints.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "460cfa1ddf635422",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -807,6 +807,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6cd0e9a7ece1b7f6",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "One year to go | Suntory Beverage & Food GB&I comments on DRS preparation",
+      "url": "https://www.talkingretail.com/featured/one-year-to-go-suntory-beverage-food-gbi-comments-on-drs-preparation-01-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-01T14:38:20+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "score": 85,
+      "summary": "Suntory Beverage & Food GB&I highlights the one-year countdown to the UK's Deposit Return Scheme, emphasising the need for retailer collaboration to prepare return points and consumer communication.",
+      "angle": "Retailers must prepare for operational changes and infrastructure requirements regarding beverage container returns under upcoming national recycling legislation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b4021e6a0a90a328",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -818,20 +832,6 @@
       "score": 85,
       "summary": "Retailers have one year to prepare for the UK's deposit return scheme, which mandates charging refundable deposits on eligible drinks containers and managing return points from October 2027.",
       "angle": "Operational compliance and infrastructure planning for upcoming mandatory recycling legislation affecting retail store layouts and daily processes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "481f4b200dd82e92",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Usdaw welcomes home secretary’s ‘continuing commitment’ to tackling retail crime",
-      "url": "https://www.talkingretail.com/featured/usdaw-welcomes-home-secretarys-continuing-commitment-to-tackling-retail-crime-29-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-29T10:15:54+00:00",
-      "first_seen": "2026-09-29T14:08:22.514076+00:00",
-      "score": 85,
-      "summary": "The Home Secretary reaffirmed the government's commitment to neighbourhood policing and tackling retail crime, with Usdaw calling for the urgent implementation of new legal protections for shop workers.",
-      "angle": "Legislative changes to retail crime laws and increased policing directly impact operational security and staff safety in retail.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1003,6 +1003,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "352cca2b74f2684b",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Industry body A3 releases final part of safety standard for industrial mobile robots",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/industry-body-a3-releases-final-part-of-safety-standard-for-industrial-mobile-robots/105474/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-02T17:59:01+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "score": 85,
+      "summary": "The Association for Advancing Automation has released the final part of the ANSI/A3 R15.08 standard, detailing safety requirements for the ongoing operation of industrial mobile robots.",
+      "angle": "Establishes critical safety compliance benchmarks for the deployment and lifecycle management of autonomous mobile inspection systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0473a9bcad4f64c8",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1031,31 +1045,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "77b293bb694aa24e",
+      "id": "dcc675a69dab271b",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Flow Engineering raises $50 million Series B at $750 million valuation",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/flow-engineering-raises-50-million-series-b-at-750-million-valuation/105451/",
+      "title": "Aseon CEO: ‘The opportunity is to make vehicle servicing as autonomous as driving’",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/aseon-ceo-the-opportunity-is-to-make-vehicle-servicing-as-autonomous-as-driving/105477/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-02T08:21:42+00:00",
-      "first_seen": "2026-10-02T14:08:07.227090+00:00",
+      "published_at": "2026-10-02T19:28:43+00:00",
+      "first_seen": "2026-10-03T06:48:27.869423+00:00",
       "score": 75,
-      "summary": "Flow Engineering raised $50 million to scale its agentic platform, which uses AI to automate hardware development, verification, and systems engineering for complex industrial projects.",
-      "angle": "Highlights the growing trend of using AI agents to accelerate hardware development cycles and manage complex regulatory requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a8c3707ea2430566",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Autonomous warehouse robot maker Cyngn achieves ISO 27001 Certification",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/autonomous-warehouse-robot-maker-cyngn-achieves-iso-27001-certification/105445/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-02T07:32:37+00:00",
-      "first_seen": "2026-10-02T14:08:07.227090+00:00",
-      "score": 75,
-      "summary": "Autonomous warehouse robot manufacturer Cyngn has achieved ISO/IEC 27001:2022 certification for its cloud-based fleet management platform to meet enterprise security and governance requirements.",
-      "angle": "Highlights increasing enterprise demand for rigorous cybersecurity standards and independent security validation for autonomous, network-integrated robotic systems.",
+      "summary": "Aseon Labs is developing autonomous robotic pods to perform vehicle inspection, charging, and cleaning, aiming to reduce the operational constraints of centralized depots for autonomous fleets.",
+      "angle": "Highlights the growing industry focus on automating routine maintenance and inspection to improve operational efficiency for autonomous assets.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1065,14 +1065,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 121,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
+    "providers_succeeded": 91,
+    "queued_candidates": 147,
+    "llm_requests_attempted": 97,
+    "llm_requests_succeeded": 97,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
 }
