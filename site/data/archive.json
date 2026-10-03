@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T06:48:27.869423+00:00",
+  "generated_at": "2026-10-03T14:07:27.200834+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -575,6 +575,36 @@
         "concise": "We are pleased to share that McGraw Hill has acquired Teachally. This strategic move is set to accelerate the development of K-12 curriculum offerings and expand the suite of AI-powered tools available to educators. By integrating Teachally’s capabilities, McGraw Hill continues to evolve its digital learning ecosystem to better support classrooms and improve educational outcomes. This development marks an important step in the company's ongoing commitment to innovation in the edtech sector. #McGrawHill #EdTech #Innovation",
         "investor": "McGraw Hill’s acquisition of Teachally represents a clear commitment to scaling its digital capabilities within the K-12 market. By incorporating Teachally’s AI-driven tools, the company is well-positioned to enhance its curriculum development pipeline and deliver more sophisticated, data-informed solutions to educators. This investment underscores McGraw Hill’s focus on long-term growth through the integration of high-impact technology that addresses the evolving needs of the global education sector. #McGrawHill #EducationInvestment #GrowthStrategy",
         "people": "Congratulations to the team at McGraw Hill on the acquisition of Teachally. This partnership brings together deep expertise in curriculum development with innovative AI technology, creating new opportunities to support teachers and students across the K-12 landscape. We look forward to seeing how this collaboration enhances the tools and resources available to educators as they navigate the future of learning. A significant milestone for the McGraw Hill team as they continue to lead in the education publishing and technology space. #McGrawHill #Education #TeamGrowth"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "f8cf21fcb3a59173",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill K-12 Math Programs Approved by Florida Department of Education Through State Adoption Process - News-Press NOW",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQazlyTXR4Q01mejZpNVBhZ2pxOTVGWDJZaVRHRVFDOGJ5eFBJbXpkV29lY21lcTQtX2haOGdadVhOU3Y3aVlSV0ZOY1o1MkhTcF8zTXZlQnhLYmVrblhpdlpGUUtCOTRyWWRCVXFMdTFfVVJRTURCaktWTHptazF1X3pYU1VidWMteEgwdDZnVloxR1plQUs4Y0R5LUtaRWRfYVRIY2tZOExrWGFLX0hFTUVQX0tJd09fMlhiX3VEdGFKOW1vcjRBRHJFZXhmWlJFVDM2ZGRVSjhfanVMU0V5OXRsLUtzNGZOeU5MeUs0MklNUWs4cTV3SnpLUWpVdmZUaVFDVmcwQkhLbDkzdVdqaFJiQ0hhNHdRS0E?oc=5",
+      "source": "News-Press NOW",
+      "published_at": "2026-09-03T12:51:14+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-04T06:49:17.589898+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "The Florida Department of Education has officially approved McGraw Hill's K-12 mathematics programs through its state adoption process.",
+      "why_it_matters": "State-level adoption in Florida represents a significant commercial milestone, validating the quality of McGraw Hill's curriculum and securing access to a major market for its K-12 learning solutions.",
+      "verified_facts": [
+        "McGraw Hill's K-12 math programs received approval from the Florida Department of Education.",
+        "The approval was granted through the state's formal adoption process."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill’s K-12 mathematics programmes have been officially approved by the Florida Department of Education. This achievement follows the state’s rigorous adoption process, marking a significant milestone for the company’s curriculum offerings. By securing this approval, McGraw Hill continues to demonstrate its commitment to providing high-quality, standards-aligned learning materials to students and educators across Florida. This development reinforces the company’s position as a trusted partner in the K-12 education sector, ensuring that its resources meet the specific academic requirements set by the state. We look forward to seeing the positive impact these programmes will have in classrooms throughout the region. #Education #EdTech #McGrawHill",
+        "investor": "McGraw Hill has successfully navigated the Florida Department of Education’s state adoption process, securing approval for its K-12 mathematics portfolio. This regulatory milestone is a key indicator of the company’s product strength and its ability to scale within large, competitive state markets. State-level adoptions are a critical driver of long-term commercial growth in the education publishing sector, providing a stable foundation for revenue and market penetration. This success underscores the efficacy of McGraw Hill’s investment in curriculum development and its alignment with evolving educational standards. We continue to support the team as they expand their reach and deliver high-impact learning solutions to a broader student base. #Growth #Education #NextWavePartners",
+        "people": "Congratulations to the team at McGraw Hill on the recent approval of their K-12 mathematics programmes by the Florida Department of Education. Achieving state-level adoption is a testament to the hard work, pedagogical expertise, and dedication of the product and development teams involved in this process. Their commitment to creating rigorous, accessible, and effective learning tools ensures that educators have the resources they need to support student success. It is rewarding to see the team’s efforts recognised by state authorities, further solidifying McGraw Hill’s reputation for excellence in the edtech space. Well done to everyone who contributed to this significant achievement. #TeamSuccess #Education #Innovation"
       },
       "status": "ready",
       "discovered_via": "Google News RSS"

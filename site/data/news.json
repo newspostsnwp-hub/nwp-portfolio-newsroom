@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T06:48:27.869423+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, with no specific news to report from our portfolio companies.",
-  "archive_story_count": 18,
+  "generated_at": "2026-10-03T14:07:27.200834+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, with no specific news to report from Future Maintenance Technologies, Molinare, Petainer, UOE, or Whitespace.",
+  "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-03T06:48:27.869423+00:00",
   "companies": [
     {
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 3,
+      "story_count": 2,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
+  "story_count": 5,
   "todays_story_count": 0,
   "stories": [
     {
@@ -310,36 +310,6 @@
         "concise": "We are pleased to share that McGraw Hill’s 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania’s list of approved curriculum materials for evidence-based reading instruction. This recognition underscores the program's alignment with rigorous educational standards and its commitment to supporting foundational literacy development in classrooms. By meeting these state-level requirements, McGraw Hill continues to provide educators and students with high-quality, evidence-backed resources designed to improve reading outcomes. Congratulations to the team on this significant achievement in the K-5 space. #Education #Literacy #McGrawHill",
         "investor": "McGraw Hill continues to strengthen its market position in the K-5 sector, with its 'Emerge!' Science of Reading program recently securing a place on Pennsylvania’s list of approved curriculum materials. State-level approvals of this nature are key drivers for adoption, validating the efficacy of the company's learning technology and expanding its footprint within public school districts. This development reflects the ongoing demand for evidence-based pedagogical tools and highlights McGraw Hill's ability to navigate complex regulatory environments to deliver scalable, high-impact educational solutions. #EdTech #Growth #Education",
         "people": "A significant milestone for the McGraw Hill team as their 'Emerge!' K-5 Science of Reading program is now included on Pennsylvania’s list of approved curriculum materials. This achievement is a testament to the hard work and dedication of the product and pedagogical teams who have developed a curriculum grounded in evidence-based reading instruction. It is rewarding to see their commitment to improving literacy outcomes recognised at the state level, ensuring that teachers and students have access to the best possible tools for success. Well done to everyone involved in this accomplishment. #TeamSuccess #Education #ScienceOfReading"
-      },
-      "status": "ready",
-      "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "f8cf21fcb3a59173",
-      "company": "McGraw Hill",
-      "company_domain": "mheducation.com",
-      "industry": "Education publishing and edtech",
-      "title": "McGraw Hill K-12 Math Programs Approved by Florida Department of Education Through State Adoption Process - News-Press NOW",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQazlyTXR4Q01mejZpNVBhZ2pxOTVGWDJZaVRHRVFDOGJ5eFBJbXpkV29lY21lcTQtX2haOGdadVhOU3Y3aVlSV0ZOY1o1MkhTcF8zTXZlQnhLYmVrblhpdlpGUUtCOTRyWWRCVXFMdTFfVVJRTURCaktWTHptazF1X3pYU1VidWMteEgwdDZnVloxR1plQUs4Y0R5LUtaRWRfYVRIY2tZOExrWGFLX0hFTUVQX0tJd09fMlhiX3VEdGFKOW1vcjRBRHJFZXhmWlJFVDM2ZGRVSjhfanVMU0V5OXRsLUtzNGZOeU5MeUs0MklNUWs4cTV3SnpLUWpVdmZUaVFDVmcwQkhLbDkzdVdqaFJiQ0hhNHdRS0E?oc=5",
-      "source": "News-Press NOW",
-      "published_at": "2026-09-03T12:51:14+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-04T06:49:17.589898+00:00",
-      "score": 85,
-      "tier": "lead",
-      "recency": "fresh",
-      "story_type": "Product",
-      "summary": "The Florida Department of Education has officially approved McGraw Hill's K-12 mathematics programs through its state adoption process.",
-      "why_it_matters": "State-level adoption in Florida represents a significant commercial milestone, validating the quality of McGraw Hill's curriculum and securing access to a major market for its K-12 learning solutions.",
-      "verified_facts": [
-        "McGraw Hill's K-12 math programs received approval from the Florida Department of Education.",
-        "The approval was granted through the state's formal adoption process."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "We are pleased to share that McGraw Hill’s K-12 mathematics programmes have been officially approved by the Florida Department of Education. This achievement follows the state’s rigorous adoption process, marking a significant milestone for the company’s curriculum offerings. By securing this approval, McGraw Hill continues to demonstrate its commitment to providing high-quality, standards-aligned learning materials to students and educators across Florida. This development reinforces the company’s position as a trusted partner in the K-12 education sector, ensuring that its resources meet the specific academic requirements set by the state. We look forward to seeing the positive impact these programmes will have in classrooms throughout the region. #Education #EdTech #McGrawHill",
-        "investor": "McGraw Hill has successfully navigated the Florida Department of Education’s state adoption process, securing approval for its K-12 mathematics portfolio. This regulatory milestone is a key indicator of the company’s product strength and its ability to scale within large, competitive state markets. State-level adoptions are a critical driver of long-term commercial growth in the education publishing sector, providing a stable foundation for revenue and market penetration. This success underscores the efficacy of McGraw Hill’s investment in curriculum development and its alignment with evolving educational standards. We continue to support the team as they expand their reach and deliver high-impact learning solutions to a broader student base. #Growth #Education #NextWavePartners",
-        "people": "Congratulations to the team at McGraw Hill on the recent approval of their K-12 mathematics programmes by the Florida Department of Education. Achieving state-level adoption is a testament to the hard work, pedagogical expertise, and dedication of the product and development teams involved in this process. Their commitment to creating rigorous, accessible, and effective learning tools ensures that educators have the resources they need to support student success. It is rewarding to see the team’s efforts recognised by state authorities, further solidifying McGraw Hill’s reputation for excellence in the edtech space. Well done to everyone who contributed to this significant achievement. #TeamSuccess #Education #Innovation"
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
@@ -723,6 +693,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b3733587ca22cc75",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Accenture AI Strategy Gains Momentum as 400+ Clients Start Advanced AI Projects",
+      "url": "https://infotechlead.com/software/accenture-ai-strategy-gains-momentum-as-400-clients-start-advanced-ai-projects-98600",
+      "source": "infotechlead.com",
+      "published_at": "2026-10-02T09:45:00+00:00",
+      "first_seen": "2026-10-03T14:07:27.200834+00:00",
+      "score": 85,
+      "summary": "Accenture reported that over 400 clients initiated advanced AI projects in fiscal 2026, with enterprise demand shifting toward large-scale transformation and sovereign AI infrastructure.",
+      "angle": "Validates growing enterprise demand for sovereign AI and complex, large-scale integration projects within the broader market.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "709a3dc0933bcfc0",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "FIOR appoints Sir Tom Copinger - Symes to advise on AI",
+      "url": "https://itbrief.co.nz/story/fior-appoints-sir-tom-copinger-symes-to-advise-on-ai",
+      "source": "itbrief.co.nz",
+      "published_at": "2026-10-02T08:45:00+00:00",
+      "first_seen": "2026-10-03T14:07:27.200834+00:00",
+      "score": 85,
+      "summary": "FIOR has appointed former UK military commander Sir Tom Copinger-Symes as an adviser to support its development of infrastructure for controlling and securing autonomous AI agents.",
+      "angle": "Highlights the growing market focus on verifiable identity and enforceable security controls for autonomous AI agents in critical infrastructure.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "fe6785487219a50e",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -751,34 +749,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1eb314bc684d1883",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "UK launches expanded Semiconductor Catapult targeting AI hardware and defence",
-      "url": "https://www.uktech.news/semiconductor/uk-launches-expanded-semiconductor-catapult-targeting-ai-hardware-and-defence-20260929",
-      "source": "uktech.news",
-      "published_at": "2026-09-29T10:42:10+00:00",
-      "first_seen": "2026-10-02T14:08:07.227090+00:00",
-      "score": 85,
-      "summary": "The UK government has relaunched the Compound Semiconductor Applications Catapult as the Semiconductor Catapult, expanding its remit to support AI hardware development, defence, and strategic technology integration.",
-      "angle": "Provides critical infrastructure and validation pathways for UK-based sovereign AI hardware and compute supply chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1c77d486f8717013",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Is Manchester poised to drive the Edge AI revolution?",
-      "url": "https://www.uktech.news/ai/is-manchester-poised-to-drive-the-edge-ai-revolution-20260930",
-      "source": "uktech.news",
-      "published_at": "2026-09-30T07:00:38+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
-      "score": 75,
-      "summary": "Manchester is launching an Edge AI hub to bypass national compute infrastructure bottlenecks, positioning the city as a testbed for real-world AI deployment and regional innovation.",
-      "angle": "Highlights the strategic shift toward regional Edge AI as a solution to national data centre and compute capacity constraints.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "460cfa1ddf635422",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -790,20 +760,6 @@
       "score": 95,
       "summary": "The British Retail Consortium reports that retail and hospitality sectors face the highest effective tax rates in the UK, contributing to significant job losses and increased consumer prices.",
       "angle": "Highlights systemic high street tax pressures and policy advocacy relevant to operational cost management and retail viability.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cbbeca8e35cfabbd",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Unitas launches DRS support tool and implores retailers to act now",
-      "url": "https://www.talkingretail.com/news/industry-news/unitas-launches-drs-support-tool-and-urges-retailers-to-act-now-23-09-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-09-23T13:45:59+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 90,
-      "summary": "Unitas Wholesale has launched a DRS calculator to help independent retailers prepare for the operational and financial impacts of the Deposit Return Scheme launching in October 2027.",
-      "angle": "Provides critical operational guidance for independent retailers managing upcoming regulatory changes regarding container returns and deposit handling.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1066,13 +1022,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 91,
-    "queued_candidates": 147,
-    "llm_requests_attempted": 97,
-    "llm_requests_succeeded": 97,
+    "queued_candidates": 142,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 1,
-    "carried_forward": 6
+    "carried_forward": 5
   }
 }
