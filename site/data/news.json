@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T14:07:27.200834+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, with no specific news to report from Future Maintenance Technologies, Molinare, Petainer, UOE, or Whitespace.",
+  "generated_at": "2026-10-04T06:48:23.803125+00:00",
+  "digest_intro": "Good morning. Today's briefing features one portfolio update regarding McGraw Hill and the lead story, 'Is AI making your managers stupid?'",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-03T06:48:27.869423+00:00",
+  "last_digest_sent_at": "2026-10-04T06:48:23.803125+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 2,
+      "story_count": 3,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 5,
-  "todays_story_count": 0,
+  "story_count": 6,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "52c48b39cf0a668d",
@@ -283,6 +283,40 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "2103a5f47f50dc70",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "Is AI making your managers stupid ?",
+      "url": "https://www.hcamag.com/us/news/general/is-ai-making-your-managers-stupid/591775",
+      "source": "hcamag.com",
+      "published_at": "2026-09-30T19:00:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-10-04T06:48:23.803125+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "McGraw Hill collaborated with researchers from the University of California, Irvine (UC Irvine) to analyze a decade of learning data from its online math platform, revealing insights into how AI integration affects student performance and critical thinking.",
+      "why_it_matters": "The research provides empirical evidence on the impact of AI in educational settings, highlighting the importance of using AI as a pedagogical tool rather than a shortcut to ensure long-term learning outcomes.",
+      "verified_facts": [
+        "McGraw Hill partnered with UC Irvine researchers to analyze a decade of data from its online math platform.",
+        "The study examined 3.2 million learning interactions starting in 2015.",
+        "Data showed that after the launch of ChatGPT in 2022, students spent less time on text-based problems but saw a decline in performance on proctored tests."
+      ],
+      "warnings": [
+        "The article discusses broader industry trends regarding AI and management, which are not specific to McGraw Hill's corporate operations.",
+        "The research findings are based on a preprint study; further peer review may be pending."
+      ],
+      "drafts": {
+        "concise": "New research conducted by McGraw Hill and the University of California, Irvine, offers a data-driven look at the impact of AI on student learning. By analyzing over 3.2 million interactions on McGraw Hill’s online math platform since 2015, the study highlights a critical shift in student engagement following the introduction of generative AI in 2022. The findings underscore the importance of using AI as a supportive tutor rather than a replacement for independent problem-solving. As the education sector navigates the integration of new technologies, such evidence-based insights are essential for developing effective learning strategies that preserve and enhance critical thinking skills. #EdTech #AI #McGrawHill",
+        "investor": "Data-led insights remain a core component of McGraw Hill’s value proposition in the evolving edtech landscape. A recent collaboration with researchers at the University of California, Irvine, utilized a decade of platform data—covering 3.2 million learning interactions—to evaluate the impact of AI on student outcomes. The study provides a nuanced view of how generative AI influences academic performance, reinforcing the necessity for platforms that encourage deep learning over simple automation. This commitment to rigorous research and evidence-based product development ensures that McGraw Hill remains at the forefront of delivering effective, high-quality educational solutions in an increasingly AI-integrated market. #Education #DataScience #Innovation",
+        "people": "At McGraw Hill, understanding how students interact with technology is vital to fostering long-term academic success. We are pleased to highlight a significant research collaboration between our team and the University of California, Irvine. By examining 3.2 million learning interactions from our online math platform, the study provides valuable evidence on how AI tools can be best utilized to support, rather than replace, the development of critical thinking. These insights are instrumental in shaping how we design learning experiences that empower students to master complex concepts. Thank you to the researchers and our internal teams for their dedication to evidence-based education. #Learning #Research #EdTech"
+      },
+      "status": "ready",
+      "discovered_via": "GDELT"
     },
     {
       "id": "ed06f37918517fac",
@@ -607,20 +641,6 @@
       "summary": "Apple Studios visual effects workers have ratified their first IATSE contract, establishing new industry standards for wages, benefits, working hours, and artificial intelligence protections.",
       "angle": "Signals a broader industry trend toward unionisation and standardised labour costs for VFX and post-production talent.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "ec8330274fc2513c",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Beeble’s SwitchX 2.0: Native 4K, Longer Clips, Enhanced Motion",
-      "url": "https://postperspective.com/beebles-switchx-2-0-native-4k-longer-clips-enhanced-motion/",
-      "source": "postperspective.com",
-      "published_at": "2026-09-23T19:58:09+00:00",
-      "first_seen": "2026-09-26T14:07:32.527217+00:00",
-      "score": 85,
-      "summary": "Beeble has updated its SwitchX 2.0 video-to-video model, introducing native 4K output, 10-bit color depth, and improved camera tracking for VFX artists.",
-      "angle": "Advancements in AI-driven video-to-video tools are increasingly integrating into professional post-production workflows for VFX and finishing.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "f8f25d7c0c3a446f",
@@ -1021,14 +1041,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 142,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 18,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "providers_succeeded": 65,
+    "queued_candidates": 119,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
+    "dropped_no_valid_date": 31,
+    "dropped_thin_page": 4,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 5
   }
 }
