@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T06:48:23.803125+00:00",
+  "generated_at": "2026-10-04T14:07:24.975639+00:00",
   "digest_intro": "Good morning. Today's briefing features one portfolio update regarding McGraw Hill and the lead story, 'Is AI making your managers stupid?'",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-04T06:48:23.803125+00:00",
@@ -489,17 +489,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "bcf461f2ab54adff",
+      "id": "6fe856a9eab3c95c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail “making significant investments” to help ensure every parcel arrives in time for Christmas",
-      "url": "https://postandparcel.info/162897/news/e-commerce/royal-mail-making-significant-investments-to-help-ensure-every-parcel-arrives-in-time-for-christmas/",
+      "title": "FedEx Logistics begins its “next chapter” with CEVA Logistics",
+      "url": "https://postandparcel.info/162970/news/e-commerce/fedex-logistics-begins-its-next-chapter-with-ceva-logistics/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-24T14:01:48+00:00",
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 75,
-      "summary": "Royal Mail is recruiting nearly 22,000 temporary workers to manage increased parcel and mail volumes during the upcoming festive period.",
-      "angle": "Indicates seasonal capacity planning and labour market competition within the UK parcel delivery sector.",
+      "published_at": "2026-10-02T20:55:55+00:00",
+      "first_seen": "2026-10-04T14:07:24.975639+00:00",
+      "score": 65,
+      "summary": "FedEx Corp. has completed the sale of its FedEx Supply Chain subsidiary to the CMA CGM Group for an enterprise value of $1.4 billion.",
+      "angle": "Consolidation of global logistics giants impacts competitive dynamics and supply chain service capabilities within the UK market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1041,14 +1041,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 65,
-    "queued_candidates": 119,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
-    "dropped_no_valid_date": 31,
-    "dropped_thin_page": 4,
+    "providers_succeeded": 92,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
-    "carried_forward": 5
+    "skipped_recently_evaluated": 6,
+    "carried_forward": 6
   }
 }
