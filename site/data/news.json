@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T14:07:24.975639+00:00",
-  "digest_intro": "Good morning. Today's briefing features one portfolio update regarding McGraw Hill and the lead story, 'Is AI making your managers stupid?'",
+  "generated_at": "2026-10-05T06:48:29.354482+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-04T06:48:23.803125+00:00",
+  "last_digest_sent_at": "2026-10-05T06:48:29.354482+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 6,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "52c48b39cf0a668d",
@@ -447,20 +447,6 @@
   ],
   "sector_stories": [
     {
-      "id": "5913885a7bba8b69",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail to hire 22 , 000 temporary workers to keep up with Christmas demand",
-      "url": "https://www.chroniclelive.co.uk/news/uk-news/royal-mail-hire-22000-temporary-34665433",
-      "source": "chroniclelive.co.uk",
-      "published_at": "2026-09-24T14:30:00+00:00",
-      "first_seen": "2026-09-27T14:07:27.600706+00:00",
-      "score": 85,
-      "summary": "Royal Mail is recruiting 22,000 temporary workers and adding 7,500 hire vans to manage increased parcel and mail volumes during the Christmas peak period.",
-      "angle": "Indicates seasonal capacity planning and labour market competition within the UK parcel and mail delivery sector.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "c6f572fa05e463d9",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -475,20 +461,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c36050e2020ea4f2",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail to hire hundreds of temporary staff in Northern Ireland to help deliver Christmas post",
-      "url": "https://www.belfastlive.co.uk/news/belfast-news/royal-mail-hire-hundreds-temporary-34664654",
-      "source": "belfastlive.co.uk",
-      "published_at": "2026-09-24T14:30:00+00:00",
-      "first_seen": "2026-09-27T14:07:27.600706+00:00",
-      "score": 75,
-      "summary": "Royal Mail is recruiting 22,000 temporary workers and adding 7,500 hire vans to its fleet to manage increased parcel and mail volumes during the Christmas period.",
-      "angle": "Indicates seasonal capacity planning and labour market competition within the UK logistics and parcel delivery sector.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "6fe856a9eab3c95c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -500,6 +472,34 @@
       "score": 65,
       "summary": "FedEx Corp. has completed the sale of its FedEx Supply Chain subsidiary to the CMA CGM Group for an enterprise value of $1.4 billion.",
       "angle": "Consolidation of global logistics giants impacts competitive dynamics and supply chain service capabilities within the UK market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "335bfcfc52e3f9bd",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "What APAC exporters targeting Europe — and beyond — need to know.",
+      "url": "https://postandparcel.info/162924/features/e-commerce-features/what-apac-exporters-targeting-europe-and-beyond-need-to-know/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-28T10:20:46+00:00",
+      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "score": 65,
+      "summary": "Patrick Frith of Avalara discusses how APAC exporters can protect growth and navigate shifting global trade regulations in 2026.",
+      "angle": "Highlights regulatory complexities and cross-border trade challenges impacting international parcel volumes and e-commerce logistics into Europe.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "00f6669e94243844",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Evri Trials Two-Legged Delivery Robot in Europe",
+      "url": "https://postandparcel.info/162910/news/e-commerce/evri-trials-two-legged-delivery-robot-in-europe/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-28T09:43:37+00:00",
+      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "score": 65,
+      "summary": "Evri has launched a trial of a two-legged autonomous delivery robot to explore how robotics can support couriers and improve customer delivery options.",
+      "angle": "Demonstrates industry investment in autonomous last-mile technology to address labour challenges and enhance operational efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -657,6 +657,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1cd1cbeea8fe8c11",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Digital Domain’s VFX Work on Spielberg’s Disclosure Day",
+      "url": "https://postperspective.com/digital-domains-vfx-work-on-spielbergs-disclosure-day/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-01T16:07:25+00:00",
+      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "score": 65,
+      "summary": "Digital Domain served as the primary VFX vendor for Steven Spielberg’s Disclosure Day, delivering 418 shots using advanced creature-muscle systems and procedural simulation techniques.",
+      "angle": "Highlights industry-standard workflows for complex creature animation, environment reconstruction, and multi-vendor pipeline integration in high-end feature film post-production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "457ba8d4cc13f1c6",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -755,18 +769,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "5c4913e0f0fc7a57",
+      "id": "99345c1cb5ea8d9a",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "When every small business has the same AI adviser, the advice stops being an advantage",
-      "url": "https://www.uktech.news/ai/when-every-small-business-has-the-same-ai-adviser-the-advice-stops-being-an-advantage-20260929",
-      "source": "uktech.news",
-      "published_at": "2026-10-01T01:00:03+00:00",
-      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "title": "Singtel RE : AI launches token - based AI service for enterprises",
+      "url": "https://sbr.com.sg/information-technology/news/singtels-reai-launches-token-based-ai-service-enterprises",
+      "source": "sbr.com.sg",
+      "published_at": "2026-10-02T03:15:00+00:00",
+      "first_seen": "2026-10-05T06:48:29.354482+00:00",
       "score": 85,
-      "summary": "The article argues that as general-purpose AI models converge, competitive advantage shifts toward platforms that leverage proprietary, sector-specific data to provide actionable, outcome-based business advice.",
-      "angle": "Highlights the critical shift from generic AI assistants to context-aware, proprietary data-driven sovereign and enterprise AI solutions.",
-      "discovered_via": "Sector RSS"
+      "summary": "Singtel's RE:AI has launched an AI Token-as-a-Service (TaaS) platform to provide enterprises with managed access to sovereign AI infrastructure, models, and governance tools.",
+      "angle": "Highlights market demand for consumption-based, sovereign-compliant AI infrastructure and managed orchestration services for enterprise adoption.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "460cfa1ddf635422",
@@ -808,6 +822,20 @@
       "score": 85,
       "summary": "Retailers have one year to prepare for the UK's deposit return scheme, which mandates charging refundable deposits on eligible drinks containers and managing return points from October 2027.",
       "angle": "Operational compliance and infrastructure planning for upcoming mandatory recycling legislation affecting retail store layouts and daily processes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d46534970f25c422",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Leading UK publishers come together to promote magazine sales in retail",
+      "url": "https://www.talkingretail.com/news/industry-news/leading-uk-publishers-come-together-to-promote-magazine-sales-in-retail-05-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-04T23:01:56+00:00",
+      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "score": 75,
+      "summary": "Nine major UK publishers have launched a £2m campaign, coordinated by the PPA, to promote physical magazine sales and strengthen shelf presence in retail outlets.",
+      "angle": "Industry-wide effort to defend physical magazine shelf space and consumer engagement against digital media competition.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1042,13 +1070,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 92,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
+    "queued_candidates": 140,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
     "dropped_no_valid_date": 30,
     "dropped_thin_page": 17,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
 }
