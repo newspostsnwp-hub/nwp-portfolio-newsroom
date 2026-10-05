@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T06:48:29.354482+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-10-05T14:07:33.304251+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector developments, with ten items covering the broader market landscape.",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-05T06:48:29.354482+00:00",
   "companies": [
@@ -447,6 +447,20 @@
   ],
   "sector_stories": [
     {
+      "id": "eb3ceb3537c69a59",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Evri Group accelerates international growth strategy",
+      "url": "https://postandparcel.info/162973/news/e-commerce/evri-group-accelerates-international-growth-strategy/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-05T07:43:07+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
+      "score": 75,
+      "summary": "Evri Group has agreed to acquire US-based logistics enablement provider Cross Border Connect to accelerate its international growth strategy.",
+      "angle": "Highlights increasing consolidation and strategic focus on cross-border e-commerce capabilities among major UK parcel delivery competitors.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c6f572fa05e463d9",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -475,31 +489,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "335bfcfc52e3f9bd",
+      "id": "20a0479193dcdfad",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "What APAC exporters targeting Europe — and beyond — need to know.",
-      "url": "https://postandparcel.info/162924/features/e-commerce-features/what-apac-exporters-targeting-europe-and-beyond-need-to-know/",
+      "title": "Bpost to raise postage and parcel rates from January",
+      "url": "https://postandparcel.info/162968/news/e-commerce/bpost-to-raise-postage-and-parcel-rates-from-january/",
       "source": "postandparcel.info",
-      "published_at": "2026-09-28T10:20:46+00:00",
-      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "published_at": "2026-10-02T20:48:45+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
       "score": 65,
-      "summary": "Patrick Frith of Avalara discusses how APAC exporters can protect growth and navigate shifting global trade regulations in 2026.",
-      "angle": "Highlights regulatory complexities and cross-border trade challenges impacting international parcel volumes and e-commerce logistics into Europe.",
+      "summary": "Bpost will increase its postage and parcel rates from 1 January 2027, citing structurally declining mail volumes and changing operational costs.",
+      "angle": "Reflects broader European postal industry trends of rising costs and declining volumes necessitating price adjustments.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "00f6669e94243844",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Evri Trials Two-Legged Delivery Robot in Europe",
-      "url": "https://postandparcel.info/162910/news/e-commerce/evri-trials-two-legged-delivery-robot-in-europe/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-28T09:43:37+00:00",
-      "first_seen": "2026-10-05T06:48:29.354482+00:00",
-      "score": 65,
-      "summary": "Evri has launched a trial of a two-legged autonomous delivery robot to explore how robotics can support couriers and improve customer delivery options.",
-      "angle": "Demonstrates industry investment in autonomous last-mile technology to address labour challenges and enhance operational efficiency.",
+      "id": "c008642315d142dc",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Cardiff Met launches Martyn’s Law qualification",
+      "url": "https://securityjournaluk.com/cardiff-met-launches-martyns-law-qual/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-05T09:53:34+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
+      "score": 85,
+      "summary": "Cardiff Metropolitan University has launched a postgraduate qualification in Counter Terrorism Risk Management to prepare professionals for the upcoming Terrorism (Protection of Premises) Act, or Martyn’s Law.",
+      "angle": "Martyn’s Law will mandate new security compliance standards for public venues, increasing demand for expert risk management services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -545,20 +559,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d8f4f664b46c7a56",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Milestone Systems ranked number one in EMEA VMS/cloud-based security market",
-      "url": "https://securityjournaluk.com/milestone-systems-ranked-number-one-in-emea-vms-cloud-based-security-market/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-29T06:30:00+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 75,
-      "summary": "Milestone Systems has maintained its position as the leading provider of video management software and VSaaS in the EMEA region, holding a 19.1 per cent market share.",
-      "angle": "Highlights the growing market demand for open, cloud-based video platforms and AI-driven operational intelligence in UK security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "1b054b8d55b4f552",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -570,6 +570,20 @@
       "score": 75,
       "summary": "A new study warns that the proposed EU Industrial Accelerator Act may cause a significant battery supply deficit, as local production struggles to meet stringent sourcing requirements.",
       "angle": "Potential regulatory shifts and supply chain constraints for battery components impact costs and sourcing strategies for European micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2a905f62bdf51b7a",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "CATL opens largest Ning Service Centre outside Asia in Oslo",
+      "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/",
+      "source": "electrive.com",
+      "published_at": "2026-10-05T11:38:00+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
+      "score": 65,
+      "summary": "CATL has opened its largest non-Asian battery service centre in Oslo, focusing on diagnostics, repair, and recycling to extend battery lifecycles across the Nordic region.",
+      "angle": "Highlights the growing industry shift towards battery repair and circular economy models over full replacement.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -598,20 +612,6 @@
       "score": 65,
       "summary": "Vianode and FAAM have successfully demonstrated a scalable process for recycling graphite from battery production waste into high-performance anode material.",
       "angle": "Advances in circular battery supply chains could reduce long-term material costs and improve sustainability for e-bike manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "79793aae89383ed6",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Gotion targets 400 Wh/kg solid-state batteries",
-      "url": "https://www.electrive.com/2026/09/30/gotion-targets-400-wh-kg-solid-state-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-09-30T10:00:00+00:00",
-      "first_seen": "2026-09-30T14:08:19.161127+00:00",
-      "score": 65,
-      "summary": "Battery manufacturer Gotion has announced a 400 Wh/kg energy density target for its solid-state batteries, aiming for long-term production costs of approximately US$150 per kWh.",
-      "angle": "Advancements in battery energy density and cost reduction are critical for the future performance and affordability of e-bikes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -825,17 +825,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d46534970f25c422",
+      "id": "fcc640062115487f",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Leading UK publishers come together to promote magazine sales in retail",
-      "url": "https://www.talkingretail.com/news/industry-news/leading-uk-publishers-come-together-to-promote-magazine-sales-in-retail-05-10-2026/",
+      "title": "What symbol groups and suppliers can do for independents on a 0.6% year | Viewpoint: Riddhi Parekh",
+      "url": "https://www.talkingretail.com/opinion/talking-points/what-symbol-groups-and-suppliers-can-do-for-independents-on-a-0-6-year-viewpoint-riddhi-parekh-05-10-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-10-04T23:01:56+00:00",
-      "first_seen": "2026-10-05T06:48:29.354482+00:00",
+      "published_at": "2026-10-05T12:41:17+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
       "score": 75,
-      "summary": "Nine major UK publishers have launched a £2m campaign, coordinated by the PPA, to promote physical magazine sales and strengthen shelf presence in retail outlets.",
-      "angle": "Industry-wide effort to defend physical magazine shelf space and consumer engagement against digital media competition.",
+      "summary": "UK convenience sector sales grew by 0.6% in 2026 against 2.9% inflation, prompting calls for retailers to improve shelf-level data usage to drive growth.",
+      "angle": "Highlights the critical need for data-driven inventory management and stock accuracy to combat stagnant growth in independent retail.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -850,6 +850,20 @@
       "score": 95,
       "summary": "Instructure data identifies McGraw Hill as the most used learning tool integration in U.S. higher education, while dedicated AI tools have yet to achieve significant institutional scale.",
       "angle": "Validates the continued dominance of established digital publishing platforms over emerging AI-native tools in higher education workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4474485908b8bf03",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Technology Officers Navigating ‘Age of Perpetual Change’",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/10/05/higher-ed-tech-officers-navigating-age",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-05T07:00:00+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
+      "score": 85,
+      "summary": "The 2027 Educause Top 10 list identifies determining AI's value, data governance, and future-proofing students as the primary strategic priorities for higher education technology leaders.",
+      "angle": "Highlights institutional demand for evidence-based AI integration and the urgent need for human-centric, purposeful educational technology solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -878,20 +892,6 @@
       "score": 85,
       "summary": "A survey of 600 prospective students indicates that adult learners value competency-based education but require structured support, instructor interaction, and deadlines to ensure academic success and completion.",
       "angle": "Highlights the necessity of balancing flexible, self-paced learning models with structured support to improve student retention and outcomes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "80c785c85bf2fa5c",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Colleges Are Losing Young Men. What Brings Them Back?",
-      "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/09/25/colleges-are-losing-young-men-what-brings-them-back",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-25T07:00:00+00:00",
-      "first_seen": "2026-09-26T14:07:32.527217+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are facing declining male enrollment and are exploring new strategies to improve retention, including mentorship programs and alternative career pathways like apprenticeships.",
-      "angle": "Highlights shifting demand for higher education and the need for institutions to prove value and support diverse student demographics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -937,17 +937,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "47b09d1988ffcf2b",
+      "id": "610aec3fe662a172",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "UK Government to offer bereavement leave after failed IVF transfers",
-      "url": "https://www.progress.org.uk/uk-to-offer-bereavement-leave-after-failed-ivf-transfers/",
+      "title": "How war is driving a new wave of scientific innovation in Ukraine",
+      "url": "https://www.progress.org.uk/how-war-is-driving-a-new-wave-of-scientific-innovation-in-ukraine/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-28T15:36:24+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
+      "published_at": "2026-09-28T15:38:15+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
       "score": 65,
-      "summary": "The UK Government will introduce a legal right to two weeks of unpaid bereavement leave for employees experiencing pregnancy loss or failed IVF embryo transfers from April 2027.",
-      "angle": "Signals a growing regulatory and societal shift toward formalising workplace support for patients undergoing fertility treatments.",
+      "summary": "Ukrainian legislation now permits the posthumous use of frozen sperm from deceased soldiers, highlighting evolving legal and ethical frameworks regarding reproductive rights during wartime.",
+      "angle": "Highlights emerging legal precedents and ethical complexities in reproductive medicine and posthumous fertility treatment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7cb114b8c36cac75",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction firms prepare to put up prices as costs bite",
+      "url": "https://www.constructionnews.co.uk/sections/data/construction-firms-prepare-to-put-up-prices-as-costs-bite-05-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-05T11:45:24+00:00",
+      "first_seen": "2026-10-05T14:07:33.304251+00:00",
+      "score": 90,
+      "summary": "Thirty-two per cent of construction businesses expect to raise prices in October due to rising costs, the highest proportion recorded since February 2023.",
+      "angle": "Highlights widespread inflationary pressure and supply chain cost volatility affecting the UK construction products sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -990,20 +1004,6 @@
       "score": 85,
       "summary": "UK construction activity remains subdued, with detailed planning approvals declining by 13 per cent and project starts falling by 28 per cent compared to the previous year.",
       "angle": "Declining project starts and planning approvals indicate a softening pipeline for residential and commercial glazing installations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2fdd1aa16ca3bf70",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Berkeley subsidiary and Lindner Prater fined £1.3m over death of passerby",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/berkeley-subsidiary-and-lindner-prater-fined-1-3m-over-death-of-passerby-25-09-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-09-25T11:45:21+00:00",
-      "first_seen": "2026-09-25T14:16:52.086687+00:00",
-      "score": 85,
-      "summary": "A Berkeley Group subsidiary and Lindner Prater were fined £1.3m after a 130kg window fell from a high-rise development, killing a pedestrian in 2018.",
-      "angle": "Highlights critical importance of rigorous design risk assessment and safety protocols for high-level glazing and window installations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,12 +1069,12 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 140,
-    "llm_requests_attempted": 92,
-    "llm_requests_succeeded": 92,
+    "providers_succeeded": 86,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 5,
     "carried_forward": 6
