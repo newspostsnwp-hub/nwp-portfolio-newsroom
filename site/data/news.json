@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T14:07:33.304251+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector developments, with ten items covering the broader market landscape.",
+  "generated_at": "2026-10-06T06:48:23.516849+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-wide updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-05T06:48:29.354482+00:00",
+  "last_digest_sent_at": "2026-10-06T06:48:23.516849+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -475,6 +475,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "00f6669e94243844",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Evri Trials Two-Legged Delivery Robot in Europe",
+      "url": "https://postandparcel.info/162910/news/e-commerce/evri-trials-two-legged-delivery-robot-in-europe/",
+      "source": "postandparcel.info",
+      "published_at": "2026-09-28T09:43:37+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 75,
+      "summary": "Evri is trialling a two-legged autonomous delivery robot to explore how robotics can support couriers and enhance customer choice and convenience.",
+      "angle": "Demonstrates industry-wide investment in autonomous last-mile delivery technology to improve operational efficiency and courier support.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6fe856a9eab3c95c",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -489,17 +503,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "20a0479193dcdfad",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Bpost to raise postage and parcel rates from January",
-      "url": "https://postandparcel.info/162968/news/e-commerce/bpost-to-raise-postage-and-parcel-rates-from-january/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-02T20:48:45+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 65,
-      "summary": "Bpost will increase its postage and parcel rates from 1 January 2027, citing structurally declining mail volumes and changing operational costs.",
-      "angle": "Reflects broader European postal industry trends of rising costs and declining volumes necessitating price adjustments.",
+      "id": "fd6ce40a545989ab",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Are you ready for Martyn’s Law?",
+      "url": "https://securityjournaluk.com/aucso-are-you-ready-for-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-06T06:45:00+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 90,
+      "summary": "The Association of University Chief Security Officers has launched resources to help higher education institutions prepare for the Terrorism (Protection of Premises) Act 2025, also known as Martyn’s Law.",
+      "angle": "Martyn's Law introduces new regulatory compliance and security requirements for public-facing premises, impacting demand for site security services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -542,20 +556,6 @@
       "score": 85,
       "summary": "ZeroEyes has partnered with Samson Security to introduce AI-powered, human-verified weapon and threat detection technology to the UK market using existing CCTV infrastructure.",
       "angle": "Highlights increasing demand for proactive, AI-driven security monitoring solutions in response to Martyn's Law compliance requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4235db050db66e50",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "What airports can learn from the Manchester cyber-attack",
-      "url": "https://securityjournaluk.com/airports-manchester-cyber-attack/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-01T07:31:00+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 75,
-      "summary": "The Manchester Airport Group cyber-attack, which compromised 8.7 million records, highlights how third-party database vulnerabilities and human error can expose critical infrastructure to significant security risks.",
-      "angle": "Highlights the growing necessity for physical security providers to integrate robust cyber-resilience and third-party risk management into service offerings.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -643,6 +643,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "4a1074323b471367",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Ambassadors’ In-House AI Workflow Platform Available to All",
+      "url": "https://postperspective.com/ambassadors-in-house-ai-workflow-platform-available-to-all/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-05T18:43:38+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 75,
+      "summary": "Creative production company Ambassadors has launched Mosa, a visual workflow platform that integrates various AI models and tools into a single, automated process for consistent asset production.",
+      "angle": "Highlights the industry shift toward integrating fragmented AI tools into unified, scalable, and cost-transparent production workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f8f25d7c0c3a446f",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -654,20 +668,6 @@
       "score": 75,
       "summary": "Maxon has integrated Model Context Protocol support into Cinema 4D, allowing artists to use AI assistants for repetitive technical tasks directly within their existing production workflows.",
       "angle": "Demonstrates how AI integration is evolving to automate manual post-production tasks while maintaining artist control and security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1cd1cbeea8fe8c11",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Digital Domain’s VFX Work on Spielberg’s Disclosure Day",
-      "url": "https://postperspective.com/digital-domains-vfx-work-on-spielbergs-disclosure-day/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-01T16:07:25+00:00",
-      "first_seen": "2026-10-05T06:48:29.354482+00:00",
-      "score": 65,
-      "summary": "Digital Domain served as the primary VFX vendor for Steven Spielberg’s Disclosure Day, delivering 418 shots using advanced creature-muscle systems and procedural simulation techniques.",
-      "angle": "Highlights industry-standard workflows for complex creature animation, environment reconstruction, and multi-vendor pipeline integration in high-end feature film post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -895,6 +895,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0668f510722cedfb",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "ICSI and ovarian stimulation linked to different patterns in children's DNA",
+      "url": "https://www.progress.org.uk/icsi-and-ovarian-stimulation-linked-to-different-patterns-in-childrens-dna/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-10-05T16:30:42+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 85,
+      "summary": "A large-scale study published in Nature Medicine links specific fertility procedures, including ICSI and ovarian stimulation, to distinct patterns of de novo mutations in offspring.",
+      "angle": "Provides clinical evidence on genetic risks associated with standard IVF procedures, potentially influencing future treatment protocols and patient counselling.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "70ccb3cc99c81490",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -909,45 +923,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b5186a14857aaef5",
+      "id": "ce86504cf965a586",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Giving more choices to survivors of childhood cancer",
-      "url": "https://www.progress.org.uk/giving-more-choices-to-survivors-of-childhood-cancer/",
+      "title": "Age limits for fertility patients – a medical or societal matter?",
+      "url": "https://www.progress.org.uk/age-limits-for-fertility-patients-a-medical-or-societal-matter/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-28T15:41:22+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 65,
-      "summary": "Researchers have successfully reprogrammed testicular somatic cells from childhood cancer survivors into induced pluripotent stem cells, potentially offering a future pathway to restore fertility in patients.",
-      "angle": "Advances in in vitro gametogenesis and stem cell research represent long-term technological shifts in fertility restoration and reproductive medicine.",
+      "published_at": "2026-10-05T16:34:54+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 75,
+      "summary": "A 2026 PET and ESHRE survey indicates that public opinion in several European countries supports implementing upper age limits for fertility treatment, regardless of funding source.",
+      "angle": "Highlights growing regulatory and societal pressure to formalise age-based access restrictions in international fertility markets.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a87598c5ec4e1809",
+      "id": "c453186ecae67195",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "FILM: What Does the NICE Fertility Guideline Update Mean for You?",
-      "url": "https://www.progress.org.uk/film-what-does-the-nice-fertility-guideline-update-mean-for-you/",
+      "title": "British patients left in limbo after Portuguese IVF clinic closes",
+      "url": "https://www.progress.org.uk/british-patients-left-in-limbo-after-portuguese-ivf-clinic-closes/",
       "source": "bionews.org.uk",
-      "published_at": "2026-09-28T15:40:10+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 65,
-      "summary": "The UK's National Institute for Health and Care Excellence has updated its fertility guidelines, recommending up to three additional NHS-funded IVF cycles for patients with unsuccessful initial treatments.",
-      "angle": "Significant shifts in public funding and clinical guidelines often influence global fertility policy and private sector service demand.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "610aec3fe662a172",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "How war is driving a new wave of scientific innovation in Ukraine",
-      "url": "https://www.progress.org.uk/how-war-is-driving-a-new-wave-of-scientific-innovation-in-ukraine/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-28T15:38:15+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 65,
-      "summary": "Ukrainian legislation now permits the posthumous use of frozen sperm from deceased soldiers, highlighting evolving legal and ethical frameworks regarding reproductive rights during wartime.",
-      "angle": "Highlights emerging legal precedents and ethical complexities in reproductive medicine and posthumous fertility treatment.",
+      "published_at": "2026-10-05T16:28:57+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 75,
+      "summary": "Portuguese fertility clinic Ovom Care has declared insolvency, leaving hundreds of patients, including many British citizens, with disrupted treatment and concerns over stored reproductive materials.",
+      "angle": "Highlights risks of cross-border fertility service models and the critical importance of patient data and gamete security protocols.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,6 +1007,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "14dee9ac3651b9e7",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "SafeWorld emerges from stealth with $12.2 million to develop robot safety simulation technology",
+      "url": "https://roboticsandautomationnews.com/2026/10/05/safeworld-emerges-from-stealth-with-12-2-million-to-develop-robot-safety-simulation-technology/105530/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-05T19:32:44+00:00",
+      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "score": 85,
+      "summary": "SafeWorld has raised $12.2 million to develop an AI-powered simulation platform designed to automate safety testing and edge-case validation for autonomous robots in physical environments.",
+      "angle": "Provides a scalable, high-fidelity simulation alternative to costly physical field trials for validating autonomous robot safety.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "352cca2b74f2684b",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1047,20 +1061,6 @@
       "summary": "ANYbotics has launched Shift, a software platform designed to manage autonomous robot fleets and integrate inspection data directly into enterprise maintenance and asset management systems.",
       "angle": "Highlights industry demand for hardware-agnostic fleet management and seamless integration of robotic inspection data into existing maintenance workflows.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dcc675a69dab271b",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Aseon CEO: ‘The opportunity is to make vehicle servicing as autonomous as driving’",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/aseon-ceo-the-opportunity-is-to-make-vehicle-servicing-as-autonomous-as-driving/105477/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-02T19:28:43+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
-      "score": 75,
-      "summary": "Aseon Labs is developing autonomous robotic pods to perform vehicle inspection, charging, and cleaning, aiming to reduce the operational constraints of centralized depots for autonomous fleets.",
-      "angle": "Highlights the growing industry focus on automating routine maintenance and inspection to improve operational efficiency for autonomous assets.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 86,
+    "providers_succeeded": 92,
+    "queued_candidates": 145,
+    "llm_requests_attempted": 95,
+    "llm_requests_succeeded": 95,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 19,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
 }
