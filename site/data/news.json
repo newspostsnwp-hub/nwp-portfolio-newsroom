@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T06:48:23.516849+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-wide updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-10-06T14:07:39.612241+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-06T06:48:23.516849+00:00",
   "companies": [
@@ -447,6 +447,34 @@
   ],
   "sector_stories": [
     {
+      "id": "95d2dd673feac9ef",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Parcelhero: the sector needs demand to arrive quickly",
+      "url": "https://postandparcel.info/162986/news/e-commerce/parcelhero-the-sector-needs-demand-to-arrive-quickly/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-06T04:07:35+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "score": 85,
+      "summary": "The UK's transport and storage sector is entering the peak trading season on the back foot, according to the latest ONS Business Insights and Conditions Survey.",
+      "angle": "Provides critical macroeconomic sentiment regarding sector-wide performance expectations ahead of the vital peak trading period.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "8494645cda56e764",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "YEEP! targets 5,000 locations by year-end",
+      "url": "https://postandparcel.info/163016/news/e-commerce/yeep-open-locker-operator-targets-5000-locations-by-year-end/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-06T13:08:45+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "score": 75,
+      "summary": "Parcel locker operator YEEP! has reached 4,000 UK locations and is preparing to deploy its new Generation 3 touchscreen lockers.",
+      "angle": "Highlights the rapid expansion of automated locker infrastructure, a key competitor to traditional last-mile delivery and collection services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "eb3ceb3537c69a59",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -472,34 +500,6 @@
       "score": 75,
       "summary": "Research from Scurri indicates that 58% of UK enterprise retailers intend to use automated AI systems to manage their delivery strategies and carrier operations.",
       "angle": "Increasing retailer adoption of AI-driven delivery management platforms shifts operational expectations and integration requirements for logistics providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "00f6669e94243844",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Evri Trials Two-Legged Delivery Robot in Europe",
-      "url": "https://postandparcel.info/162910/news/e-commerce/evri-trials-two-legged-delivery-robot-in-europe/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-28T09:43:37+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
-      "score": 75,
-      "summary": "Evri is trialling a two-legged autonomous delivery robot to explore how robotics can support couriers and enhance customer choice and convenience.",
-      "angle": "Demonstrates industry-wide investment in autonomous last-mile delivery technology to improve operational efficiency and courier support.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6fe856a9eab3c95c",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "FedEx Logistics begins its “next chapter” with CEVA Logistics",
-      "url": "https://postandparcel.info/162970/news/e-commerce/fedex-logistics-begins-its-next-chapter-with-ceva-logistics/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-02T20:55:55+00:00",
-      "first_seen": "2026-10-04T14:07:24.975639+00:00",
-      "score": 65,
-      "summary": "FedEx Corp. has completed the sale of its FedEx Supply Chain subsidiary to the CMA CGM Group for an enterprise value of $1.4 billion.",
-      "angle": "Consolidation of global logistics giants impacts competitive dynamics and supply chain service capabilities within the UK market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,6 +573,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d4288566c7e7cc6c",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Researchers explore potential of lithium-sulphur batteries",
+      "url": "https://www.electrive.com/2026/10/06/researchers-explore-potential-of-lithium-sulphur-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-10-06T12:01:12+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "score": 65,
+      "summary": "Researchers have developed a lithium-sulphur battery prototype using chlorine integration that increases energy density and operating voltage compared to conventional systems.",
+      "angle": "Advancements in battery chemistry could eventually offer lighter, higher-capacity power solutions for the micromobility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2a905f62bdf51b7a",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -598,20 +612,6 @@
       "score": 65,
       "summary": "A T&E analysis suggests that European battery cell production will be sufficient to meet demand by 2030, potentially influencing future EU local content requirements for electric vehicles.",
       "angle": "Regulatory shifts in battery supply chain requirements could impact component sourcing and costs for European micromobility manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f963490dcc4b266a",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Vianode and FAAM report successful graphite recycling from battery waste",
-      "url": "https://www.electrive.com/2026/09/30/vianode-and-faam-report-successful-graphite-recycling-from-battery-waste/",
-      "source": "electrive.com",
-      "published_at": "2026-09-30T10:30:00+00:00",
-      "first_seen": "2026-09-30T14:08:19.161127+00:00",
-      "score": 65,
-      "summary": "Vianode and FAAM have successfully demonstrated a scalable process for recycling graphite from battery production waste into high-performance anode material.",
-      "angle": "Advances in circular battery supply chains could reduce long-term material costs and improve sustainability for e-bike manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -713,18 +713,32 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0ee4f39ff8116d37",
+      "id": "9aed6ed5db658cdd",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "PackUK annual report shows £1.41bn fees collected",
-      "url": "https://www.packagingnews.co.uk/news/environment/marine-litter-environment/packuk-annual-report-shows-1-41bn-fees-collected-02-10-2026",
+      "title": "Conservatives float ending pEPR in regulatory overhaul",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/conservatives-float-ending-pepr-in-regulatory-overhaul-06-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-02T08:14:29+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
+      "published_at": "2026-10-06T10:47:27+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
       "score": 90,
-      "summary": "PackUK's annual report confirms £1.41bn in packaging waste disposal fees were collected during the first year of extended producer responsibility, with £1.34bn distributed to local authorities.",
-      "angle": "Highlights the financial impact and regulatory compliance costs of extended producer responsibility schemes on packaging manufacturers.",
+      "summary": "The UK Conservative Party has proposed scrapping the Extended Producer Responsibility for packaging (pEPR) regime if they form a future government, labelling it an administrative burden.",
+      "angle": "Potential removal of pEPR would significantly alter the regulatory and cost landscape for UK-based packaging manufacturers.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "534e2ff15eca49a7",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Sovereign AI becoming global priority as firms seek alternatives to US, China: Mistral CEO - Tech - Business - Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZkdJcm1HZGxSaXRNRDdnU0xQTWhUQ1IxSWtsa0s4WHlkSjJ3d2syS3ZrTzFFMldQd3BtUDFnSk9LaTgxWjRMWEFDdmpkMVNZSnV6SGhKYktqbldGNHpiTUJTbERObXZ4dHVDT3JsdEhDQWdNaG12cEJtRUNvSzBWcXJoS013YWJLMWxOQXItLTVrajBLN051dWF0UEpjTzJQVWI4c2xFRWctWmItWWQ0RWJuVWdBX3c2YkdHM2RzZ0Z1dw?oc=5",
+      "source": "Ahram Online",
+      "published_at": "2026-10-06T08:18:15+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "score": 90,
+      "summary": "Mistral AI's CEO states that sovereign AI is becoming a global priority as organisations seek alternatives to US and Chinese technology providers.",
+      "angle": "Validates the growing market demand for independent, non-aligned AI infrastructure and sovereign technology solutions.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "b3733587ca22cc75",
@@ -769,20 +783,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "99345c1cb5ea8d9a",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Singtel RE : AI launches token - based AI service for enterprises",
-      "url": "https://sbr.com.sg/information-technology/news/singtels-reai-launches-token-based-ai-service-enterprises",
-      "source": "sbr.com.sg",
-      "published_at": "2026-10-02T03:15:00+00:00",
-      "first_seen": "2026-10-05T06:48:29.354482+00:00",
-      "score": 85,
-      "summary": "Singtel's RE:AI has launched an AI Token-as-a-Service (TaaS) platform to provide enterprises with managed access to sovereign AI infrastructure, models, and governance tools.",
-      "angle": "Highlights market demand for consumption-based, sovereign-compliant AI infrastructure and managed orchestration services for enterprise adoption.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "460cfa1ddf635422",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -794,6 +794,20 @@
       "score": 95,
       "summary": "The British Retail Consortium reports that retail and hospitality sectors face the highest effective tax rates in the UK, contributing to significant job losses and increased consumer prices.",
       "angle": "Highlights systemic high street tax pressures and policy advocacy relevant to operational cost management and retail viability.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "662f2cbd6568e435",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Vape display ban would cost local shops more than £160m, says ACS",
+      "url": "https://www.talkingretail.com/featured/vape-display-ban-would-cost-local-shops-more-than-160m-says-acs-06-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-06T12:19:08+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "score": 85,
+      "summary": "The Association of Convenience Stores warns that proposed government regulations banning vape displays could cost the convenience sector over £160 million in installation expenses.",
+      "angle": "Regulatory changes regarding vape display requirements pose significant operational and capital expenditure risks for independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -822,20 +836,6 @@
       "score": 85,
       "summary": "Retailers have one year to prepare for the UK's deposit return scheme, which mandates charging refundable deposits on eligible drinks containers and managing return points from October 2027.",
       "angle": "Operational compliance and infrastructure planning for upcoming mandatory recycling legislation affecting retail store layouts and daily processes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fcc640062115487f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "What symbol groups and suppliers can do for independents on a 0.6% year | Viewpoint: Riddhi Parekh",
-      "url": "https://www.talkingretail.com/opinion/talking-points/what-symbol-groups-and-suppliers-can-do-for-independents-on-a-0-6-year-viewpoint-riddhi-parekh-05-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-05T12:41:17+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 75,
-      "summary": "UK convenience sector sales grew by 0.6% in 2026 against 2.9% inflation, prompting calls for retailers to improve shelf-level data usage to drive growth.",
-      "angle": "Highlights the critical need for data-driven inventory management and stock accuracy to combat stagnant growth in independent retail.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -965,45 +965,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "998086349d11601a",
+      "id": "b7e5493b6f8a94bd",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Housing ministry referred to prosecutors over Grenfell",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/housing-ministry-referred-to-prosecutors-over-grenfell-01-10-2026/",
+      "title": "Construction output sees slowest decline since January",
+      "url": "https://www.constructionnews.co.uk/sections/data/construction-output-sees-slowest-decline-since-january-06-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-10-01T09:42:07+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
+      "published_at": "2026-10-06T11:45:49+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
       "score": 85,
-      "summary": "The Metropolitan Police has referred the housing ministry to the Crown Prosecution Service regarding potential health and safety breaches linked to the Grenfell Tower fire.",
-      "angle": "Signals heightened regulatory scrutiny and stricter enforcement of building safety standards across the UK construction products sector.",
+      "summary": "UK construction output continued to contract in September, though the rate of decline was the slowest recorded since January 2026.",
+      "angle": "Provides critical macro-economic context on sector-wide demand, supply chain delays, and inflationary pressures affecting construction product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b704f4b9c382a433",
+      "id": "41a1de649293f29f",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Police ask CPS to consider Grenfell manslaughter charges",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/cps-asked-to-consider-grenfell-manslaughter-charges-30-09-2026/",
+      "title": "Loughborough academic named as chief construction and scientific adviser",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/loughborough-academic-appointed-as-new-chief-construction-and-scientific-advisor-06-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-09-30T11:45:54+00:00",
-      "first_seen": "2026-10-01T06:48:41.067501+00:00",
+      "published_at": "2026-10-06T11:39:19+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
       "score": 85,
-      "summary": "The Metropolitan Police have submitted files to the Crown Prosecution Service to consider charges of corporate and gross negligence manslaughter regarding the 2017 Grenfell Tower fire.",
-      "angle": "Heightened regulatory scrutiny and liability risks for manufacturers regarding fire safety compliance and building product standards.",
+      "summary": "Professor Sergio Cavalaro has been appointed as the government's chief construction and scientific adviser to oversee building safety, regulatory reform, and construction quality standards.",
+      "angle": "Signals increased regulatory scrutiny and potential future changes to building safety standards for construction products and glazing.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "37d4dac717c8cba7",
+      "id": "81d366785501685a",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "UK construction activity August 2026",
-      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-august-2026-28-09-2026/",
+      "title": "Abolishing low-carbon standard would trim new home costs by £50k, say Tories",
+      "url": "https://www.constructionnews.co.uk/government/abolishing-low-carbon-standard-would-trim-new-home-costs-by-50k-say-tories-06-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-09-28T13:21:39+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
+      "published_at": "2026-10-06T11:13:32+00:00",
+      "first_seen": "2026-10-06T14:07:39.612241+00:00",
       "score": 85,
-      "summary": "UK construction activity remains subdued, with detailed planning approvals declining by 13 per cent and project starts falling by 28 per cent compared to the previous year.",
-      "angle": "Declining project starts and planning approvals indicate a softening pipeline for residential and commercial glazing installations.",
+      "summary": "The Conservative party claims that abolishing the low-carbon Future Homes Standard could reduce new home construction costs by up to £50,000.",
+      "angle": "Regulatory shifts regarding energy efficiency standards directly impact demand for high-performance glazing and thermal rooflight products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 145,
-    "llm_requests_attempted": 95,
-    "llm_requests_succeeded": 95,
+    "providers_succeeded": 87,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 90,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 19,
+    "dropped_thin_page": 21,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
 }
