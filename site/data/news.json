@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T14:07:39.612241+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, as there are no specific developments to report from our portfolio companies.",
-  "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-06T06:48:23.516849+00:00",
+  "generated_at": "2026-10-07T06:48:34.361698+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, as there is no specific news to report from Clearway Group or Swytch.",
+  "archive_story_count": 18,
+  "last_digest_sent_at": "2026-10-07T06:48:34.361698+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -517,6 +517,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d63007808c8e6eee",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "AI: An opportunity bigger than automation",
+      "url": "https://securityjournaluk.com/ai-an-opportunity-bigger-than-automation/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-07T06:30:00+00:00",
+      "first_seen": "2026-10-07T06:48:34.361698+00:00",
+      "score": 85,
+      "summary": "The security industry is shifting from using AI as a simple tool to deploying autonomous systems capable of monitoring, triaging alerts, and coordinating operational responses.",
+      "angle": "Highlights the strategic transition toward AI-driven operational models and the critical need for robust governance in physical security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c008642315d142dc",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -545,20 +559,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8c936f10bf711115",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Human-verified threat detection bought to the UK",
-      "url": "https://securityjournaluk.com/human-verified-threat-detection-bought-to-uk/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-09-29T07:05:00+00:00",
-      "first_seen": "2026-09-29T14:08:22.514076+00:00",
-      "score": 85,
-      "summary": "ZeroEyes has partnered with Samson Security to introduce AI-powered, human-verified weapon and threat detection technology to the UK market using existing CCTV infrastructure.",
-      "angle": "Highlights increasing demand for proactive, AI-driven security monitoring solutions in response to Martyn's Law compliance requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "1b054b8d55b4f552",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -570,6 +570,20 @@
       "score": 75,
       "summary": "A new study warns that the proposed EU Industrial Accelerator Act may cause a significant battery supply deficit, as local production struggles to meet stringent sourcing requirements.",
       "angle": "Potential regulatory shifts and supply chain constraints for battery components impact costs and sourcing strategies for European micromobility manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bc58a36e7b5dce25",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Fraunhofer opens research centre in Braunschweig",
+      "url": "https://www.electrive.com/2026/10/07/fraunhofer-opens-research-centre-in-braunschweig/",
+      "source": "electrive.com",
+      "published_at": "2026-10-07T06:30:00+00:00",
+      "first_seen": "2026-10-07T06:48:34.361698+00:00",
+      "score": 65,
+      "summary": "The Fraunhofer-Gesellschaft has opened the Center for Energy Storage and Systems in Braunschweig, focusing on the development and industrial scaling of solid-state batteries and hydrogen technologies.",
+      "angle": "Advancements in solid-state battery production and scalability could eventually improve energy density and safety for e-bike systems.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -598,20 +612,6 @@
       "score": 65,
       "summary": "CATL has opened its largest non-Asian battery service centre in Oslo, focusing on diagnostics, repair, and recycling to extend battery lifecycles across the Nordic region.",
       "angle": "Highlights the growing industry shift towards battery repair and circular economy models over full replacement.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "12c91e54fa87a2b2",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "T&E analysis: sufficient European battery cells by 2030",
-      "url": "https://www.electrive.com/2026/10/01/te-analysis-sufficient-european-battery-cells-by-2030/",
-      "source": "electrive.com",
-      "published_at": "2026-10-01T12:45:00+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 65,
-      "summary": "A T&E analysis suggests that European battery cell production will be sufficient to meet demand by 2030, potentially influencing future EU local content requirements for electric vehicles.",
-      "angle": "Regulatory shifts in battery supply chain requirements could impact component sourcing and costs for European micromobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,13 +1069,13 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 143,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 90,
+    "providers_succeeded": 84,
+    "queued_candidates": 105,
+    "llm_requests_attempted": 55,
+    "llm_requests_succeeded": 55,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 21,
-    "dropped_not_about_company": 1,
+    "dropped_thin_page": 18,
+    "dropped_not_about_company": 2,
     "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
