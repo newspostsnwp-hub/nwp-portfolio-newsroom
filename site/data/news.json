@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T06:48:34.361698+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, as there is no specific news to report from Clearway Group or Swytch.",
+  "generated_at": "2026-10-07T14:07:40.396550+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 18,
   "last_digest_sent_at": "2026-10-07T06:48:34.361698+00:00",
   "companies": [
@@ -461,6 +461,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9c74791fcb60def1",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "First milestone in partnership to scale AI-powered returns handling across Europe",
+      "url": "https://postandparcel.info/162983/news/e-commerce/first-milestone-in-partnership-to-scale-ai-powered-returns-handling-across-europe/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-07T09:00:14+00:00",
+      "first_seen": "2026-10-07T14:07:40.396550+00:00",
+      "score": 75,
+      "summary": "Sereact, Zalando, and CEVA Logistics have launched AI-powered automated returns processing at fulfillment facilities in Germany and Poland.",
+      "angle": "Highlights the industry-wide shift towards automating reverse logistics through AI to improve operational efficiency in e-commerce.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8494645cda56e764",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -486,20 +500,6 @@
       "score": 75,
       "summary": "Evri Group has agreed to acquire US-based logistics enablement provider Cross Border Connect to accelerate its international growth strategy.",
       "angle": "Highlights increasing consolidation and strategic focus on cross-border e-commerce capabilities among major UK parcel delivery competitors.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c6f572fa05e463d9",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Retailers “need to be careful not to confuse their operational readiness with customer readiness”",
-      "url": "https://postandparcel.info/162932/news/e-commerce/retailers-need-to-be-careful-not-to-confuse-their-operational-readiness-with-customer-readiness/",
-      "source": "postandparcel.info",
-      "published_at": "2026-09-29T17:42:18+00:00",
-      "first_seen": "2026-09-30T06:49:14.526691+00:00",
-      "score": 75,
-      "summary": "Research from Scurri indicates that 58% of UK enterprise retailers intend to use automated AI systems to manage their delivery strategies and carrier operations.",
-      "angle": "Increasing retailer adoption of AI-driven delivery management platforms shifts operational expectations and integration requirements for logistics providers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,6 +573,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "99155e8ee657a45e",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "France set to follow Germany in softening CO2 targets",
+      "url": "https://www.electrive.com/2026/10/07/france-set-to-follow-germany-in-softening-co2-targets/",
+      "source": "electrive.com",
+      "published_at": "2026-10-07T09:30:00+00:00",
+      "first_seen": "2026-10-07T14:07:40.396550+00:00",
+      "score": 65,
+      "summary": "France and Germany are negotiating to soften EU CO2 emission targets for new cars, potentially allowing more internal combustion engine vehicles to be sold beyond 2035.",
+      "angle": "Regulatory shifts impacting the transition to electric mobility influence broader market adoption and infrastructure priorities for micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bc58a36e7b5dce25",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -598,20 +612,6 @@
       "score": 65,
       "summary": "Researchers have developed a lithium-sulphur battery prototype using chlorine integration that increases energy density and operating voltage compared to conventional systems.",
       "angle": "Advancements in battery chemistry could eventually offer lighter, higher-capacity power solutions for the micromobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2a905f62bdf51b7a",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "CATL opens largest Ning Service Centre outside Asia in Oslo",
-      "url": "https://www.electrive.com/2026/10/05/catl-opens-largest-ning-service-centre-outside-asia-in-oslo/",
-      "source": "electrive.com",
-      "published_at": "2026-10-05T11:38:00+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 65,
-      "summary": "CATL has opened its largest non-Asian battery service centre in Oslo, focusing on diagnostics, repair, and recycling to extend battery lifecycles across the Nordic region.",
-      "angle": "Highlights the growing industry shift towards battery repair and circular economy models over full replacement.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -797,6 +797,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c72e45af688e392d",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "One year to DRS: the return points nobody has planned for | Viewpoint: Nick Yeatman",
+      "url": "https://www.talkingretail.com/opinion/talking-points/one-year-to-drs-the-return-points-nobody-has-planned-for-viewpoint-nick-yeatman-07-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-07T13:24:45+00:00",
+      "first_seen": "2026-10-07T14:07:40.396550+00:00",
+      "score": 85,
+      "summary": "With the UK Deposit Return Scheme launching in twelve months, retailers are evaluating new semi-automated return technology as an alternative to manual handling or large-scale reverse vending machines.",
+      "angle": "Operational impact and compliance requirements for independent retailers preparing for mandatory container return scheme implementation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "662f2cbd6568e435",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -822,20 +836,6 @@
       "score": 85,
       "summary": "Suntory Beverage & Food GB&I highlights the one-year countdown to the UK's Deposit Return Scheme, emphasising the need for retailer collaboration to prepare return points and consumer communication.",
       "angle": "Retailers must prepare for operational changes and infrastructure requirements regarding beverage container returns under upcoming national recycling legislation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b4021e6a0a90a328",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Early preparation key to smooth DRS rollout for retailers, says RVM maker",
-      "url": "https://www.talkingretail.com/news/industry-news/early-preparation-key-to-smooth-drs-rollout-for-retailers-says-rvm-maker-01-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-01T10:55:42+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 85,
-      "summary": "Retailers have one year to prepare for the UK's deposit return scheme, which mandates charging refundable deposits on eligible drinks containers and managing return points from October 2027.",
-      "angle": "Operational compliance and infrastructure planning for upcoming mandatory recycling legislation affecting retail store layouts and daily processes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 105,
-    "llm_requests_attempted": 55,
-    "llm_requests_succeeded": 55,
+    "providers_succeeded": 85,
+    "queued_candidates": 123,
+    "llm_requests_attempted": 37,
+    "llm_requests_succeeded": 34,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 18,
-    "dropped_not_about_company": 2,
-    "skipped_recently_evaluated": 5,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 6
   }
 }
