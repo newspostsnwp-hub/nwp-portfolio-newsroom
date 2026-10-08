@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T14:07:40.396550+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-08T06:48:25.258279+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector developments, as there are no updates regarding UOE.",
   "archive_story_count": 18,
-  "last_digest_sent_at": "2026-10-07T06:48:34.361698+00:00",
+  "last_digest_sent_at": "2026-10-08T06:48:25.258279+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -797,6 +797,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4d604046880767ce",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "BRC urges Budget action as retailer energy costs rise £400m",
+      "url": "https://www.talkingretail.com/featured/brc-urges-budget-action-as-retailer-energy-costs-rise-400m-08-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-07T23:01:05+00:00",
+      "first_seen": "2026-10-08T06:48:25.258279+00:00",
+      "score": 85,
+      "summary": "The British Retail Consortium reports that UK retailers face a £440m increase in electricity costs this year, primarily driven by rising government-mandated non-commodity charges.",
+      "angle": "Rising non-commodity electricity charges create significant margin pressure for UK physical retail chains, impacting operational overheads.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c72e45af688e392d",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -811,31 +825,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "662f2cbd6568e435",
+      "id": "2afe18db06f1c48f",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Vape display ban would cost local shops more than £160m, says ACS",
-      "url": "https://www.talkingretail.com/featured/vape-display-ban-would-cost-local-shops-more-than-160m-says-acs-06-10-2026/",
+      "title": "5pm Monday revealed as Britain’s parcel rush hour",
+      "url": "https://www.talkingretail.com/featured/5pm-monday-revealed-as-britains-parcel-rush-hour-07-10-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-10-06T12:19:08+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "published_at": "2026-10-07T09:30:42+00:00",
+      "first_seen": "2026-10-08T06:48:25.258279+00:00",
       "score": 85,
-      "summary": "The Association of Convenience Stores warns that proposed government regulations banning vape displays could cost the convenience sector over £160 million in installation expenses.",
-      "angle": "Regulatory changes regarding vape display requirements pose significant operational and capital expenditure risks for independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6cd0e9a7ece1b7f6",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "One year to go | Suntory Beverage & Food GB&I comments on DRS preparation",
-      "url": "https://www.talkingretail.com/featured/one-year-to-go-suntory-beverage-food-gbi-comments-on-drs-preparation-01-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-01T14:38:20+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
-      "score": 85,
-      "summary": "Suntory Beverage & Food GB&I highlights the one-year countdown to the UK's Deposit Return Scheme, emphasising the need for retailer collaboration to prepare return points and consumer communication.",
-      "angle": "Retailers must prepare for operational changes and infrastructure requirements regarding beverage container returns under upcoming national recycling legislation.",
+      "summary": "Data from PayPoint indicates that Monday at 5pm is Britain's parcel rush hour, with 19.5% of weekly parcel transactions occurring on Mondays.",
+      "angle": "Optimising staffing and operational capacity during peak parcel traffic windows improves customer service and retail efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 123,
-    "llm_requests_attempted": 37,
-    "llm_requests_succeeded": 34,
+    "providers_succeeded": 86,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 6
   }
 }
