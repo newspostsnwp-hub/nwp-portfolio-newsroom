@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T14:07:30.108187+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, with no specific news to report from Molinare, Petainer, or UOE.",
-  "archive_story_count": 18,
-  "last_digest_sent_at": "2026-10-08T06:48:25.258279+00:00",
+  "generated_at": "2026-10-09T06:48:35.095404+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no specific news to report from our portfolio companies this morning.",
+  "archive_story_count": 17,
+  "last_digest_sent_at": "2026-10-09T06:48:35.095404+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -643,6 +643,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "92dfb69cf48c69b3",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Building a Post-Apocalyptic Denver for Ridley Scott’s The Dog Stars",
+      "url": "https://postperspective.com/building-a-post-apocalyptic-denver-for-ridley-scotts-the-dog-stars/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-08T19:19:36+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 75,
+      "summary": "London-based VFX studio BlueBolt utilized a USD-based pipeline to create extensive 3D environment builds for Ridley Scott’s film, The Dog Stars.",
+      "angle": "Highlights the industry-wide shift toward USD workflows for managing complex, large-scale 3D environment production in high-end VFX.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b57c370809446433",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -657,17 +671,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "11c2663a78456bbd",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Sohonet’s ClearView Rush: Review Platform for Studio Creative Execs",
-      "url": "https://postperspective.com/sohonets-clearview-rush-review-platform-for-studio-creative-execs/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-07T14:32:37+00:00",
-      "first_seen": "2026-10-08T14:07:30.108187+00:00",
-      "score": 75,
-      "summary": "Sohonet has launched ClearView Rush, an iPad-first review platform designed for studio creative executives to manage cuts, reels, and shots across multiple productions.",
-      "angle": "Highlights industry trends toward mobile-first, secure, and metadata-rich remote review workflows for high-end post-production.",
+      "id": "9aed6ed5db658cdd",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Conservatives float ending pEPR in regulatory overhaul",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/conservatives-float-ending-pepr-in-regulatory-overhaul-06-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-06T10:47:27+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 95,
+      "summary": "The Conservative Party has proposed scrapping the Extended Producer Responsibility for packaging (pEPR) regime, which currently requires manufacturers to contribute to local authority recycling costs.",
+      "angle": "Potential removal of pEPR would significantly alter the regulatory and cost landscape for UK packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -710,20 +724,6 @@
       "score": 95,
       "summary": "Exchange for Change has launched the initial registration process for UK-wide deposit return schemes, which are scheduled to go live in October 2027.",
       "angle": "Regulatory implementation of DRS directly impacts PET packaging compliance, producer fees, and circularity requirements for beverage manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "45369ca399750b04",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Consultation launches on plastic packaging tax mass balance standards",
-      "url": "https://www.packagingnews.co.uk/news/environment/plastic-packaging-tax/consultation-launches-on-plastic-packaging-tax-mass-balance-standards-08-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-08T11:02:36+00:00",
-      "first_seen": "2026-10-08T14:07:30.108187+00:00",
-      "score": 90,
-      "summary": "HMRC has launched a consultation on draft legislation defining mass balance standards for chemical recycling to meet UK Plastic Packaging Tax recycled content targets.",
-      "angle": "Clarifies regulatory compliance requirements for using chemically recycled plastics to meet mandatory recycled content thresholds.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -797,6 +797,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6aa4c4c4d7cc48b8",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Small shops vital to DRS results, retailer tells Labour MPs",
+      "url": "https://www.talkingretail.com/featured/small-shops-vital-to-drs-results-retailer-tells-labour-mps-08-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-08T16:00:22+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 85,
+      "summary": "Independent retailers are being urged to prepare for the October 2027 Deposit Return Scheme, highlighting potential footfall risks and the need for clear guidance for smaller shops.",
+      "angle": "Regulatory implementation of DRS creates operational challenges and potential competitive footfall shifts for independent retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4d604046880767ce",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -825,20 +839,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2afe18db06f1c48f",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "5pm Monday revealed as Britain’s parcel rush hour",
-      "url": "https://www.talkingretail.com/featured/5pm-monday-revealed-as-britains-parcel-rush-hour-07-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-07T09:30:42+00:00",
-      "first_seen": "2026-10-08T06:48:25.258279+00:00",
-      "score": 85,
-      "summary": "Data from PayPoint indicates that Monday at 5pm is Britain's parcel rush hour, with 19.5% of weekly parcel transactions occurring on Mondays.",
-      "angle": "Optimising staffing and operational capacity during peak parcel traffic windows improves customer service and retail efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "fb2e627e3d942824",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -850,6 +850,20 @@
       "score": 95,
       "summary": "Instructure data identifies McGraw Hill as the most used learning tool integration in U.S. higher education, while dedicated AI tools have yet to achieve significant institutional scale.",
       "angle": "Validates the continued dominance of established digital publishing platforms over emerging AI-native tools in higher education workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f3eb89c44a8df397",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Trump Proposes $70K Fee for Foreign Student Work Program",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/10/08/trump-admin-expects-institutions-pay-70k-opt-fee",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-08T07:00:00+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 85,
+      "summary": "The Trump administration has proposed a $70,000 fee for international students participating in Optional Practical Training, aiming to curb fraud and reduce reliance on the program.",
+      "angle": "Potential decline in international student enrollment impacts higher education revenue and demand for associated learning materials and services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -881,20 +895,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "da34a0ea94d16771",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Adult Learners Want More Than Flexibility",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/09/30/adult-learners-want-more-flexibility",
-      "source": "insidehighered.com",
-      "published_at": "2026-09-30T07:00:00+00:00",
-      "first_seen": "2026-09-30T14:08:19.161127+00:00",
-      "score": 85,
-      "summary": "A survey of 600 prospective students indicates that adult learners value competency-based education but require structured support, instructor interaction, and deadlines to ensure academic success and completion.",
-      "angle": "Highlights the necessity of balancing flexible, self-paced learning models with structured support to improve student retention and outcomes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "0668f510722cedfb",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -906,20 +906,6 @@
       "score": 85,
       "summary": "A large-scale study published in Nature Medicine links specific fertility procedures, including ICSI and ovarian stimulation, to distinct patterns of de novo mutations in offspring.",
       "angle": "Provides clinical evidence on genetic risks associated with standard IVF procedures, potentially influencing future treatment protocols and patient counselling.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "70ccb3cc99c81490",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Following birth of baby, parents allege that a Florida IVF clinic used the wrong sperm",
-      "url": "https://www.progress.org.uk/following-birth-of-baby-parents-allege-that-a-florida-ivf-clinic-used-the-wrong-sperm/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-09-28T15:34:43+00:00",
-      "first_seen": "2026-09-29T06:49:21.273395+00:00",
-      "score": 85,
-      "summary": "A Florida couple is suing Brown Fertility, alleging the clinic used the wrong sperm during their IVF treatment, resulting in a child not biologically related to the father.",
-      "angle": "Highlights critical operational risks, the necessity of robust laboratory verification protocols, and potential for significant reputational and legal damage.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -948,6 +934,20 @@
       "score": 75,
       "summary": "Portuguese fertility clinic Ovom Care has declared insolvency, leaving hundreds of patients, including many British citizens, with disrupted treatment and concerns over stored reproductive materials.",
       "angle": "Highlights risks of cross-border fertility service models and the critical importance of patient data and gamete security protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "18981659a492caae",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Better birth outcomes after fertility treatment for single mothers by choice",
+      "url": "https://www.progress.org.uk/better-birth-outcomes-after-fertility-treatment-for-single-mothers-by-choice/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-10-05T16:27:13+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 75,
+      "summary": "A UCL study of 530,000 births found that single mothers by choice who use fertility treatments experience birth outcomes comparable or superior to partnered mothers undergoing treatment.",
+      "angle": "Validates the safety of fertility services for a growing demographic, supporting demand and reducing stigma in clinical practice.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,6 +1007,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4b059a1f078de0ee",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Odyssey launches world model to control robots, humanoids, vehicles and drones",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-08T19:22:04+00:00",
+      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "score": 85,
+      "summary": "Odyssey has launched Odyssey-3, a foundation world model capable of controlling robots, drones, and vehicles by applying a generalized understanding of physics and dynamics across diverse environments.",
+      "angle": "Advances in foundation world models may accelerate autonomous navigation and complex task execution for rail and aviation inspection robots.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "14dee9ac3651b9e7",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1047,20 +1061,6 @@
       "summary": "Runway has introduced Praxis-1, an open-weight 'world action model' that uses large-scale video pretraining to enable robots to understand physical environments and object behaviour.",
       "angle": "Reduces reliance on expensive, proprietary robot-generated training data by leveraging internet video for physical AI policy development.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "eff04183bd3b2f62",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "ANYbotics launches Shift platform to manage autonomous robot fleets and industrial inspections",
-      "url": "https://roboticsandautomationnews.com/2026/10/01/anybotics-launches-shift-platform-to-manage-autonomous-robot-fleets-and-industrial-inspections/105398/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-01T17:30:55+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 85,
-      "summary": "ANYbotics has launched Shift, a software platform designed to manage autonomous robot fleets and integrate inspection data directly into enterprise maintenance and asset management systems.",
-      "angle": "Highlights industry demand for hardware-agnostic fleet management and seamless integration of robotic inspection data into existing maintenance workflows.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 97,
-    "queued_candidates": 146,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 90,
+    "queued_candidates": 147,
+    "llm_requests_attempted": 97,
+    "llm_requests_succeeded": 97,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 22,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 6
   }
 }
