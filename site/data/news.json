@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T14:07:25.676241+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-10T06:48:33.521550+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related updates, with no specific news to report from Petainer or Roof-Maker.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-09T06:48:35.095404+00:00",
+  "last_digest_sent_at": "2026-10-10T06:48:33.521550+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -671,6 +671,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "45369ca399750b04",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Consultation launches on plastic packaging tax mass balance standards",
+      "url": "https://www.packagingnews.co.uk/news/environment/plastic-packaging-tax/consultation-launches-on-plastic-packaging-tax-mass-balance-standards-08-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-08T11:02:36+00:00",
+      "first_seen": "2026-10-10T06:48:33.521550+00:00",
+      "score": 95,
+      "summary": "HMRC has launched a consultation on draft legislation defining mass balance standards for chemical recycling to meet UK Plastic Packaging Tax recycled content requirements.",
+      "angle": "Clarifies regulatory compliance pathways for using chemically recycled plastics to meet mandatory recycled content thresholds.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "9aed6ed5db658cdd",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -710,20 +724,6 @@
       "score": 95,
       "summary": "Exchange for Change has appointed five waste management partners to develop infrastructure for the UK's deposit return scheme, which launches in October 2027.",
       "angle": "Regulatory implementation of DRS directly impacts the supply chain, collection, and recycling requirements for PET beverage packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7580e5d6977c01a4",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change opens UK DRS registration process",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/exchange-for-change-opens-uk-drs-registration-process-30-09-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-09-30T07:45:52+00:00",
-      "first_seen": "2026-10-01T06:48:41.067501+00:00",
-      "score": 95,
-      "summary": "Exchange for Change has launched the initial registration process for UK-wide deposit return schemes, which are scheduled to go live in October 2027.",
-      "angle": "Regulatory implementation of DRS directly impacts PET packaging compliance, producer fees, and circularity requirements for beverage manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -965,6 +965,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2bb23aa3bdf2e813",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Half of sector busier than a year ago but caution remains, survey finds",
+      "url": "https://www.constructionnews.co.uk/sections/data/half-of-sector-busier-than-a-year-ago-but-caution-remains-survey-finds-09-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-09T11:45:30+00:00",
+      "first_seen": "2026-10-10T06:48:33.521550+00:00",
+      "score": 85,
+      "summary": "A Q3 survey indicates 52 per cent of construction firms are busier than last year, though concerns persist regarding rising costs, policy uncertainty, and potential interest rate increases.",
+      "angle": "Provides critical macroeconomic sentiment and cost inflation data impacting demand and pricing strategies for construction product suppliers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b7e5493b6f8a94bd",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -990,20 +1004,6 @@
       "score": 85,
       "summary": "Professor Sergio Cavalaro has been appointed as the government's chief construction and scientific adviser to oversee building safety, regulatory reform, and construction quality standards.",
       "angle": "Signals increased regulatory scrutiny and potential future changes to building safety standards for construction products and glazing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "81d366785501685a",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Abolishing low-carbon standard would trim new home costs by £50k, say Tories",
-      "url": "https://www.constructionnews.co.uk/government/abolishing-low-carbon-standard-would-trim-new-home-costs-by-50k-say-tories-06-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-06T11:13:32+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
-      "score": 85,
-      "summary": "The Conservative party claims that abolishing the low-carbon Future Homes Standard could reduce new home construction costs by up to £50,000.",
-      "angle": "Regulatory shifts regarding energy efficiency standards directly impact demand for high-performance glazing and thermal rooflight products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1070,11 +1070,11 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 89,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
+    "queued_candidates": 141,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 9,
     "carried_forward": 6
