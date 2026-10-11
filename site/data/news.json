@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T06:48:23.777661+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from the portfolio.",
+  "generated_at": "2026-10-11T14:07:22.423099+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, as there is no specific news to report from Molinare, Petainer, or UOE.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-10-11T06:48:23.777661+00:00",
   "companies": [
@@ -713,17 +713,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c3ca5aea9aea03a6",
+      "id": "6cb1f6eecd60ef62",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Recycling partners appointed to support DRS collections network",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-partners-appointed-to-support-drs-collections-network-01-10-2026",
+      "title": "PackUK sets out autumn pEPR roadmap as UK Packaging PRO takes greater role",
+      "url": "https://www.packagingnews.co.uk/top-story/packuk-sets-out-autumn-pepr-roadmap-as-uk-packaging-pro-takes-greater-role-09-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-01T09:25:20+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 95,
-      "summary": "Exchange for Change has appointed five waste management partners to develop infrastructure for the UK's deposit return scheme, which launches in October 2027.",
-      "angle": "Regulatory implementation of DRS directly impacts the supply chain, collection, and recycling requirements for PET beverage packaging manufacturers.",
+      "published_at": "2026-10-09T10:47:09+00:00",
+      "first_seen": "2026-10-11T14:07:22.423099+00:00",
+      "score": 90,
+      "summary": "PackUK has announced its autumn roadmap for packaging EPR, including Year 2 producer fees, a five-year strategy, and a forthcoming call for evidence on fee modulation.",
+      "angle": "Regulatory changes to EPR fees and recyclability assessment methodologies directly impact packaging manufacturers' operational costs and design requirements.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -783,20 +783,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "460cfa1ddf635422",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "High street tax burden ‘costing jobs and pushing up prices’, says BRC",
-      "url": "https://www.talkingretail.com/featured/high-street-tax-burden-costing-jobs-and-pushing-up-prices-says-brc-01-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-01T07:36:37+00:00",
-      "first_seen": "2026-10-01T14:07:24.569633+00:00",
-      "score": 95,
-      "summary": "The British Retail Consortium reports that retail and hospitality sectors face the highest effective tax rates in the UK, contributing to significant job losses and increased consumer prices.",
-      "angle": "Highlights systemic high street tax pressures and policy advocacy relevant to operational cost management and retail viability.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6aa4c4c4d7cc48b8",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -836,6 +822,20 @@
       "score": 85,
       "summary": "With the UK Deposit Return Scheme launching in twelve months, retailers are evaluating new semi-automated return technology as an alternative to manual handling or large-scale reverse vending machines.",
       "angle": "Operational impact and compliance requirements for independent retailers preparing for mandatory container return scheme implementation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7fd62c1de7bbc965",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Nearly half of small business owners suffering from Budget anxiety, research shows",
+      "url": "https://www.talkingretail.com/news/industry-news/nearly-half-of-small-business-owners-suffering-from-budget-anxiety-research-shows-08-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-08T11:30:17+00:00",
+      "first_seen": "2026-10-11T14:07:22.423099+00:00",
+      "score": 75,
+      "summary": "Research indicates 45% of UK SME owners feel anxious about the upcoming Autumn Budget, with 57% planning to raise prices if business taxes increase.",
+      "angle": "Highlights potential inflationary pressure and reduced SME spending power, impacting demand for stationery and retail services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1055,14 +1055,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 95,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 85,
+    "queued_candidates": 123,
+    "llm_requests_attempted": 77,
+    "llm_requests_succeeded": 77,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 20,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 10,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 6
   }
 }
