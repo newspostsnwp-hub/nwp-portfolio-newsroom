@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T14:07:21.064757+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-specific updates, as there is no news to report from Clearway Group, Petainer, or Roof-Maker.",
+  "generated_at": "2026-10-11T06:48:23.777661+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from the portfolio.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-10T06:48:33.521550+00:00",
+  "last_digest_sent_at": "2026-10-11T06:48:23.777661+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -615,32 +615,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bdce83a44149c3bc",
+      "id": "91794ae169557437",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "The State of VFX and Animation Might Surprise You",
-      "url": "https://postperspective.com/the-state-of-vfx-and-animation-might-surprise-you/",
+      "title": "A Look at the Move Toward ARM-Based Processing",
+      "url": "https://postperspective.com/a-look-at-the-move-toward-arm-based-processing/",
       "source": "postperspective.com",
-      "published_at": "2026-09-30T21:23:43+00:00",
-      "first_seen": "2026-10-02T14:08:07.227090+00:00",
+      "published_at": "2026-10-06T16:12:14+00:00",
+      "first_seen": "2026-10-11T06:48:23.777661+00:00",
       "score": 85,
-      "summary": "Data from the 2026 Visual Effects & Animation World Atlas indicates that AI has not yet significantly replaced roles, with global industry headcount increasing by 2.7% annually.",
-      "angle": "Provides empirical evidence on AI adoption, workforce trends, and studio size shifts within the global post-production market.",
+      "summary": "The transition from x86 to ARM-based processing is accelerating in digital content creation, driven by energy efficiency and the emergence of high-performance ARM-native hardware and software.",
+      "angle": "Hardware shifts impact workstation performance, software compatibility, and infrastructure efficiency for post-production workflows.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8e984346eb518d90",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Apple Studios Visual Effects Workers Secure First IATSE Contract",
-      "url": "https://variety.com/2026/artisans/news/apple-studios-visual-effects-workers-secure-iatse-contract-1236893814/",
-      "source": "variety.com",
-      "published_at": "2026-09-30T19:15:00+00:00",
-      "first_seen": "2026-10-01T06:48:41.067501+00:00",
-      "score": 85,
-      "summary": "Apple Studios visual effects workers have ratified their first IATSE contract, establishing new industry standards for wages, benefits, working hours, and artificial intelligence protections.",
-      "angle": "Signals a broader industry trend toward unionisation and standardised labour costs for VFX and post-production talent.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "92dfb69cf48c69b3",
@@ -668,6 +654,20 @@
       "score": 75,
       "summary": "DigitalFilm Tree used AI-assisted restoration tools, including super-resolution and temporal analysis, to convert a degraded 1994 VHS concert recording into a high-quality format suitable for theatrical exhibition.",
       "angle": "Demonstrates evolving AI workflows for archival restoration and high-end post-production, highlighting the balance between automation and artistic judgment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "11c2663a78456bbd",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Sohonet’s ClearView Rush: Review Platform for Studio Creative Execs",
+      "url": "https://postperspective.com/sohonets-clearview-rush-review-platform-for-studio-creative-execs/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-07T14:32:37+00:00",
+      "first_seen": "2026-10-11T06:48:23.777661+00:00",
+      "score": 75,
+      "summary": "Sohonet has launched ClearView Rush, an iPad-first review platform designed for studio executives to manage and review production cuts, reels, and shots with integrated metadata.",
+      "angle": "Highlights industry trends towards mobile-first, secure, and interoperable remote review workflows for high-end post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1055,14 +1055,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 126,
-    "llm_requests_attempted": 78,
-    "llm_requests_succeeded": 78,
+    "providers_succeeded": 95,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 19,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 6
   }
 }
