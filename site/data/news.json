@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T14:07:22.423099+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, as there is no specific news to report from Molinare, Petainer, or UOE.",
+  "generated_at": "2026-10-12T06:48:22.331165+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Future Maintenance Technologies or Whitespace.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-11T06:48:23.777661+00:00",
+  "last_digest_sent_at": "2026-10-12T06:48:22.331165+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -769,17 +769,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "fe6785487219a50e",
+      "id": "fc9aa7b62c6766ca",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Accenture ( ACN ) Q4 2026 Earnings Call Transcript",
-      "url": "https://www.aol.com/articles/accenture-acn-q4-2026-earnings-022853000.html",
-      "source": "aol.com",
-      "published_at": "2026-10-02T04:15:00+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 85,
-      "summary": "Accenture reported strong demand for advanced AI services, with over 400 clients initiating projects in fiscal 2026 and a workforce of 110,000 dedicated AI and data professionals.",
-      "angle": "Demonstrates accelerating enterprise demand for large-scale AI transformation and the competitive landscape for AI-specialised talent and services.",
+      "title": "ShepHertz unveils three AI models ; eyes enterprise market",
+      "url": "https://www.thehindubusinessline.com/info-tech/shephertz-unveils-three-ai-models-eyes-enterprise-market/article71535877.ece",
+      "source": "thehindubusinessline.com",
+      "published_at": "2026-10-02T08:00:00+00:00",
+      "first_seen": "2026-10-12T06:48:22.331165+00:00",
+      "score": 75,
+      "summary": "ShepHertz has launched three India-built AI models—Tatva, Sanjaya, and Drashta—designed for on-device commands, fleet intelligence, and machine vision within its AgentAnywhere sovereign AI platform.",
+      "angle": "Demonstrates growing market competition for sovereign AI platforms offering on-premise deployment and verifiable, transparent model architectures.",
       "discovered_via": "GDELT"
     },
     {
@@ -1035,17 +1035,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0473a9bcad4f64c8",
+      "id": "979104ccd57d82b3",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Runway moves into robotics with open-weight Praxis-1 AI model",
-      "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/",
+      "title": "Monolithos launches long-term memory system for robots and embodied AI",
+      "url": "https://roboticsandautomationnews.com/2026/10/09/monolithos-launches-long-term-memory-system-for-robots-and-embodied-ai/105780/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-01T18:12:54+00:00",
-      "first_seen": "2026-10-02T06:48:32.920055+00:00",
-      "score": 85,
-      "summary": "Runway has introduced Praxis-1, an open-weight 'world action model' that uses large-scale video pretraining to enable robots to understand physical environments and object behaviour.",
-      "angle": "Reduces reliance on expensive, proprietary robot-generated training data by leveraging internet video for physical AI policy development.",
+      "published_at": "2026-10-09T08:15:38+00:00",
+      "first_seen": "2026-10-12T06:48:22.331165+00:00",
+      "score": 75,
+      "summary": "Monolithos has launched a public alpha of Robot Brain, a long-term memory system that allows robots to retain and retrieve information from previous tasks and human interventions.",
+      "angle": "Enhances autonomous inspection reliability by enabling robots to learn from past failures and specific operating conditions.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1055,14 +1055,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 123,
-    "llm_requests_attempted": 77,
-    "llm_requests_succeeded": 77,
+    "providers_succeeded": 94,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
 }
