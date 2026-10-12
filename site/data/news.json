@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T06:48:22.331165+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Future Maintenance Technologies or Whitespace.",
+  "generated_at": "2026-10-12T14:08:00.536847+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-10-12T06:48:22.331165+00:00",
   "companies": [
@@ -163,7 +163,7 @@
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
       "story_count": 3,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&tbm=nws",
@@ -447,6 +447,20 @@
   ],
   "sector_stories": [
     {
+      "id": "1934ab658a130da4",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail planning to cut up to 2,500 jobs by the end of 2027",
+      "url": "https://postandparcel.info/163058/news/e-commerce/royal-mail-planning-to-cut-up-to-2500-jobs-by-the-end-of-2027/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-12T03:57:41+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 85,
+      "summary": "Royal Mail is implementing Universal Service reform and undergoing a significant transformation to adapt to a rapidly changing market, including plans to cut 2,500 jobs by 2027.",
+      "angle": "Indicates major structural shifts and cost-cutting measures by the dominant incumbent, impacting sector-wide competitive dynamics and labour costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "95d2dd673feac9ef",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -486,20 +500,6 @@
       "score": 75,
       "summary": "Parcel locker operator YEEP! has reached 4,000 UK locations and is preparing to deploy its new Generation 3 touchscreen lockers.",
       "angle": "Highlights the rapid expansion of automated locker infrastructure, a key competitor to traditional last-mile delivery and collection services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "eb3ceb3537c69a59",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Evri Group accelerates international growth strategy",
-      "url": "https://postandparcel.info/162973/news/e-commerce/evri-group-accelerates-international-growth-strategy/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-05T07:43:07+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 75,
-      "summary": "Evri Group has agreed to acquire US-based logistics enablement provider Cross Border Connect to accelerate its international growth strategy.",
-      "angle": "Highlights increasing consolidation and strategic focus on cross-border e-commerce capabilities among major UK parcel delivery competitors.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -699,20 +699,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "457ba8d4cc13f1c6",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Sector marks ‘one year countdown’ to UK DRS launches",
-      "url": "https://www.packagingnews.co.uk/top-story/sector-marks-one-year-countdown-to-uk-drs-launches-02-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-02T08:57:37+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
-      "score": 95,
-      "summary": "The UK is entering a 12-month countdown to the 2027 launch of national Deposit Return Schemes for drink containers, including plastic bottles and cans.",
-      "angle": "Regulatory shift impacting collection infrastructure, packaging design requirements, and the circular economy for PET and aluminium containers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6cb1f6eecd60ef62",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -724,6 +710,20 @@
       "score": 90,
       "summary": "PackUK has announced its autumn roadmap for packaging EPR, including Year 2 producer fees, a five-year strategy, and a forthcoming call for evidence on fee modulation.",
       "angle": "Regulatory changes to EPR fees and recyclability assessment methodologies directly impact packaging manufacturers' operational costs and design requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "55474787963612b0",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Foodservice Packaging Association welcomes updated guidance on PRNs and PERNs",
+      "url": "https://www.packagingnews.co.uk/news/environment/foodservice-packaging-association-welcomes-updated-guidance-on-prns-and-perns-12-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-12T10:30:44+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 85,
+      "summary": "The Foodservice Packaging Association has welcomed updated regulatory guidance on PRN and PERN systems, aimed at improving transparency and addressing evidence availability for recycling compliance.",
+      "angle": "Regulatory changes to packaging waste evidence systems directly impact compliance costs and operational reporting for UK packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -741,46 +741,60 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "b3733587ca22cc75",
+      "id": "e6efd4664cbe487f",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Accenture AI Strategy Gains Momentum as 400+ Clients Start Advanced AI Projects",
-      "url": "https://infotechlead.com/software/accenture-ai-strategy-gains-momentum-as-400-clients-start-advanced-ai-projects-98600",
-      "source": "infotechlead.com",
-      "published_at": "2026-10-02T09:45:00+00:00",
-      "first_seen": "2026-10-03T14:07:27.200834+00:00",
-      "score": 85,
-      "summary": "Accenture reported that over 400 clients initiated advanced AI projects in fiscal 2026, with enterprise demand shifting toward large-scale transformation and sovereign AI infrastructure.",
-      "angle": "Validates growing enterprise demand for sovereign AI and complex, large-scale integration projects within the broader market.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "709a3dc0933bcfc0",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "FIOR appoints Sir Tom Copinger - Symes to advise on AI",
-      "url": "https://itbrief.co.nz/story/fior-appoints-sir-tom-copinger-symes-to-advise-on-ai",
-      "source": "itbrief.co.nz",
-      "published_at": "2026-10-02T08:45:00+00:00",
-      "first_seen": "2026-10-03T14:07:27.200834+00:00",
-      "score": 85,
-      "summary": "FIOR has appointed former UK military commander Sir Tom Copinger-Symes as an adviser to support its development of infrastructure for controlling and securing autonomous AI agents.",
-      "angle": "Highlights the growing market focus on verifiable identity and enforceable security controls for autonomous AI agents in critical infrastructure.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "fc9aa7b62c6766ca",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "ShepHertz unveils three AI models ; eyes enterprise market",
-      "url": "https://www.thehindubusinessline.com/info-tech/shephertz-unveils-three-ai-models-eyes-enterprise-market/article71535877.ece",
-      "source": "thehindubusinessline.com",
-      "published_at": "2026-10-02T08:00:00+00:00",
-      "first_seen": "2026-10-12T06:48:22.331165+00:00",
+      "title": "Milton Keynes Tech Week 2026 set to bring tech leaders together for a second year",
+      "url": "https://www.uktech.news/news/milton-keynes-tech-week-2026-set-to-bring-tech-leaders-together-for-a-second-year-20261012",
+      "source": "uktech.news",
+      "published_at": "2026-10-12T09:17:36+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
       "score": 75,
-      "summary": "ShepHertz has launched three India-built AI models—Tatva, Sanjaya, and Drashta—designed for on-device commands, fleet intelligence, and machine vision within its AgentAnywhere sovereign AI platform.",
-      "angle": "Demonstrates growing market competition for sovereign AI platforms offering on-premise deployment and verifiable, transparent model architectures.",
-      "discovered_via": "GDELT"
+      "summary": "Milton Keynes Tech Week 2026 features a conference exploring the practical application of sovereign technology, sovereign AI, and data resilience within the UK's competitive landscape.",
+      "angle": "Provides a platform for industry leaders to define and discuss the practical implementation of sovereign AI policy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "cced835a24b99438",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Stadiums are no longer simply venues, they must be seen as technology platforms",
+      "url": "https://www.uktech.news/opinion/stadiums-are-no-longer-simply-venues-they-must-be-seen-as-technology-platforms-20261009",
+      "source": "uktech.news",
+      "published_at": "2026-10-09T14:03:32+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 65,
+      "summary": "Stadium MK is implementing a unified intelligence layer to integrate disparate venue systems, aiming to improve operational efficiency and fan experience through data-driven decision-making.",
+      "angle": "Highlights the growing demand for sovereign, secure, and integrated AI platforms within complex physical infrastructure and smart environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ff1e4d8c84c48ccf",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Q&A: What to expect from Milton Keynes Tech Week 2026",
+      "url": "https://www.uktech.news/news/founder-interviews/qa-what-to-expect-from-milton-keynes-tech-week-2026-20261008",
+      "source": "uktech.news",
+      "published_at": "2026-10-08T11:31:32+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 65,
+      "summary": "Milton Keynes Tech Week 2026 will host a Sovereign Technology conference on 15 October to address UK control over critical data, infrastructure, and supply chain resilience.",
+      "angle": "Highlights growing policy and commercial focus on sovereign technology, resilience, and domestic control of critical digital infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "913ea08105db62fe",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Cost of living, youth jobs and high street improvements top public Budget priorities",
+      "url": "https://www.talkingretail.com/featured/cost-of-living-youth-jobs-and-high-street-improvements-top-public-budget-priorities-12-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-12T12:39:04+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 85,
+      "summary": "The British Retail Consortium is lobbying the government for business tax relief and National Insurance threshold changes to support high street viability and retail investment in the upcoming Budget.",
+      "angle": "Highlights critical policy advocacy regarding business rates and employment costs directly impacting UK high street retail operational viability.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "6aa4c4c4d7cc48b8",
@@ -825,20 +839,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7fd62c1de7bbc965",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Nearly half of small business owners suffering from Budget anxiety, research shows",
-      "url": "https://www.talkingretail.com/news/industry-news/nearly-half-of-small-business-owners-suffering-from-budget-anxiety-research-shows-08-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-08T11:30:17+00:00",
-      "first_seen": "2026-10-11T14:07:22.423099+00:00",
-      "score": 75,
-      "summary": "Research indicates 45% of UK SME owners feel anxious about the upcoming Autumn Budget, with 57% planning to raise prices if business taxes increase.",
-      "angle": "Highlights potential inflationary pressure and reduced SME spending power, impacting demand for stationery and retail services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "f3eb89c44a8df397",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -864,20 +864,6 @@
       "score": 85,
       "summary": "The 2027 Educause Top 10 list identifies determining AI's value, data governance, and future-proofing students as the primary strategic priorities for higher education technology leaders.",
       "angle": "Highlights institutional demand for evidence-based AI integration and the urgent need for human-centric, purposeful educational technology solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a16874c9ca87a5d4",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "3 in 10 Americans See Higher Education as ‘Very Important’",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/02/3-10-americans-see-higher-education-very-important",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-02T07:00:00+00:00",
-      "first_seen": "2026-10-02T14:08:07.227090+00:00",
-      "score": 85,
-      "summary": "Gallup data indicates that only 31 percent of Americans now view a college education as very important, marking the lowest level since 1978.",
-      "angle": "Declining public perception of higher education value poses significant long-term risks to demand for traditional academic publishing materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -951,6 +937,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "3d8942faf7518448",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Cladding manufacturers on notice: Mulalley secures contribution from Sto in landmark judgment",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/cladding-manufacturers-on-notice-mulalley-secures-contribution-from-sto-in-landmark-judgment-12-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-12T10:55:13+00:00",
+      "first_seen": "2026-10-12T14:08:00.536847+00:00",
+      "score": 85,
+      "summary": "The Technology and Construction Court awarded an 87.5 per cent contribution against a manufacturer for misleading marketing and supplying defective cladding, establishing a significant legal precedent for product liability.",
+      "angle": "Highlights increased judicial accountability for construction product manufacturers regarding product marketing, safety, and design-related liability.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2bb23aa3bdf2e813",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -976,20 +976,6 @@
       "score": 85,
       "summary": "UK construction output continued to contract in September, though the rate of decline was the slowest recorded since January 2026.",
       "angle": "Provides critical macro-economic context on sector-wide demand, supply chain delays, and inflationary pressures affecting construction product manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "41a1de649293f29f",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Loughborough academic named as chief construction and scientific adviser",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/loughborough-academic-appointed-as-new-chief-construction-and-scientific-advisor-06-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-06T11:39:19+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
-      "score": 85,
-      "summary": "Professor Sergio Cavalaro has been appointed as the government's chief construction and scientific adviser to oversee building safety, regulatory reform, and construction quality standards.",
-      "angle": "Signals increased regulatory scrutiny and potential future changes to building safety standards for construction products and glazing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1055,13 +1041,13 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 94,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 81,
-    "llm_requests_succeeded": 81,
+    "providers_succeeded": 89,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 76,
+    "llm_requests_succeeded": 76,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 18,
-    "dropped_not_about_company": 0,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
