@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T14:08:00.536847+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-13T06:48:35.058810+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 11 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-12T06:48:22.331165+00:00",
+  "last_digest_sent_at": "2026-10-13T06:48:35.058810+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -163,7 +163,7 @@
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
       "story_count": 3,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&tbm=nws",
@@ -447,6 +447,20 @@
   ],
   "sector_stories": [
     {
+      "id": "b4fff54d8b875321",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "UPU: we need decision makers to respond with coordinated, agile policy",
+      "url": "https://postandparcel.info/163064/news/parcel/upu-we-need-decision-makers-to-respond-with-coordinated-agile-policy/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-12T03:59:16+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 85,
+      "summary": "The UPU reports that disjointed international trade policies and customs duties have negatively impacted global postal flows and e-commerce, causing a 10% average reduction in postal corridors.",
+      "angle": "Highlights regulatory risks and cross-border trade friction impacting international e-commerce delivery volumes and operational costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1934ab658a130da4",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -475,31 +489,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9c74791fcb60def1",
+      "id": "3a758f51053e5e87",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "First milestone in partnership to scale AI-powered returns handling across Europe",
-      "url": "https://postandparcel.info/162983/news/e-commerce/first-milestone-in-partnership-to-scale-ai-powered-returns-handling-across-europe/",
+      "title": "DHL: Central and Eastern Europe is becoming increasingly important to global trade flow",
+      "url": "https://postandparcel.info/163035/news/e-commerce/dhl-central-and-eastern-europe-is-becoming-increasingly-important-to-global-trade-flow/",
       "source": "postandparcel.info",
-      "published_at": "2026-10-07T09:00:14+00:00",
-      "first_seen": "2026-10-07T14:07:40.396550+00:00",
+      "published_at": "2026-10-09T07:33:44+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
       "score": 75,
-      "summary": "Sereact, Zalando, and CEVA Logistics have launched AI-powered automated returns processing at fulfillment facilities in Germany and Poland.",
-      "angle": "Highlights the industry-wide shift towards automating reverse logistics through AI to improve operational efficiency in e-commerce.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8494645cda56e764",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "YEEP! targets 5,000 locations by year-end",
-      "url": "https://postandparcel.info/163016/news/e-commerce/yeep-open-locker-operator-targets-5000-locations-by-year-end/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-06T13:08:45+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
-      "score": 75,
-      "summary": "Parcel locker operator YEEP! has reached 4,000 UK locations and is preparing to deploy its new Generation 3 touchscreen lockers.",
-      "angle": "Highlights the rapid expansion of automated locker infrastructure, a key competitor to traditional last-mile delivery and collection services.",
+      "summary": "DHL Group plans to invest over EUR 400 million in Central and Eastern Europe by 2030 to expand logistics infrastructure, warehousing, and international supply chain connectivity.",
+      "angle": "Highlights regional nearshoring trends and infrastructure expansion by a major competitor, impacting European cross-border logistics and trade flows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -629,6 +629,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "cd2f1b0c7049ea9a",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Beyond the Grading Suite: Modern Filmmaking Across Borders",
+      "url": "https://postperspective.com/beyond-the-grading-suite-modern-filmmaking-across-borders/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-12T18:15:05+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 75,
+      "summary": "PFX, a Central European post-production group, highlights the industry shift toward integrated, cross-border workflows that connect VFX, color grading, and finishing throughout the entire production lifecycle.",
+      "angle": "Highlights the growing client demand for unified, multi-territory post-production pipelines that maintain creative continuity from pre-production through delivery.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "92dfb69cf48c69b3",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -654,20 +668,6 @@
       "score": 75,
       "summary": "DigitalFilm Tree used AI-assisted restoration tools, including super-resolution and temporal analysis, to convert a degraded 1994 VHS concert recording into a high-quality format suitable for theatrical exhibition.",
       "angle": "Demonstrates evolving AI workflows for archival restoration and high-end post-production, highlighting the balance between automation and artistic judgment.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "11c2663a78456bbd",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Sohonet’s ClearView Rush: Review Platform for Studio Creative Execs",
-      "url": "https://postperspective.com/sohonets-clearview-rush-review-platform-for-studio-creative-execs/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-07T14:32:37+00:00",
-      "first_seen": "2026-10-11T06:48:23.777661+00:00",
-      "score": 75,
-      "summary": "Sohonet has launched ClearView Rush, an iPad-first review platform designed for studio executives to manage and review production cuts, reels, and shots with integrated metadata.",
-      "angle": "Highlights industry trends towards mobile-first, secure, and interoperable remote review workflows for high-end post-production.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -839,6 +839,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ae14e731dcc95e81",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "How College Programs Fare on 2 Earnings Benchmarks",
+      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/12/ihep-report-shows-how-colleges-fare-2-earnings-tests",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-12T07:00:00+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 85,
+      "summary": "A new IHEP analysis reveals that while most education programs pass federal earnings tests, fewer meet value thresholds when accounting for program costs and student debt repayment.",
+      "angle": "Regulatory focus on earnings-based value metrics directly impacts higher education curriculum demand and institutional viability.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4149a99f3170a218",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "4 Takeaways From NACAC’s Annual Admissions Conference",
+      "url": "https://www.insidehighered.com/news/admissions/traditional-age/2026/10/12/annual-nacac-conference-tackled-ai-college-value",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-12T07:00:00+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 85,
+      "summary": "The 2026 NACAC conference highlighted shifting admissions priorities, including increased focus on ROI, the evolution of AI in college search processes, and rising student interest in international education.",
+      "angle": "Provides critical insight into changing higher education enrollment dynamics, institutional messaging, and the impact of AI on student recruitment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1ac08fffc59bb792",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "AI Literacy and the New Admissions Disadvantage",
+      "url": "https://www.insidehighered.com/opinion/views/2026/10/12/ai-literacy-and-new-admissions-disadvantage-opinion",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-12T07:00:00+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 85,
+      "summary": "Inconsistent institutional policies regarding AI usage in admissions are creating a digital divide, disadvantaging students from underfunded districts who lack formal training in ethical AI application.",
+      "angle": "Highlights the urgent need for standardised AI literacy tools and equitable assessment frameworks within the education publishing ecosystem.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f3eb89c44a8df397",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -850,20 +892,6 @@
       "score": 85,
       "summary": "The Trump administration has proposed a $70,000 fee for international students participating in Optional Practical Training, aiming to curb fraud and reduce reliance on the program.",
       "angle": "Potential decline in international student enrollment impacts higher education revenue and demand for associated learning materials and services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4474485908b8bf03",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Technology Officers Navigating ‘Age of Perpetual Change’",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/10/05/higher-ed-tech-officers-navigating-age",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-05T07:00:00+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 85,
-      "summary": "The 2027 Educause Top 10 list identifies determining AI's value, data governance, and future-proofing students as the primary strategic priorities for higher education technology leaders.",
-      "angle": "Highlights institutional demand for evidence-based AI integration and the urgent need for human-centric, purposeful educational technology solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -881,45 +909,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ce86504cf965a586",
+      "id": "b4e9d2f8114277ab",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Age limits for fertility patients – a medical or societal matter?",
-      "url": "https://www.progress.org.uk/age-limits-for-fertility-patients-a-medical-or-societal-matter/",
+      "title": "The impact of air pollution on fertility treatment outcomes",
+      "url": "https://www.progress.org.uk/the-impact-of-air-pollution-on-fertility-treatment-outcomes/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-05T16:34:54+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "published_at": "2026-10-12T16:23:03+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
       "score": 75,
-      "summary": "A 2026 PET and ESHRE survey indicates that public opinion in several European countries supports implementing upper age limits for fertility treatment, regardless of funding source.",
-      "angle": "Highlights growing regulatory and societal pressure to formalise age-based access restrictions in international fertility markets.",
+      "summary": "A multi-regional study indicates that higher ambient PM2.5 air pollution exposure is consistently associated with lower clinical pregnancy and live birth rates across three continents.",
+      "angle": "Highlights environmental factors impacting IVF success rates, potentially influencing clinical guidance and patient management strategies.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c453186ecae67195",
+      "id": "447afbbbbc347aa3",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "British patients left in limbo after Portuguese IVF clinic closes",
-      "url": "https://www.progress.org.uk/british-patients-left-in-limbo-after-portuguese-ivf-clinic-closes/",
+      "title": "When does surrogacy become human trafficking? An Argentine Court draws a difficult line",
+      "url": "https://www.progress.org.uk/when-does-surrogacy-become-human-trafficking-an-argentine-court-draws-a-difficult-line/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-05T16:28:57+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
+      "published_at": "2026-10-12T16:20:27+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
       "score": 75,
-      "summary": "Portuguese fertility clinic Ovom Care has declared insolvency, leaving hundreds of patients, including many British citizens, with disrupted treatment and concerns over stored reproductive materials.",
-      "angle": "Highlights risks of cross-border fertility service models and the critical importance of patient data and gamete security protocols.",
+      "summary": "An Argentine judge has ordered the prosecution of fertility clinic staff for human trafficking, highlighting the legal risks of operating in jurisdictions lacking specific surrogacy regulations.",
+      "angle": "Highlights the critical importance of robust regulatory frameworks and ethical safeguards in cross-border and unregulated fertility services.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "18981659a492caae",
+      "id": "8106a289d8abe4e8",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Better birth outcomes after fertility treatment for single mothers by choice",
-      "url": "https://www.progress.org.uk/better-birth-outcomes-after-fertility-treatment-for-single-mothers-by-choice/",
+      "title": "First UK transplant of frozen testicular tissue",
+      "url": "https://www.progress.org.uk/first-uk-transplant-of-frozen-testicular-tissue/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-05T16:27:13+00:00",
-      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "published_at": "2026-10-12T15:58:29+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
       "score": 75,
-      "summary": "A UCL study of 530,000 births found that single mothers by choice who use fertility treatments experience birth outcomes comparable or superior to partnered mothers undergoing treatment.",
-      "angle": "Validates the safety of fertility services for a growing demographic, supporting demand and reducing stigma in clinical practice.",
+      "summary": "Clinicians in Edinburgh have performed the first UK transplant of frozen testicular tissue in a 19-year-old, aiming to restore fertility after childhood chemotherapy.",
+      "angle": "Advances in male fertility preservation technology may expand future clinical service offerings and patient demographics for IVF providers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -951,6 +979,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "27d3b617c2dffa29",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "CN survey highlights sector’s finance woes",
+      "url": "https://www.constructionnews.co.uk/financial/cn-survey-highlights-sectors-finance-woes-12-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-12T10:54:37+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 85,
+      "summary": "A Construction News survey of over 100 industry leaders reveals widespread pessimism regarding tightening margins, late payments, and increasing financial distress across the construction supply chain.",
+      "angle": "Highlights systemic credit and margin risks for suppliers operating within the broader UK construction and glazing sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2bb23aa3bdf2e813",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -962,20 +1004,6 @@
       "score": 85,
       "summary": "A Q3 survey indicates 52 per cent of construction firms are busier than last year, though concerns persist regarding rising costs, policy uncertainty, and potential interest rate increases.",
       "angle": "Provides critical macroeconomic sentiment and cost inflation data impacting demand and pricing strategies for construction product suppliers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b7e5493b6f8a94bd",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Construction output sees slowest decline since January",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-output-sees-slowest-decline-since-january-06-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-06T11:45:49+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
-      "score": 85,
-      "summary": "UK construction output continued to contract in September, though the rate of decline was the slowest recorded since January 2026.",
-      "angle": "Provides critical macro-economic context on sector-wide demand, supply chain delays, and inflationary pressures affecting construction product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,20 +1035,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "352cca2b74f2684b",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Industry body A3 releases final part of safety standard for industrial mobile robots",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/industry-body-a3-releases-final-part-of-safety-standard-for-industrial-mobile-robots/105474/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-02T17:59:01+00:00",
-      "first_seen": "2026-10-03T06:48:27.869423+00:00",
-      "score": 85,
-      "summary": "The Association for Advancing Automation has released the final part of the ANSI/A3 R15.08 standard, detailing safety requirements for the ongoing operation of industrial mobile robots.",
-      "angle": "Establishes critical safety compliance benchmarks for the deployment and lifecycle management of autonomous mobile inspection systems.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "979104ccd57d82b3",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1033,6 +1047,20 @@
       "summary": "Monolithos has launched a public alpha of Robot Brain, a long-term memory system that allows robots to retain and retrieve information from previous tasks and human interventions.",
       "angle": "Enhances autonomous inspection reliability by enabling robots to learn from past failures and specific operating conditions.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "23cb065b57977cce",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Why Warehouse Automation Still Depends on Equipment Uptime",
+      "url": "https://roboticsandautomationnews.com/2026/10/12/why-warehouse-automation-still-depends-on-equipment-uptime/105829/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-12T15:52:00+00:00",
+      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "score": 65,
+      "summary": "Warehouse automation increases the operational impact of equipment downtime, necessitating a shift from reactive maintenance to data-driven, predictive strategies to ensure system-wide reliability.",
+      "angle": "Highlights the critical importance of predictive maintenance and uptime reliability in complex, interconnected autonomous robotic environments.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1041,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 76,
-    "llm_requests_succeeded": 76,
+    "providers_succeeded": 94,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 96,
+    "llm_requests_succeeded": 96,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 17,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 6
   }
 }
