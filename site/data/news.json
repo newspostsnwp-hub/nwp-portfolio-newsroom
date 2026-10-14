@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T06:49:06.419753+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, with no specific news to report from Future Maintenance Technologies, Swytch, or The Delivery Group.",
+  "generated_at": "2026-10-14T14:08:04.713475+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-10-14T06:49:06.419753+00:00",
   "companies": [
@@ -517,6 +517,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "12782ab1be62df07",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "The next phase of AI in the ARC",
+      "url": "https://securityjournaluk.com/the-next-phase-of-ai-in-the-arc/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-14T10:30:57+00:00",
+      "first_seen": "2026-10-14T14:08:04.713475+00:00",
+      "score": 85,
+      "summary": "The security industry is shifting from basic nuisance alarm filtering to behavioural analysis, enabling monitoring centres to scale operations without proportional increases in headcount.",
+      "angle": "Highlights the transition from object detection to risk-based behavioural analytics for improving Alarm Receiving Centre operational efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d63007808c8e6eee",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -542,20 +556,6 @@
       "score": 85,
       "summary": "Cardiff Metropolitan University has launched a postgraduate qualification in Counter Terrorism Risk Management to prepare professionals for the upcoming Terrorism (Protection of Premises) Act, or Martyn’s Law.",
       "angle": "Martyn’s Law will mandate new security compliance standards for public venues, increasing demand for expert risk management services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f5cd580b5f02798b",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Two-thirds of UK organisations hit by cyberattacks in the past year",
-      "url": "https://securityjournaluk.com/65-percent-uk-orgs-hit-by-cyberattacks/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-09T07:30:00+00:00",
-      "first_seen": "2026-10-10T14:07:21.064757+00:00",
-      "score": 75,
-      "summary": "Research from Claroty indicates 65% of UK organisations managing cyber-physical systems experienced operational impacts from cyberattacks in the past year, exceeding global and EMEA averages.",
-      "angle": "Highlights increasing demand for integrated physical and digital security solutions as operational technology becomes a primary cyber target.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -713,17 +713,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9643ce90015675f9",
+      "id": "a437f522168b850b",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Robbie Staniforth | The PRN system is not a tax – and that distinction matters",
-      "url": "https://www.packagingnews.co.uk/features/robbie-staniforth-the-prn-system-is-not-a-tax-and-that-distinction-matters-13-10-2026",
+      "title": "EU circular economy law must harmonise EPR, say trade bodies",
+      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/eu-circular-economy-law-must-harmonise-epr-say-trade-bodies-14-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-13T12:00:09+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
+      "published_at": "2026-10-14T10:38:50+00:00",
+      "first_seen": "2026-10-14T14:08:04.713475+00:00",
       "score": 85,
-      "summary": "The UK government has implemented stricter 2026 reporting and assurance requirements for Packaging Recovery Notes, leading to market volatility and temporary evidence supply constraints for plastic packaging producers.",
-      "angle": "Regulatory changes to PRN systems directly impact compliance costs and operational reporting for UK-based plastic packaging manufacturers.",
+      "summary": "A coalition of 46 trade associations is urging the EU to harmonise fragmented national extended producer responsibility schemes within the upcoming Circular Economy Act.",
+      "angle": "Harmonised EPR frameworks directly impact compliance costs, operational efficiency, and the supply of recycled PET raw materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 87,
-    "llm_requests_succeeded": 87,
+    "providers_succeeded": 82,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 35,
+    "llm_requests_succeeded": 17,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 14,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
 }
