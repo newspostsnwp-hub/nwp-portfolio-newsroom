@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-13T14:08:25.154815+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 17 sector-related updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-10-14T06:49:06.419753+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-related updates, with no specific news to report from Future Maintenance Technologies, Swytch, or The Delivery Group.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-13T06:48:35.058810+00:00",
+  "last_digest_sent_at": "2026-10-14T06:49:06.419753+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -475,31 +475,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "95d2dd673feac9ef",
+      "id": "7ce6c7bac84538f7",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Parcelhero: the sector needs demand to arrive quickly",
-      "url": "https://postandparcel.info/162986/news/e-commerce/parcelhero-the-sector-needs-demand-to-arrive-quickly/",
+      "title": "Royal Mail delivery model rollout paused",
+      "url": "https://postandparcel.info/163070/news/e-commerce/royal-mail-delivery-model-rollout-paused/",
       "source": "postandparcel.info",
-      "published_at": "2026-10-06T04:07:35+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
+      "published_at": "2026-10-10T20:45:58+00:00",
+      "first_seen": "2026-10-14T06:49:06.419753+00:00",
       "score": 85,
-      "summary": "The UK's transport and storage sector is entering the peak trading season on the back foot, according to the latest ONS Business Insights and Conditions Survey.",
-      "angle": "Provides critical macroeconomic sentiment regarding sector-wide performance expectations ahead of the vital peak trading period.",
+      "summary": "The Communication Workers Union has paused the rollout of Royal Mail’s Delivery Model 26, citing operational failures at delivery offices and demanding corrective action.",
+      "angle": "Operational instability at the dominant market incumbent creates potential service disruption and shifts in UK mail delivery capacity.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3a758f51053e5e87",
+      "id": "36d9e790f6dec953",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "DHL: Central and Eastern Europe is becoming increasingly important to global trade flow",
-      "url": "https://postandparcel.info/163035/news/e-commerce/dhl-central-and-eastern-europe-is-becoming-increasingly-important-to-global-trade-flow/",
+      "title": "UPU: Infinite Possibilities for Service Delivery, Even to the Furthest Reaches of the Globe",
+      "url": "https://postandparcel.info/163045/news/e-commerce/upu-infinite-possibilities-for-service-delivery-even-to-the-furthest-reaches-of-the-globe/",
       "source": "postandparcel.info",
-      "published_at": "2026-10-09T07:33:44+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 75,
-      "summary": "DHL Group plans to invest over EUR 400 million in Central and Eastern Europe by 2030 to expand logistics infrastructure, warehousing, and international supply chain connectivity.",
-      "angle": "Highlights regional nearshoring trends and infrastructure expansion by a major competitor, impacting European cross-border logistics and trade flows.",
+      "published_at": "2026-10-08T23:30:47+00:00",
+      "first_seen": "2026-10-14T06:49:06.419753+00:00",
+      "score": 85,
+      "summary": "The UPU State of the Postal Sector 2026 report highlights declining inflation-adjusted postal revenues and increased vulnerability to international trade policy changes affecting e-commerce flows.",
+      "angle": "Highlights systemic regulatory and economic pressures impacting international parcel delivery margins and operational resilience.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -559,6 +559,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f68410d93311b08d",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Trump administration lowers US fuel efficiency standards",
+      "url": "https://www.electrive.com/2026/10/13/trump-administration-lowers-us-fuel-efficiency-standards/",
+      "source": "electrive.com",
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "first_seen": "2026-10-14T06:49:06.419753+00:00",
+      "score": 65,
+      "summary": "The US administration has lowered fuel efficiency standards for new vehicles, potentially reducing EV adoption and increasing long-term fuel costs for consumers.",
+      "angle": "Regulatory shifts impacting EV adoption and consumer fuel costs influence the broader market environment for micromobility solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d04d569911d29449",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -598,20 +612,6 @@
       "score": 65,
       "summary": "The EU Commission has selected 46 new strategic raw material projects to improve domestic supply chains for lithium, nickel, cobalt, and other battery-critical materials.",
       "angle": "Securing European battery supply chains and recycling capacity is vital for the long-term cost and availability of e-bike batteries.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7505cfd2cf8f6659",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Cell bypass aims to extend the usable life of EV batteries",
-      "url": "https://www.electrive.com/2026/10/09/cell-bypass-aims-to-extend-the-usable-life-of-ev-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-10-09T10:15:00+00:00",
-      "first_seen": "2026-10-09T14:07:25.676241+00:00",
-      "score": 65,
-      "summary": "Researchers at Chalmers University of Technology have developed reconfigurable battery packs that selectively bypass weaker cells, potentially extending high-voltage battery lifespans by over 20 per cent.",
-      "angle": "Advances in battery longevity and cell management technology could influence future design standards for lightweight electric mobility solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,6 +1007,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "963f0537e8dcb0bc",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Ubitium raises $14 million to build ‘first universal processor for physical AI’",
+      "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-13T16:29:16+00:00",
+      "first_seen": "2026-10-14T06:49:06.419753+00:00",
+      "score": 85,
+      "summary": "Semiconductor startup Ubitium has raised $14 million to develop a universal processor designed to handle signal processing, AI inference, and real-time control on a single chip.",
+      "angle": "Consolidating compute stacks into one processor could significantly reduce weight, power consumption, and latency for autonomous inspection robots.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4b059a1f078de0ee",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1047,20 +1061,6 @@
       "summary": "Monolithos has launched a public alpha of Robot Brain, a long-term memory system that allows robots to retain and retrieve information from previous tasks and human interventions.",
       "angle": "Enhances autonomous inspection reliability by enabling robots to learn from past failures and specific operating conditions.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "23cb065b57977cce",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Why Warehouse Automation Still Depends on Equipment Uptime",
-      "url": "https://roboticsandautomationnews.com/2026/10/12/why-warehouse-automation-still-depends-on-equipment-uptime/105829/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-12T15:52:00+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 65,
-      "summary": "Warehouse automation increases the operational impact of equipment downtime, necessitating a shift from reactive maintenance to data-driven, predictive strategies to ensure system-wide reliability.",
-      "angle": "Highlights the critical importance of predictive maintenance and uptime reliability in complex, interconnected autonomous robotic environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 95,
-    "queued_candidates": 147,
-    "llm_requests_attempted": 102,
-    "llm_requests_succeeded": 102,
+    "providers_succeeded": 85,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 16,
+    "dropped_thin_page": 18,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 7,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 6
   }
 }
