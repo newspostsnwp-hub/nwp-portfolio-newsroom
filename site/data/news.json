@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T14:08:04.713475+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there are no specific developments to report from our portfolio companies.",
+  "generated_at": "2026-10-15T06:49:04.795497+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from Future Maintenance Technologies, Molinare, Roof-Maker, Swytch, or Whitespace.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-14T06:49:06.419753+00:00",
+  "last_digest_sent_at": "2026-10-15T06:49:04.795497+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -559,6 +559,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "281c68ef6d75c7a8",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "GBT begins series production of solid-state battery cells",
+      "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/",
+      "source": "electrive.com",
+      "published_at": "2026-10-14T13:30:00+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
+      "score": 65,
+      "summary": "Greater Bay Technology has commenced series production of solid-state battery cells in China using repurposed lithium-ion manufacturing equipment to improve capital efficiency.",
+      "angle": "Advances in solid-state battery manufacturing and cost-efficient production methods could eventually improve energy density and safety for micromobility applications.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f68410d93311b08d",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -601,17 +615,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7e854088e6725586",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EU Commission selects 46 new raw materials projects",
-      "url": "https://www.electrive.com/2026/10/09/eu-commission-selects-46-new-raw-materials-projects/",
-      "source": "electrive.com",
-      "published_at": "2026-10-09T14:00:00+00:00",
-      "first_seen": "2026-10-09T14:07:25.676241+00:00",
-      "score": 65,
-      "summary": "The EU Commission has selected 46 new strategic raw material projects to improve domestic supply chains for lithium, nickel, cobalt, and other battery-critical materials.",
-      "angle": "Securing European battery supply chains and recycling capacity is vital for the long-term cost and availability of e-bike batteries.",
+      "id": "a71286e5018b02e6",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Sync.Labs Intros Zero-Shot Lipsyncing for Film and Television",
+      "url": "https://postperspective.com/sync-labs-intros-zero-shot-lipsyncing-for-film-and-television/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-13T15:13:41+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
+      "score": 85,
+      "summary": "Sync.Labs has launched Sync.Productions, a managed service using AI to perform zero-shot lipsyncing for film and television localization without requiring actor-specific training or facial scans.",
+      "angle": "AI-driven automated lipsyncing tools are increasingly capable of professional-grade localization, impacting traditional post-production workflows and dubbing services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -629,45 +643,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "cd2f1b0c7049ea9a",
+      "id": "394dae8b97df95a2",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Beyond the Grading Suite: Modern Filmmaking Across Borders",
-      "url": "https://postperspective.com/beyond-the-grading-suite-modern-filmmaking-across-borders/",
+      "title": "The Look and Color of One Hundred Years of Solitude Part 2",
+      "url": "https://postperspective.com/the-look-and-color-of-one-hundred-years-of-solitude-part-2/",
       "source": "postperspective.com",
-      "published_at": "2026-10-12T18:15:05+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
+      "published_at": "2026-10-14T16:14:25+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
       "score": 75,
-      "summary": "PFX, a Central European post-production group, highlights the industry shift toward integrated, cross-border workflows that connect VFX, color grading, and finishing throughout the entire production lifecycle.",
-      "angle": "Highlights the growing client demand for unified, multi-territory post-production pipelines that maintain creative continuity from pre-production through delivery.",
+      "summary": "The production team for One Hundred Years of Solitude Part 2 integrated post-production and color workflows into pre-production to ensure visual consistency across a complex, long-term shoot.",
+      "angle": "Highlights the industry shift toward integrating post-production expertise into early pre-production and on-set workflows for high-end episodic content.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "92dfb69cf48c69b3",
+      "id": "6fe206e1b69063ee",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Building a Post-Apocalyptic Denver for Ridley Scott’s The Dog Stars",
-      "url": "https://postperspective.com/building-a-post-apocalyptic-denver-for-ridley-scotts-the-dog-stars/",
+      "title": "EP Eva Anderson Talks Post On Apple TV’s Margo’s Got Money Troubles",
+      "url": "https://postperspective.com/ep-eva-anderson-talks-post-on-margos-got-money-troubles/",
       "source": "postperspective.com",
-      "published_at": "2026-10-08T19:19:36+00:00",
-      "first_seen": "2026-10-09T06:48:35.095404+00:00",
+      "published_at": "2026-10-13T19:31:09+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
       "score": 75,
-      "summary": "London-based VFX studio BlueBolt utilized a USD-based pipeline to create extensive 3D environment builds for Ridley Scott’s film, The Dog Stars.",
-      "angle": "Highlights the industry-wide shift toward USD workflows for managing complex, large-scale 3D environment production in high-end VFX.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b57c370809446433",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "AI and Artistry Used Restore Lost Treasure: Messiah in Bethlehem Concert",
-      "url": "https://postperspective.com/ai-and-artistry-used-restore-lost-treasure-messiah-in-bethlehem-concert/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-07T20:08:48+00:00",
-      "first_seen": "2026-10-08T14:07:30.108187+00:00",
-      "score": 75,
-      "summary": "DigitalFilm Tree used AI-assisted restoration tools, including super-resolution and temporal analysis, to convert a degraded 1994 VHS concert recording into a high-quality format suitable for theatrical exhibition.",
-      "angle": "Demonstrates evolving AI workflows for archival restoration and high-end post-production, highlighting the balance between automation and artistic judgment.",
+      "summary": "The production team for Apple TV’s Margo’s Got Money Troubles utilized a complex post-production workflow involving ARRI 35 cameras, Avid Media Composer, and integrated VFX for social media elements.",
+      "angle": "Highlights evolving technical requirements for integrating social media aesthetics and complex VFX into high-end episodic television post-production workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -755,6 +755,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2b636904418d2880",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "The importance of trust in rolling out robotics",
+      "url": "https://www.uktech.news/opinion/public-trust-robotics-uk-cities-20261014",
+      "source": "uktech.news",
+      "published_at": "2026-10-14T09:35:18+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
+      "score": 65,
+      "summary": "Milton Keynes City Council has developed the RoboPASS framework to standardize licensing, safety, and public trust for deploying autonomous robotics in public spaces.",
+      "angle": "Highlights the growing importance of regulatory frameworks and public trust in scaling sovereign AI and autonomous infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "cced835a24b99438",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -766,20 +780,6 @@
       "score": 65,
       "summary": "Stadium MK is implementing a unified intelligence layer to integrate disparate venue systems, aiming to improve operational efficiency and fan experience through data-driven decision-making.",
       "angle": "Highlights the growing demand for sovereign, secure, and integrated AI platforms within complex physical infrastructure and smart environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ff1e4d8c84c48ccf",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Q&A: What to expect from Milton Keynes Tech Week 2026",
-      "url": "https://www.uktech.news/news/founder-interviews/qa-what-to-expect-from-milton-keynes-tech-week-2026-20261008",
-      "source": "uktech.news",
-      "published_at": "2026-10-08T11:31:32+00:00",
-      "first_seen": "2026-10-12T14:08:00.536847+00:00",
-      "score": 65,
-      "summary": "Milton Keynes Tech Week 2026 will host a Sovereign Technology conference on 15 October to address UK control over critical data, infrastructure, and supply chain resilience.",
-      "angle": "Highlights growing policy and commercial focus on sovereign technology, resilience, and domestic control of critical digital infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -965,6 +965,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6e0d2e8ad079284a",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "New towns at risk as building materials production slows, Lords warn",
+      "url": "https://www.constructionnews.co.uk/supply-chain/new-towns-at-risk-as-building-materials-production-slows-lords-warn-15-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-14T23:01:42+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
+      "score": 85,
+      "summary": "A House of Lords committee warns that government uncertainty regarding new-town projects is discouraging investment and causing manufacturers to reduce building material production capacity.",
+      "angle": "Highlights supply chain volatility and potential demand shifts for construction products linked to government infrastructure policy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3d8942faf7518448",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -993,17 +1007,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2bb23aa3bdf2e813",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Half of sector busier than a year ago but caution remains, survey finds",
-      "url": "https://www.constructionnews.co.uk/sections/data/half-of-sector-busier-than-a-year-ago-but-caution-remains-survey-finds-09-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-09T11:45:30+00:00",
-      "first_seen": "2026-10-10T06:48:33.521550+00:00",
+      "id": "3ad44bdc97265317",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Neura Robotics launches multimodal AI model that gives robots perception and memory",
+      "url": "https://roboticsandautomationnews.com/2026/10/14/neura-robotics-launches-multimodal-ai-model-that-gives-robots-perception-and-memory/105902/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-14T08:25:59+00:00",
+      "first_seen": "2026-10-15T06:49:04.795497+00:00",
       "score": 85,
-      "summary": "A Q3 survey indicates 52 per cent of construction firms are busier than last year, though concerns persist regarding rising costs, policy uncertainty, and potential interest rate increases.",
-      "angle": "Provides critical macroeconomic sentiment and cost inflation data impacting demand and pricing strategies for construction product suppliers.",
+      "summary": "Neura Robotics has launched Neuron AI, a multimodal foundation model integrating 3D vision, touch, audio, and memory to enable robots to perform complex physical tasks.",
+      "angle": "Advancements in multimodal physical AI and sensor fusion significantly improve autonomous inspection capabilities in complex, non-visual industrial environments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1047,20 +1061,6 @@
       "summary": "SafeWorld has raised $12.2 million to develop an AI-powered simulation platform designed to automate safety testing and edge-case validation for autonomous robots in physical environments.",
       "angle": "Provides a scalable, high-fidelity simulation alternative to costly physical field trials for validating autonomous robot safety.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "979104ccd57d82b3",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Monolithos launches long-term memory system for robots and embodied AI",
-      "url": "https://roboticsandautomationnews.com/2026/10/09/monolithos-launches-long-term-memory-system-for-robots-and-embodied-ai/105780/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-09T08:15:38+00:00",
-      "first_seen": "2026-10-12T06:48:22.331165+00:00",
-      "score": 75,
-      "summary": "Monolithos has launched a public alpha of Robot Brain, a long-term memory system that allows robots to retain and retrieve information from previous tasks and human interventions.",
-      "angle": "Enhances autonomous inspection reliability by enabling robots to learn from past failures and specific operating conditions.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1069,13 +1069,13 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 35,
-    "llm_requests_succeeded": 17,
+    "providers_succeeded": 90,
+    "queued_candidates": 138,
+    "llm_requests_attempted": 91,
+    "llm_requests_succeeded": 91,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 5,
     "carried_forward": 6
   }
