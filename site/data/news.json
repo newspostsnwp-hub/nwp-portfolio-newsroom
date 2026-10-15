@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T06:49:04.795497+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from Future Maintenance Technologies, Molinare, Roof-Maker, Swytch, or Whitespace.",
+  "generated_at": "2026-10-15T14:08:05.952134+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-wide updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
   "last_digest_sent_at": "2026-10-15T06:49:04.795497+00:00",
   "companies": [
@@ -447,6 +447,20 @@
   ],
   "sector_stories": [
     {
+      "id": "69f7cd417f8d639a",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "CWU: Royal Mail stands “on the brink of collapse”",
+      "url": "https://postandparcel.info/163079/news/parcel/cwu-royal-mail-stands-on-the-brink-of-collapse/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-15T05:19:41+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 90,
+      "summary": "The Communication Workers Union has called for an emergency government summit to address Royal Mail's structural decline and severe recruitment and retention crises.",
+      "angle": "Highlights significant instability in the UK's primary postal incumbent, potentially impacting market capacity and competitor service expectations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b4fff54d8b875321",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -486,20 +500,6 @@
       "score": 85,
       "summary": "The Communication Workers Union has paused the rollout of Royal Mail’s Delivery Model 26, citing operational failures at delivery offices and demanding corrective action.",
       "angle": "Operational instability at the dominant market incumbent creates potential service disruption and shifts in UK mail delivery capacity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "36d9e790f6dec953",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "UPU: Infinite Possibilities for Service Delivery, Even to the Furthest Reaches of the Globe",
-      "url": "https://postandparcel.info/163045/news/e-commerce/upu-infinite-possibilities-for-service-delivery-even-to-the-furthest-reaches-of-the-globe/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-08T23:30:47+00:00",
-      "first_seen": "2026-10-14T06:49:06.419753+00:00",
-      "score": 85,
-      "summary": "The UPU State of the Postal Sector 2026 report highlights declining inflation-adjusted postal revenues and increased vulnerability to international trade policy changes affecting e-commerce flows.",
-      "angle": "Highlights systemic regulatory and economic pressures impacting international parcel delivery margins and operational resilience.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -545,17 +545,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c008642315d142dc",
+      "id": "29a2aa8ccca00488",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Cardiff Met launches Martyn’s Law qualification",
-      "url": "https://securityjournaluk.com/cardiff-met-launches-martyns-law-qual/",
+      "title": "MS Webb opens new Kent HQ",
+      "url": "https://securityjournaluk.com/ms-webb-opens-new-kent-hq/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-10-05T09:53:34+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 85,
-      "summary": "Cardiff Metropolitan University has launched a postgraduate qualification in Counter Terrorism Risk Management to prepare professionals for the upcoming Terrorism (Protection of Premises) Act, or Martyn’s Law.",
-      "angle": "Martyn’s Law will mandate new security compliance standards for public venues, increasing demand for expert risk management services.",
+      "published_at": "2026-10-15T10:36:14+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 75,
+      "summary": "MS Webb has opened a new headquarters in Kent and secured NSI NACOSS Gold accreditation while highlighting the upcoming implementation of Martyn's Law in spring 2027.",
+      "angle": "Industry preparation for Martyn's Law and the increasing demand for professional security standards and personnel.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "974a3d4efd6f7ae0",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "‘Major’ OEM to test Gelion’s NES cathode platform",
+      "url": "https://www.electrive.com/2026/10/15/major-oem-to-test-gelions-nes-cathode-platform/",
+      "source": "electrive.com",
+      "published_at": "2026-10-15T14:00:18+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 65,
+      "summary": "Battery developer Gelion has signed an agreement with a major automaker to test its Nano-Encapsulated Sulfur cathode technology for potential use in electric vehicle batteries.",
+      "angle": "Advancements in sulfur-based cathode technology could eventually reduce battery costs and reliance on critical raw materials in micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5bcc541f91ede7e3",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Chinese government cuts state subsidies for EV manufacturers",
+      "url": "https://www.electrive.com/2026/10/15/chinese-government-cuts-state-subsidies-for-ev-manufacturers/",
+      "source": "electrive.com",
+      "published_at": "2026-10-15T11:00:00+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 65,
+      "summary": "The Chinese government is reducing VAT export rebates for new energy vehicles from 13 per cent to 9 per cent, effective 1 April 2027.",
+      "angle": "Reduces the price advantage of Chinese-made electric vehicles and components in international markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -584,34 +612,6 @@
       "score": 65,
       "summary": "The US administration has lowered fuel efficiency standards for new vehicles, potentially reducing EV adoption and increasing long-term fuel costs for consumers.",
       "angle": "Regulatory shifts impacting EV adoption and consumer fuel costs influence the broader market environment for micromobility solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d04d569911d29449",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Fraunhofer stabilises aluminium anodes for lithium-ion batteries",
-      "url": "https://www.electrive.com/2026/10/13/fraunhofer-stabilises-aluminium-anodes-for-lithium-ion-batteries/",
-      "source": "electrive.com",
-      "published_at": "2026-10-13T13:00:00+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
-      "score": 65,
-      "summary": "Fraunhofer researchers have developed a stabilized aluminium anode technology for lithium-ion batteries that eliminates graphite and silicon, potentially reducing costs and improving safety.",
-      "angle": "Advances in battery chemistry could lead to cheaper, safer, and more sustainable power sources for future micromobility applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c8ea4329070213c4",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Smart #2 now available to pre-order for under €20,000",
-      "url": "https://www.electrive.com/2026/10/13/smart-2-now-available-to-pre-order-for-under-e20000/",
-      "source": "electrive.com",
-      "published_at": "2026-10-13T09:15:00+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
-      "score": 65,
-      "summary": "Smart has opened European pre-orders for the #2, a compact two-seater electric vehicle priced from €19,990, with deliveries expected in 2027.",
-      "angle": "Represents increased competition in the affordable urban mobility space, potentially impacting consumer demand for alternative micromobility solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -713,17 +713,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a437f522168b850b",
+      "id": "d41178b53f226691",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
       "title": "EU circular economy law must harmonise EPR, say trade bodies",
-      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/eu-circular-economy-law-must-harmonise-epr-say-trade-bodies-14-10-2026",
+      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/eu-circular-economy-law-must-harmonise-epr-say-trade-bodies-15-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-14T10:38:50+00:00",
-      "first_seen": "2026-10-14T14:08:04.713475+00:00",
+      "published_at": "2026-10-15T08:58:50+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
       "score": 85,
       "summary": "A coalition of 46 trade associations is urging the EU to harmonise fragmented national extended producer responsibility schemes within the upcoming Circular Economy Act.",
-      "angle": "Harmonised EPR frameworks directly impact compliance costs, operational efficiency, and the supply of recycled PET raw materials.",
+      "angle": "Harmonised EPR regulation impacts compliance costs, operational efficiency, and the supply of recycled materials for packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -783,6 +783,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f183a345c54084a6",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Online marketplace VAT crackdown risks creating new loopholes, Bira warns",
+      "url": "https://www.talkingretail.com/featured/online-marketplace-vat-crackdown-risks-creating-new-loopholes-bira-warns-15-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-15T11:14:45+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 85,
+      "summary": "The British Independent Retailers Association warns that proposed VAT collection requirements for online marketplaces may be undermined by exemptions for smaller sellers and second-hand goods.",
+      "angle": "Potential regulatory changes to online VAT collection could help level the playing field for physical high street retailers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a2b9be2c34362165",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -822,20 +836,6 @@
       "score": 85,
       "summary": "The British Retail Consortium is lobbying the government for business tax relief and National Insurance threshold changes to support high street viability and retail investment in the upcoming Budget.",
       "angle": "Highlights critical policy advocacy regarding business rates and employment costs directly impacting UK high street retail operational viability.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6aa4c4c4d7cc48b8",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Small shops vital to DRS results, retailer tells Labour MPs",
-      "url": "https://www.talkingretail.com/featured/small-shops-vital-to-drs-results-retailer-tells-labour-mps-08-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-08T16:00:22+00:00",
-      "first_seen": "2026-10-09T06:48:35.095404+00:00",
-      "score": 85,
-      "summary": "Independent retailers are being urged to prepare for the October 2027 Deposit Return Scheme, highlighting potential footfall risks and the need for clear guidance for smaller shops.",
-      "angle": "Regulatory implementation of DRS creates operational challenges and potential competitive footfall shifts for independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -951,17 +951,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7cb114b8c36cac75",
+      "id": "0350293c25df448c",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Construction firms prepare to put up prices as costs bite",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-firms-prepare-to-put-up-prices-as-costs-bite-05-10-2026/",
+      "title": "Budget to be ‘most significant’ since Osborne era, says Glenigan",
+      "url": "https://www.constructionnews.co.uk/sections/data/budget-to-be-most-significant-since-osborne-era-says-glenigan-15-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-10-05T11:45:24+00:00",
-      "first_seen": "2026-10-05T14:07:33.304251+00:00",
-      "score": 90,
-      "summary": "Thirty-two per cent of construction businesses expect to raise prices in October due to rising costs, the highest proportion recorded since February 2023.",
-      "angle": "Highlights widespread inflationary pressure and supply chain cost volatility affecting the UK construction products sector.",
+      "published_at": "2026-10-15T11:14:58+00:00",
+      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "score": 85,
+      "summary": "Glenigan reports that construction activity is weakening, with project starts, contract awards, and planning approvals all falling significantly in the three months to September.",
+      "angle": "Highlights market fragility and declining private residential demand, which directly impacts the pipeline for rooflight installations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 91,
-    "llm_requests_succeeded": 91,
+    "providers_succeeded": 92,
+    "queued_candidates": 132,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 20,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 6
   }
 }
