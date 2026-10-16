@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T14:08:05.952134+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-wide updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-16T06:48:37.001109+00:00",
+  "digest_intro": "Good morning; today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
   "archive_story_count": 17,
-  "last_digest_sent_at": "2026-10-15T06:49:04.795497+00:00",
+  "last_digest_sent_at": "2026-10-16T06:48:37.001109+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -30,7 +30,7 @@
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
       "story_count": 2,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
@@ -182,7 +182,7 @@
       "website": "https://www.fertilityassociates.co.nz/",
       "newsroom_url": "https://www.fertilityassociates.co.nz/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
@@ -500,20 +500,6 @@
       "score": 85,
       "summary": "The Communication Workers Union has paused the rollout of Royal Mail’s Delivery Model 26, citing operational failures at delivery offices and demanding corrective action.",
       "angle": "Operational instability at the dominant market incumbent creates potential service disruption and shifts in UK mail delivery capacity.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fd6ce40a545989ab",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Are you ready for Martyn’s Law?",
-      "url": "https://securityjournaluk.com/aucso-are-you-ready-for-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-06T06:45:00+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
-      "score": 90,
-      "summary": "The Association of University Chief Security Officers has launched resources to help higher education institutions prepare for the Terrorism (Protection of Premises) Act 2025, also known as Martyn’s Law.",
-      "angle": "Martyn's Law introduces new regulatory compliance and security requirements for public-facing premises, impacting demand for site security services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -895,20 +881,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0668f510722cedfb",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "ICSI and ovarian stimulation linked to different patterns in children's DNA",
-      "url": "https://www.progress.org.uk/icsi-and-ovarian-stimulation-linked-to-different-patterns-in-childrens-dna/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-10-05T16:30:42+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
-      "score": 85,
-      "summary": "A large-scale study published in Nature Medicine links specific fertility procedures, including ICSI and ovarian stimulation, to distinct patterns of de novo mutations in offspring.",
-      "angle": "Provides clinical evidence on genetic risks associated with standard IVF procedures, potentially influencing future treatment protocols and patient counselling.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b4e9d2f8114277ab",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -1049,17 +1021,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "14dee9ac3651b9e7",
+      "id": "bcf25aa85c607990",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "SafeWorld emerges from stealth with $12.2 million to develop robot safety simulation technology",
-      "url": "https://roboticsandautomationnews.com/2026/10/05/safeworld-emerges-from-stealth-with-12-2-million-to-develop-robot-safety-simulation-technology/105530/",
+      "title": "Best SCA Tools for Open-Source Risk in Industrial Software",
+      "url": "https://roboticsandautomationnews.com/2026/10/15/best-sca-tools-for-open-source-risk-in-industrial-software/105978/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-05T19:32:44+00:00",
-      "first_seen": "2026-10-06T06:48:23.516849+00:00",
-      "score": 85,
-      "summary": "SafeWorld has raised $12.2 million to develop an AI-powered simulation platform designed to automate safety testing and edge-case validation for autonomous robots in physical environments.",
-      "angle": "Provides a scalable, high-fidelity simulation alternative to costly physical field trials for validating autonomous robot safety.",
+      "published_at": "2026-10-15T20:36:35+00:00",
+      "first_seen": "2026-10-16T06:48:37.001109+00:00",
+      "score": 65,
+      "summary": "This article reviews Software Composition Analysis tools designed to identify security vulnerabilities and license compliance risks within industrial software dependencies.",
+      "angle": "Critical for managing cybersecurity and supply chain transparency in safety-sensitive autonomous robotics and industrial infrastructure software.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1069,14 +1041,14 @@
     "companies_with_stories": 3,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 92,
-    "queued_candidates": 132,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
+    "providers_succeeded": 76,
+    "queued_candidates": 117,
+    "llm_requests_attempted": 65,
+    "llm_requests_succeeded": 65,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 20,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 6
   }
 }
