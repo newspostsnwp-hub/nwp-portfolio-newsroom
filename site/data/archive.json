@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:48:37.001109+00:00",
+  "generated_at": "2026-10-16T14:07:34.183107+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -547,6 +547,36 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "8dc60999216f8428",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "industry": "UK property and site security",
+      "title": "Clearway supports the Prologis UK 100 Challenge, helping raise over £120,000 for charity",
+      "url": "https://www.clearway.co.uk/news/clearway-supports-the-prologis-uk-100-challenge/",
+      "source": "clearway.co.uk",
+      "published_at": "2026-09-16T12:29:05+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-17T06:49:03.666757+00:00",
+      "score": 75,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Other",
+      "summary": "Clearway Group participated in the Prologis UK 100 Challenge on 10 September 2026, with Senior Client Director Paul Delany completing a 100-furlong hike to help raise over £120,000 for four charitable causes.",
+      "why_it_matters": "Demonstrates the company's active engagement in industry-wide CSR initiatives and its commitment to supporting community and charitable organisations alongside key sector partners.",
+      "verified_facts": [
+        "Clearway Senior Client Director Paul Delany participated in the Prologis UK 100 Challenge on 10 September 2026.",
+        "The event raised over £120,000 for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "Clearway Group is pleased to have supported the 2026 Prologis UK 100 Challenge. The event, which brought together professionals from across the property and logistics sectors, successfully raised over £120,000 to support LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. We would like to congratulate our own Senior Client Director, Paul Delany, who represented the team by completing the 100-furlong hike. It is encouraging to see the industry unite for such a significant collective fundraising effort, and we remain committed to supporting the communities in which we operate. Well done to all 246 participants involved in this year's challenge. #ClearwayGroup #CSR #PrologisUK100",
+        "investor": "Clearway Group continues to demonstrate its commitment to corporate social responsibility through active participation in industry-led initiatives. On 10 September, the team joined the Prologis UK 100 Challenge, a collaborative event that raised over £120,000 for four major charitable organisations, including LandAid and Parkinson’s UK. Clearway Senior Client Director Paul Delany participated in the 100-furlong hike, highlighting the firm's engagement with key stakeholders across the property and logistics sectors. Such initiatives reflect the company’s broader values and its role as a responsible participant within the UK property security market. We are proud to support the team’s involvement in these meaningful community-focused activities. #ClearwayGroup #ESG #PropertySector",
+        "people": "A huge well done to Clearway Senior Client Director Paul Delany for representing the team at the 2026 Prologis UK 100 Challenge! Paul took on the 100-furlong hike on 10 September, contributing to an impressive total of over £120,000 raised for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. It is fantastic to see our people getting involved in such a challenging and rewarding event alongside colleagues from across the property and logistics industry. Thank you to everyone who participated and contributed to this outstanding fundraising result for these four vital causes. #ClearwayGroup #TeamClearway #CommunitySupport"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
     }
   ]
 }

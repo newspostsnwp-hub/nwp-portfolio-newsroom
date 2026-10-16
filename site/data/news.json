@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T06:48:37.001109+00:00",
-  "digest_intro": "Good morning; today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
-  "archive_story_count": 17,
+  "generated_at": "2026-10-16T14:07:34.183107+00:00",
+  "digest_intro": "",
+  "archive_story_count": 18,
   "last_digest_sent_at": "2026-10-16T06:48:37.001109+00:00",
   "companies": [
     {
@@ -10,7 +10,7 @@
       "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -29,8 +29,8 @@
       "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
-      "story_count": 2,
-      "sector_count": 3,
+      "story_count": 1,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
@@ -125,7 +125,7 @@
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
+  "story_count": 4,
   "todays_story_count": 0,
   "stories": [
     {
@@ -349,36 +349,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "8dc60999216f8428",
-      "company": "Clearway Group",
-      "company_domain": "clearway.co.uk",
-      "industry": "UK property and site security",
-      "title": "Clearway supports the Prologis UK 100 Challenge, helping raise over £120,000 for charity",
-      "url": "https://www.clearway.co.uk/news/clearway-supports-the-prologis-uk-100-challenge/",
-      "source": "clearway.co.uk",
-      "published_at": "2026-09-16T12:29:05+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 75,
-      "tier": "reported",
-      "recency": "fresh",
-      "story_type": "Other",
-      "summary": "Clearway Group participated in the Prologis UK 100 Challenge on 10 September 2026, with Senior Client Director Paul Delany completing a 100-furlong hike to help raise over £120,000 for four charitable causes.",
-      "why_it_matters": "Demonstrates the company's active engagement in industry-wide CSR initiatives and its commitment to supporting community and charitable organisations alongside key sector partners.",
-      "verified_facts": [
-        "Clearway Senior Client Director Paul Delany participated in the Prologis UK 100 Challenge on 10 September 2026.",
-        "The event raised over £120,000 for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "Clearway Group is pleased to have supported the 2026 Prologis UK 100 Challenge. The event, which brought together professionals from across the property and logistics sectors, successfully raised over £120,000 to support LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. We would like to congratulate our own Senior Client Director, Paul Delany, who represented the team by completing the 100-furlong hike. It is encouraging to see the industry unite for such a significant collective fundraising effort, and we remain committed to supporting the communities in which we operate. Well done to all 246 participants involved in this year's challenge. #ClearwayGroup #CSR #PrologisUK100",
-        "investor": "Clearway Group continues to demonstrate its commitment to corporate social responsibility through active participation in industry-led initiatives. On 10 September, the team joined the Prologis UK 100 Challenge, a collaborative event that raised over £120,000 for four major charitable organisations, including LandAid and Parkinson’s UK. Clearway Senior Client Director Paul Delany participated in the 100-furlong hike, highlighting the firm's engagement with key stakeholders across the property and logistics sectors. Such initiatives reflect the company’s broader values and its role as a responsible participant within the UK property security market. We are proud to support the team’s involvement in these meaningful community-focused activities. #ClearwayGroup #ESG #PropertySector",
-        "people": "A huge well done to Clearway Senior Client Director Paul Delany for representing the team at the 2026 Prologis UK 100 Challenge! Paul took on the 100-furlong hike on 10 September, contributing to an impressive total of over £120,000 raised for LandAid, Age UK Solihull, Parkinson’s UK, and UCLH Charity. It is fantastic to see our people getting involved in such a challenging and rewarding event alongside colleagues from across the property and logistics industry. Thank you to everyone who participated and contributed to this outstanding fundraising result for these four vital causes. #ClearwayGroup #TeamClearway #CommunitySupport"
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS"
-    },
-    {
       "id": "32bca1eb9bf0e772",
       "company": "Clearway Group",
       "company_domain": "clearway.co.uk",
@@ -409,40 +379,6 @@
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "1861f1507e74fd1e",
-      "company": "The Delivery Group",
-      "company_domain": "thedeliverygroup.co.uk",
-      "industry": "UK parcel and mail delivery",
-      "title": "International UnTracked Updates",
-      "url": "https://thedeliverygroup.co.uk/news/latest-international-delivery-updates/",
-      "source": "thedeliverygroup.co.uk",
-      "published_at": "2026-09-16T12:30:00+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-17T06:49:03.666757+00:00",
-      "score": 45,
-      "tier": "low",
-      "recency": "fresh",
-      "story_type": "Update",
-      "summary": "The Delivery Group has issued an operational update regarding international delivery services, highlighting ongoing transit delays in the Middle East, Chile, and Italy due to geopolitical, environmental, and customs-related factors.",
-      "why_it_matters": "Operational transparency is critical for logistics firms to manage client expectations and maintain service reliability during periods of global disruption.",
-      "verified_facts": [
-        "The Delivery Group is experiencing international delivery delays in the Middle East, Chile, and Italy.",
-        "Delays in Chile are attributed to new customs regulations and weather-related disruptions in the Coquimbo and Atacama regions.",
-        "The Delivery Group is actively monitoring the situation and communicating with destination partners."
-      ],
-      "warnings": [
-        "The source material is a rolling operational status page rather than a singular news event; it contains multiple updates with varying dates, some dating back to 2021.",
-        "The content is purely operational and lacks a strategic growth or corporate development angle."
-      ],
-      "drafts": {
-        "concise": "The Delivery Group continues to provide transparent updates on international logistics, navigating complex global conditions to maintain service standards. The team is currently managing transit delays across several regions, including the Middle East, Chile, and Italy, due to a combination of geopolitical factors, customs changes, and adverse weather. By maintaining close communication with international partners and suppliers, The Delivery Group remains committed to keeping customers informed as the situation evolves. We support the team’s proactive approach to operational resilience in a challenging global delivery environment. #Logistics #SupplyChain #TheDeliveryGroup",
-        "investor": "Operational resilience is a key component of long-term value creation in the logistics sector. The Delivery Group’s latest update demonstrates a disciplined approach to managing international service disruptions, ensuring that clients are kept informed amidst complex customs and geopolitical challenges. By maintaining strong relationships with global partners, the firm continues to navigate these fluid conditions while prioritising service continuity. This commitment to operational transparency is essential for maintaining trust and stability within their e-commerce and mail delivery networks. #Logistics #OperationalExcellence #TheDeliveryGroup",
-        "people": "Navigating global logistics requires constant vigilance and clear communication. The team at The Delivery Group is currently managing a range of international service challenges, from customs updates in Chile to weather-related disruptions in Italy. We recognise the dedication of the operations teams who are working closely with international partners to mitigate delays and keep global supply chains moving. Their commitment to providing timely, accurate information to customers is a testament to the professionalism of the entire group. #Teamwork #Logistics #TheDeliveryGroup"
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS"
     }
   ],
   "sector_stories": [
@@ -458,6 +394,20 @@
       "score": 90,
       "summary": "The Communication Workers Union has called for an emergency government summit to address Royal Mail's structural decline and severe recruitment and retention crises.",
       "angle": "Highlights significant instability in the UK's primary postal incumbent, potentially impacting market capacity and competitor service expectations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "588f695e3294d8b6",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Ofcom: Royal Mail’s financial position is stark",
+      "url": "https://postandparcel.info/163103/news/post/ofcom-royal-mails-financial-position-is-stark/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-16T09:50:28+00:00",
+      "first_seen": "2026-10-16T14:07:34.183107+00:00",
+      "score": 85,
+      "summary": "Ofcom has proposed extending the current Second Class stamp price cap for one year until March 2028 to allow Royal Mail more time to implement universal service reforms.",
+      "angle": "Regulatory constraints on the dominant market player influence pricing strategies and service standards across the UK postal sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -489,17 +439,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7ce6c7bac84538f7",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail delivery model rollout paused",
-      "url": "https://postandparcel.info/163070/news/e-commerce/royal-mail-delivery-model-rollout-paused/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-10T20:45:58+00:00",
-      "first_seen": "2026-10-14T06:49:06.419753+00:00",
+      "id": "e8b9505ba3737cc0",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "From duty of care policy to operational readiness",
+      "url": "https://securityjournaluk.com/from-duty-of-care-to-operational-readiness/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-16T06:30:00+00:00",
+      "first_seen": "2026-10-16T14:07:34.183107+00:00",
       "score": 85,
-      "summary": "The Communication Workers Union has paused the rollout of Royal Mail’s Delivery Model 26, citing operational failures at delivery offices and demanding corrective action.",
-      "angle": "Operational instability at the dominant market incumbent creates potential service disruption and shifts in UK mail delivery capacity.",
+      "summary": "The article discusses the implications of the Terrorism (Protection of Premises) Act 2025, known as Martyn’s Law, regarding preparedness and safety procedures at qualifying UK premises.",
+      "angle": "Highlights regulatory shifts in UK site security and the increasing operational requirements for premises protection and emergency preparedness.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -531,17 +481,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "29a2aa8ccca00488",
+      "id": "ad6212015bce6728",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "MS Webb opens new Kent HQ",
-      "url": "https://securityjournaluk.com/ms-webb-opens-new-kent-hq/",
+      "title": "Demand for Linux-based video management servers and workstations rising",
+      "url": "https://securityjournaluk.com/demand-rising-for-linux-vms-workstations/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-10-15T10:36:14+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "published_at": "2026-10-16T09:37:16+00:00",
+      "first_seen": "2026-10-16T14:07:34.183107+00:00",
       "score": 75,
-      "summary": "MS Webb has opened a new headquarters in Kent and secured NSI NACOSS Gold accreditation while highlighting the upcoming implementation of Martyn's Law in spring 2027.",
-      "angle": "Industry preparation for Martyn's Law and the increasing demand for professional security standards and personnel.",
+      "summary": "Industry demand is shifting toward Linux-based video management servers due to improved security, system stability, and increased analytics processing efficiency compared to Microsoft-based alternatives.",
+      "angle": "Highlights a technical shift in security infrastructure that enhances system reliability and reduces long-term operational costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f35b24e25434563a",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "France and Germany propose 90 per cent CO₂ cut for new cars by 2035",
+      "url": "https://www.electrive.com/2026/10/16/france-and-germany-propose-90-per-cent-co%e2%82%82-cut-for-new-cars-by-2035/",
+      "source": "electrive.com",
+      "published_at": "2026-10-16T10:00:41+00:00",
+      "first_seen": "2026-10-16T14:07:34.183107+00:00",
+      "score": 65,
+      "summary": "France and Germany have proposed reducing the 2035 CO₂ fleet emission targets for new cars to 90 per cent, allowing the remaining 10 per cent to go uncompensated.",
+      "angle": "Potential softening of automotive decarbonisation targets may influence consumer transition rates toward alternative micromobility solutions like e-bikes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -584,20 +548,6 @@
       "score": 65,
       "summary": "Greater Bay Technology has commenced series production of solid-state battery cells in China using repurposed lithium-ion manufacturing equipment to improve capital efficiency.",
       "angle": "Advances in solid-state battery manufacturing and cost-efficient production methods could eventually improve energy density and safety for micromobility applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f68410d93311b08d",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Trump administration lowers US fuel efficiency standards",
-      "url": "https://www.electrive.com/2026/10/13/trump-administration-lowers-us-fuel-efficiency-standards/",
-      "source": "electrive.com",
-      "published_at": "2026-10-13T17:30:00+00:00",
-      "first_seen": "2026-10-14T06:49:06.419753+00:00",
-      "score": 65,
-      "summary": "The US administration has lowered fuel efficiency standards for new vehicles, potentially reducing EV adoption and increasing long-term fuel costs for consumers.",
-      "angle": "Regulatory shifts impacting EV adoption and consumer fuel costs influence the broader market environment for micromobility solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -671,20 +621,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9aed6ed5db658cdd",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Conservatives float ending pEPR in regulatory overhaul",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/conservatives-float-ending-pepr-in-regulatory-overhaul-06-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-06T10:47:27+00:00",
-      "first_seen": "2026-10-09T06:48:35.095404+00:00",
-      "score": 95,
-      "summary": "The Conservative Party has proposed scrapping the Extended Producer Responsibility for packaging (pEPR) regime, which currently requires manufacturers to contribute to local authority recycling costs.",
-      "angle": "Potential removal of pEPR would significantly alter the regulatory and cost landscape for UK packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6cb1f6eecd60ef62",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -713,18 +649,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "534e2ff15eca49a7",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Sovereign AI becoming global priority as firms seek alternatives to US, China: Mistral CEO - Tech - Business - Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZkdJcm1HZGxSaXRNRDdnU0xQTWhUQ1IxSWtsa0s4WHlkSjJ3d2syS3ZrTzFFMldQd3BtUDFnSk9LaTgxWjRMWEFDdmpkMVNZSnV6SGhKYktqbldGNHpiTUJTbERObXZ4dHVDT3JsdEhDQWdNaG12cEJtRUNvSzBWcXJoS013YWJLMWxOQXItLTVrajBLN051dWF0UEpjTzJQVWI4c2xFRWctWmItWWQ0RWJuVWdBX3c2YkdHM2RzZ0Z1dw?oc=5",
-      "source": "Ahram Online",
-      "published_at": "2026-10-06T08:18:15+00:00",
-      "first_seen": "2026-10-06T14:07:39.612241+00:00",
-      "score": 90,
-      "summary": "Mistral AI's CEO states that sovereign AI is becoming a global priority as organisations seek alternatives to US and Chinese technology providers.",
-      "angle": "Validates the growing market demand for independent, non-aligned AI infrastructure and sovereign technology solutions.",
-      "discovered_via": "Google News RSS"
+      "id": "227e90bdaf815d5c",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Liverpool fans profit from Austrian stadium cup return scheme at Champions League match",
+      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/liverpool-fans-profit-from-austrian-stadium-cup-return-scheme-at-champions-league-match-16-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-16T08:08:15+00:00",
+      "first_seen": "2026-10-16T14:07:34.183107+00:00",
+      "score": 75,
+      "summary": "Liverpool fans collected discarded reusable cups at an Austrian stadium to claim cash deposits, highlighting the effectiveness of deposit return schemes in promoting circular economy practices at venues.",
+      "angle": "Demonstrates growing adoption of circular economy deposit schemes for stadium beverage containers, impacting demand for reusable packaging solutions.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "e6efd4664cbe487f",
@@ -1038,17 +974,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 3,
+    "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 76,
-    "queued_candidates": 117,
-    "llm_requests_attempted": 65,
-    "llm_requests_succeeded": 65,
+    "providers_succeeded": 87,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 38,
+    "llm_requests_succeeded": 18,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
-    "carried_forward": 6
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 6,
+    "carried_forward": 4
   }
 }
