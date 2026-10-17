@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T14:07:34.183107+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-10-17T06:48:32.650243+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, featuring ten updates for your review.",
   "archive_story_count": 18,
-  "last_digest_sent_at": "2026-10-16T06:48:37.001109+00:00",
+  "last_digest_sent_at": "2026-10-17T06:48:32.650243+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -125,7 +125,7 @@
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
@@ -182,7 +182,7 @@
       "website": "https://www.fertilityassociates.co.nz/",
       "newsroom_url": "https://www.fertilityassociates.co.nz/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
@@ -467,20 +467,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d63007808c8e6eee",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "AI: An opportunity bigger than automation",
-      "url": "https://securityjournaluk.com/ai-an-opportunity-bigger-than-automation/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-07T06:30:00+00:00",
-      "first_seen": "2026-10-07T06:48:34.361698+00:00",
-      "score": 85,
-      "summary": "The security industry is shifting from using AI as a simple tool to deploying autonomous systems capable of monitoring, triaging alerts, and coordinating operational responses.",
-      "angle": "Highlights the strategic transition toward AI-driven operational models and the critical need for robust governance in physical security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "ad6212015bce6728",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -492,6 +478,48 @@
       "score": 75,
       "summary": "Industry demand is shifting toward Linux-based video management servers due to improved security, system stability, and increased analytics processing efficiency compared to Microsoft-based alternatives.",
       "angle": "Highlights a technical shift in security infrastructure that enhances system reliability and reduces long-term operational costs.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "29a2aa8ccca00488",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "MS Webb opens new Kent HQ",
+      "url": "https://securityjournaluk.com/ms-webb-opens-new-kent-hq/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-15T10:36:14+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 75,
+      "summary": "MS Webb has opened a new headquarters in Kent and achieved NSI NACOSS Gold accreditation while highlighting the upcoming implementation of Martyn's Law in spring 2027.",
+      "angle": "Provides industry insight into regulatory preparation for Martyn's Law and growing market demand for professional security standards.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7945c443b5a45f88",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Plug-in hybrids emit six times more CO2 than officially stated",
+      "url": "https://www.electrive.com/2026/10/16/plug-in-hybrids-emit-six-times-more-co2-than-officially-stated/",
+      "source": "electrive.com",
+      "published_at": "2026-10-16T14:30:00+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 65,
+      "summary": "A Transport & Environment analysis reveals that plug-in hybrid vehicles emit six times more CO2 in real-world conditions than official figures suggest.",
+      "angle": "Highlights the failure of hybrid vehicles to meet decarbonisation targets, potentially increasing consumer and policy interest in micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "fc2415b8dd3925f2",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "VW prepares battery recall for multiple ID. models in Europe",
+      "url": "https://www.electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe/",
+      "source": "electrive.com",
+      "published_at": "2026-10-16T11:18:44+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 65,
+      "summary": "Volkswagen is initiating a battery recall for several ID. series electric vehicles in Europe due to potential manufacturing defects in high-voltage cells that pose a fire risk.",
+      "angle": "Highlights supply chain quality risks and regulatory scrutiny regarding lithium-ion battery safety standards within the broader micromobility sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -523,31 +551,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5bcc541f91ede7e3",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Chinese government cuts state subsidies for EV manufacturers",
-      "url": "https://www.electrive.com/2026/10/15/chinese-government-cuts-state-subsidies-for-ev-manufacturers/",
-      "source": "electrive.com",
-      "published_at": "2026-10-15T11:00:00+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
-      "score": 65,
-      "summary": "The Chinese government is reducing VAT export rebates for new energy vehicles from 13 per cent to 9 per cent, effective 1 April 2027.",
-      "angle": "Reduces the price advantage of Chinese-made electric vehicles and components in international markets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "281c68ef6d75c7a8",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "GBT begins series production of solid-state battery cells",
-      "url": "https://www.electrive.com/2026/10/14/gbt-begins-series-production-of-solid-state-battery-cells/",
-      "source": "electrive.com",
-      "published_at": "2026-10-14T13:30:00+00:00",
-      "first_seen": "2026-10-15T06:49:04.795497+00:00",
-      "score": 65,
-      "summary": "Greater Bay Technology has commenced series production of solid-state battery cells in China using repurposed lithium-ion manufacturing equipment to improve capital efficiency.",
-      "angle": "Advances in solid-state battery manufacturing and cost-efficient production methods could eventually improve energy density and safety for micromobility applications.",
+      "id": "bb0aa99814a51cf9",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Nvidia’s Editor’s Day: New Windows-Based RTX Spark Computers",
+      "url": "https://postperspective.com/nvidias-editors-day-new-windows-based-rtx-spark-computers/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-15T16:58:14+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 85,
+      "summary": "Nvidia has launched the RTX Spark line of ARM-based Windows computers, featuring unified memory architectures designed to facilitate local AI processing for creative workflows.",
+      "angle": "Local AI processing improves security and reliability for post-production workflows, reducing reliance on cloud-based AI tools.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -562,20 +576,6 @@
       "score": 85,
       "summary": "Sync.Labs has launched Sync.Productions, a managed service using AI to perform zero-shot lipsyncing for film and television localization without requiring actor-specific training or facial scans.",
       "angle": "AI-driven automated lipsyncing tools are increasingly capable of professional-grade localization, impacting traditional post-production workflows and dubbing services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "91794ae169557437",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "A Look at the Move Toward ARM-Based Processing",
-      "url": "https://postperspective.com/a-look-at-the-move-toward-arm-based-processing/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-06T16:12:14+00:00",
-      "first_seen": "2026-10-11T06:48:23.777661+00:00",
-      "score": 85,
-      "summary": "The transition from x86 to ARM-based processing is accelerating in digital content creation, driven by energy efficiency and the emergence of high-performance ARM-native hardware and software.",
-      "angle": "Hardware shifts impact workstation performance, software compatibility, and infrastructure efficiency for post-production workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -604,6 +604,20 @@
       "score": 75,
       "summary": "The production team for Apple TV’s Margo’s Got Money Troubles utilized a complex post-production workflow involving ARRI 35 cameras, Avid Media Composer, and integrated VFX for social media elements.",
       "angle": "Highlights evolving technical requirements for integrating social media aesthetics and complex VFX into high-end episodic television post-production workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "a575edaced387446",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Regulators intervene over PRN undersupply as FPA calls for fundamental review of 2027 targets",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/regulators-intervene-over-prn-undersupply-as-fpa-calls-for-fundamental-review-of-2027-targets-16-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-16T10:16:03+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 95,
+      "summary": "UK regulators have issued a Regulatory Position Statement allowing businesses to meet reduced plastic recycling obligations for 2026 due to a shortage of Packaging Waste Recycling Notes.",
+      "angle": "Highlights systemic instability in the PRN market and critical upcoming regulatory shifts regarding PET and DRS implementation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -649,20 +663,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "227e90bdaf815d5c",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Liverpool fans profit from Austrian stadium cup return scheme at Champions League match",
-      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/liverpool-fans-profit-from-austrian-stadium-cup-return-scheme-at-champions-league-match-16-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-16T08:08:15+00:00",
-      "first_seen": "2026-10-16T14:07:34.183107+00:00",
-      "score": 75,
-      "summary": "Liverpool fans collected discarded reusable cups at an Austrian stadium to claim cash deposits, highlighting the effectiveness of deposit return schemes in promoting circular economy practices at venues.",
-      "angle": "Demonstrates growing adoption of circular economy deposit schemes for stadium beverage containers, impacting demand for reusable packaging solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "e6efd4664cbe487f",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -705,6 +705,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ff1e4d8c84c48ccf",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Q&A: What to expect from Milton Keynes Tech Week 2026",
+      "url": "https://www.uktech.news/news/founder-interviews/qa-what-to-expect-from-milton-keynes-tech-week-2026-20261008",
+      "source": "uktech.news",
+      "published_at": "2026-10-08T11:31:32+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 65,
+      "summary": "Milton Keynes Tech Week 2026 will host a Sovereign Technology conference on 15 October to address UK control over critical data, infrastructure, and supply chain resilience.",
+      "angle": "Highlights growing policy and commercial focus on sovereign technology as a critical component of UK national infrastructure resilience.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "13d705c7ae129bcf",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "DRS: the time is now | Editor’s comment",
+      "url": "https://www.talkingretail.com/opinion/talking-points/drs-the-time-is-now-editors-comment-16-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-16T12:31:39+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 85,
+      "summary": "With the UK deposit return scheme launching in October 2027, independent retailers must decide between manual take-back or reverse vending machines to manage operational impacts and compliance.",
+      "angle": "Regulatory compliance and operational logistics for independent retail stores handling container returns.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "10f87a2d578517e1",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Countdown to DRS | Big story: Soapbox Special",
+      "url": "https://www.talkingretail.com/news/special-reports/countdown-to-drs-big-story-soapbox-special-16-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-16T12:00:57+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 85,
+      "summary": "The UK government will introduce a deposit return scheme in October 2027, requiring retailers to manage container returns and potentially invest in reverse vending machines.",
+      "angle": "Regulatory compliance and operational adjustments regarding in-store space and technology for independent retail chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f183a345c54084a6",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -730,34 +772,6 @@
       "score": 85,
       "summary": "UK retail sales growth slowed to 1.3% in September, with non-food sales rising by only 0.3% as consumer caution persists ahead of the upcoming Budget.",
       "angle": "Highlights subdued consumer spending and potential regulatory risks regarding business rates and tax policy impacting retail operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "15dd2ed17698f439",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Business rate relief expansion can unlock hiring and investment, says FSB",
-      "url": "https://www.talkingretail.com/featured/business-rate-relief-expansion-can-unlock-hiring-and-investment-says-fsb-13-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-13T10:11:57+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
-      "score": 85,
-      "summary": "The Federation of Small Businesses is calling on the Chancellor to expand Small Business Rate Relief thresholds and introduce further tax reforms to support growth and hiring.",
-      "angle": "Proposed changes to business rates and employment taxes directly impact the operational costs of UK retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "913ea08105db62fe",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Cost of living, youth jobs and high street improvements top public Budget priorities",
-      "url": "https://www.talkingretail.com/featured/cost-of-living-youth-jobs-and-high-street-improvements-top-public-budget-priorities-12-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-12T12:39:04+00:00",
-      "first_seen": "2026-10-12T14:08:00.536847+00:00",
-      "score": 85,
-      "summary": "The British Retail Consortium is lobbying the government for business tax relief and National Insurance threshold changes to support high street viability and retail investment in the upcoming Budget.",
-      "angle": "Highlights critical policy advocacy regarding business rates and employment costs directly impacting UK high street retail operational viability.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -859,6 +873,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "65479edba65a6afd",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Judge criticises intended parents' lack of 'due diligence' in surrogacy case",
+      "url": "https://www.progress.org.uk/judge-criticises-intended-parents-lack-of-due-diligence-in-surrogacy-case/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-10-12T15:57:09+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 75,
+      "summary": "A UK judge granted a parental order following illegal commercial surrogacy in China, while criticising the intended parents' lack of due diligence and the risks of overseas arrangements.",
+      "angle": "Highlights increasing judicial scrutiny and legal risks associated with cross-border surrogacy and international fertility service arrangements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0350293c25df448c",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -957,17 +985,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bcf25aa85c607990",
+      "id": "28159b08cd4933d3",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Best SCA Tools for Open-Source Risk in Industrial Software",
-      "url": "https://roboticsandautomationnews.com/2026/10/15/best-sca-tools-for-open-source-risk-in-industrial-software/105978/",
+      "title": "Skild AI trains robots to learn physical skills through self-play",
+      "url": "https://roboticsandautomationnews.com/2026/10/16/skild-ai-trains-robots-to-learn-physical-skills-through-self-play/105994/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-15T20:36:35+00:00",
-      "first_seen": "2026-10-16T06:48:37.001109+00:00",
-      "score": 65,
-      "summary": "This article reviews Software Composition Analysis tools designed to identify security vulnerabilities and license compliance risks within industrial software dependencies.",
-      "angle": "Critical for managing cybersecurity and supply chain transparency in safety-sensitive autonomous robotics and industrial infrastructure software.",
+      "published_at": "2026-10-16T08:00:14+00:00",
+      "first_seen": "2026-10-17T06:48:32.650243+00:00",
+      "score": 75,
+      "summary": "Skild AI has demonstrated a self-play training approach allowing robots to develop complex physical skills in simulation without relying on human demonstrations.",
+      "angle": "Reduces reliance on human-generated training data, potentially accelerating the development of autonomous navigation and manipulation in complex environments.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -977,14 +1005,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 38,
-    "llm_requests_succeeded": 18,
+    "providers_succeeded": 91,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 87,
+    "llm_requests_succeeded": 87,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
