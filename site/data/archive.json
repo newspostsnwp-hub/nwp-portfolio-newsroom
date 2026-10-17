@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:48:32.650243+00:00",
+  "generated_at": "2026-10-17T14:07:26.624178+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -577,6 +577,36 @@
       },
       "status": "needs_review",
       "discovered_via": "Official RSS"
+    },
+    {
+      "id": "52c48b39cf0a668d",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill Acquires TeachFX, Expanding Commitment to Great Teaching with AI Coaching Tool Designed by Educators - The Joplin Globe",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPNVpocDFDNHFoY3I1ZU1xUGwteWZqazFYLVBEX3hKS01MOWRfRVdya2tqVHVQekdYSGdRNmU0cE5UckNPdUxxdE1WSWw3S3hCQkR2RUZsZjAtXzF3dlVFdzBJY0FtbmVrWGI3eTFPbFplZWhKSGhvX1dfdnJxYXloV3NfRkNoMlcwcXp2MzhiTUJhQkZUdGIxRS1tZ19hUXllaFltdEd1Y3phNWltWHhrYWRiLVRzU0hkQjNvMDRlUm5HanpFeE1GTFVpZUdTS05Nb05xa19aQ3E0WXdtX081M0kxRTlhdjR3OGZjNzZ1NkNGaEVpU1dEeDNkQ0pYeUdlY3d1UnVqZmFlSTUzZklBb0NPZ2Qydk8xbTc5WkNkQ2VUWUpNSFBva3Z5R2o?oc=5",
+      "source": "The Joplin Globe",
+      "published_at": "2026-09-17T12:35:04+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-17T14:08:07.886212+00:00",
+      "score": 90,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Acquisition",
+      "summary": "McGraw Hill has acquired TeachFX, an edtech company specialising in AI-powered professional development tools for educators.",
+      "why_it_matters": "This acquisition strengthens McGraw Hill's portfolio by integrating AI-driven coaching technology designed to support teachers and improve classroom instruction.",
+      "verified_facts": [
+        "McGraw Hill has acquired TeachFX.",
+        "TeachFX provides an AI coaching tool designed by educators."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill has acquired TeachFX. This move integrates AI-powered coaching tools into McGraw Hill’s existing suite of educational resources, further supporting their commitment to enhancing teaching practices and classroom outcomes. By leveraging technology designed by educators, McGraw Hill continues to evolve its offerings to meet the changing needs of the global education sector. We look forward to seeing how this integration supports teachers in their professional development and instructional impact. #McGrawHill #EdTech #Education",
+        "investor": "McGraw Hill’s acquisition of TeachFX marks a strategic expansion of its learning technology capabilities. By incorporating AI-driven coaching tools, the company is well-positioned to address the growing demand for scalable, data-informed professional development for educators. This investment aligns with McGraw Hill’s focus on providing high-quality, evidence-based solutions that drive instructional improvement. We remain focused on supporting the team as they integrate this new technology to deliver enhanced value across their global education platforms. #EducationInvestment #GrowthStrategy #AI",
+        "people": "Congratulations to the McGraw Hill team on the acquisition of TeachFX. This partnership brings together McGraw Hill’s extensive reach in education publishing with TeachFX’s innovative AI coaching tools, which were specifically designed by educators to support their peers. By prioritising tools that empower teachers, McGraw Hill is reinforcing its dedication to the people at the heart of the classroom. We are excited to see how this collaboration will foster professional growth and support educators in their vital work. #ProfessionalDevelopment #TeachingExcellence #McGrawHill"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
     }
   ]
 }
