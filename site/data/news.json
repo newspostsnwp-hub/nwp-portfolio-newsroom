@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T06:48:28.232624+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-10-18T14:07:30.927882+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on three sector updates, with no specific news to report from Petainer or Whitespace.",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-18T06:48:28.232624+00:00",
   "companies": [
@@ -591,20 +591,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "45369ca399750b04",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Consultation launches on plastic packaging tax mass balance standards",
-      "url": "https://www.packagingnews.co.uk/news/environment/plastic-packaging-tax/consultation-launches-on-plastic-packaging-tax-mass-balance-standards-08-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-08T11:02:36+00:00",
-      "first_seen": "2026-10-10T06:48:33.521550+00:00",
-      "score": 95,
-      "summary": "HMRC has launched a consultation on draft legislation defining mass balance standards for chemical recycling to meet UK Plastic Packaging Tax recycled content requirements.",
-      "angle": "Clarifies regulatory compliance pathways for using chemically recycled plastics to meet mandatory recycled content thresholds.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "6cb1f6eecd60ef62",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -633,6 +619,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "227e90bdaf815d5c",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Liverpool fans profit from Austrian stadium cup return scheme at Champions League match",
+      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/liverpool-fans-profit-from-austrian-stadium-cup-return-scheme-at-champions-league-match-16-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-16T08:08:15+00:00",
+      "first_seen": "2026-10-18T14:07:30.927882+00:00",
+      "score": 75,
+      "summary": "Liverpool fans collected discarded reusable cups at an Austrian stadium to claim cash deposits, highlighting the effectiveness of deposit return schemes in promoting circular economy practices at sporting venues.",
+      "angle": "Demonstrates growing adoption of reusable container deposit schemes and circular economy mandates within major European sports venues.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ebe8d70f2c63cccf",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Microsoft drops huge AI datacentre project in Essex over power supply concerns",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns",
+      "source": "theguardian.com",
+      "published_at": "2026-10-18T13:00:00+00:00",
+      "first_seen": "2026-10-18T14:07:30.927882+00:00",
+      "score": 85,
+      "summary": "Microsoft has withdrawn from a major Essex datacentre project led by Nscale due to significant power supply constraints and grid connection delays.",
+      "angle": "Highlights critical infrastructure bottlenecks and grid capacity challenges facing the UK's sovereign AI datacentre expansion strategy.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "515106513bfc24b1",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -647,6 +661,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "0893b69418a8a398",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "E2E Networks Q2 FY27 revenue jumps to ₹2 , 238 Mn , PAT rises to ₹727 Mn , signs ₹1 , 000 Cr AI deal",
+      "url": "https://www.freepressjournal.in/business/e2e-networks-q2-fy27-revenue-jumps-to-2238-mn-pat-rises-to-727-mn-signs-1000-cr-ai-deal",
+      "source": "freepressjournal.in",
+      "published_at": "2026-10-16T10:45:00+00:00",
+      "first_seen": "2026-10-18T14:07:30.927882+00:00",
+      "score": 85,
+      "summary": "E2E Networks reported a 411% year-on-year revenue increase to ₹2,238 million and secured a ₹1,000 crore multi-year cloud GPU contract with an Indian sovereign AI company.",
+      "angle": "Demonstrates significant market demand for sovereign AI infrastructure and high-performance GPU compute capacity in emerging markets.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "0b48c11a5575cbe0",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -658,34 +686,6 @@
       "score": 75,
       "summary": "Dr. Hemant Garg received an award for his work on sovereign AI agents and public policy, highlighting India's focus on indigenous AI models and digital public infrastructure.",
       "angle": "Provides insight into global sovereign AI policy frameworks, indigenous model development, and government-led intelligent governance strategies.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "26ab4b9c92446126",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Dublin declares AI is a good thing and Digital Infrastructure Ireland Ronan Kelly",
-      "url": "https://www.techcentral.ie/dublin-declares-ai-is-a-good-thing-and-digital-infrastructure-irelands-ronan-kelly/",
-      "source": "techcentral.ie",
-      "published_at": "2026-10-16T14:00:00+00:00",
-      "first_seen": "2026-10-17T14:07:26.624178+00:00",
-      "score": 75,
-      "summary": "The Dublin Declaration outlines six points of agreement for European AI development, emphasising the balance between digital sovereignty and international collaboration.",
-      "angle": "Highlights evolving European policy frameworks and the strategic tension between sovereign independence and global AI integration.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "66c04fc2e2587b4a",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "FPT and NVIDIA Expand Nemotron - Personas - Vietnam Dataset by 10X Times to Power the Next Wave of Agentic AI",
-      "url": "http://www.malaysiasun.com/news/279378541/fpt-and-nvidia-expand-nemotron-personas-vietnam-dataset-by-10x-times-to-power-the-next-wave-of-agentic-ai",
-      "source": "malaysiasun.com",
-      "published_at": "2026-10-16T13:30:00+00:00",
-      "first_seen": "2026-10-17T14:07:26.624178+00:00",
-      "score": 75,
-      "summary": "FPT and NVIDIA expanded the Nemotron-Personas-Vietnam dataset to 1,000,000 synthetic personas to support the development of sovereign AI and agentic systems grounded in local demographic data.",
-      "angle": "Demonstrates the growing importance of high-fidelity, synthetic, region-specific datasets for building sovereign AI and agentic applications.",
       "discovered_via": "GDELT"
     },
     {
@@ -975,14 +975,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 84,
-    "llm_requests_succeeded": 84,
+    "providers_succeeded": 82,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 77,
+    "llm_requests_succeeded": 77,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 3
   }
 }
