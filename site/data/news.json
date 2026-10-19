@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T06:49:12.213194+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Future Maintenance Technologies or Whitespace.",
+  "generated_at": "2026-10-19T14:08:18.887230+00:00",
+  "digest_intro": "",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-19T06:49:12.213194+00:00",
   "companies": [
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -591,20 +591,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6cb1f6eecd60ef62",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "PackUK sets out autumn pEPR roadmap as UK Packaging PRO takes greater role",
-      "url": "https://www.packagingnews.co.uk/top-story/packuk-sets-out-autumn-pepr-roadmap-as-uk-packaging-pro-takes-greater-role-09-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-09T10:47:09+00:00",
-      "first_seen": "2026-10-11T14:07:22.423099+00:00",
-      "score": 90,
-      "summary": "PackUK has announced its autumn roadmap for packaging EPR, including Year 2 producer fees, a five-year strategy, and a forthcoming call for evidence on fee modulation.",
-      "angle": "Regulatory changes to EPR fees and recyclability assessment methodologies directly impact packaging manufacturers' operational costs and design requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "d41178b53f226691",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -975,13 +961,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 107,
-    "llm_requests_attempted": 55,
-    "llm_requests_succeeded": 55,
+    "providers_succeeded": 97,
+    "queued_candidates": 146,
+    "llm_requests_attempted": 26,
+    "llm_requests_succeeded": 0,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 16,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 6,
     "carried_forward": 3
   }
