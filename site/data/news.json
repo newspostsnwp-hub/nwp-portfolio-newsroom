@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T14:07:30.927882+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on three sector updates, with no specific news to report from Petainer or Whitespace.",
+  "generated_at": "2026-10-19T06:49:12.213194+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Future Maintenance Technologies or Whitespace.",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-18T06:48:28.232624+00:00",
+  "last_digest_sent_at": "2026-10-19T06:49:12.213194+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -633,6 +633,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b722831591faa470",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Microsoft pulls out of Nscale data centre deal",
+      "url": "https://www.thetimes.com/business/companies-markets/article/microsoft-quits-nscale-data-centre-essex-lzb38l2fr",
+      "source": "thetimes.com",
+      "published_at": "2026-10-19T06:00:00+00:00",
+      "first_seen": "2026-10-19T06:49:12.213194+00:00",
+      "score": 85,
+      "summary": "Microsoft has withdrawn from a data centre deal with Nscale in Essex due to significant delays in securing necessary grid power connections until the early 2030s.",
+      "angle": "Highlights critical infrastructure and energy grid constraints as major bottlenecks for UK sovereign AI data centre development.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "ebe8d70f2c63cccf",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -672,20 +686,6 @@
       "score": 85,
       "summary": "E2E Networks reported a 411% year-on-year revenue increase to ₹2,238 million and secured a ₹1,000 crore multi-year cloud GPU contract with an Indian sovereign AI company.",
       "angle": "Demonstrates significant market demand for sovereign AI infrastructure and high-performance GPU compute capacity in emerging markets.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "0b48c11a5575cbe0",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "From Karmayogi to the World Stage : Dr . Hemant Garg Wins",
-      "url": "http://www.bruneinews.net/news/279380692/from-karmayogi-to-the-world-stage-dr-hemant-garg-wins-excellence-in-ai-for-public-policy-charts-india-path-to-the-ai-big-league",
-      "source": "bruneinews.net",
-      "published_at": "2026-10-17T12:15:00+00:00",
-      "first_seen": "2026-10-17T14:07:26.624178+00:00",
-      "score": 75,
-      "summary": "Dr. Hemant Garg received an award for his work on sovereign AI agents and public policy, highlighting India's focus on indigenous AI models and digital public infrastructure.",
-      "angle": "Provides insight into global sovereign AI policy frameworks, indigenous model development, and government-led intelligent governance strategies.",
       "discovered_via": "GDELT"
     },
     {
@@ -941,20 +941,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "4b059a1f078de0ee",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Odyssey launches world model to control robots, humanoids, vehicles and drones",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-08T19:22:04+00:00",
-      "first_seen": "2026-10-09T06:48:35.095404+00:00",
-      "score": 85,
-      "summary": "Odyssey has launched Odyssey-3, a foundation world model capable of controlling robots, drones, and vehicles by applying a generalized understanding of physics and dynamics across diverse environments.",
-      "angle": "Advances in foundation world models may accelerate autonomous navigation and complex task execution for rail and aviation inspection robots.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "28159b08cd4933d3",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -967,6 +953,20 @@
       "summary": "Skild AI has demonstrated a self-play training approach allowing robots to develop complex physical skills in simulation without relying on human demonstrations.",
       "angle": "Reduces reliance on human-generated training data, potentially accelerating the development of autonomous navigation and manipulation in complex environments.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "20ec0365190cf6e1",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Tesla patent reveals touch-sensitive skin for robot hands",
+      "url": "https://roboticsandautomationnews.com/2026/10/16/tesla-patent-reveals-touch-sensitive-skin-for-robot-hands/105999/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-16T09:01:45+00:00",
+      "first_seen": "2026-10-19T06:49:12.213194+00:00",
+      "score": 65,
+      "summary": "Tesla has filed a patent for a scalable, touch-sensitive robotic skin capable of detecting contact, force, and pressure using flexible, thermoformed materials.",
+      "angle": "Advances in tactile sensing technology improve robotic dexterity and manipulation capabilities for complex industrial inspection environments.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -975,10 +975,10 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 77,
-    "llm_requests_succeeded": 77,
+    "providers_succeeded": 83,
+    "queued_candidates": 107,
+    "llm_requests_attempted": 55,
+    "llm_requests_succeeded": 55,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
