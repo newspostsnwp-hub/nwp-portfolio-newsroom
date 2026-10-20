@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T06:49:16.390116+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 10 sector-wide developments, with no specific updates regarding Clearway Group, Future Maintenance Technologies, McGraw Hill, Molinare, or Whitespace.",
+  "generated_at": "2026-10-20T14:08:17.671779+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on the 19 sector items relevant to our market, as there are no updates from the portfolio companies this morning.",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-20T06:49:16.390116+00:00",
   "companies": [
@@ -106,7 +106,7 @@
       "website": "https://www.petainer.com/",
       "newsroom_url": "https://www.petainer.com/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Petainer%22+OR+%22petainerKeg%22&tbm=nws",
@@ -367,6 +367,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c624ae96e683fe8e",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Nearly six in 10 transport firms are ‘very concerned’ about fuel prices, more than any other sector",
+      "url": "https://postandparcel.info/163123/news/e-commerce/nearly-six-in-10-transport-firms-are-very-concerned-about-fuel-prices-more-than-any-other-sector/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-20T13:27:34+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "ONS data shows that 59.8% of transport and storage businesses are now 'very concerned' about rising fuel prices, up from 43% in August.",
+      "angle": "Rising fuel costs increase operational pressure and necessitate potential adjustments to delivery pricing and surcharges across the sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "cb6a9a345afc9072",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Royal Mail Responds to “Misleading Statements” by CWU Leadership",
+      "url": "https://postandparcel.info/163121/news/e-commerce/royal-mail-responds-to-misleading-statements-by-cwu-leadership/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-19T03:21:13+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "Royal Mail reports improved service quality and is hiring 22,000 seasonal workers while addressing ongoing industrial relations tensions with the Communication Workers Union ahead of the peak season.",
+      "angle": "Provides critical insight into competitor operational capacity, service performance trends, and potential labour market shifts in UK delivery.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "588f695e3294d8b6",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -381,34 +409,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b4fff54d8b875321",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "UPU: we need decision makers to respond with coordinated, agile policy",
-      "url": "https://postandparcel.info/163064/news/parcel/upu-we-need-decision-makers-to-respond-with-coordinated-agile-policy/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-12T03:59:16+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 85,
-      "summary": "The UPU reports that disjointed international trade policies and customs duties have negatively impacted global postal flows and e-commerce, causing a 10% average reduction in postal corridors.",
-      "angle": "Highlights regulatory risks and cross-border trade friction impacting international e-commerce delivery volumes and operational costs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1934ab658a130da4",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail planning to cut up to 2,500 jobs by the end of 2027",
-      "url": "https://postandparcel.info/163058/news/e-commerce/royal-mail-planning-to-cut-up-to-2500-jobs-by-the-end-of-2027/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-12T03:57:41+00:00",
-      "first_seen": "2026-10-12T14:08:00.536847+00:00",
-      "score": 85,
-      "summary": "Royal Mail is implementing Universal Service reform and undergoing a significant transformation to adapt to a rapidly changing market, including plans to cut 2,500 jobs by 2027.",
-      "angle": "Indicates major structural shifts and cost-cutting measures by the dominant incumbent, impacting sector-wide competitive dynamics and labour costs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "d402fbbfa9752b9d",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -420,6 +420,20 @@
       "score": 90,
       "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn’s Law, mandates that public venues and event organisers implement formal security and evacuation procedures to mitigate terrorism risks.",
       "angle": "New statutory duties for public venues increase demand for professional security planning, training, and integrated site safety solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "8e4138f9b38bbb58",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Slamming the brakes on EV charging crime",
+      "url": "https://securityjournaluk.com/slamming-the-brakes-on-ev-charging-crime/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-20T07:22:26+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "Rising theft of copper cables and vandalism at remote EV charging sites is driving demand for proactive, AI-powered video surveillance and remote monitoring solutions.",
+      "angle": "Highlights a growing, high-value niche for remote site security services in the expanding EV infrastructure market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -451,17 +465,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3add50baa4a9df94",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Optimised AI infrastructures start and end with data",
-      "url": "https://securityjournaluk.com/optimised-ai-starts-and-ends-with-data/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-19T09:28:55+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 75,
-      "summary": "The security sector faces increasing infrastructure challenges as AI-driven inference generates massive volumes of metadata and video, necessitating complex, tiered storage strategies for compliance and operational efficiency.",
-      "angle": "Highlights the critical need for scalable, compliant data storage architectures to support AI-enabled security deployments.",
+      "id": "8ed7a0f2356bfcf0",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Green Science Alliance opens Swiss battery recycling lab",
+      "url": "https://www.electrive.com/2026/10/20/green-science-alliance-opens-swiss-battery-recycling-lab/",
+      "source": "electrive.com",
+      "published_at": "2026-10-20T14:00:00+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 65,
+      "summary": "Green Science Alliance has opened a battery recycling laboratory in Switzerland to develop direct recycling methods for cathode materials from lithium-ion batteries.",
+      "angle": "Advancements in direct battery recycling could improve supply chain sustainability and reduce costs for micromobility battery manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "660d8d7a23d42292",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "EU Parliament mulls watered-down CO₂ reductions for cars in Auto Package debate",
+      "url": "https://www.electrive.com/2026/10/20/eu-parliament-mulls-watered-down-co%e2%82%82-reductions-for-cars-in-auto-package-debate/",
+      "source": "electrive.com",
+      "published_at": "2026-10-20T12:00:00+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 65,
+      "summary": "The European Parliament is debating a proposal to relax the 2035 ban on new combustion engine cars by setting a 87.5 per cent CO₂ reduction target.",
+      "angle": "Potential delays in the transition to electric vehicles may impact broader consumer adoption trends and micromobility market dynamics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -490,34 +518,6 @@
       "score": 65,
       "summary": "Volkswagen is initiating a battery recall for several ID. series electric vehicles in Europe due to potential manufacturing defects in high-voltage cells that pose a fire risk.",
       "angle": "Highlights supply chain quality risks and regulatory scrutiny regarding lithium-ion battery safety standards within the broader micromobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f35b24e25434563a",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "France and Germany propose 90 per cent CO₂ cut for new cars by 2035",
-      "url": "https://www.electrive.com/2026/10/16/france-and-germany-propose-90-per-cent-co%e2%82%82-cut-for-new-cars-by-2035/",
-      "source": "electrive.com",
-      "published_at": "2026-10-16T10:00:41+00:00",
-      "first_seen": "2026-10-16T14:07:34.183107+00:00",
-      "score": 65,
-      "summary": "France and Germany have proposed reducing the 2035 CO₂ fleet emission targets for new cars to 90 per cent, allowing the remaining 10 per cent to go uncompensated.",
-      "angle": "Potential softening of automotive decarbonisation targets may influence consumer transition rates toward alternative micromobility solutions like e-bikes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "974a3d4efd6f7ae0",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "‘Major’ OEM to test Gelion’s NES cathode platform",
-      "url": "https://www.electrive.com/2026/10/15/major-oem-to-test-gelions-nes-cathode-platform/",
-      "source": "electrive.com",
-      "published_at": "2026-10-15T14:00:18+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
-      "score": 65,
-      "summary": "Battery developer Gelion has signed an agreement with a major automaker to test its Nano-Encapsulated Sulfur cathode technology for potential use in electric vehicle batteries.",
-      "angle": "Advancements in sulfur-based cathode technology could eventually reduce battery costs and reliance on critical raw materials in micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -591,6 +591,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "75430ef971fcc9e0",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Suntory targets 90% value-chain emissions cut with packaging focus",
+      "url": "https://www.packagingnews.co.uk/news/markets/drinks/suntory-targets-90-value-chain-emissions-cut-with-packaging-focus-19-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-19T08:30:19+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "Suntory has announced a climate transition plan targeting a 90% reduction in value-chain emissions by 2050, with a specific focus on sustainable packaging and recycled PET content.",
+      "angle": "Major beverage brands are increasingly mandating high recycled content and reduced material usage from their packaging suppliers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d41178b53f226691",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -605,17 +619,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "227e90bdaf815d5c",
+      "id": "458005a73d75c346",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Liverpool fans profit from Austrian stadium cup return scheme at Champions League match",
-      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/liverpool-fans-profit-from-austrian-stadium-cup-return-scheme-at-champions-league-match-16-10-2026",
+      "title": "ONS: Environmental concerns motivating public waste reduction efforts",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/food-waste/ons-environmental-concerns-motivating-public-waste-reduction-efforts-20-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-16T08:08:15+00:00",
-      "first_seen": "2026-10-18T14:07:30.927882+00:00",
+      "published_at": "2026-10-20T08:05:10+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
       "score": 75,
-      "summary": "Liverpool fans collected discarded reusable cups at an Austrian stadium to claim cash deposits, highlighting the effectiveness of deposit return schemes in promoting circular economy practices at sporting venues.",
-      "angle": "Demonstrates growing adoption of reusable container deposit schemes and circular economy mandates within major European sports venues.",
+      "summary": "The ONS reports that 80% of UK adults have attempted to reduce waste generation in the past year, with waste reduction being the primary lifestyle change for environmental reasons.",
+      "angle": "Increasing consumer pressure for waste reduction directly influences demand for sustainable, recyclable packaging solutions in the beverage sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -675,6 +689,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "c126edb43d15003d",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Commercial property interest up 20% as businesses bet on Britain’s high streets",
+      "url": "https://www.talkingretail.com/news/industry-news/commercial-property-interest-up-20-as-businesses-bet-on-britains-high-streets-20-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-20T11:35:06+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "Google search data from Hiscox reveals a 20% year-on-year increase in interest for commercial properties, with significant growth in both major cities and smaller UK towns.",
+      "angle": "Indicates sustained business appetite for physical high street presence, supporting long-term retail viability and potential expansion opportunities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "13d705c7ae129bcf",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -717,17 +745,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a2b9be2c34362165",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Sluggish sales as shoppers look for Budget boost",
-      "url": "https://www.talkingretail.com/featured/sluggish-sales-as-shoppers-look-for-budget-boost-13-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-13T10:19:11+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
+      "id": "ba3c28cc964ff162",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Education Affordability a Priority for Voters",
+      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/10/20/education-affordability-priority-voters-survey-finds",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-20T07:00:00+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
       "score": 85,
-      "summary": "UK retail sales growth slowed to 1.3% in September, with non-food sales rising by only 0.3% as consumer caution persists ahead of the upcoming Budget.",
-      "angle": "Highlights subdued consumer spending and potential regulatory risks regarding business rates and tax policy impacting retail operations.",
+      "summary": "A survey of 2,000 registered voters indicates that education affordability is a primary concern, with 66 percent favouring candidates who prioritise lower costs for education and training.",
+      "angle": "Highlights strong bipartisan voter demand for affordable education pathways, potentially driving future federal policy and funding shifts.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bc1e3b5bfb947db8",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "Survey: 48% of Employers Say AI Will Make College Degrees More Important",
+      "url": "https://www.insidehighered.com/news/students/careers/2026/10/20/employers-say-ai-will-make-college-degrees-more-important",
+      "source": "insidehighered.com",
+      "published_at": "2026-10-20T07:00:00+00:00",
+      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "score": 85,
+      "summary": "A Lumina Foundation and Gallup survey reveals that 48 percent of employers believe artificial intelligence will increase the importance of college degrees over the next five years.",
+      "angle": "Validates the long-term market demand for higher education credentials despite rising public skepticism regarding degree value.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -756,34 +798,6 @@
       "score": 85,
       "summary": "A 2026 survey of 1,007 U.S. college students indicates that personal growth, belonging, and relationships are valued more highly than financial returns or career preparation.",
       "angle": "Highlights shifting student priorities and the need for educational tools that support holistic development and campus engagement.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b94c0d35d8823642",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Career Readiness Should Be Developmental, Not Episodic",
-      "url": "https://www.insidehighered.com/opinion/columns/learning-innovation/2026/10/13/career-readiness-should-be-developmental-not",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-13T07:00:00+00:00",
-      "first_seen": "2026-10-13T14:08:25.154815+00:00",
-      "score": 85,
-      "summary": "Higher education experts argue that career readiness should be a developmental, multi-year journey rather than an episodic experience clustered around graduation.",
-      "angle": "Highlights a shift towards integrating work-based learning into curricula, impacting demand for career-connected educational content and platforms.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ae14e731dcc95e81",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "How College Programs Fare on 2 Earnings Benchmarks",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/10/12/ihep-report-shows-how-colleges-fare-2-earnings-tests",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-12T07:00:00+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 85,
-      "summary": "A new IHEP analysis reveals that while most education programs pass federal earnings tests, fewer meet value thresholds when accounting for program costs and student debt repayment.",
-      "angle": "Regulatory focus on earnings-based value metrics directly impacts higher education curriculum demand and institutional viability.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -961,13 +975,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 125,
-    "llm_requests_attempted": 74,
-    "llm_requests_succeeded": 74,
-    "dropped_no_valid_date": 29,
+    "providers_succeeded": 90,
+    "queued_candidates": 153,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
+    "dropped_no_valid_date": 30,
     "dropped_thin_page": 22,
-    "dropped_not_about_company": 0,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 6,
     "carried_forward": 3
   }
