@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T06:49:11.802115+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, with no specific news to report from Future Maintenance Technologies, Swytch, or Whitespace.",
+  "generated_at": "2026-10-21T14:08:20.907650+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from our portfolio companies.",
   "archive_story_count": 19,
   "last_digest_sent_at": "2026-10-21T06:49:11.802115+00:00",
   "companies": [
@@ -465,6 +465,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fedb0881c91e95c4",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Belgian Post fleet now features 4,165 electric delivery vans",
+      "url": "https://www.electrive.com/2026/10/21/belgian-post-fleet-now-features-4165-electric-delivery-vans/",
+      "source": "electrive.com",
+      "published_at": "2026-10-21T14:00:00+00:00",
+      "first_seen": "2026-10-21T14:08:20.907650+00:00",
+      "score": 65,
+      "summary": "Belgian postal operator Bpost has expanded its electric fleet to 4,165 vans, while also operating 3,013 electric bicycles and 556 electric bicycle trailers for last-mile delivery.",
+      "angle": "Demonstrates large-scale institutional adoption of e-bikes and trailers for urban logistics and last-mile delivery efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8ed7a0f2356bfcf0",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -504,20 +518,6 @@
       "score": 65,
       "summary": "The European Parliament is debating a proposal to relax the 2035 ban on new combustion engine cars by setting a 87.5 per cent CO₂ reduction target.",
       "angle": "Potential delays in the transition to electric vehicles may impact broader consumer adoption trends and micromobility market dynamics.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7945c443b5a45f88",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Plug-in hybrids emit six times more CO2 than officially stated",
-      "url": "https://www.electrive.com/2026/10/16/plug-in-hybrids-emit-six-times-more-co2-than-officially-stated/",
-      "source": "electrive.com",
-      "published_at": "2026-10-16T14:30:00+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 65,
-      "summary": "A Transport & Environment analysis reveals that plug-in hybrid vehicles emit six times more CO2 in real-world conditions than official figures suggest.",
-      "angle": "Highlights the failure of hybrid vehicles to meet decarbonisation targets, potentially increasing consumer and policy interest in micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -591,6 +591,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7c5758bc8ceedf8e",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "EU rules will require cafés & restaurants to accept customers’ reusable containers",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/eu-rules-will-require-cafes-restaurants-to-accept-customers-reusable-containers-21-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-21T11:55:50+00:00",
+      "first_seen": "2026-10-21T14:08:20.907650+00:00",
+      "score": 85,
+      "summary": "New EU regulations mandate that food and drink outlets must allow customers to use their own reusable containers for takeaway services starting 12 February 2027.",
+      "angle": "Regulatory shift towards reuse and refill models impacts demand for traditional single-use PET packaging in the hospitality sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "75430ef971fcc9e0",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -616,20 +630,6 @@
       "score": 85,
       "summary": "A coalition of 46 trade associations is urging the EU to harmonise fragmented national extended producer responsibility schemes within the upcoming Circular Economy Act.",
       "angle": "Harmonised EPR regulation impacts compliance costs, operational efficiency, and the supply of recycled materials for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "458005a73d75c346",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "ONS: Environmental concerns motivating public waste reduction efforts",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/food-waste/ons-environmental-concerns-motivating-public-waste-reduction-efforts-20-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-20T08:05:10+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 75,
-      "summary": "The ONS reports that 80% of UK adults have attempted to reduce waste generation in the past year, with waste reduction being the primary lifestyle change for environmental reasons.",
-      "angle": "Increasing consumer pressure for waste reduction directly influences demand for sustainable, recyclable packaging solutions in the beverage sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -689,6 +689,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "37a2169917aee244",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retail body calls for cost-cutting Budget amid inflation increase",
+      "url": "https://www.talkingretail.com/featured/retail-body-calls-for-cost-cutting-budget-amid-inflation-increase-21-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-21T10:16:20+00:00",
+      "first_seen": "2026-10-21T14:08:20.907650+00:00",
+      "score": 85,
+      "summary": "UK inflation rose to 3.5% in September 2026, with retail bodies warning that rising business rates and energy costs threaten to squeeze margins and consumer spending power.",
+      "angle": "Rising inflation and potential business rates hikes directly impact operational costs and consumer discretionary spending in retail.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c126edb43d15003d",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -728,20 +742,6 @@
       "score": 85,
       "summary": "The UK government will introduce a deposit return scheme in October 2027, requiring retailers to manage container returns and potentially invest in reverse vending machines.",
       "angle": "Regulatory compliance and operational adjustments regarding in-store space and technology for independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f183a345c54084a6",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Online marketplace VAT crackdown risks creating new loopholes, Bira warns",
-      "url": "https://www.talkingretail.com/featured/online-marketplace-vat-crackdown-risks-creating-new-loopholes-bira-warns-15-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-15T11:14:45+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
-      "score": 85,
-      "summary": "The British Independent Retailers Association warns that proposed VAT collection requirements for online marketplaces may be undermined by exemptions for smaller sellers and second-hand goods.",
-      "angle": "Potential regulatory changes to online VAT collection could help level the playing field for physical high street retailers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -975,14 +975,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 128,
-    "llm_requests_attempted": 71,
-    "llm_requests_succeeded": 71,
+    "providers_succeeded": 87,
+    "queued_candidates": 150,
+    "llm_requests_attempted": 60,
+    "llm_requests_succeeded": 58,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 27,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 3
   }
 }
