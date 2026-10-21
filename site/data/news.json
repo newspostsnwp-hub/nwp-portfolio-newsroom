@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T14:08:17.671779+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on the 19 sector items relevant to our market, as there are no updates from the portfolio companies this morning.",
+  "generated_at": "2026-10-21T06:49:11.802115+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, with no specific news to report from Future Maintenance Technologies, Swytch, or Whitespace.",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-20T06:49:16.390116+00:00",
+  "last_digest_sent_at": "2026-10-21T06:49:11.802115+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -479,6 +479,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f4a84b3518e0e094",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Bee Network: Greater Manchester now operates 500 battery-electric buses",
+      "url": "https://www.electrive.com/2026/10/20/bee-network-greater-manchester-now-operates-500-battery-electric-buses/",
+      "source": "electrive.com",
+      "published_at": "2026-10-20T12:30:00+00:00",
+      "first_seen": "2026-10-21T06:49:11.802115+00:00",
+      "score": 65,
+      "summary": "Greater Manchester has reached a milestone of 500 battery-electric buses as part of its Bee Network, which aims to integrate buses, trams, and cycling into one transport system.",
+      "angle": "Highlights regional infrastructure investment in multi-modal transport networks, which often include cycling and micromobility integration.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "660d8d7a23d42292",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -504,20 +518,6 @@
       "score": 65,
       "summary": "A Transport & Environment analysis reveals that plug-in hybrid vehicles emit six times more CO2 in real-world conditions than official figures suggest.",
       "angle": "Highlights the failure of hybrid vehicles to meet decarbonisation targets, potentially increasing consumer and policy interest in micromobility.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fc2415b8dd3925f2",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "VW prepares battery recall for multiple ID. models in Europe",
-      "url": "https://www.electrive.com/2026/10/16/vw-prepares-battery-recall-for-multiple-id-models-in-europe/",
-      "source": "electrive.com",
-      "published_at": "2026-10-16T11:18:44+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 65,
-      "summary": "Volkswagen is initiating a battery recall for several ID. series electric vehicles in Europe due to potential manufacturing defects in high-voltage cells that pose a fire risk.",
-      "angle": "Highlights supply chain quality risks and regulatory scrutiny regarding lithium-ion battery safety standards within the broader micromobility sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -633,6 +633,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "964222772a8cf794",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "F5 and Telenor Partner to Build the AI Service Plane for Sovereign AI on NVIDIA-powered AI Factory Infrastructure - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPS0JKaldnb3pQZHhRNmlYcjZBVmtfb1QxOHlKYU5PMlZ6dHpNdDRoUmhtcDZEQ0hRTFQ2V2RnY0Y4Yngyc1BMTGE4TXFjUmxEajkxZm9ldVdTOW1GQ0NKNWk2TzVQb3EzWnRiT3NQcWRXaVg0emhBenVvWWUtNlROLWx5YmIyN2hqdHQyNy0xVVd4bjM4eWNvVVZCcUUyMWtNbTlZTERNajRPYmZ4a1cwUHpXWUNCZDd2Q0ZoYXRlMjRSNDBZMVhQLXlWMXhyUkpVdlN1WFBUOE1hVHo5dW4xS3drRUt4WFV6bDk0dW5xTnJoU1g0ZDBFSmNKaHdHSUU?oc=5",
+      "source": "Business Wire",
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "first_seen": "2026-10-21T06:49:11.802115+00:00",
+      "score": 85,
+      "summary": "F5 and Telenor are collaborating to develop an AI service plane for sovereign AI infrastructure powered by NVIDIA technology.",
+      "angle": "Highlights the growing importance of specialised service layers in deploying secure, sovereign AI infrastructure for enterprise and national use.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "e847de469ba6b268",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -672,20 +686,6 @@
       "score": 85,
       "summary": "Major enterprises are achieving high adoption rates of Microsoft 365 Copilot and Google Gemini, shifting focus from license counts to measurable productivity gains and custom AI agent deployment.",
       "angle": "Demonstrates enterprise demand for sovereign-grade AI governance, security, and measurable ROI in complex, regulated operational environments.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "eb82d3b69d2c9a19",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Microsoft exits data centre deal in blow to united kingdom AI ambitions",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/10/19/microsoft-exits-data-centre-deal-in-blow-to-uk-ai-ambitions",
-      "source": "freemalaysiatoday.com",
-      "published_at": "2026-10-19T17:00:00+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 85,
-      "summary": "Microsoft has withdrawn from a data centre deal with Nscale in Loughton due to significant delays in accessing the UK national power grid.",
-      "angle": "Highlights critical infrastructure and energy grid constraints impacting the scalability of sovereign AI data centres in the UK.",
       "discovered_via": "GDELT"
     },
     {
@@ -913,6 +913,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1efa276c84d054a3",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "How AI Confidentiality Gaps Are Becoming a Liability for Robotics Firms",
+      "url": "https://roboticsandautomationnews.com/2026/10/20/how-ai-confidentiality-gaps-are-becoming-a-liability-for-robotics-firms/106118/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-20T11:47:15+00:00",
+      "first_seen": "2026-10-21T06:49:11.802115+00:00",
+      "score": 85,
+      "summary": "Robotics firms face significant legal and security risks when employees input proprietary algorithms or confidential client data into public AI tools that train on user prompts.",
+      "angle": "Critical infrastructure providers must enforce strict AI data governance to avoid NDA breaches and regulatory non-compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "258bd8fe746dd0e3",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -953,20 +967,6 @@
       "summary": "Semiconductor startup Ubitium has raised $14 million to develop a universal processor designed to handle signal processing, AI inference, and real-time control on a single chip.",
       "angle": "Consolidating compute stacks into one processor could significantly reduce weight, power consumption, and latency for autonomous inspection robots.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a59f2b9b0d9bebd7",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "What robot builders overlook about cooling compact servo drives and controllers",
-      "url": "https://roboticsandautomationnews.com/2026/10/19/what-robot-builders-overlook-about-cooling-compact-servo-drives-and-controllers/106070/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-19T20:07:20+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 75,
-      "summary": "This article outlines critical thermal management challenges for compact robotic systems, emphasizing the need for system-level cooling design to ensure reliability in constrained industrial environments.",
-      "angle": "Essential technical guidance for engineers designing robust, compact autonomous robots for harsh rail and aviation environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -975,14 +975,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 153,
-    "llm_requests_attempted": 72,
-    "llm_requests_succeeded": 72,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 22,
+    "providers_succeeded": 88,
+    "queued_candidates": 128,
+    "llm_requests_attempted": 71,
+    "llm_requests_succeeded": 71,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 27,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 3
   }
 }
