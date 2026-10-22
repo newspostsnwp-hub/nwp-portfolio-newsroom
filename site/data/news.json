@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T14:08:20.907650+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-22T06:49:16.635002+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from UOE or Whitespace.",
   "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-21T06:49:11.802115+00:00",
+  "last_digest_sent_at": "2026-10-22T06:49:16.635002+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -633,6 +633,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b41964f87e9c10b9",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI firms say united kingdom has a year to head off datacentre protests before construction is threatened",
+      "url": "https://www.aol.co.uk/articles/ai-firms-uk-head-off-050008000.html",
+      "source": "aol.co.uk",
+      "published_at": "2026-10-22T06:00:00+00:00",
+      "first_seen": "2026-10-22T06:49:16.635002+00:00",
+      "score": 85,
+      "summary": "AI infrastructure companies are urging the UK government to establish a community compact to mitigate rising public opposition to datacentre construction over the next 12 months.",
+      "angle": "Rising public and regulatory scrutiny of datacentre infrastructure poses significant planning and operational risks for sovereign AI providers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "8dc31aa453ba2471",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Quantexa selected by the Insolvency Service to build a sovereign data and AI foundation to fight economic crime",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69902136-quantexa-selected-by-the-insolvency-service-to-build-a-sovereign-data-and-ai-foundation-to-fight-economic-crime-399.htm",
+      "source": "finanznachrichten.de",
+      "published_at": "2026-10-22T05:45:00+00:00",
+      "first_seen": "2026-10-22T06:49:16.635002+00:00",
+      "score": 85,
+      "summary": "The UK Insolvency Service has partnered with Quantexa to implement a sovereign data and AI foundation for investigating financial crime and economic fraud.",
+      "angle": "Highlights growing UK government demand for sovereign, explainable AI foundations to manage sensitive public sector data.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "52a51b15313ff3e4",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Nokia , NVIDIA Advance AI - RAN Toward Commercial Deployment",
+      "url": "https://www.thefastmode.com/technology-solutions/51139-nokia-nvidia-advance-ai-ran-toward-commercial-deployment",
+      "source": "thefastmode.com",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "first_seen": "2026-10-22T06:49:16.635002+00:00",
+      "score": 85,
+      "summary": "Nokia and NVIDIA have launched a sovereign agentic AI platform for telecommunications, integrating AI-native software to improve radio performance and enable autonomous network operations.",
+      "angle": "Highlights the convergence of sovereign AI, edge computing, and agentic frameworks within critical national infrastructure.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "964222772a8cf794",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -647,46 +689,18 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "e847de469ba6b268",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Brookfield , NextEra To Build $100 Billion AI Hub On Cold War Nuclear Site",
-      "url": "https://www.zerohedge.com/ai/brookfield-nextera-build-100-billion-ai-hub-cold-war-nuclear-site",
-      "source": "zerohedge.com",
-      "published_at": "2026-10-20T03:00:00+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
+      "id": "4e36eda0f7d23883",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Consumer confidence takes a hit ahead of Budget",
+      "url": "https://www.talkingretail.com/featured/consumer-confidence-takes-a-hit-ahead-of-budget-22-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-22T05:09:01+00:00",
+      "first_seen": "2026-10-22T06:49:16.635002+00:00",
       "score": 85,
-      "summary": "OpenAI has paused its UK data center project in North-East England, citing high industrial electricity prices and regulatory uncertainty as significant barriers to long-term infrastructure investment.",
-      "angle": "Highlights critical infrastructure and energy cost challenges impacting the viability of sovereign AI projects within the UK.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "bff631f162a380a5",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Massive AI Data Center Left In The Dark Until 2030s As Microsoft Walks Away",
-      "url": "https://dailycaller.com/2026/10/19/microsoft-ai-data-center-nscale-england-uk/",
-      "source": "dailycaller.com",
-      "published_at": "2026-10-20T00:30:00+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 85,
-      "summary": "Microsoft has withdrawn funding for a major Nscale AI data center in England after learning the site will not receive grid power until the 2030s.",
-      "angle": "Highlights critical infrastructure and energy grid constraints as significant bottlenecks for scaling sovereign AI capacity in the UK.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "6ea02d4f60d5c0c2",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Microsoft 365 Copilot vs Google Gemini Enterprise : 2026 Adoption , Productivity Gains and Real - World AI Deployments",
-      "url": "https://infotechlead.com/artificial-intelligence/microsoft-365-copilot-vs-google-gemini-enterprise-2026-adoption-productivity-gains-and-real-world-ai-deployments-98980",
-      "source": "infotechlead.com",
-      "published_at": "2026-10-19T17:30:00+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 85,
-      "summary": "Major enterprises are achieving high adoption rates of Microsoft 365 Copilot and Google Gemini, shifting focus from license counts to measurable productivity gains and custom AI agent deployment.",
-      "angle": "Demonstrates enterprise demand for sovereign-grade AI governance, security, and measurable ROI in complex, regulated operational environments.",
-      "discovered_via": "GDELT"
+      "summary": "BRC-Opinium data shows consumer confidence in the economy has dropped for the third consecutive month, while retail spending expectations have risen ahead of the festive period.",
+      "angle": "Highlights macroeconomic headwinds and cost pressures impacting retail margins and consumer discretionary spending ahead of the Budget.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "37a2169917aee244",
@@ -728,20 +742,6 @@
       "score": 85,
       "summary": "With the UK deposit return scheme launching in October 2027, independent retailers must decide between manual take-back or reverse vending machines to manage operational impacts and compliance.",
       "angle": "Regulatory compliance and operational logistics for independent retail stores handling container returns.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "10f87a2d578517e1",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Countdown to DRS | Big story: Soapbox Special",
-      "url": "https://www.talkingretail.com/news/special-reports/countdown-to-drs-big-story-soapbox-special-16-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-16T12:00:57+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 85,
-      "summary": "The UK government will introduce a deposit return scheme in October 2027, requiring retailers to manage container returns and potentially invest in reverse vending machines.",
-      "angle": "Regulatory compliance and operational adjustments regarding in-store space and technology for independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -976,12 +976,12 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 87,
-    "queued_candidates": 150,
-    "llm_requests_attempted": 60,
-    "llm_requests_succeeded": 58,
+    "queued_candidates": 146,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 82,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 26,
-    "dropped_not_about_company": 1,
+    "dropped_thin_page": 25,
+    "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 4,
     "carried_forward": 3
   }
