@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:08:15.071654+00:00",
+  "generated_at": "2026-10-23T06:49:19.267135+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -607,6 +607,38 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "32bca1eb9bf0e772",
+      "company": "Clearway Group",
+      "company_domain": "clearway.co.uk",
+      "industry": "UK property and site security",
+      "title": "Government of Canada welcomes 19 additional signatories to Canada Responsible Data Centre Development Principles",
+      "url": "http://www.torontotelegraph.com/news/279324048/government-of-canada-welcomes-19-additional-signatories-to-canada-responsible-data-centre-development-principles",
+      "source": "torontotelegraph.com",
+      "published_at": "2026-09-23T06:45:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-25T06:49:08.127111+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "Clearway Group has been named as one of 19 new signatories to the Canada Responsible Data Centre Development Principles, a national framework established to guide the sustainable development of digital infrastructure.",
+      "why_it_matters": "This commitment highlights Clearway Group's alignment with international standards for responsible infrastructure development and environmental stewardship, reinforcing its reputation as a partner capable of operating within complex, regulated environments.",
+      "verified_facts": [
+        "Clearway Group is one of 19 new signatories to Canada's Responsible Data Centre Development Principles.",
+        "The principles were launched on September 3, 2026, and include commitments to local benefits, electricity ratepayer protection, and environmental impact mitigation."
+      ],
+      "warnings": [
+        "The source material is a general news aggregator report; while the fact of the signature is clear, the specific nature of Clearway's operational involvement in Canada is not detailed."
+      ],
+      "drafts": {
+        "concise": "We are pleased to share that Clearway Group has become a signatory to Canada's Responsible Data Centre Development Principles. This national framework sets clear expectations for the sustainable development of digital infrastructure, focusing on environmental impact, local community benefits, and strategic value. By joining this initiative alongside other industry leaders, Clearway Group continues to demonstrate its commitment to responsible site security and infrastructure management. This alignment reflects the firm's dedication to maintaining high standards of transparency and operational excellence as it supports the evolving needs of the technology sector. #ClearwayGroup #DigitalInfrastructure #Sustainability",
+        "investor": "Clearway Group’s recent commitment to Canada's Responsible Data Centre Development Principles marks a strategic step in its ongoing operational development. By adopting this national framework, the company is formalising its approach to sustainable infrastructure, ensuring that its site security and management services align with rigorous standards for environmental impact and local community engagement. This proactive stance is essential for long-term value creation within the data centre and technology ecosystem, positioning Clearway Group as a responsible partner for large-scale digital infrastructure projects. We look forward to seeing the company continue to integrate these principles into its service delivery. #NextWavePartners #ClearwayGroup #InfrastructureInvestment",
+        "people": "Congratulations to the team at Clearway Group on becoming a signatory to Canada's Responsible Data Centre Development Principles. This commitment underscores the team's dedication to responsible growth and operational integrity within the critical digital infrastructure sector. By adhering to these national standards—which prioritise environmental stewardship and local community benefits—the Clearway team continues to lead by example in the property and site security industry. It is excellent to see the company’s expertise being recognised as part of this important national framework for the future of Canadian technology. #ClearwayGroup #TeamSuccess #ResponsibleDevelopment"
+      },
+      "status": "needs_review",
+      "discovered_via": "GDELT"
     }
   ]
 }

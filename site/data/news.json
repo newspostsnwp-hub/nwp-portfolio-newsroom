@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T14:08:15.071654+00:00",
-  "digest_intro": "",
-  "archive_story_count": 19,
-  "last_digest_sent_at": "2026-10-22T06:49:16.635002+00:00",
+  "generated_at": "2026-10-23T06:49:19.267135+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 11 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "archive_story_count": 20,
+  "last_digest_sent_at": "2026-10-23T06:49:19.267135+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -29,7 +29,7 @@
       "description": "UK vacant property and site security services group (including Clearway Labs, LociLabs and SECONTEC).",
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -182,7 +182,7 @@
       "website": "https://www.fertilityassociates.co.nz/",
       "newsroom_url": "https://www.fertilityassociates.co.nz/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
@@ -201,7 +201,7 @@
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&tbm=nws",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 3,
+  "story_count": 2,
   "todays_story_count": 0,
   "stories": [
     {
@@ -317,38 +317,6 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "32bca1eb9bf0e772",
-      "company": "Clearway Group",
-      "company_domain": "clearway.co.uk",
-      "industry": "UK property and site security",
-      "title": "Government of Canada welcomes 19 additional signatories to Canada Responsible Data Centre Development Principles",
-      "url": "http://www.torontotelegraph.com/news/279324048/government-of-canada-welcomes-19-additional-signatories-to-canada-responsible-data-centre-development-principles",
-      "source": "torontotelegraph.com",
-      "published_at": "2026-09-23T06:45:00+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-25T06:49:08.127111+00:00",
-      "score": 65,
-      "tier": "reported",
-      "recency": "fresh",
-      "story_type": "Update",
-      "summary": "Clearway Group has been named as one of 19 new signatories to the Canada Responsible Data Centre Development Principles, a national framework established to guide the sustainable development of digital infrastructure.",
-      "why_it_matters": "This commitment highlights Clearway Group's alignment with international standards for responsible infrastructure development and environmental stewardship, reinforcing its reputation as a partner capable of operating within complex, regulated environments.",
-      "verified_facts": [
-        "Clearway Group is one of 19 new signatories to Canada's Responsible Data Centre Development Principles.",
-        "The principles were launched on September 3, 2026, and include commitments to local benefits, electricity ratepayer protection, and environmental impact mitigation."
-      ],
-      "warnings": [
-        "The source material is a general news aggregator report; while the fact of the signature is clear, the specific nature of Clearway's operational involvement in Canada is not detailed."
-      ],
-      "drafts": {
-        "concise": "We are pleased to share that Clearway Group has become a signatory to Canada's Responsible Data Centre Development Principles. This national framework sets clear expectations for the sustainable development of digital infrastructure, focusing on environmental impact, local community benefits, and strategic value. By joining this initiative alongside other industry leaders, Clearway Group continues to demonstrate its commitment to responsible site security and infrastructure management. This alignment reflects the firm's dedication to maintaining high standards of transparency and operational excellence as it supports the evolving needs of the technology sector. #ClearwayGroup #DigitalInfrastructure #Sustainability",
-        "investor": "Clearway Group’s recent commitment to Canada's Responsible Data Centre Development Principles marks a strategic step in its ongoing operational development. By adopting this national framework, the company is formalising its approach to sustainable infrastructure, ensuring that its site security and management services align with rigorous standards for environmental impact and local community engagement. This proactive stance is essential for long-term value creation within the data centre and technology ecosystem, positioning Clearway Group as a responsible partner for large-scale digital infrastructure projects. We look forward to seeing the company continue to integrate these principles into its service delivery. #NextWavePartners #ClearwayGroup #InfrastructureInvestment",
-        "people": "Congratulations to the team at Clearway Group on becoming a signatory to Canada's Responsible Data Centre Development Principles. This commitment underscores the team's dedication to responsible growth and operational integrity within the critical digital infrastructure sector. By adhering to these national standards—which prioritise environmental stewardship and local community benefits—the Clearway team continues to lead by example in the property and site security industry. It is excellent to see the company’s expertise being recognised as part of this important national framework for the future of Canadian technology. #ClearwayGroup #TeamSuccess #ResponsibleDevelopment"
-      },
-      "status": "needs_review",
-      "discovered_via": "GDELT"
     }
   ],
   "sector_stories": [
@@ -479,6 +447,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6448509bee305c62",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "London considers mandating BEVs for new ride-hailing licences",
+      "url": "https://www.electrive.com/2026/10/22/london-considers-mandating-bevs-for-new-ride-hailing-licences/",
+      "source": "electrive.com",
+      "published_at": "2026-10-22T14:30:00+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 65,
+      "summary": "Transport for London is consulting on a proposal to mandate that all newly licensed private hire vehicles must be fully battery-electric by 2028.",
+      "angle": "Signals accelerating urban policy shifts towards zero-emission transport, reinforcing the broader market transition away from combustion-engine vehicles.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "fedb0881c91e95c4",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -504,20 +486,6 @@
       "score": 65,
       "summary": "Green Science Alliance has opened a battery recycling laboratory in Switzerland to develop direct recycling methods for cathode materials from lithium-ion batteries.",
       "angle": "Advancements in direct battery recycling could improve supply chain sustainability and reduce costs for micromobility battery manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f4a84b3518e0e094",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Bee Network: Greater Manchester now operates 500 battery-electric buses",
-      "url": "https://www.electrive.com/2026/10/20/bee-network-greater-manchester-now-operates-500-battery-electric-buses/",
-      "source": "electrive.com",
-      "published_at": "2026-10-20T12:30:00+00:00",
-      "first_seen": "2026-10-21T06:49:11.802115+00:00",
-      "score": 65,
-      "summary": "Greater Manchester has reached a milestone of 500 battery-electric buses as part of its Bee Network, which aims to integrate buses, trams, and cycling into one transport system.",
-      "angle": "Highlights regional infrastructure investment in multi-modal transport networks, which often include cycling and micromobility integration.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -577,6 +545,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "145663ff763a467b",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Recycled Plastics Market to Reach $117 . 9 Billion by 2031 at 9 % CAGR",
+      "url": "https://www.prnewswire.com/news-releases/recycled-plastics-market-to-reach-117-9-billion-by-2031-at-9-cagr--wissen-research-302915916.html",
+      "source": "prnewswire.com",
+      "published_at": "2026-10-21T21:45:00+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 95,
+      "summary": "The global recycled plastics market is projected to reach $117.9 billion by 2031, driven by regulatory mandates like the EU's PPWR and rising corporate sustainability commitments.",
+      "angle": "Regulatory recycled-content targets and supply-demand imbalances directly impact PET packaging procurement, pricing, and long-term manufacturing strategy.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "a575edaced387446",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -619,18 +601,46 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d41178b53f226691",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "EU circular economy law must harmonise EPR, say trade bodies",
-      "url": "https://www.packagingnews.co.uk/news/environment/circular-economy/eu-circular-economy-law-must-harmonise-epr-say-trade-bodies-15-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-15T08:58:50+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
+      "id": "ee9f5bba125a9e7c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "SUSE unveils sovereign AI platform with NVIDIA tie - up",
+      "url": "https://itbrief.co.nz/story/suse-unveils-sovereign-ai-platform-with-nvidia-tie-up",
+      "source": "itbrief.co.nz",
+      "published_at": "2026-10-23T03:15:00+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
       "score": 85,
-      "summary": "A coalition of 46 trade associations is urging the EU to harmonise fragmented national extended producer responsibility schemes within the upcoming Circular Economy Act.",
-      "angle": "Harmonised EPR regulation impacts compliance costs, operational efficiency, and the supply of recycled materials for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
+      "summary": "SUSE has launched a sovereign AI platform integrating NVIDIA hardware and OpenShell architecture to enable secure, private deployment of autonomous AI agents within enterprise environments.",
+      "angle": "Highlights the industry shift towards integrated, hardware-backed sovereign AI stacks for enterprise data control and governance.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "c7e78ef47c156e56",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK AI Taskforce Seeks Business - Rate Incentives for Data Center Hosts",
+      "url": "https://econotimes.com/UK-AI-Taskforce-Seeks-Business-Rate-Incentives-for-Data-Center-Hosts-1760699",
+      "source": "econotimes.com",
+      "published_at": "2026-10-22T23:30:00+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 85,
+      "summary": "The Sovereign AI Leadership taskforce is lobbying the UK government to allow local councils to retain more business rates from data center developments to mitigate public opposition.",
+      "angle": "Highlights critical infrastructure policy shifts and public sentiment risks impacting the deployment of sovereign AI data centers.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "8e7d9fee26949508",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "World Wide Technology Partners With Polarise to Accelerate Europe Sovereign AI Buildout , Starting in Oslo",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69911025-world-wide-technology-partners-with-polarise-to-accelerate-europe-s-sovereign-ai-buildout-starting-in-oslo-004.htm",
+      "source": "finanznachrichten.de",
+      "published_at": "2026-10-22T16:00:00+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 85,
+      "summary": "Polarise and World Wide Technology have partnered to accelerate the deployment of sovereign AI infrastructure across Europe, beginning with a 5 MW AI data centre in Oslo.",
+      "angle": "Highlights increasing competition and the role of systems integrators in scaling sovereign AI infrastructure across European markets.",
+      "discovered_via": "GDELT"
     },
     {
       "id": "55c9cb5c64f77113",
@@ -647,46 +657,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b41964f87e9c10b9",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI firms say united kingdom has a year to head off datacentre protests before construction is threatened",
-      "url": "https://www.aol.co.uk/articles/ai-firms-uk-head-off-050008000.html",
-      "source": "aol.co.uk",
-      "published_at": "2026-10-22T06:00:00+00:00",
-      "first_seen": "2026-10-22T06:49:16.635002+00:00",
+      "id": "8e95771acca0cf35",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Fed questions whether falling shop theft figures tell the full story",
+      "url": "https://www.talkingretail.com/news/industry-news/fed-questions-whether-falling-shop-theft-figures-tell-the-full-story-22-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-22T14:18:43+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
       "score": 85,
-      "summary": "AI infrastructure companies are urging the UK government to establish a community compact to mitigate rising public opposition to datacentre construction over the next 12 months.",
-      "angle": "Rising public and regulatory scrutiny of datacentre infrastructure poses significant planning and operational risks for sovereign AI providers.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "8dc31aa453ba2471",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Quantexa selected by the Insolvency Service to build a sovereign data and AI foundation to fight economic crime",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69902136-quantexa-selected-by-the-insolvency-service-to-build-a-sovereign-data-and-ai-foundation-to-fight-economic-crime-399.htm",
-      "source": "finanznachrichten.de",
-      "published_at": "2026-10-22T05:45:00+00:00",
-      "first_seen": "2026-10-22T06:49:16.635002+00:00",
-      "score": 85,
-      "summary": "The UK Insolvency Service has partnered with Quantexa to implement a sovereign data and AI foundation for investigating financial crime and economic fraud.",
-      "angle": "Highlights growing UK government demand for sovereign, explainable AI foundations to manage sensitive public sector data.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "52a51b15313ff3e4",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Nokia , NVIDIA Advance AI - RAN Toward Commercial Deployment",
-      "url": "https://www.thefastmode.com/technology-solutions/51139-nokia-nvidia-advance-ai-ran-toward-commercial-deployment",
-      "source": "thefastmode.com",
-      "published_at": "2026-10-22T00:00:00+00:00",
-      "first_seen": "2026-10-22T06:49:16.635002+00:00",
-      "score": 85,
-      "summary": "Nokia and NVIDIA have launched a sovereign agentic AI platform for telecommunications, integrating AI-native software to improve radio performance and enable autonomous network operations.",
-      "angle": "Highlights the convergence of sovereign AI, edge computing, and agentic frameworks within critical national infrastructure.",
-      "discovered_via": "GDELT"
+      "summary": "The Federation of Independent Retailers has questioned official ONS data showing a 2% decline in shop theft, citing retailer distrust in reporting processes and persistent crime levels.",
+      "angle": "Highlights ongoing operational risks, security challenges, and the need for improved police engagement for independent retail chains.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "a03986370fee26a1",
@@ -728,20 +710,6 @@
       "score": 85,
       "summary": "BRC-Opinium data shows consumer confidence in the economy has dropped for the third consecutive month, while retail spending expectations have risen ahead of the festive period.",
       "angle": "Highlights macroeconomic headwinds and cost pressures impacting retail margins and consumer discretionary spending ahead of the Budget.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "37a2169917aee244",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retail body calls for cost-cutting Budget amid inflation increase",
-      "url": "https://www.talkingretail.com/featured/retail-body-calls-for-cost-cutting-budget-amid-inflation-increase-21-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-21T10:16:20+00:00",
-      "first_seen": "2026-10-21T14:08:20.907650+00:00",
-      "score": 85,
-      "summary": "UK inflation rose to 3.5% in September 2026, with retail bodies warning that rising business rates and energy costs threaten to squeeze margins and consumer spending power.",
-      "angle": "Rising inflation and potential business rates hikes directly impact operational costs and consumer discretionary spending in retail.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -801,59 +769,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b4e9d2f8114277ab",
+      "id": "06b29f66217506ff",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "The impact of air pollution on fertility treatment outcomes",
-      "url": "https://www.progress.org.uk/the-impact-of-air-pollution-on-fertility-treatment-outcomes/",
+      "title": "Fertility preservation in elite sports needs further consideration",
+      "url": "https://www.progress.org.uk/fertility-preservation-in-elite-sports-needs-further-consideration/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-12T16:23:03+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 75,
-      "summary": "A multi-regional study indicates that higher ambient PM2.5 air pollution exposure is consistently associated with lower clinical pregnancy and live birth rates across three continents.",
-      "angle": "Highlights environmental factors impacting IVF success rates, potentially influencing clinical guidance and patient management strategies.",
+      "published_at": "2026-10-19T16:59:34+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 65,
+      "summary": "Elite sports federations are increasingly offering egg freezing to athletes, though experts highlight concerns regarding training compatibility, long-term funding, and potential pressure to delay motherhood.",
+      "angle": "Highlights an emerging niche market for fertility preservation services and associated ethical and policy considerations for clinics.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "447afbbbbc347aa3",
+      "id": "f81c4e2cc87a692b",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "When does surrogacy become human trafficking? An Argentine Court draws a difficult line",
-      "url": "https://www.progress.org.uk/when-does-surrogacy-become-human-trafficking-an-argentine-court-draws-a-difficult-line/",
+      "title": "Population studies are key to safe newborn genome screening",
+      "url": "https://www.progress.org.uk/population-studies-are-key-to-safe-newborn-genome-screening/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-12T16:20:27+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 75,
-      "summary": "An Argentine judge has ordered the prosecution of fertility clinic staff for human trafficking, highlighting the legal risks of operating in jurisdictions lacking specific surrogacy regulations.",
-      "angle": "Highlights the critical importance of robust regulatory frameworks and ethical safeguards in cross-border and unregulated fertility services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8106a289d8abe4e8",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "First UK transplant of frozen testicular tissue",
-      "url": "https://www.progress.org.uk/first-uk-transplant-of-frozen-testicular-tissue/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-10-12T15:58:29+00:00",
-      "first_seen": "2026-10-13T06:48:35.058810+00:00",
-      "score": 75,
-      "summary": "Clinicians in Edinburgh have performed the first UK transplant of frozen testicular tissue in a 19-year-old, aiming to restore fertility after childhood chemotherapy.",
-      "angle": "Advances in male fertility preservation technology may expand future clinical service offerings and patient demographics for IVF providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "65479edba65a6afd",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Judge criticises intended parents' lack of 'due diligence' in surrogacy case",
-      "url": "https://www.progress.org.uk/judge-criticises-intended-parents-lack-of-due-diligence-in-surrogacy-case/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-10-12T15:57:09+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 75,
-      "summary": "A UK judge granted a parental order following illegal commercial surrogacy in China, while criticising the intended parents' lack of due diligence and the risks of overseas arrangements.",
-      "angle": "Highlights increasing judicial scrutiny and legal risks associated with cross-border surrogacy and international fertility service arrangements.",
+      "published_at": "2026-10-19T16:44:59+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 65,
+      "summary": "Large-scale population studies are essential to address risks of overdiagnosis and incomplete penetrance when implementing whole genome sequencing for newborn screening programmes.",
+      "angle": "Advances in genomic screening and variant interpretation directly impact the future of pre-implantation genetic testing and reproductive counselling.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -882,6 +822,48 @@
       "score": 85,
       "summary": "A House of Lords committee warns that government uncertainty regarding new-town projects is discouraging investment and causing manufacturers to reduce building material production capacity.",
       "angle": "Highlights supply chain volatility and potential demand shifts for construction products linked to government infrastructure policy.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "55c9fab029bc60e6",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
+      "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-22T11:31:41+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 75,
+      "summary": "Mace Consult warns that devolution policy complexity and declining new orders pose significant delivery risks to the UK construction sector despite potential long-term pipeline opportunities.",
+      "angle": "Highlights market volatility, declining order volumes, and persistent material price inflation affecting the UK construction supply chain.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "4010097cd8003e7c",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "The Budget must build confidence and investment",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-22T11:21:01+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 75,
+      "summary": "The UK construction sector faces rising insolvency rates, high fuel costs, and regulatory burdens, prompting calls for government stability and long-term investment incentives in the upcoming Budget.",
+      "angle": "Highlights macroeconomic headwinds, supply chain fragility, and regulatory pressures impacting the broader UK construction and building products market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "17d23104ec21bdd2",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Google DeepMind uses Gemini 4 Argon to teach Apptronik’s Apollo humanoid new skills from video",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/google-deepmind-uses-gemini-4-argon-to-teach-apptroniks-apollo-humanoid-new-skills-from-video/106227/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-22T19:34:44+00:00",
+      "first_seen": "2026-10-23T06:49:19.267135+00:00",
+      "score": 85,
+      "summary": "Google DeepMind has introduced a Video-to-Sim-to-Real pipeline using Gemini 4 Argon to autonomously teach humanoid robots physical tasks from video, significantly reducing manual simulation engineering time.",
+      "angle": "Accelerates development cycles for autonomous inspection robots by automating complex simulation and physical skill acquisition.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -925,36 +907,22 @@
       "summary": "Neura Robotics has launched Neuron AI, a multimodal foundation model integrating 3D vision, touch, audio, and memory to enable robots to perform complex physical tasks.",
       "angle": "Advancements in multimodal physical AI and sensor fusion significantly improve autonomous inspection capabilities in complex, non-visual industrial environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "963f0537e8dcb0bc",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Ubitium raises $14 million to build ‘first universal processor for physical AI’",
-      "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-13T16:29:16+00:00",
-      "first_seen": "2026-10-14T06:49:06.419753+00:00",
-      "score": 85,
-      "summary": "Semiconductor startup Ubitium has raised $14 million to develop a universal processor designed to handle signal processing, AI inference, and real-time control on a single chip.",
-      "angle": "Consolidating compute stacks into one processor could significantly reduce weight, power consumption, and latency for autonomous inspection robots.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 2,
+    "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 156,
-    "llm_requests_attempted": 70,
-    "llm_requests_succeeded": 66,
+    "providers_succeeded": 88,
+    "queued_candidates": 151,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 24,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
-    "carried_forward": 3
+    "dropped_thin_page": 29,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 7,
+    "carried_forward": 2
   }
 }
