@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:49:19.267135+00:00",
+  "generated_at": "2026-10-23T14:08:18.559864+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -639,6 +639,36 @@
       },
       "status": "needs_review",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "ed06f37918517fac",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill's Emerge! K-5 Science of Reading Program Included on Pennsylvania's Curriculum Materials List for Evidence-Based Reading Instruction - The Joplin Globe",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOOURWeWJIUHhXYlZJOEZKdHRsXzktNXdCbGFLNEQyRFl5TFNxN1lkRmxOSzJWbUU2cGtvdVhWd3IteU5ONGppWmNjTzU1Z0hMMEpWa1VoYVU2S1lLSkVCYzdSNm1FWmFWS1h4OFFIWjZhOVhSeWwyU25xRUNIM2M2dkd2blk2OGZiTTRLUjV0UDA5WE15VUJyaDdzdWZvWFRJQUVkQm9XYlZ4ay1wQ2N1QUQ3eDFCQVdRTlNKX2VyMUtDM0MwVkZQbGlXS3dLZXJhOVhrR0tta1EzMzVaVjJqYV9RTnlQdnBsdmNuMjloRWo5X2JHa1lzNnlDeVhIR05JMllzc0RYR1BMLXhGRDZyNkw0NEFoVU5iWnhMWHBqdldjMmF0N0hZaml0SlgxUQ?oc=5",
+      "source": "The Joplin Globe",
+      "published_at": "2026-09-23T13:02:59+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-09-24T06:48:53.160624+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Product",
+      "summary": "McGraw Hill's 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania's state-approved list of curriculum materials for evidence-based reading instruction.",
+      "why_it_matters": "State-level curriculum approvals are critical milestones for education publishers, as they validate the efficacy of learning materials and significantly increase the addressable market within public school districts.",
+      "verified_facts": [
+        "McGraw Hill's Emerge! K-5 Science of Reading program is the product in question.",
+        "The program has been included on Pennsylvania's curriculum materials list for evidence-based reading instruction."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill’s 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania’s list of approved curriculum materials for evidence-based reading instruction. This recognition underscores the program's alignment with rigorous educational standards and its commitment to supporting foundational literacy development in classrooms. By meeting these state-level requirements, McGraw Hill continues to provide educators and students with high-quality, evidence-backed resources designed to improve reading outcomes. Congratulations to the team on this significant achievement in the K-5 space. #Education #Literacy #McGrawHill",
+        "investor": "McGraw Hill continues to strengthen its market position in the K-5 sector, with its 'Emerge!' Science of Reading program recently securing a place on Pennsylvania’s list of approved curriculum materials. State-level approvals of this nature are key drivers for adoption, validating the efficacy of the company's learning technology and expanding its footprint within public school districts. This development reflects the ongoing demand for evidence-based pedagogical tools and highlights McGraw Hill's ability to navigate complex regulatory environments to deliver scalable, high-impact educational solutions. #EdTech #Growth #Education",
+        "people": "A significant milestone for the McGraw Hill team as their 'Emerge!' K-5 Science of Reading program is now included on Pennsylvania’s list of approved curriculum materials. This achievement is a testament to the hard work and dedication of the product and pedagogical teams who have developed a curriculum grounded in evidence-based reading instruction. It is rewarding to see their commitment to improving literacy outcomes recognised at the state level, ensuring that teachers and students have access to the best possible tools for success. Well done to everyone involved in this accomplishment. #TeamSuccess #Education #ScienceOfReading"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
     }
   ]
 }

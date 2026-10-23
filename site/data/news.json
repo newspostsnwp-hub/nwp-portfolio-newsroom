@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T06:49:19.267135+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 11 sector-related updates, as there is no specific news to report from our portfolio companies.",
-  "archive_story_count": 20,
+  "generated_at": "2026-10-23T14:08:18.559864+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 20 sector-related items, as there are no updates from our portfolio companies this morning.",
+  "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-23T06:49:19.267135+00:00",
   "companies": [
     {
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 2,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 2,
+  "story_count": 1,
   "todays_story_count": 0,
   "stories": [
     {
@@ -287,36 +287,6 @@
       },
       "status": "ready",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "ed06f37918517fac",
-      "company": "McGraw Hill",
-      "company_domain": "mheducation.com",
-      "industry": "Education publishing and edtech",
-      "title": "McGraw Hill's Emerge! K-5 Science of Reading Program Included on Pennsylvania's Curriculum Materials List for Evidence-Based Reading Instruction - The Joplin Globe",
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOOURWeWJIUHhXYlZJOEZKdHRsXzktNXdCbGFLNEQyRFl5TFNxN1lkRmxOSzJWbUU2cGtvdVhWd3IteU5ONGppWmNjTzU1Z0hMMEpWa1VoYVU2S1lLSkVCYzdSNm1FWmFWS1h4OFFIWjZhOVhSeWwyU25xRUNIM2M2dkd2blk2OGZiTTRLUjV0UDA5WE15VUJyaDdzdWZvWFRJQUVkQm9XYlZ4ay1wQ2N1QUQ3eDFCQVdRTlNKX2VyMUtDM0MwVkZQbGlXS3dLZXJhOVhrR0tta1EzMzVaVjJqYV9RTnlQdnBsdmNuMjloRWo5X2JHa1lzNnlDeVhIR05JMllzc0RYR1BMLXhGRDZyNkw0NEFoVU5iWnhMWHBqdldjMmF0N0hZaml0SlgxUQ?oc=5",
-      "source": "The Joplin Globe",
-      "published_at": "2026-09-23T13:02:59+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-09-24T06:48:53.160624+00:00",
-      "score": 85,
-      "tier": "lead",
-      "recency": "fresh",
-      "story_type": "Product",
-      "summary": "McGraw Hill's 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania's state-approved list of curriculum materials for evidence-based reading instruction.",
-      "why_it_matters": "State-level curriculum approvals are critical milestones for education publishers, as they validate the efficacy of learning materials and significantly increase the addressable market within public school districts.",
-      "verified_facts": [
-        "McGraw Hill's Emerge! K-5 Science of Reading program is the product in question.",
-        "The program has been included on Pennsylvania's curriculum materials list for evidence-based reading instruction."
-      ],
-      "warnings": [],
-      "drafts": {
-        "concise": "We are pleased to share that McGraw Hill’s 'Emerge!' K-5 Science of Reading program has been officially included on Pennsylvania’s list of approved curriculum materials for evidence-based reading instruction. This recognition underscores the program's alignment with rigorous educational standards and its commitment to supporting foundational literacy development in classrooms. By meeting these state-level requirements, McGraw Hill continues to provide educators and students with high-quality, evidence-backed resources designed to improve reading outcomes. Congratulations to the team on this significant achievement in the K-5 space. #Education #Literacy #McGrawHill",
-        "investor": "McGraw Hill continues to strengthen its market position in the K-5 sector, with its 'Emerge!' Science of Reading program recently securing a place on Pennsylvania’s list of approved curriculum materials. State-level approvals of this nature are key drivers for adoption, validating the efficacy of the company's learning technology and expanding its footprint within public school districts. This development reflects the ongoing demand for evidence-based pedagogical tools and highlights McGraw Hill's ability to navigate complex regulatory environments to deliver scalable, high-impact educational solutions. #EdTech #Growth #Education",
-        "people": "A significant milestone for the McGraw Hill team as their 'Emerge!' K-5 Science of Reading program is now included on Pennsylvania’s list of approved curriculum materials. This achievement is a testament to the hard work and dedication of the product and pedagogical teams who have developed a curriculum grounded in evidence-based reading instruction. It is rewarding to see their commitment to improving literacy outcomes recognised at the state level, ensuring that teachers and students have access to the best possible tools for success. Well done to everyone involved in this accomplishment. #TeamSuccess #Education #ScienceOfReading"
-      },
-      "status": "ready",
-      "discovered_via": "Google News RSS"
     }
   ],
   "sector_stories": [
@@ -391,6 +361,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "49c1aea5e9ab0886",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Agentic AI is changing the role of security leaders",
+      "url": "https://securityjournaluk.com/agentic-ai-is-changing-the-role-of-security-leaders/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-23T06:30:00+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 85,
+      "summary": "The rise of agentic AI in security systems necessitates robust governance frameworks to manage autonomous decision-making and mitigate risks associated with physical security actions like locking doors or dispatching personnel.",
+      "angle": "Highlights critical governance and liability challenges for providers integrating autonomous AI into physical site security and monitoring services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "3d3eab1639eaf1b6",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -419,20 +403,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e8b9505ba3737cc0",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "From duty of care policy to operational readiness",
-      "url": "https://securityjournaluk.com/from-duty-of-care-to-operational-readiness/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-16T06:30:00+00:00",
-      "first_seen": "2026-10-16T14:07:34.183107+00:00",
-      "score": 85,
-      "summary": "The article discusses the implications of the Terrorism (Protection of Premises) Act 2025, known as Martyn’s Law, regarding preparedness and safety procedures at qualifying UK premises.",
-      "angle": "Highlights regulatory shifts in UK site security and the increasing operational requirements for premises protection and emergency preparedness.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "edcd2c57d5638fc6",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -447,6 +417,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "dd8a419cab74ea80",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Bosch faces radical corporate restructuring amid competitive pressures",
+      "url": "https://www.electrive.com/2026/10/23/bosch-faces-radical-corporate-restructuring-amid-competitive-pressures/",
+      "source": "electrive.com",
+      "published_at": "2026-10-23T10:30:00+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 75,
+      "summary": "Bosch is restructuring its Mobility division into an independent subsidiary to increase flexibility and competitiveness against rising Asian rivals in a challenging market environment.",
+      "angle": "Signals significant structural shifts and increased competitive pressure among major e-bike component suppliers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "36addaecbb5e6497",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "EU Auto Package: Committee votes to relax CO₂ rules",
+      "url": "https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-co%e2%82%82-rules/",
+      "source": "electrive.com",
+      "published_at": "2026-10-23T09:30:00+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 65,
+      "summary": "EU parliamentary committees have voted to relax 2035 CO2 reduction targets for new cars, potentially allowing continued sales of combustion engine and hybrid vehicles.",
+      "angle": "Regulatory shifts impacting the transition to electric vehicles influence the broader market environment for micromobility and e-bike adoption.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6448509bee305c62",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -458,34 +456,6 @@
       "score": 65,
       "summary": "Transport for London is consulting on a proposal to mandate that all newly licensed private hire vehicles must be fully battery-electric by 2028.",
       "angle": "Signals accelerating urban policy shifts towards zero-emission transport, reinforcing the broader market transition away from combustion-engine vehicles.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fedb0881c91e95c4",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Belgian Post fleet now features 4,165 electric delivery vans",
-      "url": "https://www.electrive.com/2026/10/21/belgian-post-fleet-now-features-4165-electric-delivery-vans/",
-      "source": "electrive.com",
-      "published_at": "2026-10-21T14:00:00+00:00",
-      "first_seen": "2026-10-21T14:08:20.907650+00:00",
-      "score": 65,
-      "summary": "Belgian postal operator Bpost has expanded its electric fleet to 4,165 vans, while also operating 3,013 electric bicycles and 556 electric bicycle trailers for last-mile delivery.",
-      "angle": "Demonstrates large-scale institutional adoption of e-bikes and trailers for urban logistics and last-mile delivery efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8ed7a0f2356bfcf0",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Green Science Alliance opens Swiss battery recycling lab",
-      "url": "https://www.electrive.com/2026/10/20/green-science-alliance-opens-swiss-battery-recycling-lab/",
-      "source": "electrive.com",
-      "published_at": "2026-10-20T14:00:00+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 65,
-      "summary": "Green Science Alliance has opened a battery recycling laboratory in Switzerland to develop direct recycling methods for cathode materials from lithium-ion batteries.",
-      "angle": "Advancements in direct battery recycling could improve supply chain sustainability and reduce costs for micromobility battery manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,31 +543,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7c5758bc8ceedf8e",
+      "id": "5e7f65ff56f8d9d6",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "EU rules will require cafés & restaurants to accept customers’ reusable containers",
-      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/eu-rules-will-require-cafes-restaurants-to-accept-customers-reusable-containers-21-10-2026",
+      "title": "PackUK considers further PFAS testing options as ‘industry questions RAM 2027 proposals’",
+      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/packuk-considers-further-pfas-testing-options-as-industry-questions-ram-2027-proposals-23-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-21T11:55:50+00:00",
-      "first_seen": "2026-10-21T14:08:20.907650+00:00",
+      "published_at": "2026-10-23T10:27:07+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
       "score": 85,
-      "summary": "New EU regulations mandate that food and drink outlets must allow customers to use their own reusable containers for takeaway services starting 12 February 2027.",
-      "angle": "Regulatory shift towards reuse and refill models impacts demand for traditional single-use PET packaging in the hospitality sector.",
+      "summary": "Industry bodies are challenging proposed RAM 2027 PFAS concentration thresholds, arguing they could unfairly penalise recyclable packaging and discourage the use of recycled materials.",
+      "angle": "Regulatory changes to recyclability assessments and PFAS thresholds directly impact material compliance and packaging design strategies.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "75430ef971fcc9e0",
+      "id": "a4250ad77f4fecc8",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Suntory targets 90% value-chain emissions cut with packaging focus",
-      "url": "https://www.packagingnews.co.uk/news/markets/drinks/suntory-targets-90-value-chain-emissions-cut-with-packaging-focus-19-10-2026",
+      "title": "Danone drops unqualified recycled-bottle claims after EU greenwashing complaint",
+      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/danone-drops-unqualified-recycled-bottle-claims-after-eu-greenwashing-complaint-23-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-19T08:30:19+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
+      "published_at": "2026-10-23T09:11:53+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
       "score": 85,
-      "summary": "Suntory has announced a climate transition plan targeting a 90% reduction in value-chain emissions by 2050, with a specific focus on sustainable packaging and recycled PET content.",
-      "angle": "Major beverage brands are increasingly mandating high recycled content and reduced material usage from their packaging suppliers.",
+      "summary": "Danone has agreed to revise its marketing claims regarding recycled plastic bottles following pressure from European consumer groups over potential greenwashing.",
+      "angle": "Increased regulatory scrutiny on environmental marketing claims for PET packaging necessitates greater transparency and precision in sustainability communications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -643,17 +613,59 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "55c9cb5c64f77113",
+      "id": "42bbad1c0b7ef6a2",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "AI monitoring should be a standard part of investor due diligence",
-      "url": "https://www.uktech.news/ai/ai-monitoring-investor-due-diligence-20261022",
-      "source": "uktech.news",
-      "published_at": "2026-10-22T07:00:54+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
+      "title": "The Endless Chip War",
+      "url": "https://warontherocks.com/cogs-of-war/the-endless-chip-war/",
+      "source": "warontherocks.com",
+      "published_at": "2026-10-22T10:15:00+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
       "score": 85,
-      "summary": "Investors are increasingly prioritising continuous AI monitoring and audit trails during due diligence to mitigate risks of rogue AI behaviour and ensure compliance with upcoming regulations.",
-      "angle": "Highlights growing enterprise and regulatory demand for robust, verifiable AI governance and production-level monitoring systems.",
+      "summary": "Semiconductor industry expert Rakesh Kumar discusses historical parallels between chip wars and the current AI race, highlighting the dominance of hardware providers and the geopolitical weaponisation of technology.",
+      "angle": "Provides critical context on hardware supply chain dependencies, software moats, and the geopolitical landscape shaping sovereign AI strategy.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "be44d8e14dac5a90",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Local shops welcome government red tape pledge",
+      "url": "https://www.talkingretail.com/news/industry-news/local-shops-welcome-government-red-tape-pledge-23-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-23T12:38:20+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 85,
+      "summary": "The government has accepted Small Business Taskforce recommendations to reduce administrative burdens, including digitising licensing applications and simplifying business rates information requests for small retailers.",
+      "angle": "Reduces operational overhead and administrative costs for independent high street retailers through streamlined government reporting and licensing processes.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "e4b749c32cd0e8e6",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "DRS scheme has broad public support",
+      "url": "https://www.talkingretail.com/news/industry-news/drs-scheme-has-broad-public-support-23-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-23T10:50:30+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 85,
+      "summary": "A YouGov poll indicates 71% of shoppers support the upcoming Deposit Return Scheme, though 61% were previously unaware of the initiative launching in October 2027.",
+      "angle": "Regulatory changes regarding container returns will impact retail operations, store footfall, and consumer expectations for convenience.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5fcf92e2b0c31c46",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Facial recognition firm offers retailers free crime reporting platform",
+      "url": "https://www.talkingretail.com/news/industry-news/facial-recognition-technology-offered-to-retailers-for-free-23-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-23T10:01:55+00:00",
+      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "score": 85,
+      "summary": "Facewatch has launched a free crime reporting platform for retailers to record incidents, manage evidence, and analyse crime data independently of its facial recognition technology.",
+      "angle": "Provides a cost-effective tool for independent retailers to manage and report shoplifting incidents and identify repeat offenders.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -668,48 +680,6 @@
       "score": 85,
       "summary": "The Federation of Independent Retailers has questioned official ONS data showing a 2% decline in shop theft, citing retailer distrust in reporting processes and persistent crime levels.",
       "angle": "Highlights ongoing operational risks, security challenges, and the need for improved police engagement for independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a03986370fee26a1",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ACS highlights increasingly violent shop theft in latest crime figures",
-      "url": "https://www.talkingretail.com/featured/acs-highlights-increasingly-violent-shop-theft-in-latest-crime-figures-22-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-22T10:32:31+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
-      "score": 85,
-      "summary": "The Association of Convenience Stores reports that shop theft is becoming increasingly violent, with a 10% rise in recorded robberies as police refine their crime classification methods.",
-      "angle": "Rising violence against retail staff necessitates enhanced security protocols and policy advocacy for the convenience sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1402e250fb6a17f4",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Retail industry welcomes shoplifting decrease with caution",
-      "url": "https://www.talkingretail.com/featured/retail-industry-welcomes-shoplifting-decrease-with-caution-22-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-22T10:08:49+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
-      "score": 85,
-      "summary": "Official ONS data shows a 2% decrease in shoplifting offences for the year ending June 2026, though retail industry bodies warn that violence against staff remains at epidemic levels.",
-      "angle": "Highlights evolving retail crime trends, legislative delays in worker protections, and the ongoing operational focus on staff safety.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4e36eda0f7d23883",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Consumer confidence takes a hit ahead of Budget",
-      "url": "https://www.talkingretail.com/featured/consumer-confidence-takes-a-hit-ahead-of-budget-22-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-22T05:09:01+00:00",
-      "first_seen": "2026-10-22T06:49:16.635002+00:00",
-      "score": 85,
-      "summary": "BRC-Opinium data shows consumer confidence in the economy has dropped for the third consecutive month, while retail spending expectations have risen ahead of the festive period.",
-      "angle": "Highlights macroeconomic headwinds and cost pressures impacting retail margins and consumer discretionary spending ahead of the Budget.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -916,13 +886,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 88,
-    "queued_candidates": 151,
-    "llm_requests_attempted": 92,
-    "llm_requests_succeeded": 92,
+    "queued_candidates": 142,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 29,
+    "dropped_thin_page": 31,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 7,
-    "carried_forward": 2
+    "skipped_recently_evaluated": 9,
+    "carried_forward": 1
   }
 }
