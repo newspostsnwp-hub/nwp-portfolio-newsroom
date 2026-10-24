@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T06:49:12.700056+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-10-24T14:08:15.209777+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from Future Maintenance Technologies, Petainer, or Whitespace.",
   "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-24T06:49:12.700056+00:00",
   "companies": [
@@ -529,6 +529,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2fdf1ac667056cea",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Producers ‘given new route’ to shape packaging recyclability fees from 2028",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/producers-given-new-route-to-shape-packaging-recyclability-fees-from-2028-24-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-24T08:35:41+00:00",
+      "first_seen": "2026-10-24T14:08:15.209777+00:00",
+      "score": 90,
+      "summary": "PackUK and the UK Packaging PRO have launched a review process for the Recyclability Assessment Methodology, which will determine packaging fee structures under the pEPR regime from 2028.",
+      "angle": "Directly impacts future regulatory costs and recyclability classifications for PET and beverage packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5e7f65ff56f8d9d6",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -540,20 +554,6 @@
       "score": 85,
       "summary": "Industry bodies are challenging proposed RAM 2027 PFAS concentration thresholds, arguing they could unfairly penalise recyclable packaging and discourage the use of recycled materials.",
       "angle": "Regulatory changes to recyclability assessments and PFAS thresholds directly impact material compliance and packaging design strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a4250ad77f4fecc8",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Danone drops unqualified recycled-bottle claims after EU greenwashing complaint",
-      "url": "https://www.packagingnews.co.uk/news/materials/rigid-plastics/danone-drops-unqualified-recycled-bottle-claims-after-eu-greenwashing-complaint-23-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-23T09:11:53+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "Danone has agreed to revise its marketing claims regarding recycled plastic bottles following pressure from European consumer groups over potential greenwashing.",
-      "angle": "Increased regulatory scrutiny on environmental marketing claims for PET packaging necessitates greater transparency and precision in sustainability communications.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -851,17 +851,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3ad44bdc97265317",
+      "id": "e20c56c55332c7d7",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Neura Robotics launches multimodal AI model that gives robots perception and memory",
-      "url": "https://roboticsandautomationnews.com/2026/10/14/neura-robotics-launches-multimodal-ai-model-that-gives-robots-perception-and-memory/105902/",
+      "title": "Canton Fair at 70: Service robots get dedicated zone as buyers demand real-world performance",
+      "url": "https://roboticsandautomationnews.com/2026/10/23/canton-fair-at-70-service-robots-get-dedicated-zone-as-buyers-demand-real-world-performance/106263/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-14T08:25:59+00:00",
-      "first_seen": "2026-10-15T06:49:04.795497+00:00",
-      "score": 85,
-      "summary": "Neura Robotics has launched Neuron AI, a multimodal foundation model integrating 3D vision, touch, audio, and memory to enable robots to perform complex physical tasks.",
-      "angle": "Advancements in multimodal physical AI and sensor fusion significantly improve autonomous inspection capabilities in complex, non-visual industrial environments.",
+      "published_at": "2026-10-23T16:21:30+00:00",
+      "first_seen": "2026-10-24T14:08:15.209777+00:00",
+      "score": 65,
+      "summary": "The 140th Canton Fair introduced a dedicated service robot zone, highlighting a shift in international buyer demand toward real-world reliability and sustained industrial performance over scripted demonstrations.",
+      "angle": "Highlights increasing market demand for proven operational reliability in industrial robotic systems over mere technical capability.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -871,14 +871,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 76,
-    "llm_requests_succeeded": 76,
+    "providers_succeeded": 78,
+    "queued_candidates": 117,
+    "llm_requests_attempted": 56,
+    "llm_requests_succeeded": 56,
     "dropped_no_valid_date": 29,
     "dropped_thin_page": 32,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 1
   }
 }
