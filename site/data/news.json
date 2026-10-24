@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T14:08:18.559864+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 20 sector-related items, as there are no updates from our portfolio companies this morning.",
+  "generated_at": "2026-10-24T06:49:12.700056+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-23T06:49:19.267135+00:00",
+  "last_digest_sent_at": "2026-10-24T06:49:12.700056+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -473,20 +473,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a71286e5018b02e6",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Sync.Labs Intros Zero-Shot Lipsyncing for Film and Television",
-      "url": "https://postperspective.com/sync-labs-intros-zero-shot-lipsyncing-for-film-and-television/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-13T15:13:41+00:00",
-      "first_seen": "2026-10-15T06:49:04.795497+00:00",
-      "score": 85,
-      "summary": "Sync.Labs has launched Sync.Productions, a managed service using AI to perform zero-shot lipsyncing for film and television localization without requiring actor-specific training or facial scans.",
-      "angle": "AI-driven automated lipsyncing tools are increasingly capable of professional-grade localization, impacting traditional post-production workflows and dubbing services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "71daef5ca665a017",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -571,6 +557,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a615e95afc478fe5",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Ireland organisations and the defining moment for Europe AI ambitions",
+      "url": "https://www.siliconrepublic.com/innovation/ai-inferencing-ireland-organisations-europe-ambitions-skills-workforce-dell",
+      "source": "siliconrepublic.com",
+      "published_at": "2026-10-23T15:00:00+00:00",
+      "first_seen": "2026-10-24T06:49:12.700056+00:00",
+      "score": 85,
+      "summary": "Dell Technologies Ireland suggests the country should focus on becoming a hub for sovereign AI inferencing to support secure, regulated AI deployment across Europe.",
+      "angle": "Highlights the strategic shift from model training to sovereign infrastructure as a critical operational requirement for European organisations.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "ee9f5bba125a9e7c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -610,20 +610,6 @@
       "score": 85,
       "summary": "Polarise and World Wide Technology have partnered to accelerate the deployment of sovereign AI infrastructure across Europe, beginning with a 5 MW AI data centre in Oslo.",
       "angle": "Highlights increasing competition and the role of systems integrators in scaling sovereign AI infrastructure across European markets.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "42bbad1c0b7ef6a2",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "The Endless Chip War",
-      "url": "https://warontherocks.com/cogs-of-war/the-endless-chip-war/",
-      "source": "warontherocks.com",
-      "published_at": "2026-10-22T10:15:00+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "Semiconductor industry expert Rakesh Kumar discusses historical parallels between chip wars and the current AI race, highlighting the dominance of hardware providers and the geopolitical weaponisation of technology.",
-      "angle": "Provides critical context on hardware supply chain dependencies, software moats, and the geopolitical landscape shaping sovereign AI strategy.",
       "discovered_via": "GDELT"
     },
     {
@@ -885,14 +871,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 142,
-    "llm_requests_attempted": 81,
-    "llm_requests_succeeded": 81,
+    "providers_succeeded": 81,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 76,
+    "llm_requests_succeeded": 76,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 31,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 32,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 1
   }
 }
