@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T14:08:15.209777+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from Future Maintenance Technologies, Petainer, or Whitespace.",
+  "generated_at": "2026-10-25T07:49:22.016555+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no new developments to report from Roof-Maker or The Delivery Group.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-24T06:49:12.700056+00:00",
+  "last_digest_sent_at": "2026-10-25T07:49:22.016555+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -291,20 +291,6 @@
   ],
   "sector_stories": [
     {
-      "id": "69f7cd417f8d639a",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "CWU: Royal Mail stands “on the brink of collapse”",
-      "url": "https://postandparcel.info/163079/news/parcel/cwu-royal-mail-stands-on-the-brink-of-collapse/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-15T05:19:41+00:00",
-      "first_seen": "2026-10-15T14:08:05.952134+00:00",
-      "score": 90,
-      "summary": "The Communication Workers Union has called for an emergency government summit to address Royal Mail's structural decline and severe recruitment and retention crises.",
-      "angle": "Highlights significant instability in the UK's primary postal incumbent, potentially impacting market capacity and competitor service expectations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "c624ae96e683fe8e",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -344,6 +330,20 @@
       "score": 85,
       "summary": "Ofcom has proposed extending the current Second Class stamp price cap for one year until March 2028 to allow Royal Mail more time to implement universal service reforms.",
       "angle": "Regulatory constraints on the dominant market player influence pricing strategies and service standards across the UK postal sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bfc834d2f7d0ae8b",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Chronopost Launches on ChatGPT",
+      "url": "https://postandparcel.info/163129/news/e-commerce/chronopost-launches-on-chatgpt/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-20T08:59:36+00:00",
+      "first_seen": "2026-10-25T07:49:22.016555+00:00",
+      "score": 75,
+      "summary": "Chronopost has integrated a ChatGPT module allowing customers to track parcels, locate drop-off points, obtain price estimates, and simplify waybill creation through text queries.",
+      "angle": "Demonstrates the integration of generative AI agents into customer service and logistics workflows to enhance user experience.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -484,20 +484,6 @@
       "score": 75,
       "summary": "Colorist Siggy Ferstl is using AI-driven depth mapping tools in Blackmagic Resolve to perform complex VFX-style adjustments during the final color grading process.",
       "angle": "Demonstrates the increasing convergence of traditional color grading and VFX workflows through advanced, real-time software automation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "394dae8b97df95a2",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "The Look and Color of One Hundred Years of Solitude Part 2",
-      "url": "https://postperspective.com/the-look-and-color-of-one-hundred-years-of-solitude-part-2/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-14T16:14:25+00:00",
-      "first_seen": "2026-10-15T06:49:04.795497+00:00",
-      "score": 75,
-      "summary": "The production team for One Hundred Years of Solitude Part 2 integrated post-production and color workflows into pre-production to ensure visual consistency across a complex, long-term shoot.",
-      "angle": "Highlights the industry shift toward integrating post-production expertise into early pre-production and on-set workflows for high-end episodic content.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -767,20 +753,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6e0d2e8ad079284a",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "New towns at risk as building materials production slows, Lords warn",
-      "url": "https://www.constructionnews.co.uk/supply-chain/new-towns-at-risk-as-building-materials-production-slows-lords-warn-15-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-14T23:01:42+00:00",
-      "first_seen": "2026-10-15T06:49:04.795497+00:00",
-      "score": 85,
-      "summary": "A House of Lords committee warns that government uncertainty regarding new-town projects is discouraging investment and causing manufacturers to reduce building material production capacity.",
-      "angle": "Highlights supply chain volatility and potential demand shifts for construction products linked to government infrastructure policy.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "55c9fab029bc60e6",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -806,6 +778,20 @@
       "score": 75,
       "summary": "The UK construction sector faces rising insolvency rates, high fuel costs, and regulatory burdens, prompting calls for government stability and long-term investment incentives in the upcoming Budget.",
       "angle": "Highlights macroeconomic headwinds, supply chain fragility, and regulatory pressures impacting the broader UK construction and building products market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7691cd4736e19c22",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "BESA chief challenges construction to raise competence standards",
+      "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-23T11:45:01+00:00",
+      "first_seen": "2026-10-25T07:49:22.016555+00:00",
+      "score": 65,
+      "summary": "BESA's chief executive has urged the construction industry to adopt higher competence and compliance standards, highlighting the importance of the Competence Assessment Standard for supply chain accountability.",
+      "angle": "Increasing industry focus on rigorous competence auditing and Building Safety Act compliance impacts supply chain procurement requirements.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -871,12 +857,12 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 78,
-    "queued_candidates": 117,
-    "llm_requests_attempted": 56,
-    "llm_requests_succeeded": 56,
+    "providers_succeeded": 86,
+    "queued_candidates": 135,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 73,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 32,
+    "dropped_thin_page": 33,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 3,
     "carried_forward": 1
