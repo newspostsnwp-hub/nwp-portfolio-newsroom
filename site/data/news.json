@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T07:49:14.977555+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on four sector-specific updates, with no new developments to report from Future Maintenance Technologies or Molinare.",
+  "generated_at": "2026-10-26T15:08:18.190635+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-26T07:49:14.977555+00:00",
   "companies": [
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -291,6 +291,20 @@
   ],
   "sector_stories": [
     {
+      "id": "d514914a377e349b",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Evri “ready to support customers through a successful Peak”",
+      "url": "https://postandparcel.info/163171/news/e-commerce/evri-ready-to-support-customers-through-a-successful-peak/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-26T06:24:27+00:00",
+      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "score": 85,
+      "summary": "Evri has invested £32.2 million in infrastructure and technology this year, increasing its daily parcel capacity to 4.9 million ahead of the peak Christmas trading period.",
+      "angle": "Highlights significant competitor investment in automation, capacity expansion, and AI-driven delivery verification within the UK parcel market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c624ae96e683fe8e",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -316,20 +330,6 @@
       "score": 85,
       "summary": "Royal Mail reports improved service quality and is hiring 22,000 seasonal workers while addressing ongoing industrial relations tensions with the Communication Workers Union ahead of the peak season.",
       "angle": "Provides critical insight into competitor operational capacity, service performance trends, and potential labour market shifts in UK delivery.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "588f695e3294d8b6",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Ofcom: Royal Mail’s financial position is stark",
-      "url": "https://postandparcel.info/163103/news/post/ofcom-royal-mails-financial-position-is-stark/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-16T09:50:28+00:00",
-      "first_seen": "2026-10-16T14:07:34.183107+00:00",
-      "score": 85,
-      "summary": "Ofcom has proposed extending the current Second Class stamp price cap for one year until March 2028 to allow Royal Mail more time to implement universal service reforms.",
-      "angle": "Regulatory constraints on the dominant market player influence pricing strategies and service standards across the UK postal sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -361,6 +361,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "94593cc4fcef4262",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Are you managing your security footage efficiently?",
+      "url": "https://securityjournaluk.com/managing-security-footage-antare/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-23T07:00:00+00:00",
+      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "score": 85,
+      "summary": "Antare is deploying AI-powered video analytics to automate the review of security footage, aiming to reduce operational bottlenecks and improve incident response times for security teams.",
+      "angle": "Highlights the industry shift from passive recording to AI-driven, active security intelligence and automated operational oversight.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "49c1aea5e9ab0886",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -386,20 +400,6 @@
       "score": 85,
       "summary": "VPS has published a white paper highlighting that the business disruption costs of metal theft significantly outweigh the scrap value of the stolen materials.",
       "angle": "Highlights shifting criminal tactics and the need for risk-based security strategies for critical infrastructure and vacant sites.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8e4138f9b38bbb58",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Slamming the brakes on EV charging crime",
-      "url": "https://securityjournaluk.com/slamming-the-brakes-on-ev-charging-crime/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-20T07:22:26+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 85,
-      "summary": "Rising theft of copper cables and vandalism at remote EV charging sites is driving demand for proactive, AI-powered video surveillance and remote monitoring solutions.",
-      "angle": "Highlights a growing, high-value niche for remote site security services in the expanding EV infrastructure market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -501,17 +501,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1942de2bf3fabdf0",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Colorist Chat: Picture Shop Vancouver’s Aurora Shannon",
-      "url": "https://postperspective.com/colorist-chat-picture-shop-vancouvers-aurora-shannon/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-16T14:23:22+00:00",
-      "first_seen": "2026-10-26T07:49:14.977555+00:00",
-      "score": 65,
-      "summary": "Colorist Aurora Shannon discusses the increasing convergence of VFX and color grading workflows, highlighting how modern toolsets enable finishing artists to perform tasks previously reserved for VFX departments.",
-      "angle": "Highlights the industry-wide trend of blurring boundaries between color grading and VFX, impacting post-production operational workflows.",
+      "id": "4c4d07550b8fa096",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Deposit return scheme registration opens ahead of October 2027 launch",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/deposit-return-scheme-registration-opens-ahead-of-october-2027-launch-26-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-26T09:35:13+00:00",
+      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "score": 95,
+      "summary": "Registration has opened for producers and retailers ahead of the UK's deposit return scheme, which is now scheduled to launch in October 2027.",
+      "angle": "Regulatory compliance and supply chain administrative requirements for beverage packaging manufacturers ahead of the national scheme launch.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -527,20 +527,6 @@
       "summary": "The global recycled plastics market is projected to reach $117.9 billion by 2031, driven by regulatory mandates like the EU's PPWR and rising corporate sustainability commitments.",
       "angle": "Regulatory recycled-content targets and supply-demand imbalances directly impact PET packaging procurement, pricing, and long-term manufacturing strategy.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "a575edaced387446",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Regulators intervene over PRN undersupply as FPA calls for fundamental review of 2027 targets",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/regulators-intervene-over-prn-undersupply-as-fpa-calls-for-fundamental-review-of-2027-targets-16-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-16T10:16:03+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 95,
-      "summary": "UK regulators have issued a Regulatory Position Statement allowing businesses to meet reduced plastic recycling obligations for 2026 due to a shortage of Packaging Waste Recycling Notes.",
-      "angle": "Highlights systemic instability in the PRN market and critical upcoming regulatory shifts regarding PET and DRS implementation.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "2fdf1ac667056cea",
@@ -627,6 +613,34 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "1a7f7999693da1b9",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Post Office personal cash deposit volumes rise ahead of festive season",
+      "url": "https://www.talkingretail.com/featured/post-office-personal-cash-deposit-volumes-rise-ahead-of-festive-season-26-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-26T13:20:53+00:00",
+      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "score": 90,
+      "summary": "Post Office personal cash deposit transactions rose 7% year-on-year to over 17 million, as consumers increasingly use cash to manage household budgets and prepare for winter costs.",
+      "angle": "Highlights sustained demand for in-branch banking services and the role of cash in consumer budgeting strategies.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "cc664a6770d77c38",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Retail union welcomes introduction of Respect Orders to help tackle retail crime",
+      "url": "https://www.talkingretail.com/featured/retail-union-welcomes-introduction-of-respect-orders-to-help-tackle-retail-crime-26-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-26T12:43:24+00:00",
+      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "score": 85,
+      "summary": "The Crime and Policing Act 2026 has introduced Respect Orders, a new civil behavioural order designed to combat anti-social behaviour and retail crime.",
+      "angle": "New legal powers provide retailers with additional mechanisms to address persistent shoplifting and protect frontline staff from abuse.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "be44d8e14dac5a90",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -652,34 +666,6 @@
       "score": 85,
       "summary": "A YouGov poll indicates 71% of shoppers support the upcoming Deposit Return Scheme, though 61% were previously unaware of the initiative launching in October 2027.",
       "angle": "Regulatory changes regarding container returns will impact retail operations, store footfall, and consumer expectations for convenience.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5fcf92e2b0c31c46",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Facial recognition firm offers retailers free crime reporting platform",
-      "url": "https://www.talkingretail.com/news/industry-news/facial-recognition-technology-offered-to-retailers-for-free-23-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-23T10:01:55+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "Facewatch has launched a free crime reporting platform for retailers to record incidents, manage evidence, and analyse crime data independently of its facial recognition technology.",
-      "angle": "Provides a cost-effective tool for independent retailers to manage and report shoplifting incidents and identify repeat offenders.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8e95771acca0cf35",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Fed questions whether falling shop theft figures tell the full story",
-      "url": "https://www.talkingretail.com/news/industry-news/fed-questions-whether-falling-shop-theft-figures-tell-the-full-story-22-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-22T14:18:43+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 85,
-      "summary": "The Federation of Independent Retailers has questioned official ONS data showing a 2% decline in shop theft, citing retailer distrust in reporting processes and persistent crime levels.",
-      "angle": "Highlights ongoing operational risks, security challenges, and the need for improved police engagement for independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -871,14 +857,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 124,
-    "llm_requests_attempted": 71,
-    "llm_requests_succeeded": 71,
+    "providers_succeeded": 87,
+    "queued_candidates": 141,
+    "llm_requests_attempted": 54,
+    "llm_requests_succeeded": 50,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "dropped_thin_page": 24,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 1
   }
 }
