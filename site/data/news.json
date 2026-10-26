@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T15:08:11.753050+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from Roof-Maker, The Delivery Group, or Whitespace.",
+  "generated_at": "2026-10-26T07:49:14.977555+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on four sector-specific updates, with no new developments to report from Future Maintenance Technologies or Molinare.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-25T07:49:22.016555+00:00",
+  "last_digest_sent_at": "2026-10-26T07:49:14.977555+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -459,20 +459,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bb0aa99814a51cf9",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Nvidia’s Editor’s Day: New Windows-Based RTX Spark Computers",
-      "url": "https://postperspective.com/nvidias-editors-day-new-windows-based-rtx-spark-computers/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-15T16:58:14+00:00",
-      "first_seen": "2026-10-17T06:48:32.650243+00:00",
-      "score": 85,
-      "summary": "Nvidia has launched the RTX Spark line of ARM-based Windows computers, featuring unified memory architectures designed to facilitate local AI processing for creative workflows.",
-      "angle": "Local AI processing improves security and reliability for post-production workflows, reducing reliance on cloud-based AI tools.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "71daef5ca665a017",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -484,6 +470,48 @@
       "score": 75,
       "summary": "Colorist Siggy Ferstl is using AI-driven depth mapping tools in Blackmagic Resolve to perform complex VFX-style adjustments during the final color grading process.",
       "angle": "Demonstrates the increasing convergence of traditional color grading and VFX workflows through advanced, real-time software automation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "411ea4c07b68028c",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Blackmagic Discounts Resolve Studio as AI Performance Improves",
+      "url": "https://postperspective.com/blackmagic-discounts-resolve-studio-as-ai-performance-improves/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-23T17:08:35+00:00",
+      "first_seen": "2026-10-26T07:49:14.977555+00:00",
+      "score": 65,
+      "summary": "Blackmagic Design is offering 20% discounts on DaVinci Resolve Studio and hardware, citing significant AI performance improvements on new Apple M6 and Nvidia RTX Spark processors.",
+      "angle": "Highlights rapid advancements in AI-driven post-production workflows and hardware-software integration efficiency for high-end editing suites.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "48b86d8aba3e1763",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Review: The New Microsoft Surface Laptop Ultra",
+      "url": "https://postperspective.com/review-the-new-microsoft-surface-laptop-ultra/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-21T00:03:01+00:00",
+      "first_seen": "2026-10-26T07:49:14.977555+00:00",
+      "score": 65,
+      "summary": "The Microsoft Surface Laptop Ultra features the new ARM-based Nvidia Spark N1X processor, offering significant performance gains for creative applications like Adobe Premiere and After Effects.",
+      "angle": "Emergence of high-performance ARM-based hardware for mobile post-production workflows and creative software compatibility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1942de2bf3fabdf0",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Colorist Chat: Picture Shop Vancouver’s Aurora Shannon",
+      "url": "https://postperspective.com/colorist-chat-picture-shop-vancouvers-aurora-shannon/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-16T14:23:22+00:00",
+      "first_seen": "2026-10-26T07:49:14.977555+00:00",
+      "score": 65,
+      "summary": "Colorist Aurora Shannon discusses the increasing convergence of VFX and color grading workflows, highlighting how modern toolsets enable finishing artists to perform tasks previously reserved for VFX departments.",
+      "angle": "Highlights the industry-wide trend of blurring boundaries between color grading and VFX, impacting post-production operational workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -823,17 +851,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e20c56c55332c7d7",
+      "id": "dd55a23eedd2a20c",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Canton Fair at 70: Service robots get dedicated zone as buyers demand real-world performance",
-      "url": "https://roboticsandautomationnews.com/2026/10/23/canton-fair-at-70-service-robots-get-dedicated-zone-as-buyers-demand-real-world-performance/106263/",
+      "title": "Dream Labs raises $90 million seed funding to ‘build the brain for everyday robots’",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/dream-labs-raises-90-million-seed-funding-to-build-the-brain-for-everyday-robots/106290/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-23T16:21:30+00:00",
-      "first_seen": "2026-10-24T14:08:15.209777+00:00",
-      "score": 65,
-      "summary": "The 140th Canton Fair introduced a dedicated service robot zone, highlighting a shift in international buyer demand toward real-world reliability and sustained industrial performance over scripted demonstrations.",
-      "angle": "Highlights increasing market demand for proven operational reliability in industrial robotic systems over mere technical capability.",
+      "published_at": "2026-10-26T05:59:06+00:00",
+      "first_seen": "2026-10-26T07:49:14.977555+00:00",
+      "score": 75,
+      "summary": "Dream Labs raised $90 million to develop an AI model that translates visual inputs and natural language into motor commands for diverse robotic hardware.",
+      "angle": "Advancements in universal robot 'brains' could accelerate autonomous inspection capabilities and reduce custom programming requirements for industrial robotics.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -843,14 +871,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 47,
-    "llm_requests_succeeded": 41,
+    "providers_succeeded": 89,
+    "queued_candidates": 124,
+    "llm_requests_attempted": 71,
+    "llm_requests_succeeded": 71,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 22,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 1
   }
 }
