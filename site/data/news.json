@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T07:49:14.471445+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on the ten sector updates relevant to our market, as there are no specific developments from our portfolio companies to report.",
+  "generated_at": "2026-10-27T15:08:14.247399+00:00",
+  "digest_intro": "",
   "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-27T07:49:14.471445+00:00",
   "companies": [
@@ -291,6 +291,20 @@
   ],
   "sector_stories": [
     {
+      "id": "ca843bb92a06b3a9",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Amazon and FedEx top the polls again on customer service satisfaction",
+      "url": "https://postandparcel.info/163181/news/e-commerce/amazon-and-fedex-top-the-polls-again-on-customer-service-satisfaction/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-27T10:14:00+00:00",
+      "first_seen": "2026-10-27T15:08:14.247399+00:00",
+      "score": 85,
+      "summary": "Ofcom reports a decline in parcel delivery customer satisfaction to 75% and warns operators that further regulation may be introduced if service standards do not improve.",
+      "angle": "Regulatory pressure on complaints handling and delivery performance directly impacts operational compliance and service expectations across the sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d514914a377e349b",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -333,20 +347,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bfc834d2f7d0ae8b",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Chronopost Launches on ChatGPT",
-      "url": "https://postandparcel.info/163129/news/e-commerce/chronopost-launches-on-chatgpt/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-20T08:59:36+00:00",
-      "first_seen": "2026-10-25T07:49:22.016555+00:00",
-      "score": 75,
-      "summary": "Chronopost has integrated a ChatGPT module allowing customers to track parcels, locate drop-off points, obtain price estimates, and simplify waybill creation through text queries.",
-      "angle": "Demonstrates the integration of generative AI agents into customer service and logistics workflows to enhance user experience.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "d402fbbfa9752b9d",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -358,6 +358,20 @@
       "score": 90,
       "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn’s Law, mandates that public venues and event organisers implement formal security and evacuation procedures to mitigate terrorism risks.",
       "angle": "New statutory duties for public venues increase demand for professional security planning, training, and integrated site safety solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b085817c4fd1bc54",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Amthal launches AURA on-demand security response service",
+      "url": "https://securityjournaluk.com/amthal-aura-on-demand-security-response/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-27T10:18:17+00:00",
+      "first_seen": "2026-10-27T15:08:14.247399+00:00",
+      "score": 85,
+      "summary": "Amthal Group has partnered with AURA to provide an on-demand, app-integrated physical security response service for commercial, retail, and vacant property sites.",
+      "angle": "Highlights industry trends toward digital integration of alarm monitoring with on-demand, nationwide physical security response networks.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -386,20 +400,6 @@
       "score": 85,
       "summary": "Antare is deploying AI-powered video analytics to automate the review of security footage, aiming to reduce operational bottlenecks and improve incident response times for security teams.",
       "angle": "Highlights the industry shift from passive recording to AI-driven, active security intelligence and automated operational oversight.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "49c1aea5e9ab0886",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Agentic AI is changing the role of security leaders",
-      "url": "https://securityjournaluk.com/agentic-ai-is-changing-the-role-of-security-leaders/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-23T06:30:00+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "The rise of agentic AI in security systems necessitates robust governance frameworks to manage autonomous decision-making and mitigate risks associated with physical security actions like locking doors or dispatching personnel.",
-      "angle": "Highlights critical governance and liability challenges for providers integrating autonomous AI into physical site security and monitoring services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -899,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 87,
+    "queued_candidates": 140,
+    "llm_requests_attempted": 21,
+    "llm_requests_succeeded": 18,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 8,
     "carried_forward": 1
   }
 }
