@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T15:08:18.190635+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-10-27T07:49:14.471445+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on the ten sector updates relevant to our market, as there are no specific developments from our portfolio companies to report.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-26T07:49:14.977555+00:00",
+  "last_digest_sent_at": "2026-10-27T07:49:14.471445+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -182,7 +182,7 @@
       "website": "https://www.fertilityassociates.co.nz/",
       "newsroom_url": "https://www.fertilityassociates.co.nz/news",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Fertility+Associates+New+Zealand%22+OR+%22Sunfert%22+OR+%22IVFkasih%22&tbm=nws",
@@ -201,7 +201,7 @@
       "website": "https://roof-maker.co.uk/",
       "newsroom_url": "https://roof-maker.co.uk/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Roof-Maker+rooflights%22+OR+%22Roofmaker+rooflights%22&tbm=nws",
@@ -361,6 +361,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c0a7d2b6f9f07e59",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "AI flags it… then what?",
+      "url": "https://securityjournaluk.com/ai-flags-it-then-what/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-27T07:30:00+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "The security industry is shifting from a focus on visibility to managing alert fatigue, as AI-driven data abundance creates a critical need for improved operational decision-making and response structures.",
+      "angle": "Highlights the growing operational necessity for effective incident response management over mere technological detection capabilities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "94593cc4fcef4262",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -386,20 +400,6 @@
       "score": 85,
       "summary": "The rise of agentic AI in security systems necessitates robust governance frameworks to manage autonomous decision-making and mitigate risks associated with physical security actions like locking doors or dispatching personnel.",
       "angle": "Highlights critical governance and liability challenges for providers integrating autonomous AI into physical site security and monitoring services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3d3eab1639eaf1b6",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "VPS unveils research paper on pricing metal theft",
-      "url": "https://securityjournaluk.com/vps-white-paper-metal-copper-theft-pricing/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-22T08:38:00+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
-      "score": 85,
-      "summary": "VPS has published a white paper highlighting that the business disruption costs of metal theft significantly outweigh the scrap value of the stolen materials.",
-      "angle": "Highlights shifting criminal tactics and the need for risk-based security strategies for critical infrastructure and vacant sites.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -641,6 +641,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5824aaab20a20c09",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Halloween spending rise expected but shoplifting forecasted to exceed 2025 levels",
+      "url": "https://www.talkingretail.com/featured/halloween-spending-rise-expected-but-shoplifting-forecasted-to-exceed-2025-levels-26-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-26T12:17:00+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "UK retail shoplifting is forecast to rise 150% this Halloween, with partial payment and grab-and-go theft identified as primary risks for stores during the peak trading period.",
+      "angle": "Highlights critical operational risks to margins and store security during high-footfall seasonal trading events.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "be44d8e14dac5a90",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -652,20 +666,6 @@
       "score": 85,
       "summary": "The government has accepted Small Business Taskforce recommendations to reduce administrative burdens, including digitising licensing applications and simplifying business rates information requests for small retailers.",
       "angle": "Reduces operational overhead and administrative costs for independent high street retailers through streamlined government reporting and licensing processes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e4b749c32cd0e8e6",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "DRS scheme has broad public support",
-      "url": "https://www.talkingretail.com/news/industry-news/drs-scheme-has-broad-public-support-23-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-23T10:50:30+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "A YouGov poll indicates 71% of shoppers support the upcoming Deposit Return Scheme, though 61% were previously unaware of the initiative launching in October 2027.",
-      "angle": "Regulatory changes regarding container returns will impact retail operations, store footfall, and consumer expectations for convenience.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -725,31 +725,73 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "06b29f66217506ff",
+      "id": "f4d9a73d9dc90884",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Fertility preservation in elite sports needs further consideration",
-      "url": "https://www.progress.org.uk/fertility-preservation-in-elite-sports-needs-further-consideration/",
+      "title": "Picking the 'best' embryo: Can we trust AI?",
+      "url": "https://www.progress.org.uk/picking-the-best-embryo-can-we-trust-ai/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-19T16:59:34+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 65,
-      "summary": "Elite sports federations are increasingly offering egg freezing to athletes, though experts highlight concerns regarding training compatibility, long-term funding, and potential pressure to delay motherhood.",
-      "angle": "Highlights an emerging niche market for fertility preservation services and associated ethical and policy considerations for clinics.",
+      "published_at": "2026-10-26T17:19:11+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 90,
+      "summary": "AI systems for embryo selection are increasingly deployed in clinical settings, offering faster processing times and comparable pregnancy outcomes to traditional manual grading by embryologists.",
+      "angle": "Adoption of AI in IVF clinics impacts operational efficiency, clinical workflows, and raises significant ethical and regulatory considerations.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f81c4e2cc87a692b",
+      "id": "c6c3e435bf66a1eb",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Population studies are key to safe newborn genome screening",
-      "url": "https://www.progress.org.uk/population-studies-are-key-to-safe-newborn-genome-screening/",
+      "title": "A quiet morning inside the black box: A chance at life",
+      "url": "https://www.progress.org.uk/a-quiet-morning-inside-the-black-box-a-chance-at-life/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-19T16:44:59+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 65,
-      "summary": "Large-scale population studies are essential to address risks of overdiagnosis and incomplete penetrance when implementing whole genome sequencing for newborn screening programmes.",
-      "angle": "Advances in genomic screening and variant interpretation directly impact the future of pre-implantation genetic testing and reproductive counselling.",
+      "published_at": "2026-10-26T17:20:10+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "Artificial intelligence tools like ERICA are increasingly used to assist embryologists in embryo selection, offering potential efficiency gains while raising ethical concerns regarding accountability and algorithmic bias.",
+      "angle": "AI integration in IVF labs presents operational efficiency opportunities alongside significant clinical, ethical, and patient trust challenges.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "8044e8b4b4a01750",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Designing disappointment: The uneasy promise of PGT-P",
+      "url": "https://www.progress.org.uk/designing-disappointment-the-uneasy-promise-of-pgt-p/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-10-26T17:19:40+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "The article discusses the rise of preimplantation genetic testing for polygenic disorders (PGT-P), highlighting concerns regarding its clinical accuracy, ethical implications, and growing consumer demand.",
+      "angle": "Highlights regulatory and ethical challenges surrounding emerging AI-driven genetic screening technologies in global fertility markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b62f698c850e0dcd",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Children born after ICSI or frozen embryo transfer may have slightly higher risk of childhood cancers",
+      "url": "https://www.progress.org.uk/children-born-after-icsi-or-frozen-embryo-transfer-may-have-slightly-higher-risk-of-childhood-cancers/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-10-26T16:54:13+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "A large-scale Danish study indicates a relative increase in childhood cancer rates for children conceived via ICSI or frozen embryo transfer, though absolute risk remains very low.",
+      "angle": "Clinical safety data regarding long-term health outcomes of assisted reproductive technologies impacts patient counselling and informed consent protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "23eabb14008c6de6",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "CPA downgrades output growth forecast for 2027",
+      "url": "https://www.constructionnews.co.uk/sections/data/cpa-downgrades-output-growth-forecast-for-2027-26-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-26T11:53:06+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 90,
+      "summary": "The Construction Products Association has downgraded its 2027 output growth forecast due to persistent inflation, high energy prices, and elevated interest rates impacting private housing and repair sectors.",
+      "angle": "Highlights significant headwinds for residential repair, maintenance, and improvement demand, which are critical drivers for rooflight sales.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -781,17 +823,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7691cd4736e19c22",
+      "id": "f3992328a28e9d91",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "BESA chief challenges construction to raise competence standards",
-      "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
+      "title": "London housing blocks evacuated over ‘serious structural problems’",
+      "url": "https://www.constructionnews.co.uk/buildings/london-housing-blocks-evacuated-over-serious-structural-problems-26-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-10-23T11:45:01+00:00",
-      "first_seen": "2026-10-25T07:49:22.016555+00:00",
+      "published_at": "2026-10-26T12:57:47+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
       "score": 65,
-      "summary": "BESA's chief executive has urged the construction industry to adopt higher competence and compliance standards, highlighting the importance of the Competence Assessment Standard for supply chain accountability.",
-      "angle": "Increasing industry focus on rigorous competence auditing and Building Safety Act compliance impacts supply chain procurement requirements.",
+      "summary": "Residents were evacuated from three London housing blocks completed in 2017 due to serious structural issues involving cracked transfer slabs identified during safety inspections.",
+      "angle": "Highlights heightened scrutiny of building safety and structural integrity in UK residential developments, impacting construction product compliance requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6795a1574612f73a",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Comau integrates Nvidia technology to accelerate development of AI-powered robots",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/comau-integrates-nvidia-technology-to-accelerate-development-of-ai-powered-robots/106373/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-26T23:06:30+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "Comau is integrating Nvidia’s Jetson edge computing and Isaac Sim simulation platform to accelerate the development and validation of autonomous, AI-driven industrial robotic systems.",
+      "angle": "Highlights industry-wide shift toward using high-fidelity simulation and edge computing to accelerate deployment of autonomous robotic inspection systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c96893f090e08b7c",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Qualcomm to acquire PickNik to expand open-source robotics and physical AI capabilities",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/qualcomm-to-acquire-picknik-to-expand-open-source-robotics-and-physical-ai-capabilities/106361/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-26T22:03:54+00:00",
+      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "score": 85,
+      "summary": "Qualcomm has agreed to acquire robotics software firm PickNik, the steward of the open-source MoveIt framework, to enhance its physical AI and robotics development capabilities.",
+      "angle": "Consolidation of key robotics software stacks by major chipmakers impacts development roadmaps for autonomous inspection hardware.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -821,34 +891,6 @@
       "summary": "Robotics firms face significant legal and security risks when employees input proprietary algorithms or confidential client data into public AI tools that train on user prompts.",
       "angle": "Critical infrastructure providers must enforce strict AI data governance to avoid NDA breaches and regulatory non-compliance.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "258bd8fe746dd0e3",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "New ASTM standard aims to test how robots perform in the real world",
-      "url": "https://roboticsandautomationnews.com/2026/10/19/new-astm-standard-aims-to-test-how-robots-perform-in-the-real-world/106063/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-19T19:34:46+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 85,
-      "summary": "ASTM International is developing a new standard to measure how optical-signal degradation affects the task performance of mobile manipulators in real-world conditions.",
-      "angle": "Standardised testing for sensor reliability under environmental stressors is critical for safety-critical rail and aviation inspection robotics.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dd55a23eedd2a20c",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Dream Labs raises $90 million seed funding to ‘build the brain for everyday robots’",
-      "url": "https://roboticsandautomationnews.com/2026/10/26/dream-labs-raises-90-million-seed-funding-to-build-the-brain-for-everyday-robots/106290/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-26T05:59:06+00:00",
-      "first_seen": "2026-10-26T07:49:14.977555+00:00",
-      "score": 75,
-      "summary": "Dream Labs raised $90 million to develop an AI model that translates visual inputs and natural language into motor commands for diverse robotic hardware.",
-      "angle": "Advancements in universal robot 'brains' could accelerate autonomous inspection capabilities and reduce custom programming requirements for industrial robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -857,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 54,
-    "llm_requests_succeeded": 50,
+    "providers_succeeded": 91,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 24,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 7,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 1
   }
 }
