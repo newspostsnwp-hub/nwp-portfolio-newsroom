@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T07:49:16.304741+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from the portfolio companies.",
+  "generated_at": "2026-10-28T15:08:17.629085+00:00",
+  "digest_intro": "",
   "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-28T07:49:16.304741+00:00",
   "companies": [
@@ -899,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
+    "providers_succeeded": 87,
+    "queued_candidates": 142,
+    "llm_requests_attempted": 21,
+    "llm_requests_succeeded": 0,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 28,
+    "dropped_thin_page": 14,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 11,
+    "skipped_recently_evaluated": 9,
     "carried_forward": 1
   }
 }
