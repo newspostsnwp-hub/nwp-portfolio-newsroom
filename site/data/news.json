@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T15:08:14.247399+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-10-28T07:49:16.304741+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no specific news to report from the portfolio companies.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-27T07:49:14.471445+00:00",
+  "last_digest_sent_at": "2026-10-28T07:49:16.304741+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -431,6 +431,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "034c469864924d8a",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Nexeon secures £52.6m from UK National Wealth Fund",
+      "url": "https://www.electrive.com/2026/10/27/nexeon-secures-52-6m-from-uk-national-wealth-fund/",
+      "source": "electrive.com",
+      "published_at": "2026-10-27T16:30:00+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
+      "score": 65,
+      "summary": "Nexeon has secured £52.6 million from the UK National Wealth Fund to develop a pilot manufacturing facility for silicon-based anode materials in the UK.",
+      "angle": "Advancements in silicon-anode battery technology could improve energy density and range for future lightweight micromobility applications.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "36addaecbb5e6497",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -442,20 +456,6 @@
       "score": 65,
       "summary": "EU parliamentary committees have voted to relax 2035 CO2 reduction targets for new cars, potentially allowing continued sales of combustion engine and hybrid vehicles.",
       "angle": "Regulatory shifts impacting the transition to electric vehicles influence the broader market environment for micromobility and e-bike adoption.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6448509bee305c62",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "London considers mandating BEVs for new ride-hailing licences",
-      "url": "https://www.electrive.com/2026/10/22/london-considers-mandating-bevs-for-new-ride-hailing-licences/",
-      "source": "electrive.com",
-      "published_at": "2026-10-22T14:30:00+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 65,
-      "summary": "Transport for London is consulting on a proposal to mandate that all newly licensed private hire vehicles must be fully battery-electric by 2028.",
-      "angle": "Signals accelerating urban policy shifts towards zero-emission transport, reinforcing the broader market transition away from combustion-engine vehicles.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -543,17 +543,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5e7f65ff56f8d9d6",
+      "id": "2346b2ae158cd5f7",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "PackUK considers further PFAS testing options as ‘industry questions RAM 2027 proposals’",
-      "url": "https://www.packagingnews.co.uk/news/retailers/retailers-brands/packuk-considers-further-pfas-testing-options-as-industry-questions-ram-2027-proposals-23-10-2026",
+      "title": "Compliance schemes reiterate the role of PRNs with new campaign",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/recycling-waste-management/compliance-schemes-reiterate-the-role-of-prns-with-new-campaign-27-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-23T10:27:07+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
+      "published_at": "2026-10-27T10:45:09+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
       "score": 85,
-      "summary": "Industry bodies are challenging proposed RAM 2027 PFAS concentration thresholds, arguing they could unfairly penalise recyclable packaging and discourage the use of recycled materials.",
-      "angle": "Regulatory changes to recyclability assessments and PFAS thresholds directly impact material compliance and packaging design strategies.",
+      "summary": "The Packaging Scheme Forum has launched a campaign to defend the UK's Packaging Recycling Note (PRN) system against calls from manufacturers to abolish it ahead of the Budget.",
+      "angle": "Potential regulatory shifts in the PRN system directly impact compliance costs and recycling economics for PET packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -585,6 +585,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "f2cebd230a1700e3",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Cognizant eyes stake in Sarvam AI as sovereign AI startup seeks $300 Million at $3.5–4 billion valuation - Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVpYRDBnMVNnUnRqT203SUFMNzQ4U0FfTld3QjJVN1BhNm40bFdrMVJKdm5TMU9yUFY5N25QX2FCSE5paU9hU2UzbU44TUx4cHV2bmFlWU1JY0h2QzBmdDk5bXczV2RhT3czMXgwbWM3Uy14NXNZdzJjQkd3VTFXeXJwWlAxYjlsdUdUUzRaaW5CTTJzYnl0ZVUyWVIwTFg4cWNqWGs5c2U4dEc4TW4wRmxreGVxTHdsYTlMZEYxczB5YmdabGVBUlBPbHlRamZTd1haRmdEcUQ?oc=5",
+      "source": "Business Upturn",
+      "published_at": "2026-10-28T06:56:17+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
+      "score": 85,
+      "summary": "Cognizant is reportedly considering an investment in Indian sovereign AI startup Sarvam AI, which is seeking $300 million at a valuation of up to $4 billion.",
+      "angle": "Highlights significant capital inflow and high valuations for sovereign AI startups, indicating strong global market momentum.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "06e957e19cd5d60b",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -599,18 +613,32 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "e2e21759e7a1d33f",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Britain allocates £100 million to new AI biosecurity laboratory",
-      "url": "https://thearabianpost.com/britain-allocates-100-million-to-new-ai-biosecurity-laboratory/",
-      "source": "thearabianpost.com",
-      "published_at": "2026-10-24T14:45:00+00:00",
-      "first_seen": "2026-10-25T15:08:11.753050+00:00",
-      "score": 85,
-      "summary": "The UK government has launched a £165 million National AI Biosecurity Initiative, including a new laboratory and £60 million for a Sovereign AI Fund to support domestic technology companies.",
-      "angle": "Highlights significant government investment in sovereign AI infrastructure and strategic focus on domestic technological capabilities and security.",
-      "discovered_via": "GDELT"
+      "id": "a151e875c9d67bd4",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "New rules could make employers liable for customer behaviour",
+      "url": "https://www.talkingretail.com/news/industry-news/new-rules-could-make-employers-liable-for-customer-behaviour-27-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-27T14:14:30+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
+      "score": 90,
+      "summary": "New Employment Rights Act 2025 rules effective 30 October 2026 make employers liable for third-party harassment of staff by customers unless all reasonable preventative steps are taken.",
+      "angle": "Retailers must update policies and risk assessments to protect staff from customer harassment to avoid employment tribunal claims.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6d222e10294118b3",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Chancellor set to increase minimum wage while pausing youth pay parity",
+      "url": "https://www.talkingretail.com/featured/chancellor-set-to-increase-minimum-wage-while-pausing-youth-pay-parity-27-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-27T11:27:54+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
+      "score": 90,
+      "summary": "The Chancellor is expected to increase the National Living Wage by 3.9% to £13.20 per hour while pausing plans for youth pay parity.",
+      "angle": "Rising labour costs directly impact operational expenditure and recruitment strategies for independent retail chains.",
+      "discovered_via": "Sector RSS"
     },
     {
       "id": "1a7f7999693da1b9",
@@ -627,45 +655,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "cc664a6770d77c38",
+      "id": "1c547d7958dbe303",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Retail union welcomes introduction of Respect Orders to help tackle retail crime",
-      "url": "https://www.talkingretail.com/featured/retail-union-welcomes-introduction-of-respect-orders-to-help-tackle-retail-crime-26-10-2026/",
+      "title": "Demand for stolen goods driving shop theft, criminologist warns",
+      "url": "https://www.talkingretail.com/news/industry-news/demand-for-stolen-goods-driving-shop-theft-criminologist-warns-27-10-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-10-26T12:43:24+00:00",
-      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "published_at": "2026-10-27T11:38:23+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
       "score": 85,
-      "summary": "The Crime and Policing Act 2026 has introduced Respect Orders, a new civil behavioural order designed to combat anti-social behaviour and retail crime.",
-      "angle": "New legal powers provide retailers with additional mechanisms to address persistent shoplifting and protect frontline staff from abuse.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5824aaab20a20c09",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Halloween spending rise expected but shoplifting forecasted to exceed 2025 levels",
-      "url": "https://www.talkingretail.com/featured/halloween-spending-rise-expected-but-shoplifting-forecasted-to-exceed-2025-levels-26-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-26T12:17:00+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
-      "score": 85,
-      "summary": "UK retail shoplifting is forecast to rise 150% this Halloween, with partial payment and grab-and-go theft identified as primary risks for stores during the peak trading period.",
-      "angle": "Highlights critical operational risks to margins and store security during high-footfall seasonal trading events.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "be44d8e14dac5a90",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Local shops welcome government red tape pledge",
-      "url": "https://www.talkingretail.com/news/industry-news/local-shops-welcome-government-red-tape-pledge-23-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-23T12:38:20+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 85,
-      "summary": "The government has accepted Small Business Taskforce recommendations to reduce administrative burdens, including digitising licensing applications and simplifying business rates information requests for small retailers.",
-      "angle": "Reduces operational overhead and administrative costs for independent high street retailers through streamlined government reporting and licensing processes.",
+      "summary": "Criminologist Professor Emmeline Taylor warns that shop theft is increasingly driven by organised 'stolen to order' networks, with many retailers failing to report incidents to police.",
+      "angle": "Highlights systemic retail security challenges and the prevalence of unrecorded crime affecting independent high street operators.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -823,17 +823,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f3992328a28e9d91",
+      "id": "e846ad45dfcf5146",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "London housing blocks evacuated over ‘serious structural problems’",
-      "url": "https://www.constructionnews.co.uk/buildings/london-housing-blocks-evacuated-over-serious-structural-problems-26-10-2026/",
+      "title": "UK construction activity September 2026: Hotel & leisure",
+      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-hotel-leisure-27-10-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-10-26T12:57:47+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "published_at": "2026-10-27T15:12:59+00:00",
+      "first_seen": "2026-10-28T07:49:16.304741+00:00",
       "score": 65,
-      "summary": "Residents were evacuated from three London housing blocks completed in 2017 due to serious structural issues involving cracked transfer slabs identified during safety inspections.",
-      "angle": "Highlights heightened scrutiny of building safety and structural integrity in UK residential developments, impacting construction product compliance requirements.",
+      "summary": "UK hotel and leisure construction activity saw a 51 per cent decrease in project starts and a 39 per cent decline in contract awards year-on-year in September 2026.",
+      "angle": "Indicates a significant contraction in demand for glazing and rooflight products within the commercial hospitality construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -899,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 140,
-    "llm_requests_attempted": 21,
-    "llm_requests_succeeded": 18,
+    "providers_succeeded": 86,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 16,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 8,
+    "dropped_thin_page": 28,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 11,
     "carried_forward": 1
   }
 }
