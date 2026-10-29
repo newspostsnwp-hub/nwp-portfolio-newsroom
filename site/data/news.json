@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T15:08:17.629085+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-10-29T07:48:30.693540+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from McGraw Hill, Swytch, or The Delivery Group.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-28T07:49:16.304741+00:00",
+  "last_digest_sent_at": "2026-10-29T07:48:30.693540+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -291,6 +291,20 @@
   ],
   "sector_stories": [
     {
+      "id": "aed35b88ed664f29",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "DPD: We are planning for a record Black Friday",
+      "url": "https://postandparcel.info/163187/news/e-commerce/dpd-we-are-planning-for-a-record-black-friday/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-28T14:21:41+00:00",
+      "first_seen": "2026-10-29T07:48:30.693540+00:00",
+      "score": 85,
+      "summary": "DPD has opened a new 63,000 sq ft automated distribution centre in Darlington, part of a wider strategy to build seven new facilities to increase national parcel capacity.",
+      "angle": "Highlights major competitor infrastructure investment and capacity expansion strategies ahead of the critical peak e-commerce trading period.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "ca843bb92a06b3a9",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -330,20 +344,6 @@
       "score": 85,
       "summary": "ONS data shows that 59.8% of transport and storage businesses are now 'very concerned' about rising fuel prices, up from 43% in August.",
       "angle": "Rising fuel costs increase operational pressure and necessitate potential adjustments to delivery pricing and surcharges across the sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cb6a9a345afc9072",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Royal Mail Responds to “Misleading Statements” by CWU Leadership",
-      "url": "https://postandparcel.info/163121/news/e-commerce/royal-mail-responds-to-misleading-statements-by-cwu-leadership/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-19T03:21:13+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 85,
-      "summary": "Royal Mail reports improved service quality and is hiring 22,000 seasonal workers while addressing ongoing industrial relations tensions with the Communication Workers Union ahead of the peak season.",
-      "angle": "Provides critical insight into competitor operational capacity, service performance trends, and potential labour market shifts in UK delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -431,6 +431,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6138aa4512fc5e39",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Infineon to invest €1.1 billion in Villach",
+      "url": "https://www.electrive.com/2026/10/28/infineon-to-invest-e1-1-billion-in-villach/",
+      "source": "electrive.com",
+      "published_at": "2026-10-28T12:33:03+00:00",
+      "first_seen": "2026-10-29T07:48:30.693540+00:00",
+      "score": 65,
+      "summary": "Infineon is investing €1.1 billion in its Austrian facility to launch high-volume production of gallium nitride (GaN) power semiconductors on 300-mm wafers by 2027.",
+      "angle": "GaN semiconductors offer higher efficiency and smaller form factors, potentially enabling more compact and powerful e-bike motor controllers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "034c469864924d8a",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -442,20 +456,6 @@
       "score": 65,
       "summary": "Nexeon has secured £52.6 million from the UK National Wealth Fund to develop a pilot manufacturing facility for silicon-based anode materials in the UK.",
       "angle": "Advancements in silicon-anode battery technology could improve energy density and range for future lightweight micromobility applications.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "36addaecbb5e6497",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EU Auto Package: Committee votes to relax CO₂ rules",
-      "url": "https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-co%e2%82%82-rules/",
-      "source": "electrive.com",
-      "published_at": "2026-10-23T09:30:00+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 65,
-      "summary": "EU parliamentary committees have voted to relax 2035 CO2 reduction targets for new cars, potentially allowing continued sales of combustion engine and hybrid vehicles.",
-      "angle": "Regulatory shifts impacting the transition to electric vehicles influence the broader market environment for micromobility and e-bike adoption.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -697,6 +697,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "52489da4c2a2cd79",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "The Growth of Gamification and Micro-Credentialing in the Education Technology (Edtech) Market, $13.8 Billion by 2030 - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWGFuSFk5dk5lSTRZU2F1ZUlMVWRFRFEtRk9CcU5tdHl6T3Vka3h5NmZJNFZIRUNxY0hGbEVyLWs1amxISjFVMFRFZlNJLVdManVLZEFrV1BLOVRfSnllYW5Ea2puaFJMR25IbG9LeFpZT3BFbzVGUmJRTkdYOHNsRWpTaHRIUXplYTZ5R2xYTk5RYlJ4M2Y5Nl9xYUFWYVB0TmlXX2RVOG85akhEYmE0aQ?oc=5",
+      "source": "The National Law Review",
+      "published_at": "2026-10-20T18:32:25+00:00",
+      "first_seen": "2026-10-29T07:48:30.693540+00:00",
+      "score": 85,
+      "summary": "The education technology market is projected to reach $13.8 billion by 2030, driven by the increasing integration of gamification and micro-credentialing.",
+      "angle": "Highlights key growth drivers and emerging pedagogical trends shaping the future of digital learning and assessment platforms.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "ba3c28cc964ff162",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -708,20 +722,6 @@
       "score": 85,
       "summary": "A survey of 2,000 registered voters indicates that education affordability is a primary concern, with 66 percent favouring candidates who prioritise lower costs for education and training.",
       "angle": "Highlights strong bipartisan voter demand for affordable education pathways, potentially driving future federal policy and funding shifts.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bc1e3b5bfb947db8",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Survey: 48% of Employers Say AI Will Make College Degrees More Important",
-      "url": "https://www.insidehighered.com/news/students/careers/2026/10/20/employers-say-ai-will-make-college-degrees-more-important",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-20T07:00:00+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 85,
-      "summary": "A Lumina Foundation and Gallup survey reveals that 48 percent of employers believe artificial intelligence will increase the importance of college degrees over the next five years.",
-      "angle": "Validates the long-term market demand for higher education credentials despite rising public skepticism regarding degree value.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -899,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 142,
-    "llm_requests_attempted": 21,
-    "llm_requests_succeeded": 0,
+    "providers_succeeded": 80,
+    "queued_candidates": 111,
+    "llm_requests_attempted": 53,
+    "llm_requests_succeeded": 53,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 14,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 29,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 1
   }
 }
