@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T07:48:44.021956+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related developments, with no specific updates regarding Clearway Group or Molinare.",
+  "generated_at": "2026-10-30T15:07:40.580448+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there are no specific developments to report from our portfolio companies.",
   "archive_story_count": 21,
   "last_digest_sent_at": "2026-10-30T07:48:44.021956+00:00",
   "companies": [
@@ -367,17 +367,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c624ae96e683fe8e",
+      "id": "4bd7caa9c89b0bf0",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Nearly six in 10 transport firms are ‘very concerned’ about fuel prices, more than any other sector",
-      "url": "https://postandparcel.info/163123/news/e-commerce/nearly-six-in-10-transport-firms-are-very-concerned-about-fuel-prices-more-than-any-other-sector/",
+      "title": "FedEx reports “solid third quarter results”",
+      "url": "https://postandparcel.info/163193/news/e-commerce/fedex-reports-solid-third-quarter-results/",
       "source": "postandparcel.info",
-      "published_at": "2026-10-20T13:27:34+00:00",
-      "first_seen": "2026-10-20T14:08:17.671779+00:00",
-      "score": 85,
-      "summary": "ONS data shows that 59.8% of transport and storage businesses are now 'very concerned' about rising fuel prices, up from 43% in August.",
-      "angle": "Rising fuel costs increase operational pressure and necessitate potential adjustments to delivery pricing and surcharges across the sector.",
+      "published_at": "2026-10-29T17:14:07+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
+      "score": 75,
+      "summary": "FedEx reported improved quarterly operating results driven by higher package yields and volumes, alongside structural cost reductions and a planned 5.9% average shipping rate increase for 2027.",
+      "angle": "Provides industry-wide benchmarks on pricing strategies, operational cost-saving initiatives, and volume trends in the global parcel market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -423,17 +423,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b595017d262335d1",
+      "id": "734bfcd45a8d92a2",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Research shows geopolitical conflict is reshaping business decisions",
-      "url": "https://securityjournaluk.com/geopolitics-is-reshaping-business-decisions/",
+      "title": "Dahua AI technology transforms shoplifting detection",
+      "url": "https://securityjournaluk.com/dahua-tech-transforms-shoplifting-detection/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-10-30T06:30:00+00:00",
-      "first_seen": "2026-10-30T07:48:44.021956+00:00",
-      "score": 65,
-      "summary": "The 2027 Risk Radar Report reveals that geopolitical conflict is increasingly impacting business continuity, employee safety, and operational resilience for organisations globally.",
-      "angle": "Highlights growing corporate demand for proactive security, site protection, and resilience services amid heightened global instability.",
+      "published_at": "2026-10-30T12:01:00+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
+      "score": 75,
+      "summary": "Space NK and Definitive Security Solutions have deployed Dahua AI-powered video analytics to proactively detect shoplifting behaviours and trigger real-time alerts for retail loss prevention.",
+      "angle": "Demonstrates the shift from passive CCTV recording to AI-driven, proactive behavioural analysis in UK retail security.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -591,17 +591,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "13ea602c2cab644d",
+      "id": "ca5a7cf6cccfadc0",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Budget 2026 | Packaging Federation calls for pEPR review",
-      "url": "https://www.packagingnews.co.uk/news/business/budget-taxes/budget-2026-packaging-federation-calls-for-pepr-review-29-10-2026",
+      "title": "Budget 2026 | Easyfairs discusses support, investment & tax",
+      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/budget-2026-easyfairs-discusses-support-investment-tax-30-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-29T11:55:59+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
+      "published_at": "2026-10-30T11:20:05+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
       "score": 85,
-      "summary": "The Packaging Federation has requested an urgent government review of packaging extended producer responsibility (pEPR) to reduce administrative burdens and improve industrial competitiveness.",
-      "angle": "Regulatory reform of pEPR and associated costs directly impacts operational overheads and investment strategies for UK packaging manufacturers.",
+      "summary": "The UK government announced a Plastic Packaging Tax increase to £236.56 per tonne and the introduction of mass balance accounting, both effective from April 2027.",
+      "angle": "Regulatory changes to plastic taxation and accounting standards directly impact operational costs and material strategy for PET manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -661,6 +661,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "009a3a59144e85b6",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Post Office welcomes announcement of new government investment",
+      "url": "https://www.talkingretail.com/featured/post-office-welcomes-announcement-of-new-government-investment-30-10-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-10-30T09:18:50+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
+      "score": 95,
+      "summary": "The UK government announced budget support for the Post Office, including funding for 600 branch modernisations, 1,000 new self-service drop boxes, and business rates relief for postmasters.",
+      "angle": "Direct impact on operational infrastructure, service capabilities, and financial overheads for independent Post Office retail operators.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a151e875c9d67bd4",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -700,20 +714,6 @@
       "score": 90,
       "summary": "Post Office personal cash deposit transactions rose 7% year-on-year to over 17 million, as consumers increasingly use cash to manage household budgets and prepare for winter costs.",
       "angle": "Highlights sustained demand for in-branch banking services and the role of cash in consumer budgeting strategies.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9ae28143d3ec4a80",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Poundland’s future hangs in the balance as it files for administration",
-      "url": "https://www.talkingretail.com/featured/poundlands-future-hangs-in-the-balance-as-it-files-for-administration-29-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-29T14:31:15+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 85,
-      "summary": "Poundland has filed a notice to appoint administrators, seeking a rescue deal to prevent the business from being broken up by its owners.",
-      "angle": "Significant disruption to a major high street competitor impacts market share and retail landscape dynamics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -843,6 +843,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "68e10b63a6c2e399",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "It’s arrived: what the Building Safety Levy means for contractors",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/its-arrived-what-the-building-safety-levy-means-for-contractors-30-10-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-10-30T11:56:12+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
+      "score": 85,
+      "summary": "The Building Safety Levy, effective from October, imposes new costs on residential developments in England, likely leading to increased pricing pressure and risk transfer for the construction supply chain.",
+      "angle": "Increased development costs and potential project cancellations may impact demand for glazing and rooflight products in residential construction.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0c47d607ada191ca",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -868,20 +882,6 @@
       "score": 85,
       "summary": "Chancellor John Healey has announced a 1 per cent reduction in departmental capital budgets over three years, raising concerns about potential cuts to construction project pipelines.",
       "angle": "Reduced government capital spending may dampen demand for construction products and glazing across public and private sector projects.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9b6189af6e51b0ab",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Budget 2026: Pipeline, or pipe dream?",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/budget-2026-pipeline-or-pipe-dream-29-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-29T13:45:09+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 75,
-      "summary": "The 2026 Budget pledges a £750bn infrastructure pipeline while committing to avoid major building regulation changes for the remainder of this Parliament.",
-      "angle": "Regulatory stability and infrastructure pipeline commitments provide essential long-term planning certainty for construction product manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -927,17 +927,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1efa276c84d054a3",
+      "id": "29f136a2bb4f8952",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "How AI Confidentiality Gaps Are Becoming a Liability for Robotics Firms",
-      "url": "https://roboticsandautomationnews.com/2026/10/20/how-ai-confidentiality-gaps-are-becoming-a-liability-for-robotics-firms/106118/",
+      "title": "AGIBOT introduces Worken to measure productive robot work at AGIBOT Innovation Day 2026",
+      "url": "https://roboticsandautomationnews.com/2026/10/29/agibot-introduces-worken-to-measure-productive-robot-work-at-agibot-innovation-day-2026/106452/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-20T11:47:15+00:00",
-      "first_seen": "2026-10-21T06:49:11.802115+00:00",
-      "score": 85,
-      "summary": "Robotics firms face significant legal and security risks when employees input proprietary algorithms or confidential client data into public AI tools that train on user prompts.",
-      "angle": "Critical infrastructure providers must enforce strict AI data governance to avoid NDA breaches and regulatory non-compliance.",
+      "published_at": "2026-10-29T16:49:17+00:00",
+      "first_seen": "2026-10-30T15:07:40.580448+00:00",
+      "score": 75,
+      "summary": "AGIBOT introduced the Worken framework to measure robot productivity based on active units, autonomous working hours, and output efficiency rather than just deployment numbers.",
+      "angle": "Standardising productivity metrics for autonomous robots is critical for proving ROI in industrial inspection and maintenance sectors.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -947,14 +947,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 91,
-    "queued_candidates": 150,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
+    "providers_succeeded": 89,
+    "queued_candidates": 144,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 30,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 10,
     "carried_forward": 2
   }
 }
