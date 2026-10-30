@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T15:07:31.912682+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one update on The Delivery Group regarding international untracked services, alongside one additional sector item.",
+  "generated_at": "2026-10-30T07:48:44.021956+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related developments, with no specific updates regarding Clearway Group or Molinare.",
   "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-29T07:48:30.693540+00:00",
+  "last_digest_sent_at": "2026-10-30T07:48:44.021956+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 2,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "2103a5f47f50dc70",
@@ -381,20 +381,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d402fbbfa9752b9d",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Crowd safety can no longer be an afterthought",
-      "url": "https://securityjournaluk.com/crowd-safety-no-longer-an-afterthought/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-20T06:30:00+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 90,
-      "summary": "The Terrorism (Protection of Premises) Act 2025, or Martyn’s Law, mandates that public venues and event organisers implement formal security and evacuation procedures to mitigate terrorism risks.",
-      "angle": "New statutory duties for public venues increase demand for professional security planning, training, and integrated site safety solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b085817c4fd1bc54",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -434,6 +420,20 @@
       "score": 85,
       "summary": "Antare is deploying AI-powered video analytics to automate the review of security footage, aiming to reduce operational bottlenecks and improve incident response times for security teams.",
       "angle": "Highlights the industry shift from passive recording to AI-driven, active security intelligence and automated operational oversight.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b595017d262335d1",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Research shows geopolitical conflict is reshaping business decisions",
+      "url": "https://securityjournaluk.com/geopolitics-is-reshaping-business-decisions/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-30T06:30:00+00:00",
+      "first_seen": "2026-10-30T07:48:44.021956+00:00",
+      "score": 65,
+      "summary": "The 2027 Risk Radar Report reveals that geopolitical conflict is increasingly impacting business continuity, employee safety, and operational resilience for organisations globally.",
+      "angle": "Highlights growing corporate demand for proactive security, site protection, and resilience services amid heightened global instability.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -507,20 +507,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "71daef5ca665a017",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "How Colorist Siggy Ferstl Gave Airbender More Depth in the Grade",
-      "url": "https://postperspective.com/how-colorist-siggy-ferstl-gave-airbender-more-depth-in-the-grade/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-19T20:52:31+00:00",
-      "first_seen": "2026-10-20T06:49:16.390116+00:00",
-      "score": 75,
-      "summary": "Colorist Siggy Ferstl is using AI-driven depth mapping tools in Blackmagic Resolve to perform complex VFX-style adjustments during the final color grading process.",
-      "angle": "Demonstrates the increasing convergence of traditional color grading and VFX workflows through advanced, real-time software automation.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "beb435806a4be9ca",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -546,6 +532,20 @@
       "score": 65,
       "summary": "Screen Arts Limited has launched Mediawork, a CRM and operations platform designed to integrate quoting, scheduling, cost tracking, and invoicing for post-production facilities.",
       "angle": "Highlights the industry trend of consolidating fragmented operational workflows into unified, AI-integrated management platforms to improve efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1e6d8d9affb6411d",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Nugen Updates VisLM Loudness Plug-In With QC Reports, Stem Monitoring",
+      "url": "https://postperspective.com/nugen-updates-vislm-loudness-plug-in-with-qc-reports-stem-monitoring/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-26T14:53:49+00:00",
+      "first_seen": "2026-10-30T07:48:44.021956+00:00",
+      "score": 65,
+      "summary": "Nugen Audio has released VisLM 3, an updated loudness metering plug-in featuring stem monitoring, automated QC reporting, and support for immersive audio workflows up to 9.1.6.",
+      "angle": "Provides technical updates for compliance and quality control workflows essential in high-end post-production and broadcast delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -947,14 +947,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 94,
-    "queued_candidates": 151,
-    "llm_requests_attempted": 99,
-    "llm_requests_succeeded": 97,
+    "providers_succeeded": 91,
+    "queued_candidates": 150,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 22,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
-    "carried_forward": 1
+    "dropped_thin_page": 25,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
+    "carried_forward": 2
   }
 }
