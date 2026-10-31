@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T07:49:05.442992+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, as there is no specific news to report from Molinare, Petainer, Swytch, or The Delivery Group.",
+  "generated_at": "2026-10-31T15:08:02.850459+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, with no specific news to report from Molinare, Petainer, Swytch, or The Delivery Group.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-10-31T07:49:05.442992+00:00",
   "companies": [
@@ -431,6 +431,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0bf5d37aaab9e0fe",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "LiveWire issues going-concern warning over business continuity risks",
+      "url": "https://www.electrive.com/2026/10/31/livewire-issues-going-concern-warning-over-business-continuity-risks/",
+      "source": "electrive.com",
+      "published_at": "2026-10-31T10:00:00+00:00",
+      "first_seen": "2026-10-31T15:08:02.850459+00:00",
+      "score": 65,
+      "summary": "Electric motorcycle manufacturer LiveWire has issued a going-concern warning due to recurring operating losses, negative cash flows, and limited liquidity.",
+      "angle": "Highlights the capital-intensive nature of electric two-wheeler manufacturing and the ongoing challenges in achieving profitability at scale.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1880eaa6b7510ad5",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -442,20 +456,6 @@
       "score": 65,
       "summary": "A German court is evaluating whether EU product safety regulations allow consumers to return electric vehicles if manufacturers fail to promptly resolve battery-related safety defects.",
       "angle": "Highlights increasing regulatory pressure on battery safety and potential consumer rights regarding product recalls in the electric mobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c4a2d05e3a924c9c",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "CATL advances solid-state battery development to 20 Ah samples",
-      "url": "https://www.electrive.com/2026/10/29/catl-advances-solid-state-battery-development-to-20-ah-samples/",
-      "source": "electrive.com",
-      "published_at": "2026-10-29T14:30:00+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 65,
-      "summary": "CATL has progressed to 20 Ah solid-state battery samples, targeting 500 Wh/kg energy density with pilot production planned for 2027 and large-scale manufacturing by 2030.",
-      "angle": "Advancements in energy density and safety for solid-state batteries could eventually transform lightweight, high-performance micromobility power solutions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -913,14 +913,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
+    "providers_succeeded": 83,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 29,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "dropped_thin_page": 30,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 1
   }
 }
