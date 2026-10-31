@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:07:40.580448+00:00",
+  "generated_at": "2026-10-31T07:49:05.442992+00:00",
   "stories": [
     {
       "id": "5430cad38a053fe9",
@@ -669,6 +669,40 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "2103a5f47f50dc70",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "Is AI making your managers stupid ?",
+      "url": "https://www.hcamag.com/us/news/general/is-ai-making-your-managers-stupid/591775",
+      "source": "hcamag.com",
+      "published_at": "2026-09-30T19:00:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-10-04T06:48:23.803125+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "McGraw Hill collaborated with researchers from the University of California, Irvine (UC Irvine) to analyze a decade of learning data from its online math platform, revealing insights into how AI integration affects student performance and critical thinking.",
+      "why_it_matters": "The research provides empirical evidence on the impact of AI in educational settings, highlighting the importance of using AI as a pedagogical tool rather than a shortcut to ensure long-term learning outcomes.",
+      "verified_facts": [
+        "McGraw Hill partnered with UC Irvine researchers to analyze a decade of data from its online math platform.",
+        "The study examined 3.2 million learning interactions starting in 2015.",
+        "Data showed that after the launch of ChatGPT in 2022, students spent less time on text-based problems but saw a decline in performance on proctored tests."
+      ],
+      "warnings": [
+        "The article discusses broader industry trends regarding AI and management, which are not specific to McGraw Hill's corporate operations.",
+        "The research findings are based on a preprint study; further peer review may be pending."
+      ],
+      "drafts": {
+        "concise": "New research conducted by McGraw Hill and the University of California, Irvine, offers a data-driven look at the impact of AI on student learning. By analyzing over 3.2 million interactions on McGraw Hill’s online math platform since 2015, the study highlights a critical shift in student engagement following the introduction of generative AI in 2022. The findings underscore the importance of using AI as a supportive tutor rather than a replacement for independent problem-solving. As the education sector navigates the integration of new technologies, such evidence-based insights are essential for developing effective learning strategies that preserve and enhance critical thinking skills. #EdTech #AI #McGrawHill",
+        "investor": "Data-led insights remain a core component of McGraw Hill’s value proposition in the evolving edtech landscape. A recent collaboration with researchers at the University of California, Irvine, utilized a decade of platform data—covering 3.2 million learning interactions—to evaluate the impact of AI on student outcomes. The study provides a nuanced view of how generative AI influences academic performance, reinforcing the necessity for platforms that encourage deep learning over simple automation. This commitment to rigorous research and evidence-based product development ensures that McGraw Hill remains at the forefront of delivering effective, high-quality educational solutions in an increasingly AI-integrated market. #Education #DataScience #Innovation",
+        "people": "At McGraw Hill, understanding how students interact with technology is vital to fostering long-term academic success. We are pleased to highlight a significant research collaboration between our team and the University of California, Irvine. By examining 3.2 million learning interactions from our online math platform, the study provides valuable evidence on how AI tools can be best utilized to support, rather than replace, the development of critical thinking. These insights are instrumental in shaping how we design learning experiences that empower students to master complex concepts. Thank you to the researchers and our internal teams for their dedication to evidence-based education. #Learning #Research #EdTech"
+      },
+      "status": "ready",
+      "discovered_via": "GDELT"
     }
   ]
 }

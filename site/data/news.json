@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T15:07:40.580448+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there are no specific developments to report from our portfolio companies.",
-  "archive_story_count": 21,
-  "last_digest_sent_at": "2026-10-30T07:48:44.021956+00:00",
+  "generated_at": "2026-10-31T07:49:05.442992+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, as there is no specific news to report from Molinare, Petainer, Swytch, or The Delivery Group.",
+  "archive_story_count": 22,
+  "last_digest_sent_at": "2026-10-31T07:49:05.442992+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 1,
+      "story_count": 0,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,43 +251,9 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 2,
+  "story_count": 1,
   "todays_story_count": 0,
   "stories": [
-    {
-      "id": "2103a5f47f50dc70",
-      "company": "McGraw Hill",
-      "company_domain": "mheducation.com",
-      "industry": "Education publishing and edtech",
-      "title": "Is AI making your managers stupid ?",
-      "url": "https://www.hcamag.com/us/news/general/is-ai-making-your-managers-stupid/591775",
-      "source": "hcamag.com",
-      "published_at": "2026-09-30T19:00:00+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-10-04T06:48:23.803125+00:00",
-      "score": 85,
-      "tier": "lead",
-      "recency": "fresh",
-      "story_type": "Update",
-      "summary": "McGraw Hill collaborated with researchers from the University of California, Irvine (UC Irvine) to analyze a decade of learning data from its online math platform, revealing insights into how AI integration affects student performance and critical thinking.",
-      "why_it_matters": "The research provides empirical evidence on the impact of AI in educational settings, highlighting the importance of using AI as a pedagogical tool rather than a shortcut to ensure long-term learning outcomes.",
-      "verified_facts": [
-        "McGraw Hill partnered with UC Irvine researchers to analyze a decade of data from its online math platform.",
-        "The study examined 3.2 million learning interactions starting in 2015.",
-        "Data showed that after the launch of ChatGPT in 2022, students spent less time on text-based problems but saw a decline in performance on proctored tests."
-      ],
-      "warnings": [
-        "The article discusses broader industry trends regarding AI and management, which are not specific to McGraw Hill's corporate operations.",
-        "The research findings are based on a preprint study; further peer review may be pending."
-      ],
-      "drafts": {
-        "concise": "New research conducted by McGraw Hill and the University of California, Irvine, offers a data-driven look at the impact of AI on student learning. By analyzing over 3.2 million interactions on McGraw Hill’s online math platform since 2015, the study highlights a critical shift in student engagement following the introduction of generative AI in 2022. The findings underscore the importance of using AI as a supportive tutor rather than a replacement for independent problem-solving. As the education sector navigates the integration of new technologies, such evidence-based insights are essential for developing effective learning strategies that preserve and enhance critical thinking skills. #EdTech #AI #McGrawHill",
-        "investor": "Data-led insights remain a core component of McGraw Hill’s value proposition in the evolving edtech landscape. A recent collaboration with researchers at the University of California, Irvine, utilized a decade of platform data—covering 3.2 million learning interactions—to evaluate the impact of AI on student outcomes. The study provides a nuanced view of how generative AI influences academic performance, reinforcing the necessity for platforms that encourage deep learning over simple automation. This commitment to rigorous research and evidence-based product development ensures that McGraw Hill remains at the forefront of delivering effective, high-quality educational solutions in an increasingly AI-integrated market. #Education #DataScience #Innovation",
-        "people": "At McGraw Hill, understanding how students interact with technology is vital to fostering long-term academic success. We are pleased to highlight a significant research collaboration between our team and the University of California, Irvine. By examining 3.2 million learning interactions from our online math platform, the study provides valuable evidence on how AI tools can be best utilized to support, rather than replace, the development of critical thinking. These insights are instrumental in shaping how we design learning experiences that empower students to master complex concepts. Thank you to the researchers and our internal teams for their dedication to evidence-based education. #Learning #Research #EdTech"
-      },
-      "status": "ready",
-      "discovered_via": "GDELT"
-    },
     {
       "id": "1861f1507e74fd1e",
       "company": "The Delivery Group",
@@ -324,6 +290,20 @@
     }
   ],
   "sector_stories": [
+    {
+      "id": "dee4bada8628d911",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Amazon Q3: Faster Deliveries Help Capture More Retail Market Share",
+      "url": "https://postandparcel.info/163210/news/e-commerce/amazon-q3-faster-deliveries-help-capture-more-retail-market-share/",
+      "source": "postandparcel.info",
+      "published_at": "2026-10-30T18:29:37+00:00",
+      "first_seen": "2026-10-31T07:49:05.442992+00:00",
+      "score": 85,
+      "summary": "Amazon reported record Q3 delivery speeds, with over 1.5 billion items delivered same-day or overnight, as the company continues to expand its global logistics and ultra-fast delivery infrastructure.",
+      "angle": "Highlights increasing consumer expectations for delivery speed and the competitive pressure of integrated logistics networks on independent providers.",
+      "discovered_via": "Sector RSS"
+    },
     {
       "id": "aed35b88ed664f29",
       "company": "The Delivery Group",
@@ -364,20 +344,6 @@
       "score": 85,
       "summary": "Evri has invested £32.2 million in infrastructure and technology this year, increasing its daily parcel capacity to 4.9 million ahead of the peak Christmas trading period.",
       "angle": "Highlights significant competitor investment in automation, capacity expansion, and AI-driven delivery verification within the UK parcel market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4bd7caa9c89b0bf0",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "FedEx reports “solid third quarter results”",
-      "url": "https://postandparcel.info/163193/news/e-commerce/fedex-reports-solid-third-quarter-results/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-29T17:14:07+00:00",
-      "first_seen": "2026-10-30T15:07:40.580448+00:00",
-      "score": 75,
-      "summary": "FedEx reported improved quarterly operating results driven by higher package yields and volumes, alongside structural cost reductions and a planned 5.9% average shipping rate increase for 2027.",
-      "angle": "Provides industry-wide benchmarks on pricing strategies, operational cost-saving initiatives, and volume trends in the global parcel market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -465,6 +431,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1880eaa6b7510ad5",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "OEMs may have to take back EVs with faulty batteries",
+      "url": "https://www.electrive.com/2026/10/30/oems-may-have-to-take-back-evs-with-faulty-batteries/",
+      "source": "electrive.com",
+      "published_at": "2026-10-30T16:00:00+00:00",
+      "first_seen": "2026-10-31T07:49:05.442992+00:00",
+      "score": 65,
+      "summary": "A German court is evaluating whether EU product safety regulations allow consumers to return electric vehicles if manufacturers fail to promptly resolve battery-related safety defects.",
+      "angle": "Highlights increasing regulatory pressure on battery safety and potential consumer rights regarding product recalls in the electric mobility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c4a2d05e3a924c9c",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -479,20 +459,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6138aa4512fc5e39",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Infineon to invest €1.1 billion in Villach",
-      "url": "https://www.electrive.com/2026/10/28/infineon-to-invest-e1-1-billion-in-villach/",
-      "source": "electrive.com",
-      "published_at": "2026-10-28T12:33:03+00:00",
-      "first_seen": "2026-10-29T07:48:30.693540+00:00",
-      "score": 65,
-      "summary": "Infineon is investing €1.1 billion in its Austrian facility to launch high-volume production of gallium nitride (GaN) power semiconductors on 300-mm wafers by 2027.",
-      "angle": "GaN semiconductors offer higher efficiency and smaller form factors, potentially enabling more compact and powerful e-bike motor controllers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "5119d2a84a977ae9",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -504,6 +470,20 @@
       "score": 75,
       "summary": "Editor Daniel Garber discusses the technical challenges of integrating 14 different camera formats, including vintage broadcast equipment, into a single narrative feature film workflow.",
       "angle": "Highlights the increasing complexity of managing mixed-format post-production pipelines and the creative role of editorial in visual storytelling.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "631a5f520e68dc1e",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "macOS Support and Education Licensing Coming to Foundry’s Nuke Stage",
+      "url": "https://postperspective.com/macos-support-and-education-licensing-coming-to-foundrys-nuke-stage/",
+      "source": "postperspective.com",
+      "published_at": "2026-10-30T16:48:33+00:00",
+      "first_seen": "2026-10-31T07:49:05.442992+00:00",
+      "score": 65,
+      "summary": "Foundry announced that its Nuke Stage virtual production solution will support macOS by 2027, alongside new DMX lighting control and output mapping features.",
+      "angle": "Increased accessibility of virtual production tools on macOS platforms may lower technical barriers for smaller-scale ICVFX workflows.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -535,20 +515,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1e6d8d9affb6411d",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Nugen Updates VisLM Loudness Plug-In With QC Reports, Stem Monitoring",
-      "url": "https://postperspective.com/nugen-updates-vislm-loudness-plug-in-with-qc-reports-stem-monitoring/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-26T14:53:49+00:00",
-      "first_seen": "2026-10-30T07:48:44.021956+00:00",
-      "score": 65,
-      "summary": "Nugen Audio has released VisLM 3, an updated loudness metering plug-in featuring stem monitoring, automated QC reporting, and support for immersive audio workflows up to 9.1.6.",
-      "angle": "Provides technical updates for compliance and quality control workflows essential in high-end post-production and broadcast delivery.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "4c4d07550b8fa096",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -577,6 +543,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "e7f615820ab258ad",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Government publishes Plastic Packaging Tax market impact analysis",
+      "url": "https://www.packagingnews.co.uk/news/plastics-news/government-publishes-plastic-packaging-tax-market-impact-analysis-30-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-30T15:34:59+00:00",
+      "first_seen": "2026-10-31T07:49:05.442992+00:00",
+      "score": 90,
+      "summary": "A government evaluation of the Plastic Packaging Tax found it has driven some packaging redesigns and increased recycled content, though widespread behavioural change remains limited across the industry.",
+      "angle": "Regulatory pressure on recycled content and plastic usage directly impacts manufacturing costs and material sourcing strategies for packaging firms.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2fdf1ac667056cea",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -588,20 +568,6 @@
       "score": 90,
       "summary": "PackUK and the UK Packaging PRO have launched a review process for the Recyclability Assessment Methodology, which will determine packaging fee structures under the pEPR regime from 2028.",
       "angle": "Directly impacts future regulatory costs and recyclability classifications for PET and beverage packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ca5a7cf6cccfadc0",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Budget 2026 | Easyfairs discusses support, investment & tax",
-      "url": "https://www.packagingnews.co.uk/news/events/london-packaging-week-2026/budget-2026-easyfairs-discusses-support-investment-tax-30-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-30T11:20:05+00:00",
-      "first_seen": "2026-10-30T15:07:40.580448+00:00",
-      "score": 85,
-      "summary": "The UK government announced a Plastic Packaging Tax increase to £236.56 per tonne and the introduction of mass balance accounting, both effective from April 2027.",
-      "angle": "Regulatory changes to plastic taxation and accounting standards directly impact operational costs and material strategy for PET manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -944,17 +910,17 @@
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 2,
+    "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 89,
-    "queued_candidates": 144,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
+    "queued_candidates": 138,
+    "llm_requests_attempted": 79,
+    "llm_requests_succeeded": 79,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 30,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 10,
-    "carried_forward": 2
+    "dropped_thin_page": 29,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 6,
+    "carried_forward": 1
   }
 }
