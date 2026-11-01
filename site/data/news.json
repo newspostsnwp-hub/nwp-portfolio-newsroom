@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T15:08:02.850459+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, with no specific news to report from Molinare, Petainer, Swytch, or The Delivery Group.",
+  "generated_at": "2026-11-01T07:49:00.972903+00:00",
+  "digest_intro": "Good morning. We have one sector update to share with you today, though there are no specific developments regarding Petainer to report.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-10-31T07:49:05.442992+00:00",
+  "last_digest_sent_at": "2026-11-01T07:49:00.972903+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -163,7 +163,7 @@
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&tbm=nws",
@@ -529,20 +529,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "145663ff763a467b",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Recycled Plastics Market to Reach $117 . 9 Billion by 2031 at 9 % CAGR",
-      "url": "https://www.prnewswire.com/news-releases/recycled-plastics-market-to-reach-117-9-billion-by-2031-at-9-cagr--wissen-research-302915916.html",
-      "source": "prnewswire.com",
-      "published_at": "2026-10-21T21:45:00+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 95,
-      "summary": "The global recycled plastics market is projected to reach $117.9 billion by 2031, driven by regulatory mandates like the EU's PPWR and rising corporate sustainability commitments.",
-      "angle": "Regulatory recycled-content targets and supply-demand imbalances directly impact PET packaging procurement, pricing, and long-term manufacturing strategy.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "e7f615820ab258ad",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -568,6 +554,20 @@
       "score": 90,
       "summary": "PackUK and the UK Packaging PRO have launched a review process for the Recyclability Assessment Methodology, which will determine packaging fee structures under the pEPR regime from 2028.",
       "angle": "Directly impacts future regulatory costs and recyclability classifications for PET and beverage packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0335dd12260e670a",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Budget 2026 | Mixed reactions from WRAP, BPF, and FDF",
+      "url": "https://www.packagingnews.co.uk/news/business/budget-2026-mixed-reactions-from-wrap-bpf-and-fdf-30-10-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-10-30T17:44:56+00:00",
+      "first_seen": "2026-11-01T07:49:00.972903+00:00",
+      "score": 85,
+      "summary": "The UK Budget 2026 increases the Plastic Packaging Tax in line with inflation and confirms mandatory certification for mechanically recycled plastic in packaging.",
+      "angle": "Regulatory changes to plastic tax and mandatory recycled content certification directly impact operational costs and compliance for PET manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -722,20 +722,6 @@
       "score": 85,
       "summary": "Preliminary data indicates undergraduate enrollment growth slowed to 0.6 percent this fall, while graduate enrollment declined by 1.6 percent overall.",
       "angle": "Stagnating student numbers and graduate enrollment declines directly impact demand for higher education textbooks and digital learning platforms.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8209548523bbaaaf",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Is College Preparing Students for Work?",
-      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/10/22/college-preparing-students-work",
-      "source": "insidehighered.com",
-      "published_at": "2026-10-22T07:00:00+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly integrating career readiness and professional development into the core undergraduate experience to better prepare students for an evolving, unpredictable labour market.",
-      "angle": "Highlights a shift towards embedding employability and lifelong learning support directly into academic curricula and university services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -913,14 +899,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 73,
-    "llm_requests_succeeded": 72,
+    "providers_succeeded": 88,
+    "queued_candidates": 123,
+    "llm_requests_attempted": 67,
+    "llm_requests_succeeded": 67,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 30,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 7,
+    "skipped_recently_evaluated": 11,
     "carried_forward": 1
   }
 }
