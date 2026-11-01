@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T07:49:00.972903+00:00",
-  "digest_intro": "Good morning. We have one sector update to share with you today, though there are no specific developments regarding Petainer to report.",
+  "generated_at": "2026-11-01T15:08:03.932727+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-01T07:49:00.972903+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -400,20 +400,6 @@
       "score": 75,
       "summary": "Space NK and Definitive Security Solutions have deployed Dahua AI-powered video analytics to proactively detect shoplifting behaviours and trigger real-time alerts for retail loss prevention.",
       "angle": "Demonstrates the shift from passive CCTV recording to AI-driven, proactive behavioural analysis in UK retail security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "edcd2c57d5638fc6",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Greater range at the same weight: silicon battery passes laboratory test",
-      "url": "https://www.electrive.com/2026/10/22/greater-range-at-the-same-weight-silicon-battery-passes-laboratory-test/",
-      "source": "electrive.com",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "first_seen": "2026-10-22T14:08:15.071654+00:00",
-      "score": 85,
-      "summary": "Researchers at Fraunhofer ISE have successfully tested silicon-rich anode pouch cells, achieving 1,000 cycles with 83 per cent capacity retention and a potential energy density of 330 Wh/kg.",
-      "angle": "Higher energy density batteries could significantly increase e-bike range or reduce weight, enhancing product performance and portability.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -899,14 +885,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 123,
-    "llm_requests_attempted": 67,
-    "llm_requests_succeeded": 67,
+    "providers_succeeded": 84,
+    "queued_candidates": 132,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 73,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 25,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 11,
+    "dropped_thin_page": 29,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 1
   }
 }
