@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T07:49:05.344592+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Clearway Group, Future Maintenance Technologies, or Petainer.",
+  "generated_at": "2026-11-02T15:08:10.377526+00:00",
+  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill's integration of content into a new AI platform developed by the University of California, San Francisco School of Medicine.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-02T07:49:05.344592+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 2,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 0,
+      "story_count": 1,
       "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,9 +251,39 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 1,
-  "todays_story_count": 0,
+  "story_count": 2,
+  "todays_story_count": 1,
   "stories": [
+    {
+      "id": "39d9a536f7788a4d",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill Integrates Trusted Content into AI Platform Developed by University of California, San Francisco School of Medicine - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMHJPOFdBVER4bGoxeVUyd0Q4YmtuNXA1RjI3TkxfSDR6a05OZ0xEN1pPU1JYTXM0NUZ5OFNJOFJBeFFlYW9jeWVuM3pBRDhJQUkxazZDUmpsVDdUQ29uZTdlOGZPVjNFTFZSaUJ3UmQ0bTJiUm42eU8xUVljOFNvVFVtTkRxSEp6bEFWazc2azAxbHRweGQySHBsOHZ6Q3Yt?oc=5",
+      "source": "Yahoo Finance",
+      "published_at": "2026-11-02T14:00:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-11-02T15:08:10.377526+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Partnership",
+      "summary": "McGraw Hill has announced a strategic partnership with the University of California, San Francisco (UCSF) School of Medicine to integrate its educational content into a new AI-driven learning platform.",
+      "why_it_matters": "This collaboration highlights McGraw Hill's ongoing transition into the edtech space, leveraging its proprietary, trusted content to enhance AI-powered medical education tools, which represents a significant growth area for the business.",
+      "verified_facts": [
+        "McGraw Hill is integrating content into a UCSF School of Medicine AI platform.",
+        "The announcement was published on 2 November 2026."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "We are pleased to share that McGraw Hill has entered into a strategic collaboration with the University of California, San Francisco (UCSF) School of Medicine. By integrating its trusted educational content into a new AI-powered platform developed by UCSF, McGraw Hill continues to advance its digital learning capabilities. This partnership underscores the company's commitment to supporting medical education through high-quality, verified resources in an evolving technological landscape. #EdTech #McGrawHill #DigitalLearning",
+        "investor": "McGraw Hill’s latest partnership with the University of California, San Francisco (UCSF) School of Medicine marks a strategic step in the company’s digital transformation. By embedding its proprietary content into UCSF’s AI-driven medical education platform, McGraw Hill is effectively scaling its reach within the high-value professional and medical learning sectors. This initiative demonstrates the commercial potential of leveraging established intellectual property to power next-generation AI tools, reinforcing the company's position as a leader in the global edtech market. #EducationTechnology #Innovation #GrowthStrategy",
+        "people": "Congratulations to the team at McGraw Hill on their new partnership with the University of California, San Francisco (UCSF) School of Medicine. This collaboration sees McGraw Hill’s trusted content integrated into a sophisticated AI platform designed to support medical students. It is a testament to the team's ongoing efforts to modernise learning experiences and ensure that high-quality, reliable information remains at the heart of medical training. A significant milestone in the company's digital evolution. #McGrawHill #MedicalEducation #AI"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
     {
       "id": "1861f1507e74fd1e",
       "company": "The Delivery Group",
@@ -375,6 +405,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fa2ad18d5c295d89",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "UAVs: More intelligence without carrying more hardware",
+      "url": "https://securityjournaluk.com/uavs-more-intelligence-without-more-hardware/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-02T12:13:12+00:00",
+      "first_seen": "2026-11-02T15:08:10.377526+00:00",
+      "score": 75,
+      "summary": "New compact video processing hardware allows UAVs to integrate multiple sensors, onboard AI, and secure transmission without significantly increasing payload weight or power consumption.",
+      "angle": "Advancements in lightweight, AI-enabled drone surveillance technology enhance remote site monitoring capabilities and operational efficiency for security providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "734bfcd45a8d92a2",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -386,34 +430,6 @@
       "score": 75,
       "summary": "Space NK and Definitive Security Solutions have deployed Dahua AI-powered video analytics to proactively detect shoplifting behaviours and trigger real-time alerts for retail loss prevention.",
       "angle": "Demonstrates the shift from passive CCTV recording to AI-driven, proactive behavioural analysis in UK retail security.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1d098c95da72d796",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Drive innovation without expanding cyber risk",
-      "url": "https://securityjournaluk.com/drive-innovation-without-growing-cyber-risk/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-29T07:30:00+00:00",
-      "first_seen": "2026-11-02T07:49:05.344592+00:00",
-      "score": 75,
-      "summary": "Research indicates that 74% of IT leaders believe integrating AI increases cyber-attack vulnerability, necessitating stronger governance and resilience planning to manage evolving digital threats.",
-      "angle": "Highlights critical cyber resilience and governance requirements for security firms integrating AI into their operational and monitoring services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "dd8a419cab74ea80",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Bosch faces radical corporate restructuring amid competitive pressures",
-      "url": "https://www.electrive.com/2026/10/23/bosch-faces-radical-corporate-restructuring-amid-competitive-pressures/",
-      "source": "electrive.com",
-      "published_at": "2026-10-23T10:30:00+00:00",
-      "first_seen": "2026-10-23T14:08:18.559864+00:00",
-      "score": 75,
-      "summary": "Bosch is restructuring its Mobility division into an independent subsidiary to increase flexibility and competitiveness against rising Asian rivals in a challenging market environment.",
-      "angle": "Signals significant structural shifts and increased competitive pressure among major e-bike component suppliers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -781,6 +797,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6f067dbfb4aaec8b",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "‘Weak market conditions’ trigger Ibstock profit warning",
+      "url": "https://www.constructionnews.co.uk/financial/weak-market-conditions-trigger-ibstock-profit-warning-02-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-02T12:20:26+00:00",
+      "first_seen": "2026-11-02T15:08:10.377526+00:00",
+      "score": 85,
+      "summary": "Brick manufacturer Ibstock has issued a profit warning, citing weak market conditions as the primary driver for lower expected full-year adjusted EBITDA.",
+      "angle": "Signals broader macroeconomic headwinds and reduced demand within the UK construction and building materials supply chain.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "68e10b63a6c2e399",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -809,17 +839,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1cfd8bbd81f71eb9",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Budget 2026: Fears over construction cuts as funding shifts to defence",
-      "url": "https://www.constructionnews.co.uk/government/budget-2026-fears-over-construction-cuts-as-funding-shifts-to-defence-29-10-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-10-29T11:35:56+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
+      "id": "926bc71bff1546d1",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Interview with TorqueAGI founder: ‘Most robot AI is a language or vision model with robot data added to it’",
+      "url": "https://roboticsandautomationnews.com/2026/11/02/interview-with-torqueagi-founder-most-robot-ai-is-a-language-or-vision-model-with-robot-data-added-to-it/106584/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-02T08:55:22+00:00",
+      "first_seen": "2026-11-02T15:08:10.377526+00:00",
       "score": 85,
-      "summary": "Chancellor John Healey has announced a 1 per cent reduction in departmental capital budgets over three years, raising concerns about potential cuts to construction project pipelines.",
-      "angle": "Reduced government capital spending may dampen demand for construction products and glazing across public and private sector projects.",
+      "summary": "TorqueAGI has developed a spatio-temporal world-reasoning model for industrial robots that incorporates physics and geometry to enable task adaptation with minimal demonstration data.",
+      "angle": "Highlights a shift towards physics-based AI models that reduce data requirements and improve reliability for complex industrial inspection tasks.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -863,36 +893,22 @@
       "summary": "AGIBOT introduced the Worken framework to measure robot productivity based on active units, autonomous working hours, and output efficiency rather than just deployment numbers.",
       "angle": "Standardising productivity metrics for autonomous robots is critical for proving ROI in industrial inspection and maintenance sectors.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "acb3eab03bb005c9",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Bleu Robotics raises €5 million to scale humanoid robot deployment in factories",
-      "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-30T22:49:02+00:00",
-      "first_seen": "2026-11-02T07:49:05.344592+00:00",
-      "score": 65,
-      "summary": "Bleu Robotics has raised €5 million to scale its abductive learning software, which enables humanoid robots to learn new industrial tasks from minimal operator demonstrations.",
-      "angle": "Advances in low-data, rapid-training AI models for robotics could accelerate deployment timelines for autonomous inspection hardware in complex environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
     "companies_checked": 13,
     "companies_enriched": [],
-    "companies_with_stories": 1,
+    "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 77,
-    "llm_requests_succeeded": 77,
+    "providers_succeeded": 87,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 82,
+    "llm_requests_succeeded": 82,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 26,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "dropped_thin_page": 30,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 1
   }
 }
