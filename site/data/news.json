@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T15:08:03.932727+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-11-02T07:49:05.344592+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-related updates, as there is no specific news to report from Clearway Group, Future Maintenance Technologies, or Petainer.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-01T07:49:00.972903+00:00",
+  "last_digest_sent_at": "2026-11-02T07:49:05.344592+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -375,20 +375,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "94593cc4fcef4262",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Are you managing your security footage efficiently?",
-      "url": "https://securityjournaluk.com/managing-security-footage-antare/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-23T07:00:00+00:00",
-      "first_seen": "2026-10-26T15:08:18.190635+00:00",
-      "score": 85,
-      "summary": "Antare is deploying AI-powered video analytics to automate the review of security footage, aiming to reduce operational bottlenecks and improve incident response times for security teams.",
-      "angle": "Highlights the industry shift from passive recording to AI-driven, active security intelligence and automated operational oversight.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "734bfcd45a8d92a2",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -400,6 +386,20 @@
       "score": 75,
       "summary": "Space NK and Definitive Security Solutions have deployed Dahua AI-powered video analytics to proactively detect shoplifting behaviours and trigger real-time alerts for retail loss prevention.",
       "angle": "Demonstrates the shift from passive CCTV recording to AI-driven, proactive behavioural analysis in UK retail security.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1d098c95da72d796",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Drive innovation without expanding cyber risk",
+      "url": "https://securityjournaluk.com/drive-innovation-without-growing-cyber-risk/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-10-29T07:30:00+00:00",
+      "first_seen": "2026-11-02T07:49:05.344592+00:00",
+      "score": 75,
+      "summary": "Research indicates that 74% of IT leaders believe integrating AI increases cyber-attack vulnerability, necessitating stronger governance and resilience planning to manage evolving digital threats.",
+      "angle": "Highlights critical cyber resilience and governance requirements for security firms integrating AI into their operational and monitoring services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -515,6 +515,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b4d9b8c711a10c2f",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Budget 2026 | Mixed reactions from WRAP, BPF, and FDF",
+      "url": "https://www.packagingnews.co.uk/news/business/budget-2026-mixed-reactions-from-wrap-bpf-and-fdf-01-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-01T17:20:56+00:00",
+      "first_seen": "2026-11-02T07:49:05.344592+00:00",
+      "score": 90,
+      "summary": "The UK Budget 2026 increases the Plastic Packaging Tax in line with inflation and confirms mandatory certification for mechanically recycled plastic in packaging.",
+      "angle": "Regulatory changes to plastic taxes and recycled content certification directly impact operational costs and compliance for packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e7f615820ab258ad",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -540,20 +554,6 @@
       "score": 90,
       "summary": "PackUK and the UK Packaging PRO have launched a review process for the Recyclability Assessment Methodology, which will determine packaging fee structures under the pEPR regime from 2028.",
       "angle": "Directly impacts future regulatory costs and recyclability classifications for PET and beverage packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0335dd12260e670a",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Budget 2026 | Mixed reactions from WRAP, BPF, and FDF",
-      "url": "https://www.packagingnews.co.uk/news/business/budget-2026-mixed-reactions-from-wrap-bpf-and-fdf-30-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-30T17:44:56+00:00",
-      "first_seen": "2026-11-01T07:49:00.972903+00:00",
-      "score": 85,
-      "summary": "The UK Budget 2026 increases the Plastic Packaging Tax in line with inflation and confirms mandatory certification for mechanically recycled plastic in packaging.",
-      "angle": "Regulatory changes to plastic tax and mandatory recycled content certification directly impact operational costs and compliance for PET manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -851,20 +851,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "17d23104ec21bdd2",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Google DeepMind uses Gemini 4 Argon to teach Apptronik’s Apollo humanoid new skills from video",
-      "url": "https://roboticsandautomationnews.com/2026/10/22/google-deepmind-uses-gemini-4-argon-to-teach-apptroniks-apollo-humanoid-new-skills-from-video/106227/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-22T19:34:44+00:00",
-      "first_seen": "2026-10-23T06:49:19.267135+00:00",
-      "score": 85,
-      "summary": "Google DeepMind has introduced a Video-to-Sim-to-Real pipeline using Gemini 4 Argon to autonomously teach humanoid robots physical tasks from video, significantly reducing manual simulation engineering time.",
-      "angle": "Accelerates development cycles for autonomous inspection robots by automating complex simulation and physical skill acquisition.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "29f136a2bb4f8952",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -877,6 +863,20 @@
       "summary": "AGIBOT introduced the Worken framework to measure robot productivity based on active units, autonomous working hours, and output efficiency rather than just deployment numbers.",
       "angle": "Standardising productivity metrics for autonomous robots is critical for proving ROI in industrial inspection and maintenance sectors.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "acb3eab03bb005c9",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Bleu Robotics raises €5 million to scale humanoid robot deployment in factories",
+      "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-10-30T22:49:02+00:00",
+      "first_seen": "2026-11-02T07:49:05.344592+00:00",
+      "score": 65,
+      "summary": "Bleu Robotics has raised €5 million to scale its abductive learning software, which enables humanoid robots to learn new industrial tasks from minimal operator demonstrations.",
+      "angle": "Advances in low-data, rapid-training AI models for robotics could accelerate deployment timelines for autonomous inspection hardware in complex environments.",
+      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -885,14 +885,14 @@
     "companies_with_stories": 1,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 132,
-    "llm_requests_attempted": 73,
-    "llm_requests_succeeded": 73,
+    "providers_succeeded": 88,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 77,
+    "llm_requests_succeeded": 77,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 29,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 1
   }
 }
