@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T15:08:10.377526+00:00",
-  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill's integration of content into a new AI platform developed by the University of California, San Francisco School of Medicine.",
+  "generated_at": "2026-11-03T07:49:08.429242+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, with ten items covering the broader market landscape.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-02T07:49:05.344592+00:00",
+  "last_digest_sent_at": "2026-11-03T07:49:08.429242+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 2,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 2,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "39d9a536f7788a4d",
@@ -377,6 +377,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4bd72305aba032a9",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Intelligence and efficiency to deliver security tech’s greatest future value",
+      "url": "https://securityjournaluk.com/security-techs-greatest-future-value/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-03T07:45:00+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "score": 85,
+      "summary": "Research from Axis Communications indicates that 51% of UK utilities decision-makers expect security technology to provide business intelligence and operational efficiency over the next three to five years.",
+      "angle": "Highlights a market shift towards integrating visual security data with operational systems to improve asset management and efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b085817c4fd1bc54",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -419,17 +433,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "734bfcd45a8d92a2",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Dahua AI technology transforms shoplifting detection",
-      "url": "https://securityjournaluk.com/dahua-tech-transforms-shoplifting-detection/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-30T12:01:00+00:00",
-      "first_seen": "2026-10-30T15:07:40.580448+00:00",
-      "score": 75,
-      "summary": "Space NK and Definitive Security Solutions have deployed Dahua AI-powered video analytics to proactively detect shoplifting behaviours and trigger real-time alerts for retail loss prevention.",
-      "angle": "Demonstrates the shift from passive CCTV recording to AI-driven, proactive behavioural analysis in UK retail security.",
+      "id": "d760dcc9fa7b8684",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Level 2 autonomy in urban areas: BMW announces driver assistant upgrade",
+      "url": "https://www.electrive.com/2026/11/02/level-2-autonomy-in-urban-areas-bmw-announces-driver-assistant-upgrade/",
+      "source": "electrive.com",
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "score": 65,
+      "summary": "BMW will introduce Level 2 autonomous driving features for urban environments in 2027, enabling vehicles to navigate turns, roundabouts, and intersections with driver supervision.",
+      "angle": "Increased urban vehicle automation impacts road safety dynamics and infrastructure requirements for cyclists and micromobility users.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -475,6 +489,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b0b856b00de87564",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "From Stormzy to Arsenal: Colourist Alexandre Nerzic on Shaping the Look of Music and Modern Culture — LBB - LBB - Little Black Book",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWkpNSFpQLW5oWjNienFpc2Q2VUtTU0dSS016dWpaS0drREh4aGpvWnhPNGh3dV9IMHZVMjZUYkg1LU9BWGs2NHFGaURVNWI4Z2UzSTlZci1PTlZUdnNBa05xMEtnNjk3LUgxM0hMQ1JzZkxfamFYc0Q3RUdJbzFzQTJCT0c?oc=5",
+      "source": "LBB - Little Black Book",
+      "published_at": "2026-11-02T16:34:46+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "score": 65,
+      "summary": "Colourist Alexandre Nerzic discusses his creative process and the evolving role of colour grading in shaping the visual identity of music videos and modern cultural content.",
+      "angle": "Highlights current creative trends and the increasing importance of high-end colour grading in premium content production.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "631a5f520e68dc1e",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -500,20 +528,6 @@
       "score": 65,
       "summary": "Showrunner Bill Lawrence discusses the specific production workflows and post-production challenges involved in creating the television series Shrinking.",
       "angle": "Provides insight into current high-end episodic post-production workflows and the evolving demands of modern showrunners.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0de131def02012ca",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Mediawork Platform: Quoting, Scheduling and Invoicing for Post Production",
-      "url": "https://postperspective.com/mediawork-platform-quoting-scheduling-and-invoicing-for-post-production/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-27T15:02:40+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 65,
-      "summary": "Screen Arts Limited has launched Mediawork, a CRM and operations platform designed to integrate quoting, scheduling, cost tracking, and invoicing for post-production facilities.",
-      "angle": "Highlights the industry trend of consolidating fragmented operational workflows into unified, AI-integrated management platforms to improve efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -559,18 +573,32 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2fdf1ac667056cea",
+      "id": "60244734b8071554",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Producers ‘given new route’ to shape packaging recyclability fees from 2028",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/producers-given-new-route-to-shape-packaging-recyclability-fees-from-2028-24-10-2026",
+      "title": "Budget 2026 | FPA calls for ‘credible & proportionate’ regulatory framework",
+      "url": "https://www.packagingnews.co.uk/news/budget-2026-fpa-calls-for-credible-proportionate-regulatory-framework-30-10-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-10-24T08:35:41+00:00",
-      "first_seen": "2026-10-24T14:08:15.209777+00:00",
+      "published_at": "2026-10-30T11:01:54+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
       "score": 90,
-      "summary": "PackUK and the UK Packaging PRO have launched a review process for the Recyclability Assessment Methodology, which will determine packaging fee structures under the pEPR regime from 2028.",
-      "angle": "Directly impacts future regulatory costs and recyclability classifications for PET and beverage packaging manufacturers.",
+      "summary": "The UK Budget 2026 confirmed mandatory certification for mechanically recycled plastic for tax purposes from April 2030 and highlighted upcoming Deposit Return Scheme obligations starting October 2027.",
+      "angle": "Regulatory shifts in plastic taxation and recycling certification directly impact compliance costs and operational strategy for packaging manufacturers.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9bfa5a3979376bf9",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "[Palantir Technologies Q3 2026 Earnings Call] Palantir Revenue Doubles to $2.31B as Sovereign AI Propels U.S. Commercial Growth to 148%, First Quarter Above $2B with Rule of 40 at 158% - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JSEJUbmh0Skx6LVhFRV9VSG9HWWxILXZLOGhkbUdaMktycmRXVzNxUzJhX1BGdUVDTlNEOS1QOGJTdXB6YWUyTG9oZjJQVGZQM0Y1bjNzdkQwOTJZbXc?oc=5",
+      "source": "BigGo Finance",
+      "published_at": "2026-11-02T23:44:00+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "score": 95,
+      "summary": "Palantir Technologies reported Q3 2026 revenue of $2.31 billion, driven by a 148% increase in U.S. commercial growth attributed to sovereign AI demand.",
+      "angle": "Demonstrates significant market acceleration and enterprise-scale demand for sovereign AI solutions within the commercial sector.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "aa90f6e9ef5fa767",
@@ -601,31 +629,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "085e38a1c7507f38",
+      "id": "2660dc4da4afbbce",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Autumn Budget 2026: UK tech leaders react to AI investment and business support",
-      "url": "https://www.uktech.news/news/government-and-policy/autumn-budget-2026-uk-tech-reaction-20261029",
-      "source": "uktech.news",
-      "published_at": "2026-10-29T08:36:53+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
+      "title": "T-Systems and Sparxity strengthen Europe's sovereign AI infrastructure with energy-efficient computing technology - Deutsche Telekom",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHZ2VG5ERU1LU1lFTTU2SGU0OU9UU19ydmM2QWtwd0UtdjhCdWJvZ1hKQnUxblBRNE5LazBqTzZnRS1aV3I2WnhhOHE3OC10NUJqaXpUejJNVFloU3NMYWxOcUxRSmgtcUd4S3JKaWtzTTB1TlNla0RUUWVhWVpuWUtuRGhUU1dHN0VmQUNaNGVwT1ZQM0lPUl9WNGdnRVRZOF9TYlRoeHBYOG54a3NiRDNobDMwOUtaSDBsd1pJTktNMi1ack14dFdyOFpFZDBCbGV0bmNwbk8?oc=5",
+      "source": "Deutsche Telekom",
+      "published_at": "2026-11-03T07:40:53+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
       "score": 85,
-      "summary": "The UK Autumn Budget 2026 commits half a billion pounds to AI safety and security while introducing measures to support startup investment and business growth.",
-      "angle": "Government funding for AI safety and security highlights the growing regulatory and policy focus on sovereign AI governance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f2cebd230a1700e3",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Cognizant eyes stake in Sarvam AI as sovereign AI startup seeks $300 Million at $3.5–4 billion valuation - Business Upturn",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVpYRDBnMVNnUnRqT203SUFMNzQ4U0FfTld3QjJVN1BhNm40bFdrMVJKdm5TMU9yUFY5N25QX2FCSE5paU9hU2UzbU44TUx4cHV2bmFlWU1JY0h2QzBmdDk5bXczV2RhT3czMXgwbWM3Uy14NXNZdzJjQkd3VTFXeXJwWlAxYjlsdUdUUzRaaW5CTTJzYnl0ZVUyWVIwTFg4cWNqWGs5c2U4dEc4TW4wRmxreGVxTHdsYTlMZEYxczB5YmdabGVBUlBPbHlRamZTd1haRmdEcUQ?oc=5",
-      "source": "Business Upturn",
-      "published_at": "2026-10-28T06:56:17+00:00",
-      "first_seen": "2026-10-28T07:49:16.304741+00:00",
-      "score": 85,
-      "summary": "Cognizant is reportedly considering an investment in Indian sovereign AI startup Sarvam AI, which is seeking $300 million at a valuation of up to $4 billion.",
-      "angle": "Highlights significant capital inflow and high valuations for sovereign AI startups, indicating strong global market momentum.",
+      "summary": "T-Systems and Sparxity have partnered to enhance European sovereign AI infrastructure by integrating energy-efficient computing technologies.",
+      "angle": "Highlights the growing industry focus on energy efficiency and infrastructure sovereignty within the European AI market.",
       "discovered_via": "Google News RSS"
     },
     {
@@ -741,45 +755,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c6c3e435bf66a1eb",
+      "id": "b21765d0ceee5635",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "A quiet morning inside the black box: A chance at life",
-      "url": "https://www.progress.org.uk/a-quiet-morning-inside-the-black-box-a-chance-at-life/",
+      "title": "When our embryos were labelled 'abnormal', we lost the right to choose",
+      "url": "https://www.progress.org.uk/when-our-embryos-were-labelled-abnormal-we-lost-the-right-to-choose/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-26T17:20:10+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "published_at": "2026-11-02T16:33:18+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
       "score": 85,
-      "summary": "Artificial intelligence tools like ERICA are increasingly used to assist embryologists in embryo selection, offering potential efficiency gains while raising ethical concerns regarding accountability and algorithmic bias.",
-      "angle": "AI integration in IVF labs presents operational efficiency opportunities alongside significant clinical, ethical, and patient trust challenges.",
+      "summary": "A qualitative study highlights patient distress and ethical concerns regarding the use of PGT-A to categorically refuse the transfer of embryos labelled as abnormal.",
+      "angle": "Highlights growing clinical and ethical debate over PGT-A protocols, potentially necessitating policy reviews regarding embryo transfer and informed consent.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8044e8b4b4a01750",
+      "id": "40235cd90c2595cc",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Designing disappointment: The uneasy promise of PGT-P",
-      "url": "https://www.progress.org.uk/designing-disappointment-the-uneasy-promise-of-pgt-p/",
+      "title": "'EmbryoGlue' did not improve pregnancy rates in two studies",
+      "url": "https://www.progress.org.uk/embryoglue-did-not-improve-pregnancy-rates-in-two-studies/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-26T17:19:40+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "published_at": "2026-11-02T16:26:27+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
       "score": 85,
-      "summary": "The article discusses the rise of preimplantation genetic testing for polygenic disorders (PGT-P), highlighting concerns regarding its clinical accuracy, ethical implications, and growing consumer demand.",
-      "angle": "Highlights regulatory and ethical challenges surrounding emerging AI-driven genetic screening technologies in global fertility markets.",
+      "summary": "Two recent studies, including a large-scale analysis, found that hyaluronan-enriched transfer medium, commonly known as EmbryoGlue, does not improve clinical pregnancy rates in IVF cycles.",
+      "angle": "Increased clinical scrutiny of IVF add-ons impacts clinic service offerings, pricing transparency, and patient trust in elective procedures.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b62f698c850e0dcd",
+      "id": "fa0eb7b2c88261c6",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Children born after ICSI or frozen embryo transfer may have slightly higher risk of childhood cancers",
-      "url": "https://www.progress.org.uk/children-born-after-icsi-or-frozen-embryo-transfer-may-have-slightly-higher-risk-of-childhood-cancers/",
+      "title": "To err is human: How human embryos rarely get it right",
+      "url": "https://www.progress.org.uk/to-err-is-human-how-human-embryos-rarely-get-it-right/",
       "source": "bionews.org.uk",
-      "published_at": "2026-10-26T16:54:13+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
+      "published_at": "2026-11-02T16:17:00+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
       "score": 85,
-      "summary": "A large-scale Danish study indicates a relative increase in childhood cancer rates for children conceived via ICSI or frozen embryo transfer, though absolute risk remains very low.",
-      "angle": "Clinical safety data regarding long-term health outcomes of assisted reproductive technologies impacts patient counselling and informed consent protocols.",
+      "summary": "Research indicates that early human embryos frequently exhibit chromosomal mosaicism, yet many can still result in successful pregnancies and healthy births.",
+      "angle": "Challenges the clinical reliance on PGT-A and highlights the potential for higher success rates from embryos previously discarded.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -839,6 +853,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "55e9c3accbf1a62d",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "New ISO standard enables mobile robots from different vendors to work together",
+      "url": "https://roboticsandautomationnews.com/2026/11/02/new-iso-standard-enables-mobile-robots-from-different-vendors-to-work-together/106635/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-02T19:12:05+00:00",
+      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "score": 85,
+      "summary": "ISO 21423:2026 has been published, establishing a new international standard for communication and interoperability between mobile robots from different vendors within industrial environments.",
+      "angle": "Standardised interoperability allows for multi-vendor fleet integration, improving operational efficiency and scalability in complex industrial inspection environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "926bc71bff1546d1",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -879,20 +907,6 @@
       "summary": "Qualcomm has agreed to acquire robotics software firm PickNik, the steward of the open-source MoveIt framework, to enhance its physical AI and robotics development capabilities.",
       "angle": "Consolidation of key robotics software stacks by major chipmakers impacts development roadmaps for autonomous inspection hardware.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "29f136a2bb4f8952",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "AGIBOT introduces Worken to measure productive robot work at AGIBOT Innovation Day 2026",
-      "url": "https://roboticsandautomationnews.com/2026/10/29/agibot-introduces-worken-to-measure-productive-robot-work-at-agibot-innovation-day-2026/106452/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-29T16:49:17+00:00",
-      "first_seen": "2026-10-30T15:07:40.580448+00:00",
-      "score": 75,
-      "summary": "AGIBOT introduced the Worken framework to measure robot productivity based on active units, autonomous working hours, and output efficiency rather than just deployment numbers.",
-      "angle": "Standardising productivity metrics for autonomous robots is critical for proving ROI in industrial inspection and maintenance sectors.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -901,14 +915,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 143,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
+    "providers_succeeded": 89,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 80,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 30,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 2,
-    "carried_forward": 1
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 3,
+    "carried_forward": 2
   }
 }
