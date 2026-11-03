@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T07:49:08.429242+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, with ten items covering the broader market landscape.",
+  "generated_at": "2026-11-03T15:08:04.497921+00:00",
+  "digest_intro": "Good morning. Today's briefing includes one update on The Delivery Group regarding the ETRAK Network, alongside one additional sector item.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-03T07:49:08.429242+00:00",
   "companies": [
@@ -10,7 +10,7 @@
       "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
-      "story_count": 1,
+      "story_count": 2,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 2,
-  "todays_story_count": 0,
+  "story_count": 3,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "39d9a536f7788a4d",
@@ -283,6 +283,38 @@
       },
       "status": "ready",
       "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "a477deb537f2e796",
+      "company": "The Delivery Group",
+      "company_domain": "thedeliverygroup.co.uk",
+      "industry": "UK parcel and mail delivery",
+      "title": "ETRAK Network Updates",
+      "url": "https://thedeliverygroup.co.uk/news/etrak-network-updates/",
+      "source": "thedeliverygroup.co.uk",
+      "published_at": "2026-11-02T18:30:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "The Delivery Group has issued an operational update regarding its ETRAK network, detailing significant service delays across various international regions due to customs issues, geopolitical conflicts, and environmental factors.",
+      "why_it_matters": "Operational transparency is critical for logistics firms. This update provides essential clarity for clients and stakeholders regarding the current status of global delivery routes and the impact of external disruptions on supply chain timelines.",
+      "verified_facts": [
+        "The Delivery Group issued an ETRAK network update on 02 November 2026.",
+        "The company reports service delays in Europe, the Middle East, the Americas, and Oceania due to factors including customs checks, flooding, and geopolitical conflict."
+      ],
+      "warnings": [
+        "The source material lists several countries as currently embargoed, which may have significant implications for the company's international service scope."
+      ],
+      "drafts": {
+        "concise": "The Delivery Group has released an update regarding its ETRAK network, outlining current service status across international routes. As of 02 November 2026, the firm is navigating various operational challenges, including increased customs requirements, severe weather events, and geopolitical instability in specific regions. The team continues to monitor these global conditions closely to manage network performance and maintain communication with clients. Transparency remains a priority as the business works to mitigate the impact of these external factors on parcel and mail delivery services. For the latest information on specific destinations, please refer to the official company channels. #Logistics #SupplyChain #TheDeliveryGroup",
+        "investor": "Operational resilience is a key focus for The Delivery Group as it manages the complexities of its international ETRAK network. The latest update, published on 02 November 2026, highlights the proactive measures the company is taking to address service delays caused by a combination of customs changes, environmental disruptions, and geopolitical volatility. By maintaining clear communication with its client base during these periods of global uncertainty, the firm demonstrates its commitment to operational discipline and service reliability. We continue to support the management team as they navigate these external headwinds and focus on maintaining network integrity across their core markets. #Investment #Operations #GlobalTrade",
+        "people": "Navigating a complex global logistics landscape requires constant vigilance and clear communication. The team at The Delivery Group has provided a comprehensive update on its ETRAK network as of 02 November 2026, addressing the various international challenges currently affecting delivery timelines. From managing customs changes to responding to severe weather and regional conflicts, the team is working hard to keep clients informed and maintain service standards under difficult circumstances. We recognise the dedication of the operations and customer service teams who are managing these updates and supporting clients through these disruptions. #TeamWork #Logistics #OperationalExcellence"
+      },
+      "status": "needs_review",
+      "discovered_via": "Official RSS"
     },
     {
       "id": "1861f1507e74fd1e",
@@ -320,6 +352,20 @@
     }
   ],
   "sector_stories": [
+    {
+      "id": "1bc87e43c7458855",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "ParcelHero: The EU’s customs changes were aimed at the flood of ultra-cheap e-commerce imports",
+      "url": "https://postandparcel.info/163227/news/e-commerce/parcelhero-the-eus-customs-changes-were-aimed-at-the-flood-of-ultra-cheap-e-commerce-imports/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-03T07:37:40+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 90,
+      "summary": "New EU customs regulations, including a €2 handling fee and mandatory product identifiers, are increasing costs and administrative burdens for UK businesses shipping B2C parcels to the EU.",
+      "angle": "Increased regulatory friction and costs for cross-border e-commerce impact delivery operations, client compliance, and potential parcel volumes.",
+      "discovered_via": "Sector RSS"
+    },
     {
       "id": "dee4bada8628d911",
       "company": "The Delivery Group",
@@ -363,17 +409,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d514914a377e349b",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Evri “ready to support customers through a successful Peak”",
-      "url": "https://postandparcel.info/163171/news/e-commerce/evri-ready-to-support-customers-through-a-successful-peak/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-26T06:24:27+00:00",
-      "first_seen": "2026-10-26T15:08:18.190635+00:00",
+      "id": "203e2c1dc74853bf",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Physical response and recurring revenue in the security industry",
+      "url": "https://securityjournaluk.com/physical-response-revenue-security-install/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-03T08:45:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
       "score": 85,
-      "summary": "Evri has invested £32.2 million in infrastructure and technology this year, increasing its daily parcel capacity to 4.9 million ahead of the peak Christmas trading period.",
-      "angle": "Highlights significant competitor investment in automation, capacity expansion, and AI-driven delivery verification within the UK parcel market.",
+      "summary": "The article discusses how security installers are increasingly integrating physical response services with alarm monitoring to create sustainable, recurring revenue streams for commercial and vacant property sites.",
+      "angle": "Highlights the industry shift toward bundling technology-led detection with physical intervention to improve customer retention and service value.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -419,59 +465,59 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "fa2ad18d5c295d89",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "UAVs: More intelligence without carrying more hardware",
-      "url": "https://securityjournaluk.com/uavs-more-intelligence-without-more-hardware/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-02T12:13:12+00:00",
-      "first_seen": "2026-11-02T15:08:10.377526+00:00",
-      "score": 75,
-      "summary": "New compact video processing hardware allows UAVs to integrate multiple sensors, onboard AI, and secure transmission without significantly increasing payload weight or power consumption.",
-      "angle": "Advancements in lightweight, AI-enabled drone surveillance technology enhance remote site monitoring capabilities and operational efficiency for security providers.",
+      "id": "e2feffe898fffd48",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Bosch to restructure semiconductor business from 2028",
+      "url": "https://www.electrive.com/2026/11/03/bosch-to-restructure-semiconductor-business-from-2028/",
+      "source": "electrive.com",
+      "published_at": "2026-11-03T15:00:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 65,
+      "summary": "Bosch will establish an independent 'Semiconductors' division within its Mobility sector by 2028 to expand production capacity and target new markets including industrial automation and artificial intelligence.",
+      "angle": "Bosch is a major e-bike component supplier; restructuring may impact future supply chain stability and chip availability.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d760dcc9fa7b8684",
+      "id": "3f909b97d6f32c35",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "Level 2 autonomy in urban areas: BMW announces driver assistant upgrade",
-      "url": "https://www.electrive.com/2026/11/02/level-2-autonomy-in-urban-areas-bmw-announces-driver-assistant-upgrade/",
+      "title": "Rio Tinto expands lithium production in Argentina",
+      "url": "https://www.electrive.com/2026/11/03/rio-tinto-expands-lithium-production-in-argentina/",
       "source": "electrive.com",
-      "published_at": "2026-11-02T18:00:00+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "published_at": "2026-11-03T13:30:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
       "score": 65,
-      "summary": "BMW will introduce Level 2 autonomous driving features for urban environments in 2027, enabling vehicles to navigate turns, roundabouts, and intersections with driver supervision.",
-      "angle": "Increased urban vehicle automation impacts road safety dynamics and infrastructure requirements for cyclists and micromobility users.",
+      "summary": "Rio Tinto has commissioned two new lithium projects in Argentina, increasing its annual production capacity by 25,000 tonnes of lithium carbonate equivalent.",
+      "angle": "Increased global lithium supply helps stabilise battery raw material costs for the e-bike and micromobility manufacturing sector.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0bf5d37aaab9e0fe",
+      "id": "ba8a573e923a1a04",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "LiveWire issues going-concern warning over business continuity risks",
-      "url": "https://www.electrive.com/2026/10/31/livewire-issues-going-concern-warning-over-business-continuity-risks/",
+      "title": "EDENenergy builds storage systems from used e-scooter batteries",
+      "url": "https://www.electrive.com/2026/11/03/edenenergy-builds-storage-systems-from-used-e-scooter-batteries/",
       "source": "electrive.com",
-      "published_at": "2026-10-31T10:00:00+00:00",
-      "first_seen": "2026-10-31T15:08:02.850459+00:00",
+      "published_at": "2026-11-03T13:00:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
       "score": 65,
-      "summary": "Electric motorcycle manufacturer LiveWire has issued a going-concern warning due to recurring operating losses, negative cash flows, and limited liquidity.",
-      "angle": "Highlights the capital-intensive nature of electric two-wheeler manufacturing and the ongoing challenges in achieving profitability at scale.",
+      "summary": "German startup EDENenergy is repurposing used e-scooter and e-bike batteries into modular stationary energy storage systems for commercial and industrial applications.",
+      "angle": "Highlights emerging circular economy trends and secondary market value for end-of-life micromobility battery packs.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "1880eaa6b7510ad5",
+      "id": "a9d82465a234f5c1",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "OEMs may have to take back EVs with faulty batteries",
-      "url": "https://www.electrive.com/2026/10/30/oems-may-have-to-take-back-evs-with-faulty-batteries/",
+      "title": "2027 Fiat Topolino becomes road-legal in US",
+      "url": "https://www.electrive.com/2026/11/03/2027-fiat-topolino-becomes-road-legal-in-us/",
       "source": "electrive.com",
-      "published_at": "2026-10-30T16:00:00+00:00",
-      "first_seen": "2026-10-31T07:49:05.442992+00:00",
+      "published_at": "2026-11-03T12:30:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
       "score": 65,
-      "summary": "A German court is evaluating whether EU product safety regulations allow consumers to return electric vehicles if manufacturers fail to promptly resolve battery-related safety defects.",
-      "angle": "Highlights increasing regulatory pressure on battery safety and potential consumer rights regarding product recalls in the electric mobility sector.",
+      "summary": "Fiat has updated its Topolino electric quadricycle to meet US Low-Speed Vehicle regulations, allowing the 2027 model to be driven on public roads with speed limits up to 35 mph.",
+      "angle": "Highlights evolving regulatory frameworks and consumer demand for small-format electric mobility solutions in the North American market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -531,6 +577,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "729e24ac069811c6",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Survey finds strong public support for DRS, despite low awareness",
+      "url": "https://www.packagingnews.co.uk/top-story/survey-finds-strong-public-support-for-drs-despite-low-awareness-03-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-03T09:18:28+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 95,
+      "summary": "A YouGov poll indicates 71% of the public support the upcoming UK deposit return scheme, despite 61% of respondents having low awareness of the initiative.",
+      "angle": "Regulatory shifts regarding PET bottle recycling and consumer participation directly impact the future demand for sustainable packaging solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4c4d07550b8fa096",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -573,20 +633,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "60244734b8071554",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Budget 2026 | FPA calls for ‘credible & proportionate’ regulatory framework",
-      "url": "https://www.packagingnews.co.uk/news/budget-2026-fpa-calls-for-credible-proportionate-regulatory-framework-30-10-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-10-30T11:01:54+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 90,
-      "summary": "The UK Budget 2026 confirmed mandatory certification for mechanically recycled plastic for tax purposes from April 2030 and highlighted upcoming Deposit Return Scheme obligations starting October 2027.",
-      "angle": "Regulatory shifts in plastic taxation and recycling certification directly impact compliance costs and operational strategy for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "9bfa5a3979376bf9",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -599,34 +645,6 @@
       "summary": "Palantir Technologies reported Q3 2026 revenue of $2.31 billion, driven by a 148% increase in U.S. commercial growth attributed to sovereign AI demand.",
       "angle": "Demonstrates significant market acceleration and enterprise-scale demand for sovereign AI solutions within the commercial sector.",
       "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "aa90f6e9ef5fa767",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Tech tycoons must not be allowed to let rip with AI , minister warns",
-      "url": "https://www.ealingtimes.co.uk/news/national/26666809.tech-tycoons-must-not-allowed-let-rip-ai-minister-warns/",
-      "source": "ealingtimes.co.uk",
-      "published_at": "2026-10-24T12:15:00+00:00",
-      "first_seen": "2026-10-25T15:08:11.753050+00:00",
-      "score": 95,
-      "summary": "The UK government announced a major AI investment package, including £60 million for the sovereign AI fund and new funding for cyber security and biosecurity initiatives.",
-      "angle": "Highlights government commitment to sovereign AI infrastructure, domestic capability, and public sector adoption of British-developed technology.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "48e0018705f475a3",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Tech tycoons must not be allowed to let rip with AI , minister warns | East London and West Essex Guardian Series",
-      "url": "https://www.guardian-series.co.uk/news/national/26666809.tech-tycoons-must-not-allowed-let-rip-ai-minister-warns/",
-      "source": "guardian-series.co.uk",
-      "published_at": "2026-10-24T09:00:00+00:00",
-      "first_seen": "2026-10-25T15:08:11.753050+00:00",
-      "score": 95,
-      "summary": "The UK government announced a new investment package including £60 million for the sovereign AI fund and £120 million for the AI Security Institute to bolster domestic capabilities.",
-      "angle": "Highlights government commitment to sovereign AI infrastructure, funding, and regulatory frameworks shaping the UK's domestic technology landscape.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "2660dc4da4afbbce",
@@ -643,6 +661,34 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "4230eecc7c609cfa",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "John Ivison : Red flags all over Carney government buy - in of AI company Cohere",
+      "url": "https://calgaryherald.com:443/np-comment/john-ivison-red-flags-all-over-carney-governments-buy-in-of-ai-company-cohere/wcm/0f0c481c-ebf1-4a32-b6bb-510f52bfff6a",
+      "source": "calgaryherald.com",
+      "published_at": "2026-11-03T02:15:00+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 85,
+      "summary": "The Canadian government has invested $1.6 billion in Cohere to bolster domestic sovereign AI capabilities, despite criticism regarding potential conflicts of interest and the company's competitive performance.",
+      "angle": "Highlights the political and economic complexities of government-backed sovereign AI strategies and national champion procurement policies.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "085e38a1c7507f38",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Autumn Budget 2026: UK tech leaders react to AI investment and business support",
+      "url": "https://www.uktech.news/news/government-and-policy/autumn-budget-2026-uk-tech-reaction-20261029",
+      "source": "uktech.news",
+      "published_at": "2026-10-29T08:36:53+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 85,
+      "summary": "The UK Autumn Budget 2026 commits half a billion pounds to AI safety and security while introducing measures to support startup investment and business growth.",
+      "angle": "Highlights government funding priorities and the increasing regulatory focus on AI governance and responsible deployment.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "009a3a59144e85b6",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -654,6 +700,20 @@
       "score": 95,
       "summary": "The UK government announced budget support for the Post Office, including funding for 600 branch modernisations, 1,000 new self-service drop boxes, and business rates relief for postmasters.",
       "angle": "Direct impact on operational infrastructure, service capabilities, and financial overheads for independent Post Office retail operators.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2b979353e22602c1",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Post Office puts parcels centre stage in new campaign",
+      "url": "https://www.talkingretail.com/featured/post-office-puts-parcels-centre-stage-in-new-campaign-03-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-03T12:32:55+00:00",
+      "first_seen": "2026-11-03T15:08:04.497921+00:00",
+      "score": 90,
+      "summary": "The Post Office has launched a national marketing campaign, 'The Home of Parcels', to promote its multi-courier services to consumers and marketplace sellers through March 2027.",
+      "angle": "Highlights a strategic shift to position Post Office branches as primary, convenient hubs for multi-courier parcel logistics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -682,20 +742,6 @@
       "score": 90,
       "summary": "The Chancellor is expected to increase the National Living Wage by 3.9% to £13.20 per hour while pausing plans for youth pay parity.",
       "angle": "Rising labour costs directly impact operational expenditure and recruitment strategies for independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1a7f7999693da1b9",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Post Office personal cash deposit volumes rise ahead of festive season",
-      "url": "https://www.talkingretail.com/featured/post-office-personal-cash-deposit-volumes-rise-ahead-of-festive-season-26-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-26T13:20:53+00:00",
-      "first_seen": "2026-10-26T15:08:18.190635+00:00",
-      "score": 90,
-      "summary": "Post Office personal cash deposit transactions rose 7% year-on-year to over 17 million, as consumers increasingly use cash to manage household budgets and prepare for winter costs.",
-      "angle": "Highlights sustained demand for in-branch banking services and the role of cash in consumer budgeting strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -915,14 +961,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 80,
+    "providers_succeeded": 90,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 23,
+    "dropped_thin_page": 24,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 2
   }
 }
