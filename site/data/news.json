@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:49:08.314495+00:00",
+  "generated_at": "2026-11-04T15:07:51.544110+00:00",
   "digest_intro": "Good morning. Today's briefing focuses exclusively on a single sector update, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-04T07:49:08.314495+00:00",
@@ -961,14 +961,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 80,
-    "llm_requests_succeeded": 80,
+    "providers_succeeded": 87,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 24,
+    "llm_requests_succeeded": 13,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 29,
+    "dropped_thin_page": 13,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 3
   }
 }
