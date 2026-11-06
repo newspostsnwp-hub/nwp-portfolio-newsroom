@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T15:08:00.640871+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-wide developments, with no specific updates regarding McGraw Hill, Molinare, Petainer, Roof-Maker, Swytch, or Whitespace.",
+  "generated_at": "2026-11-06T07:48:58.952776+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector-wide updates, as there is no specific news to report from Clearway Group, Fertility Associates, Future Maintenance Technologies, Molinare, Roof-Maker, or Whitespace.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-05T07:48:48.014746+00:00",
+  "last_digest_sent_at": "2026-11-06T07:48:58.952776+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -409,6 +409,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "74d850a08ba3a3f3",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Stronger laws for police using facial-recognition technology",
+      "url": "https://securityjournaluk.com/stronger-laws-for-facial-recognition-tech/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-05T11:51:43+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 85,
+      "summary": "The UK government is introducing new laws and an independent watchdog to regulate police use of facial recognition technology, alongside a separate code for the private sector.",
+      "angle": "New regulatory codes for private sector facial recognition use will impact compliance and operational standards for security providers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "203e2c1dc74853bf",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -448,20 +462,6 @@
       "score": 85,
       "summary": "Amthal Group has partnered with AURA to provide an on-demand, app-integrated physical security response service for commercial, retail, and vacant property sites.",
       "angle": "Highlights industry trends toward digital integration of alarm monitoring with on-demand, nationwide physical security response networks.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c0a7d2b6f9f07e59",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "AI flags it… then what?",
-      "url": "https://securityjournaluk.com/ai-flags-it-then-what/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-10-27T07:30:00+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
-      "score": 85,
-      "summary": "The security industry is shifting from a focus on visibility to managing alert fatigue, as AI-driven data abundance creates a critical need for improved operational decision-making and response structures.",
-      "angle": "Highlights the growing operational necessity for effective incident response management over mere technological detection capabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -521,6 +521,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5b992b786c1e185b",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Avid Updates Pro Tools: Faster Music Creation and Audio Post Production",
+      "url": "https://postperspective.com/avid-updates-pro-tools-faster-music-creation-and-audio-post/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-05T20:42:27+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 85,
+      "summary": "Avid has released Pro Tools 2026.11, introducing AI-powered stem separation and a new Extensions format to streamline audio post-production workflows and third-party tool integration.",
+      "angle": "Adoption of AI-driven audio processing and integrated workflow extensions directly impacts efficiency and technical standards in professional post-production.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "446a846b0accab4e",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Weta FX & TAICCA Strike Partnership To Position Taiwan As AI Hub",
+      "url": "https://deadline.com/2026/11/weta-fx-taicca-taiwan-ai-1237214313/",
+      "source": "deadline.com",
+      "published_at": "2026-11-06T04:00:00+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 75,
+      "summary": "Weta FX has partnered with the Taiwan Creative Content Agency to establish Taiwan as an AI hub for the content industry, including investment in local VFX house Moonshine Studio.",
+      "angle": "Highlights the strategic integration of AI technology and international partnerships to scale VFX production capabilities globally.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "061701dc95614225",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -547,34 +575,6 @@
       "summary": "iZotope has launched Photon, an AI-powered application and ARA plugin designed for advanced stem separation and audio enhancement, including dialogue cleanup and noise reduction.",
       "angle": "Advances in AI-driven audio processing tools improve efficiency and quality for post-production sound workflows.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5119d2a84a977ae9",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Editor Daniel Garber on Shaping the Narrative of A24’s Primetime",
-      "url": "https://postperspective.com/editor-daniel-garber-on-shaping-the-narrative-of-a24s-primetime/",
-      "source": "postperspective.com",
-      "published_at": "2026-10-28T17:48:05+00:00",
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 75,
-      "summary": "Editor Daniel Garber discusses the technical challenges of integrating 14 different camera formats, including vintage broadcast equipment, into a single narrative feature film workflow.",
-      "angle": "Highlights the increasing complexity of managing mixed-format post-production pipelines and the creative role of editorial in visual storytelling.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b0b856b00de87564",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "From Stormzy to Arsenal: Colourist Alexandre Nerzic on Shaping the Look of Music and Modern Culture — LBB - LBB - Little Black Book",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWkpNSFpQLW5oWjNienFpc2Q2VUtTU0dSS016dWpaS0drREh4aGpvWnhPNGh3dV9IMHZVMjZUYkg1LU9BWGs2NHFGaURVNWI4Z2UzSTlZci1PTlZUdnNBa05xMEtnNjk3LUgxM0hMQ1JzZkxfamFYc0Q3RUdJbzFzQTJCT0c?oc=5",
-      "source": "LBB - Little Black Book",
-      "published_at": "2026-11-02T16:34:46+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 65,
-      "summary": "Colourist Alexandre Nerzic discusses his creative process and the evolving role of colour grading in shaping the visual identity of music videos and modern cultural content.",
-      "angle": "Highlights current creative trends and the increasing importance of high-end colour grading in premium content production.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "2c9fc3e5e9d00085",
@@ -647,6 +647,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "95ca0faa92ad51f6",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
+      "url": "https://www.thenationalnews.com/future/technology/2026/11/06/openai-deal-to-cut-abu-dhabi-government-processing-times-from-days-to-minutes/",
+      "source": "thenationalnews.com",
+      "published_at": "2026-11-06T04:30:00+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 90,
+      "summary": "Abu Dhabi has partnered with OpenAI to deploy frontier AI models locally, aiming to become an AI-native government by 2027 while maintaining data sovereignty and intellectual property control.",
+      "angle": "Highlights the growing demand for sovereign AI infrastructure that balances frontier model access with strict local data residency.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "2e5dfdaf892b1513",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -661,31 +675,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "2660dc4da4afbbce",
+      "id": "bf66afced13b98dc",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "T-Systems and Sparxity strengthen Europe's sovereign AI infrastructure with energy-efficient computing technology - Deutsche Telekom",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHZ2VG5ERU1LU1lFTTU2SGU0OU9UU19ydmM2QWtwd0UtdjhCdWJvZ1hKQnUxblBRNE5LazBqTzZnRS1aV3I2WnhhOHE3OC10NUJqaXpUejJNVFloU3NMYWxOcUxRSmgtcUd4S3JKaWtzTTB1TlNla0RUUWVhWVpuWUtuRGhUU1dHN0VmQUNaNGVwT1ZQM0lPUl9WNGdnRVRZOF9TYlRoeHBYOG54a3NiRDNobDMwOUtaSDBsd1pJTktNMi1ack14dFdyOFpFZDBCbGV0bmNwbk8?oc=5",
-      "source": "Deutsche Telekom",
-      "published_at": "2026-11-03T07:40:53+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
+      "title": "PYMNTS | PYMNTS Data Shows Where CFOs Should Spend Instead of AI",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/apple-capped-ai-spending-pymnts-data-shows-where-cfos-should-spend-more/",
+      "source": "pymnts.com",
+      "published_at": "2026-11-06T01:00:00+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
       "score": 85,
-      "summary": "T-Systems and Sparxity have partnered to enhance European sovereign AI infrastructure by integrating energy-efficient computing technologies.",
-      "angle": "Highlights the growing industry focus on energy efficiency and infrastructure sovereignty within the European AI market.",
-      "discovered_via": "Google News RSS"
-    },
-    {
-      "id": "4230eecc7c609cfa",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "John Ivison : Red flags all over Carney government buy - in of AI company Cohere",
-      "url": "https://calgaryherald.com:443/np-comment/john-ivison-red-flags-all-over-carney-governments-buy-in-of-ai-company-cohere/wcm/0f0c481c-ebf1-4a32-b6bb-510f52bfff6a",
-      "source": "calgaryherald.com",
-      "published_at": "2026-11-03T02:15:00+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 85,
-      "summary": "The Canadian government has invested $1.6 billion in Cohere to bolster domestic sovereign AI capabilities, despite criticism regarding potential conflicts of interest and the company's competitive performance.",
-      "angle": "Highlights the political and economic complexities of government-backed sovereign AI strategies and national champion procurement policies.",
+      "summary": "Major enterprises are implementing AI spending caps and shifting focus from broad deployment to measuring the business value and ROI of deeper AI integration.",
+      "angle": "Highlights a market shift toward financial discipline and ROI-focused procurement in enterprise AI adoption.",
       "discovered_via": "GDELT"
     },
     {
@@ -801,20 +801,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f4d9a73d9dc90884",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Picking the 'best' embryo: Can we trust AI?",
-      "url": "https://www.progress.org.uk/picking-the-best-embryo-can-we-trust-ai/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-10-26T17:19:11+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
-      "score": 90,
-      "summary": "AI systems for embryo selection are increasingly deployed in clinical settings, offering faster processing times and comparable pregnancy outcomes to traditional manual grading by embryologists.",
-      "angle": "Adoption of AI in IVF clinics impacts operational efficiency, clinical workflows, and raises significant ethical and regulatory considerations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b21765d0ceee5635",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -857,6 +843,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "117c9798bffa6cf7",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Can AI predict miscarriage after IVF?",
+      "url": "https://www.progress.org.uk/can-ai-predict-miscarriage-after-ivf/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-02T16:14:42+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 75,
+      "summary": "Researchers have developed an AI model using five routine clinical markers to estimate the risk of early miscarriage in patients following IVF treatment.",
+      "angle": "Advances in AI-driven risk stratification tools could enhance patient counselling and support protocols within fertility clinics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "71600c242972616d",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -885,6 +885,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a05993e8b1cf48bc",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "A quiet Budget that delays the big decisions",
+      "url": "https://www.constructionnews.co.uk/sections/long-reads/a-quiet-budget-that-delays-the-big-decisions-05-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-05T10:37:09+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 85,
+      "summary": "The Autumn Budget provides minor relief through fuel duty freezes and electricity cost discounts for manufacturers, but warns of continued low demand in residential housebuilding.",
+      "angle": "Highlights ongoing regulatory stability, persistent demand headwinds in residential construction, and critical energy cost support for manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "246490bd4995e71f",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -896,20 +910,6 @@
       "score": 85,
       "summary": "UK construction sector administrations rose by a third in October, with experts warning of sustained margin pressure, cashflow challenges, and further insolvencies throughout early 2027.",
       "angle": "Rising insolvencies across the construction supply chain increase counterparty credit risk and potential project delivery delays.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a730a1ac316ad56b",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Materials sales rise but construction recovery not expected until 2028",
-      "url": "https://www.constructionnews.co.uk/supply-chain/materials-sales-rise-but-construction-recovery-not-expected-until-2028-04-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-04T11:59:57+00:00",
-      "first_seen": "2026-11-05T07:48:48.014746+00:00",
-      "score": 85,
-      "summary": "The Mineral Products Association reports a slight Q3 2026 rise in material sales, though overall demand remains depressed and a broad-based construction recovery is not expected until 2028.",
-      "angle": "Highlights prolonged market headwinds, high financing costs, and weak housing demand impacting the wider construction supply chain.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -941,31 +941,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6795a1574612f73a",
+      "id": "a2ab035701a986a6",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Comau integrates Nvidia technology to accelerate development of AI-powered robots",
-      "url": "https://roboticsandautomationnews.com/2026/10/26/comau-integrates-nvidia-technology-to-accelerate-development-of-ai-powered-robots/106373/",
+      "title": "AGIBOT unveils GO-3 Preview and takes top spot on three embodied AI benchmarks",
+      "url": "https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-26T23:06:30+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
-      "score": 85,
-      "summary": "Comau is integrating Nvidia’s Jetson edge computing and Isaac Sim simulation platform to accelerate the development and validation of autonomous, AI-driven industrial robotic systems.",
-      "angle": "Highlights industry-wide shift toward using high-fidelity simulation and edge computing to accelerate deployment of autonomous robotic inspection systems.",
+      "published_at": "2026-11-05T10:23:15+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 75,
+      "summary": "AGIBOT has unveiled GO-3 Preview, an embodied foundation model designed to improve robotic task generalization and physical manipulation through full-lifecycle learning across pre-training and post-deployment.",
+      "angle": "Advances in embodied AI foundation models and collective learning systems directly impact autonomous inspection robot capabilities and efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c96893f090e08b7c",
+      "id": "c749325d3414aa22",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Qualcomm to acquire PickNik to expand open-source robotics and physical AI capabilities",
-      "url": "https://roboticsandautomationnews.com/2026/10/26/qualcomm-to-acquire-picknik-to-expand-open-source-robotics-and-physical-ai-capabilities/106361/",
+      "title": "From human experience to robot action: LiberAI launches Liber-0 world-action model",
+      "url": "https://roboticsandautomationnews.com/2026/11/04/from-human-experience-to-robot-action-liberai-launches-liber-0-world-action-model/106378/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-10-26T22:03:54+00:00",
-      "first_seen": "2026-10-27T07:49:14.471445+00:00",
-      "score": 85,
-      "summary": "Qualcomm has agreed to acquire robotics software firm PickNik, the steward of the open-source MoveIt framework, to enhance its physical AI and robotics development capabilities.",
-      "angle": "Consolidation of key robotics software stacks by major chipmakers impacts development roadmaps for autonomous inspection hardware.",
+      "published_at": "2026-11-04T02:00:32+00:00",
+      "first_seen": "2026-11-06T07:48:58.952776+00:00",
+      "score": 75,
+      "summary": "Physical AI startup LiberAI has launched Liber-0, a World Action Model that uses human experience and glove-recorded demonstrations to improve generalizable robot manipulation capabilities.",
+      "angle": "Advances in transferring human physical experience to robots could accelerate autonomous inspection capabilities and reduce robot-specific training requirements.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -975,14 +975,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 79,
-    "llm_requests_succeeded": 79,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 26,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "providers_succeeded": 91,
+    "queued_candidates": 149,
+    "llm_requests_attempted": 92,
+    "llm_requests_succeeded": 92,
+    "dropped_no_valid_date": 31,
+    "dropped_thin_page": 25,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 3
   }
 }
