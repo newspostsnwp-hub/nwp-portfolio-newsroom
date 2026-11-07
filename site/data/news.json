@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T15:08:01.815185+00:00",
-  "digest_intro": "Good morning. Today's briefing includes one portfolio update regarding the McGraw Hill Q2 2027 earnings call transcript.",
+  "generated_at": "2026-11-07T07:49:01.547749+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-06T07:48:58.952776+00:00",
+  "last_digest_sent_at": "2026-11-07T07:49:01.547749+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 4,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "19e21fd28edc7254",
@@ -749,6 +749,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0230d984e93b88ea",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Violence down for retailers using tech to highlight prolific offenders",
+      "url": "https://www.talkingretail.com/news/industry-news/violence-down-for-retailers-using-tech-to-highlight-prolific-offenders-06-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-06T15:03:15+00:00",
+      "first_seen": "2026-11-07T07:49:01.547749+00:00",
+      "score": 85,
+      "summary": "Retailers using the Auror intelligence platform to track repeat offenders reported a 24% reduction in violent incidents, with 10% of offenders responsible for 70% of retail crime.",
+      "angle": "Provides actionable data on reducing in-store violence and managing repeat offender risk through collaborative intelligence technology.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2868174395d404f0",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -760,20 +774,6 @@
       "score": 85,
       "summary": "UK retail footfall declined by 4.7% in October 2026, with high streets experiencing a 5.2% drop attributed to poor weather, inflation, and low consumer confidence.",
       "angle": "Highlights challenging trading conditions for high street retailers and the ongoing impact of discretionary spending pressures.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b8da0186d5cf7a1a",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Allwyn UK aims to improve National Lottery experience with leadership changes",
-      "url": "https://www.talkingretail.com/featured/allwyn-uk-aims-to-improve-national-lottery-experience-with-leadership-changes-05-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-05T14:44:00+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
-      "score": 75,
-      "summary": "Allwyn UK is restructuring its leadership team to accelerate growth and improve the retail and digital experience for National Lottery players and retail partners.",
-      "angle": "Changes to National Lottery operations directly impact the retail services and customer experience for Post Office retail partners.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
-    "dropped_no_valid_date": 31,
-    "dropped_thin_page": 21,
+    "providers_succeeded": 85,
+    "queued_candidates": 133,
+    "llm_requests_attempted": 56,
+    "llm_requests_succeeded": 40,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
-    "carried_forward": 3
+    "skipped_recently_evaluated": 9,
+    "carried_forward": 4
   }
 }
