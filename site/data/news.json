@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T07:49:01.547749+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on one sector update, with no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-07T15:07:55.296683+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related developments, with no specific updates regarding The Delivery Group or UOE.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-07T07:49:01.547749+00:00",
   "companies": [
@@ -413,20 +413,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "aed35b88ed664f29",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "DPD: We are planning for a record Black Friday",
-      "url": "https://postandparcel.info/163187/news/e-commerce/dpd-we-are-planning-for-a-record-black-friday/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-28T14:21:41+00:00",
-      "first_seen": "2026-10-29T07:48:30.693540+00:00",
-      "score": 85,
-      "summary": "DPD has opened a new 63,000 sq ft automated distribution centre in Darlington, part of a wider strategy to build seven new facilities to increase national parcel capacity.",
-      "angle": "Highlights major competitor infrastructure investment and capacity expansion strategies ahead of the critical peak e-commerce trading period.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "49899235be63f055",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -438,6 +424,20 @@
       "score": 75,
       "summary": "Bnode reported disappointing parcel momentum and revised its 2026 EBIT outlook downward, citing softer-than-expected demand, commercial delays, and regulatory headwinds.",
       "angle": "Signals broader European market cooling and volume pressures affecting large-scale parcel and e-commerce logistics operators.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3fa5bab3c7ad8dda",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Tobias Meyer: We successfully continued our growth trajectory in the third quarter",
+      "url": "https://postandparcel.info/163240/news/e-commerce/tobias-meyer-we-successfully-continued-our-growth-trajectory-in-the-third-quarter/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-06T05:43:21+00:00",
+      "first_seen": "2026-11-07T15:07:55.296683+00:00",
+      "score": 75,
+      "summary": "DHL Group reported a 12.6 percent year-over-year revenue increase to EUR 22.7 billion for Q3 2026, driven by strong performance across its express, forwarding, and supply chain divisions.",
+      "angle": "Indicates strong global e-commerce and logistics demand, providing a benchmark for sector-wide growth and capacity management performance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 133,
-    "llm_requests_attempted": 56,
-    "llm_requests_succeeded": 40,
+    "providers_succeeded": 83,
+    "queued_candidates": 131,
+    "llm_requests_attempted": 73,
+    "llm_requests_succeeded": 73,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 29,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 9,
+    "dropped_thin_page": 28,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
