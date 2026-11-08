@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T15:07:55.296683+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector-related developments, with no specific updates regarding The Delivery Group or UOE.",
+  "generated_at": "2026-11-08T07:48:43.516272+00:00",
+  "digest_intro": "",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-07T07:49:01.547749+00:00",
+  "last_digest_sent_at": "2026-11-08T07:48:43.516272+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 131,
-    "llm_requests_attempted": 73,
-    "llm_requests_succeeded": 73,
+    "providers_succeeded": 88,
+    "queued_candidates": 138,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 30,
-    "dropped_thin_page": 28,
+    "dropped_thin_page": 27,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
