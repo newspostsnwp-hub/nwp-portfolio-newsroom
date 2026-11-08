@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:48:43.516272+00:00",
+  "generated_at": "2026-11-08T15:07:42.787448+00:00",
   "digest_intro": "",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-08T07:48:43.516272+00:00",
@@ -707,17 +707,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "50775e3d5e977a0b",
+      "id": "d7aa2edd76d880c5",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Tencent Cloud Enterprise Unveils Full - Stack Intelligent Private Cloud for Sovereign Agentic AI",
-      "url": "https://www.prnewswire.com/news-releases/tencent-cloud-enterprise-unveils-full-stack-intelligent-private-cloud-for-sovereign-agentic-ai-302932000.html",
-      "source": "prnewswire.com",
-      "published_at": "2026-11-06T12:30:00+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
+      "title": "Telecom Operator AI Spending in 2026 : Bell , Ooredoo , China Mobile , China Telecom and Singtel Reveal Investments and Returns",
+      "url": "https://telecomlead.com/telecom-services/telecom-operators-ai-spending-in-2026-bell-ooredoo-china-mobile-china-telecom-and-singtel-reveal-investments-and-returns-128606",
+      "source": "telecomlead.com",
+      "published_at": "2026-11-08T13:30:00+00:00",
+      "first_seen": "2026-11-08T15:07:42.787448+00:00",
       "score": 85,
-      "summary": "Tencent Cloud Enterprise has launched a full-stack private cloud suite and lite deployment model designed to enable sovereign agentic AI within highly regulated industry boundaries.",
-      "angle": "Highlights market demand for sovereign AI infrastructure and the shift toward hardware-agnostic, auditable, and private agentic AI deployments.",
+      "summary": "Global telecom operators are significantly increasing capital expenditure on AI data centers, GPU computing infrastructure, and sovereign AI cloud services to capture new enterprise revenue streams.",
+      "angle": "Highlights the growing demand for sovereign AI infrastructure and the strategic shift of telcos into AI service providers.",
       "discovered_via": "GDELT"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 81,
-    "llm_requests_succeeded": 81,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 27,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "providers_succeeded": 86,
+    "queued_candidates": 137,
+    "llm_requests_attempted": 84,
+    "llm_requests_succeeded": 84,
+    "dropped_no_valid_date": 31,
+    "dropped_thin_page": 21,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 7,
     "carried_forward": 4
   }
 }
