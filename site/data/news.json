@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T07:48:44.501036+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on a single sector update, with no specific news to report from Whitespace.",
+  "generated_at": "2026-11-09T15:07:51.235384+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector updates, as there is no specific news to report from the portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-09T07:48:44.501036+00:00",
   "companies": [
@@ -399,6 +399,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bf7ed9e2de3bca79",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "December remains the peak month for parcel theft",
+      "url": "https://postandparcel.info/163251/news/e-commerce/december-remains-the-peak-month-for-parcel-theft/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-09T12:04:15+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
+      "score": 85,
+      "summary": "UK police reports of parcel theft rose by 87% in the last year, with December remaining the peak month for incidents.",
+      "angle": "Rising theft rates increase pressure on delivery providers to improve security, authentication, and secure collection point adoption.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "dee4bada8628d911",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -427,17 +441,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3fa5bab3c7ad8dda",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Tobias Meyer: We successfully continued our growth trajectory in the third quarter",
-      "url": "https://postandparcel.info/163240/news/e-commerce/tobias-meyer-we-successfully-continued-our-growth-trajectory-in-the-third-quarter/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-06T05:43:21+00:00",
-      "first_seen": "2026-11-07T15:07:55.296683+00:00",
-      "score": 75,
-      "summary": "DHL Group reported a 12.6 percent year-over-year revenue increase to EUR 22.7 billion for Q3 2026, driven by strong performance across its express, forwarding, and supply chain divisions.",
-      "angle": "Indicates strong global e-commerce and logistics demand, providing a benchmark for sector-wide growth and capacity management performance.",
+      "id": "7d26debdcc876fd8",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Future proofing intruder alarm systems",
+      "url": "https://securityjournaluk.com/future-proofing-intruder-alarm-systems/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-09T10:11:12+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
+      "score": 85,
+      "summary": "The UK security industry faces a transition as analogue PSTN and ISDN lines are phased out by January 2027, necessitating upgrades to IP-based, resilient signalling systems.",
+      "angle": "Highlights critical infrastructure shifts and the growing necessity for IP networking and cybersecurity expertise in professional security services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -483,20 +497,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "f5d337c5e9ee28fc",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "NCSC warns about AI-powered ransomware attacks by 2028",
-      "url": "https://securityjournaluk.com/ncsc-warning-ai-ransomware-attacks-2028/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-04T14:18:49+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
-      "score": 75,
-      "summary": "The NCSC warns that AI-powered malware will likely target UK critical national infrastructure by 2028, necessitating urgent improvements in organisational cybersecurity strategies and resilience.",
-      "angle": "Heightened cyber-threats necessitate robust digital security for physical site monitoring and remote property management infrastructure.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "b3688bebe68d9428",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -511,6 +511,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8f64972c38b0b383",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Used EV batteries marketplace Rebattex partners with LKQ Atracco",
+      "url": "https://www.electrive.com/2026/11/09/used-ev-batteries-marketplace-rebattex-partners-with-lkq-atracco/",
+      "source": "electrive.com",
+      "published_at": "2026-11-09T11:30:00+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
+      "score": 65,
+      "summary": "Rebattex and LKQ Atracco have partnered to create a marketplace for trading and reselling refurbished electric vehicle batteries across Europe.",
+      "angle": "Highlights the growing secondary market for battery circularity and potential future supply chain opportunities for smaller electric vehicles.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "995a2e20dcb5c0df",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Posco Future M to supply 720,000 tonnes of battery materials to LG Energy Solution",
+      "url": "https://www.electrive.com/2026/11/09/posco-future-m-to-supply-720000-tonnes-of-battery-materials-to-lg-energy-solution/",
+      "source": "electrive.com",
+      "published_at": "2026-11-09T11:00:00+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
+      "score": 65,
+      "summary": "Posco Future M and LG Energy Solution have signed an agreement to supply 720,000 tonnes of battery materials, including LFP and silicon anodes, between 2027 and 2033.",
+      "angle": "Signals a major industry shift toward LFP and cost-effective battery chemistries, impacting long-term supply chain and component pricing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "db38b0408392a966",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -522,34 +550,6 @@
       "score": 65,
       "summary": "Fraunhofer researchers have developed a modular evaluation model to compare the economic and ecological efficiency of various lithium-ion battery recycling processes.",
       "angle": "Provides a framework for assessing battery lifecycle costs and sustainability, crucial for future micromobility circular economy compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4f184cf4e1d4f135",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "EU Parliament: Environment Committee votes to relax CO2 rules",
-      "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/",
-      "source": "electrive.com",
-      "published_at": "2026-11-05T11:30:46+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
-      "score": 65,
-      "summary": "The European Parliament's Environment Committee has voted to relax 2035 CO2 reduction targets for new cars and vans, potentially allowing continued sales of internal combustion engine vehicles.",
-      "angle": "Regulatory shifts affecting the transition to electric vehicles impact the broader competitive landscape for micromobility solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e2feffe898fffd48",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Bosch to restructure semiconductor business from 2028",
-      "url": "https://www.electrive.com/2026/11/03/bosch-to-restructure-semiconductor-business-from-2028/",
-      "source": "electrive.com",
-      "published_at": "2026-11-03T15:00:00+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 65,
-      "summary": "Bosch will establish an independent 'Semiconductors' division within its Mobility sector by 2028 to expand production capacity and target new markets including industrial automation and artificial intelligence.",
-      "angle": "Bosch is a major e-bike component supplier; restructuring may impact future supply chain stability and chip availability.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -651,17 +651,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "8dcf15b8b50eb434",
+      "id": "8228bb791754d98d",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "PackUK reveals one in seven producers supplies exclusively red-rated packaging",
-      "url": "https://www.packagingnews.co.uk/news/environment/packuk-reveals-one-in-seven-producers-supplies-exclusively-red-rated-packaging-06-11-2026",
+      "title": "Exchange for Change publishes first certified Reverse Vending Machine list for DRS",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/exchange-for-change-publishes-first-certified-reverse-vending-machine-list-for-drs-09-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-06T11:07:47+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
+      "published_at": "2026-11-09T09:21:54+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
       "score": 85,
-      "summary": "PackUK data indicates 14% of producers supply exclusively red-rated packaging, highlighting significant challenges in achieving a circular packaging system and potential future pEPR fee modulation.",
-      "angle": "Regulatory pressure on packaging recyclability and future fee modulation directly impacts material selection and design strategies for manufacturers.",
+      "summary": "Exchange for Change has published its first list of 54 certified Reverse Vending Machine models from seven suppliers ahead of the October 2027 Deposit Return Scheme launch.",
+      "angle": "Regulatory progress on DRS infrastructure directly impacts the operational landscape for beverage packaging manufacturers and their retail partners.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -721,20 +721,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "009a3a59144e85b6",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Post Office welcomes announcement of new government investment",
-      "url": "https://www.talkingretail.com/featured/post-office-welcomes-announcement-of-new-government-investment-30-10-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-10-30T09:18:50+00:00",
-      "first_seen": "2026-10-30T15:07:40.580448+00:00",
-      "score": 95,
-      "summary": "The UK government announced budget support for the Post Office, including funding for 600 branch modernisations, 1,000 new self-service drop boxes, and business rates relief for postmasters.",
-      "angle": "Direct impact on operational infrastructure, service capabilities, and financial overheads for independent Post Office retail operators.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "2b979353e22602c1",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -749,31 +735,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "0230d984e93b88ea",
+      "id": "254c67120176f901",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Violence down for retailers using tech to highlight prolific offenders",
-      "url": "https://www.talkingretail.com/news/industry-news/violence-down-for-retailers-using-tech-to-highlight-prolific-offenders-06-11-2026/",
+      "title": "Why retail colleague safety must remain a priority all year round | Viewpoint: Beth Worrall",
+      "url": "https://www.talkingretail.com/opinion/talking-points/why-retail-colleague-safety-must-remain-a-priority-all-year-round-viewpoint-beth-worrall-09-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-06T15:03:15+00:00",
-      "first_seen": "2026-11-07T07:49:01.547749+00:00",
+      "published_at": "2026-11-09T13:22:49+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
       "score": 85,
-      "summary": "Retailers using the Auror intelligence platform to track repeat offenders reported a 24% reduction in violent incidents, with 10% of offenders responsible for 70% of retail crime.",
-      "angle": "Provides actionable data on reducing in-store violence and managing repeat offender risk through collaborative intelligence technology.",
+      "summary": "The National Week of Action highlights retail violence, noting 1,600 daily incidents and the effectiveness of new reporting tools and legislation in protecting frontline staff.",
+      "angle": "Highlights critical safety trends, legislative updates, and technological solutions for managing retail crime and staff wellbeing.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2868174395d404f0",
+      "id": "7a83352dfc755c8e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Shopper numbers dip in October",
-      "url": "https://www.talkingretail.com/news/industry-news/shopper-numbers-dip-in-october-06-11-2026/",
+      "title": "ShopKind Week and National Week of Action puts retail crime and abuse in the spotlight",
+      "url": "https://www.talkingretail.com/featured/shopkind-week-and-national-week-of-action-puts-retail-crime-and-abuse-in-the-spotlight-09-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-06T11:42:16+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
+      "published_at": "2026-11-09T12:03:39+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
       "score": 85,
-      "summary": "UK retail footfall declined by 4.7% in October 2026, with high streets experiencing a 5.2% drop attributed to poor weather, inflation, and low consumer confidence.",
-      "angle": "Highlights challenging trading conditions for high street retailers and the ongoing impact of discretionary spending pressures.",
+      "summary": "Four national retail campaigns have united for a week of action to tackle rising retail crime, abuse, and antisocial behaviour against shopworkers across the UK.",
+      "angle": "Highlights industry-wide initiatives and enhanced police collaboration to address retail crime and improve staff safety.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7d4786543b521648",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Over half of shop workers face abuse every week, new research shows",
+      "url": "https://www.talkingretail.com/featured/over-half-of-shop-workers-face-abuse-every-week-new-research-shows-09-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-09T11:07:22+00:00",
+      "first_seen": "2026-11-09T15:07:51.235384+00:00",
+      "score": 85,
+      "summary": "New research from the Retail Trust indicates that 54% of UK retail workers now face weekly abuse, with 79% experiencing an abusive or violent situation in the past year.",
+      "angle": "Rising retail crime and staff abuse impact operational safety, employee retention, and security costs across the high street.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 112,
-    "llm_requests_attempted": 59,
-    "llm_requests_succeeded": 59,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 22,
+    "providers_succeeded": 85,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 75,
+    "llm_requests_succeeded": 75,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 8,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 4
   }
 }
