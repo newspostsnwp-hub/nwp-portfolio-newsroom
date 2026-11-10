@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T07:49:03.204072+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-11-10T15:08:10.882025+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-10T07:49:03.204072+00:00",
   "companies": [
@@ -399,6 +399,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d4c3cd27fc1d0cc0",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Logistics UK: International companies invest in countries where goods move efficiently",
+      "url": "https://postandparcel.info/163278/news/e-commerce/logistics-uk-international-companies-invest-in-countries-where-goods-move-efficiently/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-10T05:53:51+00:00",
+      "first_seen": "2026-11-10T15:08:10.882025+00:00",
+      "score": 85,
+      "summary": "Logistics UK is lobbying policymakers to reduce post-Brexit trade frictions and regulatory barriers between the UK and EU to boost economic growth and supply chain efficiency.",
+      "angle": "Highlights critical regulatory and border friction challenges impacting cross-border parcel and mail delivery efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bf7ed9e2de3bca79",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -424,20 +438,6 @@
       "score": 75,
       "summary": "Bnode reported disappointing parcel momentum and revised its 2026 EBIT outlook downward, citing softer-than-expected demand, commercial delays, and regulatory headwinds.",
       "angle": "Signals broader European market cooling and volume pressures affecting large-scale parcel and e-commerce logistics operators.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3fa5bab3c7ad8dda",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Tobias Meyer: We successfully continued our growth trajectory in the third quarter",
-      "url": "https://postandparcel.info/163240/news/e-commerce/tobias-meyer-we-successfully-continued-our-growth-trajectory-in-the-third-quarter/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-06T05:43:21+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 75,
-      "summary": "DHL Group reported a 12.6 percent year-over-year revenue increase to EUR 22.7 billion for Q3 2026, driven by strong performance across its express, forwarding, and supply chain divisions.",
-      "angle": "Indicates strong global e-commerce and logistics demand, providing a benchmark for sector-wide volume and yield performance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -679,6 +679,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "586ad4cabab28b49",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Israel plans sovereign AI stack with 300,000 GPUs to secure critical infrastructure from foreign dependence - streamlinefeed.co.ke",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUZhSGdWNDlhQkVzMzdHblgzY2t1Q0hJYXNzdEkyNkozWFdoZEtjMkRYa2ktV3M4anphSXk4VGdRRTdhZ2ktUnhzcTNGUDZHRFpYaVh0dHhYeEk4cTg1MVlxY25IdHd4YTBJN1F3OHdlX1hwajN1dXVPdW1RN0tQNVdaX2lBRHJ6azBiNGw5Y3ZpR29sRTZmZ2xIZ3IwX3JzRGFncS1PT0VhZG5FanJrM3Z6UXVTRGFDbmRaUm90NW5iNmxIczJWZXpQQlhYSzBBZ1hrcDV6VQ?oc=5",
+      "source": "streamlinefeed.co.ke",
+      "published_at": "2026-11-10T11:30:13+00:00",
+      "first_seen": "2026-11-10T15:08:10.882025+00:00",
+      "score": 90,
+      "summary": "Israel is developing a sovereign AI stack utilizing 300,000 GPUs to reduce reliance on foreign technology and protect critical national infrastructure.",
+      "angle": "Highlights growing global momentum for sovereign AI infrastructure and the strategic prioritisation of domestic compute independence.",
+      "discovered_via": "Google News RSS"
+    },
+    {
       "id": "95ca0faa92ad51f6",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -704,20 +718,6 @@
       "score": 90,
       "summary": "A global TCS study reveals that 43% of European enterprises view AI sovereignty as a high organizational risk, while security and governance remain primary deployment barriers.",
       "angle": "Validates market demand for sovereign AI solutions that address critical data control, security, and governance requirements.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "24db645e5151a321",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI is attacking our freedom of though , here three ways to fight back",
-      "url": "https://www.cityam.com/ai-is-attacking-our-freedom-of-though-heres-three-ways-to-fight-back/",
-      "source": "cityam.com",
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 85,
-      "summary": "The author argues that reliance on a few frontier AI models creates systemic risks and advocates for sovereign AI to ensure independent judgement and data control.",
-      "angle": "Validates market demand for sovereign, private AI deployments as an alternative to centralized frontier model dependency.",
       "discovered_via": "GDELT"
     },
     {
@@ -777,6 +777,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d33579998cc05221",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "States Make Progress on Outcomes-Based Higher Education",
+      "url": "https://www.insidehighered.com/news/students/careers/2026/11/10/states-make-progress-outcomes-based-higher-education",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "first_seen": "2026-11-10T15:08:10.882025+00:00",
+      "score": 85,
+      "summary": "The 2026 Strada State Opportunities Index reports that US states are increasingly prioritising outcomes-based higher education, with significant improvements in work-based learning, career coaching, and data infrastructure.",
+      "angle": "Shift toward outcomes-based education and data-driven employability metrics impacts curriculum design and digital learning resource requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c45709410546c81d",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "As 3-Year Degrees Proliferate, Some Pioneers Face Roadblocks",
+      "url": "https://www.insidehighered.com/news/students/academics/2026/11/10/3-year-degrees-grow-popularity",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "first_seen": "2026-11-10T15:08:10.882025+00:00",
+      "score": 85,
+      "summary": "Higher education institutions are increasingly launching three-year bachelor's degree programs, though widespread adoption is currently hindered by limited public awareness and marketing challenges.",
+      "angle": "Shift toward accelerated degree models impacts curriculum design, textbook demand, and digital learning resource requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2f0c2dfc9958d4e6",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -802,34 +830,6 @@
       "score": 85,
       "summary": "The U.S. Department of Education faces potential restructuring or elimination efforts by the current administration, with upcoming congressional shifts expected to influence the agency's future operations and funding.",
       "angle": "Federal oversight, funding, and research mandates directly impact the regulatory environment and market stability for education publishers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c0ec58d3db9b9801",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "AI Article Review ‘Better Than Humans at Their Best’",
-      "url": "https://www.insidehighered.com/news/faculty/books-publishing/2026/11/05/ai-article-review-better-humans-their-best",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
-      "score": 85,
-      "summary": "Harvard researchers found that AI-generated peer reviews outperformed human reviewers across all measured criteria, suggesting a significant shift in academic publishing and editorial workflows.",
-      "angle": "Highlights potential for AI to disrupt traditional academic publishing workflows, editorial efficiency, and quality control standards.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "76844a8c6629d0d6",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "The 90-Credit Degree Deserves a Name of Its Own",
-      "url": "https://www.insidehighered.com/opinion/views/2026/11/05/90-credit-degree-deserves-name-its-own-opinion",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
-      "score": 85,
-      "summary": "Higher education institutions are increasingly adopting three-year, 90-credit degree programs, prompting calls for a standardized, distinct naming convention to differentiate them from traditional 120-credit bachelor's degrees.",
-      "angle": "Shifting degree structures impact curriculum design, textbook requirements, and the market for higher education learning materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 138,
-    "llm_requests_attempted": 93,
-    "llm_requests_succeeded": 93,
+    "providers_succeeded": 77,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 60,
+    "llm_requests_succeeded": 60,
     "dropped_no_valid_date": 27,
-    "dropped_thin_page": 18,
+    "dropped_thin_page": 28,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 6,
     "carried_forward": 4
   }
 }
