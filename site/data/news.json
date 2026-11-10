@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T15:07:51.235384+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector updates, as there is no specific news to report from the portfolio companies.",
+  "generated_at": "2026-11-10T07:49:03.204072+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-09T07:48:44.501036+00:00",
+  "last_digest_sent_at": "2026-11-10T07:49:03.204072+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -413,20 +413,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "dee4bada8628d911",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Amazon Q3: Faster Deliveries Help Capture More Retail Market Share",
-      "url": "https://postandparcel.info/163210/news/e-commerce/amazon-q3-faster-deliveries-help-capture-more-retail-market-share/",
-      "source": "postandparcel.info",
-      "published_at": "2026-10-30T18:29:37+00:00",
-      "first_seen": "2026-10-31T07:49:05.442992+00:00",
-      "score": 85,
-      "summary": "Amazon reported record Q3 delivery speeds, with over 1.5 billion items delivered same-day or overnight, as the company continues to expand its global logistics and ultra-fast delivery infrastructure.",
-      "angle": "Highlights increasing consumer expectations for delivery speed and the competitive pressure of integrated logistics networks on independent providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "49899235be63f055",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -438,6 +424,20 @@
       "score": 75,
       "summary": "Bnode reported disappointing parcel momentum and revised its 2026 EBIT outlook downward, citing softer-than-expected demand, commercial delays, and regulatory headwinds.",
       "angle": "Signals broader European market cooling and volume pressures affecting large-scale parcel and e-commerce logistics operators.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3fa5bab3c7ad8dda",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Tobias Meyer: We successfully continued our growth trajectory in the third quarter",
+      "url": "https://postandparcel.info/163240/news/e-commerce/tobias-meyer-we-successfully-continued-our-growth-trajectory-in-the-third-quarter/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-06T05:43:21+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
+      "score": 75,
+      "summary": "DHL Group reported a 12.6 percent year-over-year revenue increase to EUR 22.7 billion for Q3 2026, driven by strong performance across its express, forwarding, and supply chain divisions.",
+      "angle": "Indicates strong global e-commerce and logistics demand, providing a benchmark for sector-wide volume and yield performance.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -707,17 +707,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "6bfade0840f137c7",
+      "id": "24db645e5151a321",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "NVIDIA , Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
-      "url": "https://www.manilatimes.net/2026/11/09/tmt-newswire/globenewswire/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion/2464878",
-      "source": "manilatimes.net",
-      "published_at": "2026-11-09T06:00:00+00:00",
-      "first_seen": "2026-11-09T07:48:44.501036+00:00",
+      "title": "AI is attacking our freedom of though , here three ways to fight back",
+      "url": "https://www.cityam.com/ai-is-attacking-our-freedom-of-though-heres-three-ways-to-fight-back/",
+      "source": "cityam.com",
+      "published_at": "2026-11-10T06:00:00+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
       "score": 85,
-      "summary": "NVIDIA, Rebellions, and SK Telecom are collaborating to integrate Korean-designed NPUs with NVIDIA’s NVLink Fusion and MGX architecture to advance sovereign AI infrastructure in South Korea.",
-      "angle": "Demonstrates a model for integrating domestic silicon with global infrastructure to achieve full-stack sovereign AI capabilities.",
+      "summary": "The author argues that reliance on a few frontier AI models creates systemic risks and advocates for sovereign AI to ensure independent judgement and data control.",
+      "angle": "Validates market demand for sovereign, private AI deployments as an alternative to centralized frontier model dependency.",
       "discovered_via": "GDELT"
     },
     {
@@ -833,6 +833,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "dfcfa848b22c05dd",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "IVF works more quickly than IUI for patients with unexplained infertility",
+      "url": "https://www.progress.org.uk/ivf-works-more-quickly-than-iui-for-patients-with-unexplained-infertility/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-09T16:49:54+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
+      "score": 95,
+      "summary": "A University of Auckland study found that IVF leads to live births faster than IUI for couples with unexplained infertility, though both methods show similar long-term success rates.",
+      "angle": "Provides clinical evidence influencing treatment pathways and patient counselling for fertility clinics regarding IUI versus IVF protocols.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "d67552e5034d5f9c",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Under the Influence: Fertility, Advertising and Social Media",
+      "url": "https://www.progress.org.uk/under-the-influence-fertility-advertising-and-social-media/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-09T16:51:52+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
+      "score": 85,
+      "summary": "A panel of experts discussed how social media misinformation and targeted advertising increasingly shape patient understanding of fertility treatments, often creating unrealistic expectations and anxiety.",
+      "angle": "Clinicians face a growing need to counter online misinformation and provide evidence-based guidance to patients.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b21765d0ceee5635",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -858,34 +886,6 @@
       "score": 85,
       "summary": "Two recent studies, including a large-scale analysis, found that hyaluronan-enriched transfer medium, commonly known as EmbryoGlue, does not improve clinical pregnancy rates in IVF cycles.",
       "angle": "Increased clinical scrutiny of IVF add-ons impacts clinic service offerings, pricing transparency, and patient trust in elective procedures.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fa0eb7b2c88261c6",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "To err is human: How human embryos rarely get it right",
-      "url": "https://www.progress.org.uk/to-err-is-human-how-human-embryos-rarely-get-it-right/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-02T16:17:00+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 85,
-      "summary": "Research indicates that early human embryos frequently exhibit chromosomal mosaicism, yet many can still result in successful pregnancies and healthy births.",
-      "angle": "Challenges the clinical reliance on PGT-A and highlights the potential for higher success rates from embryos previously discarded.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "117c9798bffa6cf7",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Can AI predict miscarriage after IVF?",
-      "url": "https://www.progress.org.uk/can-ai-predict-miscarriage-after-ivf/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-02T16:14:42+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 75,
-      "summary": "Researchers have developed an AI model using five routine clinical markers to estimate the risk of early miscarriage in patients following IVF treatment.",
-      "angle": "Advances in AI-driven risk stratification tools could enhance patient counselling and support protocols within fertility clinics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -945,6 +945,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bf8a4d629e35c240",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "From TractEasy to TLD Robotics: A new chapter in autonomous airport operations",
+      "url": "https://roboticsandautomationnews.com/2026/11/09/from-tracteasy-to-tld-robotics-a-new-chapter-in-autonomous-airport-operations/106859/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-09T19:55:36+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
+      "score": 85,
+      "summary": "ALVEST Group has consolidated EasyMile, TractEasy, and TLD’s autonomous vehicle activities into a single entity, TLD Robotics, to streamline the deployment of autonomous ground support equipment at airports.",
+      "angle": "Highlights industry consolidation and the shift from experimental trials to integrated, full-scale commercial autonomous operations in airport environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "30ebb2161a9aa1d0",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Opinion: Supervised autonomy in robotics starts with the robot’s worst day",
+      "url": "https://roboticsandautomationnews.com/2026/11/09/opinion-supervised-autonomy-in-robotics-starts-with-the-robots-worst-day/106840/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-09T18:17:27+00:00",
+      "first_seen": "2026-11-10T07:49:03.204072+00:00",
+      "score": 85,
+      "summary": "The article argues that supervised autonomy in robotics requires pre-defined protocols for handling operational exceptions and clear human-in-the-loop escalation procedures to ensure reliability.",
+      "angle": "Critical framework for designing human-robot interaction and safety protocols in autonomous infrastructure inspection environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "55e9c3accbf1a62d",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -971,34 +999,6 @@
       "summary": "TorqueAGI has developed a spatio-temporal world-reasoning model for industrial robots that incorporates physics and geometry to enable task adaptation with minimal demonstration data.",
       "angle": "Highlights a shift towards physics-based AI models that reduce data requirements and improve reliability for complex industrial inspection tasks.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a2ab035701a986a6",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "AGIBOT unveils GO-3 Preview and takes top spot on three embodied AI benchmarks",
-      "url": "https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-05T10:23:15+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 75,
-      "summary": "AGIBOT has unveiled GO-3 Preview, an embodied foundation model designed to improve robotic task generalization and physical manipulation through full-lifecycle learning across pre-training and post-deployment.",
-      "angle": "Advances in embodied AI foundation models and collective learning systems directly impact autonomous inspection robot capabilities and efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c749325d3414aa22",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "From human experience to robot action: LiberAI launches Liber-0 world-action model",
-      "url": "https://roboticsandautomationnews.com/2026/11/04/from-human-experience-to-robot-action-liberai-launches-liber-0-world-action-model/106378/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-04T02:00:32+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 75,
-      "summary": "Physical AI startup LiberAI has launched Liber-0, a World Action Model that uses human experience and glove-recorded demonstrations to improve generalizable robot manipulation capabilities.",
-      "angle": "Advances in transferring human physical experience to robots could accelerate autonomous inspection capabilities and reduce robot-specific training requirements.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 75,
-    "llm_requests_succeeded": 75,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 29,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 6,
+    "providers_succeeded": 87,
+    "queued_candidates": 138,
+    "llm_requests_attempted": 93,
+    "llm_requests_succeeded": 93,
+    "dropped_no_valid_date": 27,
+    "dropped_thin_page": 18,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
