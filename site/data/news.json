@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T07:49:06.205139+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from Clearway Group, Petainer, Roof-Maker, or UOE.",
+  "generated_at": "2026-11-11T15:07:27.837156+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-11T07:49:06.205139+00:00",
   "companies": [
@@ -455,6 +455,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "db788104fa5b5627",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Delays as local authorities prepare for Martyn’s Law",
+      "url": "https://securityjournaluk.com/delays-local-authorities-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-11T10:14:53+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 85,
+      "summary": "New data reveals that 67.6% of UK local authorities have not budgeted for Martyn’s Law, creating potential future bottlenecks for security infrastructure and consultation services.",
+      "angle": "Highlights a looming surge in demand for security compliance services once final legislative guidance is published.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7d26debdcc876fd8",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -480,20 +494,6 @@
       "score": 85,
       "summary": "The UK government is introducing new laws and an independent watchdog to regulate police use of facial recognition technology, alongside a separate code for the private sector.",
       "angle": "New regulatory codes for private sector facial recognition use will impact compliance and operational standards for security providers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "203e2c1dc74853bf",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Physical response and recurring revenue in the security industry",
-      "url": "https://securityjournaluk.com/physical-response-revenue-security-install/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-03T08:45:00+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 85,
-      "summary": "The article discusses how security installers are increasingly integrating physical response services with alarm monitoring to create sustainable, recurring revenue streams for commercial and vacant property sites.",
-      "angle": "Highlights the industry shift toward bundling technology-led detection with physical intervention to improve customer retention and service value.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -567,6 +567,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "c0858e6d35fd455f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "ASUS Shows New ProArt Laptops and Monitors at Adobe MAX",
+      "url": "https://postperspective.com/asus-highlights-new-proart-systems-and-displays-at-adobe-max/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-10T22:12:32+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 75,
+      "summary": "ASUS unveiled new ProArt workstations and monitors at Adobe MAX 2026, featuring local AI processing capabilities and high-performance hardware for professional video editing and VFX workflows.",
+      "angle": "Advancements in local AI-integrated hardware offer post-production facilities potential efficiency gains and reduced reliance on cloud-based processing.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "b80dff39b0aacab1",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Flanders Introduces Seven Cost-Effective QD-OLED Monitors",
+      "url": "https://postperspective.com/flanders-introduces-seven-cost-effective-qd-oled-monitors/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-10T17:50:55+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 75,
+      "summary": "Flanders Scientific has launched two new series of QD-OLED reference monitors, the VP and V, offering professional-grade image quality at lower price points by omitting certain advanced onboard features.",
+      "angle": "Enables post-production facilities to cost-effectively standardise high-end reference monitoring across more workstations and suites.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "446a846b0accab4e",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -579,34 +607,6 @@
       "summary": "Weta FX has partnered with the Taiwan Creative Content Agency to establish Taiwan as an AI hub for the content industry, including investment in local VFX house Moonshine Studio.",
       "angle": "Highlights the strategic integration of AI technology and international partnerships to scale VFX production capabilities globally.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "061701dc95614225",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Harbor Opens Second New York City Post Studio in Hudson Square",
-      "url": "https://postperspective.com/harbor-opens-second-new-york-city-post-studio-in-hudson-square/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-04T19:33:24+00:00",
-      "first_seen": "2026-11-05T07:48:48.014746+00:00",
-      "score": 75,
-      "summary": "Harbor has opened a second post-production facility in New York City, featuring expanded capacity for color, sound, VFX, and editorial services.",
-      "angle": "Demonstrates competitor expansion and the impact of long-term tax credit stability on post-production infrastructure investment.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "37f72216a02575d3",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "iZotope Intros Photon for AI-Powered Stem Separation and Denoising",
-      "url": "https://postperspective.com/izotope-intros-photon-for-ai-powered-stem-separation-and-denoising/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-03T17:13:06+00:00",
-      "first_seen": "2026-11-05T07:48:48.014746+00:00",
-      "score": 75,
-      "summary": "iZotope has launched Photon, an AI-powered application and ARA plugin designed for advanced stem separation and audio enhancement, including dialogue cleanup and noise reduction.",
-      "angle": "Advances in AI-driven audio processing tools improve efficiency and quality for post-production sound workflows.",
-      "discovered_via": "Sector RSS"
     },
     {
       "id": "2c9fc3e5e9d00085",
@@ -735,6 +735,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "276216c8d381606e",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Government scheme to tackle prolific shop thieves backed by retail and police leaders",
+      "url": "https://www.talkingretail.com/featured/government-scheme-to-tackle-prolific-shop-theft-backed-by-retail-and-police-leaders-11-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-11T10:06:05+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 90,
+      "summary": "The government has launched a pilot scheme targeting 500 prolific retail offenders with tougher restrictions, including Criminal Behaviour Orders and intensive supervision, to reduce shop theft.",
+      "angle": "Direct policy intervention addressing retail crime, a critical operational risk for independent high street stationery and post office chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2b979353e22602c1",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -749,31 +763,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7ea3f2be0d92f668",
+      "id": "bceca6576ed74829",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Rates freeze welcome, but where’s the breathing space? | Viewpoint: Dominic Wade",
-      "url": "https://www.talkingretail.com/opinion/talking-points/rates-freeze-welcome-but-wheres-the-breathing-space-viewpoint-dominic-wade-10-11-2026/",
+      "title": "National Lottery Christmas campaign launched to help drive retail footfall",
+      "url": "https://www.talkingretail.com/featured/national-lottery-christmas-campaign-launched-to-help-drive-retail-footfall-11-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-10T13:15:06+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "published_at": "2026-11-11T11:11:41+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
       "score": 85,
-      "summary": "The UK government's business rates freeze may still result in a 3.5% bill increase for retailers, despite removing 70,000 small businesses from the tax system.",
-      "angle": "Highlights ongoing cost pressures and regulatory challenges for independent high-street retailers despite minor government relief measures.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "254c67120176f901",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Why retail colleague safety must remain a priority all year round | Viewpoint: Beth Worrall",
-      "url": "https://www.talkingretail.com/opinion/talking-points/why-retail-colleague-safety-must-remain-a-priority-all-year-round-viewpoint-beth-worrall-09-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-09T13:22:49+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "The National Week of Action highlights retail violence, noting 1,600 daily incidents and the effectiveness of new reporting tools and legislation in protecting frontline staff.",
-      "angle": "Highlights critical safety trends, legislative updates, and technological solutions for managing retail crime and staff wellbeing.",
+      "summary": "Allwyn UK has launched a 10-week Christmas marketing campaign for The National Lottery, providing 41,000 retail outlets with festive point-of-sale materials to drive footfall and scratchcard sales.",
+      "angle": "National Lottery services are a key footfall driver for independent retail chains during the critical Christmas trading period.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -861,6 +861,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d9f2039f49c3e470",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "IVF add-ons: What information do patients want?",
+      "url": "https://www.progress.org.uk/ivf-add-ons-what-information-do-patients-want/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-09T16:43:37+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 85,
+      "summary": "A study in Human Reproduction identifies that patients primarily value live birth rates when evaluating IVF add-ons, while also considering costs and potential regret.",
+      "angle": "Provides critical insights into patient decision-making and communication priorities regarding elective IVF treatment add-ons.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b21765d0ceee5635",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -872,20 +886,6 @@
       "score": 85,
       "summary": "A qualitative study highlights patient distress and ethical concerns regarding the use of PGT-A to categorically refuse the transfer of embryos labelled as abnormal.",
       "angle": "Highlights growing clinical and ethical debate over PGT-A protocols, potentially necessitating policy reviews regarding embryo transfer and informed consent.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "40235cd90c2595cc",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "'EmbryoGlue' did not improve pregnancy rates in two studies",
-      "url": "https://www.progress.org.uk/embryoglue-did-not-improve-pregnancy-rates-in-two-studies/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-02T16:26:27+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 85,
-      "summary": "Two recent studies, including a large-scale analysis, found that hyaluronan-enriched transfer medium, commonly known as EmbryoGlue, does not improve clinical pregnancy rates in IVF cycles.",
-      "angle": "Increased clinical scrutiny of IVF add-ons impacts clinic service offerings, pricing transparency, and patient trust in elective procedures.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,45 +903,59 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "fe46baf6c7f9249b",
+      "id": "90fc52a918368a84",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Middle East conflict worsens outlook for sub-£100m starts, says Glenigan",
-      "url": "https://www.constructionnews.co.uk/sections/data/middle-east-conflict-worsens-outlook-for-sub-100m-starts-says-glenigan-10-11-2026/",
+      "title": "Rayner convenes construction and Whitehall chiefs to tackle homes delivery",
+      "url": "https://www.constructionnews.co.uk/buildings/rayner-to-launch-housing-delivery-board-to-tackle-building-delays-11-11-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-11-10T12:00:39+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "published_at": "2026-11-11T12:45:43+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
       "score": 85,
-      "summary": "Glenigan forecasts a 13 per cent decline in sub-£100m construction project starts for 2026, with private housing identified as the weakest major sector.",
-      "angle": "Signals reduced demand for residential glazing products and highlights broader macroeconomic headwinds impacting the UK construction pipeline.",
+      "summary": "Housing Secretary Angela Rayner is launching a new housing delivery board to address planning, regulatory, and financial barriers currently hindering the government's 1.5 million home delivery target.",
+      "angle": "Government focus on accelerating housing delivery and addressing construction viability directly impacts demand for residential building products.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "71600c242972616d",
+      "id": "2a6f6145db1955bd",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Britain’s hothouse future calls for evidence-led retrofit",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/britains-hothouse-future-calls-for-evidence-led-retrofit-05-11-2026/",
+      "title": "Building Safety Bill: more work, greater liability?",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/building-safety-bill-more-work-greater-liability-11-11-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-11-05T14:45:38+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
+      "published_at": "2026-11-11T12:26:26+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
       "score": 85,
-      "summary": "The construction industry faces increasing pressure to retrofit existing buildings to prevent overheating, with new regulations and standards demanding evidence-based performance modelling rather than reliance on mechanical cooling.",
-      "angle": "Highlights the critical role of glazing specifications in building thermal performance and climate resilience for future retrofits.",
+      "summary": "The UK government has published the Building Safety (Remediation of Unsafe Cladding etc) Bill, introducing significant new regulatory requirements and liabilities for the construction industry.",
+      "angle": "Increased regulatory scrutiny and liability frameworks directly impact compliance and product standards within the UK construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e552cf699399535c",
+      "id": "18d92a8b41a0fadf",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Construction activity down for 22nd successive month",
-      "url": "https://www.constructionnews.co.uk/sections/data/construction-activity-down-for-22nd-successive-month-05-11-2026/",
+      "title": "Forterra cuts profit forecast as brick deliveries fall 11%",
+      "url": "https://www.constructionnews.co.uk/financial/forterra-cuts-profit-forecast-as-brick-deliveries-fall-11-11-11-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-11-05T11:55:30+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
+      "published_at": "2026-11-11T11:50:25+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
       "score": 85,
-      "summary": "The UK construction sector has experienced 22 consecutive months of declining activity, with the October Purchasing Managers' Index falling to 43.6.",
-      "angle": "Indicates a prolonged downturn in construction demand, impacting the broader market for building products and glazing components.",
+      "summary": "Brick manufacturer Forterra has lowered its annual profit forecast following an 11 per cent decline in industry deliveries and subdued demand for home extensions and new-build housing.",
+      "angle": "Signals sustained weakness in the UK residential construction and home improvement markets affecting building materials suppliers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1965b622875a025d",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Path Robotics raises stunning $300 million at $2.45 billion valuation to expand physical AI in manufacturing",
+      "url": "https://roboticsandautomationnews.com/2026/11/10/path-robotics-raises-stunning-300-million-at-2-45-billion-valuation-to-expand-physical-ai-in-manufacturing/106929/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-10T14:32:27+00:00",
+      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "score": 85,
+      "summary": "Path Robotics raised $300 million in Series E funding to scale its physical AI platform for manufacturing, achieving a $2.45 billion valuation.",
+      "angle": "Validates strong investor appetite for physical AI and autonomous systems capable of adapting to complex, real-world industrial environments.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -985,20 +999,6 @@
       "summary": "ISO 21423:2026 has been published, establishing a new international standard for communication and interoperability between mobile robots from different vendors within industrial environments.",
       "angle": "Standardised interoperability allows for multi-vendor fleet integration, improving operational efficiency and scalability in complex industrial inspection environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "926bc71bff1546d1",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Interview with TorqueAGI founder: ‘Most robot AI is a language or vision model with robot data added to it’",
-      "url": "https://roboticsandautomationnews.com/2026/11/02/interview-with-torqueagi-founder-most-robot-ai-is-a-language-or-vision-model-with-robot-data-added-to-it/106584/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-02T08:55:22+00:00",
-      "first_seen": "2026-11-02T15:08:10.377526+00:00",
-      "score": 85,
-      "summary": "TorqueAGI has developed a spatio-temporal world-reasoning model for industrial robots that incorporates physics and geometry to enable task adaptation with minimal demonstration data.",
-      "angle": "Highlights a shift towards physics-based AI models that reduce data requirements and improve reliability for complex industrial inspection tasks.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
+    "providers_succeeded": 86,
+    "queued_candidates": 148,
+    "llm_requests_attempted": 93,
+    "llm_requests_succeeded": 93,
     "dropped_no_valid_date": 27,
-    "dropped_thin_page": 29,
+    "dropped_thin_page": 28,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 6,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
