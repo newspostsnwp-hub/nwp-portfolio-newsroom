@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T15:08:10.882025+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on eight sector updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-11T07:49:06.205139+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, with no specific news to report from Clearway Group, Petainer, Roof-Maker, or UOE.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-10T07:49:03.204072+00:00",
+  "last_digest_sent_at": "2026-11-11T07:49:06.205139+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -441,6 +441,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d33208c961a9be8b",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "New tools to support preparation for Martyn’s Law",
+      "url": "https://securityjournaluk.com/new-tools-to-support-prep-for-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-11T07:30:00+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 90,
+      "summary": "The Security Industry Authority has released new planning tools to help premises and events prepare for compliance with the upcoming Martyn’s Law legislation, effective from spring 2027.",
+      "angle": "Provides regulatory clarity and compliance frameworks for security providers managing publicly accessible premises and events.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7d26debdcc876fd8",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -480,20 +494,6 @@
       "score": 85,
       "summary": "The article discusses how security installers are increasingly integrating physical response services with alarm monitoring to create sustainable, recurring revenue streams for commercial and vacant property sites.",
       "angle": "Highlights the industry shift toward bundling technology-led detection with physical intervention to improve customer retention and service value.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4bd72305aba032a9",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Intelligence and efficiency to deliver security tech’s greatest future value",
-      "url": "https://securityjournaluk.com/security-techs-greatest-future-value/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-03T07:45:00+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 85,
-      "summary": "Research from Axis Communications indicates that 51% of UK utilities decision-makers expect security technology to provide business intelligence and operational efficiency over the next three to five years.",
-      "angle": "Highlights a market shift towards integrating visual security data with operational systems to improve asset management and efficiency.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -637,6 +637,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bb5b80fba3c23ada",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "MPs question cumulative impact of packaging regulation",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/mps-question-cumulative-impact-of-packaging-regulation-10-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-10T09:54:23+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 90,
+      "summary": "MPs are questioning the cumulative financial and administrative burden of packaging EPR, with the government confirming a formal post-implementation review will not conclude until late 2028.",
+      "angle": "Regulatory uncertainty and compliance costs directly impact manufacturing competitiveness and operational planning within the UK packaging sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "b4d9b8c711a10c2f",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -648,20 +662,6 @@
       "score": 90,
       "summary": "The UK Budget 2026 increases the Plastic Packaging Tax in line with inflation and confirms mandatory certification for mechanically recycled plastic in packaging.",
       "angle": "Regulatory changes to plastic taxes and recycled content certification directly impact operational costs and compliance for packaging manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8228bb791754d98d",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Exchange for Change publishes first certified Reverse Vending Machine list for DRS",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/exchange-for-change-publishes-first-certified-reverse-vending-machine-list-for-drs-09-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-09T09:21:54+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "Exchange for Change has published its first list of 54 certified Reverse Vending Machine models from seven suppliers ahead of the October 2027 Deposit Return Scheme launch.",
-      "angle": "Regulatory progress on DRS infrastructure directly impacts the operational landscape for beverage packaging manufacturers and their retail partners.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -721,6 +721,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "1dd7e0845a212b20",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Post Office confirms exit timeline for Fujitsu contract",
+      "url": "https://www.talkingretail.com/featured/post-office-confirms-exit-timeline-for-fujitsu-contract-10-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-10T13:27:06+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 95,
+      "summary": "The Post Office has confirmed that Fujitsu will hand over the Horizon system to Accenture between June and September 2027.",
+      "angle": "Critical infrastructure transition for the Post Office network, impacting operational stability and future branch technology systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2b979353e22602c1",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -735,6 +749,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "7ea3f2be0d92f668",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Rates freeze welcome, but where’s the breathing space? | Viewpoint: Dominic Wade",
+      "url": "https://www.talkingretail.com/opinion/talking-points/rates-freeze-welcome-but-wheres-the-breathing-space-viewpoint-dominic-wade-10-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-10T13:15:06+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 85,
+      "summary": "The UK government's business rates freeze may still result in a 3.5% bill increase for retailers, despite removing 70,000 small businesses from the tax system.",
+      "angle": "Highlights ongoing cost pressures and regulatory challenges for independent high-street retailers despite minor government relief measures.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "254c67120176f901",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -746,34 +774,6 @@
       "score": 85,
       "summary": "The National Week of Action highlights retail violence, noting 1,600 daily incidents and the effectiveness of new reporting tools and legislation in protecting frontline staff.",
       "angle": "Highlights critical safety trends, legislative updates, and technological solutions for managing retail crime and staff wellbeing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7a83352dfc755c8e",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "ShopKind Week and National Week of Action puts retail crime and abuse in the spotlight",
-      "url": "https://www.talkingretail.com/featured/shopkind-week-and-national-week-of-action-puts-retail-crime-and-abuse-in-the-spotlight-09-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-09T12:03:39+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "Four national retail campaigns have united for a week of action to tackle rising retail crime, abuse, and antisocial behaviour against shopworkers across the UK.",
-      "angle": "Highlights industry-wide initiatives and enhanced police collaboration to address retail crime and improve staff safety.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7d4786543b521648",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Over half of shop workers face abuse every week, new research shows",
-      "url": "https://www.talkingretail.com/featured/over-half-of-shop-workers-face-abuse-every-week-new-research-shows-09-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-09T11:07:22+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "New research from the Retail Trust indicates that 54% of UK retail workers now face weekly abuse, with 79% experiencing an abusive or violent situation in the past year.",
-      "angle": "Rising retail crime and staff abuse impact operational safety, employee retention, and security costs across the high street.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -889,6 +889,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "150ad582cc81025e",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Weak demand and higher input costs to hit product sales, CPA says",
+      "url": "https://www.constructionnews.co.uk/supply-chain/weak-demand-and-higher-input-costs-to-hit-product-sales-cpa-says-10-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-10T12:25:27+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 90,
+      "summary": "The Construction Products Association reported a third consecutive quarterly decline in product sales volumes, driven by weak demand, rising input costs, and geopolitical uncertainty.",
+      "angle": "Highlights significant headwinds for light-side manufacturers, including reduced demand, inflationary pressures, and necessary operational capacity adjustments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "fe46baf6c7f9249b",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Middle East conflict worsens outlook for sub-£100m starts, says Glenigan",
+      "url": "https://www.constructionnews.co.uk/sections/data/middle-east-conflict-worsens-outlook-for-sub-100m-starts-says-glenigan-10-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-10T12:00:39+00:00",
+      "first_seen": "2026-11-11T07:49:06.205139+00:00",
+      "score": 85,
+      "summary": "Glenigan forecasts a 13 per cent decline in sub-£100m construction project starts for 2026, with private housing identified as the weakest major sector.",
+      "angle": "Signals reduced demand for residential glazing products and highlights broader macroeconomic headwinds impacting the UK construction pipeline.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "71600c242972616d",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -914,34 +942,6 @@
       "score": 85,
       "summary": "The UK construction sector has experienced 22 consecutive months of declining activity, with the October Purchasing Managers' Index falling to 43.6.",
       "angle": "Indicates a prolonged downturn in construction demand, impacting the broader market for building products and glazing components.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a05993e8b1cf48bc",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "A quiet Budget that delays the big decisions",
-      "url": "https://www.constructionnews.co.uk/sections/long-reads/a-quiet-budget-that-delays-the-big-decisions-05-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-05T10:37:09+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 85,
-      "summary": "The Autumn Budget provides minor relief through fuel duty freezes and electricity cost discounts for manufacturers, but warns of continued low demand in residential housebuilding.",
-      "angle": "Highlights ongoing regulatory stability, persistent demand headwinds in residential construction, and critical energy cost support for manufacturers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "246490bd4995e71f",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Administrations jump by a third in October amid warnings more will follow",
-      "url": "https://www.constructionnews.co.uk/financial/monthly-construction-administrations/administrations-jump-by-a-third-in-october-amid-warnings-more-will-follow-04-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-04T12:45:15+00:00",
-      "first_seen": "2026-11-05T07:48:48.014746+00:00",
-      "score": 85,
-      "summary": "UK construction sector administrations rose by a third in October, with experts warning of sustained margin pressure, cashflow challenges, and further insolvencies throughout early 2027.",
-      "angle": "Rising insolvencies across the construction supply chain increase counterparty credit risk and potential project delivery delays.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,12 +1007,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 77,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 60,
-    "llm_requests_succeeded": 60,
+    "providers_succeeded": 90,
+    "queued_candidates": 141,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
     "dropped_no_valid_date": 27,
-    "dropped_thin_page": 28,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 6,
     "carried_forward": 4
