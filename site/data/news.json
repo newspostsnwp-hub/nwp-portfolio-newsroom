@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T15:07:27.837156+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-12T07:48:29.263644+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Petainer or The Delivery Group.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-11T07:49:06.205139+00:00",
+  "last_digest_sent_at": "2026-11-12T07:48:29.263644+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -427,17 +427,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "49899235be63f055",
+      "id": "bea233c95b311f82",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Bnode reports “Disappointing parcel momentum”",
-      "url": "https://postandparcel.info/163236/news/e-commerce/bnode-reports-disappointing-parcel-momentum/",
+      "title": "This peak DPD to have “more electric vans delivering on the road than ever before”",
+      "url": "https://postandparcel.info/163293/news/e-commerce/this-peak-dpd-to-have-more-electric-vans-delivering-on-the-road-than-ever-before/",
       "source": "postandparcel.info",
-      "published_at": "2026-11-06T13:28:21+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
+      "published_at": "2026-11-11T15:30:48+00:00",
+      "first_seen": "2026-11-12T07:48:29.263644+00:00",
       "score": 75,
-      "summary": "Bnode reported disappointing parcel momentum and revised its 2026 EBIT outlook downward, citing softer-than-expected demand, commercial delays, and regulatory headwinds.",
-      "angle": "Signals broader European market cooling and volume pressures affecting large-scale parcel and e-commerce logistics operators.",
+      "summary": "DPD is deploying 381 additional Ford E-Transit electric vans to support its record-breaking peak delivery period, following a previous delivery of 341 Mercedes-Benz eSprinters in September.",
+      "angle": "Highlights increasing competitor investment in sustainable fleet infrastructure and electric vehicle adoption for UK last-mile delivery operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -651,17 +651,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b4d9b8c711a10c2f",
+      "id": "d521c3c55c9de7b1",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Budget 2026 | Mixed reactions from WRAP, BPF, and FDF",
-      "url": "https://www.packagingnews.co.uk/news/business/budget-2026-mixed-reactions-from-wrap-bpf-and-fdf-01-11-2026",
+      "title": "Packaging Data Hub finds only 18% of plastic packaging recycled across 50 markets",
+      "url": "https://www.packagingnews.co.uk/top-story/packaging-data-hub-finds-18-of-plastic-packaging-recycled-11-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-01T17:20:56+00:00",
-      "first_seen": "2026-11-02T07:49:05.344592+00:00",
-      "score": 90,
-      "summary": "The UK Budget 2026 increases the Plastic Packaging Tax in line with inflation and confirms mandatory certification for mechanically recycled plastic in packaging.",
-      "angle": "Regulatory changes to plastic taxes and recycled content certification directly impact operational costs and compliance for packaging manufacturers.",
+      "published_at": "2026-11-11T09:05:29+00:00",
+      "first_seen": "2026-11-12T07:48:29.263644+00:00",
+      "score": 85,
+      "summary": "The Packaging Data Hub reports that only 18% of plastic packaging is recycled globally, highlighting significant gaps in collection and processing infrastructure across 50 markets.",
+      "angle": "Provides critical benchmarking data on global recycling rates and infrastructure efficacy for plastic packaging sustainability strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1008,13 +1008,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 86,
-    "queued_candidates": 148,
-    "llm_requests_attempted": 93,
-    "llm_requests_succeeded": 93,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 72,
+    "llm_requests_succeeded": 72,
     "dropped_no_valid_date": 27,
     "dropped_thin_page": 28,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
