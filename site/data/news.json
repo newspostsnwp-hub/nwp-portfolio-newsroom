@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T07:48:30.175244+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-wide updates, as there is no specific news to report from our portfolio companies this morning.",
+  "generated_at": "2026-11-13T15:07:28.046184+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-13T07:48:30.175244+00:00",
   "companies": [
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -441,6 +441,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "304fe668f0aeb9e5",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "What the SIA’s new tools mean for Martyn’s Law readiness",
+      "url": "https://securityjournaluk.com/what-new-sias-tools-mean-for-martyns-law/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-13T09:00:00+00:00",
+      "first_seen": "2026-11-13T15:07:28.046184+00:00",
+      "score": 90,
+      "summary": "The Security Industry Authority has released new planning and template tools to help premises and events prepare for the upcoming Terrorism (Protection of Premises) Act 2025.",
+      "angle": "Provides critical regulatory guidance and compliance frameworks for security providers managing vacant sites and public-facing premises.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d33208c961a9be8b",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -480,20 +494,6 @@
       "score": 85,
       "summary": "The UK security industry faces a transition as analogue PSTN and ISDN lines are phased out by January 2027, necessitating upgrades to IP-based, resilient signalling systems.",
       "angle": "Highlights critical infrastructure shifts and the growing necessity for IP networking and cybersecurity expertise in professional security services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "74d850a08ba3a3f3",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Stronger laws for police using facial-recognition technology",
-      "url": "https://securityjournaluk.com/stronger-laws-for-facial-recognition-tech/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-05T11:51:43+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 85,
-      "summary": "The UK government is introducing new laws and an independent watchdog to regulate police use of facial recognition technology, alongside a separate code for the private sector.",
-      "angle": "New regulatory codes for private sector facial recognition use will impact compliance and operational standards for security providers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -623,20 +623,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "729e24ac069811c6",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Survey finds strong public support for DRS, despite low awareness",
-      "url": "https://www.packagingnews.co.uk/top-story/survey-finds-strong-public-support-for-drs-despite-low-awareness-03-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-03T09:18:28+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 95,
-      "summary": "A YouGov poll indicates 71% of the public support the upcoming UK deposit return scheme, despite 61% of respondents having low awareness of the initiative.",
-      "angle": "Regulatory shifts regarding PET bottle recycling and consumer participation directly impact the future demand for sustainable packaging solutions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bb5b80fba3c23ada",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -663,6 +649,20 @@
       "summary": "Defra will exempt glass drink containers supplied to the hospitality sector from pEPR fees starting in April 2027 to prevent double-charging for waste management.",
       "angle": "Regulatory shifts in pEPR fee structures and modulation factors directly impact the competitive landscape for beverage packaging materials.",
       "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "1eb6dd7f1703a5ae",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Polyethylene Terephthalate Catalyst Market To 2035: Rpet and Bottle-Grade Demand Drive Growth - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUxRNjJPdml6WDk2V2ZsMkJueDZXN09SOTNZS0RLQ2I3UUZUOV9lM3pGNkU1TlVnOUo2YVgtR2t5NXFzOURfeE1iVEpwbXF4UHpSa1RsSzNPeEpueURCS0ZiRmRyQVdCZ1NraHB2RFlHNkY4aW1zclloenFhTzJJUXktU01jTXpNYllaTUdSeEplbHVEbGxVYlpkZVJCTjV4cUc0aFZUZ0ZXelBYLWZQV0VkNnFwTGRlOFpJWUQ0WW5XUG12VGRWR04wSFpUeDJuWHRRR1dIQWpvZi11cnR1ZVdCN0xDUQ?oc=5",
+      "source": "IndexBox",
+      "published_at": "2026-11-07T23:41:04+00:00",
+      "first_seen": "2026-11-13T15:07:28.046184+00:00",
+      "score": 75,
+      "summary": "The polyethylene terephthalate catalyst market is projected to grow through 2035, driven by increasing demand for bottle-grade PET and recycled PET materials.",
+      "angle": "Highlights long-term growth trends in raw material supply chains and sustainability-driven demand for PET packaging.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "586ad4cabab28b49",
@@ -760,20 +760,6 @@
       "score": 90,
       "summary": "The government has launched a pilot scheme targeting 500 prolific retail offenders with tougher restrictions, including Criminal Behaviour Orders and intensive supervision, to reduce shop theft.",
       "angle": "Direct policy intervention addressing retail crime, a critical operational risk for independent high street stationery and post office chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2b979353e22602c1",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Post Office puts parcels centre stage in new campaign",
-      "url": "https://www.talkingretail.com/featured/post-office-puts-parcels-centre-stage-in-new-campaign-03-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-03T12:32:55+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 90,
-      "summary": "The Post Office has launched a national marketing campaign, 'The Home of Parcels', to promote its multi-courier services to consumers and marketplace sellers through March 2027.",
-      "angle": "Highlights a strategic shift to position Post Office branches as primary, convenient hubs for multi-courier parcel logistics.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,13 +993,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 139,
-    "llm_requests_attempted": 88,
-    "llm_requests_succeeded": 88,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
+    "providers_succeeded": 82,
+    "queued_candidates": 118,
+    "llm_requests_attempted": 64,
+    "llm_requests_succeeded": 64,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 24,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
