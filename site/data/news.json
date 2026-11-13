@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T15:07:31.135507+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, with ten items to review across the wider market.",
+  "generated_at": "2026-11-13T07:48:30.175244+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-wide updates, as there is no specific news to report from our portfolio companies this morning.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-12T07:48:29.263644+00:00",
+  "last_digest_sent_at": "2026-11-13T07:48:30.175244+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -385,20 +385,6 @@
   ],
   "sector_stories": [
     {
-      "id": "1bc87e43c7458855",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "ParcelHero: The EU’s customs changes were aimed at the flood of ultra-cheap e-commerce imports",
-      "url": "https://postandparcel.info/163227/news/e-commerce/parcelhero-the-eus-customs-changes-were-aimed-at-the-flood-of-ultra-cheap-e-commerce-imports/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-03T07:37:40+00:00",
-      "first_seen": "2026-11-03T15:08:04.497921+00:00",
-      "score": 90,
-      "summary": "New EU customs regulations, including a €2 handling fee and mandatory product identifiers, are increasing costs and administrative burdens for UK businesses shipping B2C parcels to the EU.",
-      "angle": "Increased regulatory friction and costs for cross-border e-commerce impact delivery operations, client compliance, and potential parcel volumes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "caab840a04a16e38",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -438,6 +424,20 @@
       "score": 85,
       "summary": "UK police reports of parcel theft rose by 87% in the last year, with December remaining the peak month for incidents.",
       "angle": "Rising theft rates increase pressure on delivery providers to improve security, authentication, and secure collection point adoption.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "fd1f13728f5c348f",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Austrian Post: We have stayed the course in a demanding market environment",
+      "url": "https://postandparcel.info/163297/news/e-commerce/austrian-post-we-have-stayed-the-course-in-a-demanding-market-environment/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-12T07:58:54+00:00",
+      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "score": 75,
+      "summary": "Austrian Post reported 4.3% revenue growth for the first nine months of 2026, driven by e-commerce logistics despite structural declines in traditional letter and advertising mail volumes.",
+      "angle": "Highlights broader European industry trends of declining mail volumes offset by strategic investments in e-commerce fulfillment and parcel infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -511,6 +511,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "bf9ef77fb406e314",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Fraunhofer IFAM researches e-motors with fewer critical raw materials",
+      "url": "https://www.electrive.com/2026/11/12/fraunhofer-ifam-researches-e-motors-with-fewer-critical-raw-materials/",
+      "source": "electrive.com",
+      "published_at": "2026-11-12T16:30:00+00:00",
+      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "score": 65,
+      "summary": "Fraunhofer IFAM has launched the SIREN project to develop electric motors using fewer critical raw materials, focusing on rare-earth-free designs and aluminium-based windings.",
+      "angle": "Reduces long-term supply chain dependency on rare earth elements and copper for electric drive manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "6cd5114d5582386f",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -536,20 +550,6 @@
       "score": 65,
       "summary": "Russian attacks on Ukrainian wiring harness production facilities have caused supply chain disruptions for major European automotive manufacturers, leading to temporary production adjustments.",
       "angle": "Highlights ongoing supply chain vulnerabilities for complex electrical components within the broader European automotive and micromobility manufacturing sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "8f64972c38b0b383",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Used EV batteries marketplace Rebattex partners with LKQ Atracco",
-      "url": "https://www.electrive.com/2026/11/09/used-ev-batteries-marketplace-rebattex-partners-with-lkq-atracco/",
-      "source": "electrive.com",
-      "published_at": "2026-11-09T11:30:00+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 65,
-      "summary": "Rebattex and LKQ Atracco have partnered to create a marketplace for trading and reselling refurbished electric vehicle batteries across Europe.",
-      "angle": "Highlights the growing secondary market for battery circularity and potential future supply chain opportunities for smaller electric vehicles.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -665,20 +665,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9bfa5a3979376bf9",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "[Palantir Technologies Q3 2026 Earnings Call] Palantir Revenue Doubles to $2.31B as Sovereign AI Propels U.S. Commercial Growth to 148%, First Quarter Above $2B with Rule of 40 at 158% - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JSEJUbmh0Skx6LVhFRV9VSG9HWWxILXZLOGhkbUdaMktycmRXVzNxUzJhX1BGdUVDTlNEOS1QOGJTdXB6YWUyTG9oZjJQVGZQM0Y1bjNzdkQwOTJZbXc?oc=5",
-      "source": "BigGo Finance",
-      "published_at": "2026-11-02T23:44:00+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 95,
-      "summary": "Palantir Technologies reported Q3 2026 revenue of $2.31 billion, driven by a 148% increase in U.S. commercial growth attributed to sovereign AI demand.",
-      "angle": "Demonstrates significant market acceleration and enterprise-scale demand for sovereign AI solutions within the commercial sector.",
-      "discovered_via": "Google News RSS"
-    },
-    {
       "id": "586ad4cabab28b49",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -718,6 +704,20 @@
       "score": 90,
       "summary": "A global TCS study reveals that 43% of European enterprises view AI sovereignty as a high organizational risk, while security and governance remain primary deployment barriers.",
       "angle": "Validates market demand for sovereign AI solutions that address critical data control, security, and governance requirements.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "7f28e97b4581d04c",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "The Next AI Divide Will Be Written Into Contracts - OpEd",
+      "url": "https://www.eurasiareview.com/12112026-the-next-ai-divide-will-be-written-into-contracts-oped/",
+      "source": "eurasiareview.com",
+      "published_at": "2026-11-12T03:30:00+00:00",
+      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "score": 85,
+      "summary": "An op-ed argues that public-sector AI contracts should mandate retained capabilities, including evaluation rights, data control, exit planning, and local institutional learning to prevent vendor lock-in.",
+      "angle": "Highlights evolving procurement standards and sovereign requirements for AI, impacting how governments structure long-term infrastructure and service agreements.",
       "discovered_via": "GDELT"
     },
     {
@@ -875,17 +875,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b21765d0ceee5635",
+      "id": "b4e30f1573256be2",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "When our embryos were labelled 'abnormal', we lost the right to choose",
-      "url": "https://www.progress.org.uk/when-our-embryos-were-labelled-abnormal-we-lost-the-right-to-choose/",
+      "title": "Protein associated with testicular ageing identified",
+      "url": "https://www.progress.org.uk/protein-associated-with-testicular-ageing-identified/",
       "source": "bionews.org.uk",
-      "published_at": "2026-11-02T16:33:18+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 85,
-      "summary": "A qualitative study highlights patient distress and ethical concerns regarding the use of PGT-A to categorically refuse the transfer of embryos labelled as abnormal.",
-      "angle": "Highlights growing clinical and ethical debate over PGT-A protocols, potentially necessitating policy reviews regarding embryo transfer and informed consent.",
+      "published_at": "2026-11-09T16:34:29+00:00",
+      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "score": 75,
+      "summary": "Researchers have identified the WLS protein as a potential driver of testicular ageing, which may impact male fertility and sperm production in older donors.",
+      "angle": "Advances in understanding male biological ageing provide critical context for clinical approaches to male factor infertility in IVF.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -987,17 +987,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "55e9c3accbf1a62d",
+      "id": "e186c1b820c19e99",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "New ISO standard enables mobile robots from different vendors to work together",
-      "url": "https://roboticsandautomationnews.com/2026/11/02/new-iso-standard-enables-mobile-robots-from-different-vendors-to-work-together/106635/",
+      "title": "ESTUN Robotics integrates RoboDK simulation software to accelerate European expansion",
+      "url": "https://roboticsandautomationnews.com/2026/11/12/estun-robotics-and-robodk-announce-strategic-partnership-at-dfactory-barcelona-to-simplify-and-accelerate-the-adoption-of-industrial-robots-in-europe/107047/",
       "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-02T19:12:05+00:00",
-      "first_seen": "2026-11-03T07:49:08.429242+00:00",
-      "score": 85,
-      "summary": "ISO 21423:2026 has been published, establishing a new international standard for communication and interoperability between mobile robots from different vendors within industrial environments.",
-      "angle": "Standardised interoperability allows for multi-vendor fleet integration, improving operational efficiency and scalability in complex industrial inspection environments.",
+      "published_at": "2026-11-12T00:40:29+00:00",
+      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "score": 65,
+      "summary": "ESTUN Robotics has partnered with RoboDK to integrate simulation and offline programming software, aiming to accelerate the deployment of industrial robotic applications across the European market.",
+      "angle": "Highlights the industry trend of using simulation software to reduce commissioning times and lower barriers for robotic automation.",
       "discovered_via": "Sector RSS"
     }
   ],
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 88,
-    "queued_candidates": 142,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
-    "dropped_no_valid_date": 27,
-    "dropped_thin_page": 30,
+    "providers_succeeded": 89,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 88,
+    "llm_requests_succeeded": 88,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
