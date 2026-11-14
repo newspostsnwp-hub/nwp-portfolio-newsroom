@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T07:48:26.684147+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no specific news to report from Future Maintenance Technologies, Petainer, The Delivery Group, or UOE.",
+  "generated_at": "2026-11-14T15:07:25.571378+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from Future Maintenance Technologies, Petainer, The Delivery Group, or UOE.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-14T07:48:26.684147+00:00",
   "companies": [
@@ -427,17 +427,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d4c3cd27fc1d0cc0",
+      "id": "e78b3ec8647f3dfe",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
-      "title": "Logistics UK: International companies invest in countries where goods move efficiently",
-      "url": "https://postandparcel.info/163278/news/e-commerce/logistics-uk-international-companies-invest-in-countries-where-goods-move-efficiently/",
+      "title": "Stuart: The European delivery landscape is gaining a formidable new alliance.",
+      "url": "https://postandparcel.info/163307/news/e-commerce/stuart-the-european-delivery-landscape-is-gaining-a-formidable-new-alliance/",
       "source": "postandparcel.info",
-      "published_at": "2026-11-10T05:53:51+00:00",
-      "first_seen": "2026-11-10T15:08:10.882025+00:00",
+      "published_at": "2026-11-12T04:21:53+00:00",
+      "first_seen": "2026-11-14T15:07:25.571378+00:00",
       "score": 85,
-      "summary": "Logistics UK is lobbying policymakers to reduce post-Brexit trade frictions and regulatory barriers between the UK and EU to boost economic growth and supply chain efficiency.",
-      "angle": "Highlights critical regulatory and border friction challenges impacting cross-border parcel and mail delivery efficiency.",
+      "summary": "UK technology firm Quiver has acquired last-mile delivery platform Stuart from Mutares to expand its retail, grocery, and food delivery operations across the UK and Europe.",
+      "angle": "Consolidation of major last-mile players and integration of urban fulfillment technology impacts competitive dynamics in UK delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 85,
-    "llm_requests_succeeded": 85,
-    "dropped_no_valid_date": 27,
-    "dropped_thin_page": 28,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 3,
+    "providers_succeeded": 81,
+    "queued_candidates": 115,
+    "llm_requests_attempted": 63,
+    "llm_requests_succeeded": 63,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 23,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 4
   }
 }
