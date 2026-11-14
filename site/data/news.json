@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T15:07:28.046184+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-11-14T07:48:26.684147+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, as there is no specific news to report from Future Maintenance Technologies, Petainer, The Delivery Group, or UOE.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-13T07:48:30.175244+00:00",
+  "last_digest_sent_at": "2026-11-14T07:48:26.684147+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -385,6 +385,34 @@
   ],
   "sector_stories": [
     {
+      "id": "2b278443864c04e7",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "Why In-Night Deliveries Are Key to Keeping London Moving",
+      "url": "https://postandparcel.info/163319/features/e-commerce-features/why-in-night-deliveries-are-key-to-keeping-london-moving/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-13T06:19:42+00:00",
+      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "score": 85,
+      "summary": "London's evolving urban infrastructure, including increased pedestrianisation, is driving a shift toward in-night deliveries to maintain efficient freight movement and bypass daytime traffic congestion.",
+      "angle": "Highlights operational shifts required to maintain urban delivery reliability amidst changing city access regulations and road congestion.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "5afbef3db819b212",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "35% of UK consumers have abandoned retailers over stricter returns policies",
+      "url": "https://postandparcel.info/163316/news/e-commerce/35-of-uk-consumers-have-abandoned-retailers-over-stricter-returns-policies/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-13T04:11:41+00:00",
+      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "score": 85,
+      "summary": "A 2026 survey reveals 35% of UK consumers have abandoned retailers due to stricter returns policies, with 52% choosing retailers based on their returns offerings.",
+      "angle": "Highlights shifting consumer expectations for returns logistics, directly impacting demand for efficient, cost-effective reverse logistics and delivery services.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "caab840a04a16e38",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -410,34 +438,6 @@
       "score": 85,
       "summary": "Logistics UK is lobbying policymakers to reduce post-Brexit trade frictions and regulatory barriers between the UK and EU to boost economic growth and supply chain efficiency.",
       "angle": "Highlights critical regulatory and border friction challenges impacting cross-border parcel and mail delivery efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bf7ed9e2de3bca79",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "December remains the peak month for parcel theft",
-      "url": "https://postandparcel.info/163251/news/e-commerce/december-remains-the-peak-month-for-parcel-theft/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-09T12:04:15+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "UK police reports of parcel theft rose by 87% in the last year, with December remaining the peak month for incidents.",
-      "angle": "Rising theft rates increase pressure on delivery providers to improve security, authentication, and secure collection point adoption.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "fd1f13728f5c348f",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Austrian Post: We have stayed the course in a demanding market environment",
-      "url": "https://postandparcel.info/163297/news/e-commerce/austrian-post-we-have-stayed-the-course-in-a-demanding-market-environment/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-12T07:58:54+00:00",
-      "first_seen": "2026-11-13T07:48:30.175244+00:00",
-      "score": 75,
-      "summary": "Austrian Post reported 4.3% revenue growth for the first nine months of 2026, driven by e-commerce logistics despite structural declines in traditional letter and advertising mail volumes.",
-      "angle": "Highlights broader European industry trends of declining mail volumes offset by strategic investments in e-commerce fulfillment and parcel infrastructure.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -637,6 +637,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d0c9b9d598f78779",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "WRAP research suggests Plastics Pact members ahead on recycled content",
+      "url": "https://www.packagingnews.co.uk/news/retailers/wrap-research-suggest-plastics-pact-members-ahead-on-recycled-content-13-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-13T10:19:54+00:00",
+      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "score": 85,
+      "summary": "WRAP research indicates that UK Plastics Pact members achieved significantly higher recycled content levels in plastic packaging compared to non-members between 2022 and 2026.",
+      "angle": "Demonstrates the effectiveness of voluntary agreements and regulatory pressure in driving recycled content adoption across the packaging sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e33074fa1dbd6779",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -649,20 +663,6 @@
       "summary": "Defra will exempt glass drink containers supplied to the hospitality sector from pEPR fees starting in April 2027 to prevent double-charging for waste management.",
       "angle": "Regulatory shifts in pEPR fee structures and modulation factors directly impact the competitive landscape for beverage packaging materials.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1eb6dd7f1703a5ae",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Polyethylene Terephthalate Catalyst Market To 2035: Rpet and Bottle-Grade Demand Drive Growth - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdUxRNjJPdml6WDk2V2ZsMkJueDZXN09SOTNZS0RLQ2I3UUZUOV9lM3pGNkU1TlVnOUo2YVgtR2t5NXFzOURfeE1iVEpwbXF4UHpSa1RsSzNPeEpueURCS0ZiRmRyQVdCZ1NraHB2RFlHNkY4aW1zclloenFhTzJJUXktU01jTXpNYllaTUdSeEplbHVEbGxVYlpkZVJCTjV4cUc0aFZUZ0ZXelBYLWZQV0VkNnFwTGRlOFpJWUQ0WW5XUG12VGRWR04wSFpUeDJuWHRRR1dIQWpvZi11cnR1ZVdCN0xDUQ?oc=5",
-      "source": "IndexBox",
-      "published_at": "2026-11-07T23:41:04+00:00",
-      "first_seen": "2026-11-13T15:07:28.046184+00:00",
-      "score": 75,
-      "summary": "The polyethylene terephthalate catalyst market is projected to grow through 2035, driven by increasing demand for bottle-grade PET and recycled PET materials.",
-      "angle": "Highlights long-term growth trends in raw material supply chains and sustainability-driven demand for PET packaging.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "586ad4cabab28b49",
@@ -760,6 +760,20 @@
       "score": 90,
       "summary": "The government has launched a pilot scheme targeting 500 prolific retail offenders with tougher restrictions, including Criminal Behaviour Orders and intensive supervision, to reduce shop theft.",
       "angle": "Direct policy intervention addressing retail crime, a critical operational risk for independent high street stationery and post office chains.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "299831231ce9c4bf",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Progress, not victory | Editor’s comment",
+      "url": "https://www.talkingretail.com/opinion/talking-points/progress-not-victory-editors-comment-13-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-13T14:10:11+00:00",
+      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "score": 85,
+      "summary": "Police-recorded shoplifting in England and Wales fell by 2% in the year to June, though recorded robberies involving threats or violence against retail staff increased by 10%.",
+      "angle": "Highlights evolving retail security risks and the critical importance of effective crime reporting and police engagement strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -931,6 +945,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "73e9a7ad671f48d9",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Gecko Robotics unveils faster Raptor inspection robot, with ADNOC as first customer",
+      "url": "https://roboticsandautomationnews.com/2026/11/14/gecko-robotics-unveils-faster-raptor-inspection-robot-with-adnoc-as-first-customer/107096/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-14T03:15:32+00:00",
+      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "score": 85,
+      "summary": "Gecko Robotics has launched the Raptor inspection robot, which offers significantly faster data collection speeds and improved maneuverability for critical industrial infrastructure maintenance.",
+      "angle": "Demonstrates rapid advancements in autonomous inspection speed and mobility benchmarks within the industrial robotics competitive landscape.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "1965b622875a025d",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -971,20 +999,6 @@
       "summary": "The article argues that supervised autonomy in robotics requires pre-defined protocols for handling operational exceptions and clear human-in-the-loop escalation procedures to ensure reliability.",
       "angle": "Critical framework for designing human-robot interaction and safety protocols in autonomous infrastructure inspection environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e186c1b820c19e99",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "ESTUN Robotics integrates RoboDK simulation software to accelerate European expansion",
-      "url": "https://roboticsandautomationnews.com/2026/11/12/estun-robotics-and-robodk-announce-strategic-partnership-at-dfactory-barcelona-to-simplify-and-accelerate-the-adoption-of-industrial-robots-in-europe/107047/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-12T00:40:29+00:00",
-      "first_seen": "2026-11-13T07:48:30.175244+00:00",
-      "score": 65,
-      "summary": "ESTUN Robotics has partnered with RoboDK to integrate simulation and offline programming software, aiming to accelerate the deployment of industrial robotic applications across the European market.",
-      "angle": "Highlights the industry trend of using simulation software to reduce commissioning times and lower barriers for robotic automation.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -993,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 82,
-    "queued_candidates": 118,
-    "llm_requests_attempted": 64,
-    "llm_requests_succeeded": 64,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 24,
+    "providers_succeeded": 85,
+    "queued_candidates": 141,
+    "llm_requests_attempted": 85,
+    "llm_requests_succeeded": 85,
+    "dropped_no_valid_date": 27,
+    "dropped_thin_page": 28,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
