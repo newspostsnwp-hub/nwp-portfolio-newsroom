@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T15:07:25.571378+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, as there is no news to report from Future Maintenance Technologies, Petainer, The Delivery Group, or UOE.",
+  "generated_at": "2026-11-15T07:48:21.716758+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-wide updates, with no specific news to report from Molinare or The Delivery Group.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-14T07:48:26.684147+00:00",
+  "last_digest_sent_at": "2026-11-15T07:48:21.716758+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -125,7 +125,7 @@
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
@@ -399,6 +399,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9343b1a19c2f699b",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "PostNL explores ways to spread peak parcel volumes more evenly",
+      "url": "https://postandparcel.info/163322/news/e-commerce/postnl-explores-ways-to-spread-peak-parcel-volumes-more-evenly/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-13T05:26:08+00:00",
+      "first_seen": "2026-11-15T07:48:21.716758+00:00",
+      "score": 85,
+      "summary": "PostNL is managing peak festive parcel volumes by increasing operational capacity and collaborating with retailers to encourage consumers to select flexible delivery dates and locations.",
+      "angle": "Highlights industry-wide strategies for managing seasonal capacity constraints and influencing consumer delivery behaviour to optimise network efficiency.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5afbef3db819b212",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -424,20 +438,6 @@
       "score": 85,
       "summary": "ZigZag forecasts that 59% of UK retailers will charge for returns during the 2026 holiday season, with parcel locker returns surging 27% year-on-year.",
       "angle": "Shift towards paid returns and automated locker networks impacts carrier service requirements and logistics volume planning.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e78b3ec8647f3dfe",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Stuart: The European delivery landscape is gaining a formidable new alliance.",
-      "url": "https://postandparcel.info/163307/news/e-commerce/stuart-the-european-delivery-landscape-is-gaining-a-formidable-new-alliance/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-12T04:21:53+00:00",
-      "first_seen": "2026-11-14T15:07:25.571378+00:00",
-      "score": 85,
-      "summary": "UK technology firm Quiver has acquired last-mile delivery platform Stuart from Mutares to expand its retail, grocery, and food delivery operations across the UK and Europe.",
-      "angle": "Consolidation of major last-mile players and integration of urban fulfillment technology impacts competitive dynamics in UK delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -553,6 +553,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "5b6c1c1f3e24c803",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Adobe MAX 2026 Updates: AI and Creative Cloud",
+      "url": "https://postperspective.com/adobe-max-2026-updates-ai-and-creative-cloud/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-12T19:49:24+00:00",
+      "first_seen": "2026-11-15T07:48:21.716758+00:00",
+      "score": 85,
+      "summary": "Adobe MAX 2026 introduced agentic AI assistants and Model Context Protocol support across Creative Cloud applications to automate complex, multi-step post-production workflows.",
+      "angle": "Standardisation of AI-driven automation and cross-application orchestration significantly impacts post-production efficiency and technical workflows.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "74580303a8907966",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Avid’s Ready to Play Brings Google AI Models to Media Composer",
+      "url": "https://postperspective.com/avids-ready-to-play-brings-google-ai-models-to-media-composer/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-11T17:56:01+00:00",
+      "first_seen": "2026-11-15T07:48:21.716758+00:00",
+      "score": 85,
+      "summary": "Avid has launched Ready to Play, an AI-powered extension for Media Composer integrating Google’s Gemini and Veo models to assist editors with video creation, modification, and metadata analysis.",
+      "angle": "Represents a significant shift in post-production workflows by embedding generative AI directly into industry-standard editing software.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5b992b786c1e185b",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -567,46 +595,18 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c0858e6d35fd455f",
+      "id": "acd3d43714130655",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "ASUS Shows New ProArt Laptops and Monitors at Adobe MAX",
-      "url": "https://postperspective.com/asus-highlights-new-proart-systems-and-displays-at-adobe-max/",
+      "title": "Hexagon’s New Mantis On-Set 3D Capture System for VFX",
+      "url": "https://postperspective.com/hexagons-new-mantis-on-set-3d-capture-system-for-vfx/",
       "source": "postperspective.com",
-      "published_at": "2026-11-10T22:12:32+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "published_at": "2026-11-12T17:18:46+00:00",
+      "first_seen": "2026-11-15T07:48:21.716758+00:00",
       "score": 75,
-      "summary": "ASUS unveiled new ProArt workstations and monitors at Adobe MAX 2026, featuring local AI processing capabilities and high-performance hardware for professional video editing and VFX workflows.",
-      "angle": "Advancements in local AI-integrated hardware offer post-production facilities potential efficiency gains and reduced reliance on cloud-based processing.",
+      "summary": "Hexagon has launched Mantis, a camera-mounted 3D capture system that records spatial data and camera movement on-set to streamline VFX compositing and matchmove workflows.",
+      "angle": "Advances in on-set spatial data capture reduce manual post-production tasks, improving efficiency for VFX and compositing teams.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b80dff39b0aacab1",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Flanders Introduces Seven Cost-Effective QD-OLED Monitors",
-      "url": "https://postperspective.com/flanders-introduces-seven-cost-effective-qd-oled-monitors/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-10T17:50:55+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
-      "score": 75,
-      "summary": "Flanders Scientific has launched two new series of QD-OLED reference monitors, the VP and V, offering professional-grade image quality at lower price points by omitting certain advanced onboard features.",
-      "angle": "Enables post-production facilities to cost-effectively standardise high-end reference monitoring across more workstations and suites.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "446a846b0accab4e",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Weta FX & TAICCA Strike Partnership To Position Taiwan As AI Hub",
-      "url": "https://deadline.com/2026/11/weta-fx-taicca-taiwan-ai-1237214313/",
-      "source": "deadline.com",
-      "published_at": "2026-11-06T04:00:00+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 75,
-      "summary": "Weta FX has partnered with the Taiwan Creative Content Agency to establish Taiwan as an AI hub for the content industry, including investment in local VFX house Moonshine Studio.",
-      "angle": "Highlights the strategic integration of AI technology and international partnerships to scale VFX production capabilities globally.",
-      "discovered_via": "GDELT"
     },
     {
       "id": "2c9fc3e5e9d00085",
@@ -690,20 +690,6 @@
       "score": 90,
       "summary": "Abu Dhabi has partnered with OpenAI to deploy frontier AI models locally, aiming to become an AI-native government by 2027 while maintaining data sovereignty and intellectual property control.",
       "angle": "Highlights the growing demand for sovereign AI infrastructure that balances frontier model access with strict local data residency.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "2e5dfdaf892b1513",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "TCS Enterprise AI Study : 84 % say productivity is AI top benefit ; just 10 % let AI act without human oversight",
-      "url": "https://www.newswit.com/en/iemgzat7cmkwh441gqi9lnxtib0g52ic",
-      "source": "newswit.com",
-      "published_at": "2026-11-05T07:15:00+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
-      "score": 90,
-      "summary": "A global TCS study reveals that 43% of European enterprises view AI sovereignty as a high organizational risk, while security and governance remain primary deployment barriers.",
-      "angle": "Validates market demand for sovereign AI solutions that address critical data control, security, and governance requirements.",
       "discovered_via": "GDELT"
     },
     {
@@ -1007,14 +993,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 81,
-    "queued_candidates": 115,
-    "llm_requests_attempted": 63,
-    "llm_requests_succeeded": 63,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 23,
-    "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
+    "providers_succeeded": 89,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 89,
+    "llm_requests_succeeded": 89,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 25,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 4
   }
 }
