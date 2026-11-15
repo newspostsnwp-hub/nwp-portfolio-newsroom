@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T07:48:21.716758+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector-wide updates, with no specific news to report from Molinare or The Delivery Group.",
+  "generated_at": "2026-11-15T15:07:27.022784+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, with no specific news to report from Molinare, Petainer, The Delivery Group, or Whitespace.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-15T07:48:21.716758+00:00",
   "companies": [
@@ -125,7 +125,7 @@
       "website": "https://www.white.space/",
       "newsroom_url": "https://www.white.space/insights",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Whitespace+sovereign+AI%22+OR+%22CollectiveOS%22+OR+%22Collective+by+Whitespace%22&tbm=nws",
@@ -609,20 +609,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2c9fc3e5e9d00085",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Suntory: Next year will decide whether DRS works for shoppers",
-      "url": "https://www.packagingnews.co.uk/top-story/suntory-next-year-will-decide-whether-deposit-scheme-works-for-shoppers-05-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-05T10:04:12+00:00",
-      "first_seen": "2026-11-05T15:08:00.640871+00:00",
-      "score": 95,
-      "summary": "Suntory Beverage & Food GB&I is preparing for the UK's upcoming Deposit Return Scheme, highlighting the need for operational simplicity and effective infrastructure for PET containers.",
-      "angle": "Regulatory shifts in UK recycling policy directly impact PET packaging manufacturers' compliance and supply chain requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bb5b80fba3c23ada",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -665,6 +651,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f65a57e3e5a112eb",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Croxsons welcomes EPR changes but warns British producers need long-term certainty",
+      "url": "https://www.packagingnews.co.uk/news/materials/glass/croxsons-welcomes-epr-changes-but-warns-british-producers-need-long-term-certainty-13-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-13T10:02:38+00:00",
+      "first_seen": "2026-11-15T15:07:27.022784+00:00",
+      "score": 75,
+      "summary": "The UK government announced EPR changes, including potential fee reductions for highly recyclable materials and exemptions for glass containers supplied to hospitality venues from April 2027.",
+      "angle": "Regulatory shifts in EPR policy and fee structures directly impact cost competitiveness across all beverage packaging material types.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "586ad4cabab28b49",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -704,6 +704,20 @@
       "score": 85,
       "summary": "An op-ed argues that public-sector AI contracts should mandate retained capabilities, including evaluation rights, data control, exit planning, and local institutional learning to prevent vendor lock-in.",
       "angle": "Highlights evolving procurement standards and sovereign requirements for AI, impacting how governments structure long-term infrastructure and service agreements.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "24db645e5151a321",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "AI is attacking our freedom of though , here three ways to fight back",
+      "url": "https://www.cityam.com/ai-is-attacking-our-freedom-of-though-heres-three-ways-to-fight-back/",
+      "source": "cityam.com",
+      "published_at": "2026-11-10T06:00:00+00:00",
+      "first_seen": "2026-11-15T15:07:27.022784+00:00",
+      "score": 85,
+      "summary": "The author argues that reliance on a few frontier AI models creates systemic risks, urging investment in sovereign AI and diversified supply chains to maintain independent judgement.",
+      "angle": "Validates the market demand for sovereign, private, and independent AI deployments to mitigate vendor lock-in and systemic bias.",
       "discovered_via": "GDELT"
     },
     {
@@ -993,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 143,
-    "llm_requests_attempted": 89,
-    "llm_requests_succeeded": 89,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "providers_succeeded": 87,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 90,
+    "llm_requests_succeeded": 90,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 17,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
 }
