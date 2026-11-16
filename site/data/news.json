@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T07:48:30.716894+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on four sector updates, with no specific news to report from Future Maintenance Technologies, Molinare, or Whitespace.",
+  "generated_at": "2026-11-16T15:07:27.533006+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 11 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-16T07:48:30.716894+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -469,6 +469,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "83afc8695feeb3f4",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "£25 of stolen copper, £1,000 to replace",
+      "url": "https://securityjournaluk.com/25-of-stolen-copper-1000-to-replace/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-16T10:13:27+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
+      "score": 85,
+      "summary": "Infrastructure metal theft in England and Wales rose by 15% in the year to March 2026, with organised criminals increasingly targeting assets with high operational replacement costs.",
+      "angle": "Highlights growing demand for security solutions protecting critical infrastructure against high-impact, low-scrap-value asset theft.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "db788104fa5b5627",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -480,34 +494,6 @@
       "score": 85,
       "summary": "New data reveals that 67.6% of UK local authorities have not budgeted for Martyn’s Law, creating potential future bottlenecks for security infrastructure and consultation services.",
       "angle": "Highlights a looming surge in demand for security compliance services once final legislative guidance is published.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7d26debdcc876fd8",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Future proofing intruder alarm systems",
-      "url": "https://securityjournaluk.com/future-proofing-intruder-alarm-systems/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-09T10:11:12+00:00",
-      "first_seen": "2026-11-09T15:07:51.235384+00:00",
-      "score": 85,
-      "summary": "The UK security industry faces a transition as analogue PSTN and ISDN lines are phased out by January 2027, necessitating upgrades to IP-based, resilient signalling systems.",
-      "angle": "Highlights critical infrastructure shifts and the growing necessity for IP networking and cybersecurity expertise in professional security services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "b3688bebe68d9428",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "SNE Research: Chinese OEMs increasingly dominate global EV battery market",
-      "url": "https://www.electrive.com/2026/11/06/sne-research-chinese-oems-increasingly-dominate-global-ev-battery-market/",
-      "source": "electrive.com",
-      "published_at": "2026-11-06T13:30:00+00:00",
-      "first_seen": "2026-11-06T15:08:01.815185+00:00",
-      "score": 75,
-      "summary": "Chinese battery manufacturers now hold over half of the non-China market, driven by rapid growth in LFP technology and increasing demand for price-competitive entry-level models in Europe.",
-      "angle": "Highlights supply chain dominance and the shift toward cost-effective LFP battery technology in the European micromobility market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -623,17 +609,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d0c9b9d598f78779",
+      "id": "4d82b2cd5c4b9277",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "FPA warns glass pEPR changes must not shift costs to other materials",
+      "url": "https://www.packagingnews.co.uk/news/retailers/fpa-warns-glass-pepr-changes-must-not-shift-costs-to-other-materials-16-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-16T13:00:54+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
+      "score": 85,
+      "summary": "Defra announced that glass drinks containers supplied to hospitality venues will be exempt from packaging Extended Producer Responsibility fees starting in April 2027.",
+      "angle": "Regulatory shifts in EPR fee structures for glass may impact the competitive cost landscape for alternative packaging materials.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "2e8b8c97bab3baea",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
       "title": "WRAP research suggests Plastics Pact members ahead on recycled content",
-      "url": "https://www.packagingnews.co.uk/news/retailers/wrap-research-suggest-plastics-pact-members-ahead-on-recycled-content-13-11-2026",
+      "url": "https://www.packagingnews.co.uk/news/retailers/wrap-research-suggest-plastics-pact-members-ahead-on-recycled-content-16-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-13T10:19:54+00:00",
-      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "published_at": "2026-11-16T12:19:54+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
       "score": 85,
-      "summary": "WRAP research indicates that UK Plastics Pact members achieved significantly higher recycled content levels in plastic packaging compared to non-members between 2022 and 2026.",
-      "angle": "Demonstrates the effectiveness of voluntary agreements and regulatory pressure in driving recycled content adoption across the packaging sector.",
+      "summary": "WRAP research indicates that UK Plastics Pact members achieved higher recycled content levels in plastic packaging compared to non-members, with PET content rising significantly to 49.9%.",
+      "angle": "Demonstrates the effectiveness of voluntary agreements and regulatory pressure in driving recycled content adoption across the PET sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -648,20 +648,6 @@
       "score": 85,
       "summary": "Defra will exempt glass drink containers supplied to the hospitality sector from pEPR fees starting in April 2027 to prevent double-charging for waste management.",
       "angle": "Regulatory shifts in pEPR fee structures and modulation factors directly impact the competitive landscape for beverage packaging materials.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "f65a57e3e5a112eb",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Croxsons welcomes EPR changes but warns British producers need long-term certainty",
-      "url": "https://www.packagingnews.co.uk/news/materials/glass/croxsons-welcomes-epr-changes-but-warns-british-producers-need-long-term-certainty-13-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-13T10:02:38+00:00",
-      "first_seen": "2026-11-15T15:07:27.022784+00:00",
-      "score": 75,
-      "summary": "The UK government announced EPR changes, including potential fee reductions for highly recyclable materials and exemptions for glass containers supplied to hospitality venues from April 2027.",
-      "angle": "Regulatory shifts in EPR policy and fee structures directly impact cost competitiveness across all beverage packaging material types.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -763,17 +749,45 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "299831231ce9c4bf",
+      "id": "85f24515225972fc",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Progress, not victory | Editor’s comment",
-      "url": "https://www.talkingretail.com/opinion/talking-points/progress-not-victory-editors-comment-13-11-2026/",
+      "title": "Mid-market squeezed as consumers go better or cheaper",
+      "url": "https://www.talkingretail.com/news/industry-news/mid-market-squeezed-as-consumers-go-better-or-cheaper-16-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-13T14:10:11+00:00",
-      "first_seen": "2026-11-14T07:48:26.684147+00:00",
+      "published_at": "2026-11-16T12:26:10+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
       "score": 85,
-      "summary": "Police-recorded shoplifting in England and Wales fell by 2% in the year to June, though recorded robberies involving threats or violence against retail staff increased by 10%.",
-      "angle": "Highlights evolving retail security risks and the critical importance of effective crime reporting and police engagement strategies.",
+      "summary": "NielsenIQ research indicates UK consumers are increasingly polarised, shifting away from mid-priced products toward either value or premium alternatives as affordability remains a primary purchase consideration.",
+      "angle": "Highlights the critical need for independent retailers to clearly differentiate their mid-market product offerings to retain customers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "52d5f2711d50756b",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "International Student Enrollment Down 9% in Fall 2026",
+      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/11/16/international-student-enrollment-down-9-fall-2026",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
+      "score": 85,
+      "summary": "International student enrollment in the U.S. declined by 9 percent in fall 2026, with graduate student numbers dropping by 15 percent amid visa and policy challenges.",
+      "angle": "Declining international student numbers impact higher education revenue and demand for associated learning materials and digital courseware.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "0224f0e014bc1235",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "How to Expand Degree Apprenticeships",
+      "url": "https://www.insidehighered.com/news/student-success/life-after-college/2026/11/16/how-expand-degree-apprenticeships",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
+      "score": 85,
+      "summary": "A New America report outlines 14 policy recommendations to expand degree apprenticeship programs, aiming to better integrate classroom learning with paid workplace experience across various industries.",
+      "angle": "Highlights a growing policy shift towards integrating work-based learning into higher education, impacting future curriculum and publishing needs.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -802,34 +816,6 @@
       "score": 85,
       "summary": "A survey of student success administrators identifies financial constraints, mental health, and academic preparation gaps as the primary barriers to student persistence and success in higher education.",
       "angle": "Highlights institutional priorities for career-readiness tools, experiential learning, and the strategic role of AI in student support.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "93d66d8aa6f8563f",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Trump Official Who Cracked Down on DEI to Lead DOJ’s Civil Rights Office",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/12/anti-dei-trump-official-lead-doj-civil-rights-office",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-12T08:00:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "Craig Trainor, a vocal critic of diversity, equity and inclusion initiatives, has been appointed as the acting assistant attorney general for the Justice Department’s civil rights division.",
-      "angle": "Increased federal scrutiny of DEI policies in higher education may impact institutional compliance and curriculum development requirements.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d91979e036b24ebc",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "All Eyes on Democrats’ Affordability Agenda",
-      "url": "https://www.insidehighered.com/opinion/columns/editors-note/2026/11/12/all-eyes-democrats-affordability-agenda",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-12T08:00:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "Democratic lawmakers are prioritising higher education affordability, focusing on Pell Grant funding, student loan caps, and potential passage of the College Transparency Act.",
-      "angle": "Policy shifts regarding student aid and institutional funding directly impact the higher education market and demand for learning materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,6 +889,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "43e174205462a9d9",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Subcontractors risk work by admitting competence gaps, warns ICC chair",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/contractors-confident-on-safety-compliance-but-competence-concerns-remain-16-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-16T12:45:14+00:00",
+      "first_seen": "2026-11-16T15:07:27.533006+00:00",
+      "score": 85,
+      "summary": "The Industry Competence Committee warns that subcontractors admitting competence gaps risk replacement, while new contracts increasingly mandate ongoing evidence of worker competence under Building Safety Act requirements.",
+      "angle": "Highlights tightening regulatory and contractual pressure on specialist manufacturers to prove ongoing technical competence and safety compliance.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "396d1bb30e105cc8",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -928,20 +928,6 @@
       "score": 85,
       "summary": "Housing Secretary Angela Rayner is launching a new housing delivery board to address planning, regulatory, and financial barriers currently hindering the government's 1.5 million home delivery target.",
       "angle": "Government focus on accelerating housing delivery and addressing construction viability directly impacts demand for residential building products.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2a6f6145db1955bd",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Building Safety Bill: more work, greater liability?",
-      "url": "https://www.constructionnews.co.uk/buildings/building-safety/building-safety-bill-more-work-greater-liability-11-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-11T12:26:26+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
-      "score": 85,
-      "summary": "The UK government has published the Building Safety (Remediation of Unsafe Cladding etc) Bill, introducing significant new regulatory requirements and liabilities for the construction industry.",
-      "angle": "Increased regulatory scrutiny and liability frameworks directly impact compliance and product standards within the UK construction sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +993,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 71,
-    "queued_candidates": 130,
-    "llm_requests_attempted": 98,
-    "llm_requests_succeeded": 98,
-    "dropped_no_valid_date": 30,
-    "dropped_thin_page": 0,
-    "dropped_not_about_company": 2,
-    "skipped_recently_evaluated": 2,
+    "providers_succeeded": 87,
+    "queued_candidates": 145,
+    "llm_requests_attempted": 94,
+    "llm_requests_succeeded": 94,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 22,
+    "dropped_not_about_company": 1,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 4
   }
 }
