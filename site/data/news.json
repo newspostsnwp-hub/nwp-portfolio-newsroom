@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15T15:07:27.022784+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector-related updates, with no specific news to report from Molinare, Petainer, The Delivery Group, or Whitespace.",
+  "generated_at": "2026-11-16T07:48:30.716894+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on four sector updates, with no specific news to report from Future Maintenance Technologies, Molinare, or Whitespace.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-15T07:48:21.716758+00:00",
+  "last_digest_sent_at": "2026-11-16T07:48:30.716894+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -581,20 +581,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5b992b786c1e185b",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Avid Updates Pro Tools: Faster Music Creation and Audio Post Production",
-      "url": "https://postperspective.com/avid-updates-pro-tools-faster-music-creation-and-audio-post/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-05T20:42:27+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 85,
-      "summary": "Avid has released Pro Tools 2026.11, introducing AI-powered stem separation and a new Extensions format to streamline audio post-production workflows and third-party tool integration.",
-      "angle": "Adoption of AI-driven audio processing and integrated workflow extensions directly impacts efficiency and technical standards in professional post-production.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "acd3d43714130655",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -606,6 +592,20 @@
       "score": 75,
       "summary": "Hexagon has launched Mantis, a camera-mounted 3D capture system that records spatial data and camera movement on-set to streamline VFX compositing and matchmove workflows.",
       "angle": "Advances in on-set spatial data capture reduce manual post-production tasks, improving efficiency for VFX and compositing teams.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c0858e6d35fd455f",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "ASUS Shows New ProArt Laptops and Monitors at Adobe MAX",
+      "url": "https://postperspective.com/asus-highlights-new-proart-systems-and-displays-at-adobe-max/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-10T22:12:32+00:00",
+      "first_seen": "2026-11-16T07:48:30.716894+00:00",
+      "score": 75,
+      "summary": "ASUS unveiled new ProArt workstations and monitors featuring Nvidia Blackwell GPUs designed for local AI-assisted content creation, VFX, and color-critical post-production workflows.",
+      "angle": "Advancements in local AI processing hardware offer post-production facilities potential efficiency gains and reduced reliance on cloud-based rendering.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -679,20 +679,6 @@
       "discovered_via": "Google News RSS"
     },
     {
-      "id": "95ca0faa92ad51f6",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "OpenAI deal to cut Abu Dhabi government processing times from days to minutes",
-      "url": "https://www.thenationalnews.com/future/technology/2026/11/06/openai-deal-to-cut-abu-dhabi-government-processing-times-from-days-to-minutes/",
-      "source": "thenationalnews.com",
-      "published_at": "2026-11-06T04:30:00+00:00",
-      "first_seen": "2026-11-06T07:48:58.952776+00:00",
-      "score": 90,
-      "summary": "Abu Dhabi has partnered with OpenAI to deploy frontier AI models locally, aiming to become an AI-native government by 2027 while maintaining data sovereignty and intellectual property control.",
-      "angle": "Highlights the growing demand for sovereign AI infrastructure that balances frontier model access with strict local data residency.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "7f28e97b4581d04c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -718,6 +704,20 @@
       "score": 85,
       "summary": "The author argues that reliance on a few frontier AI models creates systemic risks, urging investment in sovereign AI and diversified supply chains to maintain independent judgement.",
       "angle": "Validates the market demand for sovereign, private, and independent AI deployments to mitigate vendor lock-in and systemic bias.",
+      "discovered_via": "GDELT"
+    },
+    {
+      "id": "5df2839b0925acb3",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "SK Telecom , NVIDIA & Rebellions Develop Integrated GPU and NPU System for Sovereign AI",
+      "url": "https://www.thefastmode.com/technology-solutions/51355-sk-telecom-nvidia-rebellions-develop-integrated-gpu-and-npu-system-for-sovereign-ai",
+      "source": "thefastmode.com",
+      "published_at": "2026-11-10T05:00:00+00:00",
+      "first_seen": "2026-11-16T07:48:30.716894+00:00",
+      "score": 85,
+      "summary": "SK Telecom, NVIDIA, and Rebellions have partnered to develop an integrated GPU and NPU system using NVLink Fusion to optimise sovereign AI infrastructure performance and power efficiency.",
+      "angle": "Highlights the industry shift toward disaggregated inference architectures to improve cost and energy efficiency in sovereign AI deployments.",
       "discovered_via": "GDELT"
     },
     {
@@ -945,6 +945,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "8808f3ff61932375",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Google DeepMind launches Gemini Robotics 2.5 with improved dexterity and industrial capabilities",
+      "url": "https://roboticsandautomationnews.com/2026/11/15/google-deepmind-launches-gemini-robotics-2-5-with-improved-dexterity-and-industrial-capabilities/107186/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-15T18:53:31+00:00",
+      "first_seen": "2026-11-16T07:48:30.716894+00:00",
+      "score": 85,
+      "summary": "Google DeepMind has launched Gemini Robotics 2.5, a vision-language-action model that improves robot dexterity, task speed, and safety in industrial environments.",
+      "angle": "Advancements in VLA models and safety benchmarks directly impact the development of autonomous inspection robotics for industrial infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3ac8418e8055d960",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Physicl raises $10 million to improve physical AI training with synthetic data",
+      "url": "https://roboticsandautomationnews.com/2026/11/15/physicl-raises-10-million-to-improve-physical-ai-training-with-synthetic-data/107173/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-15T15:45:16+00:00",
+      "first_seen": "2026-11-16T07:48:30.716894+00:00",
+      "score": 85,
+      "summary": "Paris-based startup Physicl has raised $10 million to develop a synthetic data platform that helps robotics researchers identify and address AI model weaknesses through simulated 3D environments.",
+      "angle": "Synthetic data generation addresses critical edge-case failures in autonomous robotics operating in unpredictable real-world environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "73e9a7ad671f48d9",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -971,34 +999,6 @@
       "summary": "Path Robotics raised $300 million in Series E funding to scale its physical AI platform for manufacturing, achieving a $2.45 billion valuation.",
       "angle": "Validates strong investor appetite for physical AI and autonomous systems capable of adapting to complex, real-world industrial environments.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bf8a4d629e35c240",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "From TractEasy to TLD Robotics: A new chapter in autonomous airport operations",
-      "url": "https://roboticsandautomationnews.com/2026/11/09/from-tracteasy-to-tld-robotics-a-new-chapter-in-autonomous-airport-operations/106859/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-09T19:55:36+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 85,
-      "summary": "ALVEST Group has consolidated EasyMile, TractEasy, and TLD’s autonomous vehicle activities into a single entity, TLD Robotics, to streamline the deployment of autonomous ground support equipment at airports.",
-      "angle": "Highlights industry consolidation and the shift from experimental trials to integrated, full-scale commercial autonomous operations in airport environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "30ebb2161a9aa1d0",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Opinion: Supervised autonomy in robotics starts with the robot’s worst day",
-      "url": "https://roboticsandautomationnews.com/2026/11/09/opinion-supervised-autonomy-in-robotics-starts-with-the-robots-worst-day/106840/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-09T18:17:27+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 85,
-      "summary": "The article argues that supervised autonomy in robotics requires pre-defined protocols for handling operational exceptions and clear human-in-the-loop escalation procedures to ensure reliability.",
-      "angle": "Critical framework for designing human-robot interaction and safety protocols in autonomous infrastructure inspection environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1007,13 +1007,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 90,
-    "llm_requests_succeeded": 90,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 17,
-    "dropped_not_about_company": 0,
+    "providers_succeeded": 71,
+    "queued_candidates": 130,
+    "llm_requests_attempted": 98,
+    "llm_requests_succeeded": 98,
+    "dropped_no_valid_date": 30,
+    "dropped_thin_page": 0,
+    "dropped_not_about_company": 2,
     "skipped_recently_evaluated": 2,
     "carried_forward": 4
   }
