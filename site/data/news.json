@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T15:07:27.533006+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 11 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-17T07:48:58.983236+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Fertility Associates, Swytch, UOE, or Whitespace.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-16T07:48:30.716894+00:00",
+  "last_digest_sent_at": "2026-11-17T07:48:58.983236+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -497,6 +497,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "0c024f2df9987426",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "US researchers identify electrode drying risk during fast charging",
+      "url": "https://www.electrive.com/2026/11/16/us-researchers-identify-electrode-drying-risk-during-fast-charging/",
+      "source": "electrive.com",
+      "published_at": "2026-11-16T15:30:00+00:00",
+      "first_seen": "2026-11-17T07:48:58.983236+00:00",
+      "score": 65,
+      "summary": "University of Maryland researchers identified that fast charging causes electrode drying in lithium-ion batteries, developing a new fluorinated electrolyte to improve charging speeds and efficiency.",
+      "angle": "Advances in battery electrolyte chemistry could enable faster charging times for future e-bike and micromobility power systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bf9ef77fb406e314",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -665,6 +679,20 @@
       "discovered_via": "Google News RSS"
     },
     {
+      "id": "bf371c382c9a2462",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "Can AI be secure? It depends on where it runs",
+      "url": "https://www.uktech.news/opinion/secure-ai-where-it-runs-20261117",
+      "source": "uktech.news",
+      "published_at": "2026-11-17T07:00:10+00:00",
+      "first_seen": "2026-11-17T07:48:58.983236+00:00",
+      "score": 85,
+      "summary": "Moterra is promoting private AI deployment models that allow enterprises to run tools like Claude within their own cloud environments to ensure data sovereignty and security compliance.",
+      "angle": "Highlights the growing enterprise demand for sovereign, self-hosted AI infrastructure to mitigate shadow AI and data privacy risks.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "7f28e97b4581d04c",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -693,20 +721,6 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "5df2839b0925acb3",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "SK Telecom , NVIDIA & Rebellions Develop Integrated GPU and NPU System for Sovereign AI",
-      "url": "https://www.thefastmode.com/technology-solutions/51355-sk-telecom-nvidia-rebellions-develop-integrated-gpu-and-npu-system-for-sovereign-ai",
-      "source": "thefastmode.com",
-      "published_at": "2026-11-10T05:00:00+00:00",
-      "first_seen": "2026-11-16T07:48:30.716894+00:00",
-      "score": 85,
-      "summary": "SK Telecom, NVIDIA, and Rebellions have partnered to develop an integrated GPU and NPU system using NVLink Fusion to optimise sovereign AI infrastructure performance and power efficiency.",
-      "angle": "Highlights the industry shift toward disaggregated inference architectures to improve cost and energy efficiency in sovereign AI deployments.",
-      "discovered_via": "GDELT"
-    },
-    {
       "id": "1dd7e0845a212b20",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -718,6 +732,20 @@
       "score": 95,
       "summary": "The Post Office has confirmed that Fujitsu will hand over the Horizon system to Accenture between June and September 2027.",
       "angle": "Critical infrastructure transition for the Post Office network, impacting operational stability and future branch technology systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "69825c5dd803a2dd",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Royal Mail trials self-service kiosks in c-stores",
+      "url": "https://www.talkingretail.com/news/industry-news/royal-mail-trials-self-service-kiosks-in-c-stores-16-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-16T18:30:08+00:00",
+      "first_seen": "2026-11-17T07:48:58.983236+00:00",
+      "score": 90,
+      "summary": "Royal Mail is trialling self-service kiosks in 26 convenience stores to allow customers to purchase postage and print labels without queuing at the counter.",
+      "angle": "Represents a shift toward automated parcel processing in retail environments, potentially impacting traditional counter-based service models.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -746,20 +774,6 @@
       "score": 90,
       "summary": "The government has launched a pilot scheme targeting 500 prolific retail offenders with tougher restrictions, including Criminal Behaviour Orders and intensive supervision, to reduce shop theft.",
       "angle": "Direct policy intervention addressing retail crime, a critical operational risk for independent high street stationery and post office chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "85f24515225972fc",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Mid-market squeezed as consumers go better or cheaper",
-      "url": "https://www.talkingretail.com/news/industry-news/mid-market-squeezed-as-consumers-go-better-or-cheaper-16-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-16T12:26:10+00:00",
-      "first_seen": "2026-11-16T15:07:27.533006+00:00",
-      "score": 85,
-      "summary": "NielsenIQ research indicates UK consumers are increasingly polarised, shifting away from mid-priced products toward either value or premium alternatives as affordability remains a primary purchase consideration.",
-      "angle": "Highlights the critical need for independent retailers to clearly differentiate their mid-market product offerings to retain customers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -861,17 +875,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b4e30f1573256be2",
+      "id": "97ad8c4a9cb1c22b",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Protein associated with testicular ageing identified",
-      "url": "https://www.progress.org.uk/protein-associated-with-testicular-ageing-identified/",
+      "title": "Podcast Review: A Couple Breaks Up – Who gets custody of their embryos?",
+      "url": "https://www.progress.org.uk/podcast-review-a-couple-breaks-up-who-gets-custody-of-their-embryos/",
       "source": "bionews.org.uk",
-      "published_at": "2026-11-09T16:34:29+00:00",
-      "first_seen": "2026-11-13T07:48:30.175244+00:00",
+      "published_at": "2026-11-16T15:36:26+00:00",
+      "first_seen": "2026-11-17T07:48:58.983236+00:00",
       "score": 75,
-      "summary": "Researchers have identified the WLS protein as a potential driver of testicular ageing, which may impact male fertility and sperm production in older donors.",
-      "angle": "Advances in understanding male biological ageing provide critical context for clinical approaches to male factor infertility in IVF.",
+      "summary": "A podcast review highlights the legal complexities and lack of clear precedent in the United States regarding the custody of frozen embryos following a couple's separation.",
+      "angle": "Highlights critical risks and legal complexities surrounding embryo storage and consent management in fertility clinic operations.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -994,13 +1008,13 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 87,
-    "queued_candidates": 145,
-    "llm_requests_attempted": 94,
-    "llm_requests_succeeded": 94,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 22,
+    "queued_candidates": 139,
+    "llm_requests_attempted": 93,
+    "llm_requests_succeeded": 93,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 16,
     "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 5,
     "carried_forward": 4
   }
 }
