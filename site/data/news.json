@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T07:48:58.983236+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on four sector updates, with no specific news to report from Fertility Associates, Swytch, UOE, or Whitespace.",
+  "generated_at": "2026-11-17T15:08:08.679061+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on nine sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-17T07:48:58.983236+00:00",
   "companies": [
@@ -385,6 +385,20 @@
   ],
   "sector_stories": [
     {
+      "id": "4adab1dc676e7c2b",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "InPost: shoppers value having real choice over how they collect, send and return parcels",
+      "url": "https://postandparcel.info/163339/news/e-commerce/inpost-shoppers-value-having-real-choice-over-how-they-collect-send-and-return-parcels/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-17T09:23:58+00:00",
+      "first_seen": "2026-11-17T15:08:08.679061+00:00",
+      "score": 85,
+      "summary": "InPost has installed 1,650 lockers at Tesco stores, with research indicating that 58% of consumers now prefer parcel lockers over traditional home delivery.",
+      "angle": "Highlights a significant shift in consumer preference toward out-of-home delivery solutions over traditional home delivery models.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2b278443864c04e7",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -424,20 +438,6 @@
       "score": 85,
       "summary": "A 2026 survey reveals 35% of UK consumers have abandoned retailers due to stricter returns policies, with 52% choosing retailers based on their returns offerings.",
       "angle": "Highlights shifting consumer expectations for returns logistics, directly impacting demand for efficient, cost-effective reverse logistics and delivery services.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "caab840a04a16e38",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "ZigZag: 59% of UK retailers will charge for returns in holiday shopping season",
-      "url": "https://postandparcel.info/163301/news/e-commerce/zigzag-59-of-uk-retailers-will-charge-for-returns-in-holiday-shopping-season/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-12T06:03:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "ZigZag forecasts that 59% of UK retailers will charge for returns during the 2026 holiday season, with parcel locker returns surging 27% year-on-year.",
-      "angle": "Shift towards paid returns and automated locker networks impacts carrier service requirements and logistics volume planning.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -553,6 +553,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "52f88f12070512b3",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "HPA NET Roundtable: AI as a Second Unit",
+      "url": "https://postperspective.com/hpa-net-roundtable-ai-as-a-second-unit/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-16T22:23:25+00:00",
+      "first_seen": "2026-11-17T15:08:08.679061+00:00",
+      "score": 85,
+      "summary": "Industry experts at an HPA roundtable discussed integrating AI into post-production workflows, focusing on local infrastructure, security, and using AI for specific tasks like background removal and uprezzing.",
+      "angle": "Provides strategic insight into current industry consensus on AI adoption, security, and practical workflow integration for post-production facilities.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "5b6c1c1f3e24c803",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -595,20 +609,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "c0858e6d35fd455f",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "ASUS Shows New ProArt Laptops and Monitors at Adobe MAX",
-      "url": "https://postperspective.com/asus-highlights-new-proart-systems-and-displays-at-adobe-max/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-10T22:12:32+00:00",
-      "first_seen": "2026-11-16T07:48:30.716894+00:00",
-      "score": 75,
-      "summary": "ASUS unveiled new ProArt workstations and monitors featuring Nvidia Blackwell GPUs designed for local AI-assisted content creation, VFX, and color-critical post-production workflows.",
-      "angle": "Advancements in local AI processing hardware offer post-production facilities potential efficiency gains and reduced reliance on cloud-based rendering.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "bb5b80fba3c23ada",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -620,6 +620,20 @@
       "score": 90,
       "summary": "MPs are questioning the cumulative financial and administrative burden of packaging EPR, with the government confirming a formal post-implementation review will not conclude until late 2028.",
       "angle": "Regulatory uncertainty and compliance costs directly impact manufacturing competitiveness and operational planning within the UK packaging sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "7a48357cebf3451f",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Packaging Federation calls for earlier independent pEPR review",
+      "url": "https://www.packagingnews.co.uk/news/packaging-federation-calls-for-earlier-independent-pepr-review-17-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-17T10:49:14+00:00",
+      "first_seen": "2026-11-17T15:08:08.679061+00:00",
+      "score": 85,
+      "summary": "The Packaging Federation is calling for an earlier independent review of packaging Extended Producer Responsibility (pEPR) following government changes to glass disposal fees for the hospitality sector.",
+      "angle": "Regulatory shifts in pEPR and potential fee modulation directly impact the cost structure and competitiveness of beverage packaging.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -648,20 +662,6 @@
       "score": 85,
       "summary": "WRAP research indicates that UK Plastics Pact members achieved higher recycled content levels in plastic packaging compared to non-members, with PET content rising significantly to 49.9%.",
       "angle": "Demonstrates the effectiveness of voluntary agreements and regulatory pressure in driving recycled content adoption across the PET sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e33074fa1dbd6779",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Defra to exempt hospitality-supplied glass from pEPR fees",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/defra-to-exempt-hospitality-supplied-glass-from-pepr-fees-12-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-12T12:21:12+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "Defra will exempt glass drink containers supplied to the hospitality sector from pEPR fees starting in April 2027 to prevent double-charging for waste management.",
-      "angle": "Regulatory shifts in pEPR fee structures and modulation factors directly impact the competitive landscape for beverage packaging materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -735,6 +735,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "fbf814b3d196c80f",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Give stores more help if you want to preserve banking services, ACS tells government",
+      "url": "https://www.talkingretail.com/news/industry-news/give-stores-more-help-if-you-want-to-preserve-banking-services-acs-tells-government-17-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-17T11:43:36+00:00",
+      "first_seen": "2026-11-17T15:08:08.679061+00:00",
+      "score": 90,
+      "summary": "The Association of Convenience Stores has urged the government to provide financial support to local retailers to ensure the continued viability of essential face-to-face banking services.",
+      "angle": "Highlights the operational costs and policy pressure surrounding the provision of banking services within local retail outlets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "69825c5dd803a2dd",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -763,17 +777,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "276216c8d381606e",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Government scheme to tackle prolific shop thieves backed by retail and police leaders",
-      "url": "https://www.talkingretail.com/featured/government-scheme-to-tackle-prolific-shop-theft-backed-by-retail-and-police-leaders-11-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-11T10:06:05+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "id": "637a3f560789ed0b",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "As AI Changes How Students Approach College, Old Challenges Persist",
+      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "first_seen": "2026-11-17T15:08:08.679061+00:00",
       "score": 90,
-      "summary": "The government has launched a pilot scheme targeting 500 prolific retail offenders with tougher restrictions, including Criminal Behaviour Orders and intensive supervision, to reduce shop theft.",
-      "angle": "Direct policy intervention addressing retail crime, a critical operational risk for independent high street stationery and post office chains.",
+      "summary": "A 2026–27 survey of 5,034 undergraduates reveals that while 34 percent use AI for efficiency, students prioritize AI tools that support learning over those that merely complete work.",
+      "angle": "Provides critical data on student AI adoption, trust, and demand for pedagogical tools in higher education.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -816,20 +830,6 @@
       "score": 85,
       "summary": "Harvard researchers have launched an AI Guidance by Age matrix to help educators navigate the developmental impacts of generative AI tools in various learning contexts.",
       "angle": "Provides a research-backed framework for integrating AI into curricula, addressing the industry-wide challenge of balancing innovation with learning outcomes.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "29e03692d697ffba",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "Survey: Student Success Leaders Weigh In Ahead of 2027",
-      "url": "https://www.insidehighered.com/news/quick-takes/2026/11/12/survey-student-success-leaders-weigh-ahead-2027",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-12T08:00:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "A survey of student success administrators identifies financial constraints, mental health, and academic preparation gaps as the primary barriers to student persistence and success in higher education.",
-      "angle": "Highlights institutional priorities for career-readiness tools, experiential learning, and the strategic role of AI in student support.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
-    "queued_candidates": 139,
+    "providers_succeeded": 90,
+    "queued_candidates": 145,
     "llm_requests_attempted": 93,
     "llm_requests_succeeded": 93,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 16,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 5,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 24,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 3,
     "carried_forward": 4
   }
 }
