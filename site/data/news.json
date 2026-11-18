@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T07:48:59.908353+00:00",
-  "digest_intro": "",
+  "generated_at": "2026-11-18T15:07:53.539530+00:00",
+  "digest_intro": "Good morning. Today's briefing highlights McGraw Hill's investor day, where the company outlined its strategy for 5% to 8% annual revenue growth through 2030 alongside a new focus on agentic AI.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-18T07:48:59.908353+00:00",
   "companies": [
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 2,
+      "story_count": 3,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,8 +251,8 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 4,
-  "todays_story_count": 0,
+  "story_count": 5,
+  "todays_story_count": 1,
   "stories": [
     {
       "id": "19e21fd28edc7254",
@@ -285,6 +285,36 @@
       },
       "status": "ready",
       "discovered_via": "GDELT"
+    },
+    {
+      "id": "3ef91f7ee7888ecd",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill targets 5% to 8% annual revenue growth through 2030 and pitches an agentic AI strategy at its investor day - MLQ.ai",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVmRoWE4ybEs2bmd1UGxMQWZncU1NaVVtNk01eDhCT3pVallFc3RCTzZTalVoYnloUFZ5NWNSWTBWSHlzcnFjZjFpSHRBOVROYmdrMGFWT05mb1hFM1I5akN1ZW1wTldOLTlkckhlY1N1QlUxT1NLUGcteDZHcDZoMmQ4OEpPb1BHVkNLTkJIVGZyRGJyRFpOQkVYYk9Cc1RGYzVaRF9WZG9Fb0RDLTk4bmszUjIwQTY2aXBqX3hFN1Vpd2pmdXN5RzB5X1M0eTR5YVk4?oc=5",
+      "source": "MLQ.ai",
+      "published_at": "2026-11-18T12:53:03+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
+      "score": 85,
+      "tier": "lead",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "McGraw Hill has announced a strategic growth plan targeting 5% to 8% annual revenue growth through 2030, underpinned by a new focus on agentic AI integration.",
+      "why_it_matters": "The announcement provides a clear long-term financial outlook and signals a significant shift in the company's product strategy toward AI-driven learning solutions, which is critical for stakeholders assessing the firm's competitive positioning in the edtech sector.",
+      "verified_facts": [
+        "McGraw Hill targets 5% to 8% annual revenue growth through 2030.",
+        "The company is implementing an agentic AI strategy."
+      ],
+      "warnings": [],
+      "drafts": {
+        "concise": "McGraw Hill has unveiled its strategic roadmap through 2030, setting a target of 5% to 8% annual revenue growth. Central to this growth strategy is the integration of agentic AI, marking a significant evolution in the company's approach to learning technology. This long-term outlook underscores the firm's commitment to scaling its digital offerings and maintaining its position as a leader in the global education publishing sector. We look forward to seeing how these technological advancements shape the future of learning. #EdTech #McGrawHill #Innovation",
+        "investor": "At its recent investor day, McGraw Hill outlined a clear financial trajectory, projecting 5% to 8% annual revenue growth through 2030. The company’s strategic pivot toward an agentic AI-driven model is designed to enhance its learning technology portfolio and drive sustainable long-term value. By focusing on scalable AI solutions, McGraw Hill is positioning itself to capture further market share in the evolving education landscape. This roadmap provides a transparent view of the company's growth levers and its commitment to operational excellence in the coming years. #Investment #GrowthStrategy #Education",
+        "people": "It is encouraging to see the team at McGraw Hill set such a clear and ambitious vision for the future. By targeting 5% to 8% annual revenue growth through 2030 and embracing agentic AI, the company is demonstrating a proactive approach to the changing needs of educators and students globally. This strategy reflects the hard work and forward-thinking mindset of the entire organisation as they continue to innovate within the edtech space. We are pleased to support their ongoing progress. #Leadership #EdTech #FutureOfLearning"
+      },
+      "status": "ready",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "39d9a536f7788a4d",
@@ -469,6 +499,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2c3a93ae3f083fa2",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Industry report: Security has become a data industry",
+      "url": "https://securityjournaluk.com/security-has-become-a-data-industry/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-18T10:07:21+00:00",
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
+      "score": 85,
+      "summary": "A 2027 industry report indicates security systems are increasingly prioritising software, analytics, and automation over hardware to provide business insights beyond traditional site protection.",
+      "angle": "Highlights the shift toward data-driven security services and the growing influence of IT and finance in procurement decisions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "83afc8695feeb3f4",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -483,17 +527,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "db788104fa5b5627",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Delays as local authorities prepare for Martyn’s Law",
-      "url": "https://securityjournaluk.com/delays-local-authorities-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-11T10:14:53+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
+      "id": "b0eaeb7db01c6ea9",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "BMZ integrates digital battery passports into series production",
+      "url": "https://www.electrive.com/2026/11/18/bmz-integrates-digital-battery-passports-into-series-prooduction/",
+      "source": "electrive.com",
+      "published_at": "2026-11-18T12:30:00+00:00",
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
       "score": 85,
-      "summary": "New data reveals that 67.6% of UK local authorities have not budgeted for Martyn’s Law, creating potential future bottlenecks for security infrastructure and consultation services.",
-      "angle": "Highlights a looming surge in demand for security compliance services once final legislative guidance is published.",
+      "summary": "BMZ is integrating digital battery passports into its production systems to comply with the EU Battery Regulation, which becomes mandatory for light mobility batteries from February 2027.",
+      "angle": "Highlights impending regulatory compliance requirements for battery manufacturers and suppliers within the European e-bike market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -539,20 +583,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "e0fe3ebe42a62353",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Attacks in Ukraine spark fresh wiring harness shortages",
-      "url": "https://www.electrive.com/2026/11/12/attacks-in-ukraine-spark-fresh-wiring-harness-shortages/",
-      "source": "electrive.com",
-      "published_at": "2026-11-12T14:00:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 65,
-      "summary": "Russian attacks on Ukrainian wiring harness production facilities have caused supply chain disruptions for major European automotive manufacturers, leading to temporary production adjustments.",
-      "angle": "Highlights ongoing supply chain vulnerabilities for complex electrical components within the broader European automotive and micromobility manufacturing sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "52f88f12070512b3",
       "company": "Molinare",
       "industry": "TV and film post-production",
@@ -595,17 +625,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "acd3d43714130655",
+      "id": "c13a1cb5be9df92c",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Hexagon’s New Mantis On-Set 3D Capture System for VFX",
-      "url": "https://postperspective.com/hexagons-new-mantis-on-set-3d-capture-system-for-vfx/",
+      "title": "Signiant Acquires Ceivo Media Intelligence Technology",
+      "url": "https://postperspective.com/signiant-acquires-ceivo-media-intelligence-technology/",
       "source": "postperspective.com",
-      "published_at": "2026-11-12T17:18:46+00:00",
-      "first_seen": "2026-11-15T07:48:21.716758+00:00",
+      "published_at": "2026-11-17T20:03:14+00:00",
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
       "score": 75,
-      "summary": "Hexagon has launched Mantis, a camera-mounted 3D capture system that records spatial data and camera movement on-set to streamline VFX compositing and matchmove workflows.",
-      "angle": "Advances in on-set spatial data capture reduce manual post-production tasks, improving efficiency for VFX and compositing teams.",
+      "summary": "Signiant has acquired media intelligence technology Ceivo to enable AI-driven content analysis and workflow automation across distributed storage environments without moving files.",
+      "angle": "Advances in AI-integrated media supply chains improve efficiency for managing and searching large-scale post-production content libraries.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "481c547fba540a1d",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "DRS International sets out financial priorities ahead of launch",
+      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/drs-international-sets-out-seven-financial-priorities-ahead-of-launch-18-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-18T12:30:35+00:00",
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
+      "score": 95,
+      "summary": "DRS International has outlined seven financial priorities for producers ahead of the UK deposit return scheme launch on 1 October 2027, including projected fees of 2.3p for PET.",
+      "angle": "Provides critical regulatory and cost-modelling guidance for PET packaging manufacturers navigating the upcoming UK deposit return scheme.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -648,20 +692,6 @@
       "score": 85,
       "summary": "Defra announced that glass drinks containers supplied to hospitality venues will be exempt from packaging Extended Producer Responsibility fees starting in April 2027.",
       "angle": "Regulatory shifts in EPR fee structures for glass may impact the competitive cost landscape for alternative packaging materials.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2e8b8c97bab3baea",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "WRAP research suggests Plastics Pact members ahead on recycled content",
-      "url": "https://www.packagingnews.co.uk/news/retailers/wrap-research-suggest-plastics-pact-members-ahead-on-recycled-content-16-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-16T12:19:54+00:00",
-      "first_seen": "2026-11-16T15:07:27.533006+00:00",
-      "score": 85,
-      "summary": "WRAP research indicates that UK Plastics Pact members achieved higher recycled content levels in plastic packaging compared to non-members, with PET content rising significantly to 49.9%.",
-      "angle": "Demonstrates the effectiveness of voluntary agreements and regulatory pressure in driving recycled content adoption across the PET sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,6 +933,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "b81f468727c8549d",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Weaker housebuilding fails to dent Marshalls profit outlook",
+      "url": "https://www.constructionnews.co.uk/financial/weaker-housebuilding-fails-to-dent-marshalls-profit-outlook-18-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-18T11:27:52+00:00",
+      "first_seen": "2026-11-18T15:07:53.539530+00:00",
+      "score": 85,
+      "summary": "Marshalls maintained its full-year profit outlook despite a slowdown in housebuilding activity, which negatively impacted demand across its building products division.",
+      "angle": "Provides critical insight into current UK housebuilding demand trends and inflationary cost pressures affecting construction product manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "43e174205462a9d9",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -928,20 +972,6 @@
       "score": 85,
       "summary": "UK construction orders fell 18.1 per cent over the past year, with tender prices forecast to rise by 3.75 per cent for real estate projects in 2026 and 2027.",
       "angle": "Rising tender prices and market volatility impact procurement costs and demand for premium glazing products in construction projects.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "90fc52a918368a84",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Rayner convenes construction and Whitehall chiefs to tackle homes delivery",
-      "url": "https://www.constructionnews.co.uk/buildings/rayner-to-launch-housing-delivery-board-to-tackle-building-delays-11-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-11T12:45:43+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
-      "score": 85,
-      "summary": "Housing Secretary Angela Rayner is launching a new housing delivery board to address planning, regulatory, and financial barriers currently hindering the government's 1.5 million home delivery target.",
-      "angle": "Government focus on accelerating housing delivery and addressing construction viability directly impacts demand for residential building products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1037,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 82,
-    "llm_requests_succeeded": 82,
+    "providers_succeeded": 85,
+    "queued_candidates": 145,
+    "llm_requests_attempted": 97,
+    "llm_requests_succeeded": 97,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
-    "dropped_not_about_company": 1,
-    "skipped_recently_evaluated": 7,
+    "dropped_thin_page": 20,
+    "dropped_not_about_company": 0,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 4
   }
 }
