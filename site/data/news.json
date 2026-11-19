@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T15:07:53.539530+00:00",
-  "digest_intro": "Good morning. Today's briefing highlights McGraw Hill's investor day, where the company outlined its strategy for 5% to 8% annual revenue growth through 2030 alongside a new focus on agentic AI.",
+  "generated_at": "2026-11-19T07:48:50.545841+00:00",
+  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill's upcoming investor day.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-18T07:48:59.908353+00:00",
+  "last_digest_sent_at": "2026-11-19T07:48:50.545841+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -162,7 +162,7 @@
       "description": "Global education publishing and learning technology company.",
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
-      "story_count": 3,
+      "story_count": 4,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 5,
+  "story_count": 6,
   "todays_story_count": 1,
   "stories": [
     {
@@ -344,6 +344,38 @@
         "people": "Congratulations to the team at McGraw Hill on their new partnership with the University of California, San Francisco (UCSF) School of Medicine. This collaboration sees McGraw Hill’s trusted content integrated into a sophisticated AI platform designed to support medical students. It is a testament to the team's ongoing efforts to modernise learning experiences and ensure that high-quality, reliable information remains at the heart of medical training. A significant milestone in the company's digital evolution. #McGrawHill #MedicalEducation #AI"
       },
       "status": "ready",
+      "discovered_via": "Google News RSS"
+    },
+    {
+      "id": "b93c38790f38a608",
+      "company": "McGraw Hill",
+      "company_domain": "mheducation.com",
+      "industry": "Education publishing and edtech",
+      "title": "McGraw Hill, Inc. to Outline Vision for Education, Long-Term Strategy and Multi-Year Financial Framework at Its Investor Day on November 18, 2026 - 01net",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQemF6eUNpMUxXR1g4V3M3b3FadFN2UzQ1TmR3a1BGSHhFV3M5dGx1UzVNUWxqZmRMMjEwbWZ0WUplNGlQbnJCTnJjOEVkR3VIWTVXNHhPeXZxYzhFeXNGajRqVXp3Vzg2UTlxaGlFQ2VGbGxGajJOSzlGbWRFQURhajJkU0lDZC1RZk1ZZ3JyVDVBRzV4RVZIdE1tcUVkeVV5RklSbkUtSXdYd0RHUEpPWkQ0MWJHcVRwdWtRMlBaNkgxbnNkS2pUbVpJTTRVREdWa0Nwb3pIUXRNTTc5QlJRN1QzSjZZZ1JXVnZhdXlyZExWOU5mS2c?oc=5",
+      "source": "01net",
+      "published_at": "2026-11-18T15:14:00+00:00",
+      "date_estimated": false,
+      "first_seen": "2026-11-19T07:48:50.545841+00:00",
+      "score": 65,
+      "tier": "reported",
+      "recency": "fresh",
+      "story_type": "Update",
+      "summary": "McGraw Hill hosted an Investor Day on November 18, 2026, to present its long-term strategic vision and multi-year financial framework.",
+      "why_it_matters": "The event provides transparency into the company's future growth trajectory and operational priorities, which is critical for stakeholders assessing the firm's long-term value proposition in the edtech sector.",
+      "verified_facts": [
+        "McGraw Hill held an Investor Day on November 18, 2026.",
+        "The event focused on the company's vision for education, long-term strategy, and multi-year financial framework."
+      ],
+      "warnings": [
+        "The source material is a brief announcement of an event that has already occurred; the specific details of the strategy and financial framework were not provided in the text."
+      ],
+      "drafts": {
+        "concise": "McGraw Hill held its Investor Day yesterday, November 18, 2026. The session provided an opportunity for the leadership team to outline the company's long-term strategic vision and its multi-year financial framework for the education and edtech market. As the sector continues to evolve, these insights into the firm's operational roadmap are essential for understanding its future direction. We look forward to seeing how these strategic priorities are implemented in the coming years. #McGrawHill #EdTech #InvestorRelations",
+        "investor": "Yesterday’s Investor Day for McGraw Hill marked a significant milestone in communicating the company's long-term growth strategy. By detailing a multi-year financial framework, the leadership team has provided greater clarity on their vision for the education publishing and learning technology landscape. This strategic focus is vital for sustaining competitive advantage and driving value in an increasingly digital-first education market. We remain focused on supporting the team as they execute these long-term objectives. #Education #Investment #Strategy",
+        "people": "It was a productive day for the McGraw Hill team as they presented their long-term vision and financial framework at their 2026 Investor Day. This event highlighted the dedication and strategic planning of the leadership team as they continue to navigate the complexities of the global education sector. We are pleased to see the team articulate such a clear path forward, reflecting their commitment to innovation and excellence in learning technology. #Leadership #Education #Growth"
+      },
+      "status": "needs_review",
       "discovered_via": "Google News RSS"
     },
     {
@@ -541,6 +573,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d29abb4fec756432",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Cylib opens door for investment by German Federal Agency for Disruptive Innovation",
+      "url": "https://www.electrive.com/2026/11/18/cylib-opens-door-for-investment-by-german-federal-agency-for-disruptive-innovation/",
+      "source": "electrive.com",
+      "published_at": "2026-11-18T17:30:00+00:00",
+      "first_seen": "2026-11-19T07:48:50.545841+00:00",
+      "score": 65,
+      "summary": "German battery recycling startup Cylib has secured investment from the Federal Agency for Disruptive Innovation to scale its hydrometallurgical recycling technology for industrial use.",
+      "angle": "Advancements in battery recycling and material recovery are critical for the long-term sustainability and supply chain of micromobility.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "0c024f2df9987426",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -569,17 +615,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6cd5114d5582386f",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Up to €6,000 for EVs: Luxembourg extends incentive scheme",
-      "url": "https://www.electrive.com/2026/11/12/up-to-e6000-for-evs-luxembourg-extends-incentive-scheme/",
-      "source": "electrive.com",
-      "published_at": "2026-11-12T14:30:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 65,
-      "summary": "Luxembourg has extended its 'Klimabonus Mobilitéit' subsidy scheme until 2030, providing financial incentives for electric cars, motorcycles, and e-bikes.",
-      "angle": "Government subsidies for e-bikes and micromobility stimulate consumer demand and market growth within the European sector.",
+      "id": "3a6646ccc2d7d6c7",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Autodesk Adds AI Assistant, MCP Servers and Arnold Viewport Updates",
+      "url": "https://postperspective.com/autodesk-adds-ai-assistant-mcp-servers-and-arnold-viewport-updates/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-18T23:10:18+00:00",
+      "first_seen": "2026-11-19T07:48:50.545841+00:00",
+      "score": 85,
+      "summary": "Autodesk has integrated AI assistants and Model Context Protocol servers into its 3ds Max, Maya, and Flow platforms to automate production tasks and improve workflow connectivity.",
+      "angle": "Adoption of AI-driven automation and interoperability standards directly impacts efficiency and technical workflows in high-end post-production environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "f1a975d0645ab1bc",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Adobe MAX 2026 Part 2: Recap",
+      "url": "https://postperspective.com/adobe-max-2026-part-2-recap/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-18T18:22:47+00:00",
+      "first_seen": "2026-11-19T07:48:50.545841+00:00",
+      "score": 85,
+      "summary": "Adobe MAX 2026 introduced new generative AI tools, including Generative Remove for video and advanced color grading features, alongside a shift toward agentic AI workflows in Creative Cloud.",
+      "angle": "New AI-driven post-production tools and evolving software workflows directly impact operational efficiency and technical capabilities in professional editing.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -608,34 +668,6 @@
       "score": 85,
       "summary": "Adobe MAX 2026 introduced agentic AI assistants and Model Context Protocol support across Creative Cloud applications to automate complex, multi-step post-production workflows.",
       "angle": "Standardisation of AI-driven automation and cross-application orchestration significantly impacts post-production efficiency and technical workflows.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "74580303a8907966",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Avid’s Ready to Play Brings Google AI Models to Media Composer",
-      "url": "https://postperspective.com/avids-ready-to-play-brings-google-ai-models-to-media-composer/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-11T17:56:01+00:00",
-      "first_seen": "2026-11-15T07:48:21.716758+00:00",
-      "score": 85,
-      "summary": "Avid has launched Ready to Play, an AI-powered extension for Media Composer integrating Google’s Gemini and Veo models to assist editors with video creation, modification, and metadata analysis.",
-      "angle": "Represents a significant shift in post-production workflows by embedding generative AI directly into industry-standard editing software.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "c13a1cb5be9df92c",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "Signiant Acquires Ceivo Media Intelligence Technology",
-      "url": "https://postperspective.com/signiant-acquires-ceivo-media-intelligence-technology/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-17T20:03:14+00:00",
-      "first_seen": "2026-11-18T15:07:53.539530+00:00",
-      "score": 75,
-      "summary": "Signiant has acquired media intelligence technology Ceivo to enable AI-driven content analysis and workflow automation across distributed storage environments without moving files.",
-      "angle": "Advances in AI-integrated media supply chains improve efficiency for managing and searching large-scale post-production content libraries.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -695,6 +727,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9439dfd92baf3e27",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "UK does not need its own frontier AI model , says AI minister",
+      "url": "https://www.cityam.com/uk-does-not-need-its-own-frontier-ai-model-says-ai-minister/",
+      "source": "cityam.com",
+      "published_at": "2026-11-18T17:30:00+00:00",
+      "first_seen": "2026-11-19T07:48:50.545841+00:00",
+      "score": 90,
+      "summary": "UK AI minister Kanishka Narayan stated that Britain does not need to develop its own frontier AI model, prioritising trusted interdependence and access over domestic replication.",
+      "angle": "Signals a shift in government policy away from funding sovereign frontier models towards niche technological dependencies.",
+      "discovered_via": "GDELT"
+    },
+    {
       "id": "586ad4cabab28b49",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
@@ -734,20 +780,6 @@
       "score": 85,
       "summary": "An op-ed argues that public-sector AI contracts should mandate retained capabilities, including evaluation rights, data control, exit planning, and local institutional learning to prevent vendor lock-in.",
       "angle": "Highlights evolving procurement standards and sovereign requirements for AI, impacting how governments structure long-term infrastructure and service agreements.",
-      "discovered_via": "GDELT"
-    },
-    {
-      "id": "24db645e5151a321",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "AI is attacking our freedom of though , here three ways to fight back",
-      "url": "https://www.cityam.com/ai-is-attacking-our-freedom-of-though-heres-three-ways-to-fight-back/",
-      "source": "cityam.com",
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "first_seen": "2026-11-15T15:07:27.022784+00:00",
-      "score": 85,
-      "summary": "The author argues that reliance on a few frontier AI models creates systemic risks, urging investment in sovereign AI and diversified supply chains to maintain independent judgement.",
-      "angle": "Validates the market demand for sovereign, private, and independent AI deployments to mitigate vendor lock-in and systemic bias.",
       "discovered_via": "GDELT"
     },
     {
@@ -1037,14 +1069,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 145,
-    "llm_requests_attempted": 97,
-    "llm_requests_succeeded": 97,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 20,
+    "providers_succeeded": 90,
+    "queued_candidates": 144,
+    "llm_requests_attempted": 100,
+    "llm_requests_succeeded": 100,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 15,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
-    "carried_forward": 4
+    "skipped_recently_evaluated": 3,
+    "carried_forward": 5
   }
 }
