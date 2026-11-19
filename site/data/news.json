@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:48:50.545841+00:00",
+  "generated_at": "2026-11-19T15:07:32.452426+00:00",
   "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill's upcoming investor day.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-19T07:48:50.545841+00:00",
@@ -447,6 +447,34 @@
   ],
   "sector_stories": [
     {
+      "id": "d886c410fe4ec2cc",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "IDS “delivered strong growth in the first half”",
+      "url": "https://postandparcel.info/163381/news/e-commerce/ids-delivered-strong-growth-in-the-first-half/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-19T11:55:01+00:00",
+      "first_seen": "2026-11-19T15:07:32.452426+00:00",
+      "score": 90,
+      "summary": "International Distribution Services reported a 6.3% revenue increase to £6.85 billion, driven by an 8% rise in parcel volumes and significant growth in out-of-home delivery options.",
+      "angle": "Highlights market-wide growth in parcel volumes and the increasing strategic importance of out-of-home delivery infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ef80abedf8288776",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "DHL: AI can’t replace the trust that wins the customer",
+      "url": "https://postandparcel.info/163384/news/e-commerce/dhl-ai-cant-replace-the-trust-that-wins-the-customer/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-19T06:08:33+00:00",
+      "first_seen": "2026-11-19T15:07:32.452426+00:00",
+      "score": 85,
+      "summary": "DHL's 2026 E-Commerce Trends Report highlights that delivery and returns are critical to Black Friday success, with 77% of shoppers abandoning purchases due to lack of delivery provider trust.",
+      "angle": "Highlights the critical role of reliable delivery and returns in e-commerce conversion during peak seasonal demand periods.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4adab1dc676e7c2b",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -472,34 +500,6 @@
       "score": 85,
       "summary": "London's evolving urban infrastructure, including increased pedestrianisation, is driving a shift toward in-night deliveries to maintain efficient freight movement and bypass daytime traffic congestion.",
       "angle": "Highlights operational shifts required to maintain urban delivery reliability amidst changing city access regulations and road congestion.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9343b1a19c2f699b",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "PostNL explores ways to spread peak parcel volumes more evenly",
-      "url": "https://postandparcel.info/163322/news/e-commerce/postnl-explores-ways-to-spread-peak-parcel-volumes-more-evenly/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-13T05:26:08+00:00",
-      "first_seen": "2026-11-15T07:48:21.716758+00:00",
-      "score": 85,
-      "summary": "PostNL is managing peak festive parcel volumes by increasing operational capacity and collaborating with retailers to encourage consumers to select flexible delivery dates and locations.",
-      "angle": "Highlights industry-wide strategies for managing seasonal capacity constraints and influencing consumer delivery behaviour to optimise network efficiency.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "5afbef3db819b212",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "35% of UK consumers have abandoned retailers over stricter returns policies",
-      "url": "https://postandparcel.info/163316/news/e-commerce/35-of-uk-consumers-have-abandoned-retailers-over-stricter-returns-policies/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-13T04:11:41+00:00",
-      "first_seen": "2026-11-14T07:48:26.684147+00:00",
-      "score": 85,
-      "summary": "A 2026 survey reveals 35% of UK consumers have abandoned retailers due to stricter returns policies, with 52% choosing retailers based on their returns offerings.",
-      "angle": "Highlights shifting consumer expectations for returns logistics, directly impacting demand for efficient, cost-effective reverse logistics and delivery services.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -685,6 +685,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f82406c3054c0620",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "Reconomy warns proposed PET tariff could increase packaging costs",
+      "url": "https://www.packagingnews.co.uk/news/plastics-news/reconomy-warns-proposed-pet-tariff-could-increase-packaging-costs-19-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-19T12:05:53+00:00",
+      "first_seen": "2026-11-19T15:07:32.452426+00:00",
+      "score": 90,
+      "summary": "The Trade Remedies Authority is proposing a 65% tariff on PET imports, which could increase costs for packaging manufacturers already struggling with limited domestic recycled material access.",
+      "angle": "Highlights supply chain cost risks and the critical need for domestic recycled PET infrastructure in the UK.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "bb5b80fba3c23ada",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -710,20 +724,6 @@
       "score": 85,
       "summary": "The Packaging Federation is calling for an earlier independent review of packaging Extended Producer Responsibility (pEPR) following government changes to glass disposal fees for the hospitality sector.",
       "angle": "Regulatory shifts in pEPR and potential fee modulation directly impact the cost structure and competitiveness of beverage packaging.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4d82b2cd5c4b9277",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "FPA warns glass pEPR changes must not shift costs to other materials",
-      "url": "https://www.packagingnews.co.uk/news/retailers/fpa-warns-glass-pepr-changes-must-not-shift-costs-to-other-materials-16-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-16T13:00:54+00:00",
-      "first_seen": "2026-11-16T15:07:27.533006+00:00",
-      "score": 85,
-      "summary": "Defra announced that glass drinks containers supplied to hospitality venues will be exempt from packaging Extended Producer Responsibility fees starting in April 2027.",
-      "angle": "Regulatory shifts in EPR fee structures for glass may impact the competitive cost landscape for alternative packaging materials.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -951,6 +951,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "dfc68e2daef0487c",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Construction product safety rules delayed until at least 2028",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/construction-product-safety-rules-delayed-until-at-least-2028-19-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-19T11:06:46+00:00",
+      "first_seen": "2026-11-19T15:07:32.452426+00:00",
+      "score": 90,
+      "summary": "The UK government has delayed the introduction of new construction product safety regulations until at least 2028, extending the timeline for manufacturers to prepare for compliance.",
+      "angle": "Provides critical regulatory lead time for manufacturers to adapt to new risk assessment and record-keeping requirements.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "150ad582cc81025e",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -990,20 +1004,6 @@
       "score": 85,
       "summary": "The Industry Competence Committee warns that subcontractors admitting competence gaps risk replacement, while new contracts increasingly mandate ongoing evidence of worker competence under Building Safety Act requirements.",
       "angle": "Highlights tightening regulatory and contractual pressure on specialist manufacturers to prove ongoing technical competence and safety compliance.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "396d1bb30e105cc8",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "Orders fall 18% as tender prices set to rise, says Turner & Townsend",
-      "url": "https://www.constructionnews.co.uk/sections/data/orders-fall-18-as-tender-prices-set-to-rise-says-turner-townend-12-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-12T09:40:24+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "UK construction orders fell 18.1 per cent over the past year, with tender prices forecast to rise by 3.75 per cent for real estate projects in 2026 and 2027.",
-      "angle": "Rising tender prices and market volatility impact procurement costs and demand for premium glazing products in construction projects.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 144,
-    "llm_requests_attempted": 100,
-    "llm_requests_succeeded": 100,
-    "dropped_no_valid_date": 29,
-    "dropped_thin_page": 15,
+    "providers_succeeded": 85,
+    "queued_candidates": 143,
+    "llm_requests_attempted": 86,
+    "llm_requests_succeeded": 86,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
-    "carried_forward": 5
+    "skipped_recently_evaluated": 5,
+    "carried_forward": 6
   }
 }
