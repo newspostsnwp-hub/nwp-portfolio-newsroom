@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T07:48:39.870353+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on seven sector updates, with no specific news to report from Clearway Group, Fertility Associates, Future Maintenance Technologies, or Swytch.",
+  "generated_at": "2026-11-20T15:08:01.532085+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there are no specific developments to report from the portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-20T07:48:39.870353+00:00",
   "companies": [
@@ -10,7 +10,7 @@
       "description": "UK mail, parcel and e-commerce delivery group (brands include Secured Mail, CMS Network and OnePost).",
       "website": "https://thedeliverygroup.co.uk/",
       "newsroom_url": "https://thedeliverygroup.co.uk/news/",
-      "story_count": 2,
+      "story_count": 1,
       "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22The+Delivery+Group%22+OR+%22Secured+Mail%22+OR+%22CMS+Network%22+OR+%22OnePost%22&hl=en-GB&gl=GB&ceid=GB:en",
@@ -251,7 +251,7 @@
   "lookback_days": 30,
   "sector_lookback_days": 10,
   "archive_days": 30,
-  "story_count": 6,
+  "story_count": 5,
   "todays_story_count": 0,
   "stories": [
     {
@@ -409,40 +409,6 @@
       },
       "status": "needs_review",
       "discovered_via": "Official RSS"
-    },
-    {
-      "id": "1861f1507e74fd1e",
-      "company": "The Delivery Group",
-      "company_domain": "thedeliverygroup.co.uk",
-      "industry": "UK parcel and mail delivery",
-      "title": "International UnTracked Updates",
-      "url": "https://thedeliverygroup.co.uk/news/latest-international-delivery-updates/",
-      "source": "thedeliverygroup.co.uk",
-      "published_at": "2026-10-21T14:34:00+00:00",
-      "date_estimated": false,
-      "first_seen": "2026-10-29T15:07:31.912682+00:00",
-      "score": 65,
-      "tier": "reported",
-      "recency": "catchup",
-      "story_type": "Update",
-      "summary": "The Delivery Group has issued an operational update regarding international delivery services, highlighting ongoing transit delays in the Middle East, Argentina, Italy, North Macedonia, and Panama due to geopolitical, environmental, and infrastructure factors.",
-      "why_it_matters": "Maintaining transparency regarding global supply chain disruptions is critical for logistics providers to manage client expectations and demonstrate operational resilience in a complex international environment.",
-      "verified_facts": [
-        "The Delivery Group is reporting potential delays for shipments to Iran, Israel, Iraq, Qatar, UAE, Kuwait, Bahrain, Jordan, Saudi Arabia, and Oman.",
-        "Runway restrictions at Argentina's Ministro Pistarini International Airport are affecting cargo until 11 November 2026.",
-        "Operations at the North Macedonia Post sorting centre in Skopje were impacted by a power cut on 19 October 2026."
-      ],
-      "warnings": [
-        "This is a service update rather than a corporate milestone; it is intended for operational transparency rather than investor relations.",
-        "The information provided is highly fluid and subject to change based on external global events."
-      ],
-      "drafts": {
-        "concise": "The Delivery Group continues to monitor global logistics networks to ensure transparency for its customers. As of 21 October 2026, the team has provided an updated status report on international delivery routes. Due to a combination of geopolitical developments, infrastructure maintenance, and adverse weather conditions, customers may experience transit delays in several regions, including the Middle East, Argentina, and North Macedonia. The team is working closely with international partners to mitigate disruptions and maintain service levels where possible. For the latest information on specific routes and affected regions, please refer to the official updates provided by The Delivery Group. #Logistics #SupplyChain #TheDeliveryGroup",
-        "investor": "Operational resilience remains a key focus for The Delivery Group as it navigates a complex global landscape. The firm has proactively communicated updates regarding international transit routes, addressing specific challenges in the Middle East, Italy, and South America. By maintaining close communication with destination partners and providing timely updates on infrastructure and regional disruptions, the company demonstrates its commitment to service reliability and proactive risk management. These updates are essential for maintaining client trust and operational continuity during periods of external volatility. #GlobalTrade #Logistics #OperationalExcellence",
-        "people": "At The Delivery Group, our teams are working diligently to manage the complexities of international logistics. We recognise that our clients rely on accurate, timely information to plan their own operations. Following recent updates on 21 October 2026, our colleagues are actively monitoring transit routes impacted by regional events and infrastructure projects, such as the runway restrictions in Argentina and power disruptions in North Macedonia. We appreciate the ongoing efforts of our staff and partners in navigating these challenges to support our customers' delivery requirements across the globe. #TeamWork #Logistics #CustomerService"
-      },
-      "status": "needs_review",
-      "discovered_via": "Official RSS"
     }
   ],
   "sector_stories": [
@@ -458,6 +424,20 @@
       "score": 90,
       "summary": "International Distribution Services reported a 6.3% revenue increase to £6.85 billion, driven by an 8% rise in parcel volumes and significant growth in out-of-home delivery options.",
       "angle": "Highlights market-wide growth in parcel volumes and the increasing strategic importance of out-of-home delivery infrastructure.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "52e05cd6b20cf1b6",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "InPost: This partnership delivers long-term capital, global reach and deep technology expertise",
+      "url": "https://postandparcel.info/163391/news/e-commerce/inpost-this-partnership-delivers-long-term-capital-global-reach-and-deep-technology-expertise/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-20T08:27:37+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 85,
+      "summary": "A consortium including FedEx and Advent has completed the acquisition of InPost, a major European out-of-home e-commerce delivery platform, to accelerate its expansion across Europe and the UK.",
+      "angle": "Consolidation and strategic partnerships between global logistics giants and automated locker networks intensify competition in last-mile delivery.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -486,20 +466,6 @@
       "score": 85,
       "summary": "InPost has installed 1,650 lockers at Tesco stores, with research indicating that 58% of consumers now prefer parcel lockers over traditional home delivery.",
       "angle": "Highlights a significant shift in consumer preference toward out-of-home delivery solutions over traditional home delivery models.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2b278443864c04e7",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "Why In-Night Deliveries Are Key to Keeping London Moving",
-      "url": "https://postandparcel.info/163319/features/e-commerce-features/why-in-night-deliveries-are-key-to-keeping-london-moving/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-13T06:19:42+00:00",
-      "first_seen": "2026-11-14T07:48:26.684147+00:00",
-      "score": 85,
-      "summary": "London's evolving urban infrastructure, including increased pedestrianisation, is driving a shift toward in-night deliveries to maintain efficient freight movement and bypass daytime traffic congestion.",
-      "angle": "Highlights operational shifts required to maintain urban delivery reliability amidst changing city access regulations and road congestion.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,6 +539,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "ec9824798846be1c",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Ford Trucks partners with Circulor for battery passport",
+      "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/",
+      "source": "electrive.com",
+      "published_at": "2026-11-20T11:30:00+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 75,
+      "summary": "Ford Otosan has partnered with Circulor to implement digital battery passports for its electric trucks, ensuring supply chain transparency ahead of mandatory EU regulations starting in February 2027.",
+      "angle": "Highlights impending EU regulatory compliance requirements for battery traceability that will likely impact all light electric vehicle manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a46f0e661c544d56",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -598,20 +578,6 @@
       "score": 65,
       "summary": "POSCO has signed a three-year contract to supply lithium to CATL, the world's largest manufacturer of electric vehicle batteries, running from 2026 to 2028.",
       "angle": "Secures raw material supply chains for major battery manufacturers, potentially stabilising long-term costs for the broader micromobility sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d29abb4fec756432",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Cylib opens door for investment by German Federal Agency for Disruptive Innovation",
-      "url": "https://www.electrive.com/2026/11/18/cylib-opens-door-for-investment-by-german-federal-agency-for-disruptive-innovation/",
-      "source": "electrive.com",
-      "published_at": "2026-11-18T17:30:00+00:00",
-      "first_seen": "2026-11-19T07:48:50.545841+00:00",
-      "score": 65,
-      "summary": "German battery recycling startup Cylib has secured investment from the Federal Agency for Disruptive Innovation to scale its hydrometallurgical recycling technology for industrial use.",
-      "angle": "Advancements in battery recycling and material recovery are critical for the long-term sustainability and supply chain of micromobility.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -685,6 +651,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "16154f4f216d4294",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "PackUK proposes sharper EPR fee increases for red-rated packaging",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/packuk-proposes-sharper-epr-fee-increases-for-red-rated-packaging-20-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-20T11:23:18+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 90,
+      "summary": "PackUK has proposed accelerating fee increases for red-rated, difficult-to-recycle packaging, raising the modulation multiplier to 2.4 by 2028/29 to incentivize the use of more recyclable materials.",
+      "angle": "Regulatory changes to EPR fee structures directly impact cost competitiveness and material selection strategies for PET packaging manufacturers.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "f82406c3054c0620",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -699,31 +679,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "bb5b80fba3c23ada",
+      "id": "7e147de537caa729",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "MPs question cumulative impact of packaging regulation",
-      "url": "https://www.packagingnews.co.uk/news/environment/legislation/mps-question-cumulative-impact-of-packaging-regulation-10-11-2026",
+      "title": "Eurokey opens £20m plastics recycling plant in Corby",
+      "url": "https://www.packagingnews.co.uk/equipment/investment-installations/eurokey-opens-20m-plastics-recycling-plant-in-corby-20-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-10T09:54:23+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
-      "score": 90,
-      "summary": "MPs are questioning the cumulative financial and administrative burden of packaging EPR, with the government confirming a formal post-implementation review will not conclude until late 2028.",
-      "angle": "Regulatory uncertainty and compliance costs directly impact manufacturing competitiveness and operational planning within the UK packaging sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "7a48357cebf3451f",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Packaging Federation calls for earlier independent pEPR review",
-      "url": "https://www.packagingnews.co.uk/news/packaging-federation-calls-for-earlier-independent-pepr-review-17-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-17T10:49:14+00:00",
-      "first_seen": "2026-11-17T15:08:08.679061+00:00",
+      "published_at": "2026-11-20T11:10:06+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
       "score": 85,
-      "summary": "The Packaging Federation is calling for an earlier independent review of packaging Extended Producer Responsibility (pEPR) following government changes to glass disposal fees for the hospitality sector.",
-      "angle": "Regulatory shifts in pEPR and potential fee modulation directly impact the cost structure and competitiveness of beverage packaging.",
+      "summary": "Eurokey has opened a £20m plastics recycling plant in Corby with the capacity to process 38,000 tonnes of plastic packaging annually into recycled pellets for UK manufacturers.",
+      "angle": "Increases domestic supply of recycled plastic pellets, potentially easing material availability constraints for UK packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -739,20 +705,6 @@
       "summary": "UK AI minister Kanishka Narayan stated that Britain does not need to develop its own frontier AI model, prioritising trusted interdependence and access over domestic replication.",
       "angle": "Signals a shift in government policy away from funding sovereign frontier models towards niche technological dependencies.",
       "discovered_via": "GDELT"
-    },
-    {
-      "id": "586ad4cabab28b49",
-      "company": "Whitespace",
-      "industry": "Sovereign and enterprise AI",
-      "title": "Israel plans sovereign AI stack with 300,000 GPUs to secure critical infrastructure from foreign dependence - streamlinefeed.co.ke",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUZhSGdWNDlhQkVzMzdHblgzY2t1Q0hJYXNzdEkyNkozWFdoZEtjMkRYa2ktV3M4anphSXk4VGdRRTdhZ2ktUnhzcTNGUDZHRFpYaVh0dHhYeEk4cTg1MVlxY25IdHd4YTBJN1F3OHdlX1hwajN1dXVPdW1RN0tQNVdaX2lBRHJ6azBiNGw5Y3ZpR29sRTZmZ2xIZ3IwX3JzRGFncS1PT0VhZG5FanJrM3Z6UXVTRGFDbmRaUm90NW5iNmxIczJWZXpQQlhYSzBBZ1hrcDV6VQ?oc=5",
-      "source": "streamlinefeed.co.ke",
-      "published_at": "2026-11-10T11:30:13+00:00",
-      "first_seen": "2026-11-10T15:08:10.882025+00:00",
-      "score": 90,
-      "summary": "Israel is developing a sovereign AI stack utilizing 300,000 GPUs to reduce reliance on foreign technology and protect critical national infrastructure.",
-      "angle": "Highlights growing global momentum for sovereign AI infrastructure and the strategic prioritisation of domestic compute independence.",
-      "discovered_via": "Google News RSS"
     },
     {
       "id": "bf371c382c9a2462",
@@ -783,17 +735,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "1dd7e0845a212b20",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Post Office confirms exit timeline for Fujitsu contract",
-      "url": "https://www.talkingretail.com/featured/post-office-confirms-exit-timeline-for-fujitsu-contract-10-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-10T13:27:06+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
-      "score": 95,
-      "summary": "The Post Office has confirmed that Fujitsu will hand over the Horizon system to Accenture between June and September 2027.",
-      "angle": "Critical infrastructure transition for the Post Office network, impacting operational stability and future branch technology systems.",
+      "id": "de9ca6596739bff3",
+      "company": "Whitespace",
+      "industry": "Sovereign and enterprise AI",
+      "title": "From backlinks to AI answers: why tech startups need to prioritise AI discoverability",
+      "url": "https://www.uktech.news/opinion/ai-discoverability-tech-startups-20261119",
+      "source": "uktech.news",
+      "published_at": "2026-11-19T11:45:33+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 75,
+      "summary": "Research indicates 94% of B2B buyers use AI in their purchasing process, with 84% of AI citations originating from earned media rather than paid content.",
+      "angle": "Shift in B2B buyer behaviour necessitates prioritising AI discoverability through sustained earned media and thought leadership strategies.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -836,6 +788,20 @@
       "score": 90,
       "summary": "Post Office research indicates that digital payment outages cost retailers significant revenue, prompting new guidance for businesses to maintain cash acceptance as a vital operational contingency.",
       "angle": "Highlights the critical role of cash infrastructure in maintaining retail resilience and meeting local customer payment preferences.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "3c9022ec87530c64",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "PayPoint ‘working to improve retailer service’ as profits drop",
+      "url": "https://www.talkingretail.com/news/industry-news/paypoint-working-to-improve-retailer-service-as-profits-drop-19-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-19T13:00:19+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 85,
+      "summary": "PayPoint reported a 13.2% profit decline and a slight reduction in its retail network, while focusing on improving technical support and retailer service response times.",
+      "angle": "Highlights operational challenges and service performance trends within the critical payment services infrastructure used by independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -923,6 +889,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4addeb7225ec9535",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Dutch senators approve bill allowing creation of human embryos for research",
+      "url": "https://www.progress.org.uk/dutch-senators-approve-bill-allowing-creation-of-human-embryos-for-research/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-16T16:05:42+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 65,
+      "summary": "The Dutch senate has passed legislation permitting the creation of human embryos specifically for scientific research purposes, provided they are destroyed within 14 days.",
+      "angle": "Represents a significant shift in international bioethical regulation regarding embryo research and IVF-related scientific practices.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "04294d390affa4f4",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -934,20 +914,6 @@
       "score": 65,
       "summary": "Authorities in Hyderabad, India, have arrested nine individuals linked to 23 IVF clinics for operating an illegal egg donation network exploiting vulnerable women.",
       "angle": "Highlights increasing regulatory scrutiny and enforcement risks regarding donor recruitment practices and ART compliance in international fertility markets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6a03bd1b61ab7d7f",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "The EMERGE network: Next steps for responsible embryo model research",
-      "url": "https://www.progress.org.uk/the-emerge-network-next-steps-for-responsible-embryo-model-research/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-16T15:42:02+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 65,
-      "summary": "The EMERGE network has launched an international initiative to establish ethical, governance, and research standards for stem-cell-based embryo models as their use in IVF and drug screening expands.",
-      "angle": "Evolving global governance and ethical frameworks for embryo models may impact future clinical standards and reproductive research practices.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -965,17 +931,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "150ad582cc81025e",
+      "id": "79051e55b9950e64",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
-      "title": "Weak demand and higher input costs to hit product sales, CPA says",
-      "url": "https://www.constructionnews.co.uk/supply-chain/weak-demand-and-higher-input-costs-to-hit-product-sales-cpa-says-10-11-2026/",
+      "title": "NEPO seeks firms for £500m retrofit framework",
+      "url": "https://www.constructionnews.co.uk/contracts/nepo-seeks-firms-for-500m-retrofit-framework-20-11-2026/",
       "source": "constructionnews.co.uk",
-      "published_at": "2026-11-10T12:25:27+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
-      "score": 90,
-      "summary": "The Construction Products Association reported a third consecutive quarterly decline in product sales volumes, driven by weak demand, rising input costs, and geopolitical uncertainty.",
-      "angle": "Highlights significant headwinds for light-side manufacturers, including reduced demand, inflationary pressures, and necessary operational capacity adjustments.",
+      "published_at": "2026-11-20T11:44:36+00:00",
+      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "score": 85,
+      "summary": "NEPO has launched a £500m four-year framework for public sector retrofit and energy-efficiency works, including building fabric improvements and energy-efficient windows and doors.",
+      "angle": "Provides significant public sector procurement opportunities for manufacturers of energy-efficient glazing and roofing products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1069,14 +1035,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 87,
+    "providers_succeeded": 90,
     "queued_candidates": 141,
-    "llm_requests_attempted": 86,
-    "llm_requests_succeeded": 86,
-    "dropped_no_valid_date": 27,
-    "dropped_thin_page": 28,
+    "llm_requests_attempted": 83,
+    "llm_requests_succeeded": 83,
+    "dropped_no_valid_date": 28,
+    "dropped_thin_page": 30,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
-    "carried_forward": 6
+    "skipped_recently_evaluated": 3,
+    "carried_forward": 5
   }
 }
