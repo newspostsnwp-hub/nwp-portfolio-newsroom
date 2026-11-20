@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T15:07:32.452426+00:00",
-  "digest_intro": "Good morning. Today's briefing features one update regarding McGraw Hill's upcoming investor day.",
+  "generated_at": "2026-11-20T07:48:39.870353+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on seven sector updates, with no specific news to report from Clearway Group, Fertility Associates, Future Maintenance Technologies, or Swytch.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-19T07:48:50.545841+00:00",
+  "last_digest_sent_at": "2026-11-20T07:48:39.870353+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -252,7 +252,7 @@
   "sector_lookback_days": 10,
   "archive_days": 30,
   "story_count": 6,
-  "todays_story_count": 1,
+  "todays_story_count": 0,
   "stories": [
     {
       "id": "19e21fd28edc7254",
@@ -531,6 +531,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "162aefd39b306b85",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "A layered approach to data centre security",
+      "url": "https://securityjournaluk.com/a-layered-approach-to-data-centre-security/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-20T07:06:00+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 85,
+      "summary": "Data centre operators are increasingly integrating AI-powered video analytics with physical security to manage perimeter threats, unauthorised access, and critical infrastructure protection.",
+      "angle": "Highlights growing demand for advanced, AI-integrated physical security solutions within the expanding data centre infrastructure market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "2c3a93ae3f083fa2",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -542,20 +556,6 @@
       "score": 85,
       "summary": "A 2027 industry report indicates security systems are increasingly prioritising software, analytics, and automation over hardware to provide business insights beyond traditional site protection.",
       "angle": "Highlights the shift toward data-driven security services and the growing influence of IT and finance in procurement decisions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "83afc8695feeb3f4",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "£25 of stolen copper, £1,000 to replace",
-      "url": "https://securityjournaluk.com/25-of-stolen-copper-1000-to-replace/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-16T10:13:27+00:00",
-      "first_seen": "2026-11-16T15:07:27.533006+00:00",
-      "score": 85,
-      "summary": "Infrastructure metal theft in England and Wales rose by 15% in the year to March 2026, with organised criminals increasingly targeting assets with high operational replacement costs.",
-      "angle": "Highlights growing demand for security solutions protecting critical infrastructure against high-impact, low-scrap-value asset theft.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -573,6 +573,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "a46f0e661c544d56",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Sila secures billion-dollar offtake agreement with Panasonic",
+      "url": "https://www.electrive.com/2026/11/19/sila-secures-billion-dollar-offtake-agreement-with-panasonic/",
+      "source": "electrive.com",
+      "published_at": "2026-11-19T15:30:00+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 65,
+      "summary": "Sila has secured a multi-year offtake agreement worth over one billion dollars to supply Panasonic with its high-performance silicon-carbon anode material, Titan Silicon, for US battery production.",
+      "angle": "Advancements in silicon-anode technology offer potential for higher energy density in future e-bike battery systems.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6553b06da9608c76",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "POSCO expands lithium business with major order from CATL",
+      "url": "https://www.electrive.com/2026/11/19/posco-expands-lithium-business-with-major-order-from-catl/",
+      "source": "electrive.com",
+      "published_at": "2026-11-19T15:00:00+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 65,
+      "summary": "POSCO has signed a three-year contract to supply lithium to CATL, the world's largest manufacturer of electric vehicle batteries, running from 2026 to 2028.",
+      "angle": "Secures raw material supply chains for major battery manufacturers, potentially stabilising long-term costs for the broader micromobility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d29abb4fec756432",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -584,34 +612,6 @@
       "score": 65,
       "summary": "German battery recycling startup Cylib has secured investment from the Federal Agency for Disruptive Innovation to scale its hydrometallurgical recycling technology for industrial use.",
       "angle": "Advancements in battery recycling and material recovery are critical for the long-term sustainability and supply chain of micromobility.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "0c024f2df9987426",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "US researchers identify electrode drying risk during fast charging",
-      "url": "https://www.electrive.com/2026/11/16/us-researchers-identify-electrode-drying-risk-during-fast-charging/",
-      "source": "electrive.com",
-      "published_at": "2026-11-16T15:30:00+00:00",
-      "first_seen": "2026-11-17T07:48:58.983236+00:00",
-      "score": 65,
-      "summary": "University of Maryland researchers identified that fast charging causes electrode drying in lithium-ion batteries, developing a new fluorinated electrolyte to improve charging speeds and efficiency.",
-      "angle": "Advances in battery electrolyte chemistry could enable faster charging times for future e-bike and micromobility power systems.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "bf9ef77fb406e314",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Fraunhofer IFAM researches e-motors with fewer critical raw materials",
-      "url": "https://www.electrive.com/2026/11/12/fraunhofer-ifam-researches-e-motors-with-fewer-critical-raw-materials/",
-      "source": "electrive.com",
-      "published_at": "2026-11-12T16:30:00+00:00",
-      "first_seen": "2026-11-13T07:48:30.175244+00:00",
-      "score": 65,
-      "summary": "Fraunhofer IFAM has launched the SIREN project to develop electric motors using fewer critical raw materials, focusing on rare-earth-free designs and aluminium-based windings.",
-      "angle": "Reduces long-term supply chain dependency on rare earth elements and copper for electric drive manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -895,48 +895,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "dfcfa848b22c05dd",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "IVF works more quickly than IUI for patients with unexplained infertility",
-      "url": "https://www.progress.org.uk/ivf-works-more-quickly-than-iui-for-patients-with-unexplained-infertility/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-09T16:49:54+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 95,
-      "summary": "A University of Auckland study found that IVF leads to live births faster than IUI for couples with unexplained infertility, though both methods show similar long-term success rates.",
-      "angle": "Provides clinical evidence influencing treatment pathways and patient counselling for fertility clinics regarding IUI versus IVF protocols.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d67552e5034d5f9c",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Under the Influence: Fertility, Advertising and Social Media",
-      "url": "https://www.progress.org.uk/under-the-influence-fertility-advertising-and-social-media/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-09T16:51:52+00:00",
-      "first_seen": "2026-11-10T07:49:03.204072+00:00",
-      "score": 85,
-      "summary": "A panel of experts discussed how social media misinformation and targeted advertising increasingly shape patient understanding of fertility treatments, often creating unrealistic expectations and anxiety.",
-      "angle": "Clinicians face a growing need to counter online misinformation and provide evidence-based guidance to patients.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "d9f2039f49c3e470",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "IVF add-ons: What information do patients want?",
-      "url": "https://www.progress.org.uk/ivf-add-ons-what-information-do-patients-want/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-09T16:43:37+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
-      "score": 85,
-      "summary": "A study in Human Reproduction identifies that patients primarily value live birth rates when evaluating IVF add-ons, while also considering costs and potential regret.",
-      "angle": "Provides critical insights into patient decision-making and communication priorities regarding elective IVF treatment add-ons.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "97ad8c4a9cb1c22b",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -948,6 +906,48 @@
       "score": 75,
       "summary": "A podcast review highlights the legal complexities and lack of clear precedent in the United States regarding the custody of frozen embryos following a couple's separation.",
       "angle": "Highlights critical risks and legal complexities surrounding embryo storage and consent management in fertility clinic operations.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "41420487bc3e1642",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Call to end England's IVF 'postcode lottery'",
+      "url": "https://www.progress.org.uk/call-to-end-englands-ivf-postcode-lottery/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-16T16:26:49+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 65,
+      "summary": "Campaigners are pressuring the UK government to end regional disparities in NHS-funded IVF access, where only two of 36 integrated care boards currently meet NICE guidelines.",
+      "angle": "Highlights political and public pressure for standardised fertility funding, reflecting broader regulatory and access trends in the sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "04294d390affa4f4",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Nine arrested in Hyderabad over illegal egg donation",
+      "url": "https://www.progress.org.uk/nine-arrested-in-hyderabad-over-illegal-egg-donation/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-16T15:55:31+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 65,
+      "summary": "Authorities in Hyderabad, India, have arrested nine individuals linked to 23 IVF clinics for operating an illegal egg donation network exploiting vulnerable women.",
+      "angle": "Highlights increasing regulatory scrutiny and enforcement risks regarding donor recruitment practices and ART compliance in international fertility markets.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "6a03bd1b61ab7d7f",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "The EMERGE network: Next steps for responsible embryo model research",
+      "url": "https://www.progress.org.uk/the-emerge-network-next-steps-for-responsible-embryo-model-research/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-16T15:42:02+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 65,
+      "summary": "The EMERGE network has launched an international initiative to establish ethical, governance, and research standards for stem-cell-based embryo models as their use in IVF and drug screening expands.",
+      "angle": "Evolving global governance and ethical frameworks for embryo models may impact future clinical standards and reproductive research practices.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,6 +1007,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e0034c633f4eb34e",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Saturn Dynamics develops physics-based world model to improve robot training",
+      "url": "https://roboticsandautomationnews.com/2026/11/19/saturn-dynamics-develops-physics-based-world-model-to-improve-robot-training/107351/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-19T17:23:38+00:00",
+      "first_seen": "2026-11-20T07:48:39.870353+00:00",
+      "score": 85,
+      "summary": "London-based startup Saturn Dynamics has developed Arc, a physics-based world model designed to accelerate robot training and improve simulation accuracy for autonomous machines.",
+      "angle": "Advances in physics-based simulation models can significantly reduce training time and improve reliability for autonomous inspection robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "8808f3ff61932375",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1047,20 +1061,6 @@
       "summary": "Gecko Robotics has launched the Raptor inspection robot, which offers significantly faster data collection speeds and improved maneuverability for critical industrial infrastructure maintenance.",
       "angle": "Demonstrates rapid advancements in autonomous inspection speed and mobility benchmarks within the industrial robotics competitive landscape.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "1965b622875a025d",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Path Robotics raises stunning $300 million at $2.45 billion valuation to expand physical AI in manufacturing",
-      "url": "https://roboticsandautomationnews.com/2026/11/10/path-robotics-raises-stunning-300-million-at-2-45-billion-valuation-to-expand-physical-ai-in-manufacturing/106929/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-10T14:32:27+00:00",
-      "first_seen": "2026-11-11T15:07:27.837156+00:00",
-      "score": 85,
-      "summary": "Path Robotics raised $300 million in Series E funding to scale its physical AI platform for manufacturing, achieving a $2.45 billion valuation.",
-      "angle": "Validates strong investor appetite for physical AI and autonomous systems capable of adapting to complex, real-world industrial environments.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1069,14 +1069,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 143,
+    "providers_succeeded": 87,
+    "queued_candidates": 141,
     "llm_requests_attempted": 86,
     "llm_requests_succeeded": 86,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 29,
+    "dropped_no_valid_date": 27,
+    "dropped_thin_page": 28,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 5,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 6
   }
 }
