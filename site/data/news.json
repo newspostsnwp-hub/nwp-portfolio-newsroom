@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T07:48:22.470279+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from Clearway Group or Petainer.",
+  "generated_at": "2026-11-21T15:07:26.211894+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector-specific updates, as there is no news to report from Clearway Group, Petainer, or Swytch.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-21T07:48:22.470279+00:00",
   "companies": [
@@ -553,6 +553,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "cc186c9f5de5a6be",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "Renault Twingo E-Tech: UK pricing revealed",
+      "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/",
+      "source": "electrive.com",
+      "published_at": "2026-11-20T15:30:00+00:00",
+      "first_seen": "2026-11-21T15:07:26.211894+00:00",
+      "score": 65,
+      "summary": "Renault has confirmed UK pricing for the all-electric Twingo E-Tech, starting at £14,745 after the Electric Car Grant, with deliveries expected by March 2027.",
+      "angle": "Represents increased competition in the affordable urban mobility market, potentially impacting consumer transport choices and micromobility adoption.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "a46f0e661c544d56",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -564,20 +578,6 @@
       "score": 65,
       "summary": "Sila has secured a multi-year offtake agreement worth over one billion dollars to supply Panasonic with its high-performance silicon-carbon anode material, Titan Silicon, for US battery production.",
       "angle": "Advancements in silicon-anode technology offer potential for higher energy density in future e-bike battery systems.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "6553b06da9608c76",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "POSCO expands lithium business with major order from CATL",
-      "url": "https://www.electrive.com/2026/11/19/posco-expands-lithium-business-with-major-order-from-catl/",
-      "source": "electrive.com",
-      "published_at": "2026-11-19T15:00:00+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 65,
-      "summary": "POSCO has signed a three-year contract to supply lithium to CATL, the world's largest manufacturer of electric vehicle batteries, running from 2026 to 2028.",
-      "angle": "Secures raw material supply chains for major battery manufacturers, potentially stabilising long-term costs for the broader micromobility sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1035,13 +1035,13 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 134,
-    "llm_requests_attempted": 70,
-    "llm_requests_succeeded": 70,
+    "providers_succeeded": 96,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 78,
+    "llm_requests_succeeded": 78,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 36,
-    "dropped_not_about_company": 0,
+    "dropped_thin_page": 29,
+    "dropped_not_about_company": 1,
     "skipped_recently_evaluated": 3,
     "carried_forward": 5
   }
