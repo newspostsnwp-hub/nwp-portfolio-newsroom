@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T15:08:01.532085+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there are no specific developments to report from the portfolio companies.",
+  "generated_at": "2026-11-21T07:48:22.470279+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses on two sector-specific updates, with no new developments to report from Clearway Group or Petainer.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-20T07:48:39.870353+00:00",
+  "last_digest_sent_at": "2026-11-21T07:48:22.470279+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -483,20 +483,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "d33208c961a9be8b",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "New tools to support preparation for Martyn’s Law",
-      "url": "https://securityjournaluk.com/new-tools-to-support-prep-for-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-11T07:30:00+00:00",
-      "first_seen": "2026-11-11T07:49:06.205139+00:00",
-      "score": 90,
-      "summary": "The Security Industry Authority has released new planning tools to help premises and events prepare for compliance with the upcoming Martyn’s Law legislation, effective from spring 2027.",
-      "angle": "Provides regulatory clarity and compliance frameworks for security providers managing publicly accessible premises and events.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "162aefd39b306b85",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -522,6 +508,20 @@
       "score": 85,
       "summary": "A 2027 industry report indicates security systems are increasingly prioritising software, analytics, and automation over hardware to provide business insights beyond traditional site protection.",
       "angle": "Highlights the shift toward data-driven security services and the growing influence of IT and finance in procurement decisions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "9e58080e91144701",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Genetec introduces Security Center MCP connector",
+      "url": "https://securityjournaluk.com/genetec-intros-security-center-mcp-connector/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-20T08:00:00+00:00",
+      "first_seen": "2026-11-21T07:48:22.470279+00:00",
+      "score": 75,
+      "summary": "Genetec has launched a Model Context Protocol connector allowing enterprise security systems to integrate with AI assistants like ChatGPT and Microsoft Copilot for automated configuration and monitoring.",
+      "angle": "Represents a significant shift toward AI-driven operational efficiency and automated deployment workflows in physical security management.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -679,17 +679,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "7e147de537caa729",
+      "id": "5cfdd803f8e8ee2f",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Eurokey opens £20m plastics recycling plant in Corby",
-      "url": "https://www.packagingnews.co.uk/equipment/investment-installations/eurokey-opens-20m-plastics-recycling-plant-in-corby-20-11-2026",
+      "title": "Packaging Federation welcomes PackUK’s PFAS decision",
+      "url": "https://www.packagingnews.co.uk/news/plastics-news/packaging-federation-welcomes-packuks-pfas-decision-20-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-20T11:10:06+00:00",
-      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "published_at": "2026-11-20T16:01:40+00:00",
+      "first_seen": "2026-11-21T07:48:22.470279+00:00",
       "score": 85,
-      "summary": "Eurokey has opened a £20m plastics recycling plant in Corby with the capacity to process 38,000 tonnes of plastic packaging annually into recycled pellets for UK manufacturers.",
-      "angle": "Increases domestic supply of recycled plastic pellets, potentially easing material availability constraints for UK packaging manufacturers.",
+      "summary": "PackUK will retain the existing intentionally added approach to PFAS for 2027 packaging reporting, avoiding automatic Red ratings for unintentionally present PFAS in packaging materials.",
+      "angle": "Regulatory clarity on PFAS reporting avoids significant cost increases and operational burdens for plastic packaging manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1035,12 +1035,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 90,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 83,
-    "llm_requests_succeeded": 83,
+    "providers_succeeded": 80,
+    "queued_candidates": 134,
+    "llm_requests_attempted": 70,
+    "llm_requests_succeeded": 70,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 30,
+    "dropped_thin_page": 36,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 3,
     "carried_forward": 5
