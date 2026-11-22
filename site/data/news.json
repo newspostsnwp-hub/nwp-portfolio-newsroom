@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T07:48:51.059776+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no specific news to report from Whitespace this morning.",
+  "generated_at": "2026-11-22T15:07:44.928329+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-22T07:48:51.059776+00:00",
   "companies": [
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -163,7 +163,7 @@
       "website": "https://www.mheducation.com/",
       "newsroom_url": "https://www.mheducation.com/news-media.html",
       "story_count": 4,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22McGraw+Hill+Education%22+OR+%22McGraw-Hill%22&tbm=nws",
@@ -777,20 +777,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "af6dd98811ff42bb",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Post Office urges retailers to prepare for outages with backup cash",
-      "url": "https://www.talkingretail.com/featured/post-office-urges-retailers-to-prepare-for-outages-with-backup-cash-12-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-12T10:57:46+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 90,
-      "summary": "Post Office research indicates that digital payment outages cost retailers significant revenue, prompting new guidance for businesses to maintain cash acceptance as a vital operational contingency.",
-      "angle": "Highlights the critical role of cash infrastructure in maintaining retail resilience and meeting local customer payment preferences.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "3c9022ec87530c64",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -844,20 +830,6 @@
       "score": 85,
       "summary": "A New America report outlines 14 policy recommendations to expand degree apprenticeship programs, aiming to better integrate classroom learning with paid workplace experience across various industries.",
       "angle": "Highlights a growing policy shift towards integrating work-based learning into higher education, impacting future curriculum and publishing needs.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "65bec48eb6eeb26e",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "New AI Learning Matrix Brings Nuance to ‘Wild West’ Moment",
-      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-12T08:00:00+00:00",
-      "first_seen": "2026-11-12T15:07:31.135507+00:00",
-      "score": 85,
-      "summary": "Harvard researchers have launched an AI Guidance by Age matrix to help educators navigate the developmental impacts of generative AI tools in various learning contexts.",
-      "angle": "Provides a research-backed framework for integrating AI into curricula, addressing the industry-wide challenge of balancing innovation with learning outcomes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1035,12 +1007,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 137,
-    "llm_requests_attempted": 84,
-    "llm_requests_succeeded": 84,
+    "providers_succeeded": 83,
+    "queued_candidates": 112,
+    "llm_requests_attempted": 54,
+    "llm_requests_succeeded": 54,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 30,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 3,
     "carried_forward": 5
