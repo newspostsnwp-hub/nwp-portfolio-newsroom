@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T07:48:50.037479+00:00",
-  "digest_intro": "Good morning, today's briefing focuses exclusively on five sector-specific updates, with no new developments to report from Clearway Group, Future Maintenance Technologies, Molinare, or UOE.",
+  "generated_at": "2026-11-23T15:07:27.745474+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, as there is no news to report from Clearway Group, Future Maintenance Technologies, Molinare, or UOE.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-23T07:48:50.037479+00:00",
   "companies": [
@@ -30,7 +30,7 @@
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
@@ -466,20 +466,6 @@
       "score": 85,
       "summary": "InPost has installed 1,650 lockers at Tesco stores, with research indicating that 58% of consumers now prefer parcel lockers over traditional home delivery.",
       "angle": "Highlights a significant shift in consumer preference toward out-of-home delivery solutions over traditional home delivery models.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "304fe668f0aeb9e5",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "What the SIA’s new tools mean for Martyn’s Law readiness",
-      "url": "https://securityjournaluk.com/what-new-sias-tools-mean-for-martyns-law/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-13T09:00:00+00:00",
-      "first_seen": "2026-11-13T15:07:28.046184+00:00",
-      "score": 90,
-      "summary": "The Security Industry Authority has released new planning and template tools to help premises and events prepare for the upcoming Terrorism (Protection of Premises) Act 2025.",
-      "angle": "Provides critical regulatory guidance and compliance frameworks for security providers managing vacant sites and public-facing premises.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1021,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 84,
-    "queued_candidates": 136,
-    "llm_requests_attempted": 84,
-    "llm_requests_succeeded": 83,
+    "providers_succeeded": 89,
+    "queued_candidates": 129,
+    "llm_requests_attempted": 24,
+    "llm_requests_succeeded": 0,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 24,
+    "dropped_thin_page": 11,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 4,
     "carried_forward": 5
   }
 }
