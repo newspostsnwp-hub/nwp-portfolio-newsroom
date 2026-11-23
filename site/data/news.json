@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T15:07:44.928329+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on three sector updates, as there is no news to report from our portfolio companies.",
+  "generated_at": "2026-11-23T07:48:50.037479+00:00",
+  "digest_intro": "Good morning, today's briefing focuses exclusively on five sector-specific updates, with no new developments to report from Clearway Group, Future Maintenance Technologies, Molinare, or UOE.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-22T07:48:51.059776+00:00",
+  "last_digest_sent_at": "2026-11-23T07:48:50.037479+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -511,17 +511,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "9e58080e91144701",
+      "id": "a84fc172d03783c9",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Genetec introduces Security Center MCP connector",
-      "url": "https://securityjournaluk.com/genetec-intros-security-center-mcp-connector/",
+      "title": "Why physical security matters most at data centres",
+      "url": "https://securityjournaluk.com/physical-security-matters-at-data-centres/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-11-20T08:00:00+00:00",
-      "first_seen": "2026-11-21T07:48:22.470279+00:00",
+      "published_at": "2026-11-23T07:30:00+00:00",
+      "first_seen": "2026-11-23T07:48:50.037479+00:00",
       "score": 75,
-      "summary": "Genetec has launched a Model Context Protocol connector allowing enterprise security systems to integrate with AI assistants like ChatGPT and Microsoft Copilot for automated configuration and monitoring.",
-      "angle": "Represents a significant shift toward AI-driven operational efficiency and automated deployment workflows in physical security management.",
+      "summary": "Data centres are increasingly prioritising integrated physical security solutions, including advanced surveillance and access control, to protect perimeters and critical interior infrastructure from physical threats.",
+      "angle": "Highlights growing demand for sophisticated, integrated physical security and remote monitoring technologies within the critical infrastructure sector.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -623,17 +623,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5b6c1c1f3e24c803",
+      "id": "6c1a36d2f15da843",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Adobe MAX 2026 Updates: AI and Creative Cloud",
-      "url": "https://postperspective.com/adobe-max-2026-updates-ai-and-creative-cloud/",
+      "title": "Amelia Allwarden on Her Editing Workflow for Marvel’s VisionQuest",
+      "url": "https://postperspective.com/amelia-allwarden-on-her-editing-workflow-for-marvels-visionquest/",
       "source": "postperspective.com",
-      "published_at": "2026-11-12T19:49:24+00:00",
-      "first_seen": "2026-11-15T07:48:21.716758+00:00",
-      "score": 85,
-      "summary": "Adobe MAX 2026 introduced agentic AI assistants and Model Context Protocol support across Creative Cloud applications to automate complex, multi-step post-production workflows.",
-      "angle": "Standardisation of AI-driven automation and cross-application orchestration significantly impacts post-production efficiency and technical workflows.",
+      "published_at": "2026-11-19T19:15:53+00:00",
+      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "score": 75,
+      "summary": "Editor Amelia Allwarden discusses her workflow for Marvel’s VisionQuest, highlighting the benefits of editing on-site at Pinewood Studios in London during the production phase.",
+      "angle": "Highlights the continued importance of proximity between post-production teams and physical production sets for high-end UK-based projects.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -791,6 +791,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "9a2e0615323396e5",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Repeat shoplifter gets nine months behind bars",
+      "url": "https://www.talkingretail.com/news/industry-news/repeat-shoplifter-gets-nine-months-behind-bars-20-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-20T11:27:59+00:00",
+      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "score": 65,
+      "summary": "A repeat shoplifter in Lancashire has been sentenced to 40 weeks in prison for theft and breaching a criminal behaviour order as part of Operation Vulture.",
+      "angle": "Highlights increased police focus on retail crime and the use of criminal behaviour orders to protect local businesses.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "637a3f560789ed0b",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
@@ -945,6 +959,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "e94a7bddb231efac",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Robotics investment set to reach $60.7 billion in 2026, but funding boom raises concerns",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-22T20:11:05+00:00",
+      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "score": 85,
+      "summary": "Global robotics investment is projected to reach $60.7 billion in 2026, though the report warns that valuations are increasingly outpacing commercial revenue and performance.",
+      "angle": "Highlights a critical industry shift towards prioritizing demonstrable business traction and sustainable revenue over speculative technological valuation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ef750239d489300e",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-22T19:59:30+00:00",
+      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "score": 85,
+      "summary": "Nvidia has expanded its Isaac robotics platform with new AI training tools, simulation frameworks, and the Isaac OS runtime to accelerate the development of autonomous robotic systems.",
+      "angle": "Advances in simulation and foundation models significantly reduce development and commissioning time for autonomous industrial robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e0034c633f4eb34e",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -971,34 +1013,6 @@
       "summary": "Google DeepMind has launched Gemini Robotics 2.5, a vision-language-action model that improves robot dexterity, task speed, and safety in industrial environments.",
       "angle": "Advancements in VLA models and safety benchmarks directly impact the development of autonomous inspection robotics for industrial infrastructure.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "3ac8418e8055d960",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Physicl raises $10 million to improve physical AI training with synthetic data",
-      "url": "https://roboticsandautomationnews.com/2026/11/15/physicl-raises-10-million-to-improve-physical-ai-training-with-synthetic-data/107173/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-15T15:45:16+00:00",
-      "first_seen": "2026-11-16T07:48:30.716894+00:00",
-      "score": 85,
-      "summary": "Paris-based startup Physicl has raised $10 million to develop a synthetic data platform that helps robotics researchers identify and address AI model weaknesses through simulated 3D environments.",
-      "angle": "Synthetic data generation addresses critical edge-case failures in autonomous robotics operating in unpredictable real-world environments.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "73e9a7ad671f48d9",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Gecko Robotics unveils faster Raptor inspection robot, with ADNOC as first customer",
-      "url": "https://roboticsandautomationnews.com/2026/11/14/gecko-robotics-unveils-faster-raptor-inspection-robot-with-adnoc-as-first-customer/107096/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-14T03:15:32+00:00",
-      "first_seen": "2026-11-14T07:48:26.684147+00:00",
-      "score": 85,
-      "summary": "Gecko Robotics has launched the Raptor inspection robot, which offers significantly faster data collection speeds and improved maneuverability for critical industrial infrastructure maintenance.",
-      "angle": "Demonstrates rapid advancements in autonomous inspection speed and mobility benchmarks within the industrial robotics competitive landscape.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1007,12 +1021,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 83,
-    "queued_candidates": 112,
-    "llm_requests_attempted": 54,
-    "llm_requests_succeeded": 54,
+    "providers_succeeded": 84,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 84,
+    "llm_requests_succeeded": 83,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 30,
+    "dropped_thin_page": 24,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 3,
     "carried_forward": 5
