@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T15:07:27.745474+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector-related updates, as there is no news to report from Clearway Group, Future Maintenance Technologies, Molinare, or UOE.",
+  "generated_at": "2026-11-24T07:48:30.761744+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from Clearway Group, Fertility Associates, or Swytch.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-23T07:48:50.037479+00:00",
+  "last_digest_sent_at": "2026-11-24T07:48:30.761744+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -30,7 +30,7 @@
       "website": "https://www.clearway.co.uk/",
       "newsroom_url": "https://www.clearway.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Clearway+Group%22+OR+%22Clearway+security%22+OR+%22Clearway+Labs%22+OR+%22LociLabs%22&tbm=nws",
@@ -469,6 +469,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "59583eed1c24cd75",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Drone Detection Systems: Technologies, Applications and the Future of Airspace Security",
+      "url": "https://securityjournaluk.com/drone-detection-system/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-24T06:47:57+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "score": 85,
+      "summary": "UK drone detection technology is evolving to address security gaps at critical sites, with new regulations mandating Remote ID for specific drone classes as of January 2026.",
+      "angle": "Highlights an emerging demand for integrated aerial security solutions within the broader UK site protection market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "162aefd39b306b85",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -497,17 +511,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "a84fc172d03783c9",
+      "id": "cb0c04e239117c64",
       "company": "Clearway Group",
       "industry": "UK property and site security",
-      "title": "Why physical security matters most at data centres",
-      "url": "https://securityjournaluk.com/physical-security-matters-at-data-centres/",
+      "title": "Shaping the future of video technology",
+      "url": "https://securityjournaluk.com/shaping-the-future-of-video-technology/",
       "source": "securityjournaluk.com",
-      "published_at": "2026-11-23T07:30:00+00:00",
-      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "published_at": "2026-11-24T07:30:00+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
       "score": 75,
-      "summary": "Data centres are increasingly prioritising integrated physical security solutions, including advanced surveillance and access control, to protect perimeters and critical interior infrastructure from physical threats.",
-      "angle": "Highlights growing demand for sophisticated, integrated physical security and remote monitoring technologies within the critical infrastructure sector.",
+      "summary": "Milestone Systems' Developer Summit highlighted how AI and deep learning are shifting video management from simple recording to generating actionable insights for intelligent operators.",
+      "angle": "Advances in AI-driven video analytics are critical for reducing false alarms and operational overhead in remote site security.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -539,6 +553,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "271fc633c88f80a3",
+      "company": "Swytch",
+      "industry": "E-bikes and micromobility",
+      "title": "VW ID. Polo: customers now face year-long wait times",
+      "url": "https://www.electrive.com/2026/11/23/vw-id-polo-customers-now-face-year-long-wait-times/",
+      "source": "electrive.com",
+      "published_at": "2026-11-23T16:30:00+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "score": 65,
+      "summary": "Volkswagen is experiencing significant production delays and year-long wait times for its new electric compact car family due to high demand and battery cell supply chain disruptions.",
+      "angle": "Highlights consumer demand for affordable electric mobility and systemic supply chain vulnerabilities in the broader EV market.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "cc186c9f5de5a6be",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -550,20 +578,6 @@
       "score": 65,
       "summary": "Renault has confirmed UK pricing for the all-electric Twingo E-Tech, starting at £14,745 after the Electric Car Grant, with deliveries expected by March 2027.",
       "angle": "Represents increased competition in the affordable urban mobility market, potentially impacting consumer transport choices and micromobility adoption.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "a46f0e661c544d56",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "Sila secures billion-dollar offtake agreement with Panasonic",
-      "url": "https://www.electrive.com/2026/11/19/sila-secures-billion-dollar-offtake-agreement-with-panasonic/",
-      "source": "electrive.com",
-      "published_at": "2026-11-19T15:30:00+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 65,
-      "summary": "Sila has secured a multi-year offtake agreement worth over one billion dollars to supply Panasonic with its high-performance silicon-carbon anode material, Titan Silicon, for US battery production.",
-      "angle": "Advancements in silicon-anode technology offer potential for higher energy density in future e-bike battery systems.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -833,6 +847,48 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "f97de3eb7d815eec",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Marketing of carrier screening may overstate reproductive risks",
+      "url": "https://www.progress.org.uk/marketing-of-carrier-screening-may-overstate-reproductive-risks/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-23T17:09:50+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "score": 75,
+      "summary": "Research indicates that fertility clinics often use misleading marketing for expanded carrier screening, potentially overstating genetic risks and failing to explain the limitations of such testing.",
+      "angle": "Highlights potential regulatory and ethical scrutiny regarding how fertility clinics market genetic screening services to prospective parents.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c178e9ecd8150def",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "NHS England extends PGT-M access to families with existing children",
+      "url": "https://www.progress.org.uk/nhs-england-extends-pgt-m-access-to-families-with-existing-children/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-23T16:57:40+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "score": 75,
+      "summary": "NHS England has updated its policy to allow access to PGT-M and PGT-SR for couples at risk of passing on serious genetic conditions, even if they have unaffected children.",
+      "angle": "Demonstrates a significant regulatory shift towards broader access for genetic screening services within the fertility sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "c614fc4fb440022f",
+      "company": "Fertility Associates",
+      "industry": "Fertility and IVF services",
+      "title": "Genetic variants linked to recurrent miscarriage",
+      "url": "https://www.progress.org.uk/genetic-variants-linked-to-recurrent-miscarriage/",
+      "source": "bionews.org.uk",
+      "published_at": "2026-11-23T16:54:23+00:00",
+      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "score": 75,
+      "summary": "Researchers identified specific genetic variants in 30 families that may explain recurrent pregnancy loss in cases where embryos have the correct number of chromosomes.",
+      "angle": "Advances in genetic sequencing for recurrent miscarriage offer potential new diagnostic pathways for fertility clinics to support patients.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "97ad8c4a9cb1c22b",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
@@ -844,48 +900,6 @@
       "score": 75,
       "summary": "A podcast review highlights the legal complexities and lack of clear precedent in the United States regarding the custody of frozen embryos following a couple's separation.",
       "angle": "Highlights critical risks and legal complexities surrounding embryo storage and consent management in fertility clinic operations.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "41420487bc3e1642",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Call to end England's IVF 'postcode lottery'",
-      "url": "https://www.progress.org.uk/call-to-end-englands-ivf-postcode-lottery/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-16T16:26:49+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 65,
-      "summary": "Campaigners are pressuring the UK government to end regional disparities in NHS-funded IVF access, where only two of 36 integrated care boards currently meet NICE guidelines.",
-      "angle": "Highlights political and public pressure for standardised fertility funding, reflecting broader regulatory and access trends in the sector.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "4addeb7225ec9535",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Dutch senators approve bill allowing creation of human embryos for research",
-      "url": "https://www.progress.org.uk/dutch-senators-approve-bill-allowing-creation-of-human-embryos-for-research/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-16T16:05:42+00:00",
-      "first_seen": "2026-11-20T15:08:01.532085+00:00",
-      "score": 65,
-      "summary": "The Dutch senate has passed legislation permitting the creation of human embryos specifically for scientific research purposes, provided they are destroyed within 14 days.",
-      "angle": "Represents a significant shift in international bioethical regulation regarding embryo research and IVF-related scientific practices.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "04294d390affa4f4",
-      "company": "Fertility Associates",
-      "industry": "Fertility and IVF services",
-      "title": "Nine arrested in Hyderabad over illegal egg donation",
-      "url": "https://www.progress.org.uk/nine-arrested-in-hyderabad-over-illegal-egg-donation/",
-      "source": "bionews.org.uk",
-      "published_at": "2026-11-16T15:55:31+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 65,
-      "summary": "Authorities in Hyderabad, India, have arrested nine individuals linked to 23 IVF clinics for operating an illegal egg donation network exploiting vulnerable women.",
-      "angle": "Highlights increasing regulatory scrutiny and enforcement risks regarding donor recruitment practices and ART compliance in international fertility markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,12 +1021,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 89,
-    "queued_candidates": 129,
-    "llm_requests_attempted": 24,
-    "llm_requests_succeeded": 0,
+    "providers_succeeded": 75,
+    "queued_candidates": 112,
+    "llm_requests_attempted": 52,
+    "llm_requests_succeeded": 51,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 11,
+    "dropped_thin_page": 32,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 4,
     "carried_forward": 5
