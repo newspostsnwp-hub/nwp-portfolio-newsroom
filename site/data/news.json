@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T07:48:30.761744+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from Clearway Group, Fertility Associates, or Swytch.",
+  "generated_at": "2026-11-25T07:48:24.027152+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on seven sector-related updates, as there is no news to report from the portfolio companies.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-24T07:48:30.761744+00:00",
+  "last_digest_sent_at": "2026-11-25T07:48:24.027152+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -483,6 +483,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "82819c9d839d46a7",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "Co-op Live arena – unknown substance causes panic and mass evacuation",
+      "url": "https://securityjournaluk.com/co-op-live-arena-panic-and-mass-evacuation/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-23T15:30:21+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
+      "score": 85,
+      "summary": "The Co-op Live arena in Manchester was evacuated following the dispersal of an unknown substance, leading to multiple casualties and questions regarding venue security search procedures.",
+      "angle": "Highlights critical gaps in venue access control and the increasing regulatory pressure from Martyn’s Law.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "162aefd39b306b85",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -508,20 +522,6 @@
       "score": 85,
       "summary": "A 2027 industry report indicates security systems are increasingly prioritising software, analytics, and automation over hardware to provide business insights beyond traditional site protection.",
       "angle": "Highlights the shift toward data-driven security services and the growing influence of IT and finance in procurement decisions.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "cb0c04e239117c64",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Shaping the future of video technology",
-      "url": "https://securityjournaluk.com/shaping-the-future-of-video-technology/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-24T07:30:00+00:00",
-      "first_seen": "2026-11-24T07:48:30.761744+00:00",
-      "score": 75,
-      "summary": "Milestone Systems' Developer Summit highlighted how AI and deep learning are shifting video management from simple recording to generating actionable insights for intelligent operators.",
-      "angle": "Advances in AI-driven video analytics are critical for reducing false alarms and operational overhead in remote site security.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -553,31 +553,31 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "271fc633c88f80a3",
+      "id": "1201e4a27f0d64f7",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "VW ID. Polo: customers now face year-long wait times",
-      "url": "https://www.electrive.com/2026/11/23/vw-id-polo-customers-now-face-year-long-wait-times/",
+      "title": "Fortum tests new battery recycling process",
+      "url": "https://www.electrive.com/2026/11/24/fortum-tests-new-battery-recycling-process/",
       "source": "electrive.com",
-      "published_at": "2026-11-23T16:30:00+00:00",
-      "first_seen": "2026-11-24T07:48:30.761744+00:00",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
       "score": 65,
-      "summary": "Volkswagen is experiencing significant production delays and year-long wait times for its new electric compact car family due to high demand and battery cell supply chain disruptions.",
-      "angle": "Highlights consumer demand for affordable electric mobility and systemic supply chain vulnerabilities in the broader EV market.",
+      "summary": "Fortum Battery Recycling has successfully produced battery-grade nickel, cobalt, and lithium using a new closed-loop recycling process at its facility in Finland.",
+      "angle": "Advancements in battery recycling technology and EU regulatory mandates for recycled material content impact long-term micromobility supply chain sustainability.",
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "cc186c9f5de5a6be",
+      "id": "5b6e5a14aac24a39",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "Renault Twingo E-Tech: UK pricing revealed",
-      "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/",
+      "title": "BASF supplies CATL: CAM shipments from Schwarzheide have begun",
+      "url": "https://www.electrive.com/2026/11/24/basf-supplies-catl-cam-shipments-from-schwarzheide-have-begun/",
       "source": "electrive.com",
-      "published_at": "2026-11-20T15:30:00+00:00",
-      "first_seen": "2026-11-21T15:07:26.211894+00:00",
+      "published_at": "2026-11-24T12:30:00+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
       "score": 65,
-      "summary": "Renault has confirmed UK pricing for the all-electric Twingo E-Tech, starting at £14,745 after the Electric Car Grant, with deliveries expected by March 2027.",
-      "angle": "Represents increased competition in the affordable urban mobility market, potentially impacting consumer transport choices and micromobility adoption.",
+      "summary": "BASF has commenced commercial shipments of high-performance cathode active materials from its Schwarzheide plant in Germany to support CATL's European cell manufacturing operations.",
+      "angle": "Strengthens regional battery supply chains and material availability for European electric mobility manufacturers.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -623,17 +623,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6c1a36d2f15da843",
+      "id": "ffab75e8cbbedae5",
       "company": "Molinare",
       "industry": "TV and film post-production",
-      "title": "Amelia Allwarden on Her Editing Workflow for Marvel’s VisionQuest",
-      "url": "https://postperspective.com/amelia-allwarden-on-her-editing-workflow-for-marvels-visionquest/",
+      "title": "Maxon Plus: New AI-Assisted Tools and 3D Review Services",
+      "url": "https://postperspective.com/maxon-plus-intros-new-ai-assisted-tools-and-3d-review-services/",
       "source": "postperspective.com",
-      "published_at": "2026-11-19T19:15:53+00:00",
-      "first_seen": "2026-11-23T07:48:50.037479+00:00",
+      "published_at": "2026-11-23T19:08:30+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
       "score": 75,
-      "summary": "Editor Amelia Allwarden discusses her workflow for Marvel’s VisionQuest, highlighting the benefits of editing on-site at Pinewood Studios in London during the production phase.",
-      "angle": "Highlights the continued importance of proximity between post-production teams and physical production sets for high-end UK-based projects.",
+      "summary": "Maxon has launched Maxon Plus, a suite of AI-assisted tools for 3D modelling and texturing, alongside a new browser-based platform for asynchronous review and approval of creative assets.",
+      "angle": "Integration of generative AI and cloud-based review tools into standard post-production workflows enhances efficiency and remote collaboration capabilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -679,17 +679,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "5cfdd803f8e8ee2f",
+      "id": "840b2d771abc3cc9",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
-      "title": "Packaging Federation welcomes PackUK’s PFAS decision",
-      "url": "https://www.packagingnews.co.uk/news/plastics-news/packaging-federation-welcomes-packuks-pfas-decision-20-11-2026",
+      "title": "OPRL survey highlights most companies unclear about PPWR labelling",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/oprl-survey-highlights-most-companies-unclear-about-ppwr-labelling-24-11-2026",
       "source": "packagingnews.co.uk",
-      "published_at": "2026-11-20T16:01:40+00:00",
-      "first_seen": "2026-11-21T07:48:22.470279+00:00",
+      "published_at": "2026-11-24T11:30:27+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
       "score": 85,
-      "summary": "PackUK will retain the existing intentionally added approach to PFAS for 2027 packaging reporting, avoiding automatic Red ratings for unintentionally present PFAS in packaging materials.",
-      "angle": "Regulatory clarity on PFAS reporting avoids significant cost increases and operational burdens for plastic packaging manufacturers.",
+      "summary": "An OPRL survey reveals that only 28% of businesses feel confident regarding upcoming PPWR labelling requirements, with country-specific differences cited as the primary concern.",
+      "angle": "Regulatory uncertainty regarding PPWR labelling creates significant operational and compliance challenges for manufacturers operating across EU markets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -749,6 +749,20 @@
       "discovered_via": "GDELT"
     },
     {
+      "id": "1cd256d7f40fad97",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Postmaster bodies call for ‘meaningful influence’ on future of the Post Office",
+      "url": "https://www.talkingretail.com/featured/postmaster-bodies-call-for-meaningful-influence-on-future-of-the-post-office-24-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-24T11:10:53+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
+      "score": 95,
+      "summary": "Major postmaster representative bodies have issued a joint call for legally secured influence over Post Office governance, remuneration, and operational strategy.",
+      "angle": "Highlights potential structural changes to Post Office network governance and postmaster bargaining power.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "fbf814b3d196c80f",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
@@ -777,31 +791,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "3c9022ec87530c64",
+      "id": "0a340d84c7432143",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "PayPoint ‘working to improve retailer service’ as profits drop",
-      "url": "https://www.talkingretail.com/news/industry-news/paypoint-working-to-improve-retailer-service-as-profits-drop-19-11-2026/",
+      "title": "Welsh government urged to bring business rates relief in line with England",
+      "url": "https://www.talkingretail.com/featured/welsh-government-urged-to-bring-business-rates-relief-in-line-with-england-24-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-19T13:00:19+00:00",
-      "first_seen": "2026-11-20T15:08:01.532085+00:00",
+      "published_at": "2026-11-24T14:37:26+00:00",
+      "first_seen": "2026-11-25T07:48:24.027152+00:00",
       "score": 85,
-      "summary": "PayPoint reported a 13.2% profit decline and a slight reduction in its retail network, while focusing on improving technical support and retailer service response times.",
-      "angle": "Highlights operational challenges and service performance trends within the critical payment services infrastructure used by independent retail chains.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "9a2e0615323396e5",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Repeat shoplifter gets nine months behind bars",
-      "url": "https://www.talkingretail.com/news/industry-news/repeat-shoplifter-gets-nine-months-behind-bars-20-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-20T11:27:59+00:00",
-      "first_seen": "2026-11-23T07:48:50.037479+00:00",
-      "score": 65,
-      "summary": "A repeat shoplifter in Lancashire has been sentenced to 40 weeks in prison for theft and breaching a criminal behaviour order as part of Operation Vulture.",
-      "angle": "Highlights increased police focus on retail crime and the use of criminal behaviour orders to protect local businesses.",
+      "summary": "The Federation of Independent Retailers is urging the Welsh government to increase the small business rates relief threshold to match the £18,000 limit recently introduced in England.",
+      "angle": "Disparities in business rates relief between England and Wales directly impact the operational costs of independent retail chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1021,14 +1021,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 75,
-    "queued_candidates": 112,
-    "llm_requests_attempted": 52,
-    "llm_requests_succeeded": 51,
+    "providers_succeeded": 90,
+    "queued_candidates": 136,
+    "llm_requests_attempted": 81,
+    "llm_requests_succeeded": 81,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 32,
+    "dropped_thin_page": 27,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 4,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 5
   }
 }
