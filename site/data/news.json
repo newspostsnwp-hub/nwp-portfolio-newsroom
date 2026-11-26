@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T07:48:25.014937+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 14 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-26T15:07:35.331696+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-26T07:48:25.014937+00:00",
   "companies": [
@@ -567,17 +567,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "2502ab575ce74928",
+      "id": "cfb3cff2e3b82245",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
-      "title": "Tata Group’s British battery cell factory faces delays",
-      "url": "https://www.electrive.com/2026/11/25/tata-groups-british-battery-cell-factory-faces-delays/",
+      "title": "UK energy price cap increase could add up to £9 to EV charging costs",
+      "url": "https://www.electrive.com/2026/11/26/uk-energy-price-cap-increase-could-add-up-to-9-to-ev-charging-costs/",
       "source": "electrive.com",
-      "published_at": "2026-11-25T11:05:07+00:00",
-      "first_seen": "2026-11-26T07:48:25.014937+00:00",
+      "published_at": "2026-11-26T14:30:00+00:00",
+      "first_seen": "2026-11-26T15:07:35.331696+00:00",
       "score": 65,
-      "summary": "Construction of Tata Group's Agratas battery factory in Somerset faces delays following the departure of its second main contractor, pushing the production start date to January 2028.",
-      "angle": "Highlights potential supply chain volatility and delays in domestic UK battery manufacturing capacity for micromobility and automotive sectors.",
+      "summary": "Ofgem has announced a 26 per cent increase in the electricity price cap for Q1 2027, raising the average unit rate to 32.69p per kWh.",
+      "angle": "Rising electricity costs for electric vehicles may increase consumer interest in low-energy, cost-effective micromobility alternatives like e-bikes.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -637,6 +637,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "4e4f732c204513d0",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "PackUK EPR fees for 2026/2027 assessment year higher than illustrative estimates",
+      "url": "https://www.packagingnews.co.uk/news/environment/legislation/packuk-epr-fees-for-2026-2027-assessment-year-higher-than-illustrative-estimates-26-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-26T09:45:13+00:00",
+      "first_seen": "2026-11-26T15:07:35.331696+00:00",
+      "score": 95,
+      "summary": "PackUK confirmed 2026/2027 packaging EPR waste management fees are higher than previous illustrative estimates, with plastic base fees increasing by approximately 19% compared to the 2025/26 period.",
+      "angle": "Increased EPR costs for plastic packaging impact operational overheads and necessitate strategic focus on recyclability modulation.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "481c547fba540a1d",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -676,20 +690,6 @@
       "score": 90,
       "summary": "The Trade Remedies Authority is proposing a 65% tariff on PET imports, which could increase costs for packaging manufacturers already struggling with limited domestic recycled material access.",
       "angle": "Highlights supply chain cost risks and the critical need for domestic recycled PET infrastructure in the UK.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "2a71b4112de92883",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "Rugby fans put DRS to the test at Murrayfield stadium",
-      "url": "https://www.packagingnews.co.uk/news/markets/drinks/rugby-fans-put-drs-to-the-test-at-murrayfield-stadium-25-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-25T15:45:05+00:00",
-      "first_seen": "2026-11-26T07:48:25.014937+00:00",
-      "score": 85,
-      "summary": "Exchange For Change conducted Deposit Return Scheme trials at Murrayfield stadium using reverse vending machines ahead of the UK-wide scheme launch on 1 October 2027.",
-      "angle": "Provides critical operational insights into consumer interaction with DRS infrastructure ahead of mandatory UK-wide implementation.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -791,17 +791,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "70e4862291948abd",
+      "id": "bccf9d281cf5c17e",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Cash Access UK’s latest banking hub opens in Prudhoe Co-op",
-      "url": "https://www.talkingretail.com/featured/cash-access-uks-latest-banking-hub-opens-in-prudhoe-co-op-25-11-2026/",
+      "title": "Industry experts respond to Poundland going into administration",
+      "url": "https://www.talkingretail.com/news/industry-news/insolvency-expert-responds-to-poundland-going-into-administration-25-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-25T13:46:02+00:00",
-      "first_seen": "2026-11-26T07:48:25.014937+00:00",
+      "published_at": "2026-11-25T17:08:36+00:00",
+      "first_seen": "2026-11-26T15:07:35.331696+00:00",
       "score": 85,
-      "summary": "Cash Access UK has opened a permanent banking hub inside a Co-op store in Prudhoe, providing residents and businesses with access to cash and face-to-face banking services.",
-      "angle": "Highlights the trend of integrating essential financial services into retail spaces to maintain high street footfall and utility.",
+      "summary": "Discount retailer Poundland has entered administration following funding difficulties and an inability to secure a new buyer for the business.",
+      "angle": "Highlights high street volatility, supply chain risks, and the potential for significant shifts in local retail footfall.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -847,17 +847,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "52d5f2711d50756b",
+      "id": "b4638527bb64f88e",
       "company": "McGraw Hill",
       "industry": "Education publishing and edtech",
-      "title": "International Student Enrollment Down 9% in Fall 2026",
-      "url": "https://www.insidehighered.com/news/global/international-students-us/2026/11/16/international-student-enrollment-down-9-fall-2026",
+      "title": "McMahon Eyes Potential Settlement With ‘Ring Boys’",
+      "url": "https://www.insidehighered.com/news/government/politics-elections/2026/11/25/mcmahon-eyes-potential-settlement-ring-boys",
       "source": "insidehighered.com",
-      "published_at": "2026-11-16T08:00:00+00:00",
-      "first_seen": "2026-11-16T15:07:27.533006+00:00",
-      "score": 85,
-      "summary": "International student enrollment in the U.S. declined by 9 percent in fall 2026, with graduate student numbers dropping by 15 percent amid visa and policy challenges.",
-      "angle": "Declining international student numbers impact higher education revenue and demand for associated learning materials and digital courseware.",
+      "published_at": "2026-11-25T19:03:00+00:00",
+      "first_seen": "2026-11-26T15:07:35.331696+00:00",
+      "score": 75,
+      "summary": "Education Secretary Linda McMahon has entered private mediation regarding a lawsuit alleging she overlooked sexual misconduct during her tenure as a WWE executive.",
+      "angle": "Regulatory and policy shifts under the current Education Secretary may impact institutional compliance and federal funding oversight.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1035,14 +1035,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 86,
-    "queued_candidates": 141,
-    "llm_requests_attempted": 96,
-    "llm_requests_succeeded": 96,
+    "providers_succeeded": 80,
+    "queued_candidates": 125,
+    "llm_requests_attempted": 64,
+    "llm_requests_succeeded": 64,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 17,
+    "dropped_thin_page": 25,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 3,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 5
   }
 }
