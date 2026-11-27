@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T07:48:42.219479+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-27T15:07:39.966944+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, covering ten items of interest across the market.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-27T07:48:42.219479+00:00",
   "companies": [
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -749,17 +749,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "fbf814b3d196c80f",
+      "id": "cba7c44b8dbcaeb8",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Give stores more help if you want to preserve banking services, ACS tells government",
-      "url": "https://www.talkingretail.com/news/industry-news/give-stores-more-help-if-you-want-to-preserve-banking-services-acs-tells-government-17-11-2026/",
+      "title": "‘Poundland is dying, the high street isn’t’, says retail brand advisor",
+      "url": "https://www.talkingretail.com/featured/poundland-is-dying-the-high-street-isnt-says-retail-brand-advisor-26-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-17T11:43:36+00:00",
-      "first_seen": "2026-11-17T15:08:08.679061+00:00",
-      "score": 90,
-      "summary": "The Association of Convenience Stores has urged the government to provide financial support to local retailers to ensure the continued viability of essential face-to-face banking services.",
-      "angle": "Highlights the operational costs and policy pressure surrounding the provision of banking services within local retail outlets.",
+      "published_at": "2026-11-26T14:28:39+00:00",
+      "first_seen": "2026-11-27T15:07:39.966944+00:00",
+      "score": 85,
+      "summary": "Poundland has entered administration, prompting industry experts to argue that high street survival depends on operational discipline rather than competing directly with online convenience.",
+      "angle": "Highlights the necessity of robust operational models over superficial customer experience improvements for physical retail survival.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -777,17 +777,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "637a3f560789ed0b",
-      "company": "McGraw Hill",
-      "industry": "Education publishing and edtech",
-      "title": "As AI Changes How Students Approach College, Old Challenges Persist",
-      "url": "https://www.insidehighered.com/news/student-success/academic-life/2026/11/17/ai-changing-college-old-challenges-persist",
-      "source": "insidehighered.com",
-      "published_at": "2026-11-17T08:00:00+00:00",
-      "first_seen": "2026-11-17T15:08:08.679061+00:00",
-      "score": 90,
-      "summary": "A 2026–27 survey of 5,034 undergraduates reveals that while 34 percent use AI for efficiency, students prioritize AI tools that support learning over those that merely complete work.",
-      "angle": "Provides critical data on student AI adoption, trust, and demand for pedagogical tools in higher education.",
+      "id": "6cd795bdfc29a287",
+      "company": "UOE",
+      "industry": "UK stationery and Post Office retail",
+      "title": "Country Choice targets convenience retail with expanded Bake@Home concept",
+      "url": "https://www.talkingretail.com/products-news/frozen/country-choice-targets-convenience-retail-with-expanded-bakehome-concept-26-11-2026/",
+      "source": "talkingretail.com",
+      "published_at": "2026-11-26T17:40:36+00:00",
+      "first_seen": "2026-11-27T15:07:39.966944+00:00",
+      "score": 65,
+      "summary": "Country Choice has expanded its Bake@Home frozen bakery concept, offering convenience retailers flexible freezer solutions and new product ranges to drive take-home sales.",
+      "angle": "Highlights a trend in convenience retail to diversify revenue streams through frozen, bake-at-home food-to-go product extensions.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -830,6 +830,20 @@
       "score": 75,
       "summary": "Education Secretary Linda McMahon has entered private mediation regarding a lawsuit alleging she overlooked sexual misconduct during her tenure as a WWE executive.",
       "angle": "Regulatory and policy shifts under the current Education Secretary may impact institutional compliance and federal funding oversight.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "ac32b99bbb3544f1",
+      "company": "McGraw Hill",
+      "industry": "Education publishing and edtech",
+      "title": "What Students Want From Student Success Leaders",
+      "url": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/25/what-students-want-student-success-leaders",
+      "source": "insidehighered.com",
+      "published_at": "2026-11-25T08:00:00+00:00",
+      "first_seen": "2026-11-27T15:07:39.966944+00:00",
+      "score": 75,
+      "summary": "Student ambassadors at the Student Success US conference highlighted the need for institutions to move beyond traditional retention metrics and adopt more flexible, student-centered support models.",
+      "angle": "Informs product development by highlighting shifting student expectations regarding personalised support, accessibility, and responsiveness to technological change.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,6 +917,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "71ed8a4ac210cf3f",
+      "company": "Roof-Maker",
+      "industry": "UK construction products and glazing",
+      "title": "Contractors urged to ditch ‘divide and conquer’ procurement",
+      "url": "https://www.constructionnews.co.uk/buildings/building-safety/contractors-urged-to-ditch-divide-and-conquer-procurement-27-11-2026/",
+      "source": "constructionnews.co.uk",
+      "published_at": "2026-11-27T12:45:51+00:00",
+      "first_seen": "2026-11-27T15:07:39.966944+00:00",
+      "score": 85,
+      "summary": "Industry experts are urging contractors to involve specialist subcontractors earlier in the design process to avoid costly delays and regulatory issues on higher-risk building projects.",
+      "angle": "Highlights a shift toward earlier manufacturer engagement, impacting how glazing and rooflight specifications are secured and validated.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "e0520cdb47f9c59c",
       "company": "Roof-Maker",
       "industry": "UK construction products and glazing",
@@ -928,20 +956,6 @@
       "score": 85,
       "summary": "The UK government will exempt construction materials originating in the EU, EEA, and Switzerland from the forthcoming carbon border adjustment mechanism starting in 2027.",
       "angle": "Reduces potential import costs and administrative burdens for manufacturers sourcing aluminium and steel components from European suppliers.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "500b47609a1d1961",
-      "company": "Roof-Maker",
-      "industry": "UK construction products and glazing",
-      "title": "UK construction activity October 2026: Housing",
-      "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-housing-24-11-2026/",
-      "source": "constructionnews.co.uk",
-      "published_at": "2026-11-24T16:02:41+00:00",
-      "first_seen": "2026-11-26T07:48:25.014937+00:00",
-      "score": 85,
-      "summary": "UK housing project starts declined by 2 per cent and main contract awards fell by 31 per cent year-on-year in October 2026.",
-      "angle": "Provides critical data on residential construction pipeline contraction, directly impacting demand for rooflight and glazing products.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -1007,14 +1021,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 77,
-    "queued_candidates": 116,
-    "llm_requests_attempted": 65,
-    "llm_requests_succeeded": 65,
-    "dropped_no_valid_date": 28,
-    "dropped_thin_page": 23,
+    "providers_succeeded": 85,
+    "queued_candidates": 127,
+    "llm_requests_attempted": 69,
+    "llm_requests_succeeded": 69,
+    "dropped_no_valid_date": 29,
+    "dropped_thin_page": 29,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 1,
+    "skipped_recently_evaluated": 2,
     "carried_forward": 5
   }
 }
