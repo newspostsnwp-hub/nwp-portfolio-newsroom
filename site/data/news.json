@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T15:07:35.331696+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on 15 sector-related updates, as there is no specific news to report from our portfolio companies.",
+  "generated_at": "2026-11-27T07:48:42.219479+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on six sector updates, as there is no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-26T07:48:25.014937+00:00",
+  "last_digest_sent_at": "2026-11-27T07:48:42.219479+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -144,7 +144,7 @@
       "website": "https://www.uoe.co.uk/",
       "newsroom_url": "https://www.uoe.co.uk/news",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22UOE+stationery%22+OR+%22UOE+Post+Office%22+OR+%22UOE+stores%22&tbm=nws",
@@ -427,6 +427,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "2e8cb6bfed428718",
+      "company": "The Delivery Group",
+      "industry": "UK parcel and mail delivery",
+      "title": "ParcelHero: Retailers should prepare now for early, heavy parcel demand.",
+      "url": "https://postandparcel.info/163415/news/e-commerce/parcelhero-retailers-should-prepare-now-for-early-heavy-parcel-demand/",
+      "source": "postandparcel.info",
+      "published_at": "2026-11-26T17:36:06+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "score": 85,
+      "summary": "ONS data indicates UK online spending rose 8.9% compared to October 2025, with online sales accounting for 29.2% of total retail activity.",
+      "angle": "Provides critical volume forecasts for peak season planning and capacity management across the UK delivery sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "c16a68d8530ef7d8",
       "company": "The Delivery Group",
       "industry": "UK parcel and mail delivery",
@@ -455,20 +469,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "ef80abedf8288776",
-      "company": "The Delivery Group",
-      "industry": "UK parcel and mail delivery",
-      "title": "DHL: AI can’t replace the trust that wins the customer",
-      "url": "https://postandparcel.info/163384/news/e-commerce/dhl-ai-cant-replace-the-trust-that-wins-the-customer/",
-      "source": "postandparcel.info",
-      "published_at": "2026-11-19T06:08:33+00:00",
-      "first_seen": "2026-11-19T15:07:32.452426+00:00",
-      "score": 85,
-      "summary": "DHL's 2026 E-Commerce Trends Report highlights that delivery and returns are critical to Black Friday success, with 77% of shoppers abandoning purchases due to lack of delivery provider trust.",
-      "angle": "Highlights the critical role of reliable delivery and returns in e-commerce conversion during peak seasonal demand periods.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "97f3a318b6aa86ff",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -483,6 +483,34 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6f9a3bcb76e7b9d0",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "As threats heighten, access intelligence is a must",
+      "url": "https://securityjournaluk.com/as-threats-heighten-access-intel-is-a-must/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-27T07:30:00+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "score": 85,
+      "summary": "Martyn’s Law, effective Spring 2027, mandates that public venues implement robust security and emergency procedures, with potential fines for non-compliance reaching up to £18 million.",
+      "angle": "Regulatory pressure regarding Martyn's Law increases demand for integrated access control and site security compliance solutions.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "114a60fd85598608",
+      "company": "Clearway Group",
+      "industry": "UK property and site security",
+      "title": "The trends set to shape alarm and intruder detection in 2027",
+      "url": "https://securityjournaluk.com/alarm-and-intruder-detection-trends-in-2027/",
+      "source": "securityjournaluk.com",
+      "published_at": "2026-11-26T12:05:37+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "score": 85,
+      "summary": "The UK PSTN switch-off on 31 January 2027 necessitates upgrading legacy alarm systems to digital or wireless communication pathways to maintain connectivity.",
+      "angle": "Critical infrastructure transition requiring urgent upgrades to alarm and intruder detection systems across the UK property sector.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "59583eed1c24cd75",
       "company": "Clearway Group",
       "industry": "UK property and site security",
@@ -494,34 +522,6 @@
       "score": 85,
       "summary": "UK drone detection technology is evolving to address security gaps at critical sites, with new regulations mandating Remote ID for specific drone classes as of January 2026.",
       "angle": "Highlights an emerging demand for integrated aerial security solutions within the broader UK site protection market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "82819c9d839d46a7",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "Co-op Live arena – unknown substance causes panic and mass evacuation",
-      "url": "https://securityjournaluk.com/co-op-live-arena-panic-and-mass-evacuation/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-23T15:30:21+00:00",
-      "first_seen": "2026-11-25T07:48:24.027152+00:00",
-      "score": 85,
-      "summary": "The Co-op Live arena in Manchester was evacuated following the dispersal of an unknown substance, leading to multiple casualties and questions regarding venue security search procedures.",
-      "angle": "Highlights critical gaps in venue access control and the increasing regulatory pressure from Martyn’s Law.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "162aefd39b306b85",
-      "company": "Clearway Group",
-      "industry": "UK property and site security",
-      "title": "A layered approach to data centre security",
-      "url": "https://securityjournaluk.com/a-layered-approach-to-data-centre-security/",
-      "source": "securityjournaluk.com",
-      "published_at": "2026-11-20T07:06:00+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 85,
-      "summary": "Data centre operators are increasingly integrating AI-powered video analytics with physical security to manage perimeter threats, unauthorised access, and critical infrastructure protection.",
-      "angle": "Highlights growing demand for advanced, AI-integrated physical security solutions within the expanding data centre infrastructure market.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -606,20 +606,6 @@
       "score": 85,
       "summary": "Adobe MAX 2026 introduced new generative AI tools, including Generative Remove for video and advanced color grading features, alongside a shift toward agentic AI workflows in Creative Cloud.",
       "angle": "New AI-driven post-production tools and evolving software workflows directly impact operational efficiency and technical capabilities in professional editing.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "52f88f12070512b3",
-      "company": "Molinare",
-      "industry": "TV and film post-production",
-      "title": "HPA NET Roundtable: AI as a Second Unit",
-      "url": "https://postperspective.com/hpa-net-roundtable-ai-as-a-second-unit/",
-      "source": "postperspective.com",
-      "published_at": "2026-11-16T22:23:25+00:00",
-      "first_seen": "2026-11-17T15:08:08.679061+00:00",
-      "score": 85,
-      "summary": "Industry experts at an HPA roundtable discussed integrating AI into post-production workflows, focusing on local infrastructure, security, and using AI for specific tasks like background removal and uprezzing.",
-      "angle": "Provides strategic insight into current industry consensus on AI adoption, security, and practical workflow integration for post-production facilities.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -735,17 +721,17 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "b908ded932474d8c",
+      "id": "fd769c0591a534c1",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "Banking in 2027 : AI rewrites the terms . Banks still carry the risk .",
-      "url": "https://www.webwire.com/ViewPressRel.asp?aId=364670",
-      "source": "webwire.com",
-      "published_at": "2026-11-26T00:45:00+00:00",
-      "first_seen": "2026-11-26T07:48:25.014937+00:00",
+      "title": "2027 Predictions from Nutanix , Boomi , Infoblox , F5 , ManageEngine , Avocado , Workiva , Aveva , Nintex , Rubrik",
+      "url": "https://itwire.com/it-people-news/enterprise-staff/2027-predictions-from-nutanix-boomi-infoblox-f5-manageengine-avocado-workiva-aveva-nintex-rubrik",
+      "source": "itwire.com",
+      "published_at": "2026-11-27T05:30:00+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
       "score": 85,
-      "summary": "SAS experts forecast that data sovereignty requirements will reshape financial institutions' technology strategies, forcing banks to seek sovereign AI architectures that preserve flexibility and interoperability.",
-      "angle": "Highlights growing demand for sovereign AI architectures that balance strict regulatory control with necessary technological flexibility and interoperability.",
+      "summary": "Industry leaders predict a 2027 shift toward in-house AI inference, rigorous AI economics, and the necessity of sovereign data control and robust agent governance frameworks.",
+      "angle": "Validates the strategic importance of sovereign AI infrastructure, data residency, and enterprise-grade agent control and security.",
       "discovered_via": "GDELT"
     },
     {
@@ -774,20 +760,6 @@
       "score": 90,
       "summary": "The Association of Convenience Stores has urged the government to provide financial support to local retailers to ensure the continued viability of essential face-to-face banking services.",
       "angle": "Highlights the operational costs and policy pressure surrounding the provision of banking services within local retail outlets.",
-      "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "69825c5dd803a2dd",
-      "company": "UOE",
-      "industry": "UK stationery and Post Office retail",
-      "title": "Royal Mail trials self-service kiosks in c-stores",
-      "url": "https://www.talkingretail.com/news/industry-news/royal-mail-trials-self-service-kiosks-in-c-stores-16-11-2026/",
-      "source": "talkingretail.com",
-      "published_at": "2026-11-16T18:30:08+00:00",
-      "first_seen": "2026-11-17T07:48:58.983236+00:00",
-      "score": 90,
-      "summary": "Royal Mail is trialling self-service kiosks in 26 convenience stores to allow customers to purchase postage and print labels without queuing at the counter.",
-      "angle": "Represents a shift toward automated parcel processing in retail environments, potentially impacting traditional counter-based service models.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -903,17 +875,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "97ad8c4a9cb1c22b",
+      "id": "9ca68e7b79d1b252",
       "company": "Fertility Associates",
       "industry": "Fertility and IVF services",
-      "title": "Podcast Review: A Couple Breaks Up – Who gets custody of their embryos?",
-      "url": "https://www.progress.org.uk/podcast-review-a-couple-breaks-up-who-gets-custody-of-their-embryos/",
+      "title": "Netherlands to legalise creation of embryos for research",
+      "url": "https://www.progress.org.uk/netherlands-to-legalise-creation-of-embryos-for-research/",
       "source": "bionews.org.uk",
-      "published_at": "2026-11-16T15:36:26+00:00",
-      "first_seen": "2026-11-17T07:48:58.983236+00:00",
-      "score": 75,
-      "summary": "A podcast review highlights the legal complexities and lack of clear precedent in the United States regarding the custody of frozen embryos following a couple's separation.",
-      "angle": "Highlights critical risks and legal complexities surrounding embryo storage and consent management in fertility clinic operations.",
+      "published_at": "2026-11-23T16:56:00+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "score": 65,
+      "summary": "The Dutch Senate has voted to legalise the creation of human embryos for scientific research, aiming to improve IVF success rates and the detection of inherited conditions.",
+      "angle": "Regulatory shifts in embryo research standards often influence global clinical practices and future IVF technological advancements.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -973,6 +945,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "d55964441d253f2f",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Physical AI model outpaces human operator in robot manipulation tests",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/physical-ai-model-outpaces-human-operator-in-robot-manipulation-tests/107719/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-26T10:21:17+00:00",
+      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "score": 85,
+      "summary": "New physical AI models based on video-action architectures have outperformed human operators in speed and demonstrated improved reliability in robotic manipulation tasks.",
+      "angle": "Video-based world-action models offer significant potential for increasing the speed and autonomous reliability of industrial inspection robotics.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "62a8562eb9095143",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1013,20 +999,6 @@
       "summary": "Nvidia has expanded its Isaac robotics platform with new AI training tools, simulation frameworks, and the Isaac OS runtime to accelerate the development of autonomous robotic systems.",
       "angle": "Advances in simulation and foundation models significantly reduce development and commissioning time for autonomous industrial robotics.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "e0034c633f4eb34e",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Saturn Dynamics develops physics-based world model to improve robot training",
-      "url": "https://roboticsandautomationnews.com/2026/11/19/saturn-dynamics-develops-physics-based-world-model-to-improve-robot-training/107351/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-19T17:23:38+00:00",
-      "first_seen": "2026-11-20T07:48:39.870353+00:00",
-      "score": 85,
-      "summary": "London-based startup Saturn Dynamics has developed Arc, a physics-based world model designed to accelerate robot training and improve simulation accuracy for autonomous machines.",
-      "angle": "Advances in physics-based simulation models can significantly reduce training time and improve reliability for autonomous inspection robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1035,14 +1007,14 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 80,
-    "queued_candidates": 125,
-    "llm_requests_attempted": 64,
-    "llm_requests_succeeded": 64,
+    "providers_succeeded": 77,
+    "queued_candidates": 116,
+    "llm_requests_attempted": 65,
+    "llm_requests_succeeded": 65,
     "dropped_no_valid_date": 28,
-    "dropped_thin_page": 25,
+    "dropped_thin_page": 23,
     "dropped_not_about_company": 0,
-    "skipped_recently_evaluated": 2,
+    "skipped_recently_evaluated": 1,
     "carried_forward": 5
   }
 }
