@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T07:48:20.302198+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Molinare or Whitespace.",
+  "generated_at": "2026-11-28T15:07:20.743469+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on five sector updates, with no specific news to report from our portfolio companies.",
   "archive_story_count": 22,
   "last_digest_sent_at": "2026-11-28T07:48:20.302198+00:00",
   "companies": [
@@ -49,7 +49,7 @@
       "website": "https://www.swytchbike.com/",
       "newsroom_url": "https://www.swytchbike.com/blog/",
       "story_count": 0,
-      "sector_count": 4,
+      "sector_count": 3,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Swytch+Bike%22+OR+%22Swytch+e-bike%22+OR+%22Swytch+Technology%22&tbm=nws",
@@ -525,20 +525,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "b0eaeb7db01c6ea9",
-      "company": "Swytch",
-      "industry": "E-bikes and micromobility",
-      "title": "BMZ integrates digital battery passports into series production",
-      "url": "https://www.electrive.com/2026/11/18/bmz-integrates-digital-battery-passports-into-series-prooduction/",
-      "source": "electrive.com",
-      "published_at": "2026-11-18T12:30:00+00:00",
-      "first_seen": "2026-11-18T15:07:53.539530+00:00",
-      "score": 85,
-      "summary": "BMZ is integrating digital battery passports into its production systems to comply with the EU Battery Regulation, which becomes mandatory for light mobility batteries from February 2027.",
-      "angle": "Highlights impending regulatory compliance requirements for battery manufacturers and suppliers within the European e-bike market.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "78c74be0d47a5899",
       "company": "Swytch",
       "industry": "E-bikes and micromobility",
@@ -651,20 +637,6 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "481c547fba540a1d",
-      "company": "Petainer",
-      "industry": "PET and beverage packaging",
-      "title": "DRS International sets out financial priorities ahead of launch",
-      "url": "https://www.packagingnews.co.uk/news/waste-management/deposit-return-scheme/drs-international-sets-out-seven-financial-priorities-ahead-of-launch-18-11-2026",
-      "source": "packagingnews.co.uk",
-      "published_at": "2026-11-18T12:30:35+00:00",
-      "first_seen": "2026-11-18T15:07:53.539530+00:00",
-      "score": 95,
-      "summary": "DRS International has outlined seven financial priorities for producers ahead of the UK deposit return scheme launch on 1 October 2027, including projected fees of 2.3p for PET.",
-      "angle": "Provides critical regulatory and cost-modelling guidance for PET packaging manufacturers navigating the upcoming UK deposit return scheme.",
-      "discovered_via": "Sector RSS"
-    },
-    {
       "id": "16154f4f216d4294",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -690,6 +662,20 @@
       "score": 90,
       "summary": "The Trade Remedies Authority is proposing a 65% tariff on PET imports, which could increase costs for packaging manufacturers already struggling with limited domestic recycled material access.",
       "angle": "Highlights supply chain cost risks and the critical need for domestic recycled PET infrastructure in the UK.",
+      "discovered_via": "Sector RSS"
+    },
+    {
+      "id": "bf19342a18abd1d6",
+      "company": "Petainer",
+      "industry": "PET and beverage packaging",
+      "title": "PRN market ‘under renewed pressure’ despite regulatory intervention",
+      "url": "https://www.packagingnews.co.uk/news/markets/foodservice/prn-market-under-renewed-pressure-despite-regulatory-intervention-27-11-2026",
+      "source": "packagingnews.co.uk",
+      "published_at": "2026-11-27T11:19:21+00:00",
+      "first_seen": "2026-11-28T15:07:20.743469+00:00",
+      "score": 85,
+      "summary": "The Packaging Recovery Note market remains volatile with high prices and regulatory uncertainty, despite government interventions intended to stabilise costs for producers.",
+      "angle": "Highlights ongoing regulatory and financial instability in UK packaging compliance costs impacting manufacturers and their supply chains.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -791,17 +777,17 @@
       "discovered_via": "Sector RSS"
     },
     {
-      "id": "6cd795bdfc29a287",
+      "id": "608c2dc1cfb04a1d",
       "company": "UOE",
       "industry": "UK stationery and Post Office retail",
-      "title": "Country Choice targets convenience retail with expanded Bake@Home concept",
-      "url": "https://www.talkingretail.com/products-news/frozen/country-choice-targets-convenience-retail-with-expanded-bakehome-concept-26-11-2026/",
+      "title": "Repeat West Midlands shoplifter gets a year behind bars",
+      "url": "https://www.talkingretail.com/news/industry-news/repeat-west-midlands-shoplifter-gets-a-year-behind-bars-27-11-2026/",
       "source": "talkingretail.com",
-      "published_at": "2026-11-26T17:40:36+00:00",
-      "first_seen": "2026-11-27T15:07:39.966944+00:00",
+      "published_at": "2026-11-27T12:47:53+00:00",
+      "first_seen": "2026-11-28T15:07:20.743469+00:00",
       "score": 65,
-      "summary": "Country Choice has expanded its Bake@Home frozen bakery concept, offering convenience retailers flexible freezer solutions and new product ranges to drive take-home sales.",
-      "angle": "Highlights a trend in convenience retail to diversify revenue streams through frozen, bake-at-home food-to-go product extensions.",
+      "summary": "A West Midlands woman has been sentenced to one year in prison and issued a two-year Criminal Behaviour Order following multiple shoplifting offences against local retailers.",
+      "angle": "Highlights ongoing retail crime challenges and the increasing use of Criminal Behaviour Orders to protect physical store assets.",
       "discovered_via": "Sector RSS"
     },
     {
@@ -973,6 +959,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "1cc92ed750ced51f",
+      "company": "Future Maintenance Technologies",
+      "industry": "AI robotics for rail and aviation asset inspection",
+      "title": "Robbyant open-sources AI models to improve robotic navigation and spatial memory",
+      "url": "https://roboticsandautomationnews.com/2026/11/27/robbyant-open-sources-ai-models-to-improve-robotic-navigation-and-spatial-memory/107827/",
+      "source": "roboticsandautomationnews.com",
+      "published_at": "2026-11-27T18:59:42+00:00",
+      "first_seen": "2026-11-28T15:07:20.743469+00:00",
+      "score": 85,
+      "summary": "Robbyant has open-sourced LingBot-Map 2.0 and LingBot-Navi, AI models that significantly reduce spatial mapping errors and enable persistent memory for autonomous robotic navigation.",
+      "angle": "Advancements in spatial memory and navigation accuracy are critical for autonomous inspection robots operating in complex industrial environments.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "d55964441d253f2f",
       "company": "Future Maintenance Technologies",
       "industry": "AI robotics for rail and aviation asset inspection",
@@ -1013,20 +1013,6 @@
       "summary": "Global robotics investment is projected to reach $60.7 billion in 2026, though the report warns that valuations are increasingly outpacing commercial revenue and performance.",
       "angle": "Highlights a critical industry shift towards prioritizing demonstrable business traction and sustainable revenue over speculative technological valuation.",
       "discovered_via": "Sector RSS"
-    },
-    {
-      "id": "ef750239d489300e",
-      "company": "Future Maintenance Technologies",
-      "industry": "AI robotics for rail and aviation asset inspection",
-      "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools",
-      "url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/",
-      "source": "roboticsandautomationnews.com",
-      "published_at": "2026-11-22T19:59:30+00:00",
-      "first_seen": "2026-11-23T07:48:50.037479+00:00",
-      "score": 85,
-      "summary": "Nvidia has expanded its Isaac robotics platform with new AI training tools, simulation frameworks, and the Isaac OS runtime to accelerate the development of autonomous robotic systems.",
-      "angle": "Advances in simulation and foundation models significantly reduce development and commissioning time for autonomous industrial robotics.",
-      "discovered_via": "Sector RSS"
     }
   ],
   "run_summary": {
@@ -1036,11 +1022,11 @@
     "companies_with_sector_news": 11,
     "sector_topups": 0,
     "providers_succeeded": 93,
-    "queued_candidates": 142,
-    "llm_requests_attempted": 62,
-    "llm_requests_succeeded": 60,
+    "queued_candidates": 140,
+    "llm_requests_attempted": 84,
+    "llm_requests_succeeded": 84,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 26,
+    "dropped_thin_page": 27,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 2,
     "carried_forward": 5
