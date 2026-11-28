@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T15:07:39.966944+00:00",
-  "digest_intro": "Good morning. Today's briefing focuses exclusively on sector news, covering ten items of interest across the market.",
+  "generated_at": "2026-11-28T07:48:20.302198+00:00",
+  "digest_intro": "Good morning. Today's briefing focuses exclusively on two sector updates, with no specific news to report from Molinare or Whitespace.",
   "archive_story_count": 22,
-  "last_digest_sent_at": "2026-11-27T07:48:42.219479+00:00",
+  "last_digest_sent_at": "2026-11-28T07:48:20.302198+00:00",
   "companies": [
     {
       "name": "The Delivery Group",
@@ -68,7 +68,7 @@
       "website": "https://molinare.co.uk/",
       "newsroom_url": "https://molinare.co.uk/news/",
       "story_count": 0,
-      "sector_count": 3,
+      "sector_count": 4,
       "company_links": {
         "google_news": "https://news.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&hl=en-GB&gl=GB&ceid=GB:en",
         "google_web": "https://www.google.com/search?q=%22Molinare%22+OR+%22Molinare+TV+%26+Film%22+OR+%22Notorious+DIT%22&tbm=nws",
@@ -623,6 +623,20 @@
       "discovered_via": "Sector RSS"
     },
     {
+      "id": "6c1a36d2f15da843",
+      "company": "Molinare",
+      "industry": "TV and film post-production",
+      "title": "Amelia Allwarden on Her Editing Workflow for Marvel’s VisionQuest",
+      "url": "https://postperspective.com/amelia-allwarden-on-her-editing-workflow-for-marvels-visionquest/",
+      "source": "postperspective.com",
+      "published_at": "2026-11-19T19:15:53+00:00",
+      "first_seen": "2026-11-28T07:48:20.302198+00:00",
+      "score": 75,
+      "summary": "Editor Amelia Allwarden discusses her workflow for Marvel’s VisionQuest, highlighting the benefits of editing on-site at Pinewood Studios during production to maintain close collaboration with directors and crew.",
+      "angle": "Highlights the operational advantages of proximity between post-production teams and filming locations in the UK studio ecosystem.",
+      "discovered_via": "Sector RSS"
+    },
+    {
       "id": "4e4f732c204513d0",
       "company": "Petainer",
       "industry": "PET and beverage packaging",
@@ -721,18 +735,18 @@
       "discovered_via": "GDELT"
     },
     {
-      "id": "fd769c0591a534c1",
+      "id": "1e53bf890b176779",
       "company": "Whitespace",
       "industry": "Sovereign and enterprise AI",
-      "title": "2027 Predictions from Nutanix , Boomi , Infoblox , F5 , ManageEngine , Avocado , Workiva , Aveva , Nintex , Rubrik",
-      "url": "https://itwire.com/it-people-news/enterprise-staff/2027-predictions-from-nutanix-boomi-infoblox-f5-manageengine-avocado-workiva-aveva-nintex-rubrik",
-      "source": "itwire.com",
-      "published_at": "2026-11-27T05:30:00+00:00",
-      "first_seen": "2026-11-27T07:48:42.219479+00:00",
+      "title": "Alex Karp on Artistry, Leadership, and Sovereign AI: A Conversation with Citi’s Leon Kalvaria (Transcript) - The Singju Post",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblQ1aEtyaklNWkE3bnpiM1gzSlBxNjg3MmhwYUNJWEJvUmpNVWlOU2JnSnZNNTBubGxSUEkzSHNNTEhTMHV0QTlubTdSUVR0VzUwQm9UR2l1eGtPNTQ0YUtYQkpOSnlDM2d0X2xhS2h4enBEbll5Y1dJeUxOSGpUVFY2WmlzaHJwSHluSndORUZ5SGptS0VSbWE4NXBLZnVueVA1MEduejJpMFMwUHhNNmpWVnlEb1lRQXRNOWFtZmg4QQ?oc=5",
+      "source": "The Singju Post",
+      "published_at": "2026-11-28T03:59:28+00:00",
+      "first_seen": "2026-11-28T07:48:20.302198+00:00",
       "score": 85,
-      "summary": "Industry leaders predict a 2027 shift toward in-house AI inference, rigorous AI economics, and the necessity of sovereign data control and robust agent governance frameworks.",
-      "angle": "Validates the strategic importance of sovereign AI infrastructure, data residency, and enterprise-grade agent control and security.",
-      "discovered_via": "GDELT"
+      "summary": "Palantir CEO Alex Karp discusses the strategic importance of sovereign AI and the necessity for Western nations to maintain technological leadership through secure, proprietary software platforms.",
+      "angle": "Provides high-level strategic insight into the geopolitical drivers and market demand for sovereign AI infrastructure.",
+      "discovered_via": "Google News RSS"
     },
     {
       "id": "1cd256d7f40fad97",
@@ -1021,12 +1035,12 @@
     "companies_with_stories": 2,
     "companies_with_sector_news": 11,
     "sector_topups": 0,
-    "providers_succeeded": 85,
-    "queued_candidates": 127,
-    "llm_requests_attempted": 69,
-    "llm_requests_succeeded": 69,
+    "providers_succeeded": 93,
+    "queued_candidates": 142,
+    "llm_requests_attempted": 62,
+    "llm_requests_succeeded": 60,
     "dropped_no_valid_date": 29,
-    "dropped_thin_page": 29,
+    "dropped_thin_page": 26,
     "dropped_not_about_company": 0,
     "skipped_recently_evaluated": 2,
     "carried_forward": 5
